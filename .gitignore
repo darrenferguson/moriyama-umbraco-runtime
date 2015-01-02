@@ -161,3 +161,6 @@ $RECYCLE.BIN/
 
 media/*
 
+Moriyama.Blog.Umbraco/umbraco/
+Moriyama.Blog.Umbraco/umbraco_client/
+Moriyama.Blog.Umbraco/install/

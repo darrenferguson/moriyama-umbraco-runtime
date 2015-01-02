@@ -36,10 +36,14 @@ namespace Moriyama.Runtime
             
             Logger.Info("Starting with cache " + cache);
 
-            if(string.IsNullOrEmpty(cache) || Convert.ToBoolean(cache) == false)
+            if (string.IsNullOrEmpty(cache) || Convert.ToBoolean(cache) == false)
+            {
                 ContentService = new CacheLessRuntimeContentService(contentPathMapper);
+            }
             else
+            {
                 ContentService = new CachedRuntimeContentService(contentPathMapper);
+            }
         } 
     }
 }

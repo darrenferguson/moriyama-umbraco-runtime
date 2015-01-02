@@ -81,7 +81,7 @@ namespace Moriyama.Runtime.Services
         private void FlushUrls()
         {
             // TODO: Configure flush interval
-            if (_lastUrlFlush >= DateTime.Now.AddSeconds(-30)) return;
+            // if (_lastUrlFlush >= DateTime.Now.AddSeconds(-30)) return;
             lock (_lock)
             {
                 _lastUrlFlush = DateTime.Now;

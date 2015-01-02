@@ -107,6 +107,16 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Moriyama.ProjectSpecific\Moriyama.Blog.Project.csproj">
+      <Project>{5fd56953-5f03-4d2e-866f-53f4659ed6d4}</Project>
+      <Name>Moriyama.Blog.Project</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Moriyama.Runtime\Moriyama.Runtime.csproj">
+      <Project>{6e894ae9-fb78-47c6-b078-8ac34502131e}</Project>
+      <Name>Moriyama.Runtime</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

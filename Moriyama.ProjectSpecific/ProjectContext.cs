@@ -1,7 +1,10 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
+using AutoMapper;
+using Moriyama.Blog.Project.Models;
+using Moriyama.Runtime.Models;
 
-namespace Moriyama.ProjectSpecific
+namespace Moriyama.Blog.Project
 {
     public class ProjectContext
     {
@@ -14,8 +17,11 @@ namespace Moriyama.ProjectSpecific
             get { return _instance ?? (_instance = new ProjectContext()); }
         }
 
-        public void RegisterRoutes(RouteCollection routes)
+
+        public void Init(RouteCollection routes)
         {
+            Mapper.CreateMap<RuntimeContentModel, ContactModel>();
+
             routes.MapRoute(
                 "contact",
                 "Contact/{action}/{id}",
@@ -26,6 +32,19 @@ namespace Moriyama.ProjectSpecific
                     id = UrlParameter.Optional
                 },
                 new[] { "Moriyama.ProjectSpecific.Controllers" });
+
+            routes.MapRoute(
+                "customContent",
+                "Content/{action}/{id}",
+                new
+                {
+                    controller = "Content",
+                    action = "Index",
+                    id = UrlParameter.Optional
+                },
+                new[] { "Moriyama.ProjectSpecific.Controllers" });
         }
+
+        
     }
 }

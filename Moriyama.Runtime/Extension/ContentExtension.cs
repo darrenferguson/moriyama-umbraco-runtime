@@ -9,7 +9,7 @@ namespace Moriyama.Runtime.Extension
     {
         public static string GetValue(this RuntimeContentModel model, string key)
         {
-            if (model == null || !model.Content.ContainsKey(key))
+            if (model == null || model.Content == null || !model.Content.ContainsKey(key))
                 return string.Empty;
 
             return model.Content[key].ToString();

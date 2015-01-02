@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0F30DA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.Runtime.Umbraco", "Moriyama.Runtime.Umbraco\Moriyama.Runtime.Umbraco.csproj", "{914B0A14-DBCE-4E89-9497-88CAEC254AAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.ProjectSpecific", "Moriyama.ProjectSpecific\Moriyama.ProjectSpecific.csproj", "{5FD56953-5F03-4D2E-866F-53F4659ED6D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.Blog.Project", "Moriyama.ProjectSpecific\Moriyama.Blog.Project.csproj", "{5FD56953-5F03-4D2E-866F-53F4659ED6D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.Runtime", "Moriyama.Runtime\Moriyama.Runtime.csproj", "{6E894AE9-FB78-47C6-B078-8AC34502131E}"
 EndProject

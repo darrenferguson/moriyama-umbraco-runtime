@@ -94,6 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application\ContentPathMapper.cs" />
+    <Compile Include="Application\CustomOutputCacheAttribute.cs" />
     <Compile Include="Controllers\RuntimeController.cs" />
     <Compile Include="Extension\ContentExtension.cs" />
     <Compile Include="Interfaces\IContentService.cs" />

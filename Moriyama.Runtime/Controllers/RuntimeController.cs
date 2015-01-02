@@ -1,18 +1,16 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace Moriyama.Runtime.Controllers
 {
     public class RuntimeController : Controller
     {
-        //[OutputCache(CacheProfile = "Standard", Location = OutputCacheLocation.Server)]
-        [OutputCache(Duration = 3600, VaryByParam = "none")]
-        public ActionResult Index(HttpRequestBase request)
+        public ActionResult Index()
         {
-            var model = RuntimeContext.Instance.ContentService.GetContent(request.Url.ToString());
+            var ctx = System.Web.HttpContext.Current;
+            var model = RuntimeContext.Instance.ContentService.GetContent(ctx.Request.Url.ToString());
 
-            return model != null 
-                ? View("~/Views/"+ model.Template + ".cshtml", model) 
+            return model != null
+                ? View("~/Views/" + model.Template + ".cshtml", model)
                 : View("~/Views/404.cshtml");
         }
     }
