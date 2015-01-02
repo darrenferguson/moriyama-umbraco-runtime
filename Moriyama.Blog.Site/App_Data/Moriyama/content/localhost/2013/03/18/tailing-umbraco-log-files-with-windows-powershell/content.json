@@ -1,0 +1,28 @@
+{
+  "Name": "Tailing Umbraco log files with Windows PowerShell",
+  "Type": "BlogPost",
+  "CreateDate": "2013-03-17T10:45:02",
+  "UpdateDate": "2015-01-02T16:11:25",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2013/03/18/tailing-umbraco-log-files-with-windows-powershell/",
+  "RelativeUrl": "/2013/03/18/tailing-umbraco-log-files-with-windows-powershell/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2013-03-18T08:22:00",
+    "title": "Tailing Umbraco log files with Windows PowerShell",
+    "shortUrl": "",
+    "summary": "'Tailing Umbraco log files with Windows PowerShell' - a blog post by Darren Ferguson about Log4net, Umbraco written on 18th March 2013",
+    "tags": "Logging, Umbraco, Powershell",
+    "bodyText": "<p>I've read a few people looking for an alernative to the Umbraco trace to help them to debug when using the new Umbraco MVC rendering engine.</p>\n<p>The wonderfully named <em><a href=\"http://our.umbraco.org/wiki/how-tos\">umbDebugShowTrace</a></em> query string has no effect when using the MVC rendering engine - because the information that it provided isn't available. As discussed in my <a href=\"/2013/02/22/log4net-logging-from-your-custom-code-in-umbraco/\" title=\"Log4net logging from your custom code in Umbraco\">previous blog post</a> we now have log4net available in Umbraco.</p>\n<p>In the previous post I shared tips on how to place your own debug messages in their own log4net file - but for the predominantly lazy (I include myself in this group) there is a simple <a href=\"http://technet.microsoft.com/en-gb/library/bb978526.aspx\">Powershell</a> command to help out:</p>\n<pre>cat UmbracoTraceLog.txt -wait | select-string \"string to find\"\n</pre>\n<p>To break this down <em>cat UmbracoTraceLog.txt</em> just dumps the contents of the Umbraco log file to the console (cat is an alias of the <a href=\"http://technet.microsoft.com/en-gb/library/hh849787.aspx\">Get-Content Cmdlet</a>). The <em>-wait</em> flag keeps the command running appending new output to the console as it is added to the file.</p>\n<p>Lastly we can pipe the output of the command to it is filtered only to lines that contain specific text <em>| select-string \"string to find\" -</em> this could be the name of a particular class or namespace that you wanted to watch.</p>\n<p>Note: \"string to find\" can be a regular expression if you want to do complicated inclusion or exclusion of log messages.</p>\n<p>The output you get looks something like this:</p>\n<p><img style=\"max-width: 100% !important; height: auto;\" src=\"/media/133053/17-03-2013_10-56-10.jpg\" alt=\"Tailing Umbraco log files with Windows PowerShell\" /></p>\n<p style=\"clear: both;\">If you have a dual screen setup it works nicely to have your browser on one screen and this one the other.</p>",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "BuildTime": "2015-01-02T16:11:25.5817886+00:00",
+  "FromCache": false,
+  "SortOrder": 1,
+  "Level": 5
+}

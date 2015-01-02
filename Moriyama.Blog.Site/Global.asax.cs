@@ -13,6 +13,8 @@ namespace Moriyama.Blog.Site
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             
             RuntimeContext.Instance.Initialise(HttpContext.Current);
+            
+
         }
     }
 }

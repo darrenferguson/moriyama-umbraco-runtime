@@ -164,3 +164,7 @@ media/*
 Moriyama.Blog.Umbraco/umbraco/
 Moriyama.Blog.Umbraco/umbraco_client/
 Moriyama.Blog.Umbraco/install/
+Moriyama.Blog.Umbraco/App_Data/NuGetBackup/
+Moriyama.Blog.Umbraco/App_Data/TEMP/
+Moriyama.Blog.Umbraco/App_Data/Logs/
+Moriyama.Blog.Umbraco/App_Data/umbraco.config

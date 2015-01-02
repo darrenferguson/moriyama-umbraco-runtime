@@ -1,0 +1,102 @@
+﻿@using ClientDependency.Core.Mvc
+@model Moriyama.Runtime.Models.RuntimeContentModel
+@{
+    Html.RequiresCss("~/css/style.css");
+    Html.RequiresCss("~/css/shCore.css");
+    Html.RequiresCss("~/css/shThemeEclipse.css");
+
+    Html.RequiresJs("~/scripts/vendor/modernizr-2.6.2.min.js");
+
+
+    Html.RequiresJs("~/scripts/shCore.js");
+    Html.RequiresJs("~/scripts/shBrushJScript.js");
+    Html.RequiresJs("~/scripts/shBrushCSharp.js");
+    Html.RequiresJs("~/scripts/shBrushXml.js");
+    Html.RequiresJs("~/scripts/script.js");
+    Html.RequiresJs("~/scripts/shBrushPerl.js");
+
+    Html.RequiresJs("~/scripts/script.js");
+}
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            
+        </title>
+
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="author" content="Darren Ferguson" />
+        
+        @Html.Raw(@Html.RenderCssHere())
+
+    </head>
+        <body>
+            <header role="banner">
+                <a class="darren-ferguson-logo" href="/">Darren Ferguson</a>
+            </header>
+            <nav role="navigation" id="menu">
+                <h3 class="menu-header">Navigation</h3>
+                <ul class="menu-list">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="http://www.moriyama.co.uk/">Moriyama (my company)</a>
+                    </li>
+                    <li>
+                        <a href="/archive">Archive</a>
+                    </li>
+
+                    @*@foreach (var page in Model.UmbracoContent.AncestorOrSelf(1).Descendants("BlogTextPage").Where("Visible"))
+                    {
+                        <li>
+                            <a href="@page.Url">@page.Name</a>
+                        </li>
+                    }*@
+                </ul>
+                <h3 class="menu-header">Social</h3>
+                <ul class="menu-list">
+                    <li>
+                        <i class="icon-twitter"></i>
+                        <a href="http://twitter.com/darrenferguson">Twitter</a>
+                    </li>
+                    <li>
+                        <i class="icon-linkedin-sign"></i>
+                        <a href="http://www.linkedin.com/in/darrenferguson">LinkedIn</a>
+                    </li>
+                    <li>
+                        <i class="icon-rss"></i>
+                        <a href="/rss">RSS Feed</a>
+                    </li>
+                </ul>
+                <form role="search" class="nav-search" action="/search" method="POST">
+                    <label for="query">Search</label>
+                    <input type="text" name="query" id="query" placeholder="Search" data-provide="typeahead" value="" />
+                    <button type="submit"><i class="icon-search"></i></button>
+                </form>
+            </nav>
+
+            <section role="main">
+                @RenderBody()
+            </section>
+
+            <footer role="contentinfo">
+                <small>Published with <a href="http://www.umbraco.com/">Moriyama Umbraco runtime</a>. @DateTime.Now</small>
+            </footer>
+            
+            @Html.Raw(@Html.RenderJsHere())
+
+            <script>
+                window._gaq = [['_setAccount', 'UA-26468870-1'], ['_trackPageview'], ['_trackPageLoadTime']];
+                Modernizr.load({
+                    load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+                });
+            </script>
+
+        </body>
+</html>

@@ -46,6 +46,10 @@ namespace Moriyama.Runtime.Umbraco.Controllers
 
         private void Copy(string from, string to)
         {
+
+            if (!Directory.Exists(from))
+                return;
+
             if (!Directory.Exists(to))
                 Directory.CreateDirectory(to);
 

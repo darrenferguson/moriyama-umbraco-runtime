@@ -1,0 +1,26 @@
+﻿@using Moriyama.Runtime.Extension
+@model Moriyama.Runtime.Models.RuntimeContentModel
+@{
+    Layout = "Layout.cshtml";
+}
+<h1 class="page-title">Blog</h1>
+
+@foreach (var post in Model.Descendants().Where(post => post.Type == "BlogPost"))
+{
+    <article>
+        <h2>
+            <a href="@post.RelativeUrl">
+                @post.Name
+            </a>
+        </h2>
+        
+        @Html.Partial("~/Views/Partials/PostMetaData.cshtml", post)
+
+        @Html.Raw(@post.GetValue<string>("bodyText"))
+
+        <footer>
+            <a class="alignright" href="@post.Url#comments">Comments (@post.Children().Count()) »</a>
+        </footer>
+
+    </article>
+}

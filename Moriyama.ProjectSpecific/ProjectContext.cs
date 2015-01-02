@@ -22,16 +22,16 @@ namespace Moriyama.Blog.Project
         {
             Mapper.CreateMap<RuntimeContentModel, ContactModel>();
 
-            routes.MapRoute(
-                "contact",
-                "Contact/{action}/{id}",
-                new
-                {
-                    controller = "Contact",
-                    action = "Index",
-                    id = UrlParameter.Optional
-                },
-                new[] { "Moriyama.ProjectSpecific.Controllers" });
+            //routes.MapRoute(
+            //    "contact",
+            //    "Contact/{action}/{id}",
+            //    new
+            //    {
+            //        controller = "Contact",
+            //        action = "Index",
+            //        id = UrlParameter.Optional
+            //    },
+            //    new[] { "Moriyama.ProjectSpecific.Controllers" });
 
             routes.MapRoute(
                 "customContent",

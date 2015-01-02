@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
+using Moriyama.Blog.Project;
 
 namespace Moriyama.Blog.Site
 {
@@ -13,10 +10,13 @@ namespace Moriyama.Blog.Site
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            ProjectContext.Instance.Init(routes);
+
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                "NotFound",
+                "{*url}",
+                new { controller = "Home", action = "Index" },
+                new[] { "Moriyama.Blog.Site.Controllers" }
             );
         }
     }

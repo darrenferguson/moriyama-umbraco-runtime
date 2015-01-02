@@ -1,0 +1,27 @@
+{
+  "Name": "404 Not Found",
+  "Type": "BlogTextPage",
+  "CreateDate": "2013-07-31T11:33:10",
+  "UpdateDate": "2015-01-02T15:25:31",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/404-not-found/",
+  "RelativeUrl": "/404-not-found/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "shortUrl": "",
+    "summary": "",
+    "tags": "",
+    "bodyText": "<p>The Page you are looking for wasn't found.</p>"
+  },
+  "Template": "BlogTextPage",
+  "BuildTime": "2015-01-02T15:27:26.5620421+00:00",
+  "FromCache": false,
+  "SortOrder": 10,
+  "Level": 2
+}
