@@ -2,7 +2,7 @@
   "Name": "2013",
   "Type": "BlogFolder",
   "CreateDate": "2013-02-22T09:26:04",
-  "UpdateDate": "2015-01-02T15:25:25",
+  "UpdateDate": "2015-01-02T15:27:34",
   "CreatorName": "Darren Ferguson",
   "WriterName": "Darren Ferguson",
   "Url": "http://localhost/2013/",
@@ -15,8 +15,8 @@
     "displayDate": "",
     "title": ""
   },
-  "Template": "BlogHomePage",
-  "BuildTime": "2015-01-02T15:27:34.8057153+00:00",
+  "Template": "HomePage",
+  "BuildTime": "2015-01-02T16:36:47.5783747+00:00",
   "FromCache": false,
   "SortOrder": 0,
   "Level": 2

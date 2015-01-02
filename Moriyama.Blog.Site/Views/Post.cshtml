@@ -3,3 +3,38 @@
 @{
     Layout = "Layout.cshtml";
 }
+
+<article>
+    <h1 class="page-title">@Model.Name</h1>
+
+    @Html.Partial("~/Views/Partials/PostMetaData.cshtml", Model)
+    @Html.Raw(Model.GetValue<string>("bodyText"))
+
+</article>
+
+@if (Model.Children().Any())
+{
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+
+        <ul class="comments-list">
+            @foreach (var comment in Model.Children())
+            {
+                <li class="comment">
+                    
+                    <img class="framed comment-avatar" src="http://www.gravatar.com/avatar/" alt="@(comment.GetValue<string>("name"))">
+
+                    <div class="comment-meta">
+                        <h4>@(comment.GetValue<string>("name"))</h4>
+                        <time class="comment-pubdate">@String.Format("{0:MMMM d, yyyy}", comment.UpdateDate)</time>
+                    </div>
+
+                    <div class="comment-body">
+                        <p>@Html.Raw(comment.GetValue<string>("bodyText"))</p>
+                    </div>
+                </li>
+            }
+        </ul>
+
+    </section>
+}

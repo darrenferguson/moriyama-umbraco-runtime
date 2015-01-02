@@ -1,0 +1,23 @@
+{
+  "Name": "18",
+  "Type": "BlogFolder",
+  "CreateDate": "2013-11-18T17:50:23",
+  "UpdateDate": "2013-11-18T17:50:27",
+  "CreatorName": "darrenf",
+  "WriterName": "darrenf",
+  "Url": "http://localhost/2013/11/18/",
+  "RelativeUrl": "/2013/11/18/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": ""
+  },
+  "Template": "HomePage",
+  "BuildTime": "2015-01-02T16:36:47.6453919+00:00",
+  "FromCache": false,
+  "SortOrder": 1,
+  "Level": 4
+}

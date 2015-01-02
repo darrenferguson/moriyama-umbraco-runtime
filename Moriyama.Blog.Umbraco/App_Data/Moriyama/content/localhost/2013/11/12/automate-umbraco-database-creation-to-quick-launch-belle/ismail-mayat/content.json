@@ -1,0 +1,29 @@
+{
+  "Name": "Ismail Mayat",
+  "Type": "BlogComment",
+  "CreateDate": "2013-11-12T12:04:43",
+  "UpdateDate": "2013-11-12T12:04:43",
+  "CreatorName": "darrenf",
+  "WriterName": "darrenf",
+  "Url": "http://localhost/2013/11/12/automate-umbraco-database-creation-to-quick-launch-belle/ismail-mayat/",
+  "RelativeUrl": "/2013/11/12/automate-umbraco-database-creation-to-quick-launch-belle/ismail-mayat/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "name": "Ismail Mayat",
+    "email": "ismail.mayat@steinias.com",
+    "website": "",
+    "bodyText": "Darren,\r\n\r\nAwesome I am going to try this.  Quick question though I guess you have the nant script as part of your build so would it not run each time? Or is it called from a batch file so only ever run once?\r\n\r\nRegards\r\n\r\nIsmail",
+    "ip": "194.168.202.176",
+    "isSpam": ""
+  },
+  "Template": "",
+  "BuildTime": "2015-01-02T16:36:47.6703973+00:00",
+  "FromCache": false,
+  "SortOrder": 0,
+  "Level": 6
+}

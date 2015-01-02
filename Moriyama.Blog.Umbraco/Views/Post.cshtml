@@ -8,9 +8,7 @@
     <h1 class="page-title">@Model.Name</h1>
 
     @Html.Partial("~/Views/Partials/PostMetaData.cshtml", Model)
-
     @Html.Raw(Model.GetValue<string>("bodyText"))
-
 
 </article>
 

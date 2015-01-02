@@ -19,7 +19,7 @@
         @Html.Raw(@post.GetValue<string>("bodyText"))
 
         <footer>
-            <a class="alignright" href="@post.Url#comments">Comments (@post.Children().Count()) »</a>
+            <a class="alignright" href="@post.RelativeUrl#comments">Comments (@post.Children().Count()) »</a>
         </footer>
 
     </article>

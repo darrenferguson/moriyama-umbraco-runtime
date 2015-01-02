@@ -14,39 +14,12 @@
             </a>
         </h2>
         
-        <div class="article-meta">
-            
-            <time class="pubdate" datetime="@String.Format("{0:MM/dd/yyyy}", Model.UpdateDate)">
-                @String.Format("{0:MMMM d, yyyy}", Model.UpdateDate)
-            </time>
-            
-            @{
-                var tags = post.GetValue<string>("tags").Split(',');
-            }
-
-           @if (tags.Any())
-           {
-            <i class="icon-tags"></i>
-
-            <ul class="article-tags">
-                @foreach (var tag in tags)
-                {
-                    <li>
-                        <a href="/search?query=@Server.UrlEncode(tag.Trim())"><em>@tag.Trim()</em></a>
-                    </li>
-                }
-            </ul>
-           }
-
-
-        </div>
-
-       
+        @Html.Partial("~/Views/Partials/PostMetaData.cshtml", post)
 
         @Html.Raw(@post.GetValue<string>("bodyText"))
 
         <footer>
-            <a class="alignright" href="@post.Url#comments">Comments (@post.Children().Count()) »</a>
+            <a class="alignright" href="@post.RelativeUrl#comments">Comments (@post.Children().Count()) »</a>
         </footer>
 
     </article>

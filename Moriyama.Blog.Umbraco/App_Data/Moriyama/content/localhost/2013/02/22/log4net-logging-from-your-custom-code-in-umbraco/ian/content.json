@@ -2,9 +2,9 @@
   "Name": "Ian",
   "Type": "BlogComment",
   "CreateDate": "2013-12-03T11:26:29",
-  "UpdateDate": "2013-12-03T11:26:29",
-  "CreatorName": "darrenf",
-  "WriterName": "darrenf",
+  "UpdateDate": "2015-01-02T15:27:48",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
   "Url": "http://localhost/2013/02/22/log4net-logging-from-your-custom-code-in-umbraco/ian/",
   "RelativeUrl": "/2013/02/22/log4net-logging-from-your-custom-code-in-umbraco/ian/",
   "Content": {
@@ -22,7 +22,7 @@
     "isSpam": ""
   },
   "Template": "",
-  "BuildTime": "2015-01-02T15:27:48.7218116+00:00",
+  "BuildTime": "2015-01-02T16:36:47.59838+00:00",
   "FromCache": false,
   "SortOrder": 1,
   "Level": 6

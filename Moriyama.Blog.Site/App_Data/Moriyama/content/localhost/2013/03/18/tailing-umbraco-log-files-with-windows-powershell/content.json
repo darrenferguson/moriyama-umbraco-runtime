@@ -12,7 +12,7 @@
     "HideInNavigation": false,
     "umbracoInternalRedirectId": "",
     "redirect": "",
-    "displayDate": "2013-03-18T08:22:00",
+    "displayDate": "2013-03-18T08:22:00Z",
     "title": "Tailing Umbraco log files with Windows PowerShell",
     "shortUrl": "",
     "summary": "'Tailing Umbraco log files with Windows PowerShell' - a blog post by Darren Ferguson about Log4net, Umbraco written on 18th March 2013",
@@ -21,7 +21,7 @@
     "commentsDisabled": 0
   },
   "Template": "Post",
-  "BuildTime": "2015-01-02T16:11:25.5817886+00:00",
+  "BuildTime": "2015-01-02T16:36:47.5843756+00:00",
   "FromCache": false,
   "SortOrder": 1,
   "Level": 5

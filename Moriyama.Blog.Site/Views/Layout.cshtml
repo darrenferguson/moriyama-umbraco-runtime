@@ -1,4 +1,5 @@
 ﻿@using ClientDependency.Core.Mvc
+@using Moriyama.Runtime.Extension
 @model Moriyama.Runtime.Models.RuntimeContentModel
 @{
     Html.RequiresCss("~/css/style.css");
@@ -48,16 +49,16 @@
                     <li>
                         <a href="http://www.moriyama.co.uk/">Moriyama (my company)</a>
                     </li>
-                    <li>
+                    @*<li>
                         <a href="/archive">Archive</a>
-                    </li>
+                    </li>*@
 
-                    @*@foreach (var page in Model.UmbracoContent.AncestorOrSelf(1).Descendants("BlogTextPage").Where("Visible"))
+                    @foreach (var page in Model.Home().Children().Where(page => page.Type == "BlogTextPage" && !page.HideInNavigation()))
                     {
                         <li>
-                            <a href="@page.Url">@page.Name</a>
+                            <a href="@page.RelativeUrl">@page.Name</a>
                         </li>
-                    }*@
+                    }
                 </ul>
                 <h3 class="menu-header">Social</h3>
                 <ul class="menu-list">

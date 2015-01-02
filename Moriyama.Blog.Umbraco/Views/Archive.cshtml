@@ -1,1 +1,17 @@
-﻿<p>Archive</p>
+﻿@using Moriyama.Blog.Project.Extension
+@using Moriyama.Runtime.Extension
+@model Moriyama.Runtime.Models.RuntimeContentModel
+@{
+    Layout = "Layout.cshtml";
+}
+<h1 class="page-title">Blog Archive</h1>
+<ul class="article-list">
+    @foreach (var post in Model.Home().Descendants().Where(x => x.Type == "BlogPost"))
+    {
+        @*<h2>@year.Key</h2>*@
+        <li>
+            <h3><a href="@post.RelativeUrl">@post.Name</a></h3>
+            <time class="pubdate" datetime="2012-12-01">@string.Format(post.CreateDate.ToString("dddd, {0} MMMM yyyy"), post.CreateDate.Month.ToOrdinal())</time>
+        </li>
+    }
+</ul>

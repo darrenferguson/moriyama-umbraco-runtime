@@ -1,1 +1,8 @@
-﻿<p>Page</p>
+﻿@using Moriyama.Runtime.Extension
+@model Moriyama.Runtime.Models.RuntimeContentModel
+@{
+    Layout = "Layout.cshtml";
+}
+<h1 class="page-title">@Model.Name</h1>
+
+@Html.Raw(Model.GetValue<string>("bodyText"))
