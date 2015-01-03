@@ -68,12 +68,16 @@ namespace Moriyama.Runtime
             }
 
             SearchService = Services.Search.SearchService.Instance;
+            var search = ConfigurationManager.AppSettings["Moriyama.Runtime.Search"];
 
-            foreach (var url in ContentService.GetUrlList())
+            if (!string.IsNullOrEmpty(cache) && Convert.ToBoolean(cache))
             {
-                var content = ContentService.GetContent(url);
-                if (content != null)
-                    SearchService.Index(content);
+                foreach (var url in ContentService.GetUrlList())
+                {
+                    var content = ContentService.GetContent(url);
+                    if (content != null)
+                        SearchService.Index(content);
+                }
             }
         } 
     }
