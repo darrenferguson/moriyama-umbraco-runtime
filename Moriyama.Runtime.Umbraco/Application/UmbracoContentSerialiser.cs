@@ -49,9 +49,8 @@ namespace Moriyama.Runtime.Umbraco.Application
 
             runtimeContent.Url = RemovePortFromUrl(publishedContent.UrlWithDomain());
             runtimeContent.RelativeUrl = publishedContent.Url;
+            runtimeContent.CacheTime = null;
 
-            runtimeContent.BuildTime = DateTime.Now;
-            runtimeContent.FromCache = false;
             runtimeContent.Type = publishedContent.DocumentTypeAlias;
 
             runtimeContent.Template = publishedContent.GetTemplateAlias();

@@ -12,7 +12,7 @@ namespace Moriyama.Blog.Site.Controllers
             _controller = new RuntimeController();
         }
 
-        [OutputCache(CacheProfile = "Standard")]
+        //[OutputCache(CacheProfile = "Standard")]
         public ActionResult Index()
         {
             return _controller.Index();

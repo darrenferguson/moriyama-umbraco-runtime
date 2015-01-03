@@ -7,6 +7,9 @@ using log4net;
 using Moriyama.Runtime.Application;
 using Moriyama.Runtime.Interfaces;
 using Moriyama.Runtime.Services;
+using Moriyama.Runtime.Services.Schedule;
+using Quartz;
+using Quartz.Impl;
 
 namespace Moriyama.Runtime
 {
@@ -36,6 +39,9 @@ namespace Moriyama.Runtime
             
             Logger.Info("Starting with cache " + cache);
 
+            var scheduler = StdSchedulerFactory.GetDefaultScheduler();
+            scheduler.Start();
+
             if (string.IsNullOrEmpty(cache) || Convert.ToBoolean(cache) == false)
             {
                 ContentService = new CacheLessRuntimeContentService(contentPathMapper);
@@ -43,6 +49,21 @@ namespace Moriyama.Runtime
             else
             {
                 ContentService = new CachedRuntimeContentService(contentPathMapper);
+
+                var job = JobBuilder.Create<CacheRefresherJob>()
+                    .WithIdentity("moriyamaCacheRefresherJob", "cacheRefresherJob")
+                    .Build();
+
+                var trigger = TriggerBuilder.Create()
+                    .WithIdentity("cacheRefresherJobTrigger", "cacheRefresherJobGroup")
+                    .StartNow()
+                    .WithSimpleSchedule(x => x
+                    .WithIntervalInSeconds(5)
+                    .RepeatForever())
+                    .Build();
+
+                scheduler.ScheduleJob(job, trigger);
+
             }
         } 
     }

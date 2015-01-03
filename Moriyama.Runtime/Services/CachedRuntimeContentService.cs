@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Runtime.Caching;
 using log4net;
@@ -18,7 +20,62 @@ namespace Moriyama.Runtime.Services
         public CachedRuntimeContentService(IContentPathMapper pathMapper) : base(pathMapper)
         {
             _customCache = MemoryCache.Default;
-            _policy = new CacheItemPolicy {AbsoluteExpiration = DateTimeOffset.Now.AddSeconds(60.0)};
+            _policy = new CacheItemPolicy {SlidingExpiration = TimeSpan.FromHours(1)};
+        }
+
+        public void SanitiseCache()
+        {
+            var stale = new List<string>();
+            var hasStale = false;
+
+            foreach (var url in Urls)
+            {
+                 var file = PathMapper.PathForUrl(url, false);
+
+                 if (!File.Exists(file))
+                     stale.Add(url);
+            }
+
+            foreach (var url in stale)
+            {
+                Urls.Remove(url);
+                hasStale = true;
+            }
+
+            if (hasStale)
+                FlushUrls();
+
+            foreach (var url in Urls)
+            {
+                var file = PathMapper.PathForUrl(url, false);
+                
+                if (!File.Exists(file))
+                    continue;
+
+                var lastModified = File.GetLastWriteTime(file);
+                var inCache = _customCache.Contains(url);
+
+                if (inCache)
+                {
+                    var content = GetCachedContent(url);
+                    if (content.CacheTime != null && DateTime.Compare(content.CacheTime.Value, lastModified) < 0)
+                    {
+                        content = base.GetContent(url);
+                        PlaceInCache(url, content);
+                    }
+                }
+            }
+        }
+
+        void PlaceInCache(string url, RuntimeContentModel content)
+        {
+            if (content == null)
+                return;
+
+            Logger.Info("Caching: " + url);
+
+            content.CacheTime = DateTime.Now;
+            _customCache.Set(url, content, _policy);
         }
 
         public override RuntimeContentModel GetContent(string url)
@@ -36,21 +93,19 @@ namespace Moriyama.Runtime.Services
             RuntimeContentModel content = null;
 
             if (_customCache.Contains(url))
+            {
+                Logger.Info("Attempt " + url + " from cache");  
                 content = _customCache.Get(url) as RuntimeContentModel;
+            }
 
             if (content != null)
             {
-                if(Logger.IsDebugEnabled)
-                    Logger.Debug("Got " + content.Name + " from cache " + content.Url);
-
+                Logger.Info("Got " + content.Name + " from cache " + content.Url);  
                 return content;
             }
 
             content = base.GetContent(url);
-            _customCache.Set(url, content, _policy);
-
-            if (Logger.IsDebugEnabled)
-                Logger.Debug("Cached " + content.Name + " to cache " + content.Url);
+            PlaceInCache(url, content);
 
             return content;
         }
@@ -69,17 +124,17 @@ namespace Moriyama.Runtime.Services
 
         public override IEnumerable<RuntimeContentModel> TopNavigation(RuntimeContentModel model)
         {
-            return FromUrls(TopNavigationUrls(model));
+            return FromUrls(TopNavigationUrls(model)).Where(x => x!= null);
         }
 
         public override IEnumerable<RuntimeContentModel> Children(RuntimeContentModel model)
         {
-            return FromUrls(ChildrenUrls(model));
+            return FromUrls(ChildrenUrls(model)).Where(x => x != null); 
         }
 
         public override IEnumerable<RuntimeContentModel> Descendants(RuntimeContentModel model)
         {
-            return FromUrls(DescendantsUrls(model));
+            return FromUrls(DescendantsUrls(model)).Where(x => x != null); 
         }
     }
 }

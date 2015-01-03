@@ -20,10 +20,9 @@ namespace Moriyama.Runtime.Models
         public IDictionary<string, object> Content { get; set; }
 
         public string Template { get; set; }
+        
+        public DateTime? CacheTime { get; set; }
 
-        public DateTime BuildTime { get; set; }
-
-        public bool FromCache { get; set; }
 
         public int SortOrder { get; set; }
         public int Level { get; set; }

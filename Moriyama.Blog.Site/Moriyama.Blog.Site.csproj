@@ -48,6 +48,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\ClientDependency-Mvc.1.8.0.0\lib\net45\ClientDependency.Core.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\log4net-mediumtrust.2.0.0\lib\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Web.Helpers">
       <HintPath>..\packages\Microsoft.AspNet.WebHelpers.3.2.2\lib\net45\Microsoft.Web.Helpers.dll</HintPath>
@@ -115,6 +119,11 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="config\log4net.config" />
+    <Content Include="Views\HomePage.cshtml">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Views\Layout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

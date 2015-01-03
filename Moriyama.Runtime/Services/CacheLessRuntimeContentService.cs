@@ -2,50 +2,54 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using Moriyama.Runtime.Extension;
 using Moriyama.Runtime.Interfaces;
 using Moriyama.Runtime.Models;
 using Newtonsoft.Json;
+using log4net;
 
 namespace Moriyama.Runtime.Services
 {
     public class CacheLessRuntimeContentService : IContentService
     {
-        private readonly IContentPathMapper _pathMapper;
+        private static readonly ILog Logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
+        protected readonly IContentPathMapper PathMapper;
         private readonly object _lock;
 
-        private readonly List<string> _urls;
+        protected readonly List<string> Urls;
 
         private DateTime _lastUrlFlush;
         private readonly string _urlPath;
 
         public CacheLessRuntimeContentService(IContentPathMapper pathMapper)
         {
-            _pathMapper = pathMapper;
-            _urls = new List<string>();
+            PathMapper = pathMapper;
+            Urls = new List<string>();
             _lock = new object();
 
             _lastUrlFlush = DateTime.Now;
 
-            _urlPath = Path.Combine(_pathMapper.ContentRootFolder("/"), "sitemap-urls.json");
+            _urlPath = Path.Combine(PathMapper.ContentRootFolder("/"), "sitemap-urls.json");
 
             if (!File.Exists(_urlPath)) return;
 
             var urls = File.ReadAllText(_urlPath);
-            _urls = JsonConvert.DeserializeObject<List<string>>(urls);
+            Urls = JsonConvert.DeserializeObject<List<string>>(urls);
         }
 
         public void AddContent(RuntimeContentModel model)
         {
-            var targetPath = _pathMapper.PathForUrl(model.Url, true);
+            var targetPath = PathMapper.PathForUrl(model.Url, true);
             var serialisedContent = JsonConvert.SerializeObject(model, Formatting.Indented);
 
             lock (_lock)
             {
                 File.WriteAllText(targetPath, serialisedContent);
 
-                if (!_urls.Contains(model.Url))
-                    _urls.Add(model.Url);
+                if (!Urls.Contains(model.Url))
+                    Urls.Add(model.Url);
 
             }
             FlushUrls();
@@ -53,7 +57,7 @@ namespace Moriyama.Runtime.Services
 
         public void RemoveContent(string url)
         {
-            var targetPath = _pathMapper.PathForUrl(url, true);
+            var targetPath = PathMapper.PathForUrl(url, true);
 
             if (!File.Exists(targetPath))
                 return;
@@ -65,8 +69,8 @@ namespace Moriyama.Runtime.Services
             {
                 File.Delete(targetPath);
                 
-                if (_urls.Contains(url))
-                    _urls.Remove(url);
+                if (Urls.Contains(url))
+                    Urls.Remove(url);
 
                 // CleanEmptyDirectory(directoryInfo.FullName);
             }
@@ -75,24 +79,26 @@ namespace Moriyama.Runtime.Services
 
         public IEnumerable<string> GetUrlList()
         {
-            return _urls;
+            return Urls;
         }
 
-        private void FlushUrls()
+        protected void FlushUrls()
         {
             // TODO: Configure flush interval
             // if (_lastUrlFlush >= DateTime.Now.AddSeconds(-30)) return;
             lock (_lock)
             {
                 _lastUrlFlush = DateTime.Now;
-                var urls = JsonConvert.SerializeObject(_urls);
+                var urls = JsonConvert.SerializeObject(Urls);
                 File.WriteAllText(_urlPath, urls);
             }
         }
 
         public virtual RuntimeContentModel GetContent(string url)
         {
-            var contentFile = _pathMapper.PathForUrl(url, false);
+            Logger.Info("Got from disk " + url);
+            var contentFile = PathMapper.PathForUrl(url, false);
+        
             return !File.Exists(contentFile) ? null : FromFile(contentFile);
         }
 
@@ -107,7 +113,7 @@ namespace Moriyama.Runtime.Services
 
         protected string HomeUrl(RuntimeContentModel model)
         {
-            var a = _urls.Where(x => model.Url.StartsWith(x)).OrderBy(x => x.Length);
+            var a = Urls.Where(x => model.Url.StartsWith(x)).OrderBy(x => x.Length);
             return a.First();
         }
 
@@ -118,32 +124,32 @@ namespace Moriyama.Runtime.Services
 
         protected IEnumerable<string> TopNavigationUrls(RuntimeContentModel model)
         {
-            return _urls.Where(x => x.Split('/').Length == 5 && x.StartsWith(model.Home().Url));
+            return Urls.Where(x => x.Split('/').Length == 5 && x.StartsWith(model.Home().Url));
         }
 
         public virtual IEnumerable<RuntimeContentModel> TopNavigation(RuntimeContentModel model)
         {
-            return FromUrls(TopNavigationUrls(model));   
+            return FromUrls(TopNavigationUrls(model)).Where(x => x != null);   
         }
 
         protected IEnumerable<string> ChildrenUrls(RuntimeContentModel model)
         {
-            return _urls.Where(x => x.StartsWith(model.Url) && x != model.Url && x.Split('/').Length == model.Url.Split('/').Length + 1);
+            return Urls.Where(x => x.StartsWith(model.Url) && x != model.Url && x.Split('/').Length == model.Url.Split('/').Length + 1);
         }
 
         public virtual IEnumerable<RuntimeContentModel> Children(RuntimeContentModel model)
         {
-            return FromUrls(ChildrenUrls(model));
+            return FromUrls(ChildrenUrls(model)).Where(x => x != null);
         }
 
         protected IEnumerable<string> DescendantsUrls(RuntimeContentModel model)
         {
-            return _urls.Where(x => x.StartsWith(model.Url) && x != model.Url);
+            return Urls.Where(x => x.StartsWith(model.Url) && x != model.Url);
         }
 
         public virtual IEnumerable<RuntimeContentModel> Descendants(RuntimeContentModel model)
         {
-            return FromUrls(DescendantsUrls(model));
+            return FromUrls(DescendantsUrls(model)).Where(x => x != null);
         }
 
         private IEnumerable<RuntimeContentModel> FromUrls(IEnumerable<string> urls)
