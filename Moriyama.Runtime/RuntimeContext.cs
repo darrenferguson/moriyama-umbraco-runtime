@@ -58,7 +58,7 @@ namespace Moriyama.Runtime
                     .WithIdentity("cacheRefresherJobTrigger", "cacheRefresherJobGroup")
                     .StartNow()
                     .WithSimpleSchedule(x => x
-                    .WithIntervalInSeconds(5)
+                    .WithIntervalInSeconds(60)
                     .RepeatForever())
                     .Build();
 

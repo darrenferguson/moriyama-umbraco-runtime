@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.Caching;
+using System.Text.RegularExpressions;
 using log4net;
 using Moriyama.Runtime.Interfaces;
 using Moriyama.Runtime.Models;
@@ -47,21 +48,22 @@ namespace Moriyama.Runtime.Services
 
             foreach (var url in Urls)
             {
-                var file = PathMapper.PathForUrl(url, false);
+                var localUrl = RemovePortFromUrl(url);
+                var file = PathMapper.PathForUrl(localUrl, false);
                 
                 if (!File.Exists(file))
                     continue;
 
                 var lastModified = File.GetLastWriteTime(file);
-                var inCache = _customCache.Contains(url);
+                var inCache = _customCache.Contains(localUrl);
 
                 if (inCache)
                 {
-                    var content = GetCachedContent(url);
+                    var content = GetCachedContent(localUrl);
                     if (content.CacheTime != null && DateTime.Compare(content.CacheTime.Value, lastModified) < 0)
                     {
-                        content = base.GetContent(url);
-                        PlaceInCache(url, content);
+                        content = base.GetContent(localUrl);
+                        PlaceInCache(localUrl, content);
                     }
                 }
             }
@@ -88,8 +90,18 @@ namespace Moriyama.Runtime.Services
             return (GetCachedContent(HomeUrl(model)));
         }
 
+        private string RemovePortFromUrl(string url)
+        {
+            var rgx = new Regex(@"\:\d+"); // get rid of any port from the URL
+
+            url = rgx.Replace(url, "");
+            return url;
+        }
+
         private RuntimeContentModel GetCachedContent(string url)
         {
+            url = RemovePortFromUrl(url);
+
             RuntimeContentModel content = null;
 
             if (_customCache.Contains(url))
