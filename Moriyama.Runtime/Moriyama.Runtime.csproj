@@ -43,8 +43,14 @@
     <Reference Include="Common.Logging">
       <HintPath>..\packages\Common.Logging.2.3.1\lib\net40\Common.Logging.dll</HintPath>
     </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
     <Reference Include="log4net">
       <HintPath>..\..\unversion\packages\log4net-mediumtrust.2.0.0\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net">
+      <HintPath>..\packages\Lucene.Net.2.9.4.1\lib\net40\Lucene.Net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -105,12 +111,14 @@
     <Compile Include="Extension\ContentExtension.cs" />
     <Compile Include="Interfaces\IContentService.cs" />
     <Compile Include="Interfaces\IPathMapper.cs" />
+    <Compile Include="Interfaces\ISearchService.cs" />
     <Compile Include="Models\RuntimeContentModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RuntimeContext.cs" />
     <Compile Include="Services\CachedRuntimeContentService.cs" />
     <Compile Include="Services\CacheLessRuntimeContentService.cs" />
     <Compile Include="Services\Schedule\CacheRefresherJob.cs" />
+    <Compile Include="Services\Search\SearchService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="job_scheduling_data_2_0.xsd">

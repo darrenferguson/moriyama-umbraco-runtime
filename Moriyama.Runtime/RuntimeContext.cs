@@ -8,6 +8,7 @@ using Moriyama.Runtime.Application;
 using Moriyama.Runtime.Interfaces;
 using Moriyama.Runtime.Services;
 using Moriyama.Runtime.Services.Schedule;
+using Moriyama.Runtime.Services.Search;
 using Quartz;
 using Quartz.Impl;
 
@@ -18,6 +19,7 @@ namespace Moriyama.Runtime
         private static readonly ILog Logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
         public IContentService ContentService { get; set; }
+        public ISearchService SearchService { get; set; }
 
         private static RuntimeContext _instance;
 
@@ -63,7 +65,15 @@ namespace Moriyama.Runtime
                     .Build();
 
                 scheduler.ScheduleJob(job, trigger);
+            }
 
+            SearchService = Services.Search.SearchService.Instance;
+
+            foreach (var url in ContentService.GetUrlList())
+            {
+                var content = ContentService.GetContent(url);
+                if (content != null)
+                    SearchService.Index(content);
             }
         } 
     }
