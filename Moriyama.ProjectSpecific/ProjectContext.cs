@@ -35,6 +35,14 @@ namespace Moriyama.Blog.Project
             //    new[] { "Moriyama.ProjectSpecific.Controllers" });
 
             routes.MapRoute(
+                "post", // Route name
+                "{year}/{month}/{day}/{title}", // Route Pattern
+                new { controller = "Post", action = "Index" },
+                new { year = @"\d+", month =  @"\d+", day = @"\d+" },
+                new[] { "Moriyama.Blog.Project.Controllers" }
+            );
+
+            routes.MapRoute(
                 "customContent",
                 "Content/{action}/{id}",
                 new
@@ -43,9 +51,7 @@ namespace Moriyama.Blog.Project
                     action = "Index",
                     id = UrlParameter.Optional
                 },
-                new[] { "Moriyama.ProjectSpecific.Controllers" });
+                new[] { "Moriyama.Blog.Project.Controllers" });
         }
-
-        
     }
 }

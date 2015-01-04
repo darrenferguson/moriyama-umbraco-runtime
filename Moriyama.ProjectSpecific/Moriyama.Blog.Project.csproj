@@ -87,6 +87,7 @@
   <ItemGroup>
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\ContentController.cs" />
+    <Compile Include="Controllers\PostController.cs" />
     <Compile Include="Extension\Extensions.cs" />
     <Compile Include="Models\CommentModel.cs" />
     <Compile Include="Models\ContactModel.cs" />
