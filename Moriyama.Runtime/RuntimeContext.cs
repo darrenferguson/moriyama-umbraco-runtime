@@ -8,7 +8,6 @@ using Moriyama.Runtime.Application;
 using Moriyama.Runtime.Interfaces;
 using Moriyama.Runtime.Services;
 using Moriyama.Runtime.Services.Schedule;
-using Moriyama.Runtime.Services.Search;
 using Quartz;
 using Quartz.Impl;
 
@@ -70,15 +69,29 @@ namespace Moriyama.Runtime
             SearchService = Services.Search.SearchService.Instance;
             var search = ConfigurationManager.AppSettings["Moriyama.Runtime.Search"];
 
-            if (!string.IsNullOrEmpty(cache) && Convert.ToBoolean(cache))
+            if (!string.IsNullOrEmpty(search) && Convert.ToBoolean(search))
             {
+                // Forces everything to be cached on startup... :(
                 foreach (var url in ContentService.GetUrlList())
                 {
                     var content = ContentService.GetContent(url);
                     if (content != null)
                         SearchService.Index(content);
                 }
+
+                ContentService.Added += ContentServiceAdded;
+                ContentService.Removed += ContentServiceRemoved;
             }
+        }
+
+        void ContentServiceRemoved(string sender, EventArgs e)
+        {
+            SearchService.Delete(sender);
+        }
+
+        void ContentServiceAdded(Models.RuntimeContentModel sender, EventArgs e)
+        {
+            SearchService.Index(sender);
         } 
     }
 }

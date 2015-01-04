@@ -13,6 +13,8 @@ namespace Moriyama.Runtime.Services
 {
     public class CachedRuntimeContentService : CacheLessRuntimeContentService
     {
+        public override event ContentRemovedHandler Removed;
+
         private static readonly ILog Logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
         private readonly ObjectCache _customCache;
@@ -40,6 +42,10 @@ namespace Moriyama.Runtime.Services
             foreach (var url in stale)
             {
                 Urls.Remove(url);
+
+                if (Removed != null)
+                    Removed(url, new EventArgs());
+
                 hasStale = true;
             }
 

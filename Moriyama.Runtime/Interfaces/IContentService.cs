@@ -1,11 +1,17 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Moriyama.Runtime.Models;
 
 namespace Moriyama.Runtime.Interfaces
 {
+    public delegate void ContentAddedHandler(RuntimeContentModel sender, EventArgs e);
+    public delegate void ContentRemovedHandler(string sender, EventArgs e);
+
     public interface IContentService
     {
-        
+        event ContentAddedHandler Added;
+        event ContentRemovedHandler Removed;
+
         void AddContent(RuntimeContentModel model);
         void RemoveContent(string url);
 

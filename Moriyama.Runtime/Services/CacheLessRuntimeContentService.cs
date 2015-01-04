@@ -13,6 +13,10 @@ namespace Moriyama.Runtime.Services
 {
     public class CacheLessRuntimeContentService : IContentService
     {
+        public event ContentAddedHandler Added;
+        public virtual event ContentRemovedHandler Removed;
+
+
         private static readonly ILog Logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
         protected readonly IContentPathMapper PathMapper;
@@ -53,6 +57,10 @@ namespace Moriyama.Runtime.Services
 
             }
             FlushUrls();
+
+            if (Added != null)
+                Added(model, new EventArgs());
+      
         }
 
         public void RemoveContent(string url)
@@ -75,6 +83,9 @@ namespace Moriyama.Runtime.Services
                 // CleanEmptyDirectory(directoryInfo.FullName);
             }
             FlushUrls();
+
+            if (Removed != null)
+                Removed(url, new EventArgs());
         }
 
         public IEnumerable<string> GetUrlList()
@@ -98,8 +109,21 @@ namespace Moriyama.Runtime.Services
         {
             Logger.Info("Got from disk " + url);
             var contentFile = PathMapper.PathForUrl(url, false);
-        
-            return !File.Exists(contentFile) ? null : FromFile(contentFile);
+
+            if (!File.Exists(contentFile))
+            {
+                if (Removed != null)
+                    Removed(url, new EventArgs());
+
+                return null;
+            }
+
+            var content = FromFile(contentFile);
+
+            if (Added != null)
+                Added(content, new EventArgs());
+            
+            return content;
         }
 
         private RuntimeContentModel FromFile(string path)
