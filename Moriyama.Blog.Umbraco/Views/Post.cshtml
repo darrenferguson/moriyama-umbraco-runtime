@@ -1,5 +1,5 @@
 ﻿@using Moriyama.Runtime.Extension
-@model Moriyama.Runtime.Models.RuntimeContentModel
+@model Moriyama.Blog.Project.Models.CommentModel
 @{
     Layout = "Layout.cshtml";
 }
@@ -12,6 +12,32 @@
 
 </article>
 
+@using (Html.BeginForm("Submit", "Comment", new Dictionary<string, object>() { { "class", "comment-form" }, { "role", "form" } }))
+{
+
+    <fieldset>
+        <legend>Leave a comment</legend>
+
+        @Html.ValidationSummary(false)
+        <label for="name">
+            Name
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+        </label>
+        <label for="email">
+            Email
+            <input id="email" name="email" type="email" placeholder="Your email address" required>
+
+        </label>
+        <label for="message">
+            Message
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+        </label>
+
+        <button type="submit">Submit</button>
+
+    </fieldset>
+}
+
 @if (Model.Children().Any())
 {
     <section class="comments" id="comments">
@@ -21,8 +47,8 @@
             @foreach (var comment in Model.Children())
             {
                 <li class="comment">
-                    
-                    <img class="framed comment-avatar" src="http://www.gravatar.com/avatar/" alt="@(comment.GetValue<string>("name"))">
+
+                    <img class="framed comment-avatar" src="http://www.gravatar.com/avatar/" alt="@(comment.GetValue<string>(" name"))">
 
                     <div class="comment-meta">
                         <h4>@(comment.GetValue<string>("name"))</h4>

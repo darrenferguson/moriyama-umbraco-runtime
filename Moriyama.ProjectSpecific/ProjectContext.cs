@@ -21,6 +21,7 @@ namespace Moriyama.Blog.Project
         public void Init(RouteCollection routes)
         {
             Mapper.CreateMap<RuntimeContentModel, ContactModel>();
+            Mapper.CreateMap<RuntimeContentModel, CommentModel>();
 
             //routes.MapRoute(
             //    "contact",
