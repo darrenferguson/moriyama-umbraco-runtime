@@ -12,7 +12,7 @@
 
 </article>
 
-@using (Html.BeginForm("Submit", "Post", new Dictionary<string, object>() { { "class", "comment-form" }, { "role", "form" } }))
+@using (Html.BeginForm("Submit", "Post", null, FormMethod.Post, new Dictionary<string, object>() { { "class", "comment-form" }, { "role", "form" } }))
 {
     <fieldset>
         <legend>Leave a comment</legend>
@@ -51,7 +51,7 @@
 
                     <div class="comment-meta">
                         <h4>@(comment.GetValue<string>("name"))</h4>
-                        <time class="comment-pubdate">@String.Format("{0:MMMM d, yyyy}", comment.UpdateDate)</time>
+                        <time class="comment-pubdate">@String.Format("{0:MMMM d, yyyy}", comment.CreateDate)</time>
                     </div>
 
                     <div class="comment-body">

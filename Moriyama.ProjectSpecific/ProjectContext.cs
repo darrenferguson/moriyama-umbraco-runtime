@@ -16,23 +16,10 @@ namespace Moriyama.Blog.Project
         {
             get { return _instance ?? (_instance = new ProjectContext()); }
         }
-
-
+        
         public void Init(RouteCollection routes)
         {
-            Mapper.CreateMap<RuntimeContentModel, ContactModel>();
             Mapper.CreateMap<RuntimeContentModel, CommentModel>();
-
-            //routes.MapRoute(
-            //    "contact",
-            //    "Contact/{action}/{id}",
-            //    new
-            //    {
-            //        controller = "Contact",
-            //        action = "Index",
-            //        id = UrlParameter.Optional
-            //    },
-            //    new[] { "Moriyama.ProjectSpecific.Controllers" });
 
             routes.MapRoute(
                 "post", // Route name

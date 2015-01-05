@@ -19,6 +19,8 @@ namespace Moriyama.Runtime.Interfaces
         IEnumerable<string> GetUrlList();
 
         RuntimeContentModel GetContent(HttpContext context);
+        string GetContentUrl(HttpContext context);
+
         RuntimeContentModel GetContent(string url);
         RuntimeContentModel Home(RuntimeContentModel model);
 
@@ -26,5 +28,7 @@ namespace Moriyama.Runtime.Interfaces
         IEnumerable<RuntimeContentModel> Children(RuntimeContentModel model);
 
         IEnumerable<RuntimeContentModel> Descendants(RuntimeContentModel model);
+
+        RuntimeContentModel CreateContent(string url, IDictionary<string, object> properties);
     }
 }

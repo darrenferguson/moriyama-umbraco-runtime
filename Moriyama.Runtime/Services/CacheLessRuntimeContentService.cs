@@ -96,8 +96,13 @@ namespace Moriyama.Runtime.Services
 
         public RuntimeContentModel GetContent(HttpContext context)
         {
+            return GetContent(GetContentUrl(context));
+        }
+
+        public string GetContentUrl(HttpContext context)
+        {
             var url = context.Request.Url.Scheme + "://" + context.Request.Url.Host + context.Request.Url.AbsolutePath;
-            return GetContent(url);
+            return url;
         }
 
         protected void FlushUrls()
@@ -183,6 +188,28 @@ namespace Moriyama.Runtime.Services
             return FromUrls(DescendantsUrls(model)).Where(x => x != null);
         }
 
+        public RuntimeContentModel CreateContent(string url, IDictionary<string, object> properties)
+        {
+            var content = new RuntimeContentModel();
+
+            content.Url = url;
+            
+            content.CreateDate = DateTime.Now;
+            content.UpdateDate = DateTime.Now;
+            
+            content.CreatorName = "User Generated";
+            content.WriterName = "User Generated";
+
+            content.RelativeUrl = new Uri(url).AbsolutePath;
+
+            content.Type = "UserGeneratedContent";
+            content.Template = string.Empty;
+
+            content.Content = properties;
+
+            return content;
+        }
+
         private IEnumerable<RuntimeContentModel> FromUrls(IEnumerable<string> urls)
         {
             var content = new List<RuntimeContentModel>();
@@ -196,6 +223,8 @@ namespace Moriyama.Runtime.Services
             return content;
         }
         
+
+
         //private void CleanEmptyDirectory(string path)
         //{
         //    if (!Directory.EnumerateFileSystemEntries(path).Any())

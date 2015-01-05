@@ -76,5 +76,8 @@ namespace Moriyama.Runtime.Extension
         {
             return "~/Views/" + model.Template + ".cshtml";
         }
+
+
+
     }
 }
