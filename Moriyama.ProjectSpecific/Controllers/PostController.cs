@@ -2,6 +2,7 @@
 using AutoMapper;
 using Moriyama.Blog.Project.Models;
 using Moriyama.Runtime;
+using Moriyama.Runtime.Extension;
 
 namespace Moriyama.Blog.Project.Controllers
 {
@@ -10,23 +11,26 @@ namespace Moriyama.Blog.Project.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            var ctx = System.Web.HttpContext.Current;
-
-            var modelContent = RuntimeContext.Instance.ContentService.GetContent(ctx.Request.Url.ToString());
+            var modelContent = RuntimeContext.Instance.ContentService.GetContent(System.Web.HttpContext.Current);
             var model = Mapper.Map<CommentModel>(modelContent);
 
-            return View("~/Views/" + model.Template + ".cshtml", model);
+            return View(modelContent.View(), model);
         }
 
         [HttpPost]
-        public ActionResult Submit()
+        public ActionResult Submit(CommentModel model)
         {
-            var ctx = System.Web.HttpContext.Current;
+            var modelContent = RuntimeContext.Instance.ContentService.GetContent(System.Web.HttpContext.Current);
 
-            var modelContent = RuntimeContext.Instance.ContentService.GetContent(ctx.Request.Url.ToString());
-            var model = Mapper.Map<CommentModel>(modelContent);
+            var newModel = Mapper.Map<CommentModel>(modelContent);
+            newModel = Mapper.Map(newModel, model);
 
-            return View("~/Views/" + model.Template + ".cshtml", model);
+            if (ModelState.IsValid)
+            {
+                // TODO: Create the comment here
+            }
+
+            return View(modelContent.View(), newModel);
         }
     }
 }

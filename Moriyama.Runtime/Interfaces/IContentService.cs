@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Web;
 using Moriyama.Runtime.Models;
 
 namespace Moriyama.Runtime.Interfaces
@@ -16,7 +17,8 @@ namespace Moriyama.Runtime.Interfaces
         void RemoveContent(string url);
 
         IEnumerable<string> GetUrlList();
-            
+
+        RuntimeContentModel GetContent(HttpContext context);
         RuntimeContentModel GetContent(string url);
         RuntimeContentModel Home(RuntimeContentModel model);
 

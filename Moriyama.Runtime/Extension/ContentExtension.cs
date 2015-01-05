@@ -71,5 +71,10 @@ namespace Moriyama.Runtime.Extension
         {
             return RuntimeContext.Instance.ContentService.Children(model);
         }
+
+        public static string View(this RuntimeContentModel model)
+        {
+            return "~/Views/" + model.Template + ".cshtml";
+        }
     }
 }

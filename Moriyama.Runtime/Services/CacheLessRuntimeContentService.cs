@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Web;
 using Moriyama.Runtime.Extension;
 using Moriyama.Runtime.Interfaces;
 using Moriyama.Runtime.Models;
@@ -91,6 +92,12 @@ namespace Moriyama.Runtime.Services
         public IEnumerable<string> GetUrlList()
         {
             return Urls;
+        }
+
+        public RuntimeContentModel GetContent(HttpContext context)
+        {
+            var url = context.Request.Url.Scheme + "://" + context.Request.Url.Host + context.Request.Url.AbsolutePath;
+            return GetContent(url);
         }
 
         protected void FlushUrls()

@@ -38,7 +38,15 @@ namespace Moriyama.Blog.Project
                 "post", // Route name
                 "{year}/{month}/{day}/{title}", // Route Pattern
                 new { controller = "Post", action = "Index" },
-                new { year = @"\d+", month =  @"\d+", day = @"\d+" },
+                new { year = @"\d+", month = @"\d+", day = @"\d+", httpMethod = new HttpMethodConstraint("GET") },
+                new[] { "Moriyama.Blog.Project.Controllers" }
+            );
+
+            routes.MapRoute(
+                "postComment", // Route name
+                "{year}/{month}/{day}/{title}", // Route Pattern
+                new { controller = "Post", action = "Submit" },
+                new { year = @"\d+", month = @"\d+", day = @"\d+", httpMethod = new HttpMethodConstraint("POST") },
                 new[] { "Moriyama.Blog.Project.Controllers" }
             );
 
