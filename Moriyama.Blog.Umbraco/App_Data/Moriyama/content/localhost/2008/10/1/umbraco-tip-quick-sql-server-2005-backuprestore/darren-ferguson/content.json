@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:41",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/10/1/umbraco-tip-quick-sql-server-2005-backuprestore/darren-ferguson/",
+  "RelativeUrl": "/2008/10/1/umbraco-tip-quick-sql-server-2005-backuprestore/darren-ferguson/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-10-02T20:24:31Z",
+    "title": "Darren Ferguson",
+    "name": "Darren Ferguson",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "@wouter: I assume you are talking about using the 'backup database' command. I've had numerous issues moving db's across machines with this.\n\nI guess you mean server 'stays online'?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

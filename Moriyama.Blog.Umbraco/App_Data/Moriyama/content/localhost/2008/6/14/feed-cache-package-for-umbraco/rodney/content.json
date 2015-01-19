@@ -1,0 +1,28 @@
+{
+  "Name": "Rodney",
+  "Type": "BlogComment",
+  "CreateDate": "2014-02-06T03:54:03",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/14/feed-cache-package-for-umbraco/rodney/",
+  "RelativeUrl": "/2008/6/14/feed-cache-package-for-umbraco/rodney/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "name": "Rodney",
+    "email": "rodske@gmail.com",
+    "website": "",
+    "bodyText": "Any intention to convert it to Umbraco 7?",
+    "ip": "27.252.153.149",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 10,
+  "Level": 6
+}

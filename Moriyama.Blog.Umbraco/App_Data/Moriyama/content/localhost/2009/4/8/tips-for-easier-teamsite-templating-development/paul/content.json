@@ -1,0 +1,28 @@
+{
+  "Name": "Paul",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:10",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/4/8/tips-for-easier-teamsite-templating-development/paul/",
+  "RelativeUrl": "/2009/4/8/tips-for-easier-teamsite-templating-development/paul/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-08-06T17:28:57Z",
+    "title": "Paul",
+    "name": "Paul",
+    "email": "p.hanson@homecall.co.uk",
+    "website": "",
+    "bodyText": "I am restricted to Teamsite 5.52\r\n\r\nAny support for xslt using iwov_xslt in this version?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

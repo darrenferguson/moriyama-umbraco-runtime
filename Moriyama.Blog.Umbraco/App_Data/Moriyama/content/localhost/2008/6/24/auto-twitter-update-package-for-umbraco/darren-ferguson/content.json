@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:55",
+  "UpdateDate": "2015-01-19T18:39:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/24/auto-twitter-update-package-for-umbraco/darren-ferguson/",
+  "RelativeUrl": "/2008/6/24/auto-twitter-update-package-for-umbraco/darren-ferguson/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-13T21:12:36Z",
+    "title": "Darren Ferguson",
+    "name": "Darren Ferguson",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "Hi Bob, mail me your log messages and your config and i'll see what i can figure out...",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

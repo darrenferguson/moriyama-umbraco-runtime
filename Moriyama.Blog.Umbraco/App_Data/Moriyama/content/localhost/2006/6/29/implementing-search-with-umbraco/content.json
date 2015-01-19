@@ -1,0 +1,27 @@
+{
+  "Name": "Implementing Search with Umbraco",
+  "Type": "BlogPost",
+  "CreateDate": "2006-06-29T14:22:00",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/29/implementing-search-with-umbraco/",
+  "RelativeUrl": "/2006/6/29/implementing-search-with-umbraco/",
+  "Content": {
+    "umbracoUrlAlias": "/implementing-search-with-umbraco",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-06-29T14:22:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fFDlPO",
+    "summary": "'Implementing Search with Umbraco' - a blog post by Darren Ferguson about content search, Entertainment Culture written on 29 June 2006",
+    "tags": "content search, Entertainment Culture",
+    "bodyText": "<p>\r\nAfter a lot of frustration trying to implement content search in Umbraco yesterday I decided that this article may be a good idea.\r\n</p><p><a href=\"http://en.wikibooks.org/wiki/Umbraco/Samples_and_Articles/Implementing_Search\">http://en.wikibooks.org/wiki/Umbraco/Samples_and_Articles/Implementing_Search</a></p><p>\r\nI wrote it all in one quick sitting, so I haven’t had time to go through it with a fine tooth comb yet and check the spelling and grammar.\r\n</p><p>\r\nThe more I write tutorials and docs, the more I become convinced that screencasts are better, so I will try and create the article as a screencast too. \r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

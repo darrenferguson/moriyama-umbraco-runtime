@@ -1,0 +1,27 @@
+{
+  "Name": "Nant backup and restore of Umbraco instances",
+  "Type": "BlogPost",
+  "CreateDate": "2011-05-13T09:50:47",
+  "UpdateDate": "2015-01-19T18:43:24",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/5/13/nant-backup-and-restore-of-umbraco-instances/",
+  "RelativeUrl": "/2011/5/13/nant-backup-and-restore-of-umbraco-instances/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-05-13T10:00:00Z",
+    "title": "Nant backup and restore of Umbraco instances",
+    "shortUrl": "http://bit.ly/mJVfGK",
+    "summary": "'Nant backup and restore of Umbraco instances'' - a blog post by Darren Ferguson about Nant, Umbraco, Backup written on the 13th May 2011",
+    "tags": "Nant, Umbraco, Backup",
+    "bodyText": "\r\n<p>I've written a <a\r\nhref=\"http://our.umbraco.org/projects/developer-tools/nant-backup-and-restore\">\r\nnant build</a> that you can use to archive instances of Umbraco to\r\na zip file and then restore them to a new instance. (An instance\r\nconsists of an IIS site, and a database).</p>\r\n\r\n<p>The demonstration video is below and lots more information is\r\navailable on the <a\r\nhref=\"http://our.umbraco.org/projects/developer-tools/nant-backup-and-restore\">\r\nour.umbraco project page</a>.</p>\r\n\r\n<p><object width=\"520\" height=\"390\"\r\ndata=\"http://www.vimeo.com/moogaloop.swf?clip_id=23674863&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\"\r\n type=\"application/x-shockwave-flash\"><param name=\"data\"\r\nvalue=\"http://www.vimeo.com/moogaloop.swf?clip_id=23674863&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\" />\r\n<param name=\"allowfullscreen\" value=\"true\" />\r\n<param name=\"allowscriptaccess\" value=\"always\" />\r\n<param name=\"src\"\r\nvalue=\"http://www.vimeo.com/moogaloop.swf?clip_id=23674863&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\" />\r\n</object></p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

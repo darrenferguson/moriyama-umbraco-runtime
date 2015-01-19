@@ -8,7 +8,7 @@ namespace Moriyama.Runtime.Interfaces
     {
         void Index(RuntimeContentModel model);
         void Delete(string url);
-        
-        IEnumerable<string> Search(string query);
+
+        IEnumerable<SearchResultModel> Search(string query);
     }
 }

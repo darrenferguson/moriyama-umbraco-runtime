@@ -1,0 +1,28 @@
+{
+  "Name": "Umbraco user",
+  "Type": "BlogComment",
+  "CreateDate": "2014-01-24T11:15:49",
+  "UpdateDate": "2015-01-19T18:41:17",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/umbraco-user/",
+  "RelativeUrl": "/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/umbraco-user/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "name": "Umbraco user",
+    "email": "test@osigraf.no",
+    "website": "",
+    "bodyText": "Love this! Any thoughts on Umbraco 7 support?",
+    "ip": "213.236.204.170",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 25,
+  "Level": 6
+}

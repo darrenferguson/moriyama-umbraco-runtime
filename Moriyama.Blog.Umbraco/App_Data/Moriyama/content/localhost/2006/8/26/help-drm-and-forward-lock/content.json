@@ -1,0 +1,27 @@
+{
+  "Name": "Help DRM and forward lock",
+  "Type": "BlogPost",
+  "CreateDate": "2006-08-26T10:22:00",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/8/26/help-drm-and-forward-lock/",
+  "RelativeUrl": "/2006/8/26/help-drm-and-forward-lock/",
+  "Content": {
+    "umbracoUrlAlias": "/help-drm-and-forward-lock",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-26T10:22:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/ekyRhi",
+    "summary": "'Help DRM and forward lock' - a blog post by Darren Ferguson about WAP, gif, Microsoft, ASP.NET, PHP, java, HTTP, midi, Technology Internet written on 26 August 2006",
+    "tags": "WAP, gif, Microsoft, ASP.NET, PHP, java, HTTP, midi, Technology Internet",
+    "bodyText": "<p>\r\nHelp! I'm stuck on a demo for a client who wants a mobile content distribution platform. I've created a phone capabilities object that can resize images according to the screen size of a phone and I can create a WAP push message to the phone.\r\n</p><p>\r\nThe problem I have is the response from the WAP push URL.\r\n</p><p>\r\nI found the following sample PHP code:\r\n</p><p><textarea name=\"code\" class=\"php\" rows=\"15\" cols=\"100\">\r\nheader(\"Content-type: application/vnd.oma.drm.message; boundary=boundary-1\");\r\nprint(\"--boundary-1\\n\");\r\nprint(\"Content-type: audio/midi\\n\");\r\nprint(\"Content-Transfer-Encoding: binary\\n\");\r\nprint(\"\\n\");\r\nfpassthru(fopen(\"test.mid\", \"rb\"));\r\nprint(\"\\n--boundary-1--\\n\");\r\n</textarea></p><p>And the following in java</p><p><textarea name=\"code\" class=\"java\" rows=\"15\" cols=\"100\">\r\nresponse.setHeader(\"Content-Type\",\"application/vnd.oma.drm.message; boundary=foo\");\r\nsout.println();\r\nsout.println(\"--foo\");\r\nsout.println(\"Content-Type: \" + dataHand.getContentType());\r\nsout.println(\"\");\r\ndataHand.writeTo(sout);\r\nsout.println();\r\nsout.println(\"--foo--\");\r\nsout.println();\r\n</textarea></p><p>\r\nMy port into c# looks like this\r\n</p><p><textarea name=\"code\" class=\"c#\" rows=\"15\" cols=\"100\">\r\nResponse.Clear();\r\nResponse.ClearHeaders();\r\n\r\nStream str = File.Open(Server.MapPath(Request[\"file\"]), FileMode.Open);\r\nbyte [] buffer = new byte[str.Length];\r\nstr.Read(buffer, 0, Convert.ToInt32(str.Length));\r\nint bcount = Convert.ToInt32(str.Length);\r\nstr.Close();\r\n\r\nResponse.ContentType = \"application/vnd.oma.drm.message; boundary=boundary-1\";\r\n\r\nResponse.Write(\"--boundary-1\\n\");\r\nResponse.Write(\"Content-type: image/gif\\n\");\r\nResponse.Write(\"Content-Transfer-Encoding: binary\\n\\n\");\r\n\r\nResponse.BinaryWrite(buffer);\r\n\r\nResponse.Write(\"\\n--boundary-1--\\n\");\r\n</textarea></p><p>\r\nMy handset downloads the request, and then gives the message 'Download failed'. It is a sony ericsson D750i. The response looks like this...\r\n</p><p><textarea name=\"code\" class=\"c#\" rows=\"15\" cols=\"100\">\r\nHTTP/1.1 200 OK\r\nConnection: close\r\nDate: Sat, 26 Aug 2006 10:12:58 GMT\r\nServer: Microsoft-IIS/6.0\r\nX-Powered-By: ASP.NET\r\nX-AspNet-Version: 2.0.50727\r\nCache-Control: private\r\nContent-Type: application/vnd.oma.drm.message; boundary=boundary-1; charset=utf-8\r\nContent-Length: 43005\r\n--boundary-1\r\nContent-type: image/gif\r\nContent-Transfer-Encoding: binary\r\n\r\n..... Loads of binary .......\r\n\r\n--boundary-1--\r\n</textarea></p><script text=\"text/javascript\">\r\ndp.SyntaxHighlighter.HighlightAll('code');\r\n</script><p>\r\nAny help would be very much appreciated and can be exchanged for pints or Umbraco help....\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 5
+}

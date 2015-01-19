@@ -1,0 +1,28 @@
+{
+  "Name": "Wouter Boevink",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:41",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/10/1/umbraco-tip-quick-sql-server-2005-backuprestore/wouter-boevink/",
+  "RelativeUrl": "/2008/10/1/umbraco-tip-quick-sql-server-2005-backuprestore/wouter-boevink/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-10-02T16:23:09Z",
+    "title": "Wouter Boevink",
+    "name": "Wouter Boevink",
+    "email": "wboevink@hotmail.com",
+    "website": "",
+    "bodyText": "And why is this better than creating a backup and restoring it? That way you can also copy your data between servers. And it can also be done from the command prompt. And your server stays only.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

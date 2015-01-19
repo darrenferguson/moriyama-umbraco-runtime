@@ -1,0 +1,27 @@
+{
+  "Name": "Workflow for Umbraco and drag and drop event programming",
+  "Type": "BlogPost",
+  "CreateDate": "2011-10-04T16:31:04",
+  "UpdateDate": "2015-01-19T18:43:24",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/10/4/workflow-for-umbraco-and-drag-and-drop-event-programming/",
+  "RelativeUrl": "/2011/10/4/workflow-for-umbraco-and-drag-and-drop-event-programming/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-10-04T16:09:00Z",
+    "title": "Workflow for Umbraco and drag and drop event programming",
+    "shortUrl": "",
+    "summary": "'Workflow for Umbraco and drag and drop event programming'' - a blog post by Darren Ferguson about Umbraco, Dashboard, PreValue written on the 4th October 2011",
+    "tags": "Workflow, Umbraco",
+    "bodyText": "\r\n<p>I've <a\r\nhref=\"http://vimeo.com/darrenferguson/workflowforumbraco\">created a\r\nscreencast</a> of my <a\r\nhref=\"http://our.umbraco.org/projects/backoffice-extensions/workflow\">\r\nWorkflow for Umbraco package</a>. I've subtitled this blog\r\npost&nbsp;<em>drag and drop event programming</em> as the package\r\nallows you to do exactly that - this is probably more of a draw to\r\nUmbraco developers out there.</p>\r\n\r\n<p>By using workflow you can visualise what happens when events\r\nfire, easily disable and enable event handlers and break up\r\neventing code into small, manageable and re-usable chunks.</p>\r\n\r\n<p><a href=\"http://vimeo.com/30190458\"><img src=\"~/media/126087/workflowvimeo_500x375.jpg\"  width=\"500\"  height=\"375\" alt=\"Workflowvimeo\"/></a></p>\r\n\r\n<p style=\"clear: both;\">Workflow for Umbraco allows you to author\r\ncustom workflows using a drag and drop UI. You can have users\r\nmanually push content, media etc to workflows - or you can setup\r\nyou workflows to instantiate upon API events.</p>\r\n\r\n<p>Workflow attachments are CMS Nodes so workflows can run against\r\ndocuments, media, users, document types or any other Umbraco\r\nobject.</p>\r\n\r\n<p>Workflow GUI can be written for your language of choice without\r\nrebuilding - you simply provide an XML file for the appropriate\r\n.net culture.</p>\r\n\r\n<p>Workflow tasks are POCOs which are decorated with a UI class so\r\nyou can add your own tasks and expose properties to the GUI within\r\nminutes.</p>\r\n\r\n<p>The project is built on Spring.net so core components such as\r\nstorage and runtime can be customised and re-written without\r\nre-compiling.</p>\r\n\r\n<p>Workflow state is persistent across app pool recycles and server\r\nreboots.</p>\r\n\r\n<p>If you have any issues or questions - please report in the <a\r\nhref=\"http://our.umbraco.org/projects/backoffice-extensions/workflow/developer-forum\">\r\nour umbraco forum</a>.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

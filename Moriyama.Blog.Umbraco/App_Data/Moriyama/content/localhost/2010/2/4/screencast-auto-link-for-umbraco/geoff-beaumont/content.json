@@ -1,0 +1,28 @@
+{
+  "Name": "Geoff Beaumont",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:59",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/2/4/screencast-auto-link-for-umbraco/geoff-beaumont/",
+  "RelativeUrl": "/2010/2/4/screencast-auto-link-for-umbraco/geoff-beaumont/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-12-15T15:20:22.257Z",
+    "title": "Geoff Beaumont",
+    "name": "Geoff Beaumont",
+    "email": "geoff@cabstudios.co.uk",
+    "website": "",
+    "bodyText": "Hi Darren,\n\nThe source link on the Umbraco projects site is broken (or your svn repository is down!).\n\nThe link to the project page is now http://our.umbraco.org/projects/website-utilities/auto-link - probably following the reorganising they're doing at the moment.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 9,
+  "Level": 6
+}

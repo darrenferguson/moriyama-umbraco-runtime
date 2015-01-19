@@ -1,0 +1,27 @@
+{
+  "Name": "15% off Umbraco backup and new licensing model",
+  "Type": "BlogPost",
+  "CreateDate": "2006-09-07T11:04:00",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/9/7/15-off-umbraco-backup-and-new-licensing-model/",
+  "RelativeUrl": "/2006/9/7/15-off-umbraco-backup-and-new-licensing-model/",
+  "Content": {
+    "umbracoUrlAlias": "/15-off-umbraco-backup-and-new-licensing-model",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-09-07T11:04:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/ez25be",
+    "summary": "'15% off Umbraco backup and new licensing model' - a blog post by Darren Ferguson about PayPal, Business Finance, Technology Internet written on 07 September 2006",
+    "tags": "PayPal, Business Finance, Technology Internet",
+    "bodyText": "<p><a href=\"../umbraco-backup.aspx\">Umbraco backup</a> now has two different licensing models. </p><ul><li>Single host - £50 </li><li>Server/IP license - £250</li></ul><p>You can also get a 15% discount on these prices if you use the discount code 'umbfifteen' when buying online. This code is valid for a limited period only. </p><p>I am also able to sell and invoice in US dollars and Euros as well as pounds. </p><p>You can buy Umbraco backup using PayPal and your license will be delivered instantly via email. </p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

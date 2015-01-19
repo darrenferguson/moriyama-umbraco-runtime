@@ -1,0 +1,27 @@
+{
+  "Name": "Back online with Umbraco 3.0.5",
+  "Type": "BlogPost",
+  "CreateDate": "2008-05-24T18:59:00",
+  "UpdateDate": "2015-01-19T18:39:07",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/5/24/back-online-with-umbraco-305/",
+  "RelativeUrl": "/2008/5/24/back-online-with-umbraco-305/",
+  "Content": {
+    "umbracoUrlAlias": "/back-online-with-umbraco-305",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-05-24T18:59:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/eR6QK5",
+    "summary": "'Back online with Umbraco 3.0.5' - a blog post by Darren Ferguson about Copenhagen, Perl written on 24 May 2008",
+    "tags": "Copenhagen, Perl",
+    "bodyText": "<p>Wow, almost a year since my last post and loads of things have changed and happened</p><p>Way too much to detail here all at once, but in preparation for codegarden - which I'll be attending - I thought I should get upgraded to Umbraco 3 and get my Blog back online</p><p>I still need to fix the search and update my bio and CV but everything else should be pretty much working again</p><p>I'll post again over the weekend when I'll be revealing my codegarden treat for you all. <b>Perl for Umbraco</b></p><p>Oh, and I still eat lots of noodles :) I found out there are a couple of Vietnamese places in Copenhagen, so I'll be checking them out when I am over there.</p><p>See you all at Tivoli a week Monday</p><p>Darren</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

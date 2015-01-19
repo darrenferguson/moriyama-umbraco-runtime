@@ -1,0 +1,28 @@
+{
+  "Name": "Darren",
+  "Type": "BlogComment",
+  "CreateDate": "2013-11-12T13:15:39",
+  "UpdateDate": "2015-01-19T18:44:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2013/11/12/automate-umbraco-database-creation-to-quick-launch-belle/darren/",
+  "RelativeUrl": "/2013/11/12/automate-umbraco-database-creation-to-quick-launch-belle/darren/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "name": "Darren",
+    "email": "df@darren-ferguson.com",
+    "website": "",
+    "bodyText": "Hi Ismail, the extract above is from a build that we run on demand whenever we want a new empty install.",
+    "ip": "86.134.74.81",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Tim Geyssens",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:50",
+  "UpdateDate": "2015-01-19T18:39:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/tim-geyssens/",
+  "RelativeUrl": "/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/tim-geyssens/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-07T22:07:14Z",
+    "title": "Tim Geyssens",
+    "name": "Tim Geyssens",
+    "email": "info@nibble.be",
+    "website": "http://www.nibble",
+    "bodyText": "testing the comments ;)",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

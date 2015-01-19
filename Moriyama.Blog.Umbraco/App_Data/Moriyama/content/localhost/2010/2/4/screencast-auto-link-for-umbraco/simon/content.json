@@ -1,0 +1,28 @@
+{
+  "Name": "Simon",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:02:45",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/2/4/screencast-auto-link-for-umbraco/simon/",
+  "RelativeUrl": "/2010/2/4/screencast-auto-link-for-umbraco/simon/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-04-13T20:04:19Z",
+    "title": "Simon",
+    "name": "Simon",
+    "email": "arcand.simon@gmail.com",
+    "website": "",
+    "bodyText": "Hi, I can't have autolink to work well because I'd like to link a word with a french accent.\n\nFor instance, the word fenêtre become fen?tre in the backend. So it doesn't link.\n\nCan you help me!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

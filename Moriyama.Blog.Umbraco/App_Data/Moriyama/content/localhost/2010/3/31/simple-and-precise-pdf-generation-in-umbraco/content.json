@@ -1,0 +1,27 @@
+{
+  "Name": "Simple and precise PDF generation in Umbraco",
+  "Type": "BlogPost",
+  "CreateDate": "2010-03-31T21:36:00",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/3/31/simple-and-precise-pdf-generation-in-umbraco/",
+  "RelativeUrl": "/2010/3/31/simple-and-precise-pdf-generation-in-umbraco/",
+  "Content": {
+    "umbracoUrlAlias": "/simple-and-precise-pdf-generation-in-umbraco",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": 2763,
+    "redirect": "",
+    "displayDate": "2010-03-31T21:36:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/g1rm6l",
+    "summary": "'Simple and precise PDF generation in Umbraco' - a blog post by Darren Ferguson about Technology Internet written on 31 March 2010",
+    "tags": "Technology Internet",
+    "bodyText": "\r\n<p>I've created a package that allows you to create PDFs from\r\nUmbraco using XSL-FO. You can download the package from <a\r\nhref=\"http://our.umbraco.org/projects/xsl-pdf-creator\">our.umbraco.org</a></p>\r\n\r\n<p>The video below is a demonstration of the package</p>\r\n\r\n<p><object width=\"520\" height=\"390\"\r\ndata=\"http://www.vimeo.com/moogaloop.swf?clip_id=10590953&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\"\r\n type=\"application/x-shockwave-flash\"><param name=\"allowfullscreen\"\r\nvalue=\"true\" />\r\n<param name=\"allowscriptaccess\" value=\"always\" />\r\n<param name=\"src\"\r\nvalue=\"http://www.vimeo.com/moogaloop.swf?clip_id=10590953&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\" />\r\n</object></p>\r\n\r\n<p>I've made some investments in buying the technology to do the\r\nXSL-FO transformation so this will be a commercial package.</p>\r\n\r\n<p>Details of how to buy are available <a\r\nhref=\"/code-bank.aspx#xslpdf\">here</a>.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

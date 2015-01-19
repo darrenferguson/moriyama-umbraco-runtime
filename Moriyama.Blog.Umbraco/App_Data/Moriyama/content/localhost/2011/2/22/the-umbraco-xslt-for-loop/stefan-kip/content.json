@@ -1,0 +1,28 @@
+{
+  "Name": "Stefan Kip",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:06:02",
+  "UpdateDate": "2015-01-19T18:43:25",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/2/22/the-umbraco-xslt-for-loop/stefan-kip/",
+  "RelativeUrl": "/2011/2/22/the-umbraco-xslt-for-loop/stefan-kip/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-02-22T15:54:48.977Z",
+    "title": "Stefan Kip",
+    "name": "Stefan Kip",
+    "email": "mail@kipusoep.nl",
+    "website": "http://tech.kipusoep.nl",
+    "bodyText": "So when one uses XSLT, you still kind of need .NET? :P",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

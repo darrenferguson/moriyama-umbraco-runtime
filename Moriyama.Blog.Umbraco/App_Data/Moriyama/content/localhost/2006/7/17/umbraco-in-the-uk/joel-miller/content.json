@@ -1,0 +1,28 @@
+{
+  "Name": "Joel Miller",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:38",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/17/umbraco-in-the-uk/joel-miller/",
+  "RelativeUrl": "/2006/7/17/umbraco-in-the-uk/joel-miller/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-20T15:09:49Z",
+    "title": "Joel Miller",
+    "name": "Joel Miller",
+    "email": "joel@joelmiller.co.uk",
+    "website": "",
+    "bodyText": "Hi, I have built 1 commercial site using Umbraco which went live about 6 months ago, and am working on another at the moment.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 7,
+  "Level": 6
+}

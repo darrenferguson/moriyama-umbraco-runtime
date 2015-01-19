@@ -1,0 +1,28 @@
+{
+  "Name": "Sean Feldman",
+  "Type": "BlogComment",
+  "CreateDate": "2014-05-28T22:53:34",
+  "UpdateDate": "2015-01-19T18:44:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2013/11/12/automate-umbraco-database-creation-to-quick-launch-belle/sean-feldman/",
+  "RelativeUrl": "/2013/11/12/automate-umbraco-database-creation-to-quick-launch-belle/sean-feldman/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "name": "Sean Feldman",
+    "email": "feldman.sean@gmail.com",
+    "website": "",
+    "bodyText": "Thank you for this tip, helped a lot.\r\n\r\nI have modified the code to go straight to PetaPocoExtensions - not sure why reflection was needed (using umbraco 7.1) like so: PetaPocoExtensions.CreateDatabaseSchema(db, false);\r\n\r\nWe're struggling with collaboration and identity fields (ints)... I wish those were GUIDs as working on the same DB is just not an option for us.",
+    "ip": "69.10.152.67",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

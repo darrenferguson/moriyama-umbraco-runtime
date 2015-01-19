@@ -1,0 +1,27 @@
+{
+  "Name": "Working around the 'no nodes' issue with Umbraco 4.5.x",
+  "Type": "BlogPost",
+  "CreateDate": "2010-11-02T13:20:00",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/11/2/working-around-the-no-nodes-issue-with-umbraco-45x/",
+  "RelativeUrl": "/2010/11/2/working-around-the-no-nodes-issue-with-umbraco-45x/",
+  "Content": {
+    "umbracoUrlAlias": "/working-around-the-'no-nodes'-issue-with-umbraco-45x",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-11-02T13:20:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/i7jLsb",
+    "summary": "'Working around the 'no nodes' issue with Umbraco 4.5.x' - a blog post by Darren Ferguson about correct solution, SQL, GUI written on 02 November 2010",
+    "tags": "correct solution, SQL, GUI",
+    "bodyText": "<p><em><strong>Updated</strong>: I've added some code to the\r\nsnippet below to see if you have an empty cache before doing the\r\nrepublish.</em></p><p>A while back I <a href=\"http://our.umbraco.org/forum/ourumb-dev-forum/bugs/13649-Site-repeatedly-reverting-to-no-nodes-splash-page?p=0\">\r\nran into an issue</a> where this site would regularly go off line\r\nand revert to the Umbraco \"no nodes\" splash page that you usually\r\nget post install.</p><p>As the forum thread explains this seems to be an issue\r\nintroduced in Umbraco 4.5.x where the content cache can't be\r\ncreated on startup if SQL server is unavailable (I presume it just\r\nfell back to the old cache in previous versions). I was getting the\r\nissue on a regular basis as my hosting provider had enabled my\r\nserver to auto restart after installing windows updates. When the\r\nserver started up there was a race condition between the SQL server\r\nand IIS services - more often than not IIS would start first and\r\nSQL would not be available.</p><p>The solution was to Republish the cache manually via the Umbraco\r\nGUI once all services were up. Not wanting to have to do this every\r\ntime I delved into the source and found the following code.</p><pre class=\"brush: csharp;\">\r\nServer.ScriptTimeout = 100000;\r\nvar cacheFile = IOHelper.MapPath(\"~/App_Data/umbraco.config\");\r\n            \r\nvar r = XmlReader.Create(cacheFile, new XmlReaderSettings() { DtdProcessing = DtdProcessing.Ignore });\r\nvar d = new XmlDocument();\r\nd.Load(r);\r\n\r\nvar n = d.SelectSingleNode(\"//root\");\r\nif (n.ChildNodes.Count != 0) return;\r\n\r\nDocument.RePublishAll();\r\nlibrary.RefreshContent();\r\n</pre><p>So, rather than do the republish manually every time the issue\r\noccurs, I've replaced the out of the box noNodes.aspx with a page\r\nthat executes the code above and does a redirect to the\r\nreferer.</p><p>The correct solution of course would to be able to control the\r\norder in which services on the server come up. But this may suffice\r\nas a nice little workaround for any of you experiencing the same\r\nproblems.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

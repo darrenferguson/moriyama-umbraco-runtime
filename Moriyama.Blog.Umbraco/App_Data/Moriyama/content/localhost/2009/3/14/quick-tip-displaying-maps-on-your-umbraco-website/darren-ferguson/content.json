@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:05",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/darren-ferguson/",
+  "RelativeUrl": "/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/darren-ferguson/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-04-08T08:46:08Z",
+    "title": "Darren Ferguson",
+    "name": "Darren Ferguson",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "@Tom - add this to the top of your script.\n\nvar fm = {};\nfm.maps = new Array();\n\n",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

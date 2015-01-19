@@ -1,0 +1,28 @@
+{
+  "Name": "siw",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:59",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/26/umbraco-mapplace-datatype-available-to-download/siw/",
+  "RelativeUrl": "/2009/2/26/umbraco-mapplace-datatype-available-to-download/siw/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-11-29T21:31:58.06Z",
+    "title": "siw",
+    "name": "siw",
+    "email": "siw@blank.no",
+    "website": "http://www.blank.no",
+    "bodyText": "I'm new to this stuff and the data type works great, as shown in your video. But. Is it possible to place several map points in the same map rendering? Like maps in a google search that will show pinpoints for several locations at the same time? ",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 8,
+  "Level": 6
+}

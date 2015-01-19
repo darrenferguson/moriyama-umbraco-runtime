@@ -1,0 +1,28 @@
+{
+  "Name": "shilpa",
+  "Type": "BlogComment",
+  "CreateDate": "2013-04-08T21:52:55",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/4/8/tips-for-easier-teamsite-templating-development/shilpa/",
+  "RelativeUrl": "/2009/4/8/tips-for-easier-teamsite-templating-development/shilpa/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2013-04-08T21:52:59.367Z",
+    "title": "",
+    "name": "shilpa",
+    "email": "shilpa.kyathi@gmail.com",
+    "website": "",
+    "bodyText": "Hi.. completely irrelevant question to this thread.. \r\nHope I get solutions. \r\nWhere is the meta tags coded? datacapture.cfg or in component or where?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 15,
+  "Level": 6
+}

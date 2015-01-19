@@ -1,0 +1,27 @@
+{
+  "Name": "Personal/Non-profit license for Umbraco backup",
+  "Type": "BlogPost",
+  "CreateDate": "2006-09-19T09:24:00",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/9/19/personalnon-profit-license-for-umbraco-backup/",
+  "RelativeUrl": "/2006/9/19/personalnon-profit-license-for-umbraco-backup/",
+  "Content": {
+    "umbracoUrlAlias": "/personalnon-profit-license-for-umbraco-backup",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-09-19T09:24:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/gXsmpA",
+    "summary": "'Personal/Non-profit license for Umbraco backup' - a blog post by Darren Ferguson about GBP, EUR, USD, Human Interest, Social Issues, Technology Internet written on 19 September 2006",
+    "tags": "GBP, EUR, USD, Human Interest, Social Issues, Technology Internet",
+    "bodyText": "<p>I have added a Personal/Non-profit license to <a href=\"http://www.darren-ferguson.com/umbraco-backup.aspx\">Umbraco backup</a>.</p><p>This license allows you to use all of the features of <a href=\"http://www.darren-ferguson.com/umbraco-backup.aspx\">Umbraco Backup</a> for £15 (US$28 or €22).</p><p>In order to take advantage of this license, your site must be a personal website, a registered charity or a non profit organisation.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

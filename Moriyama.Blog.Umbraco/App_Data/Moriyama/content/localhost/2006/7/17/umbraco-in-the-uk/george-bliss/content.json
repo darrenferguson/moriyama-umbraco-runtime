@@ -1,0 +1,28 @@
+{
+  "Name": "George Bliss",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:41",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/17/umbraco-in-the-uk/george-bliss/",
+  "RelativeUrl": "/2006/7/17/umbraco-in-the-uk/george-bliss/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-07T14:18:03Z",
+    "title": "George Bliss",
+    "name": "George Bliss",
+    "email": "george.bliss@increaseconsulting.com",
+    "website": "",
+    "bodyText": "Hi, I've just started developing our new site, with Umbraco behind it. I love it. Its quick, easy to use and setup, and nice to look at. Top marks. Umbraco will go places...\r\n\r\nDefinitely interested in a user group. I'm based in Richmond, W London.\r\n\r\nGEORGE\r\nIncrease Ltd\r\n44 (0)20 8099 1300",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 15,
+  "Level": 6
+}

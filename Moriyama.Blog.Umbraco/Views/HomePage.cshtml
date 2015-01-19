@@ -5,7 +5,7 @@
 }
 <h1 class="page-title">Blog</h1>
 
-@foreach (var post in Model.Descendants().Where(post => post.Type == "BlogPost"))
+@foreach (var post in Model.Descendants().Where(post => post.Type == "BlogPost").OrderByDescending(post => post.CreateDate).Take(20))
 {
     <article>
         <h2>

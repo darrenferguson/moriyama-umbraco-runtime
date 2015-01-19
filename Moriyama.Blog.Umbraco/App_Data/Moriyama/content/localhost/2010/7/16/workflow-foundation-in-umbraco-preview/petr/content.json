@@ -1,0 +1,28 @@
+{
+  "Name": "Petr",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:05",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/7/16/workflow-foundation-in-umbraco-preview/petr/",
+  "RelativeUrl": "/2010/7/16/workflow-foundation-in-umbraco-preview/petr/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-07-16T10:00:28Z",
+    "title": "Petr",
+    "name": "Petr",
+    "email": "petr.snobelt@gmail.com",
+    "website": "",
+    "bodyText": "It looks fantastic, good work.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

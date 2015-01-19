@@ -1,0 +1,27 @@
+{
+  "Name": "Integrated spell checker for Umbraco",
+  "Type": "BlogPost",
+  "CreateDate": "2006-09-21T11:29:00",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/9/21/integrated-spell-checker-for-umbraco/",
+  "RelativeUrl": "/2006/9/21/integrated-spell-checker-for-umbraco/",
+  "Content": {
+    "umbracoUrlAlias": "/integrated-spell-checker-for-umbraco",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-09-21T11:29:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fHl1nx",
+    "summary": "'Integrated spell checker for Umbraco' - a blog post by Darren Ferguson about web ui demo written on 21 September 2006",
+    "tags": "web ui demo",
+    "bodyText": "<p>I'd avoided looking at spell checking in Umbraco as I thought it would quite time consuming. </p><p>I was wrong... Thanks to the excellent <a href=\"http://sourceforge.net/projects/netspell/\">NetSpell</a> and it's built in web ui demo, it only took about 30 minutes to hack something together.</p><p>Check out the <a href=\"http://www.fergusonmoriyama.com/Spell/spelling.htm\">screencast</a>.</p><p>The checker works on dictionary files, so it will do languages other than English. I implemented it to check specific Umbraco fields, though it would be relatively simple to have it check all fields in a document type.</p><p>I'm hoping Niels will snap this one up and integrate it, as I'm not known for my UI design!</p><p>Next on the list is looking at <a href=\"http://nclassifier.sourceforge.net/\">NClassifier</a> which <a href=\"http://ismail.umbraco.net\">Ismail</a> found. I'm hoping that it will help me add some content intelligence to Umbraco - for example, auto suggesting keywords and document summaries.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

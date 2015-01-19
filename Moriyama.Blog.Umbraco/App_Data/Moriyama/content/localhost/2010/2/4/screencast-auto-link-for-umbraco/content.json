@@ -1,0 +1,27 @@
+{
+  "Name": "Screencast: Auto Link for Umbraco",
+  "Type": "BlogPost",
+  "CreateDate": "2010-02-04T08:02:00",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/2/4/screencast-auto-link-for-umbraco/",
+  "RelativeUrl": "/2010/2/4/screencast-auto-link-for-umbraco/",
+  "Content": {
+    "umbracoUrlAlias": "/screencast-auto-link-for-umbraco",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-02-04T08:02:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/guahcA",
+    "summary": "'Screencast: Auto Link for Umbraco' - a blog post by Darren Ferguson about JavaScript, Social Issues, Technology Internet written on 04 February 2010",
+    "tags": "JavaScript, Social Issues, Technology Internet",
+    "bodyText": "<script type=\"text/javascript\" src=\"/scripts/swfobject.js\"></script><script type=\"text/javascript\">\r\nswfobject.registerObject(\"csSWF2\", \"9.0.115\", \"/media/16117/expressinstall.swf\");\r\n</script><p>\r\nThis screencast is a demonstration of <a href=\"http://our.umbraco.org/projects/auto-link\">Auto Link for Umbraco</a>. Comments, suggestions and feedback are welcome.\r\n</p><div id=\"mediax\"><object classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" width=\"776\" height=\"600\" id=\"csSWF2\"><param name=\"movie\" value=\"/media/Auto Link for Umbraco_controller.swf\" /><param name=\"quality\" value=\"best\" /><param name=\"bgcolor\" value=\"#1a1a1a\" /><param name=\"allowfullscreen\" value=\"true\" /><param name=\"scale\" value=\"showall\" /><param name=\"allowscriptaccess\" value=\"always\" /><param name=\"flashvars\" value=\"autostart=false&amp;thumb=/media/FirstFrame.png&amp;thumbscale=45&amp;color=0x1A1A1A,0x1A1A1A\" /><!--[if !IE]>--><object type=\"application/x-shockwave-flash\" data=\"/media/Auto Link for Umbraco_controller.swf\" width=\"776\" height=\"600\"><param name=\"quality\" value=\"best\" /><param name=\"bgcolor\" value=\"#1a1a1a\" /><param name=\"allowfullscreen\" value=\"true\" /><param name=\"scale\" value=\"showall\" /><param name=\"allowscriptaccess\" value=\"always\" /><param name=\"flashvars\" value=\"autostart=false&amp;thumb=/media/FirstFrame.png&amp;thumbscale=45&amp;color=0x1A1A1A,0x1A1A1A\" /><!--<![endif]--><div id=\"noUpdatex\"><p>The Camtasia Studio video content presented here requires a more recent version of the Adobe Flash Player. If you are you using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Flash Player by <a href=\"http://www.adobe.com/go/getflashplayer\">downloading here</a>.</p></div><!--[if !IE]>--></object><!--<![endif]--></object></div>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

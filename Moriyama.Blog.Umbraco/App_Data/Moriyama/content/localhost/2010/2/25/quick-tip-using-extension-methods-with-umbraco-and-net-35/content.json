@@ -1,0 +1,27 @@
+{
+  "Name": "Quick tip: Using extension methods with Umbraco and .net 3.5",
+  "Type": "BlogPost",
+  "CreateDate": "2010-02-25T08:03:00",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/2/25/quick-tip-using-extension-methods-with-umbraco-and-net-35/",
+  "RelativeUrl": "/2010/2/25/quick-tip-using-extension-methods-with-umbraco-and-net-35/",
+  "Content": {
+    "umbracoUrlAlias": "/quick-tip-using-extension-methods-with-umbraco-and-net-35",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-02-25T08:03:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/eWVN7O",
+    "summary": "'Quick tip: Using extension methods with Umbraco and .net 3.5' - a blog post by Darren Ferguson about API, Education written on 25 February 2010",
+    "tags": "API, Education",
+    "bodyText": "<p>Ever wished that the Umbraco API had an extra method or two? The\r\nexample below uses .net framework 3.5 <a href=\"http://msdn.microsoft.com/en-us/library/bb383977.aspx\">extension\r\nmethods</a> to accomplish just that.</p><p>Extension methods allow you to add new methods to existing\r\nclasses without extending them.</p><pre class=\"sh_csharp\" style=\"border-right: black 1px solid; padding-right: 7px; border-top: black 1px solid; padding-left: 7px; padding-bottom: 7px; border-left: black 1px solid; padding-top: 7px; border-bottom: black 1px solid; background-color: rgb(238,238,238)\">\r\n\r\n// Today would return 2010/02/25\r\nstring path = String.Format(\"{0:yyyy/MM/dd}\", DateTime.Now);\r\nDoucment parent = new Document(id);\r\nDocument newDoc = parent.MakePath(path, new DocumentType(parent.ContentType.Id), true);\r\n\r\n// MakePath isn't an Umbraco API method, so we'll add it using extension methods.\r\nnamespace FM.Umbraco\r\n{\r\n    public static class DocumentExtensions\r\n    {\r\n        public static Document MakePath(this Document d, string path, DocumentType dt, bool publish)\r\n        {\r\n            Document parent = d;\r\n            User u = new User(0);\r\n            foreach (string component in path.Split('/'))\r\n            {\r\n                int parentId = parent.Id;\r\n                Document child = parent.Child(component);\r\n\r\n                if (child != null) { \r\n                    parent = child; \r\n                }\r\n                else\r\n                {\r\n                    parent = Document.MakeNew(component, dt, u, parentId);\r\n                }\r\n\r\n                if (publish)\r\n                {\r\n                    parent.Publish(u);\r\n                    umbraco.library.UpdateDocumentCache(parent.Id);\r\n                }\r\n            }\r\n            return parent;\r\n        }\r\n\r\n        public static Document Child(this Document d, string name)\r\n        {\r\n            foreach (Document child in d.Children)\r\n            {\r\n                if (child.Text.Equals(name))\r\n                {\r\n                    return  child;\r\n                }\r\n            }\r\n            return null;\r\n        }\r\n    }\r\n}\r\n</pre>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

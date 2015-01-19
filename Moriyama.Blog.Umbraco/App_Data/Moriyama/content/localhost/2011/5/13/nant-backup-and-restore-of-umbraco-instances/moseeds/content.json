@@ -1,0 +1,28 @@
+{
+  "Name": "Moseeds",
+  "Type": "BlogComment",
+  "CreateDate": "2011-05-13T10:09:36",
+  "UpdateDate": "2015-01-19T18:43:24",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/5/13/nant-backup-and-restore-of-umbraco-instances/moseeds/",
+  "RelativeUrl": "/2011/5/13/nant-backup-and-restore-of-umbraco-instances/moseeds/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-05-13T10:09:36.233Z",
+    "title": "Moseeds",
+    "name": "Moseeds",
+    "email": "mo@smarta.com",
+    "website": "http://www.smarta.com",
+    "bodyText": "This is really cool and really useful for testing on VMs etc. Great work once again!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

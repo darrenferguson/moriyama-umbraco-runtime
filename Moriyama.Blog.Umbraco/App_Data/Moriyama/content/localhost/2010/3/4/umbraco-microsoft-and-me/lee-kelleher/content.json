@@ -1,0 +1,28 @@
+{
+  "Name": "Lee Kelleher",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:02:47",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/3/4/umbraco-microsoft-and-me/lee-kelleher/",
+  "RelativeUrl": "/2010/3/4/umbraco-microsoft-and-me/lee-kelleher/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-03-05T09:45:13Z",
+    "title": "Lee Kelleher",
+    "name": "Lee Kelleher",
+    "email": "leekelleher@gmail.com",
+    "website": "http://leekelleher.com",
+    "bodyText": "It's great that Microsoft are embracing the Umbraco community with this initiative. Looking forward to see what you guys develop!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Jesper Ordrup",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:44",
+  "UpdateDate": "2015-01-19T18:39:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/9/9/hello-world/jesper-ordrup/",
+  "RelativeUrl": "/2008/9/9/hello-world/jesper-ordrup/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-09-09T21:15:15Z",
+    "title": "Jesper Ordrup",
+    "name": "Jesper Ordrup",
+    "email": "jesper@jesper.com",
+    "website": "http://www.jesper.com",
+    "bodyText": "... congratulations again. It totally reminds me of when my kids were born...",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

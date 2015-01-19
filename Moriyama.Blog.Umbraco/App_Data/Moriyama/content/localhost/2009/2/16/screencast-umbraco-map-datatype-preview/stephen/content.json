@@ -1,0 +1,28 @@
+{
+  "Name": "Stephen",
+  "Type": "BlogComment",
+  "CreateDate": "2011-08-22T17:30:29",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/16/screencast-umbraco-map-datatype-preview/stephen/",
+  "RelativeUrl": "/2009/2/16/screencast-umbraco-map-datatype-preview/stephen/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-08-22T17:30:28.977Z",
+    "title": "Stephen",
+    "name": "Stephen",
+    "email": "stephen@ventil8.com",
+    "website": "",
+    "bodyText": "I have the latest verison of Flash but can see the video, has it been removed?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 19,
+  "Level": 6
+}

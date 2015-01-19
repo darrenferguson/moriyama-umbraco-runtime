@@ -1,0 +1,28 @@
+{
+  "Name": "Bradley",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:54",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/27/running-on-umbraco/bradley/",
+  "RelativeUrl": "/2006/6/27/running-on-umbraco/bradley/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-09-20T05:18:40Z",
+    "title": "Bradley",
+    "name": "Bradley",
+    "email": "umbraco@imovepixels.com",
+    "website": "",
+    "bodyText": "Hey Darren, great stuff you have here.  This is my first foray into .net and umbraco -- I have previously been a wordpress/.php monkey.\r\n\r\nMy question is this, you mention that you use an unmodified version of a wordpress theme, could you elaborate more on HOW you can do that?!  I would love love love to be able to just toss in my wordpress css file into umbraco and have my site transfer.\r\n\r\nThanks Darren!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Efosa",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:52",
+  "UpdateDate": "2015-01-19T18:39:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/efosa/",
+  "RelativeUrl": "/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/efosa/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-05-09T20:48:06Z",
+    "title": "Efosa",
+    "name": "Efosa",
+    "email": "efosao@gmail.com",
+    "website": "http://icorporated.com",
+    "bodyText": "Just a test...",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 11,
+  "Level": 6
+}

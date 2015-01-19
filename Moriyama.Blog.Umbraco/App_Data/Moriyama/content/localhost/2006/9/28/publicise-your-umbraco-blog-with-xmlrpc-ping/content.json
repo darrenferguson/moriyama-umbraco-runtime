@@ -1,0 +1,27 @@
+{
+  "Name": "Publicise your Umbraco blog with XMLRPC ping",
+  "Type": "BlogPost",
+  "CreateDate": "2006-09-28T14:14:00",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/9/28/publicise-your-umbraco-blog-with-xmlrpc-ping/",
+  "RelativeUrl": "/2006/9/28/publicise-your-umbraco-blog-with-xmlrpc-ping/",
+  "Content": {
+    "umbracoUrlAlias": "/publicise-your-umbraco-blog-with-xmlrpc-ping",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-09-28T14:14:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fzRvIg",
+    "summary": "'Publicise your Umbraco blog with XMLRPC ping' - a blog post by Darren Ferguson about Umbraco, web.config, GUI, Technology Internet written on 28 September 2006",
+    "tags": "Umbraco, web.config, GUI, Technology Internet",
+    "bodyText": "<p>As you may be aware many blog directories allow you to inform them of updates to your blog using an <a href=\"http://www.xmlrpc.com/\">XMLRPC</a> interface <a href=\"http://www.xmlrpc.com/weblogsCom\">method</a>.</p><p>If you have already installed the Umbraco blog package, you may not be aware that it uses this method to notify <a href=\"http://www.technorati.com/\">technorati.com</a>. Go to the site and search for some of your blog content and it should be there.</p><p>This is a nice piece of functionality that potentially drives traffic to your site, however there are hundreds of blog directories out there and you can't tell Umbraco's blog package to ping additional URL's.</p><p>I created an <a href=\"http://www.fergusonmoriyama.com/media/8442/fergusonmoriyamaumbracoblogping.zip\">Umbraco action handler</a>. When a blog post is published - or re-published - it reads a comma delimited list of URL's from a key called fmBlogPingUrls. The pinging is done as a background thread so that the GUI doesn't have to wait for all of the ping requests to be processed.</p><p>If your Umbraco blog is a standard install, you can just drop the DLL into your bin directory and add the previously mentioned key into your web.config file to get started.</p><p>If you have changed document type names or property names then you will need to open up the source and modify a few constants before building. The action places quite a lot of debug information about the ping results in the Umbraco log. You may wish to disable this.</p><p>Finally, you'll need some URL's to ping:</p><p><a href=\"http://elliottback.com/wp/archives/2004/11/21/a-list-of-rpc-and-rpc2-to-ping/\">http://elliottback.com/wp/archives/2004/11/21/a-list-of-rpc-and-rpc2-to-ping/</a></p><p></p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

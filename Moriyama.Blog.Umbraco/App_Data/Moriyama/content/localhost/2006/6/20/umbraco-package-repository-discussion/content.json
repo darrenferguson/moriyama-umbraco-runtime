@@ -1,0 +1,27 @@
+{
+  "Name": "Umbraco package repository discussion",
+  "Type": "BlogPost",
+  "CreateDate": "2006-06-20T10:24:00",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/20/umbraco-package-repository-discussion/",
+  "RelativeUrl": "/2006/6/20/umbraco-package-repository-discussion/",
+  "Content": {
+    "umbracoUrlAlias": "/umbraco-package-repository-discussion",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-06-20T10:24:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/hKOIVh",
+    "summary": "'Umbraco package repository discussion' - a blog post by Darren Ferguson about web chat written on 20 June 2006",
+    "tags": "web chat",
+    "bodyText": "<p>\r\nThere was a very good web chat yesterday about the Umbraco 3.0 package repository.\r\n</p><p>\r\nDetails are here. <a href=\"http://www.umbraco.org/10722.aspx\">http://www.umbraco.org/10722.aspx</a></p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

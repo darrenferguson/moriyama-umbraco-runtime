@@ -1,0 +1,27 @@
+{
+  "Name": "Quick Umbraco tip: Display twitter feeds on your site",
+  "Type": "BlogPost",
+  "CreateDate": "2009-01-21T08:40:00",
+  "UpdateDate": "2015-01-19T18:41:22",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/1/21/quick-umbraco-tip-display-twitter-feeds-on-your-site/",
+  "RelativeUrl": "/2009/1/21/quick-umbraco-tip-display-twitter-feeds-on-your-site/",
+  "Content": {
+    "umbracoUrlAlias": "/quick-umbraco-tip-display-twitter-feeds-on-your-site",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-01-21T08:40:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fs1CCj",
+    "summary": "'Quick Umbraco tip: Display twitter feeds on your site' - a blog post by Darren Ferguson about twitter search, XSLT, XML, Technology Internet written on 21 January 2009",
+    "tags": "twitter search, XSLT, XML, Technology Internet",
+    "bodyText": "<p>First, install the Ferguson Moriyama <a href=\"/2008/06/14/feed-cache-package-for-umbraco.aspx\">Feed Cache package for Umbraco</a>. Make sure you read the install instructions which explain how to get the package to run as a scheduled task.</p><p>Grab the URL for your twitter feed, mine is <a title=\"http://search.twitter.com/search.atom?lang=en&amp;q=from%3Adarrenferguson\" href=\"http://search.twitter.com/search.atom?lang=en&amp;q=from%3Adarrenferguson\">http://search.twitter.com/search.atom?lang=en&amp;q=from%3Adarrenferguson</a>. You can turn any twitter search into an atom feed by visiting search.twitter.com and clicking on the ‘Feed for this query’ button after your search.</p><p>Next, configure the Feed Cache package to cache your feed. Open <em>&lt;webroot&gt;</em>/umbraco/plugins/FergusonMoriyama/FeedCache/feeds.config and add an entry like the following:</p><pre style=\"border: 1px solid black; background-color: #eeeeee; padding: 7px;\">&lt;?xml version=\"1.0\"?&gt;\r\n&lt;feeds&gt;\r\n\t&lt;feed&gt;\r\n\t\t&lt;url&gt;http://search.twitter.com/search.atom?q=from%3Adarrenferguson&lt;/url&gt;\r\n\t\t&lt;localFile&gt;twit.xml&lt;/localFile&gt;\r\n\t&lt;/feed&gt;\r\n&lt;/feeds&gt;</pre><p>Wait a little while until twit.xml appears in the <em>&lt;webroot&gt;</em>/umbraco/plugins/FergusonMoriyama/FeedCache folder. If it doesn’t there is probably something wrong with your scheduled task setup.</p><p>Use the following XSLT macro to display tweets on your site:</p><pre style=\"border: 1px solid black; background-color: #eeeeee; padding: 7px;\">&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;\r\n&lt;!DOCTYPE xsl:Stylesheet [&lt;!ENTITY nbsp \"&amp;#x00A0;\"&gt;]&gt;\r\n&lt;xsl:stylesheet\r\n version=\"1.0\"\r\n xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\"\r\n xmlns:msxml=\"urn:schemas-microsoft-com:xslt\"\r\n xmlns:umbraco.library=\"urn:umbraco.library\"\r\n exclude-result-prefixes=\"msxml umbraco.library Atom\"\r\n xmlns:Atom=\"http://www.w3.org/2005/Atom\"&gt;\r\n    \r\n    &lt;xsl:variable name=\"y\" select=\"document('../umbraco/plugins/FergusonMoriyama/FeedCache/twit.xml')/Atom:feed\"/&gt;\r\n    &lt;xsl:output method=\"xml\" omit-xml-declaration=\"yes\"/&gt;\r\n    &lt;xsl:param name=\"currentPage\"/&gt;\r\n    \r\n    &lt;xsl:template match=\"/\"&gt;\r\n        &lt;xsl:for-each select=\"$y/Atom:entry\"&gt;\r\n            &lt;p&gt;\r\n                &lt;em&gt;\r\n                    &lt;xsl:value-of select=\"umbraco.library:FormatDateTime(Atom:published, 'MMMM d, yyyy @ H:mm')\"/&gt;\r\n                &lt;/em&gt;\r\n\t\t&lt;xsl:value-of select=\"Atom:content\" disable-output-escaping=\"yes\"/&gt;\r\n            &lt;/p&gt;\r\n        &lt;/xsl:for-each&gt;\r\n    &lt;/xsl:template&gt;\r\n&lt;/xsl:stylesheet&gt;</pre><p>Obviously you can just change your twitter search to look for hash tags, Umbraco related tweets or whatever you want. There is also a lot more information in the atom feed than I am displaying above and the XLST can be modified to your liking.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

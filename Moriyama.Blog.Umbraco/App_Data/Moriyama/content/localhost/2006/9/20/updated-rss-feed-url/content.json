@@ -1,0 +1,27 @@
+{
+  "Name": "Updated RSS feed URL",
+  "Type": "BlogPost",
+  "CreateDate": "2006-09-20T17:30:00",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/9/20/updated-rss-feed-url/",
+  "RelativeUrl": "/2006/9/20/updated-rss-feed-url/",
+  "Content": {
+    "umbracoUrlAlias": "/updated-rss-feed-url",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-09-20T17:30:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/dJkyO0",
+    "summary": "'Updated RSS feed URL' - a blog post by Darren Ferguson written on 20 September 2006",
+    "tags": "",
+    "bodyText": "<p>My RSS feed is now at <a href=\"http://www.darren-ferguson.com/?altTemplate=RSS\">http://www.darren-ferguson.com/?altTemplate=RSS</a></p><p>As those of you who subscribe probably realised, there is a mysterious bug somewhere in the RSS extension for Umbraco that causes duplicate posts to be dowloaded to RSS clients.</p><p>This new implementation should fix the issue.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

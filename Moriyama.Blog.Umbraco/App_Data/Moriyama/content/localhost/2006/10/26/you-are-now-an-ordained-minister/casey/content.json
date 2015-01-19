@@ -1,0 +1,28 @@
+{
+  "Name": "Casey",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:20",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/10/26/you-are-now-an-ordained-minister/casey/",
+  "RelativeUrl": "/2006/10/26/you-are-now-an-ordained-minister/casey/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-10-26T19:08:01Z",
+    "title": "Casey",
+    "name": "Casey",
+    "email": "casey@neehouse.com",
+    "website": "",
+    "bodyText": "So, will you be performing blessings on the next version of umbraco, or are you wanting to give the last rights to 2.1.x?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Chris Houston",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:08",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/7/16/workflow-foundation-in-umbraco-preview/chris-houston/",
+  "RelativeUrl": "/2010/7/16/workflow-foundation-in-umbraco-preview/chris-houston/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-07-20T00:57:43Z",
+    "title": "Chris Houston",
+    "name": "Chris Houston",
+    "email": "chouston@vizioz.com",
+    "website": "http://www.vizioz.com",
+    "bodyText": "Hi Darren,\r\n\r\nI like the demo :) As I mentioned at CG10 we have a couple of sites live currently using Workflow Foundation for client side work flow, where a user who logs in must first sign a T&C and various other compulsary steps before being allowed to access the rest of the site.\r\n\r\nIt works really well as they can do one step, log off, come back later and carry on where they left off.\r\n\r\nWhat I would like is to some how allow clients to build their own workflows within Umbraco, which I think would be possible with pre-defined workflow tasks.\r\n\r\nCheers,\r\n\r\nChris",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 6,
+  "Level": 6
+}

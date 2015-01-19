@@ -1,0 +1,28 @@
+{
+  "Name": "Boris (1)",
+  "Type": "BlogComment",
+  "CreateDate": "2012-02-06T09:24:01",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/4/8/tips-for-easier-teamsite-templating-development/boris-1/",
+  "RelativeUrl": "/2009/4/8/tips-for-easier-teamsite-templating-development/boris-1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-02-06T09:24:01.647Z",
+    "title": "Boris",
+    "name": "Boris",
+    "email": "i-boa@web.de",
+    "website": "",
+    "bodyText": "Hi Darren, we are using recent version of TS, which is 7.3.1. Probably you mean we should use Site-Publisher and LiveSite. But we have to support many legacy websites.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 12,
+  "Level": 6
+}

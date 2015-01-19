@@ -1,0 +1,27 @@
+{
+  "Name": "Umbraco backup beta 2 updated",
+  "Type": "BlogPost",
+  "CreateDate": "2006-08-05T08:24:00",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/8/5/umbraco-backup-beta-2-updated/",
+  "RelativeUrl": "/2006/8/5/umbraco-backup-beta-2-updated/",
+  "Content": {
+    "umbracoUrlAlias": "/umbraco-backup-beta-2-updated",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-05T08:24:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/hLNowL",
+    "summary": "'Umbraco backup beta 2 updated' - a blog post by Darren Ferguson about Backed, XML written on 05 August 2006",
+    "tags": "Backed, XML",
+    "bodyText": "<p>\r\nI just replaced the Umbraco backup beta 2 package which you can get from the <a href=\"/umbraco-backup.aspx\">project homepage</a>.\r\n</p><p>\r\nA couple of minor bugs have been fixed and thanks to some feedback from <a href=\"http://www.hartvig.com\">Niels</a> Umbraco backup now tells you what it has done in a nicer manner...\r\n</p><p><i>Report for Backup 474bf157-d508-4e4f-b0bc-1322ae5d537e<br />\r\nFile backup status: Suceeded<br />\r\nDatabase backup status: Suceeded<br /><br />\r\nBacked up 1237 files. 55657635 bytes.<br />\r\nStarted: 8:31:15 PM<br />\r\nFinished: 8:38:14 PM<br />\r\nElapsed time: 0 hours, 6 minutes and 59 seconds.\r\n<br /><br />\r\nRunning as SHRGB-HBXGB\\wsh1009-10448<br />\r\nVirtual Directory: Access is denied<br />\r\nCreated directory D:\\WWWRoot\\darren-ferguson.com\\database\\474bf157-d508-4e4f-b0bc-1322ae5d537e<br />\r\nRemote XML<br />\r\nSaving database table: dtproperties<br />\r\nSaving database table: cmsContent<br />\r\nSaving database table: cmsContentType<br />\r\nSaving database table: cmsContentTypeAllowedContentType</i></p><p>\r\nPlease keep the feedback coming, it helps make this a better product.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 5
+}

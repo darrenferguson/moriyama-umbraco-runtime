@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:56",
+  "UpdateDate": "2015-01-19T18:39:06",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/14/feed-cache-package-for-umbraco/darren-ferguson/",
+  "RelativeUrl": "/2008/6/14/feed-cache-package-for-umbraco/darren-ferguson/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-15T08:54:47Z",
+    "title": "Darren Ferguson",
+    "name": "Darren Ferguson",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "Hi Doug,\r\n\r\nIf for any reason the feed can't be retrieved from the external server the error message will be logged and the previous version of the cached feed will still be available.\r\n\r\nAs for the second question, you are correct. The feed is simply written to disk. You'll need to read and render the feed somehow in order to display it.\r\n\r\nHope this helps.\r\nDarren.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

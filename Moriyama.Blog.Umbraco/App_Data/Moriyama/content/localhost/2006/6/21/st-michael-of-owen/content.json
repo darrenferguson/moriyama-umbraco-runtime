@@ -1,0 +1,27 @@
+{
+  "Name": "St. Michael of Owen",
+  "Type": "BlogPost",
+  "CreateDate": "2006-06-21T10:21:00",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/21/st-michael-of-owen/",
+  "RelativeUrl": "/2006/6/21/st-michael-of-owen/",
+  "Content": {
+    "umbracoUrlAlias": "/st-michael-of-owen",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-06-21T10:21:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/gr62oT",
+    "summary": "'St. Michael of Owen' - a blog post by Darren Ferguson about the World cup written on 21 June 2006",
+    "tags": "the World cup",
+    "bodyText": "<p>\r\nMichael is out of the World cup. **** **** **** ****! \r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

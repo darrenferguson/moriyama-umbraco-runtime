@@ -1,0 +1,27 @@
+{
+  "Name": "Intellisense when editing Umbraco examine config",
+  "Type": "BlogPost",
+  "CreateDate": "2011-03-09T10:00:00",
+  "UpdateDate": "2015-01-19T18:43:25",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/3/9/intellisense-when-editing-umbraco-examine-config/",
+  "RelativeUrl": "/2011/3/9/intellisense-when-editing-umbraco-examine-config/",
+  "Content": {
+    "umbracoUrlAlias": "/intellisense-when-editing-umbraco-examine-config",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-03-09T10:00:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fnWlgV",
+    "summary": "'Intellisense when editing Umbraco examine config' - a blog post by Darren Ferguson about XML, Technology Internet written on 09 March 2011",
+    "tags": "XML, Technology Internet, Intellisense",
+    "bodyText": "\r\n<p>I've uploaded a zip file to our Umbraco that contains XSD\r\n(Schema) files for the Umbraco Examine configuration files -\r\nExamineSettings.config and ExamineIndex.config you can <a\r\nhref=\"http://our.umbraco.org/projects/developer-tools/umbraco-examine-config-schemas\">\r\ndownload the zip here</a>.</p>\r\n\r\n<p>Once installed and activated these files give you intellisense\r\nand validation when editing Examine configuration</p>\r\n\r\n<p>To install, place the .xsd files in the download in the\r\nXML\\Schemas sub folder of your visual studio install. Once\r\ninstalled open your examine configuration files and in the\r\nproperties pane click on the \"...\" button to activate an additional\r\nschema against the file.</p>\r\n\r\n<div><img src=\"/media/119590/untitled2_500x389.jpg\" width=\"500\" height=\"389\" alt=\"Schemas\"/></div>\r\n\r\n<p style=\"margin-top: 10px;\">In the resulting window choose the\r\nappropriate schema file to activate.</p>\r\n\r\n<div><img src=\"/media/77666/14232_2.png\" alt=\"SchemaChoose\"/></div>\r\n\r\n<p style=\"margin-top: 10px;\">Once the schema is active you should\r\nhave intellisense and validation available on your Examine\r\nconfiguration.</p>\r\n\r\n<div><img src=\"/media/77671/14232_3.png\" alt=\"ExamineIntelli2\"/></div>\r\n\r\n<div style=\"margin-top: 10px;\"><img src=\"/media/77676/14232_4.png\" alt=\"ExamineIntelli3\"/></div>\r\n\r\n<p style=\"margin-top: 10px;\">Note: because the examine files are\r\nincluded by web.config and form part of a larger configuration XML\r\ndocument we can't give the root element a namespace and map the\r\nSchemas automatically.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

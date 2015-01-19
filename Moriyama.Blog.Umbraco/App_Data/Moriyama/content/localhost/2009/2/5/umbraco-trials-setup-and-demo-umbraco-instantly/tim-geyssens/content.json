@@ -1,0 +1,28 @@
+{
+  "Name": "Tim Geyssens",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:36",
+  "UpdateDate": "2015-01-19T18:41:21",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/5/umbraco-trials-setup-and-demo-umbraco-instantly/tim-geyssens/",
+  "RelativeUrl": "/2009/2/5/umbraco-trials-setup-and-demo-umbraco-instantly/tim-geyssens/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-02-05T13:27:38Z",
+    "title": "Tim Geyssens",
+    "name": "Tim Geyssens",
+    "email": "info@nibble.be",
+    "website": "http://www.nibble.be",
+    "bodyText": "Nice Darren!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 7,
+  "Level": 6
+}

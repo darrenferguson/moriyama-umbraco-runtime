@@ -1,0 +1,28 @@
+{
+  "Name": "Paolo",
+  "Type": "BlogComment",
+  "CreateDate": "2011-10-31T15:35:35",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/16/adding-jquery-autocomplete-to-teamsite-formspublisher/paolo/",
+  "RelativeUrl": "/2009/2/16/adding-jquery-autocomplete-to-teamsite-formspublisher/paolo/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-10-31T15:35:35.64Z",
+    "title": "Paolo",
+    "name": "Paolo",
+    "email": "priotto.paolo@geo.de",
+    "website": "",
+    "bodyText": "WTF, after hacking exactly the same functionality into our TeamSite over here, I find this very post I was planning to write myself.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 16,
+  "Level": 6
+}

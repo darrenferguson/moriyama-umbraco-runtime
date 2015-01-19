@@ -143,6 +143,7 @@
     <Compile Include="Interfaces\IPathMapper.cs" />
     <Compile Include="Interfaces\ISearchService.cs" />
     <Compile Include="Models\RuntimeContentModel.cs" />
+    <Compile Include="Models\SearchResultModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RuntimeContext.cs" />
     <Compile Include="Services\CachedRuntimeContentService.cs" />

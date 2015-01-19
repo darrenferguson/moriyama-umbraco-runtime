@@ -1,0 +1,28 @@
+{
+  "Name": "Darren",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:06:00",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/2/4/screencast-auto-link-for-umbraco/darren/",
+  "RelativeUrl": "/2010/2/4/screencast-auto-link-for-umbraco/darren/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-12-17T12:15:09.813Z",
+    "title": "Darren",
+    "name": "Darren",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "@geoff - i've updated all of the links on our.umbraco.org",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 10,
+  "Level": 6
+}

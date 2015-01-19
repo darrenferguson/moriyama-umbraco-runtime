@@ -1,0 +1,27 @@
+{
+  "Name": "Chilli T-shirts - Buy now!",
+  "Type": "BlogPost",
+  "CreateDate": "2007-03-01T21:45:00",
+  "UpdateDate": "2015-01-19T18:37:17",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2007/3/1/chilli-t-shirts-buy-now/",
+  "RelativeUrl": "/2007/3/1/chilli-t-shirts-buy-now/",
+  "Content": {
+    "umbracoUrlAlias": "/chilli-t-shirts-buy-now!",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2007-03-01T21:45:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/goKCN4",
+    "summary": "'Chilli T-shirts - Buy now!' - a blog post by Darren Ferguson about GBP written on 01 March 2007",
+    "tags": "GBP",
+    "bodyText": "<p>\r\nOk. So it took us a long time to put together but here they are. If you want to buy one in medium or small, drop me a mail or leave a comment on this blog post. £15 a shirt available in small or medium. \r\n</p><p><a href=\"http://www.flickr.com/photos/darrenferguson/407038188/\" title=\"Photo Sharing\"><img src=\"/media/77432/2169_1.jpg\" width=\"333\" height=\"500\" alt=\"Chilli t-shirts\" /></a></p><p><a href=\"http://www.flickr.com/photos/darrenferguson/406842700/\" title=\"Photo Sharing\"><img src=\"/media/77437/2169_2.jpg\" width=\"375\" height=\"500\" alt=\"Chilli sauce t shirt\" /></a></p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 5
+}

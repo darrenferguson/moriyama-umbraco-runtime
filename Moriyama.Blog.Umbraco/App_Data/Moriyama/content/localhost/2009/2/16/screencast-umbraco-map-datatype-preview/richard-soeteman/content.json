@@ -1,0 +1,28 @@
+{
+  "Name": "Richard Soeteman",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:50",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/16/screencast-umbraco-map-datatype-preview/richard-soeteman/",
+  "RelativeUrl": "/2009/2/16/screencast-umbraco-map-datatype-preview/richard-soeteman/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-02-17T10:01:52Z",
+    "title": "Richard Soeteman",
+    "name": "Richard Soeteman",
+    "email": "richard@richardsoeteman.net",
+    "website": "http://www.richardsoeteman.net/",
+    "bodyText": "Hi Darren,\r\n\r\nVery cool package. Also a great way to demonstrate the power of Umbraco datatypes. I will definitely use the datatype when it's available. \r\n\r\nThanks for sharing,\r\n\r\nRichard",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

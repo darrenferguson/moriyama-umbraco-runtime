@@ -1,0 +1,28 @@
+{
+  "Name": "Nico Lubbers",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:02:57",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/3/25/visual-validator-package-for-umbraco/nico-lubbers/",
+  "RelativeUrl": "/2010/3/25/visual-validator-package-for-umbraco/nico-lubbers/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-03-26T07:30:13Z",
+    "title": "Nico Lubbers",
+    "name": "Nico Lubbers",
+    "email": "nico.lubbers@booleanpark.com",
+    "website": "",
+    "bodyText": "That's a nice package Darren!\r\n\r\nWould be great if it could work without even adding the dummyfield, but I guess that would require a modification in umbraco itself. \r\n\r\nQuestion: would it be possible to change the validation color? The intense red background makes it a bit hard to read the black characters\r\n\r\nNico",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

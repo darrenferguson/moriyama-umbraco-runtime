@@ -1,0 +1,27 @@
+{
+  "Name": "Extracting document metadata in Umbraco",
+  "Type": "BlogPost",
+  "CreateDate": "2009-06-21T22:58:00",
+  "UpdateDate": "2015-01-19T18:41:18",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/6/21/extracting-document-metadata-in-umbraco/",
+  "RelativeUrl": "/2009/6/21/extracting-document-metadata-in-umbraco/",
+  "Content": {
+    "umbracoUrlAlias": "/extracting-document-metadata-in-umbraco",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-06-21T22:58:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/ejb94w",
+    "summary": "'Extracting document metadata in Umbraco' - a blog post by Darren Ferguson about JavaScript, Social Issues, Technology Internet written on 21 June 2009",
+    "tags": "JavaScript, Social Issues, Technology Internet",
+    "bodyText": "<script type=\"text/javascript\" src=\"/scripts/swfobject.js\"></script><script type=\"text/javascript\">\r\nswfobject.registerObject(\"csSWF\", \"9.0.115\", \"/media/16117/expressinstall.swf\");\r\n</script><p>The screencast below shows some work I've been doing in automatically extracting metadata from documents when they are uploaded to the Umbraco media section.</p><p>\r\nHINT: You can make the screencast full screen.\r\n</p><div id=\"media\"><object classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" width=\"800\" height=\"450\" id=\"csSWF\"><param name=\"movie\" value=\"/media/screencast2_controller.swf\" /><param name=\"quality\" value=\"best\" /><param name=\"bgcolor\" value=\"#1a1a1a\" /><param name=\"allowfullscreen\" value=\"true\" /><param name=\"scale\" value=\"showall\" /><param name=\"allowscriptaccess\" value=\"always\" /><param name=\"flashvars\" value=\"autostart=false&amp;thumb=/media/firstframe.png&amp;thumbscale=45&amp;color=0x1A1A1A,0x1A1A1A\" /><!--[if !IE]>--><object type=\"application/x-shockwave-flash\" data=\"/media/screencast2_controller.swf\" width=\"800\" height=\"450\"><param name=\"quality\" value=\"best\" /><param name=\"bgcolor\" value=\"#1a1a1a\" /><param name=\"allowfullscreen\" value=\"true\" /><param name=\"scale\" value=\"showall\" /><param name=\"allowscriptaccess\" value=\"always\" /><param name=\"flashvars\" value=\"autostart=false&amp;thumb=/media/firstframe.png&amp;thumbscale=45&amp;color=0x1A1A1A,0x1A1A1A\" /><!--<![endif]--><div id=\"noUpdate\"><p>The Camtasia Studio video content presented here requires a more recent version of the Adobe Flash Player. If you are you using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Flash Player by <a href=\"http://www.adobe.com/go/getflashplayer\">downloading here</a>.</p></div><!--[if !IE]>--></object><!--<![endif]--></object></div>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

@@ -1,0 +1,27 @@
+{
+  "Name": "Back online with a new dedicated server",
+  "Type": "BlogPost",
+  "CreateDate": "2008-12-30T15:01:00",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/12/30/back-online-with-a-new-dedicated-server/",
+  "RelativeUrl": "/2008/12/30/back-online-with-a-new-dedicated-server/",
+  "Content": {
+    "umbracoUrlAlias": "/back-online-with-a-new-dedicated-server",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-12-30T15:01:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/ghmwng",
+    "summary": "'Back online with a new dedicated server' - a blog post by Darren Ferguson about Human Interest written on 30 December 2008",
+    "tags": "Human Interest",
+    "bodyText": "<p>My site is back online after a little enforced downtime. I was having real stability problems using a WebFusion VPS and as far as I am concerned their introductory VPS package is unfit for purpose. I'd strongly recommend that you don't attempt to host an Umbraco site with them.</p><p>The more eagle eyed amongst you may notice that a couple of posts went missing. I'll just say that I have learned the hard way to check whether my scheduled database backups are running or not.</p><p>Anyway, I am back up and running on a dedicated server. Hopefully my site(s) should be a little more stable now.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

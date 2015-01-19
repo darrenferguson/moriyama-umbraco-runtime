@@ -1,0 +1,28 @@
+{
+  "Name": "bob baty-barr",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:55",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/5/23/umbraco-file-upload-with-progress-bar/bob-baty-barr/",
+  "RelativeUrl": "/2006/5/23/umbraco-file-upload-with-progress-bar/bob-baty-barr/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2007-03-03T17:23:25Z",
+    "title": "bob baty-barr",
+    "name": "bob baty-barr",
+    "email": "bob@baty-barr.com",
+    "website": "http://www.baty-barr.com",
+    "bodyText": "Darren... the upload with progres is great, however, on 2.1.6 using the upload with progres appears to create some issues for linking to media items with the richText editor... even if the items were not uploaded with large file upload, the editor only gets the mediaID not the path... if i switch back to using the standard upload component, linking is fine... once again, without even uploading any files.\r\n\r\nany thoughts?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

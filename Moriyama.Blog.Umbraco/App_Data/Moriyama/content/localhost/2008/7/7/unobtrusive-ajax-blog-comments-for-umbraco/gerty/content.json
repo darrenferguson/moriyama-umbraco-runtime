@@ -1,0 +1,28 @@
+{
+  "Name": "Gerty",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:50",
+  "UpdateDate": "2015-01-19T18:39:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/gerty/",
+  "RelativeUrl": "/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/gerty/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-08T12:43:24Z",
+    "title": "Gerty",
+    "name": "Gerty",
+    "email": "gerty@netcentric.be",
+    "website": "http://www.netcentric.be",
+    "bodyText": "testing :-)",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 5,
+  "Level": 6
+}

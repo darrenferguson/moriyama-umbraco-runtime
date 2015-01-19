@@ -1,0 +1,28 @@
+{
+  "Name": "Lee Kelleher",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:06:04",
+  "UpdateDate": "2015-01-19T18:43:25",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/2/22/the-umbraco-xslt-for-loop/lee-kelleher/",
+  "RelativeUrl": "/2011/2/22/the-umbraco-xslt-for-loop/lee-kelleher/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-02-22T16:35:56.473Z",
+    "title": "Lee Kelleher",
+    "name": "Lee Kelleher",
+    "email": "leekelleher@gmail.com",
+    "website": "http://leekelleher.com",
+    "bodyText": "Can be done in pure XSLT too! ;-)\n\nhttp://pastebin.com/92UXcYUQ",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

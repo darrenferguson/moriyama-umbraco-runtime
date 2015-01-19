@@ -1,0 +1,27 @@
+{
+  "Name": "Turn off funny Internet Explorer messages on Windows Server 2008",
+  "Type": "BlogPost",
+  "CreateDate": "2013-10-31T08:07:22",
+  "UpdateDate": "2015-01-19T18:44:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2013/10/31/turn-off-funny-internet-explorer-messages-on-windows-server-2008/",
+  "RelativeUrl": "/2013/10/31/turn-off-funny-internet-explorer-messages-on-windows-server-2008/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2013-10-31T08:12:00Z",
+    "title": "Turn off funny Internet Explorer messages on Windows Server 2008",
+    "shortUrl": "",
+    "summary": "'Turn off funny Internet Explorer messages on Windows Server 2008' - a blog post by Darren Ferguson about Internet Explorer, Security written on 31st October 2013",
+    "tags": "Internet Explorer, Security",
+    "bodyText": "<p>Have you ever logged into a Windows server and seen that a dev has installed Chrome or Firefox to get rid of \"funny Internet Explorer warning messages\"?</p>\r\n<p>Yes, well me too. But you can turn these warnings off in a few clicks.</p>\r\n<ul>\r\n<li>Right click \"My Computer\"</li>\r\n<li>Choose Manage</li>\r\n<li>In the resulting dialogue click Configure IE ESC (on the right side of the window in the \"Security information\" section</li>\r\n</ul>\r\n<p>You'll get the following dialogue: </p>\r\n<p><img width=\"419\" height=\"441\" src=\"/media/133569/untitled.png\" alt=\"Untitled\"/></p>\r\n<p>From here, it is simple to turn off the messages which are actually called \"Internet Explorer enhanced secruity configuration\" rather than \"funny messages\".</p>",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 0,
+  "Level": 5
+}

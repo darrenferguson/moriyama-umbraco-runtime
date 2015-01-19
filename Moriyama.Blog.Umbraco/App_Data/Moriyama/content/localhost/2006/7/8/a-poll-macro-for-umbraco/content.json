@@ -1,0 +1,27 @@
+{
+  "Name": "A poll macro for Umbraco",
+  "Type": "BlogPost",
+  "CreateDate": "2006-07-08T15:58:00",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/8/a-poll-macro-for-umbraco/",
+  "RelativeUrl": "/2006/7/8/a-poll-macro-for-umbraco/",
+  "Content": {
+    "umbracoUrlAlias": "/a-poll-macro-for-umbraco",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-08T15:58:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fgONyd",
+    "summary": "'A poll macro for Umbraco' - a blog post by Darren Ferguson about web functionality, web poll, java, Technology Internet written on 08 July 2006",
+    "tags": "web functionality, web poll, java, Technology Internet",
+    "bodyText": "<p>A web poll is a useful way of gathering opinions from your site users. It is also one of the most trivial pieces of web functionality that you could write.</p><p>A friend who is a java developer and has never really used .net or Umbraco wanted to see a real world example, so I put this together for him real quick (he was impressed).</p><p><a href=\"http://darren-fergusoncom.site.securepod.com/development/polldemo.aspx\">http://darren-fergusoncom.site.securepod.com/development/polldemo.aspx</a></p><p>I’ll look at releasing a package at some point. It is implemented as a Macro that takes a question and a delimited set of answers as parameters.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

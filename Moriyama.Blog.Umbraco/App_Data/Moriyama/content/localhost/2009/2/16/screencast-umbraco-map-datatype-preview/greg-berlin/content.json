@@ -1,0 +1,28 @@
+{
+  "Name": "Greg Berlin",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:52",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/16/screencast-umbraco-map-datatype-preview/greg-berlin/",
+  "RelativeUrl": "/2009/2/16/screencast-umbraco-map-datatype-preview/greg-berlin/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-02-17T14:08:17Z",
+    "title": "Greg Berlin",
+    "name": "Greg Berlin",
+    "email": "reg@berlinit.com",
+    "website": "http://greg.berlin.net.au",
+    "bodyText": "Awesome!  I'm currently upgrading my blog and getting it all ready for my travel adventures (I'm exploring SE Asia for 3 months from March to June).... this would be absolutely perfect for showing my location in the world.\n\nI was going to do a Virtual Maps macro or data type, but have run out of time so glad u've beaten me to it.  Thanks :)",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 7,
+  "Level": 6
+}

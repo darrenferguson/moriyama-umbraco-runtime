@@ -1,0 +1,28 @@
+{
+  "Name": "Ismail Mayat",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:46",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/20/poll-macro-needs-improving/ismail-mayat/",
+  "RelativeUrl": "/2006/7/20/poll-macro-needs-improving/ismail-mayat/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-21T16:23:28Z",
+    "title": "Ismail Mayat",
+    "name": "Ismail Mayat",
+    "email": "ismail.mayat@iassmarts.com",
+    "website": "http://ismail.umbraco.net/",
+    "bodyText": "Darren,\r\n\r\nI found this on codeproject http://www.codeproject.com/useritems/Site_Poll_Control.asp. Not had a play myself but looks ok.\r\n\r\nRegards\r\n\r\nIsmail",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

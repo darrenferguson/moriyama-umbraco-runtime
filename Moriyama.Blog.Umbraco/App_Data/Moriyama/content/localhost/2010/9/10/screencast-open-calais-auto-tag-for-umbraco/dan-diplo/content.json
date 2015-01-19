@@ -1,0 +1,28 @@
+{
+  "Name": "Dan Diplo",
+  "Type": "BlogComment",
+  "CreateDate": "2011-06-21T12:47:23",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/9/10/screencast-open-calais-auto-tag-for-umbraco/dan-diplo/",
+  "RelativeUrl": "/2010/9/10/screencast-open-calais-auto-tag-for-umbraco/dan-diplo/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-06-21T12:47:22.967Z",
+    "title": "Dan Diplo",
+    "name": "Dan Diplo",
+    "email": "dan@diplo.co.uk",
+    "website": "http://www.diplo.co.uk/",
+    "bodyText": "Nice package! Funnily enough I also, independently, create an Open Calais data-type for Umbraco, too. Mine works slightly differently, but never got around to releasing it. Nice that you have :)",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

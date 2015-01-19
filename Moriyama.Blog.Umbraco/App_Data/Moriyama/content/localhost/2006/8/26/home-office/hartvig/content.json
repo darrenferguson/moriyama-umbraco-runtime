@@ -1,0 +1,28 @@
+{
+  "Name": "Hartvig",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:29",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/8/26/home-office/hartvig/",
+  "RelativeUrl": "/2006/8/26/home-office/hartvig/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-29T09:22:16Z",
+    "title": "Hartvig",
+    "name": "Hartvig",
+    "email": "niels@hartvig.com",
+    "website": "http://hartvig.com",
+    "bodyText": "Are you running OS X on your Dell or do you have a mini hidden somewhere?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

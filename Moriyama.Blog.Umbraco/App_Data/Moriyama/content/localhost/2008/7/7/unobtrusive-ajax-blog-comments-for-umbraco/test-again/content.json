@@ -1,0 +1,28 @@
+{
+  "Name": "Test Again",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:51",
+  "UpdateDate": "2015-01-19T18:39:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/test-again/",
+  "RelativeUrl": "/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/test-again/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-01-25T22:04:48Z",
+    "title": "Test Again",
+    "name": "Test Again",
+    "email": "ss_shkod@mail.ru",
+    "website": "",
+    "bodyText": "Only testing your ajax comments ;)\nThank's for it!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 10,
+  "Level": 6
+}

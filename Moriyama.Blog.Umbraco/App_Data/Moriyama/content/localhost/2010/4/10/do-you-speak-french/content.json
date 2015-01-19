@@ -1,0 +1,27 @@
+{
+  "Name": "Do you speak French?",
+  "Type": "BlogPost",
+  "CreateDate": "2010-04-10T09:47:00",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/4/10/do-you-speak-french/",
+  "RelativeUrl": "/2010/4/10/do-you-speak-french/",
+  "Content": {
+    "umbracoUrlAlias": "/do-you-speak-french",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-04-10T09:47:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/e2WYn7",
+    "summary": "'Do you speak French?' - a blog post by Darren Ferguson about Interwoven consultant written on 10 April 2010",
+    "tags": "Interwoven consultant",
+    "bodyText": "<p><strong>Phone rings:</strong><br />\r\nMe: Hello.<br />\r\nHim: Do you speak French?<br />\r\nMe: No.<br />\r\nHim: Oh, not even a little bit?<br />\r\nMe: No.<br />\r\nHim: Errr, OK so you don't speak any French?<br />\r\nMe: That is an accurate summary of our conversation so far, so what can I.....<br />\r\nHim: [cutting me off] I'm looking for an Interwoven consultant, but they must speak French.<br />\r\nMe: Well, I think we've established that there isn't a conversation to have.<br />\r\n[Long pause]<br />\r\nHim: So you don't speak French....<br />\r\nMe: No.<br />\r\nHim: Do you know anyone who speaks French?<br />\r\nMe: Yes, quite a few people.<br />\r\nHim: Great, well do you think...<br />\r\n[cutting him off]<br />\r\nMe: But not with Interwoven skills.<br />\r\nHim: Oh, well thankyou. Bye.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

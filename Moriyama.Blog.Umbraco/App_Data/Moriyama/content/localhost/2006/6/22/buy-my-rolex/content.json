@@ -1,0 +1,27 @@
+{
+  "Name": "Buy my Rolex!",
+  "Type": "BlogPost",
+  "CreateDate": "2006-06-22T10:09:00",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/22/buy-my-rolex/",
+  "RelativeUrl": "/2006/6/22/buy-my-rolex/",
+  "Content": {
+    "umbracoUrlAlias": "/buy-my-rolex!",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-06-22T10:09:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/e5biAn",
+    "summary": "'Buy my Rolex!' - a blog post by Darren Ferguson written on 22 June 2006",
+    "tags": "",
+    "bodyText": "<p>\r\nWhy not treat yourself to a <a href=\"http://cgi.ebay.co.uk/Rolex-Submariner-date-Model-16610-Stainless-Steel_W0QQitemZ8949419037QQcategoryZ3852QQssPageNameZWDVWQQrdZ1QQcmdZViewItem\">Rolex</a>? It’s a bargain. \r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

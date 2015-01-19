@@ -1,0 +1,28 @@
+{
+  "Name": "Rob",
+  "Type": "BlogComment",
+  "CreateDate": "2011-06-23T13:56:53",
+  "UpdateDate": "2015-01-19T18:43:24",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/5/10/a-simple-umbraco-cart-with-doc-cart-contour-and-bill4u-part-2/rob/",
+  "RelativeUrl": "/2011/5/10/a-simple-umbraco-cart-with-doc-cart-contour-and-bill4u-part-2/rob/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-06-23T13:56:53.943Z",
+    "title": "Rob",
+    "name": "Rob",
+    "email": "r_hoven@hotmail.com",
+    "website": "",
+    "bodyText": "This is really great. looking forward to see the next parts. using contour and bill4u.\n\n",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

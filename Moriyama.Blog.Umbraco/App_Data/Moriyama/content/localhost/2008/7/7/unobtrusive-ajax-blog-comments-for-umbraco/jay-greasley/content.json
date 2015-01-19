@@ -1,0 +1,28 @@
+{
+  "Name": "jay greasley",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:50",
+  "UpdateDate": "2015-01-19T18:39:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/jay-greasley/",
+  "RelativeUrl": "/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/jay-greasley/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-09T15:55:13Z",
+    "title": "jay greasley",
+    "name": "jay greasley",
+    "email": "jaygreasley@gmail.com",
+    "website": "",
+    "bodyText": "testing this ajax comment panel",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 6,
+  "Level": 6
+}

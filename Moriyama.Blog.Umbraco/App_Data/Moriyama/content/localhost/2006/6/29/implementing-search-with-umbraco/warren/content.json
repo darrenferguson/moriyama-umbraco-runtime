@@ -1,0 +1,28 @@
+{
+  "Name": "Warren",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:55",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/29/implementing-search-with-umbraco/warren/",
+  "RelativeUrl": "/2006/6/29/implementing-search-with-umbraco/warren/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-01T12:08:00Z",
+    "title": "Warren",
+    "name": "Warren",
+    "email": "Warren@netramedia.com",
+    "website": "http://www.netramedia.com/home/",
+    "bodyText": "You Sir are a Star!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Lee Kelleher",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:02:59",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/4/5/umbraco-microsoft-and-me-update-and-more-swag/lee-kelleher/",
+  "RelativeUrl": "/2010/4/5/umbraco-microsoft-and-me-update-and-more-swag/lee-kelleher/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-04-05T16:06:17Z",
+    "title": "Lee Kelleher",
+    "name": "Lee Kelleher",
+    "email": "leekelleher@gmail.com",
+    "website": "http://leekelleher.com",
+    "bodyText": "Fair play for persisting with the video diaries, the fear of being alone with a camera is enough to scare me off! haha\r\n\r\nI wasn't aware of Microsoft Expression Encoder, (even though I signed up to the WebsiteSpark program), I'd put Expression down to a 'designer'-type app, with no further research.\r\n\r\nI'll have to take a look, since I want to do some screencasts of my various Umbraco packages!\r\n\r\nKeep up the good work.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

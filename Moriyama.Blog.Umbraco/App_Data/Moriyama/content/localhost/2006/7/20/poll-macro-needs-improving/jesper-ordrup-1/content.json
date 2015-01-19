@@ -1,0 +1,28 @@
+{
+  "Name": "Jesper Ordrup (1)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:49",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/20/poll-macro-needs-improving/jesper-ordrup-1/",
+  "RelativeUrl": "/2006/7/20/poll-macro-needs-improving/jesper-ordrup-1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-10T21:03:20Z",
+    "title": "Jesper Ordrup (1)",
+    "name": "Jesper Ordrup (1)",
+    "email": "jesper@jesper.com",
+    "website": "http://www.jesper.com",
+    "bodyText": "Thanks.\r\n\r\nAnother solution could be to do the same as the Blog package which is to add an actionhandler that organize the votes in subnodes - one for each day ... \r\n\r\nJesper",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

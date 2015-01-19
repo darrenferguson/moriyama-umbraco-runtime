@@ -1,0 +1,28 @@
+{
+  "Name": "Tommy Skaue",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:05",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/tommy-skaue/",
+  "RelativeUrl": "/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/tommy-skaue/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-05-04T15:14:59Z",
+    "title": "Tommy Skaue",
+    "name": "Tommy Skaue",
+    "email": "tommy@skaue.com",
+    "website": "",
+    "bodyText": "Great stuff - nicely done! :-D",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

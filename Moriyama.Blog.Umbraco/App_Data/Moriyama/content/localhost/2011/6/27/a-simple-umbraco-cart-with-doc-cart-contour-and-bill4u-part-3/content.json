@@ -1,0 +1,27 @@
+{
+  "Name": "A Simple Umbraco cart with Doc Cart, Contour and Bill4u - Part 3",
+  "Type": "BlogPost",
+  "CreateDate": "2011-06-27T08:43:39",
+  "UpdateDate": "2015-01-19T18:43:24",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/6/27/a-simple-umbraco-cart-with-doc-cart-contour-and-bill4u-part-3/",
+  "RelativeUrl": "/2011/6/27/a-simple-umbraco-cart-with-doc-cart-contour-and-bill4u-part-3/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-06-27T08:00:00Z",
+    "title": "A Simple Umbraco cart with Doc Cart, Contour and Bill4u - Part 3",
+    "shortUrl": "http://bit.ly/jdwNpo",
+    "summary": "'A Simple Umbraco cart with Doc Cart, Contour and Bill4u Part 3'' - a blog post by Darren Ferguson about Commerce, Umbraco, Cart, Bill4u written on the 26th June 2011",
+    "tags": "Commerce, Umbraco, Cart, Bill4u",
+    "bodyText": "\r\n<p>This is part 3 of&nbsp; <a\r\nhref=\"/2011/5/9/a-simple-umbraco-cart-with-doc-cart,-contour-and-bill4u\">\r\nA Simple Umbraco cart with Doc Cart, Contour and Bill4u</a></p>\r\n\r\n<p>In this screencast we look at setting up a checkout form using\r\nContour.</p>\r\n\r\n<p><object width=\"520\" height=\"390\"\r\ndata=\"http://www.vimeo.com/moogaloop.swf?clip_id=25617755&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\"\r\n type=\"application/x-shockwave-flash\"><param name=\"data\"\r\nvalue=\"http://www.vimeo.com/moogaloop.swf?clip_id=25617755&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\" />\r\n<param name=\"allowfullscreen\" value=\"true\" />\r\n<param name=\"allowscriptaccess\" value=\"always\" />\r\n<param name=\"src\"\r\nvalue=\"http://www.vimeo.com/moogaloop.swf?clip_id=25617755&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\" />\r\n</object></p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

@@ -13,7 +13,8 @@
     foreach (var result in Model.SearchResults)
     {
         <p>
-            <a href="@result.RelativeUrl">@result.Name</a> @result.Type
+            <a href="@result.Content.RelativeUrl">@result.Content.Name</a><br/>
+            @Html.Raw(result.PreviewText)
         </p>
     }
 }

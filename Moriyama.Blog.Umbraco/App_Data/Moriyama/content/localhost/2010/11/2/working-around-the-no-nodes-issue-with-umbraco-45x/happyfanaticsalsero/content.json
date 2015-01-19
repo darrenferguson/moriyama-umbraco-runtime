@@ -1,0 +1,28 @@
+{
+  "Name": "happyfanaticsalsero",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:58",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/11/2/working-around-the-no-nodes-issue-with-umbraco-45x/happyfanaticsalsero/",
+  "RelativeUrl": "/2010/11/2/working-around-the-no-nodes-issue-with-umbraco-45x/happyfanaticsalsero/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-11-05T06:51:55.937Z",
+    "title": "happyfanaticsalsero",
+    "name": "happyfanaticsalsero",
+    "email": "pieter@vantichelen.name",
+    "website": "",
+    "bodyText": "Hi Darren,\n\nThanks a lot for your weblog about this issue (and posts on our.umbraco.org) as I've just had a nasty occurence myself. My hosting company had some deadlocks on a database which had to restart... and because of a websitepanel upgrade IIS was restarted as well. Although it seems unlikely this will reproduce a lot of times, it may and I want to apply a fix.\n\nHow do I put the custom nonodes page in place? Just make an aspx with your code and put it in the umbraco root? Or will I need to perform any other tricks?\n\nKind regards & thanks in advance,\nHFS",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

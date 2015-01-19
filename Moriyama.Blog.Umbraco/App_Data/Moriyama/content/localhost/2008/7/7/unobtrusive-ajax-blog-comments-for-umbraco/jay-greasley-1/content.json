@@ -1,0 +1,28 @@
+{
+  "Name": "jay greasley (1)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:51",
+  "UpdateDate": "2015-01-19T18:39:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/jay-greasley-1/",
+  "RelativeUrl": "/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/jay-greasley-1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-09T15:56:48Z",
+    "title": "jay greasley (1)",
+    "name": "jay greasley (1)",
+    "email": "jaygreasley@gmail.com",
+    "website": "",
+    "bodyText": "playing devils advocate - would a full page reload be more or less than the 40k round trip??",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 7,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Adz",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:48",
+  "UpdateDate": "2015-01-19T18:39:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/8/13/six-firefox-plugins-that-make-my-life-easier/adz/",
+  "RelativeUrl": "/2008/8/13/six-firefox-plugins-that-make-my-life-easier/adz/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-08-13T22:58:37Z",
+    "title": "Adz",
+    "name": "Adz",
+    "email": "aperry7@gmail.com",
+    "website": "http://www.createsoft.co.uk/blog/",
+    "bodyText": "Another vote for del.icio.us - I used to use Foxmarks but found delicious to be much better.  Firebug is excellent, as is the Google notifer (but on OSX there are other, non FF replacements - Twitter(iffic) and Google Notifier in the menubar).\n\nI also recommend AdBlock.\n\nBut for Umbraco users - \"Its all Text!\" is fantastic.  It allows you to edit text on a web page using your favourite editor.\nSo for example, if editing CSS or XSLT in Umbraco on Windows, you would right-click and open the text in Visual Studio, edit in Visual Studio, then save it back to Umbraco.\nTry it - https://addons.mozilla.org/en-US/firefox/addon/4125",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

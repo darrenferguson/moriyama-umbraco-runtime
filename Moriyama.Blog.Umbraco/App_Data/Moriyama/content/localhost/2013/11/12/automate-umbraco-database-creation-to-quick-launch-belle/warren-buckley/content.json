@@ -1,0 +1,28 @@
+{
+  "Name": "Warren Buckley",
+  "Type": "BlogComment",
+  "CreateDate": "2013-11-12T14:36:34",
+  "UpdateDate": "2015-01-19T18:44:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2013/11/12/automate-umbraco-database-creation-to-quick-launch-belle/warren-buckley/",
+  "RelativeUrl": "/2013/11/12/automate-umbraco-database-creation-to-quick-launch-belle/warren-buckley/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "name": "Warren Buckley",
+    "email": "warren@creativewebspecialist.co.uk",
+    "website": "",
+    "bodyText": "Hey Darren nice bit of work.\r\nI use the same piece of code with Morten's help last week at the hackathon to achieve the same thing of setting up the DB Schema.\r\n\r\nI am using the same code in my Visual Studio File New Project Umbraco Template\r\nhttp://visualstudiogallery.msdn.microsoft.com/e8893648-f2f1-47cf-909c-53fff87a679a\r\nhttp://www.screenr.com/slJH\r\n\r\nWhich may be of use to you or perhaps anyone else reading this.\r\n\r\nThanks,\r\nWarren :)\r\n",
+    "ip": "109.204.60.222",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

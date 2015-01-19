@@ -1,0 +1,28 @@
+{
+  "Name": "Alex",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:02",
+  "UpdateDate": "2015-01-19T18:39:06",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/8/rss-feed-aggregation-using-yahoo-pipes/alex/",
+  "RelativeUrl": "/2008/6/8/rss-feed-aggregation-using-yahoo-pipes/alex/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-05-12T00:45:13Z",
+    "title": "Alex",
+    "name": "Alex",
+    "email": "alex.aholmes@gmail.com",
+    "website": "http://yomrholmes.com",
+    "bodyText": "I just used Pipes to aggregate my first group of feeds, and gotta say it was quite straight forward to figure out.  Great tool to play around with.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

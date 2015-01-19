@@ -1,0 +1,28 @@
+{
+  "Name": "Kolchy",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:06",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/7/16/workflow-foundation-in-umbraco-preview/kolchy/",
+  "RelativeUrl": "/2010/7/16/workflow-foundation-in-umbraco-preview/kolchy/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-07-19T23:25:26Z",
+    "title": "Kolchy",
+    "name": "Kolchy",
+    "email": "kkopp@nextdigital.com",
+    "website": "http://www.kolchy.com",
+    "bodyText": "Awesome work Darren!! Big fan of it. I know Niels is not a big fan of workflow in a CMS, but many clients do ask for it... keep up the great work!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

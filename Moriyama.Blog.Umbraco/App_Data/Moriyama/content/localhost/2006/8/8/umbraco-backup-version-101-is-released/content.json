@@ -1,0 +1,27 @@
+{
+  "Name": "Umbraco backup version 1.01 is released",
+  "Type": "BlogPost",
+  "CreateDate": "2006-08-08T16:28:00",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/8/8/umbraco-backup-version-101-is-released/",
+  "RelativeUrl": "/2006/8/8/umbraco-backup-version-101-is-released/",
+  "Content": {
+    "umbracoUrlAlias": "/umbraco-backup-version-101-is-released",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-08T16:28:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fs2Kwi",
+    "summary": "'Umbraco backup version 1.01 is released' - a blog post by Darren Ferguson about Technology Internet written on 08 August 2006",
+    "tags": "Technology Internet",
+    "bodyText": "<p>Umbraco backup version 1.01 is released and available for download from the <a href=\"/umbraco-backup.aspx\">project homepage</a>.\r\n</p><p>\r\nThis latest version will now backup virtual directories (if permissions allow) and FTP your backup to a remote machine.\r\n</p><p>\r\nThe user guide and restore tools will be added in the next day or two.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

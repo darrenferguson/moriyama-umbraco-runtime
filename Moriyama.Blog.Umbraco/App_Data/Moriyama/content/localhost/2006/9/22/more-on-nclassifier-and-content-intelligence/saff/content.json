@@ -1,0 +1,28 @@
+{
+  "Name": "saff",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:23",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/9/22/more-on-nclassifier-and-content-intelligence/saff/",
+  "RelativeUrl": "/2006/9/22/more-on-nclassifier-and-content-intelligence/saff/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-01-25T03:38:09Z",
+    "title": "saff",
+    "name": "saff",
+    "email": "saff_18@yahoo.com",
+    "website": "",
+    "bodyText": "how do you assign those stopwords that u want to add?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

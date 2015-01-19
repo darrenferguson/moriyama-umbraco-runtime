@@ -1,0 +1,27 @@
+{
+  "Name": "Workflow foundation in Umbraco - Preview",
+  "Type": "BlogPost",
+  "CreateDate": "2010-07-16T09:05:00",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/7/16/workflow-foundation-in-umbraco-preview/",
+  "RelativeUrl": "/2010/7/16/workflow-foundation-in-umbraco-preview/",
+  "Content": {
+    "umbracoUrlAlias": "/workflow-foundation-in-umbraco-preview",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-07-16T09:05:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/eWVlOk",
+    "summary": "'Workflow foundation in Umbraco - Preview' - a blog post by Darren Ferguson about Workflow written on 16 July 2010",
+    "tags": "Workflow",
+    "bodyText": "<p>At the Codegarden 2010 workflow open space session I pledged to demo what I had achieved with Workflow foundation and Umbraco. The screencast below is an overview of where I am</p><p>PS: When the demo fails in the screencast - I should have left the event checked (without a checked event there is no event to cancel!)</p><p><object width=\"520\" height=\"390\" data=\"http://www.vimeo.com/moogaloop.swf?clip_id=13373531&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\" type=\"application/x-shockwave-flash\"><param name=\"allowfullscreen\" value=\"true\" /><param name=\"allowscriptaccess\" value=\"always\" /><param name=\"movie\" value=\"http://www.vimeo.com/moogaloop.swf?clip_id=13373531&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\" /></object></p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

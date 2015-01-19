@@ -1,0 +1,27 @@
+{
+  "Name": "Quick Perl script: Scrape your photos from Twitpic",
+  "Type": "BlogPost",
+  "CreateDate": "2009-03-30T10:01:00",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/3/30/quick-perl-script-scrape-your-photos-from-twitpic/",
+  "RelativeUrl": "/2009/3/30/quick-perl-script-scrape-your-photos-from-twitpic/",
+  "Content": {
+    "umbracoUrlAlias": "/quick-perl-script-scrape-your-photos-from-twitpic",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-03-30T10:01:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/ge5PsR",
+    "summary": "'Quick Perl script: Scrape your photos from Twitpic' - a blog post by Darren Ferguson about Noah Everett, Twitter, handheld device, US Federal Reserve, iPhone, Human Interest, Technology Internet written on 30 March 2009",
+    "tags": "Noah Everett, Twitter, handheld device, US Federal Reserve, iPhone, Human Interest, Technology Internet",
+    "bodyText": "<p>I've been following <a href=\"http://twitter.com/noaheverett\">Noah Everett</a> the creator\r\nof <a href=\"http://www.twitpic.com/\">twitpic</a> on Twitter.\r\nAlthough he provides a great service it does appear to be a one man\r\nshow - there is every chance he could get fed up and walk away - I\r\ndoubt the terms of service give the user any way of getting their\r\nphotos back if that happened.</p><p>Most people use twitpic for throw-away snapshots posted from\r\ntheir handheld device but I use a twitter account with protected\r\nupdates to create a timeline of my daughter growing up. I\r\nphotograph her day to day on my iPhone and as my twitter client\r\ndoesn't offer an option, the photos end up on twitpic. These photos\r\nare memories I am not prepared to lose.</p><p>Below is the script i run once a week to ensure my photos are\r\nbacked up.</p><pre class=\"sh_perl\" style=\"border: 1px solid black; padding: 7px; background-color: #eeeeee;\">\r\n\r\nuse strict;\r\nuse utf8;\r\n\r\nuse LWP::Simple;\r\nuse XML::Simple;\r\nuse Data::Dumper;\r\nuse Date::Parse;\r\nuse Date::Format;\r\nuse XML::DOM;\r\n\r\nmy $content = get(\"http://twitpic.com/photos/darrenferguson/feed.rss\");\r\ndie \"Couldn't get it!\" unless defined $content;\r\n\r\nmy $xml = XMLin($content);\r\n\r\nforeach my $item (@{$xml-&gt;{channel}-&gt;{item}}) {\r\n    \r\n    my $link = $item-&gt;{link};\r\n    my $date = $item-&gt;{pubDate};\r\n    \r\n    $date = str2time($date);\r\n    $date = time2str('%Y-%m-%d_%H-%M-%S_', $date);\r\n    \r\n    $link =~ m|.*/(.*$)|;\r\n    my $id = $1;\r\n    \r\n    \r\n    my $html = get($link);\r\n    \r\n    \r\n    if(defined $html) {\r\n        while($html =~ s|(&lt;img.*?&gt;)||ism) {\r\n            my $tag = $1;\r\n            if($tag =~ m|class\\=\\\"photo-large\\\"|) {\r\n                $tag =~ m|src\\=\\\"(.*?)\\\"|;\r\n                my $src = $1;\r\n                my $img_data = get($src);\r\n                \r\n                if(defined $img_data) {           \r\n                    my $fn = \"$date-$id.jpg\";\r\n                    \r\n                    if(!(-f $fn)) {\r\n                        open FILE, \"&gt;$date-$id.jpg\";\r\n                        binmode FILE;\r\n                        print FILE $img_data;\r\n                        close FILE;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n</pre>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

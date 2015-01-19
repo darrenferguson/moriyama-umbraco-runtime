@@ -1,0 +1,28 @@
+{
+  "Name": "Darren",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:02:58",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/3/31/simple-and-precise-pdf-generation-in-umbraco/darren/",
+  "RelativeUrl": "/2010/3/31/simple-and-precise-pdf-generation-in-umbraco/darren/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-04-01T09:00:21Z",
+    "title": "Darren",
+    "name": "Darren",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "Hi Warren there are plenty of good XSL-FO resources out there already so my doc only covers package specific configuration. \n\nI'll make the doc available shortly.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

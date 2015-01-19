@@ -1,0 +1,28 @@
+{
+  "Name": "BryanSD",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:31",
+  "UpdateDate": "2015-01-19T18:41:17",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/8/24/if-you-want-rid-of-ie6-then-start-doing-something-practical-about-it/bryansd/",
+  "RelativeUrl": "/2009/8/24/if-you-want-rid-of-ie6-then-start-doing-something-practical-about-it/bryansd/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-08-25T10:37:39Z",
+    "title": "BryanSD",
+    "name": "BryanSD",
+    "email": "bryan@cmsreport.com",
+    "website": "http://cmsreport.com",
+    "bodyText": "You probably forgot the most important suggestion.\n\n4. Show that applications believed by your organization to require IE6 can or will work with newer versions of IE (IE7 or IE8).\n\nMy experience is that many of the applications (usually Active X apps) running on the Intranet side are compatible with newer versions of IE. Often it's someone in the IT department that's just been too lazy to verify compatibility. In some of these cases, the applications may be artificially blocking non IE6 applications. Sometimes a very minor change in the HTML code is all that is needed to make everyone happy.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

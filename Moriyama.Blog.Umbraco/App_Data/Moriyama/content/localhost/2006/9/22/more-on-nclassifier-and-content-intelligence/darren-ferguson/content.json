@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:23",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/9/22/more-on-nclassifier-and-content-intelligence/darren-ferguson/",
+  "RelativeUrl": "/2006/9/22/more-on-nclassifier-and-content-intelligence/darren-ferguson/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-09-22T10:44:46Z",
+    "title": "Darren Ferguson",
+    "name": "Darren Ferguson",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "Commenting on my own post... Yes, I know that Lucene includes a lot of this functionality too!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

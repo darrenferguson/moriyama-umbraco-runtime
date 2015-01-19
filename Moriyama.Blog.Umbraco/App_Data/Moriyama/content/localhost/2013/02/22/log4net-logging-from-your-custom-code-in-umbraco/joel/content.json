@@ -1,0 +1,28 @@
+{
+  "Name": "Joel",
+  "Type": "BlogComment",
+  "CreateDate": "2014-12-12T13:35:24",
+  "UpdateDate": "2015-01-19T18:44:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2013/02/22/log4net-logging-from-your-custom-code-in-umbraco/joel/",
+  "RelativeUrl": "/2013/02/22/log4net-logging-from-your-custom-code-in-umbraco/joel/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "name": "Joel",
+    "email": "joelself@gmail.com",
+    "website": "",
+    "bodyText": "Thanks for this. It was exactly what I needed. Turned a really tricky problem into something that took 2 minutes.",
+    "ip": "50.246.193.233",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

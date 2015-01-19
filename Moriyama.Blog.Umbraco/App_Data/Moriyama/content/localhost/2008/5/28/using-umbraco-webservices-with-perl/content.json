@@ -1,0 +1,27 @@
+{
+  "Name": "Using Umbraco Webservices with Perl",
+  "Type": "BlogPost",
+  "CreateDate": "2008-05-28T12:27:00",
+  "UpdateDate": "2015-01-19T18:39:07",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/5/28/using-umbraco-webservices-with-perl/",
+  "RelativeUrl": "/2008/5/28/using-umbraco-webservices-with-perl/",
+  "Content": {
+    "umbracoUrlAlias": "/using-umbraco-webservices-with-perl",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-05-28T12:27:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/dGnMKy",
+    "summary": "'Using Umbraco Webservices with Perl' - a blog post by Darren Ferguson about content search option, Perl, Technology Internet, Human Interest written on 28 May 2008",
+    "tags": "content search option, Perl, Technology Internet, Human Interest",
+    "bodyText": "\r\n<p>I had quite a few spam comments on my site that I wanted to get\r\nrid of. Without a content search option available in Umbraco, I\r\ndecided to use the webservices to get a list of all blog\r\ncomments.</p>\r\n\r\n<p>As a result of this, I have quite a nice example of how to\r\naccess Umbraco via webservices with Perl. The example below will\r\nsimply get all documents from Umbraco and print them to screen.</p>\r\n\r\n<pre class=\"brush: perl;\">\r\nuse SOAP::Lite +trace =&gt; 'debug';\r\nuse Data::Dumper;\r\n\r\nuse constant HOST =&gt; 'myhost';\r\nuse constant UID  =&gt; 'admin';\r\nuse constant PWD  =&gt; 'mypwd';\r\nuse constant ROOTNODE =&gt; 0;\r\n\r\nmy $access = SOAP::Lite\r\n  -&gt; proxy('http://'.HOST.'/umbraco/webservices/api/DocumentService.asmx')\r\n  -&gt; uri('http://umbraco.org/webservices/')\r\n  -&gt; on_action( sub {sprintf '%s%s', @_} );\r\n\r\nmy $username = SOAP::Data-&gt;type(string=&gt; UID)-&gt;name('username');\r\nmy $password = SOAP::Data-&gt;type(string =&gt; PWD)-&gt;name('password');\r\n\r\nmy $result = $access-&gt;UserAuthenticates($username, $password);\r\n\r\nif ($result-&gt;fault) {\r\n    print $result-&gt;faultcode, \" : \", $result-&gt;faultstring, \"\\n\";\r\n    die \"Couldn't login\";\r\n}\r\n\r\nmy @docs = allDocs($access, ROOTNODE, $username, $password);\r\nforeach my $doc (@docs) {\r\n    print Dumper($doc);\r\n}\r\n\r\nsub allDocs {\r\n    \r\n    my ($access, $nodeId, $username, $password) = @_;\r\n    my @docs;\r\n    my $node = SOAP::Data-&gt;type(int=&gt; $nodeId)-&gt;name('parentid');\r\n    $result = $access-&gt;readList($node, $username, $password);\r\n    if($result-&gt;result)\r\n    {\r\n        if($result-&gt;result-&gt;{documentCarrier}-&gt;{Id}) { \r\n            push @docs, $result-&gt;result-&gt;{documentCarrier};\r\n        } else {\r\n            @docs = @{$result-&gt;result-&gt;{documentCarrier}};\r\n        }\r\n    \r\n    }\r\n    foreach my $doc (@docs) {\r\n        push(@docs, allDocs($access, $doc-&gt;{Id}, $username, $password));\r\n    }\r\n    return @docs;\r\n}\r\n</pre>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

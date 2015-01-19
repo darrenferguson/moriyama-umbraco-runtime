@@ -1,0 +1,28 @@
+{
+  "Name": "Warren",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:50",
+  "UpdateDate": "2015-01-19T18:39:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/warren/",
+  "RelativeUrl": "/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/warren/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-07T13:21:19Z",
+    "title": "Warren",
+    "name": "Warren",
+    "email": "warren@creativewebspecialist.co.uk",
+    "website": "http://www.creativewebspecialist.co.uk",
+    "bodyText": "Hiya Darren, I would be interested in the jQuery and the solution just to see what is going on.\r\n\r\nWarren",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

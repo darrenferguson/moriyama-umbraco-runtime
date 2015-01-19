@@ -1,0 +1,28 @@
+{
+  "Name": "Anders",
+  "Type": "BlogComment",
+  "CreateDate": "2011-05-14T08:51:59",
+  "UpdateDate": "2015-01-19T18:43:24",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/5/13/nant-backup-and-restore-of-umbraco-instances/anders/",
+  "RelativeUrl": "/2011/5/13/nant-backup-and-restore-of-umbraco-instances/anders/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-05-14T08:51:59.03Z",
+    "title": "Anders",
+    "name": "Anders",
+    "email": "anders.rorvik@gmail.com",
+    "website": "",
+    "bodyText": "Really good work",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

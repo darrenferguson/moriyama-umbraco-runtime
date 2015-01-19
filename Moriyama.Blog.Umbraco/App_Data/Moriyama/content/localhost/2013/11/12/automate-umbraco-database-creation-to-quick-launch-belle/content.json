@@ -1,0 +1,27 @@
+{
+  "Name": "Automate Umbraco database creation to quick launch Belle",
+  "Type": "BlogPost",
+  "CreateDate": "2013-11-12T10:13:53",
+  "UpdateDate": "2015-01-19T18:44:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2013/11/12/automate-umbraco-database-creation-to-quick-launch-belle/",
+  "RelativeUrl": "/2013/11/12/automate-umbraco-database-creation-to-quick-launch-belle/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2013-11-12T10:03:00Z",
+    "title": "Automate Umbraco databse creation to quick launch Belle",
+    "shortUrl": "",
+    "summary": "'Automate Umbraco databse creation to quick launch Belle' - a blog post by Darren Ferguson about Umbraco, Belle, NAnt written on 12th November 2013",
+    "tags": "Umbraco, Belle, NAnt",
+    "bodyText": "<p><em>Many thanks to Morten aka <a href=\"https://twitter.com/sitereactor\">@sitereactor</a> for the code snippet that makes this work.</em></p>\r\n<p>At <a href=\"http://www.moriyama.co.uk/\">Moriyama</a>, we are a fan of automating the boring stuff so we can spend as much time as possible doing the interesting stuff such as testing <a href=\"http://our.umbraco.org/contribute/releases/700\">Belle</a> (Umbraco 7). We decided to automate Belle installation, so we can set up environments really quickly.</p>\r\n<p>Our weapon of choice for automation is <a href=\"http://nant.sourceforge.net/\">NAnt</a>, a .NET build tool which is ideal for automating tasks like downloading files, extracting zip files etc. We set about building a Belle installer based on our existing <a href=\"http://our.umbraco.org/projects/developer-tools/nant-backup-and-restore\">NAnt backup and restore</a> script.</p>\r\n<p>We hit a blocker when we tried to automate creating an empty Umbraco database. There isn't an SQL script nowadays. Thankfully Morten provided us with this code snippet.</p>\r\n<pre class=\"brush: csharp;\">using System.Reflection;\r\nusing Umbraco.Core.Persistence;\r\nusing Umbraco.Core.Persistence.SqlSyntax;\r\n\r\nnamespace ConsoleApplication3\r\n{\r\n    class Program\r\n    {\r\n        static void Main(string[] args)\r\n        {\r\n            var db = new UmbracoDatabase(\"server=.;database=belle;user id=belle;password=belle\", \"System.Data.SqlClient\");\r\n\r\n            SqlSyntaxContext.SqlSyntaxProvider = new SqlServerSyntaxProvider();\r\n\r\n            //Create DB Schema\r\n            //Get the method we want to run\r\n            var methodToRun = typeof(PetaPocoExtensions).GetMethod(\"CreateDatabaseSchema\", BindingFlags.Static | BindingFlags.NonPublic);\r\n\r\n            //Invoke the Method - CreateDatabaseSchema\r\n            methodToRun.Invoke(null, new object[] { db, false });\r\n        }\r\n    }\r\n}\r\n</pre>\r\n<p>This is really nice because with a couple of references to Umbraco DLLs we can initialise an empty Umbraco database. It also works for version 6 and version 7, just reference the DLL that ships with the version of Umbraco.</p>\r\n<p>One of the nice things about NAnt is that we can load assemblies into our build script and execute against them directly, so we can take the code above and run it directly from our build as follows:</p>\r\n<pre class=\"brush: xml;\">&lt;script language=\"C#\" prefix=\"UmbracoExtension\"&gt;\r\n      &lt;references&gt;\r\n        &lt;include name=\"System.Data.dll\" /&gt;\r\n        &lt;include name=\"${web.root}/bin/Umbraco.Core.dll\" /&gt;\r\n        &lt;include name=\"${web.root}/bin/MiniProfiler.dll\" /&gt;\r\n      &lt;/references&gt;\r\n      &lt;imports&gt;\r\n        &lt;import namespace=\"System.Data.SqlClient\" /&gt;\r\n        &lt;import namespace=\"System.Reflection\" /&gt;\r\n        &lt;import namespace=\"Umbraco.Core.Persistence\" /&gt;\r\n        &lt;import namespace=\"Umbraco.Core.Persistence.SqlSyntax\" /&gt;\r\n      &lt;/imports&gt;\r\n      &lt;code&gt;\r\n      &lt;![CDATA[\r\n        [Function(\"InitDb\")]\r\n        public static void InitDb(string siteName) {\r\n          var db = new UmbracoDatabase(\"server=.;database=\"+siteName+\";user id=\"+siteName+\";password=\"+siteName+\";\", \"System.Data.SqlClient\");             \r\n          SqlSyntaxContext.SqlSyntaxProvider = new SqlServerSyntaxProvider();\r\n          var methodToRun = typeof(PetaPocoExtensions).GetMethod(\"CreateDatabaseSchema\", BindingFlags.Static | BindingFlags.NonPublic);\r\n          methodToRun.Invoke(null, new object[] { db, false });\r\n        }\r\n      ]]&gt;\r\n      &lt;/code&gt;\r\n    &lt;/script&gt;\r\n    &lt;property name=\"init.db\" value=\"${UmbracoExtension::InitDb(site.name)}\"/&gt;\r\n</pre>\r\n<p>The result? A local Umbraco setup against a nightly of Belle in about 30 seconds including the time taken to download and unpack the release (as shown in the screencast below).</p>\r\n<p><iframe src=\"http://player.vimeo.com/video/79183110\" width=\"500\" height=\"375\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></p>",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 0,
+  "Level": 5
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Keith Carlson",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:02:46",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/2/4/screencast-auto-link-for-umbraco/keith-carlson/",
+  "RelativeUrl": "/2010/2/4/screencast-auto-link-for-umbraco/keith-carlson/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-04-23T19:01:16Z",
+    "title": "Keith Carlson",
+    "name": "Keith Carlson",
+    "email": "keith.carlson@plainwrapsolutions.com",
+    "website": "http://www.microfabrica.com",
+    "bodyText": "Would it be possible to get the source code?  We would like to extend this idea to showing definitions with tooltips, and this is a great start for it.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 6,
+  "Level": 6
+}

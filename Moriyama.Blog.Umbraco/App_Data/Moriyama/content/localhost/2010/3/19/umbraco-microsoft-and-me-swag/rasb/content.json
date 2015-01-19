@@ -1,0 +1,28 @@
+{
+  "Name": "RasB",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:02:50",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/3/19/umbraco-microsoft-and-me-swag/rasb/",
+  "RelativeUrl": "/2010/3/19/umbraco-microsoft-and-me-swag/rasb/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-03-20T18:10:20Z",
+    "title": "RasB",
+    "name": "RasB",
+    "email": "beck_rasmus@hotmail.com",
+    "website": "",
+    "bodyText": "Very cool to have Umbraco put on the map like that. Can't wait to see what you come up with.\r\n\r\nWhat's the timeframe for this project? How long will they be funding you guys?\r\n\r\n/RasB",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 10,
+  "Level": 6
+}

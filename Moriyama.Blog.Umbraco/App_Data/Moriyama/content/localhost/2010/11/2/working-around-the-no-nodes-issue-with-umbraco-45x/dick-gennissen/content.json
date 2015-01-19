@@ -1,0 +1,28 @@
+{
+  "Name": "Dick Gennissen",
+  "Type": "BlogComment",
+  "CreateDate": "2011-11-16T12:03:15",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/11/2/working-around-the-no-nodes-issue-with-umbraco-45x/dick-gennissen/",
+  "RelativeUrl": "/2010/11/2/working-around-the-no-nodes-issue-with-umbraco-45x/dick-gennissen/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-11-16T12:03:15.47Z",
+    "title": "Dick Gennissen",
+    "name": "Dick Gennissen",
+    "email": "dick.gennissen@tamtam.nl",
+    "website": "http://www.tamtam.nl",
+    "bodyText": "Hi Darren,\n\nWe also have experienced this issue with Umbraco 4.7.0 and did not find any reason why the umbraco.config was empty.\n\nStrange this was, when we republished the entire site (from content-node) also nothing happend. The cmsContentXml table was also empty.\n\nWas this also the case when you have encountered this issue?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 6,
+  "Level": 6
+}

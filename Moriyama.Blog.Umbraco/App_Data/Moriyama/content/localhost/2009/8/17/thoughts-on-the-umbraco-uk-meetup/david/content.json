@@ -1,0 +1,28 @@
+{
+  "Name": "David",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:31",
+  "UpdateDate": "2015-01-19T18:41:18",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/8/17/thoughts-on-the-umbraco-uk-meetup/david/",
+  "RelativeUrl": "/2009/8/17/thoughts-on-the-umbraco-uk-meetup/david/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-10-23T07:11:15Z",
+    "title": "David",
+    "name": "David",
+    "email": "david.peck@edcoms.co.uk",
+    "website": "",
+    "bodyText": "Do you think there will be an event next year? I'd love to attend if there were.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

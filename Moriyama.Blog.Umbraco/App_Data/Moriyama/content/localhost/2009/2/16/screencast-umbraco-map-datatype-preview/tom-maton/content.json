@@ -1,0 +1,28 @@
+{
+  "Name": "Tom Maton",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:55",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/16/screencast-umbraco-map-datatype-preview/tom-maton/",
+  "RelativeUrl": "/2009/2/16/screencast-umbraco-map-datatype-preview/tom-maton/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-06-29T20:34:26Z",
+    "title": "Tom Maton",
+    "name": "Tom Maton",
+    "email": "letstalk@tom-maton.co.uk",
+    "website": "",
+    "bodyText": "Hi Darren,\n\nGreat work mate. \n\nJust a quick question though, is it possible to add multiple locations on one map using this datatype?\n\nTom",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 16,
+  "Level": 6
+}

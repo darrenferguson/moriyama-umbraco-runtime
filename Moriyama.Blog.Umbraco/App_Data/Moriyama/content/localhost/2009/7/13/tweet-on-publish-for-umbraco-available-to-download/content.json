@@ -1,0 +1,27 @@
+{
+  "Name": "Tweet on publish for Umbraco – available to download",
+  "Type": "BlogPost",
+  "CreateDate": "2009-07-13T22:07:00",
+  "UpdateDate": "2015-01-19T18:41:18",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/7/13/tweet-on-publish-for-umbraco-available-to-download/",
+  "RelativeUrl": "/2009/7/13/tweet-on-publish-for-umbraco-available-to-download/",
+  "Content": {
+    "umbracoUrlAlias": "/tweet-on-publish-for-umbraco-–-available-to-download",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-07-13T22:07:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fUeniq",
+    "summary": "'Tweet on publish for Umbraco – available to download' - a blog post by Darren Ferguson about Technology Internet written on 13 July 2009",
+    "tags": "Technology Internet",
+    "bodyText": "<p>I've released a new version of my Umbraco package that sends\r\ntweets when you publish a content node. The package is available to\r\ndownload from <a href=\"/code-bank.aspx\">my Umbraco packages\r\npage</a> or the <a href=\"http://our.umbraco.org/projects/tweet-on-publish\">our.umbraco\r\nproject page</a>.</p><p>Features include:</p><ul><li>Complete rewrite of my previous twitter package</li><li>Configure multiple twitter accounts.</li><li>Send multiple tweets per publish.</li><li>Ensure documents are not tweeted on re-publish.</li><li>Support direct messages and @mentions</li><li>Send different tweets per document type.</li><li>Filter tweets by domain.</li><li>Includes full PDF manual.</li></ul><p>So why is this useful? I use the package to publicise blog posts\r\nand to send me a direct message when a comment is left on my blog\r\nso that I can quickly check whether or not it is a spam comment and\r\nact accordingly.</p><p>I'll provide a demonstration screen-cast shortly. In the\r\nmeantime I'd love to hear your feedback.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

@@ -19,14 +19,17 @@ namespace Moriyama.Blog.Project.Controllers
 
             var results = RuntimeContext.Instance.SearchService.Search(query);
             
-            var searchResults = new List<RuntimeContentModel>();
+            var searchResults = new List<SearchResultModel>();
 
             foreach (var result in results)
             {
-                var content = RuntimeContext.Instance.ContentService.GetContent(result);
+                var content = RuntimeContext.Instance.ContentService.GetContent(result.Url);
 
                 if (content != null && content.Type != "BlogComment")
-                    searchResults.Add(content);
+                {
+                    result.Content = content;
+                    searchResults.Add(result);
+                }
             }
 
             newModel.Query = query;

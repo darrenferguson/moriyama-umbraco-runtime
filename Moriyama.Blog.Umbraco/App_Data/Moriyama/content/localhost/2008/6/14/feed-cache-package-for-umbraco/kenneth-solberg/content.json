@@ -1,0 +1,28 @@
+{
+  "Name": "Kenneth Solberg",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:57",
+  "UpdateDate": "2015-01-19T18:39:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/14/feed-cache-package-for-umbraco/kenneth-solberg/",
+  "RelativeUrl": "/2008/6/14/feed-cache-package-for-umbraco/kenneth-solberg/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-15T21:15:28Z",
+    "title": "Kenneth Solberg",
+    "name": "Kenneth Solberg",
+    "email": "kenneth.solberg@gmail.com",
+    "website": "http://kenny.no/",
+    "bodyText": "Thanks for sharing Darren! This is a very useful package.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

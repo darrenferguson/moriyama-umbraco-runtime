@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson (2)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:55",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/27/running-on-umbraco/darren-ferguson-2/",
+  "RelativeUrl": "/2006/6/27/running-on-umbraco/darren-ferguson-2/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-09-20T09:37:43Z",
+    "title": "Darren Ferguson (2)",
+    "name": "Darren Ferguson (2)",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "Hello Bradley,\r\nWelcome aboard.\r\nThe best way for you to get started would be to install the latest blog package. \r\nhttp://umbraco.bruunebonen.com/2006/8/28/latest-umbracoblog-package.aspx\r\nThis is using the theme that this site uses. You should then be able to drop your own stylesheet into Umbraco.\r\nI think there are two or three very small Umbraco specific additional styles.\r\nGood luck!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 5,
+  "Level": 6
+}

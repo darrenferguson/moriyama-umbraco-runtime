@@ -1,0 +1,27 @@
+{
+  "Name": "MetaWeblog API: project started in SVN",
+  "Type": "BlogPost",
+  "CreateDate": "2006-09-09T11:04:00",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/9/9/metaweblog-api-project-started-in-svn/",
+  "RelativeUrl": "/2006/9/9/metaweblog-api-project-started-in-svn/",
+  "Content": {
+    "umbracoUrlAlias": "/metaweblog-api-project-started-in-svn",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-09-09T11:04:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/ekN8Su",
+    "summary": "'MetaWeblog API: project started in SVN' - a blog post by Darren Ferguson about API, Human Interest written on 09 September 2006",
+    "tags": "API, Human Interest",
+    "bodyText": "<p>\r\nA little while back I started an Umbraco MetaWeblog API implementation. I know a couple of other Umbraco developers were interested in this functionality so I have put it in SVN with the other Umbraco extensions.\r\n</p><p>\r\nsvn://svn.umbraco.org/var/lib/svn/umbraco-extensions/UmbracoMetaWeblogAPI\r\n</p><p>\r\nAs I am really busy at the moment it is unlikely I will be able to do anything with this for a while. If you want to contribute to finishing it off, drop me a mail and I can run you though how to get it up and running.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

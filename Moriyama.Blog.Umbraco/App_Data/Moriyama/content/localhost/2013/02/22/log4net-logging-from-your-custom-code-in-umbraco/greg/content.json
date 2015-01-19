@@ -1,0 +1,28 @@
+{
+  "Name": "Greg",
+  "Type": "BlogComment",
+  "CreateDate": "2013-05-17T04:14:31",
+  "UpdateDate": "2015-01-19T18:44:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2013/02/22/log4net-logging-from-your-custom-code-in-umbraco/greg/",
+  "RelativeUrl": "/2013/02/22/log4net-logging-from-your-custom-code-in-umbraco/greg/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2013-05-17T04:14:35Z",
+    "title": "",
+    "name": "Greg",
+    "email": "reg@berlinit.com",
+    "website": "",
+    "bodyText": "Outstanding information, thanks Darren",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

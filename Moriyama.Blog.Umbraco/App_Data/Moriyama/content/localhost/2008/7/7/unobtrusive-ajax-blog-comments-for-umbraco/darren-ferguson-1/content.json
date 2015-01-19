@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson (1)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:51",
+  "UpdateDate": "2015-01-19T18:39:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/darren-ferguson-1/",
+  "RelativeUrl": "/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/darren-ferguson-1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-09T16:31:33Z",
+    "title": "Darren Ferguson (1)",
+    "name": "Darren Ferguson (1)",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "@jay - This page is about 164k including supporting files, but to me it's more about the UI and the nicer effects, plus I don't think you can get .net to submit to page anchors which means you always end up at the top of the page without AJAX.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 8,
+  "Level": 6
+}

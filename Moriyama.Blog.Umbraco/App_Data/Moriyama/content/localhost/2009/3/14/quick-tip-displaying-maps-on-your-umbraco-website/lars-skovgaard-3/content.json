@@ -1,0 +1,28 @@
+{
+  "Name": "Lars Skovgaard (3)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:08",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/lars-skovgaard-3/",
+  "RelativeUrl": "/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/lars-skovgaard-3/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-09-22T15:56:53Z",
+    "title": "Lars Skovgaard (3)",
+    "name": "Lars Skovgaard (3)",
+    "email": "lars@skovgaarddesign.dk",
+    "website": "http://www.cafax.dk/forhandler-test.aspx",
+    "bodyText": "Hi again, Darren\n\nI've been hacking a little more at it and gotten as far as the Javascript console telling me that \"GMap2 is not defined\". Any clues?\n\n/Lars",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 16,
+  "Level": 6
+}

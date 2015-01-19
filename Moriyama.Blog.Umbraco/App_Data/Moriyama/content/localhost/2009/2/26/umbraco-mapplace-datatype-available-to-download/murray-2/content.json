@@ -1,0 +1,28 @@
+{
+  "Name": "Murray (2)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:03",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/26/umbraco-mapplace-datatype-available-to-download/murray-2/",
+  "RelativeUrl": "/2009/2/26/umbraco-mapplace-datatype-available-to-download/murray-2/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-04-27T02:57:10Z",
+    "title": "Murray (2)",
+    "name": "Murray (2)",
+    "email": "murray@terabyte.co.nz",
+    "website": "http://www.terabyte.co.nz",
+    "bodyText": "Hi Darren,\r\nAre there any plans to update this to the new Google Maps API v3. which does not require a key?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 6,
+  "Level": 6
+}

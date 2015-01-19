@@ -1,0 +1,27 @@
+{
+  "Name": "Auto Twitter update package for Umbraco",
+  "Type": "BlogPost",
+  "CreateDate": "2008-06-24T20:18:00",
+  "UpdateDate": "2015-01-19T18:39:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/24/auto-twitter-update-package-for-umbraco/",
+  "RelativeUrl": "/2008/6/24/auto-twitter-update-package-for-umbraco/",
+  "Content": {
+    "umbracoUrlAlias": "/auto-twitter-update-package-for-umbraco",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-24T20:18:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/h4GhRU",
+    "summary": "'Auto Twitter update package for Umbraco' - a blog post by Darren Ferguson about Twitter, Human Interest written on 24 June 2008",
+    "tags": "Twitter, Human Interest",
+    "bodyText": "\r\n<p>I have created an Umbraco package that updates your <a\r\nhref=\"http://www.twitter.com/\">Twitter</a> status when you publish\r\ncertain types of document. You can <a\r\nhref=\"/media/13042/ferguson_moriyama_auto_tweet_1.0.umb\">download\r\nit here</a>. I never thought I'd get into twitter but a number of\r\nfriends and techies use it to micro blog what they are interested\r\nin or indeed what they are blogging.</p>\r\n\r\n<p>The package is an Umbraco action handler. After install the\r\nconfiguration can be found in\r\n/umbraco/plugins/FergusonMoriyama/AutoTweet/twitter.config and is\r\nas follows:</p>\r\n\r\n<pre class=\"brush: xml;\">\r\n&lt;?xml version=\"1.0\"?&gt;\r\n&lt;config&gt;\r\n    &lt;authentication&gt;\r\n        &lt;username&gt;you@gmail.com&lt;/username&gt;\r\n        &lt;password&gt;secret&lt;/password&gt;\r\n    &lt;/authentication&gt;\r\n    &lt;doctypes&gt;\r\n        &lt;doctype&gt;\r\n            &lt;alias&gt;umbracoBlogPost&lt;/alias&gt;\r\n            &lt;titlePropertyAlias&gt;Title&lt;/titlePropertyAlias&gt;\r\n            &lt;message&gt;has blogged '{title}'&lt;/message&gt;\r\n        &lt;/doctype&gt;\r\n    &lt;/doctypes&gt;\r\n&lt;/config&gt;\r\n</pre>\r\n\r\n<p>I hope this is pretty self explanatory. You can add as many\r\ndocument types as you wish. The message element is the content of\r\nthe tweet plus the link to the document appended, the token {title}\r\nis replaced with the title which is extracted from the\r\ndocument.</p>\r\n\r\n<p>Now for the test. When I hit publish on this blog post my\r\ntwitter status should be updated. Obviously it'll be quite\r\nembarrassing if it doesn't work.</p>\r\n\r\n<p>This is a very beta/hacked together package based on an idea I\r\nhad this morning. As ever comments, thoughts and suggestions are\r\nwelcome.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

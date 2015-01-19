@@ -1,0 +1,27 @@
+{
+  "Name": "Update on SQL server 2005 backup/restore",
+  "Type": "BlogPost",
+  "CreateDate": "2008-10-09T14:46:00",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/10/9/update-on-sql-server-2005-backuprestore/",
+  "RelativeUrl": "/2008/10/9/update-on-sql-server-2005-backuprestore/",
+  "Content": {
+    "umbracoUrlAlias": "/update-on-sql-server-2005-backuprestore",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-10-09T14:46:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/ebbKnK",
+    "summary": "'Update on SQL server 2005 backup/restore' - a blog post by Darren Ferguson about Microsoft Windows, SQL, Technology Internet written on 09 October 2008",
+    "tags": "Microsoft Windows, SQL, Technology Internet",
+    "bodyText": "<p>\r\n    This post is a response to a comment on my <a href=\"/2008/10/02/umbraco-tip-quick-sql-server-2005-backuprestore.aspx\">last blog post</a>\r\n    by Wouter.\r\n</p><p>\r\n    Wouter correctly pointed out that my method for backing up the database involved taking the database temporarily off-line. By using the 'backup database' command in SQL server you can backup and restore and keep the database alive. I'd previously had problems with this, but finally sat down and worked through all of these issues so I now have a solution to share.\r\n</p><p>\r\n    The backup database command is simple:\r\n</p><pre style=\"border: 1px solid black; background-color: #eeeeee; padding: 7px;\">\r\nbackup database umbraco to disk = 'D:\\umbraco.bak';\r\n</pre><p><b>Note:</b>\r\n    I discovered that if you run this command from within management studio express it doesn't run as you, so watch out for permissions issues.\r\n</p><p>\r\n    The restore command is a little more involved.\r\n</p><pre style=\"border: 1px solid black; background-color: #eeeeee; padding: 7px;\">\r\nrestore database umbraco from disk = 'd:\\umbraco.bak' \r\nwith replace, \r\nmove 'umbraco_Data' to 'd:\\sqldata\\umbraco.mdf', \r\nmove 'umbraco_Log' to 'd:\\sqldata\\umbraco_log.ldf'\r\n</pre><p>\r\n    The 'with replace' part allows you to overwrite existing data files. The move statements allow you to place your data and log files in new locations if the SQL server install directory is different from the server where the backup was taken.\r\n</p><p>\r\n    If you are unsure of the names of the original data files which are provided as arguments to 'move' then you can run the following SQL against you db backup.\r\n</p><pre style=\"border: 1px solid black; background-color: #eeeeee; padding: 7px;\">\r\nrestore filelistonly from disk = 'd:\\umbraco.bak'\r\n</pre><p>\r\n    The value you are interested in is the Logical Name column.\r\n</p><p>\r\n    I'm now at a state where this site gets daily automated backups using the method above combined with Windows scheduled tasks and <a href=\"http://www.sliksvn.com/\">SlikSVN</a>\r\n    to push my backups to a hosted SVN repository over at <a href=\"http://www.beanstalkapp.com/\">beanstalk</a>.\r\n</p><p>\r\n    Next up, an article on version controlling Umbraco during development!\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Sebastiaan",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:02:55",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/3/25/visual-validator-package-for-umbraco/sebastiaan/",
+  "RelativeUrl": "/2010/3/25/visual-validator-package-for-umbraco/sebastiaan/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-03-25T09:45:01Z",
+    "title": "Sebastiaan",
+    "name": "Sebastiaan",
+    "email": "gravatar.com@cork.nl",
+    "website": "http://cultiv.nl",
+    "bodyText": "Thanks Darren, very cool package. \nI like how you put in a that clever dummy property that work on all of the fields. Got to remember that trick!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "horsted",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:02:44",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/2/4/screencast-auto-link-for-umbraco/horsted/",
+  "RelativeUrl": "/2010/2/4/screencast-auto-link-for-umbraco/horsted/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-02-05T02:01:47Z",
+    "title": "horsted",
+    "name": "horsted",
+    "email": "casper@horsted.dk",
+    "website": "",
+    "bodyText": "Nice package and thanks for taking the time to make the screencast...",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

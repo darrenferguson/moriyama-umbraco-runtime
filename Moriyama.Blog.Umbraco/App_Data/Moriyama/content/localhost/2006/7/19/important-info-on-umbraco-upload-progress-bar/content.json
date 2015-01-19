@@ -1,0 +1,27 @@
+{
+  "Name": "Important info on Umbraco upload progress bar",
+  "Type": "BlogPost",
+  "CreateDate": "2006-07-19T15:08:00",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/19/important-info-on-umbraco-upload-progress-bar/",
+  "RelativeUrl": "/2006/7/19/important-info-on-umbraco-upload-progress-bar/",
+  "Content": {
+    "umbracoUrlAlias": "/important-info-on-umbraco-upload-progress-bar",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-19T15:08:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/eVjH2p",
+    "summary": "'Important info on Umbraco upload progress bar' - a blog post by Darren Ferguson about Restrict/Modify NeatUpload, web.config, Morten Nielesen, asp.net, Technology Internet written on 19 July 2006",
+    "tags": "Restrict/Modify NeatUpload, web.config, Morten Nielesen, asp.net, Technology Internet",
+    "bodyText": "<p>\r\nIf you are having trouble with time-outs and my Umbraco upload progress bar please have a read of the section 'Using Location Filtering to Restrict/Modify NeatUpload's Request Processing' at \r\n<a href=\"http://www.brettle.com/NeatUpload-1.2/docs/Manual.html\">http://www.brettle.com/NeatUpload-1.2/docs/Manual.html</a></p><p>\r\nThe following is from Morten Nielesen, who had some troubles getting large files to work.\r\n</p><p>\r\ntried tweaking the parameters but I was still get an error around 85% saying:\r\n</p><p>\r\n\"Error: Thread was being aborted\"\r\n</p><p>\r\nThe file I was trying to upload is 18,607,377 bytes.\r\n</p><p>\r\nI have managed to upload a file at 13,172,394 bytes after retrying a couple of times.\r\n</p><p>\r\nAnyway I finally think I hacked it. Add the following to web.config:\r\n</p><p>\r\n&lt;system.web&gt;\r\n\r\n   &lt;httpRuntime\r\n\r\n    executionTimeout=\"600\"\r\n\r\n  /&gt;\r\n\r\n &lt;system.web&gt;\r\n</p><p>\r\nFor some reason the asp.net worker thread aborts the thread before it has finished (so this is not an error in NeatUpload except how it keeps the thread alive)\r\n</p><p>\r\nUnfortunately it didn't work when I just added this to the /NeatUpload folder, so this is now a setting for all pages on the website.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

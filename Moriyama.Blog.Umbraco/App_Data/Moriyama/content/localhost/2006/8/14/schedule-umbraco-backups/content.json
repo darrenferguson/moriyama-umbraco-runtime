@@ -1,0 +1,27 @@
+{
+  "Name": "Schedule Umbraco backups",
+  "Type": "BlogPost",
+  "CreateDate": "2006-08-14T11:10:00",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/8/14/schedule-umbraco-backups/",
+  "RelativeUrl": "/2006/8/14/schedule-umbraco-backups/",
+  "Content": {
+    "umbracoUrlAlias": "/schedule-umbraco-backups",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-14T11:10:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/hTBkaa",
+    "summary": "'Schedule Umbraco backups' - a blog post by Darren Ferguson about Business Finance, Technology Internet written on 14 August 2006",
+    "tags": "Business Finance, Technology Internet",
+    "bodyText": "<p>\r\nUmbraco backup now supports scheduled backups. You will need to install the latest version of the package and download the latest user manual which explains how to set up scheduling.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

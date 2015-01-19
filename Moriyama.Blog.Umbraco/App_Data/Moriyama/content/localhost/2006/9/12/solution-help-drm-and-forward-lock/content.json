@@ -1,0 +1,27 @@
+{
+  "Name": "Solution: Help DRM and forward lock",
+  "Type": "BlogPost",
+  "CreateDate": "2006-09-12T16:47:00",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/9/12/solution-help-drm-and-forward-lock/",
+  "RelativeUrl": "/2006/9/12/solution-help-drm-and-forward-lock/",
+  "Content": {
+    "umbracoUrlAlias": "/solution-help-drm-and-forward-lock",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-09-12T16:47:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/dKekJ8",
+    "summary": "'Solution: Help DRM and forward lock' - a blog post by Darren Ferguson about gif, Technology Internet written on 12 September 2006",
+    "tags": "gif, Technology Internet, DRM, forward lock",
+    "bodyText": "\r\n<p>I had a few mails asking if I resolved the forward lock and C#\r\nproblem that I was having. The working code is below, I am not sure\r\nif it is the best way to do this, but it does work.</p>\r\n\r\n<pre class=\"brush: csharp;\">\r\nStream str = File.Open(Server.MapPath(Request[\"file\"]), FileMode.Open); \r\nbyte [] buffer = new byte[str.Length]; \r\nstr.Read(buffer, 0, Convert.ToInt32(str.Length)); \r\nstr.Close(); \r\n\r\nResponse.Charset = \"\"; \r\nResponse.AddHeader(\"Accept-Ranges\", \"bytes\"); \r\nResponse.ContentType = \"application/vnd.oma.drm.message\"; \r\nString header = \"--mime_content_boundary\\r\\nContent-Type: image/gif\\r\\nContent-Transfer-Encoding: binary\\r\\n\\r\\n\"; \r\nString footer = \"\\r\\n--mime_content_boundary--\"; \r\n\r\nSystem.Text.ASCIIEncoding encoding = new System.Text.ASCIIEncoding(); \r\nResponse.BinaryWrite(encoding.GetBytes(header)); \r\nResponse.WriteFile(Server.MapPath(Request[\"file\"])); Response.BinaryWrite(encoding.GetBytes(footer));\r\n</pre>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 5
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Ian",
+  "Type": "BlogComment",
+  "CreateDate": "2013-12-03T11:26:29",
+  "UpdateDate": "2015-01-19T18:44:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2013/02/22/log4net-logging-from-your-custom-code-in-umbraco/ian/",
+  "RelativeUrl": "/2013/02/22/log4net-logging-from-your-custom-code-in-umbraco/ian/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "name": "Ian",
+    "email": "ian.robinson@chilli-is.co.uk",
+    "website": "",
+    "bodyText": "Perfect Darren, just what I was after this morning.\r\n\r\nThanks and keep the blog posts coming!",
+    "ip": "82.20.21.23",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

@@ -128,7 +128,7 @@ namespace Moriyama.Runtime.Services.Search
                 }
                 finally
                 {
-                    _writer.Optimize();
+                    // _writer.Optimize();
                 }
             }
         }
@@ -168,9 +168,9 @@ namespace Moriyama.Runtime.Services.Search
             }
         }
 
-        public IEnumerable<string> Search(string searchTerm)
+        public IEnumerable<SearchResultModel> Search(string searchTerm)
         {
-            var results = new List<string>();
+            var results = new List<SearchResultModel>();
             var indexSearcher = new IndexSearcher(_directory);
 
             try
@@ -186,7 +186,12 @@ namespace Moriyama.Runtime.Services.Search
                     var doc = hits.Doc(i);
                     var previewText = GeneratePreviewText(query, doc.Get("bodyText"));
 
-                    results.Add(doc.Get("Url"));
+                    results.Add(new SearchResultModel
+                    {
+                        Url = doc.Get("Url"),
+                        PreviewText = previewText
+                       
+                    });
                 }
             }
             catch (Exception ex)

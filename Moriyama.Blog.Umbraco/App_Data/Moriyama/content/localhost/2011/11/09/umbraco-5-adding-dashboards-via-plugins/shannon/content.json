@@ -1,0 +1,28 @@
+{
+  "Name": "Shannon",
+  "Type": "BlogComment",
+  "CreateDate": "2011-11-10T12:12:36",
+  "UpdateDate": "2015-01-19T18:43:24",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/11/09/umbraco-5-adding-dashboards-via-plugins/shannon/",
+  "RelativeUrl": "/2011/11/09/umbraco-5-adding-dashboards-via-plugins/shannon/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-11-10T12:12:36.203Z",
+    "title": "Shannon",
+    "name": "Shannon",
+    "email": "sdeminick@gmail.com",
+    "website": "http://shazwazza.com",
+    "bodyText": "Also note that when you just render a partialView instead of a child action that you don't need to have an assembly at all and therefore dont need to attribute one either.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

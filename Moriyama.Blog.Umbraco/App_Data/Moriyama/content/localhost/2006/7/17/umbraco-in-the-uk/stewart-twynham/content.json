@@ -1,0 +1,28 @@
+{
+  "Name": "Stewart Twynham",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:39",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/17/umbraco-in-the-uk/stewart-twynham/",
+  "RelativeUrl": "/2006/7/17/umbraco-in-the-uk/stewart-twynham/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-20T15:49:16Z",
+    "title": "Stewart Twynham",
+    "name": "Stewart Twynham",
+    "email": "stewart@bawden-quinn.co.uk",
+    "website": "http://www.bawden-quinn.co.uk",
+    "bodyText": "Hi Darren,\r\n\r\nI'm based up here in (sunny!) Manchester and am delighted with Umbraco... despite having developed using linux / CGI / perl / php for over a decade, I've been a convert to C#.net over the last few years.  Other .net based CMS platforms such as DNN and Rainbow simply don't give you the 100% control over the HTML that Umbraco does.\r\nI'm now looking to launch Umbraco based sites for several customers where accessibility / SEO / etc are critical.\r\n\r\nRegards,\r\n\r\nStewart",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 8,
+  "Level": 6
+}

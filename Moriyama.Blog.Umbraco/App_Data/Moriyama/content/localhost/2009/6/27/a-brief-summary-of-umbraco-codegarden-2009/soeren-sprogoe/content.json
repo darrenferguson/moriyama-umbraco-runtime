@@ -1,0 +1,28 @@
+{
+  "Name": "Søren Sprogø",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:13",
+  "UpdateDate": "2015-01-19T18:41:18",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/6/27/a-brief-summary-of-umbraco-codegarden-2009/soeren-sprogoe/",
+  "RelativeUrl": "/2009/6/27/a-brief-summary-of-umbraco-codegarden-2009/soeren-sprogoe/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-06-27T12:44:30Z",
+    "title": "Søren Sprogø",
+    "name": "Søren Sprogø",
+    "email": "ssp@afdeling18.dk",
+    "website": "http://www.afdeling18.dk",
+    "bodyText": "Nice summary, and very close to my own experience.\n\nI also only work with Umbraco about 5% of my time, and would love to increase it.\n\nAnd I think a way of creating commercial packages on top of Umbraco is definately the way to go to increase its popularity. So much more can be done, if developers have some way of earning a living developing \"shit\" (to use Tor's term).\n\nI'm looking forward to see what stuff you guys come up with in terms of a common store/repository.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

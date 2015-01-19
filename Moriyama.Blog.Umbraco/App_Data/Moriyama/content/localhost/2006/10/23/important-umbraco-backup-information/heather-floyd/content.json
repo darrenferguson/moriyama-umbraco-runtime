@@ -1,0 +1,28 @@
+{
+  "Name": "Heather Floyd",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:20",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/10/23/important-umbraco-backup-information/heather-floyd/",
+  "RelativeUrl": "/2006/10/23/important-umbraco-backup-information/heather-floyd/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-12-08T18:58:06Z",
+    "title": "Heather Floyd",
+    "name": "Heather Floyd",
+    "email": "hlf@floydinnovations.com",
+    "website": "http://www.floydinnovations.com",
+    "bodyText": "Darren, \r\n\r\nWhat if the ZIP file had a different extension (like how packages are called \".umb\", even though they are just zip files)? Would Google still index them as if they are zip files? I imagine it could be a simple file rename after the zipping procedure?\r\n\r\nJust a thought.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

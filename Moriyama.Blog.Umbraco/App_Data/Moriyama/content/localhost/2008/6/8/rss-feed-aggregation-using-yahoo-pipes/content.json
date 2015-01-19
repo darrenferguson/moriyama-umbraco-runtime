@@ -1,0 +1,27 @@
+{
+  "Name": "RSS feed aggregation using Yahoo pipes",
+  "Type": "BlogPost",
+  "CreateDate": "2008-06-08T22:25:00",
+  "UpdateDate": "2015-01-19T18:39:06",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/8/rss-feed-aggregation-using-yahoo-pipes/",
+  "RelativeUrl": "/2008/6/8/rss-feed-aggregation-using-yahoo-pipes/",
+  "Content": {
+    "umbracoUrlAlias": "/rss-feed-aggregation-using-yahoo-pipes",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-08T22:25:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/hI4YSN",
+    "summary": "'RSS feed aggregation using Yahoo pipes' - a blog post by Darren Ferguson about Yahoo, composition tool, web server, GUI, Technology Internet written on 08 June 2008",
+    "tags": "Yahoo, composition tool, web server, GUI, Technology Internet",
+    "bodyText": "\r\n<p>I've been digesting some of the information on day two of\r\ncodegarden and in particular <a\r\nhref=\"http://umbraco.org/documentation/books/codegarden-2008\">this\r\npost</a> that contains a list of 'most wanted' packages.</p>\r\n\r\n<p>I'm unsure who requested RSS feed aggregation but before anyone\r\nwere to dive in and start coding it may be worth having a look at\r\n<a href=\"http://pipes.yahoo.com/pipes/\">Yahoo pipes</a>.</p>\r\n\r\n<p>As yahoo say:</p>\r\n\r\n<blockquote>Pipes is a powerful composition tool to aggregate,\r\nmanipulate, and mashup content from around the web.</blockquote>\r\n\r\n<p>I've been using pipes for some time to consolidate all of the\r\nUmbraco related feeds into a single feed. Here is a shot of the GUI\r\nwhen editing my pipe.</p>\r\n\r\n<p><a\r\nhref=\"http://www.flickr.com/photos/darrenferguson/2556059623/\"><img src=\"/media/77511/2354_1.jpg\" alt=\"Yahoo pipes\"/></a></p>\r\n\r\n<p class=\"clear\">Once you have a pipe created it can be used to\r\nsyndicate the output in a number of formats.</p>\r\n\r\n<p>It should be a relatively simple task to read an cache your pipe\r\nRSS output to your Umbraco web server, possibly using some kind of\r\nMacro, but I'd recommend using a scheduled task and simply writing\r\nthe feed to the file system as pipes with multiple feeds may impair\r\nyour page load time - if for example one of the feed sources is\r\nunavailable for any reason.</p>\r\n\r\n<p>If anyone would like some help with this package, please let me\r\nknow.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

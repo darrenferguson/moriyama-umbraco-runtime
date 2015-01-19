@@ -1,0 +1,28 @@
+{
+  "Name": "Boris",
+  "Type": "BlogComment",
+  "CreateDate": "2012-01-04T15:35:06",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/4/8/tips-for-easier-teamsite-templating-development/boris/",
+  "RelativeUrl": "/2009/4/8/tips-for-easier-teamsite-templating-development/boris/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-01-04T15:35:06.837Z",
+    "title": "Boris",
+    "name": "Boris",
+    "email": "i-boa@web.de",
+    "website": "",
+    "bodyText": "Hi Darren, thx for this great article. Trying to fix the chopping-issue of  iwov_xslt was easy, but i stuck fixing the utf-8 issue. i tried around with binmode. can you give a hint how i can learn the xslt-process utf-8.\nCheers Boris",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 9,
+  "Level": 6
+}

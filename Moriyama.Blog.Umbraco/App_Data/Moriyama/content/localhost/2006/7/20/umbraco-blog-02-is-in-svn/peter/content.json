@@ -1,0 +1,28 @@
+{
+  "Name": "Peter",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:42",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/20/umbraco-blog-02-is-in-svn/peter/",
+  "RelativeUrl": "/2006/7/20/umbraco-blog-02-is-in-svn/peter/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-21T15:36:58Z",
+    "title": "Peter",
+    "name": "Peter",
+    "email": "p@secret-and-no-spam.dk",
+    "website": "",
+    "bodyText": "It would be hard to access the svn repository without an url for it!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

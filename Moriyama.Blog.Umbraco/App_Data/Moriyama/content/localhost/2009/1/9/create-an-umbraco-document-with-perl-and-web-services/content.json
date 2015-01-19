@@ -1,0 +1,27 @@
+{
+  "Name": "Create an Umbraco document with Perl and Web services",
+  "Type": "BlogPost",
+  "CreateDate": "2009-01-09T09:01:00",
+  "UpdateDate": "2015-01-19T18:41:22",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/1/9/create-an-umbraco-document-with-perl-and-web-services/",
+  "RelativeUrl": "/2009/1/9/create-an-umbraco-document-with-perl-and-web-services/",
+  "Content": {
+    "umbracoUrlAlias": "/create-an-umbraco-document-with-perl-and-web-services",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-01-09T09:01:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/gqqMmf",
+    "summary": "'Create an Umbraco document with Perl and Web services' - a blog post by Darren Ferguson about document using Web services, media service, Perl, Technology Internet written on 09 January 2009",
+    "tags": "document using Web services, media service, Perl, Technology Internet",
+    "bodyText": "<p>\r\nThis isn't a blog post as such, just a code snippet that may be quite useful.\r\n</p><p>\r\nI spent quite a bit of time figuring out how to get Perl and Soap::Lite to do complex data types the other day. The following code creates a new Umbraco document using Web services.\r\n</p><pre class=\"sh_perl\" style=\"border: 1px solid black; background-color: #eeeeee; padding: 7px;\">\r\nuse strict;\r\nuse SOAP::Lite +trace =&gt; 'debug';\r\nuse HTML::Entities;\r\nuse Date::Format;\r\nuse Data::Dumper;\r\n\r\nuse constant HOST =&gt; 'www.mydomain.com';\r\nuse constant UID  =&gt; 'myuid';\r\nuse constant PWD  =&gt; 'secrit';\r\n\r\nmy $access =\r\n  SOAP::Lite-&gt;proxy(\r\n\t'http://' . HOST . '/umbraco/webservices/api/DocumentService.asmx' )\r\n  -&gt;uri('http://umbraco.org/webservices/')\r\n  -&gt;on_action( sub { sprintf '%s%s', @_ } );\r\n\r\nmy $data = SOAP::Data-&gt;name(\r\n\t\"carrier\" =&gt; \\SOAP::Data-&gt;value(\r\n\t\t# SOAP::Data-&gt;name( 'Id' =&gt; 0 ),\r\n\t\tSOAP::Data-&gt;name( 'Name'           =&gt; 'This is a test'),\r\n\t\tSOAP::Data-&gt;name( 'DocumentTypeID' =&gt; 1042 ),\r\n\t\tSOAP::Data-&gt;name( 'ParentID'       =&gt; 1049 ),\r\n\t\tSOAP::Data-&gt;name( 'HasChildren'    =&gt; 'false' ),\r\n\t\tSOAP::Data-&gt;name( 'PublishAction'  =&gt; 'Publish' ),\r\n\t\tSOAP::Data-&gt;name( 'Published'      =&gt; 'true' ),\r\n\t\t# SOAP::Data-&gt;name( 'ReleaseDate' =&gt; time2str('%Y-%m-%d', time) ),\r\n\t\t# SOAP::Data-&gt;name( 'ExpireDate' =&gt; time2str('%Y-%m-%d', time) ),\r\n\t\tSOAP::Data-&gt;name(\r\n\t\t\t\"DocumentProperties\" =&gt; \\SOAP::Data-&gt;value(\r\n\t\t\t\tSOAP::Data-&gt;name(\r\n\t\t\t\t\t\"documentProperty\" =&gt; \\SOAP::Data-&gt;value(\r\n\t\t\t\t\t\tSOAP::Data-&gt;name( 'Key'          =&gt; 'Title' ),\r\n\t\t\t\t\t\tSOAP::Data-&gt;name( 'PropertyValue' =&gt; 'This is a test' ),\r\n\t\t\t\t\t)\r\n\t\t\t\t),\r\n\t\t\t\tSOAP::Data-&gt;name(\r\n\t\t\t\t\t\"documentProperty\" =&gt; \\SOAP::Data-&gt;value(\r\n\t\t\t\t\t\tSOAP::Data-&gt;name( \"Key\" =&gt; 'bodyText' ),\r\n\t\t\t\t\t\tSOAP::Data-&gt;name(\r\n\t\t\t\t\t\t\t\"PropertyValue\" =&gt; encode_entities('&lt;p&gt;This is some html&lt;/p&gt;')\r\n\t\t\t\t\t\t),\r\n\t\t\t\t\t)\r\n\t\t\t\t),\r\n\t\t\t\tSOAP::Data-&gt;name(\r\n\t\t\t\t\t\"documentProperty\" =&gt; \\SOAP::Data-&gt;value(\r\n\t\t\t\t\t\tSOAP::Data-&gt;name( \"Key\" =&gt; 'DisplayDate' ),\r\n\t\t\t\t\t\tSOAP::Data-&gt;name(\r\n\t\t\t\t\t\t\t\"PropertyValue\" =&gt; time2str( '%Y-%m-%d', time )\r\n\t\t\t\t\t\t),\r\n\t\t\t\t\t)\r\n\t\t\t\t)\r\n\t\t\t)\r\n\t\t)\r\n\t  )\r\n\r\n);\r\n\r\n# print SOAP::Serializer-&gt;autotype(0)-&gt;serialize($data);\r\nmy $username = SOAP::Data-&gt;type( string =&gt; UID )-&gt;name('username');\r\nmy $password = SOAP::Data-&gt;type( string =&gt; PWD )-&gt;name('password');\r\n\r\nmy $result = $access-&gt;create( $data, $username, $password );\r\nprint Dumper( $result-&gt;result );\r\n</pre><p>\r\nDuring this process, I also realised that the Umbraco media service is incomplete so I'll try and get access to the source and complete this.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}
