@@ -1,0 +1,28 @@
+{
+  "Name": "Robert Foster",
+  "Type": "BlogComment",
+  "CreateDate": "2014-05-13T15:45:02",
+  "UpdateDate": "2015-01-19T10:24:14",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2014/05/13/typed-access-to-umbraco-marco-parameters-in-partial-views/robert-foster/",
+  "RelativeUrl": "/2014/05/13/typed-access-to-umbraco-marco-parameters-in-partial-views/robert-foster/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "name": "Robert Foster",
+    "email": "robert@digitalsmith.com.au",
+    "website": "",
+    "bodyText": "Looks good - done a pull request yet? :)",
+    "ip": "120.151.69.48",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

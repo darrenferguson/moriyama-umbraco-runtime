@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Reflection;
+using System.Text.RegularExpressions;
 using log4net;
 using Lucene.Net.Analysis.Standard;
 using Lucene.Net.Documents;
@@ -8,9 +10,10 @@ using Lucene.Net.Index;
 using Lucene.Net.QueryParsers;
 using Lucene.Net.Search;
 using Lucene.Net.Store;
-using Moriyama.Runtime.Extension;
 using Moriyama.Runtime.Interfaces;
 using Moriyama.Runtime.Models;
+using Directory = Lucene.Net.Store.Directory;
+using Version = Lucene.Net.Util.Version;
 
 namespace Moriyama.Runtime.Services.Search
 {
@@ -21,14 +24,15 @@ namespace Moriyama.Runtime.Services.Search
         private readonly object _lock;
 
         private readonly RAMDirectory _directory;
+        private IndexWriter _writer;
 
         private static SearchService _instance;
 
         private SearchService()
         {
-
             _lock = new object();
             _directory = new RAMDirectory();
+            _writer = new IndexWriter(_directory, new StandardAnalyzer(Version.LUCENE_29), IndexWriter.MaxFieldLength.UNLIMITED);
         }
 
         public static SearchService Instance
@@ -39,9 +43,7 @@ namespace Moriyama.Runtime.Services.Search
         private RuntimeContentModel GetContentModel(Document content)
         {
             var r = new RuntimeContentModel();
-
-           
-
+            
             return r;
         }
 
@@ -67,11 +69,34 @@ namespace Moriyama.Runtime.Services.Search
             foreach (var property in content.Content)
             {
                 var value = property.Value.ToString();
+                value = StripHtml(value);
+
                 d.Add(new Field(property.Key, value, Field.Store.YES, Field.Index.ANALYZED));
             }
 
             return d;
         }
+
+        protected string StripHtml(string htmlString)
+        {
+            const string pattern = @"<(.|\n)*?>";
+            return Regex.Replace(htmlString, pattern, string.Empty);
+        }
+
+        // For debugging!
+
+        //public void FlushToDisc()
+        //{
+        //    var dir = new DirectoryInfo(@"C:\temp\index");
+        //    foreach (var file in dir.GetFiles())
+        //    {
+        //        file.Delete();
+        //    }
+
+        //    var targetDir = FSDirectory.Open(dir);
+
+        //    Directory.Copy(_directory, targetDir, false);
+        //}
 
         public void Index(RuntimeContentModel model)
         {
@@ -79,25 +104,28 @@ namespace Moriyama.Runtime.Services.Search
 
             lock (_lock)
             {
-                using (var writer = new IndexWriter(_directory, new StandardAnalyzer(), true))
-                {
-                    try
-                    {
-                        writer.DeleteDocuments(new Term("Url", doc.Get("Url")));
-                        writer.Commit();
 
-                        writer.AddDocument(doc);
-                        writer.Commit();
-                    }
-                    catch (Exception ex)
+                try
+                {
+                    _writer.DeleteDocuments(new Term("Url", doc.Get("Url")));
+                    _writer.Commit();
+
+                    _writer.AddDocument(doc);
+                    _writer.Commit();
+
+                    if (Logger.IsDebugEnabled)
                     {
-                        Logger.Warn(ex);
+                        Logger.Debug("Indexing: " + model.Name + " for search.");
+                        // FlushToDisc();
                     }
-                    finally
-                    {
-                        writer.Optimize();
-                        writer.Dispose();
-                    }
+                }
+                catch (Exception ex)
+                {
+                    Logger.Warn(ex);
+                }
+                finally
+                {
+                    _writer.Optimize();
                 }
             }
         }

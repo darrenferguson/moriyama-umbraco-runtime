@@ -1,0 +1,27 @@
+{
+  "Name": "Typed access to Umbraco Marco parameters in Partial Views",
+  "Type": "BlogPost",
+  "CreateDate": "2014-05-13T12:14:48",
+  "UpdateDate": "2015-01-19T10:24:14",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2014/05/13/typed-access-to-umbraco-marco-parameters-in-partial-views/",
+  "RelativeUrl": "/2014/05/13/typed-access-to-umbraco-marco-parameters-in-partial-views/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2014-05-13T11:00:00Z",
+    "title": "Typed access to Umbraco Marco parameters in Partial Views",
+    "shortUrl": "",
+    "summary": "Typed access to Umbraco Marco parameters in Partial Views",
+    "tags": "Umbraco, Macro",
+    "bodyText": "<p>In an Umbraco <em>PartialViewMacroPage </em>any Macro parameters are typed as:</p>\r\n<pre class=\"brush: csharp;\">IDictionary&lt;string, object&gt;</pre>\r\n<p>This makes for some rather messy code when trying to retrieve these parameters. Consider a Partial View Macro that takes two parameters:</p>\r\n<ul>\r\n<li>Date - any date</li>\r\n<li>Days - a number of days to subtract from the date</li>\r\n</ul>\r\n<p>The purpose of this Macro is going to be to output the following using Razor:</p>\r\n<pre class=\"brush: csharp;\">@days days before @date.ToString(\"dd MMM\") ago it was\r\n @date.Subtract(TimeSpan.FromDays(days)).ToString(\"dd MMM\")</pre>\r\n<p>You'd register the parameters above with Umbraco and render the Macro as follows.</p>\r\n<pre class=\"brush: csharp;\">@Umbraco.RenderMacro(\"DaysFromDate\", new { days = 10, date = \"2014/01/01\" })</pre>\r\n<p><strong>Note:</strong> one could pass the date parameter as a DateTime rather than a string, but as we'll see it ends up being passed to our view as a string anyway.</p>\r\n<p>So now, here is the code to retrieve the values of our parameters in the partial view:</p>\r\n<pre class=\"brush: csharp;\">var days = string.IsNullOrEmpty((string) Model.MacroParameters[\"days\"]) \r\n        ? 0 : Convert.ToInt32(Model.MacroParameters[\"days\"]);\r\n    \r\nvar date = string.IsNullOrEmpty((string) Model.MacroParameters[\"date\"]) \r\n        ? DateTime.Now : DateTime.Parse((string) Model.MacroParameters[\"date\"]);</pre>\r\n<p>Pretty nasty, but we have to do the above because:</p>\r\n<ul>\r\n<li>If a parameter is registered on a Macro but not passed then we get an empty string</li>\r\n<li>If the parameter is passed it is passed to us as a string and we need to do the conversion</li>\r\n</ul>\r\n<p>A dig around the Umbraco core reveals the following that will assist us with type conversion:</p>\r\n<pre class=\"brush: csharp;\">var attemptDate = Model.MacroParameters[\"date\"].TryConvertTo(typeof(DateTime));\r\nvar actualDate = attemptDate.Success ? (DateTime) attemptDate.Result : DateTime.Now;</pre>\r\n<p>So still a bit verbose for me, so we use extension methods that allow us to do the following:</p>\r\n<pre class=\"brush: csharp;\">var date = Model.MacroParameters.GetValue(\"date\", DateTime.Now);\r\nvar days = Model.MacroParameters.GetValue(\"days\", 2);</pre>\r\n<p>Note: the return type is implied by the type of the second argument (which is the default value if no macro parameter is passed). You can also use the extension methods in the following form:</p>\r\n<pre class=\"brush: csharp;\">var date = Model.MacroParameters.GetValue&lt;DateTime&gt;(\"date\", DateTime.Now);\r\nvar days = Model.MacroParameters.GetValue&lt;int&gt;(\"days\");</pre>\r\n<p>The first example above demonstrates that you can pass a type for readability even though it is implicit - the second, shows that you can use the method without a specified default value in which case you get the default value for the given type.</p>\r\n<p>So finally the definitions for the extension methods:</p>\r\n<pre class=\"brush: csharp;\">public static class UmbracoExtensions\r\n{\r\n    public static T GetValue&lt;T&gt;(this IDictionary&lt;string, object&gt; dictionary, string key)\r\n    {\r\n        return dictionary.GetValue(key, default(T));\r\n    }\r\n\r\n    public static T GetValue&lt;T&gt;(this IDictionary&lt;string, object&gt; dictionary, string key, T defaultValue)\r\n    {\r\n        if (!dictionary.ContainsKey(key) || string.IsNullOrEmpty(dictionary[key].ToString())) \r\n            return defaultValue;\r\n\r\n        return (T)Convert.ChangeType(dictionary[key], typeof(T));\r\n    }\r\n}</pre>\r\n<p>I'd like these in the Umbraco core. Would you?</p>",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 0,
+  "Level": 5
+}

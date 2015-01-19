@@ -1,0 +1,28 @@
+{
+  "Name": "Bogdan",
+  "Type": "BlogComment",
+  "CreateDate": "2014-04-01T10:13:23",
+  "UpdateDate": "2015-01-19T10:24:14",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2014/02/12/recruitment-isnt-easy/bogdan/",
+  "RelativeUrl": "/2014/02/12/recruitment-isnt-easy/bogdan/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "name": "Bogdan",
+    "email": "bogdan@smallwire.eu",
+    "website": "",
+    "bodyText": "gisajob.moriya.ma is down, I hope you are aware of it.",
+    "ip": "46.231.255.1",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 5,
+  "Level": 6
+}

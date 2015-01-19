@@ -87,8 +87,10 @@
   <ItemGroup>
     <Compile Include="Controllers\ContentController.cs" />
     <Compile Include="Controllers\PostController.cs" />
+    <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Extension\Extensions.cs" />
     <Compile Include="Models\CommentModel.cs" />
+    <Compile Include="Models\SearchResultsModel.cs" />
     <Compile Include="ProjectContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -347,6 +347,8 @@
     <Content Include="Views\Post.cshtml" />
     <Content Include="Views\Layout.cshtml" />
     <Content Include="Views\Partials\PostMetaData.cshtml" />
+    <Content Include="Views\404.cshtml" />
+    <Content Include="Views\Search\Search.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

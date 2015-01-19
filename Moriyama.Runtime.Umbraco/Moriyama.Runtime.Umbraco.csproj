@@ -242,6 +242,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application\CacheRefresher\RuntimeContentCacheRefresher.cs" />
     <Compile Include="Application\Parser\LocalLinkUmbracoContentParser.cs" />
     <Compile Include="Application\Parser\NaviHideUmbracoContentParser.cs" />
     <Compile Include="Application\Parser\NullValueUmbracoContentParser.cs" />

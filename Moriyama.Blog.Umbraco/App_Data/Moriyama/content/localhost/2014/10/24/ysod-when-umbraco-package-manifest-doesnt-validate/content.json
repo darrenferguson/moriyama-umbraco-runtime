@@ -1,0 +1,27 @@
+{
+  "Name": "YSOD when Umbraco package manifest doesn't validate",
+  "Type": "BlogPost",
+  "CreateDate": "2014-10-24T10:40:26",
+  "UpdateDate": "2015-01-19T10:24:14",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2014/10/24/ysod-when-umbraco-package-manifest-doesnt-validate/",
+  "RelativeUrl": "/2014/10/24/ysod-when-umbraco-package-manifest-doesnt-validate/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2014-10-24T10:00:00Z",
+    "title": "YSOD when Umbraco package manifest doesn't validate",
+    "shortUrl": "",
+    "summary": "YSOD when Umbraco package manifest doesn't validate",
+    "tags": "Umbraco",
+    "bodyText": "<p>I've put together an Umbraco application startup handler <a href=\"http://djf.so/1rsCs0Z\">over on github</a> that makes Umbraco throw an exception if any package manifest files aren't valid JSON or reference non existent files.</p>\n<p><strong>Why?</strong></p>\n<p>Building custom property editors using JavaScript and HTML allows developers without .NET specifc tooling or knowledge to start customising Umbraco (which is great).</p>\n<p>But the flipside of this - is that it can be little daunting for .NET developers who are learning Javascript and Angular to also pick up some of the tooling and debugging techinques at the same time.</p>\n<p>At the time of writing JSON validation isn't part of Visual Studio without the web essentials plugin and even if you have this you still need to associate the .manifest file extension to get JSON validation working.</p>\n<p>From teaching the Umbraco course we learned that when a property editor doesn't work there are a few common causes and frustratingly each is diagnosed by the developer in a different way:</p>\n<ul>\n<li>Invalid package manifest - Check the Umbraco Logs</li>\n<li>Missing CSS or Javascript - Back office displays a 404</li>\n<li>Invalid Javascript - Check your browser console</li>\n<li>Cached Javascript - Empty browser cache and reload</li>\n</ul>\n<p>There are a couple of other common issues also.</p>\n<p>The idea of this plugin is to put a hard stop in place when there is a fundamental problem with the property editor (or dashboard). I think that when a developer is learning how to extend Umbraco for the first time, getting hung up on mis-spellings, missing quotes and semi-colons can be quite dis-heartening, especially if it takes you several minutes to find.</p>\n<p>This plugin should hopefully stop .NET developers spending a frustrating amount of time on debugging syntax errors and allow them to have fun getting creative while learning angular and Umbraco property editors.</p>\n<p><strong>Contribute</strong></p>\n<p>There are a couple more things that the plugin could do:</p>\n<ul>\n<li>Validate the manifest against a schema</li>\n<li>Validate any referenced CSS and JavaScript files</li>\n</ul>\n<p>I've tried to implement the first of these and commented the code out as it didn't seen to work very well.</p>\n<p>If you have an interest in adding these, then feel free to do so - the project is on github and I'll happily add you as a contributor.</p>\n<p><strong>Internal stuff in the core</strong></p>\n<p>Lots of this functionality is contained in the core of Umbraco, but marked as internal. So unfortunately - there is quite a lot of duplication in code here.</p>\n<p>Rather than have this as an extension to Umbraco - I'd like to see a configuration setting that allows you to tell Umbraco to throw an exception when there is an issue with a property editor or dashboard.</p>",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 0,
+  "Level": 5
+}

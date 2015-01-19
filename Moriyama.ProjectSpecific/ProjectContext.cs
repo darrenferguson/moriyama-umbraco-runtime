@@ -20,6 +20,7 @@ namespace Moriyama.Blog.Project
         public void Init(RouteCollection routes)
         {
             Mapper.CreateMap<RuntimeContentModel, CommentModel>();
+            Mapper.CreateMap<RuntimeContentModel, SearchResultsModel>();
 
             routes.MapRoute(
                 "post", // Route name
@@ -36,6 +37,19 @@ namespace Moriyama.Blog.Project
                 new { year = @"\d+", month = @"\d+", day = @"\d+", httpMethod = new HttpMethodConstraint("POST") },
                 new[] { "Moriyama.Blog.Project.Controllers" }
             );
+
+
+            routes.MapRoute(
+                "search",
+                "Search/{action}/{id}",
+                new
+                {
+                    controller = "Search",
+                    action = "Search",
+                    id = UrlParameter.Optional
+                },
+                new { httpMethod = new HttpMethodConstraint("POST") },
+                new[] { "Moriyama.Blog.Project.Controllers" });
 
             routes.MapRoute(
                 "customContent",
