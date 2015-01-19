@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using System.Runtime.Serialization;
 using System.Text.RegularExpressions;
 using log4net;
+using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.Standard;
 using Lucene.Net.Documents;
 using Lucene.Net.Index;
@@ -14,6 +16,7 @@ using Moriyama.Runtime.Interfaces;
 using Moriyama.Runtime.Models;
 using Directory = Lucene.Net.Store.Directory;
 using Version = Lucene.Net.Util.Version;
+using Lucene.Net.Highlight;
 
 namespace Moriyama.Runtime.Services.Search
 {
@@ -130,9 +133,23 @@ namespace Moriyama.Runtime.Services.Search
             }
         }
 
+
+        private string GeneratePreviewText(Query q, string text)
+        {
+            var scorer = new QueryScorer(q);
+            var formatter = new SimpleHTMLFormatter("<em>", "</em>");
+
+            var highlighter = new Highlighter(formatter, scorer);
+
+            highlighter.SetTextFragmenter(new SimpleFragmenter(250));
+
+            var stream = new StandardAnalyzer(Version.LUCENE_29).TokenStream("bodyText", new StringReader(text));
+            return highlighter.GetBestFragments(stream, text, 3, "...");
+        }
+
         public void Delete(string url)
         {
-            using (var writer = new IndexWriter(_directory, new StandardAnalyzer(), true))
+            using (var writer = new IndexWriter(_directory, new StandardAnalyzer(Version.LUCENE_29), true))
             {
                 try
                 {
@@ -160,13 +177,15 @@ namespace Moriyama.Runtime.Services.Search
             {
                 var queryParser = new QueryParser("bodyText", new StandardAnalyzer());
 
-                Query query = queryParser.Parse(searchTerm);
+                var query = queryParser.Parse(searchTerm);
                 var hits = indexSearcher.Search(query);
                 var numHits = hits.Length();
 
                 for (var i = 0; i < numHits; ++i)
                 {
                     var doc = hits.Doc(i);
+                    var previewText = GeneratePreviewText(query, doc.Get("bodyText"));
+
                     results.Add(doc.Get("Url"));
                 }
             }

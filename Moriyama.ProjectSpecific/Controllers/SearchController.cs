@@ -25,7 +25,7 @@ namespace Moriyama.Blog.Project.Controllers
             {
                 var content = RuntimeContext.Instance.ContentService.GetContent(result);
 
-                if(content != null)
+                if (content != null && content.Type != "BlogComment")
                     searchResults.Add(content);
             }
 
