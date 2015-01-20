@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson (1)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:00",
+  "UpdateDate": "2015-01-19T18:39:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/14/feed-cache-package-for-umbraco/darren-ferguson-1/",
+  "RelativeUrl": "/2008/6/14/feed-cache-package-for-umbraco/darren-ferguson-1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-16T17:01:23Z",
+    "title": "Darren Ferguson (1)",
+    "name": "Darren Ferguson (1)",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "@warren - sure let's have a chat on MSN sometime. If your package allows you to specify a feed URL then I guess it should work already. Just specifying the feed URL as file:///c:/path/to/feed.xml should be fine.\r\n\r\n@Thomas - No reason why it couldn't do that. At the moment only GET is supported, so would have to extend it slightly to be able to post a request. Let me know if you are interested and we can discuss, maybe on the forum.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 7,
+  "Level": 6
+}

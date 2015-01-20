@@ -1,0 +1,28 @@
+{
+  "Name": "PeterD",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:46",
+  "UpdateDate": "2015-01-19T18:39:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/9/9/hello-world/peterd/",
+  "RelativeUrl": "/2008/9/9/hello-world/peterd/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-09-10T09:34:26Z",
+    "title": "PeterD",
+    "name": "PeterD",
+    "email": "peter@dijksterhuis.nu",
+    "website": "http://www.dijksterhuis.nu",
+    "bodyText": "Congratulations!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

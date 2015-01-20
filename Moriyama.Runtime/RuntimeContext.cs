@@ -49,7 +49,7 @@ namespace Moriyama.Runtime
             }
             else
             {
-                ContentService = new CachedRuntimeContentService(contentPathMapper);
+                ContentService = new LuceneQueryingContentService(contentPathMapper, Services.Search.SearchService.Instance);
 
                 var job = JobBuilder.Create<CacheRefresherJob>()
                     .WithIdentity("moriyamaCacheRefresherJob", "cacheRefresherJob")
@@ -69,19 +69,33 @@ namespace Moriyama.Runtime
             SearchService = Services.Search.SearchService.Instance;
             var search = ConfigurationManager.AppSettings["Moriyama.Runtime.Search"];
 
+
+            Logger.Info("Begnning Indexing");
+            var count = 0;
+
             if (!string.IsNullOrEmpty(search) && Convert.ToBoolean(search))
             {
+                var urls = ContentService.GetUrlList();
+
                 // Forces everything to be cached on startup... :(
-                foreach (var url in ContentService.GetUrlList())
+                foreach (var url in urls)
                 {
                     var content = ContentService.GetContent(url);
+
                     if (content != null)
                         SearchService.Index(content);
+
+                    count++;
                 }
 
                 ContentService.Added += ContentServiceAdded;
                 ContentService.Removed += ContentServiceRemoved;
+                
             }
+
+            Logger.Info("Indexed " + count + " documents");
+            Logger.Info("Startup complete");
+
         }
 
         void ContentServiceRemoved(string sender, EventArgs e)
@@ -92,6 +106,6 @@ namespace Moriyama.Runtime
         void ContentServiceAdded(Models.RuntimeContentModel sender, EventArgs e)
         {
             SearchService.Index(sender);
-        } 
+        }
     }
 }

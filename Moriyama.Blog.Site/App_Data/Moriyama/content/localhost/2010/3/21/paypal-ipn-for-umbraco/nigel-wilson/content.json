@@ -1,0 +1,28 @@
+{
+  "Name": "Nigel Wilson",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:06:00",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/3/21/paypal-ipn-for-umbraco/nigel-wilson/",
+  "RelativeUrl": "/2010/3/21/paypal-ipn-for-umbraco/nigel-wilson/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-01-12T19:00:14.747Z",
+    "title": "Nigel Wilson",
+    "name": "Nigel Wilson",
+    "email": "info@yoyocms.co.nz",
+    "website": "http://www.yoyocms.co.nz",
+    "bodyText": "Hey there - love this package and am looking to implement for a site that has paypal for membership payments. Was wondering if it is 4.5 compatible ?\nCheers, Nigel",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

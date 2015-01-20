@@ -1,0 +1,27 @@
+{
+  "Name": "Pho Map",
+  "Type": "BlogPost",
+  "CreateDate": "2006-10-14T19:27:00",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/10/14/pho-map/",
+  "RelativeUrl": "/2006/10/14/pho-map/",
+  "Content": {
+    "umbracoUrlAlias": "/pho-map",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-10-14T19:27:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/ejl5AJ",
+    "summary": "'Pho Map' - a blog post by Darren Ferguson about United Kingdom, food ratings, Hospitality Recreation written on 14 October 2006",
+    "tags": "United Kingdom, food ratings, Hospitality Recreation",
+    "bodyText": "<p>\r\nThe <a href=\"http://www.flickr.com/map/?&amp;user_id=39926591@N00&amp;set_id=72157594191823948&amp;map_type=hyb\">Pho Map</a> is a great resource if you are ever in the UK and are looking for a delicious bowl of Vietnamese noodle soup.\r\n</p><p>\r\nThe map features clickable photos, and food ratings, and is growing weekly.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 5
+}

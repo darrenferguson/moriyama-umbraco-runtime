@@ -1,0 +1,27 @@
+{
+  "Name": "Install Umbraco automatically!",
+  "Type": "BlogPost",
+  "CreateDate": "2006-07-04T13:58:00",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/4/install-umbraco-automatically/",
+  "RelativeUrl": "/2006/7/4/install-umbraco-automatically/",
+  "Content": {
+    "umbracoUrlAlias": "/install-umbraco-automatically!",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-04T13:58:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/esS8uI",
+    "summary": "'Install Umbraco automatically!' - a blog post by Darren Ferguson about Technology Internet written on 04 July 2006",
+    "tags": "Technology Internet",
+    "bodyText": "<p>\r\nAt some point in the future I plan to make some money from Umbraco. I got to thinking how cool it would be to automate an install. \r\n</p><p>\r\nI then got to thinking how useful it would be able to offer 'try before you buy', on your site, how an Umbraco hosting company could benefit from having instant sign ups and also someone like me who is doing a lot of development could do with setting up clean dev instances.\r\n</p><p>\r\nHere is the result:\r\n</p><p><a href=\"http://umbraco2006.ferguson.ath.cx/contact-us.aspx\">http://umbraco2006.ferguson.ath.cx/contact-us.aspx</a></p><p>\r\nFeel free to give it a spin and let me know what you think.\r\n</p><p>\r\nThis is sitting on my home server, so bandwidth isn't great.\r\n</p><p>\r\nI'll have a look into auto installing some of the commonly used extensions at some point and perhaps setting up some basic document types and templates. For example, a blog host may want to be able to have people sign up and have an Umbraco instance complete with blog extension installed.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

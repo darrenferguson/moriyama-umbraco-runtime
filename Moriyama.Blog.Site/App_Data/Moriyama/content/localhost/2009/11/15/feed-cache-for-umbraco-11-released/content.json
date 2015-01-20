@@ -1,0 +1,27 @@
+{
+  "Name": "Feed Cache for Umbraco 1.1 released",
+  "Type": "BlogPost",
+  "CreateDate": "2009-11-15T11:45:00",
+  "UpdateDate": "2015-01-19T18:41:17",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/11/15/feed-cache-for-umbraco-11-released/",
+  "RelativeUrl": "/2009/11/15/feed-cache-for-umbraco-11-released/",
+  "Content": {
+    "umbracoUrlAlias": "/feed-cache-for-umbraco-11-released",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-11-15T11:45:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/he8lNY",
+    "summary": "'Feed Cache for Umbraco 1.1 released' - a blog post by Darren Ferguson about GUI, HTML written on 15 November 2009",
+    "tags": "GUI, HTML",
+    "bodyText": "<p>I've update my Feed Cache for Umbraco package. The latest\r\nversion can be downloaded from the <a href=\"http://our.umbraco.org/projects/feed-cache\">our.umbraco project page</a>.</p><p>The main update in this package is the addition of a\r\nconfiguration GUI (see screenshot). The package now automatically\r\ncreates the scheduled task that it requires so no manual\r\nconfiguration is necessary.</p><p><a href=\"/media/85251/WindowsLiveWriter_FeedCacheforUmbraco1.1released_A51D_Untitled_2.jpg\"><img src=\"/media/77592/12919_1.jpg\" width=\"244\" height=\"153\" alt=\"Untitled\" style=\"border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px\" /></a></p><p>The configuration GUI is a sub project that renders any\r\nserialisable (.net) object as an HTML form. Changes made in the GUI\r\ncan then be submitted back to the server. This GUI will be a\r\nstandard part of any future packages.</p><p>When I have time I'll record a screen cast demonstrating how\r\nthis works - including nested object collections to any depth. For\r\nnow just check out the update to Feed Cache.</p><p>Comments, feedback and suggestions are welcome as always.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

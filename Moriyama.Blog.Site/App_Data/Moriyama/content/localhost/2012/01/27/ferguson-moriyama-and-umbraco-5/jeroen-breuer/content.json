@@ -1,0 +1,28 @@
+{
+  "Name": "Jeroen Breuer",
+  "Type": "BlogComment",
+  "CreateDate": "2012-01-28T14:07:40",
+  "UpdateDate": "2015-01-19T18:43:48",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2012/01/27/ferguson-moriyama-and-umbraco-5/jeroen-breuer/",
+  "RelativeUrl": "/2012/01/27/ferguson-moriyama-and-umbraco-5/jeroen-breuer/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-01-28T14:07:40Z",
+    "title": "Jeroen Breuer",
+    "name": "Jeroen Breuer",
+    "email": "jbreuer@gmail.com",
+    "website": "",
+    "bodyText": "Great blog post!\n\nFor more info about adding properties to inherited tabs have look at this issue: http://issues.umbraco.org/issue/U5-54",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

@@ -1,0 +1,27 @@
+{
+  "Name": "Once again",
+  "Type": "BlogPost",
+  "CreateDate": "2006-07-02T20:59:00",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/2/once-again/",
+  "RelativeUrl": "/2006/7/2/once-again/",
+  "Content": {
+    "umbracoUrlAlias": "/once-again",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-02T20:59:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/hpcFuf",
+    "summary": "'Once again' - a blog post by Darren Ferguson about Human Interest written on 02 July 2006",
+    "tags": "Human Interest",
+    "bodyText": "<p>\r\nOuch.\r\n</p><p>\r\nWell, all I can say is that luck always plays a part. Our Wayne just \r\nwasn't quite up to it when the pressure was on.\r\n</p><p>\r\nI have plenty of complaints and a overwhelming feeling of injustice, but I try to be dignified in defeat and won't say any more.\r\n</p><p>\r\nI must be getting old, I am used to this feeling. I'll be back up on my feet and smiling again in 3 or 4 days.  \r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

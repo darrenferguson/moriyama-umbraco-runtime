@@ -1,0 +1,27 @@
+{
+  "Name": "Log4net for Umbraco package developers",
+  "Type": "BlogPost",
+  "CreateDate": "2010-08-10T09:00:00",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/8/10/log4net-for-umbraco-package-developers/",
+  "RelativeUrl": "/2010/8/10/log4net-for-umbraco-package-developers/",
+  "Content": {
+    "umbracoUrlAlias": "/log4net-for-umbraco-package-developers",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-08-10T09:00:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fJXarl",
+    "summary": "'Log4net for Umbraco package developers' - a blog post by Darren Ferguson about logger, XML, Manitoba, Technology Internet written on 10 August 2010",
+    "tags": "logger, XML, Manitoba, Technology Internet",
+    "bodyText": "<p>Note: This information is also posted on the <a href=\"http://our.umbraco.org/wiki/how-tos/integration-with-third-party-components/log4net-for-package-developers\">\r\nUmbraco Wiki</a></p><p>See also: <a rel=\"nofollow\" href=\"http://ismailmayat.wordpress.com/2009/05/19/integrating-log4net-into-umbraco-site/\">\r\nismailmayat.wordpress.com/.../</a></p><ul><li>Download <a rel=\"nofollow\" href=\"http://archive.apache.org/dist/incubator/log4net/1.2.10/incubating-log4net-1.2.10.zip\">\r\nlog4net</a></li><li>In your visual studio project add a reference to log4net.dll\r\n(use bin\\net\\2.0\\release in the distribution)</li><li>Open AssemblyInfo.cs in the properties folder of your\r\nsolution.</li><li>Add the following attributes:</li></ul><pre class=\"brush: csharp;\" style=\"\">[assembly:   XmlConfigurator(ConfigFile = @\"config\\my.log4net.config\", Watch = true)]\r\n[assembly: RepositoryAttribute(\"MyAppName\")]</pre><p>Note: RespositoryAttribute is used to identify a distinct\r\nconfiguration for your unique package/assembly it can be any value\r\nyou wish but try to avoid conflicts.</p><p>By specifiying watch=true in the XmlConfigurator attribute you\r\ncan modify the logging config during development and it will be\r\nautomatically reloaded without causing an application restart.</p><p>A simple configuration file could be as follows:</p><pre class=\"brush: xml;\" style=\"border: 1px solid black; padding: 7px; background-color: rgb(238, 238, 238);\">&lt;?xml version=\"1.0\" encoding=\"utf-8\" ?&gt;\r\n&lt;log4net&gt;\r\n\r\n  &lt;appender name=\"R\" type=\"log4net.Appender.RollingFileAppender\"&gt;\r\n    &lt;file value=\"${TEMP}/myPackage.log\" /&gt;\r\n    &lt;appendToFile value=\"true\" /&gt;\r\n    &lt;maximumFileSize value=\"1000KB\" /&gt;\r\n    &lt;maxSizeRollBackups value=\"2\" /&gt;\r\n    &lt;layout type=\"log4net.Layout.PatternLayout\"&gt;\r\n      &lt;conversionPattern value=\"%level %thread %logger - %message%newline\" /&gt;\r\n    &lt;/layout&gt;\r\n  &lt;/appender&gt;\r\n\r\n  &lt;root&gt;\r\n    &lt;level value=\"DEBUG\" /&gt;\r\n    &lt;appender-ref ref=\"R\" /&gt;\r\n  &lt;/root&gt;\r\n\r\n&lt;/log4net&gt;</pre><p>The above logs to a file in your system tmp directory - The file\r\nis rotated once it reaches 1 MB and the last two versions are\r\nmaintained. Log4net can log to XML files, databases, email etc and\r\nyou can define different loggers for different classes and\r\ndifferent log targets for different levels of logging. See <a rel=\"nofollow\" href=\"http://logging.apache.org/log4net/release/manual/configuration.html\">\r\nlog4net Manual - Configuration</a> for more details.</p><p>In your package classes add a logger declaration, for\r\nexample:</p><pre class=\"brush: csharp;\" style=\"\">using System;\r\nusing umbraco.BusinessLogic;\r\nusing log4net;\r\nusing System.Reflection;\r\n\r\nnamespace Umb.Log4Net\r\n{\r\n    public class Class1 : ApplicationBase\r\n    {\r\n        private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);\r\n\r\n        public Class1()\r\n        { \r\n            log.Debug(\"application starting up\");\r\n        }\r\n    }\r\n}</pre><p>Note: When releasing Umbraco packages you may want to set your\r\nlogging levels to NONE or FATAL to stop DEBUG information being\r\nlogged.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

@@ -1,0 +1,27 @@
+{
+  "Name": "Umbraco Backup 1.1 planned (1)",
+  "Type": "BlogPost",
+  "CreateDate": "2006-10-11T09:24:00",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/10/11/umbraco-backup-11-planned-1/",
+  "RelativeUrl": "/2006/10/11/umbraco-backup-11-planned-1/",
+  "Content": {
+    "umbracoUrlAlias": "/umbraco-backup-11-planned",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-10-11T09:24:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/frD6bL",
+    "summary": "'Umbraco Backup 1.1 planned' - a blog post by Darren Ferguson about Human Interest written on 11 October 2006",
+    "tags": "Human Interest, Umbraco",
+    "bodyText": "\r\n<p>I am planning to work on a 1.1 release of Umbraco backup this\r\nweekend to incorporate a couple of extra features that have been\r\nrequested by users.</p>\r\n\r\n<p>The additional functionality will be:</p>\r\n\r\n<ul>\r\n<li>Remember settings from the last backup</li>\r\n\r\n<li>Test FTP connection before starting backup</li>\r\n\r\n<li>View/Remove previous backups from the server</li>\r\n\r\n<li>Allow deletion of backups from the server after successful\r\nFTP</li>\r\n</ul>\r\n\r\n<p>I will also be removing the need to register and generate a\r\ntrial license before you download. I've noticed that more than half\r\nof people who register for a trial give up before generating a\r\nlicense. I'm guessing that many more have given up before\r\nregistration.</p>\r\n\r\n<p>The evaluation period will be extended to 30 days.</p>\r\n\r\n<p>There have been more suggestions, a lot of which will go into\r\n2.0. But unfortunately, the time I have at the moment is very\r\nlimited, so I can't speculate as to when 2.0 will be available.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 5
+}

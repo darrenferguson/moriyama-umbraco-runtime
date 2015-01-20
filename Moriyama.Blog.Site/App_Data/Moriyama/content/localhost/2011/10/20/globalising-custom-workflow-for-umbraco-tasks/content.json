@@ -1,0 +1,27 @@
+{
+  "Name": "Globalising custom Workflow for Umbraco tasks",
+  "Type": "BlogPost",
+  "CreateDate": "2011-10-20T09:41:08",
+  "UpdateDate": "2015-01-19T18:43:24",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/10/20/globalising-custom-workflow-for-umbraco-tasks/",
+  "RelativeUrl": "/2011/10/20/globalising-custom-workflow-for-umbraco-tasks/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-10-20T10:03:00Z",
+    "title": "Globalising custom Workflow for Umbraco tasks",
+    "shortUrl": "",
+    "summary": "'Globalising custom Workflow for Umbraco tasks'' - a blog post by Darren Ferguson about Umbraco, Workflow, written on the 20th October 2011",
+    "tags": "Umbraco, Workflow",
+    "bodyText": "\r\n<p>This post details how to globalise custom&nbsp; <a\r\nhref=\"http://our.umbraco.org/projects/backoffice-extensions/workflow\">\r\nWorkflow for Umbraco</a>. If you haven't already done so you may\r\nbenefit from watching the introductory tasks screencast in&nbsp; <a\r\nhref=\"/2011/10/4/workflow-for-umbraco-and-drag-and-drop-event-programming\">\r\nthis blog post</a>&nbsp;and also the screencast on how to create\r\ncustom tasks in <a\r\nhref=\"/2011/10/17/creating-custom-workflow-for-umbraco-tasks\">this\r\nblog post</a>.</p>\r\n\r\n<p>In the screencast below I'll demonstrate how to Globalise the\r\nTwitter task so that it's Ui properties are displayed depending on\r\nthe culture of the Umbraco back office user.</p>\r\n\r\n<p>All of the code in the screencast can be downloaded from the <a\r\nhref=\"https://bitbucket.org/darrenjferguson/workflow-samples\">workflow\r\nsamples bitbucket repository</a>.</p>\r\n\r\n<p><a href=\"http://vimeo.com/30840956\"><img src=\"~/media/126280/videothumb_500x400.jpg\"  width=\"500\"  height=\"400\" alt=\"Video Thumb\"/></a></p>\r\n\r\n<p style=\"clear: both;\">To summarise the screencast:</p>\r\n\r\n<ul>\r\n<li>When the workflow runtime instantiates a task it will check\r\nwhether the task implements\r\n<strong><em>IGlobalisable</em></strong></li>\r\n\r\n<li>If it does then it will pass an instance\r\nof&nbsp;<em><strong>IGlobalisationService</strong></em> to the task\r\nusing the&nbsp;<em><strong>TheGlobalisationService</strong></em>\r\nproperty</li>\r\n\r\n<li>The task can then call the <em><strong>GetString</strong></em>\r\nmethod to retrieve UI text</li>\r\n\r\n<li>When adding Ui Properties to the Entity UI you can use\r\nthe&nbsp;<strong><em>CreateGlobalisedObject</em></strong> helper to\r\npass a GlobalisationService to your Ui Properties.</li>\r\n\r\n<li>This is done pre-constructor to enable you to use\r\nthe&nbsp;GlobalisationService in constructor logic.</li>\r\n\r\n<li>You can replace the default\r\napplication&nbsp;<em><strong>IGlobalisationService</strong></em>\r\nimplementation should you wish.</li>\r\n</ul>\r\n\r\n<p>To set up Workflow UI languages:</p>\r\n\r\n<ul>\r\n<li>Take a copy of\r\n~/config/fmworkflow/workflow.en-GB.spring.config</li>\r\n\r\n<li>Rename it to match the Culture you are creating a UI for\r\ne.g.&nbsp;workflow.da-DK.spring.config</li>\r\n\r\n<li>In your file add your language text and ensure that the object\r\nname has a unique ID.</li>\r\n\r\n<li>Load your file in workflow.spring.config</li>\r\n\r\n<li>Register your culture\r\nin&nbsp;workflow.globalisation.spring</li>\r\n\r\n<li>Recycle your App pool</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

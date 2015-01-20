@@ -48,7 +48,7 @@ namespace Moriyama.Blog.Project.Controllers
                 var ugc = contentService.CreateContent(commentId, properties);
 
                 ugc.Name = model.CommentEmail;
-                ugc.Type = "BlogPost";
+                ugc.Type = "BlogComment";
                 ugc.Level = modelContent.Level + 1;
                 ugc.SortOrder = modelContent.Children().Count();
 

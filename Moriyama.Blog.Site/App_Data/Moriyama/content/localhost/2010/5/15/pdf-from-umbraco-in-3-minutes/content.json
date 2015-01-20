@@ -1,0 +1,27 @@
+{
+  "Name": "PDF from Umbraco in 3 Minutes",
+  "Type": "BlogPost",
+  "CreateDate": "2010-05-15T09:10:00",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/5/15/pdf-from-umbraco-in-3-minutes/",
+  "RelativeUrl": "/2010/5/15/pdf-from-umbraco-in-3-minutes/",
+  "Content": {
+    "umbracoUrlAlias": "/pdf-from-umbraco-in-3-minutes",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": 2751,
+    "redirect": "",
+    "displayDate": "2010-05-15T09:10:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/hDhnkC",
+    "summary": "'PDF from Umbraco in 3 Minutes' - a blog post by Darren Ferguson about PDF, Technology Internet written on 15 May 2010",
+    "tags": "PDF, Technology Internet",
+    "bodyText": "\r\n<p>This post has been replaced by a <a\r\nhref=\"/2011/11/12/pdf-from-umbraco-in-3-minutes\">newer version\r\nhere</a>.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

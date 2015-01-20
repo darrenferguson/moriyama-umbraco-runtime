@@ -1,0 +1,28 @@
+{
+  "Name": "George Bliss (1)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:41",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/17/umbraco-in-the-uk/george-bliss-1/",
+  "RelativeUrl": "/2006/7/17/umbraco-in-the-uk/george-bliss-1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-10-11T22:00:42Z",
+    "title": "George Bliss (1)",
+    "name": "George Bliss (1)",
+    "email": "george.bliss@increasecrm.co.uk",
+    "website": "http://www.increasecrm.co.uk",
+    "bodyText": "Hi again\r\nOur new shiny Umbraco powered site went live a few weeks ago - I'd welcome any feedback you might have. Please feel free to have a look at http://www.increasecrm.co.uk (Hosted Microsoft CRM).\r\n\r\nStill v interested in helping to organise a UK user group.\r\n\r\nBest wishes\r\nGeorge\r\nIncrease Ltd.\r\n44 (0)20 8099 1300",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 16,
+  "Level": 6
+}

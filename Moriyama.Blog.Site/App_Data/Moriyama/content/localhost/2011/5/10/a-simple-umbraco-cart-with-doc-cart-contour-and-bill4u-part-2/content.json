@@ -1,0 +1,27 @@
+{
+  "Name": "A Simple Umbraco cart with Doc Cart, Contour and Bill4u - Part 2",
+  "Type": "BlogPost",
+  "CreateDate": "2011-05-10T19:00:33",
+  "UpdateDate": "2015-01-19T18:43:24",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/5/10/a-simple-umbraco-cart-with-doc-cart-contour-and-bill4u-part-2/",
+  "RelativeUrl": "/2011/5/10/a-simple-umbraco-cart-with-doc-cart-contour-and-bill4u-part-2/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-05-10T00:00:00Z",
+    "title": "A Simple Umbraco cart with Doc Cart, Contour and Bill4u - Part 2",
+    "shortUrl": "",
+    "summary": "'A Simple Umbraco cart with Doc Cart, Contour and Bill4u Part 2'' - a blog post by Darren Ferguson about Commerce, Umbraco, Cart, Bill4u written on the 10th May 2011",
+    "tags": "Commerce, Umbraco, Cart, Bill4u",
+    "bodyText": "\r\n<p>This is part 2 of&nbsp; <a\r\nhref=\"/2011/5/9/a-simple-umbraco-cart-with-doc-cart,-contour-and-bill4u\">\r\nA Simple Umbraco cart with Doc Cart, Contour and Bill4u</a></p>\r\n\r\n<p>In this screencast we look at simple stock control using <a\r\nhref=\"http://our.umbraco.org/projects/developer-tools/ucounters\">uCounters</a>.</p>\r\n\r\n<p>Firstly this is in two parts - Camtasia flipped out on me and I\r\nlost the half of the screencast.</p>\r\n\r\n<p>Also apologies for repeated (mis) use of the phrase\r\n<strong><em>Stock control unit</em></strong> when it should\r\nobviously be stock keeping unit - i'm no commerce guru when it\r\ncomes to selling traditional goods.</p>\r\n\r\n<p><object width=\"520\" height=\"390\"\r\ndata=\"http://www.vimeo.com/moogaloop.swf?clip_id=23525670&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\"\r\n type=\"application/x-shockwave-flash\"><param name=\"data\"\r\nvalue=\"http://www.vimeo.com/moogaloop.swf?clip_id=23525670&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\" />\r\n<param name=\"allowfullscreen\" value=\"true\" />\r\n<param name=\"allowscriptaccess\" value=\"always\" />\r\n<param name=\"src\"\r\nvalue=\"http://www.vimeo.com/moogaloop.swf?clip_id=23525670&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\" />\r\n</object></p>\r\n\r\n<p><object width=\"520\" height=\"390\"\r\ndata=\"http://www.vimeo.com/moogaloop.swf?clip_id=23526529&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\"\r\n type=\"application/x-shockwave-flash\"><param name=\"data\"\r\nvalue=\"http://www.vimeo.com/moogaloop.swf?clip_id=23526529&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\" />\r\n<param name=\"allowfullscreen\" value=\"true\" />\r\n<param name=\"allowscriptaccess\" value=\"always\" />\r\n<param name=\"src\"\r\nvalue=\"http://www.vimeo.com/moogaloop.swf?clip_id=23526529&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1\" />\r\n</object></p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

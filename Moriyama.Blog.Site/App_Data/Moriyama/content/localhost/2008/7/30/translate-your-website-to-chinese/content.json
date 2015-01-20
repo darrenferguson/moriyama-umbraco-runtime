@@ -1,0 +1,27 @@
+{
+  "Name": "Translate your website to Chinese",
+  "Type": "BlogPost",
+  "CreateDate": "2008-07-30T19:40:00",
+  "UpdateDate": "2015-01-19T18:39:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/30/translate-your-website-to-chinese/",
+  "RelativeUrl": "/2008/7/30/translate-your-website-to-chinese/",
+  "Content": {
+    "umbracoUrlAlias": "/translate-your-website-to-chinese",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-30T19:40:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/gE7zrj",
+    "summary": "'Translate your website to Chinese' - a blog post by Darren Ferguson about China, United States, online population written on 30 July 2008",
+    "tags": "China, United States, online population",
+    "bodyText": "<p>Exciting times at <a href=\"http://www.fergusonmoriyama.com/\">Ferguson Moriyama</a>! In the week that China overtook the US to have the world’s largest online population we are now able to offer <a href=\"http://www.fergusonmoriyama.com/news.aspx\">professional translation</a> from English to Mandarin (or  vice versa).</p><p>Obviously with our existing technical knowledge we can offer solid consultancy on the best way to go about performing translation using your existing infrastructure.</p><p>We’ll also be looking at localising the Umbraco UI for Mandarin.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Morten Bock",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:12",
+  "UpdateDate": "2015-01-19T18:41:22",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/1/13/automatic-linking-in-blog-posts-more-complexity/morten-bock/",
+  "RelativeUrl": "/2009/1/13/automatic-linking-in-blog-posts-more-complexity/morten-bock/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-01-13T17:29:49Z",
+    "title": "Morten Bock",
+    "name": "Morten Bock",
+    "email": "morten@mortenbock.dk",
+    "website": "http://www.mortenbock.dk/",
+    "bodyText": "I would go with option 2 as well. It is more transparent to the user. Automatic parsing of this kind seems to confuse people more often than it helps them.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

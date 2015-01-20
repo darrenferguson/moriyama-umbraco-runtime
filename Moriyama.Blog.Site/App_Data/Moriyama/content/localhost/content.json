@@ -2,7 +2,7 @@
   "Name": "Darren Ferguson - Blog",
   "Type": "BlogHomePage",
   "CreateDate": "2011-03-22T14:49:40",
-  "UpdateDate": "2015-01-02T16:34:24",
+  "UpdateDate": "2015-01-19T09:40:31",
   "CreatorName": "Darren Ferguson",
   "WriterName": "Darren Ferguson",
   "Url": "http://localhost/",
@@ -20,8 +20,7 @@
     "siteName": "Darren Ferguson - Blog"
   },
   "Template": "HomePage",
-  "BuildTime": "2015-01-03T11:36:56.2708556+00:00",
-  "FromCache": false,
+  "CacheTime": null,
   "SortOrder": 52,
   "Level": 1
 }

@@ -1,0 +1,28 @@
+{
+  "Name": "Søren Erland Vestø",
+  "Type": "BlogComment",
+  "CreateDate": "2014-05-19T09:58:03",
+  "UpdateDate": "2015-01-19T18:44:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2013/02/22/log4net-logging-from-your-custom-code-in-umbraco/soeren-erland-vestoe/",
+  "RelativeUrl": "/2013/02/22/log4net-logging-from-your-custom-code-in-umbraco/soeren-erland-vestoe/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "name": "Søren Erland Vestø",
+    "email": "erlando@gmail.com",
+    "website": "",
+    "bodyText": "The UmbracoTraceLog.txt can be written to by doing HttpContext.Current.Trace.Write(\"....\")",
+    "ip": "212.130.228.34",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

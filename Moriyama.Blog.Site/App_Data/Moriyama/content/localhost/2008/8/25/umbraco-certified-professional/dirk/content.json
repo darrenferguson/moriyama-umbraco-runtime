@@ -1,0 +1,28 @@
+{
+  "Name": "Dirk",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:48",
+  "UpdateDate": "2015-01-19T18:39:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/8/25/umbraco-certified-professional/dirk/",
+  "RelativeUrl": "/2008/8/25/umbraco-certified-professional/dirk/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-08-25T21:01:10Z",
+    "title": "Dirk",
+    "name": "Dirk",
+    "email": "dirk@netaddicts.be",
+    "website": "http://www.netaddicts.be",
+    "bodyText": "Congrats mate!\r\n\r\nExpecting to see lots of packages and much much more now",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

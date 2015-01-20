@@ -1,0 +1,28 @@
+{
+  "Name": "Douglas Robar",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:56",
+  "UpdateDate": "2015-01-19T18:39:06",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/14/feed-cache-package-for-umbraco/douglas-robar/",
+  "RelativeUrl": "/2008/6/14/feed-cache-package-for-umbraco/douglas-robar/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-15T03:25:03Z",
+    "title": "Douglas Robar",
+    "name": "Douglas Robar",
+    "email": "doug@percipientstudios.com",
+    "website": "http://www.percipientstudios.com",
+    "bodyText": "This seems a very nice solution to a not-uncommon problem.\r\n\r\nTwo questions, though. What happens with your package if the third-party server is down? Does it just time out and the old/previously-cached xml file get used?\r\n\r\nAnd (just so I'm 100% clear on this)... your package simply creates the xml files on my webserver's disk, and I will need to use GetXmlDocumentByUrl() to retrieve it from my local server and display it the output appropriately. Right?\r\n\r\ncheers,\r\ndoug.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

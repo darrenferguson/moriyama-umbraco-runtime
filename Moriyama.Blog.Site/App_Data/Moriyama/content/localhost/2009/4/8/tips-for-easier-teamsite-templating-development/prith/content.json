@@ -1,0 +1,28 @@
+{
+  "Name": "prith",
+  "Type": "BlogComment",
+  "CreateDate": "2012-03-08T07:06:50",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/4/8/tips-for-easier-teamsite-templating-development/prith/",
+  "RelativeUrl": "/2009/4/8/tips-for-easier-teamsite-templating-development/prith/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-03-08T07:06:50.76Z",
+    "title": "prith",
+    "name": "prith",
+    "email": "prithvi.m@sify.com",
+    "website": "",
+    "bodyText": "Hi Darren,\nWe are currently using \nTeamsite 6.7.1 sp1. We have a following requirement. In the DCT, we have 2 dropdowns. Say for example, the first drop down has 2 values, yellow and blue. When I select yellow in the first drop down, then the javascript should pull yellow.txt file from a teamsite folder and read it. the corresponding values from yellow.txt file should be populated into the second drop down box. Is this possible in Teamsite using only Javascript. If not, then how can we solve this ?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 14,
+  "Level": 6
+}

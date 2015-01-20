@@ -1,0 +1,26 @@
+{
+  "Name": "About Me",
+  "Type": "BlogTextPage",
+  "CreateDate": "2011-04-10T11:56:17",
+  "UpdateDate": "2015-01-19T10:23:30",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/about-me/",
+  "RelativeUrl": "/about-me/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-04-10T00:00:00",
+    "title": "",
+    "shortUrl": "",
+    "summary": "'About  Darren Ferguson' written on 10th April 2011",
+    "tags": "",
+    "bodyText": "<p><img class=\"framed alignright\" src=\"/media/77504/2336_2.jpg\" alt=\"2336_2.jpg\" width=\"333\" height=\"500\" /></p>\n<p><em>You can contact me using the <a href=\"http://www.moriya.ma/contact\">contact form</a> on my company website.</em></p>\n<p><strong><em>Here are some presentations I have given:</em></strong></p>\n<p><strong><em><br /></em></strong>2013: <a href=\"http://www.youtube.com/watch?v=U7dVUHtpd_k\">Umbraco and the three flavours of Azure</a></p>\n<p>2011: <a href=\"http://www.youtube.com/watch?feature=player_embedded&amp;v=S8evy72wpmM\">Building Commercial Packages and The Deli</a></p>\n<p>2010: <a href=\"http://stream.umbraco.org/video/2196556/multi-language-websites-in\">Multi Language websites in Umbraco</a></p>\n<p>I'm into speaking at the moment, I'm happy to come and talk at your event.</p>\n<p>I am a content management enthusiast with more than 15 years of industry experience.</p>\n<p>I run an Umbraco gold partner called <a href=\"http://www.moriya.ma\">Moriyama</a> in which my role is involves all things content management and web related.</p>\n<p>I run the <a href=\"http://www.moriya.ma/umbraco-training\">Umbraco Level 2 certfication in the UK</a> and travel worldwide to teach the course. I'm actively involved in developing and maintaining the course materials.</p>\n<p>I contibute to the Umbraco project in many ways and have been an active member of the community since 2006. I was an Umbraco MVP for 2011/2012 and multiple previous Umbraco MVP nominee.</p>\n<p>When I'm not working I like cars, growing vegetables (especially chillis), eating good food and finding nice pubs to have a pint in.</p>\n<p>I live in London with my wife and daugther Mia.</p>\n<p> </p>"
+  },
+  "Template": "Page",
+  "CacheTime": null,
+  "SortOrder": 9,
+  "Level": 2
+}

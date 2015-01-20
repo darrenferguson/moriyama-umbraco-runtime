@@ -1,0 +1,28 @@
+{
+  "Name": "Wella",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:43",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/20/umbraco-blog-02-is-in-svn/wella/",
+  "RelativeUrl": "/2006/7/20/umbraco-blog-02-is-in-svn/wella/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-28T11:25:08Z",
+    "title": "Wella",
+    "name": "Wella",
+    "email": "daddyez@tin.it",
+    "website": "",
+    "bodyText": "Where is the url of this reperstory?\r\n\r\nThanks",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

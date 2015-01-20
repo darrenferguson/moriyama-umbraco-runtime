@@ -1,0 +1,28 @@
+{
+  "Name": "Benjamin Howarth",
+  "Type": "BlogComment",
+  "CreateDate": "2012-06-25T16:14:43",
+  "UpdateDate": "2015-01-19T18:43:25",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/3/9/intellisense-when-editing-umbraco-examine-config/benjamin-howarth/",
+  "RelativeUrl": "/2011/3/9/intellisense-when-editing-umbraco-examine-config/benjamin-howarth/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-06-25T16:14:43.43Z",
+    "title": "Benjamin Howarth",
+    "name": "Benjamin Howarth",
+    "email": "iam@benjaminhowarth.com",
+    "website": "http://www.benjaminhowarth.com",
+    "bodyText": "Hey Darren - this package is awesome, but it doesn't seem to include the IndexParentId property for ExamineIndex.config.\n\nCheers,\n\nBenjamin",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

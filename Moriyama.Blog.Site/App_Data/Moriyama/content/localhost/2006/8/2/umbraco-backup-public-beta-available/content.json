@@ -1,0 +1,27 @@
+{
+  "Name": "Umbraco Backup public beta available",
+  "Type": "BlogPost",
+  "CreateDate": "2006-08-02T17:40:00",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/8/2/umbraco-backup-public-beta-available/",
+  "RelativeUrl": "/2006/8/2/umbraco-backup-public-beta-available/",
+  "Content": {
+    "umbracoUrlAlias": "/umbraco-backup-public-beta-available",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-02T17:40:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fPYLHz",
+    "summary": "'Umbraco Backup public beta available' - a blog post by Darren Ferguson written on 02 August 2006",
+    "tags": "",
+    "bodyText": "<p>\r\nA public beta of Umbraco backup is available from the \r\n<a href=\"http://www.darren-ferguson.com/umbraco-backup.aspx\">project homepage</a>. Please don't be shy. Tell me what you think. Report bugs, suggest features.\r\n</p><p>\r\nI am aiming to have 1.0 out in a week or so. It's not too late to include any requested functionality.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

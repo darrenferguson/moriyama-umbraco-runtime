@@ -1,0 +1,28 @@
+{
+  "Name": "Lee",
+  "Type": "BlogComment",
+  "CreateDate": "2012-01-18T07:04:08",
+  "UpdateDate": "2015-01-19T18:43:48",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2012/01/17/building-the-new-ferguson-moriyama-website-in-umbraco-5/lee/",
+  "RelativeUrl": "/2012/01/17/building-the-new-ferguson-moriyama-website-in-umbraco-5/lee/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-01-18T07:04:08Z",
+    "title": "Lee",
+    "name": "Lee",
+    "email": "lee@n3o.co.uk",
+    "website": "http://www.blogfodder.co.uk",
+    "bodyText": "Awesome work bud :) You beat me to it actually, I started to do a little how to build a site in v5 too, will be great for people just getting on board v5",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

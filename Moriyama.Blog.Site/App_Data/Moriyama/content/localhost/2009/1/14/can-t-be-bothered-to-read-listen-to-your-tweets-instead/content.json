@@ -1,0 +1,27 @@
+{
+  "Name": "Can’t be bothered to read? Listen to your tweets instead",
+  "Type": "BlogPost",
+  "CreateDate": "2009-01-14T13:56:00",
+  "UpdateDate": "2015-01-19T18:41:22",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/1/14/can-t-be-bothered-to-read-listen-to-your-tweets-instead/",
+  "RelativeUrl": "/2009/1/14/can-t-be-bothered-to-read-listen-to-your-tweets-instead/",
+  "Content": {
+    "umbracoUrlAlias": "/can’t-be-bothered-to-read-listen-to-your-tweets-instead",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-01-14T13:56:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/heOGGy",
+    "summary": "'Can’t be bothered to read? Listen to your tweets instead' - a blog post by Darren Ferguson about mp3, Entertainment Culture, Business Finance written on 14 January 2009",
+    "tags": "mp3, Entertainment Culture, Business Finance",
+    "bodyText": "<p>Here is a fun little hack I put together.</p><p>Visit http://www.bunbohue.co.uk/index.pl?uid=user&amp;pwd=password</p><p>To get an mp3 file of the 5 latest items in your twitter feed. Although this is a 10 minute hack, I guess there is potential in subscribing to this kind of content.</p><p>\r\nI don't store any user names and passwords.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

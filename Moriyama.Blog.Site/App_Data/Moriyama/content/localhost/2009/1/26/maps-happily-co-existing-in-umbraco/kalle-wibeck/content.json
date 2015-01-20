@@ -1,0 +1,28 @@
+{
+  "Name": "Kalle Wibeck",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:22",
+  "UpdateDate": "2015-01-19T18:41:21",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/1/26/maps-happily-co-existing-in-umbraco/kalle-wibeck/",
+  "RelativeUrl": "/2009/1/26/maps-happily-co-existing-in-umbraco/kalle-wibeck/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-02-04T17:17:49Z",
+    "title": "Kalle Wibeck",
+    "name": "Kalle Wibeck",
+    "email": "kalle@wibeck.com",
+    "website": "http://www.wibeck.com",
+    "bodyText": "Funny, I made a quick datatype mockup myself the other day using Microsoft Virtual Earth and had just the same tab issue you mention here... but I didn't bother fixing it so I put it in the first tab instead :)\r\nThen just now I found this blog post and I must say that yours looks slicker...\r\n\r\n// :) Kalle",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 6,
+  "Level": 6
+}

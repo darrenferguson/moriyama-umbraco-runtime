@@ -1,0 +1,28 @@
+{
+  "Name": "Ismail Mayat",
+  "Type": "BlogComment",
+  "CreateDate": "2013-03-19T08:59:00",
+  "UpdateDate": "2015-01-19T18:44:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2013/03/18/tailing-umbraco-log-files-with-windows-powershell/ismail-mayat/",
+  "RelativeUrl": "/2013/03/18/tailing-umbraco-log-files-with-windows-powershell/ismail-mayat/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2013-03-19T08:59:01Z",
+    "title": "",
+    "name": "Ismail Mayat",
+    "email": "imayat@thecogworks.co.uk",
+    "website": "",
+    "bodyText": "Darren,\r\nNice. We have done a signalr log4net appender LiveLogger hoping in v2 to have some way of viewing older log files as well see http://our.umbraco.org/projects/backoffice-extensions/live-logger",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

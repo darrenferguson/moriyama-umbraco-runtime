@@ -1,0 +1,28 @@
+{
+  "Name": "jonok",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:02:48",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/3/19/umbraco-microsoft-and-me-swag/jonok/",
+  "RelativeUrl": "/2010/3/19/umbraco-microsoft-and-me-swag/jonok/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-05-25T23:54:12Z",
+    "title": "jonok",
+    "name": "jonok",
+    "email": "jonokingston@gmail.com",
+    "website": "",
+    "bodyText": "Darren - just wondering if you have a release date for this media manager project? It sounds really cool - I'm starting some Umbraco projects soon and I'm wondering if it will be released in the next month or so?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

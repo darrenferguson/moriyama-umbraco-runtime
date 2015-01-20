@@ -1,0 +1,27 @@
+{
+  "Name": "Umbraco Contour as an AdHoc database with CSV export",
+  "Type": "BlogPost",
+  "CreateDate": "2014-06-19T09:13:56",
+  "UpdateDate": "2015-01-19T10:24:14",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2014/06/19/umbraco-contour-as-an-adhoc-database-with-csv-export/",
+  "RelativeUrl": "/2014/06/19/umbraco-contour-as-an-adhoc-database-with-csv-export/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2014-06-19T09:04:00Z",
+    "title": "Umbraco Contour as an AdHoc database with CSV export",
+    "shortUrl": "http://djf.so/SVFgJR",
+    "summary": "Umbraco Contour as an AdHoc database with CSV export",
+    "tags": "Contour, Umbraco",
+    "bodyText": "<p>We love Umbraco Contour at Moriyama, the power that it gives editors to create and quickly roll out forms.</p>\r\n<p>Sometimes though it isn’t quite the right fit. From time to time we want to roll out a form that isn’t editable by users, that has a complex integration that doesn’t merit the creation of contour custom field type or workflow.</p>\r\n<p>Also, sometimes our client side guys can’t quite live with the GUID input field identifiers and inline JavaScript that contour can somehow generate.</p>\r\n<p>It is easy enough to implement a nice clean, well marked up form in Umbraco, but the killer feature of Contour that you lose is CSV export. Our customers love that they can grab this data in a spreadsheet at any time of day or night and quickly see who has filled out a form in the last 20 minutes.</p>\r\n<p>But do we really want to implement custom dashboards that allow CSV exports of custom database tables? Does anyone enjoy writing SQL? Well I can’t stand it.<br />We decided to keep the back office part of contour and create our own customer facing forms.</p>\r\n<p>Using MVC we have a model that is effectively a POCO so we just wrote the glue that stuffs the POCO into a Contour record.</p>\r\n<p>All you have to do is create a Contour form with field names that match your POCO and call the method with this signature (Full code later).</p>\r\n<pre class=\"brush: csharp;\">public void RegisterPocoInContour(Guid formGuid, int nodeId, string ip, object poco)</pre>\r\n<p>You’ll quickly realise that this technique doesn’t need to be limited to form submissions – you can stuff any old POCO into a Contour record allowing the end user to export it. A word of warning, this isn’t particularly performant and you wouldn’t want to do it several times within the context of a single request, not would you want to hammer it on a high traffic site.</p>\r\n<p>So finally, the full code snippet.</p>\r\n<pre class=\"brush: csharp;\">public void RegisterPocoInContour(Guid formGuid, int nodeId, string ip, object poco)\r\n{\r\n\t//The Form\r\n    var recordStorage = new RecordStorage();\r\n    var formStorage = new FormStorage();\r\n    var form = formStorage.GetForm(formGuid);\r\n\r\n    //Recordservice\r\n    var recordService = new RecordService(form);\r\n    recordService.Open();\r\n\r\n    var record = recordService.Record;\r\n    record.IP = ip;\r\n    record.UmbracoPageId = nodeId;\r\n    recordStorage.InsertRecord(record, form);\r\n\r\n    foreach (var field in recordService.Form.AllFields)\r\n    {\r\n\t\tvar caption = field.Caption.Replace(\" \", \"\");\r\n\t\tvar rgx = new Regex(\"[^a-zA-Z0-9 -]\");\r\n\t\tcaption = rgx.Replace(caption, \"\");\r\n\r\n\t\tif (poco.GetType().GetProperty(caption) == null) continue;\r\n\r\n\t\tvar propertyValue = poco.GetType().GetProperty(caption).GetValue(poco, null);\r\n\r\n\t\tif (propertyValue != null)\r\n\t\t{\r\n\t\t\tvar key = Guid.NewGuid();\r\n\t\t\tvar recordField = new RecordField\r\n\t\t\t{\r\n\t\t\t\tField = field,\r\n\t\t\t\tKey = key,\r\n\t\t\t\tRecord = record.Id,\r\n\t\t\t\tValues = new List&lt;object&gt; { propertyValue }\r\n\t\t\t};\r\n\r\n\t\t\tvar recordFieldStorage = new RecordFieldStorage();\r\n\t\t\trecordFieldStorage.InsertRecordField(recordField);\r\n\t\t\trecord.RecordFields.Add(key, recordField);\r\n\t\t}\r\n\t}\r\n\r\n\trecordService.Submit();\r\n\trecordService.SaveFormToRecord();\r\n\trecordService.Dispose();\r\n}</pre>\r\n<p>If this isn’t your cup of tea, I’ll be writing soon on how to automatically add tables to your Umbraco database on startup, by defining a POCO and having the schema automatically created. I’ll also demonstrate how to quickly populate the generated tables using PetaPoco, which is utilised by Umbraco core.</p>",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 0,
+  "Level": 5
+}

@@ -67,6 +67,11 @@ namespace Moriyama.Runtime.Extension
             return model.Descendants().Where(item => item.Type == type);
         }
 
+        public static IEnumerable<RuntimeContentModel> Descendants(this RuntimeContentModel model, IDictionary<string, string> filters)
+        {
+            return RuntimeContext.Instance.ContentService.Descendants(model, filters);
+        }
+
         public static IEnumerable<RuntimeContentModel> Children(this RuntimeContentModel model)
         {
             return RuntimeContext.Instance.ContentService.Children(model);

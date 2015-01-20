@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson (2)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:42",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/10/1/umbraco-tip-quick-sql-server-2005-backuprestore/darren-ferguson-2/",
+  "RelativeUrl": "/2008/10/1/umbraco-tip-quick-sql-server-2005-backuprestore/darren-ferguson-2/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-10-05T11:33:18Z",
+    "title": "Darren Ferguson (2)",
+    "name": "Darren Ferguson (2)",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "@wouter: I had a play around using 'backup database' and got it working. I'll do another post on how to use it as there are a couple of things you need to know!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 6,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Ruben Verborgh",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:14",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/12/31/a-couple-of-umbraco-packages-id-like-to-see/ruben-verborgh/",
+  "RelativeUrl": "/2008/12/31/a-couple-of-umbraco-packages-id-like-to-see/ruben-verborgh/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-12-31T11:01:41Z",
+    "title": "Ruben Verborgh",
+    "name": "Ruben Verborgh",
+    "email": "ruben.verborgh@gmail.com",
+    "website": "http://ruben.3click.be/",
+    "bodyText": "I like both ideas.\n\n1) Wouldn't it be good to move this code to your XSLT macro? That way, links can change dynamically over time without altering anything else.\n\n2) Good idea... but wouldn't tinyMCE integration be hard for a package? Maybe a browser extension is appropriate here. (Select text, click button, list of images.)",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

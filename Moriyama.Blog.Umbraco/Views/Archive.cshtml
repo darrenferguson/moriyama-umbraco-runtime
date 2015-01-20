@@ -6,7 +6,7 @@
 }
 <h1 class="page-title">Blog Archive</h1>
 <ul class="article-list">
-    @foreach (var post in Model.Home().Descendants().Where(x => x.Type == "BlogPost").OrderByDescending(x => x.CreateDate))
+    @foreach (var post in Model.Home().Descendants(new Dictionary<string, string> { {"Type","BlogPost"} }).OrderByDescending(x => x.CreateDate))
     {
         @*<h2>@year.Key</h2>*@
         <li>

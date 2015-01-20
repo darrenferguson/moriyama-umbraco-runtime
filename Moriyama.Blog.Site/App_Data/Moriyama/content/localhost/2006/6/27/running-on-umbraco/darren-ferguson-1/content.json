@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson (1)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:53",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/27/running-on-umbraco/darren-ferguson-1/",
+  "RelativeUrl": "/2006/6/27/running-on-umbraco/darren-ferguson-1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-06-28T09:42:52Z",
+    "title": "Darren Ferguson (1)",
+    "name": "Darren Ferguson (1)",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com",
+    "bodyText": "Forgot to mention.\r\nAdded a text page template, to create static pages like wordpress does.\r\nI was going to content manage the links on the right hand side, but for now they are just a part of the master template.\r\nDarren.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

@@ -1,0 +1,27 @@
+{
+  "Name": "Automatic linking in blog posts: more complexity",
+  "Type": "BlogPost",
+  "CreateDate": "2009-01-13T13:25:00",
+  "UpdateDate": "2015-01-19T18:41:22",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/1/13/automatic-linking-in-blog-posts-more-complexity/",
+  "RelativeUrl": "/2009/1/13/automatic-linking-in-blog-posts-more-complexity/",
+  "Content": {
+    "umbracoUrlAlias": "/automatic-linking-in-blog-posts-more-complexity",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-01-13T13:25:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/f4TVMB",
+    "summary": "'Automatic linking in blog posts: more complexity' - a blog post by Darren Ferguson about Perl, XML, Technology Internet written on 13 January 2009",
+    "tags": "Perl, XML, Technology Internet",
+    "bodyText": "<p>Following on from my previous post I've begun to realise that\r\nautomatically linking key phrases in blog content to URLs is a\r\nlittle more complex than originally imagined.</p><p>Take my blog as an example. My posts often contain source code\r\nand other technical information. This source code could contain my\r\nkey phrases, for example Umbraco and Perl appear frequently.</p><p>How do I get my auto linker to be smart enough to understand the\r\ncontext of the content it is manipulating and ignore key phrases in\r\ncode?</p><p>Solution #1 would be to only parse the content of specific tags\r\nor more likely exclude pre tags from parsing as the tag implies\r\nthat the content is pre-formatted and not to be modified. The\r\nproblem here is that instead of using regular expressions to\r\nmanipulate the content we would need to do something more complex,\r\nperhaps parsing the post content as XML so we have a notion of node\r\nstructure.</p><p>Solution #2 is to put parsing back into the hands of the user,\r\nonly parsing blocks of text that they specifically select in\r\nTinyMCE.</p><p>I haven't made a call on this yet. I'm more likely to go with\r\noption 2. Any thoughts appreciated as usual.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

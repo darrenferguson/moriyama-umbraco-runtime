@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson (1)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:21",
+  "UpdateDate": "2015-01-19T18:41:21",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/1/26/maps-happily-co-existing-in-umbraco/darren-ferguson-1/",
+  "RelativeUrl": "/2009/1/26/maps-happily-co-existing-in-umbraco/darren-ferguson-1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-01-27T09:23:18Z",
+    "title": "Darren Ferguson (1)",
+    "name": "Darren Ferguson (1)",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "@Jesper, I don't think that Tim's datatype was made available for download? I hadn't heard about it before I started working on this.\n\nI haven't tested it with autoform or canvas as yet.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

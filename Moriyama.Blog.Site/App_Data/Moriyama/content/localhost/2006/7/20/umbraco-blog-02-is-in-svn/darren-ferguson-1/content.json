@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson (1)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:44",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/20/umbraco-blog-02-is-in-svn/darren-ferguson-1/",
+  "RelativeUrl": "/2006/7/20/umbraco-blog-02-is-in-svn/darren-ferguson-1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-28T11:36:55Z",
+    "title": "Darren Ferguson (1)",
+    "name": "Darren Ferguson (1)",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "svn://svn.umbraco.org/var/lib/svn/umbraco-extensions",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

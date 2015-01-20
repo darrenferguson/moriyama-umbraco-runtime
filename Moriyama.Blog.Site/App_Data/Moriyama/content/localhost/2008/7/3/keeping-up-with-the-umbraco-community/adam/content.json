@@ -1,0 +1,28 @@
+{
+  "Name": "Adam",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:52",
+  "UpdateDate": "2015-01-19T18:39:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/3/keeping-up-with-the-umbraco-community/adam/",
+  "RelativeUrl": "/2008/7/3/keeping-up-with-the-umbraco-community/adam/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-03T16:56:37Z",
+    "title": "Adam",
+    "name": "Adam",
+    "email": "aperry7@gmail.com",
+    "website": "http://www.createsoft.co.uk/blog/",
+    "bodyText": "Hi Darren,\r\nI started using Disqus for my comments which does have a comments RSS feed.\r\n\r\nAnyhoo I have a collection of feeds - many of which you already have;\r\n\r\nSome which I think you may have missed are:\r\n\r\n - http://www.wibeck.com/\r\n\r\n - http://www.dotnetmafia.com/blogs/kevin/default.aspx\r\n\r\nI also have a blog which I am trying to keep up-to-date,\r\n\r\nhttp://www.createsoft.co.uk/blog/\r\n\r\nand the comments feed (I've had 3!) is at \r\n\r\nhttp://doctype.disqus.com/latest.rss",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

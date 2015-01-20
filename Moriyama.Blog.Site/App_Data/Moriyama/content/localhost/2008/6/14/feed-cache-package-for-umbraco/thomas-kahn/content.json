@@ -1,0 +1,28 @@
+{
+  "Name": "Thomas Kahn",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:59",
+  "UpdateDate": "2015-01-19T18:39:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/14/feed-cache-package-for-umbraco/thomas-kahn/",
+  "RelativeUrl": "/2008/6/14/feed-cache-package-for-umbraco/thomas-kahn/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-16T16:55:58Z",
+    "title": "Thomas Kahn",
+    "name": "Thomas Kahn",
+    "email": "thomas@karnhuset.net",
+    "website": "",
+    "bodyText": "Could this be used for caching content that is consumed via a web service? It would be great to be able to show cached content if the web service was unavailable.\r\n\r\nJust a thought...",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 6,
+  "Level": 6
+}

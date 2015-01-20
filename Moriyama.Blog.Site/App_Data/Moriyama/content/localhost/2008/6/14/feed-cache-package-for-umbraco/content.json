@@ -1,0 +1,27 @@
+{
+  "Name": "Feed Cache package for Umbraco",
+  "Type": "BlogPost",
+  "CreateDate": "2008-06-14T19:08:00",
+  "UpdateDate": "2015-01-19T18:39:06",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/14/feed-cache-package-for-umbraco/",
+  "RelativeUrl": "/2008/6/14/feed-cache-package-for-umbraco/",
+  "Content": {
+    "umbracoUrlAlias": "/feed-cache-package-for-umbraco",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-14T19:08:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/i3kkWG",
+    "summary": "'Feed Cache package for Umbraco' - a blog post by Darren Ferguson about web server, XML, http, Technology Internet written on 14 June 2008",
+    "tags": "web server, XML, http, Technology Internet",
+    "bodyText": "<p>I've created an umbraco package that will cache XML feeds - or any other http URL - to disk on your web server. <a href=\"http://www.darren-ferguson.com/media/12796/ferguson_moriyama_feed_cache_1.0.umb\">Click here</a> to download the package</p><p>\r\nThe idea came about as a lot of people are displaying feeds on their  web pages - flickr feeds, twitter etc. In Umbraco you can cache marcos that read external URLs, but ultimately when the cache expires one user will have to take the hit of requesting this external URL as part of their page download. If the third party server is down - which twitter frequently is - then this can result in a hefty wait until the request times out.\r\n</p><p>\r\nInstructions for using the package are in the readme prior to installation so be sure to read this before proceeding with the install.\r\n</p><p>\r\nQuestions, comments, feature requests etc are all welcome.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

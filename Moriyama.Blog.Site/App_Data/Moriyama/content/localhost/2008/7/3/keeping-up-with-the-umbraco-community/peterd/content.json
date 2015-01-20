@@ -1,0 +1,28 @@
+{
+  "Name": "PeterD",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:52",
+  "UpdateDate": "2015-01-19T18:39:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/3/keeping-up-with-the-umbraco-community/peterd/",
+  "RelativeUrl": "/2008/7/3/keeping-up-with-the-umbraco-community/peterd/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-03T17:14:38Z",
+    "title": "PeterD",
+    "name": "PeterD",
+    "email": "peter@dijksterhuis.nu",
+    "website": "http://www.dijksterhuis.nu/",
+    "bodyText": "Thanks! Very usefull.\r\nI followed your tip, I've added a second feed to my blog containing comments.\r\n\r\nAny idea why there's only a title shown from my blog?\r\n\r\nPeterD",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

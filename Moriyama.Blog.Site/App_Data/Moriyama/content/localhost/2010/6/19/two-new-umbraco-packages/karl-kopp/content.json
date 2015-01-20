@@ -1,0 +1,28 @@
+{
+  "Name": "Karl Kopp",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:03",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/6/19/two-new-umbraco-packages/karl-kopp/",
+  "RelativeUrl": "/2010/6/19/two-new-umbraco-packages/karl-kopp/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-06-22T06:03:12Z",
+    "title": "Karl Kopp",
+    "name": "Karl Kopp",
+    "email": "kkopp@nextdigital.com",
+    "website": "http://www.karlkopp.com",
+    "bodyText": "Tried to look at the code for the static HTML output Darren, and in a browser says it needs a user/pass but still shows the files? Config error somewhere? Will grab the code (after I install a SVN client :) and have a play!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

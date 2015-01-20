@@ -1,0 +1,28 @@
+{
+  "Name": "Per Ploug Hansen",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:53",
+  "UpdateDate": "2015-01-19T18:39:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/3/keeping-up-with-the-umbraco-community/per-ploug-hansen/",
+  "RelativeUrl": "/2008/7/3/keeping-up-with-the-umbraco-community/per-ploug-hansen/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-04T10:00:11Z",
+    "title": "Per Ploug Hansen",
+    "name": "Per Ploug Hansen",
+    "email": "pph@objects.dk",
+    "website": "http://objects.dk",
+    "bodyText": "There is a feed on umbraco.org which is basicly a community feed populated from my google reader account: \r\n\r\nhttp://www.google.com/reader/public/atom/user/18011736183647254521/state/com.google/broadcast\r\n\r\nAll items are hand picked from google blog search. technorati, twingly, msn search feed etc etc. ",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 6,
+  "Level": 6
+}

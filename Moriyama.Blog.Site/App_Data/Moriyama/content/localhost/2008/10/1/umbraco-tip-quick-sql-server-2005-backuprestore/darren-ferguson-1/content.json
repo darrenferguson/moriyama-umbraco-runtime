@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson (1)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:42",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/10/1/umbraco-tip-quick-sql-server-2005-backuprestore/darren-ferguson-1/",
+  "RelativeUrl": "/2008/10/1/umbraco-tip-quick-sql-server-2005-backuprestore/darren-ferguson-1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-10-05T10:45:32Z",
+    "title": "Darren Ferguson (1)",
+    "name": "Darren Ferguson (1)",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "Hi David, No reason why not.\n\nHave a look at: \n\nhttp://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-automation.html\n\nI presume you are using Tortoise SVN??\n\nMy next step was to set this up on this blog so my DB is backed up every night.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 5,
+  "Level": 6
+}

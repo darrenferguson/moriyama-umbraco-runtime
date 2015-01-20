@@ -1,0 +1,28 @@
+{
+  "Name": "Peter Gregory",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:54",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/16/screencast-umbraco-map-datatype-preview/peter-gregory/",
+  "RelativeUrl": "/2009/2/16/screencast-umbraco-map-datatype-preview/peter-gregory/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-02-22T20:53:07Z",
+    "title": "Peter Gregory",
+    "name": "Peter Gregory",
+    "email": "pgregorynz@gmail.com",
+    "website": "http://www.terabyte.co.nz",
+    "bodyText": "This looks awesome...   Did you manage to release it over the weekend?  Would be perfect for the project that I have on the go right now.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 13,
+  "Level": 6
+}

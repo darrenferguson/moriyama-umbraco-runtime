@@ -1,0 +1,27 @@
+{
+  "Name": "Introducing half chilli ratings",
+  "Type": "BlogPost",
+  "CreateDate": "2006-07-11T09:37:00",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/11/introducing-half-chilli-ratings/",
+  "RelativeUrl": "/2006/7/11/introducing-half-chilli-ratings/",
+  "Content": {
+    "umbracoUrlAlias": "/introducing-half-chilli-ratings",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-11T09:37:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fvqUVI",
+    "summary": "'Introducing half chilli ratings' - a blog post by Darren Ferguson written on 11 July 2006",
+    "tags": "",
+    "bodyText": "<p>The margins are getting very tight, and we felt the need for half chilli ratings to accurately reflect the difference in quality between our Pho venues.</p><p>A half chilli icon looks like this:</p><p><img src=\"/media/109562/chilihalf_thumb.jpg\" alt=\"Half chilli\" /></p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

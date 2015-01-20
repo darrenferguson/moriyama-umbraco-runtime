@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Cark",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:13",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/12/30/back-online-with-a-new-dedicated-server/darren-cark/",
+  "RelativeUrl": "/2008/12/30/back-online-with-a-new-dedicated-server/darren-cark/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-09-03T18:11:48Z",
+    "title": "Darren Cark",
+    "name": "Darren Cark",
+    "email": "dc009a4567@blueyonder.co.uk",
+    "website": "",
+    "bodyText": "Hi Darren,\n\nI was reading in the old umbraco forum that you were having problems with the webfusion vps setup. I was thinking of using there Vps Plus for my umbraco site. Do you think now they have got their act together?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

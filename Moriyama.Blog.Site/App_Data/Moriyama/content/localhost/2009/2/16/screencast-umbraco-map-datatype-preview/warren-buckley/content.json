@@ -1,0 +1,28 @@
+{
+  "Name": "Warren Buckley",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:53",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/16/screencast-umbraco-map-datatype-preview/warren-buckley/",
+  "RelativeUrl": "/2009/2/16/screencast-umbraco-map-datatype-preview/warren-buckley/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-02-18T17:00:39Z",
+    "title": "Warren Buckley",
+    "name": "Warren Buckley",
+    "email": "warren@creativewebspecialist.co.uk",
+    "website": "http://www.creativewebspecialist.co.uk",
+    "bodyText": "Hiya Darren,\nSome wicked work there!\n\nIn the backend/canvas mode is it possible to configure the width and height of the map for the datatype ?\n\nWarren",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 11,
+  "Level": 6
+}

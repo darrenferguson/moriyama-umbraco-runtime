@@ -1,0 +1,28 @@
+{
+  "Name": "Johannes",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:55",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/22/rolling-with-ruby-on-rails/johannes/",
+  "RelativeUrl": "/2006/6/22/rolling-with-ruby-on-rails/johannes/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2007-03-29T14:25:38Z",
+    "title": "Johannes",
+    "name": "Johannes",
+    "email": "johannes@dolbergs.dk",
+    "website": "http://www.bypilot.dk",
+    "bodyText": "Hi,\r\nI'm considering using either umbraco or Ruby for a new comnunity website, but I'm a bit unsure about what can be achieved with either system. If you have any experiences (pros/cons)or suggestions about either of the systems, please do tell. I've at an earlier point used dotnetnuke, but I wasn't very happy with \r\n1) the rigid front-end options. You can't customize the front-end as you want. \r\n2) the 3-tier layer for data-handling. This layer is tiresome to write and implement.\r\nBR\r\nJohannes ",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

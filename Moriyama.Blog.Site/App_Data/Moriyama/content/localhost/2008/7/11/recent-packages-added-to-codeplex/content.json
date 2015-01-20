@@ -1,0 +1,27 @@
+{
+  "Name": "Recent packages added to Codeplex",
+  "Type": "BlogPost",
+  "CreateDate": "2008-07-11T11:02:00",
+  "UpdateDate": "2015-01-19T18:39:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/11/recent-packages-added-to-codeplex/",
+  "RelativeUrl": "/2008/7/11/recent-packages-added-to-codeplex/",
+  "Content": {
+    "umbracoUrlAlias": "/recent-packages-added-to-codeplex",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-11T11:02:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/ef1Nzo",
+    "summary": "'Recent packages added to Codeplex' - a blog post by Darren Ferguson about Hospitality Recreation written on 11 July 2008",
+    "tags": "Hospitality Recreation",
+    "bodyText": "<p>\r\nI've added three of my recent Umbraco packages to the <a href=\"http://www.codeplex.com/umbracoext\">Umbraco extensions project on Codeplex</a>.\r\n</p><p>\r\nThe packages are:\r\n</p><ul><li><a href=\"/2008/06/24/auto-twitter-update-package-for-umbraco.aspx\">Auto Twitter update</a></li><li><a href=\"/2008/06/19/broken-link-check-package-for-umbraco.aspx\">Broken link checker</a></li><li><a href=\"/2008/06/14/feed-cache-package-for-umbraco.aspx\">Feed Cache</a></li></ul><p>\r\nAll of my packages are located in a FergusonMoriyama sub-folder from the root of the project.\r\n</p><p>\r\nFeel free to add any enhancements, and check them back in.\r\n</p><p>\r\nThere is no real documentation, but the packages are reasonably simple and should be quite easy to understand.\r\n</p><p>\r\nFeel free to get in touch should you have any questions.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

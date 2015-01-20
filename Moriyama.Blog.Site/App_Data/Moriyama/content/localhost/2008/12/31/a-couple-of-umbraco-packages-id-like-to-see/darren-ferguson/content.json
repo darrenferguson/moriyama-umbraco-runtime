@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:15",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/12/31/a-couple-of-umbraco-packages-id-like-to-see/darren-ferguson/",
+  "RelativeUrl": "/2008/12/31/a-couple-of-umbraco-packages-id-like-to-see/darren-ferguson/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-12-31T11:33:10Z",
+    "title": "Darren Ferguson",
+    "name": "Darren Ferguson",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "@ruben - thanks for the feedback. I like the idea of #2 being a browser plugin then it could be used for any text in a web page. I will have a look at TinyMCE integration and see how hard it would be though.\n\nRE: #1, I'm not really a fan doing search and replace in XSLT but you make a very good point about the links updating in line with the configuration, I guess an XSLT extension would be the way to go here.\n\n",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Sebastiaan Janssen",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:57",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/11/2/working-around-the-no-nodes-issue-with-umbraco-45x/sebastiaan-janssen/",
+  "RelativeUrl": "/2010/11/2/working-around-the-no-nodes-issue-with-umbraco-45x/sebastiaan-janssen/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-11-03T05:14:23.303Z",
+    "title": "Sebastiaan Janssen",
+    "name": "Sebastiaan Janssen",
+    "email": "gravatar.com@cork.nl",
+    "website": "http://cultiv.nl",
+    "bodyText": "It is possible to do some registry hacking and create dependencies for services, but that might be worse than this solution, which is a quite nice hack in actually.\n\nThe real correct solution however, would be if Umbraco actually did a fallback to the disk cache as long as it can't access the database server. This is how it used to work in 4.0.x, except I don't think it ever went looking for the SQL server after the fallback.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

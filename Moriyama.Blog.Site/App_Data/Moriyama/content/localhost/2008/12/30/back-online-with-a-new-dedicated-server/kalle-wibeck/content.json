@@ -1,0 +1,28 @@
+{
+  "Name": "Kalle Wibeck",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:05",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/12/30/back-online-with-a-new-dedicated-server/kalle-wibeck/",
+  "RelativeUrl": "/2008/12/30/back-online-with-a-new-dedicated-server/kalle-wibeck/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-01-06T09:33:10Z",
+    "title": "Kalle Wibeck",
+    "name": "Kalle Wibeck",
+    "email": "kalle@wibeck.com",
+    "website": "http://www.wibeck.com",
+    "bodyText": "Hi Darren,\r\njust a quick thought about reconstructing your lost posts:\r\n\r\n- Do a \"site: www.darren-ferguson.com\" search at Google and extract them from Google's cached pages before they are removed from there as well... \r\n\r\n// ;) Kalle",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

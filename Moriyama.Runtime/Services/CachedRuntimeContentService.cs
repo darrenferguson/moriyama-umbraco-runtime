@@ -104,7 +104,7 @@ namespace Moriyama.Runtime.Services
             return url;
         }
 
-        private RuntimeContentModel GetCachedContent(string url)
+        protected RuntimeContentModel GetCachedContent(string url)
         {
             url = RemovePortFromUrl(url);
 

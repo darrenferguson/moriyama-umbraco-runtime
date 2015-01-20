@@ -1,0 +1,27 @@
+{
+  "Name": "Important Umbraco backup information",
+  "Type": "BlogPost",
+  "CreateDate": "2006-10-23T18:16:00",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/10/23/important-umbraco-backup-information/",
+  "RelativeUrl": "/2006/10/23/important-umbraco-backup-information/",
+  "Content": {
+    "umbracoUrlAlias": "/important-umbraco-backup-information",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-10-23T18:16:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fm4yH5",
+    "summary": "'Important Umbraco backup information' - a blog post by Darren Ferguson about web root, Google, web.config, search engines, ISP, Technology Internet written on 23 October 2006",
+    "tags": "web root, Google, web.config, search engines, ISP, Technology Internet, Umbraco",
+    "bodyText": "\r\n<p>As a result of user feedback, it seems that a few people are\r\nhaving an issue with failed backups as a result of using a backup\r\ntarget directory under your web root. This is because Umbraco\r\nbackup tries to backup it's own target zip file, causing some\r\nprocess conflicts.</p>\r\n\r\n<p>This issue will be fixed with the release of 1.1, however,\r\nunless you have to,Do not backup under the webroot.</p>\r\n\r\n<p>Google and other search engines can index zip files and their\r\ncontents. One user has already made me aware of some Umbraco blogs\r\nthat have zipped versions of their site that have been indexed and\r\nyou are able to see the contents of web.config including database\r\nhost and password details.</p>\r\n\r\n<p>If you are in the unfortunate position of having an ISP who will\r\nnot let you write anywhere other than your webroot, 1.1 is coming\r\nsoon, but please note that you should download your backups from\r\nyour server and remove them from the web root upon completion.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

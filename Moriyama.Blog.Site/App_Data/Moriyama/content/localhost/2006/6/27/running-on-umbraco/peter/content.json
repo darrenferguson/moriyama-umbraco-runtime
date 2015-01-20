@@ -1,0 +1,28 @@
+{
+  "Name": "Peter",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:53",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/27/running-on-umbraco/peter/",
+  "RelativeUrl": "/2006/6/27/running-on-umbraco/peter/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-06-27T19:42:30Z",
+    "title": "Peter",
+    "name": "Peter",
+    "email": "peter@bruunebonen.com",
+    "website": "http://umbraco.bruunebonen.com/",
+    "bodyText": "Congrats! Nice work on getting this done with Umbraco. Mind telling us what you customized in the umbracoblog extension?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

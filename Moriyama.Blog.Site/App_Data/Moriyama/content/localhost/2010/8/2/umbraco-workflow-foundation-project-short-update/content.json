@@ -1,0 +1,27 @@
+{
+  "Name": "Umbraco Workflow foundation project: short update",
+  "Type": "BlogPost",
+  "CreateDate": "2010-08-02T00:00:00",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/8/2/umbraco-workflow-foundation-project-short-update/",
+  "RelativeUrl": "/2010/8/2/umbraco-workflow-foundation-project-short-update/",
+  "Content": {
+    "umbracoUrlAlias": "/umbraco-workflow-foundation-project-short-update",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-08-02T00:00:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/gXB4Cd",
+    "summary": "'Umbraco Workflow foundation project: short update' - a blog post by Darren Ferguson about Microsoft, Microsoft Workflow, Human Interest written on 02 August 2010",
+    "tags": "Microsoft, Microsoft Workflow, Human Interest",
+    "bodyText": "<p>I recently blogged a screencast which demonstrated integration of Microsoft Workflow foundation into Umbraco. Happily, response was positive and I've had a few questions about when it will be available as a package.</p><p>To set expectations, the short answer is that it won't.</p><p>The implementation I put together works well for a client of mine as well as my own site, but the effort involved in documenting and polishing it so that it could be released as a package isn't insignificant.</p><p>On top of that my prototype is based on workflow foundation 3 and MS have now released version 4. There is no backward compatibility and the new version is for .net 4. When you start to throw past present and future versions of Umbraco into the equation you start to come up with silly exponential sums when working out how many versions would need to be maintained.</p><p>So, no package I'm afraid.</p><p>However: If you'd like to implement workflow in Umbraco and would like to sponsor the project it could happen. Feel free to get in touch and we can talk it through.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

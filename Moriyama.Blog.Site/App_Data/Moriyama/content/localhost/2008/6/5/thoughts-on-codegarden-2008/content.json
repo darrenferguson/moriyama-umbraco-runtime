@@ -1,0 +1,27 @@
+{
+  "Name": "Thoughts on codegarden 2008",
+  "Type": "BlogPost",
+  "CreateDate": "2008-06-05T13:50:00",
+  "UpdateDate": "2015-01-19T18:39:06",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/5/thoughts-on-codegarden-2008/",
+  "RelativeUrl": "/2008/6/5/thoughts-on-codegarden-2008/",
+  "Content": {
+    "umbracoUrlAlias": "/thoughts-on-codegarden-2008",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-05T13:50:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/h9k0g0",
+    "summary": "'Thoughts on codegarden 2008' - a blog post by Darren Ferguson about Dubai, Copenhagen, Man-Made Disaster, Umbraco store, client/server, backup through my site, Paul Sterling, GUI written on 05 June 2008",
+    "tags": "Dubai, Copenhagen, Man-Made Disaster, Umbraco store, client/server, backup through my site, Paul Sterling, GUI",
+    "bodyText": "<p>Well, once again due to circumstances beyond my reasonable control, I didn’t get to make the most of codegarden and headed home a day early – with a rather epic hangover I might add  -cheers Kasper :)</p><p>\r\nBut what of day one? Well for me the ‘key’ point of the ‘key’ note presentation was the desire to maintain the friendly and helpful community that Umbraco is renowned for in the face of amazing levels of growth. To me, it was great to meet the core team and see that they are leading by example. To a man they were all extremely friendly, knowledgeable and extremely modest considering some of the major achievements in the development of Umbraco in the past year.\r\n</p><p><img src=\"/media/77499/2336_1.jpg\" alt=\"Darren Ferguson\" /></p><p>\r\nAlso in the keynote, I was pleasantly surprised by the emphasis on commercial extensions for Umbraco. This is something that I tried a while back – with some degree of success – and I find it refreshing that the guys behind Umbraco were stood in front of us telling us that it is OK to make some money. The only way I will ever be able to rejoin and contribute to Umbraco as much as I did a couple of years back will be when it starts to help pay my bills.\r\n</p><p>\r\nWhile socialising with some of the attendees a couple of issues kept on coming up. First of all it seems that some people don’t think that Umbraco pro is sufficient as a support contract. I can sympathise with this, I’d love to bring Umbraco into some of the bigger organisations that I work with but I couldn’t at the moment. They would want a lot more in terms of commitment to support case response times and unfortunately they would like the Umbraco core team to bear some responsibility (probably financial responsibility) in the event of an outage. As an aside, It really didn’t help me when I suggested Umbraco to a client and he found someone with a pro subscription fishing in the forums for help after not having heard from core for a couple of days.\r\n</p><p>\r\nAnother recurring  theme was the speed of the Umbraco GUI, but as demonstrated in the keynote the number of client/server requests has been dramatically reduced, let’s hope for a 4.0 release candidate very soon.\r\n</p><p>\r\nIt was great to talk to Kim who apparently will be joining to core team in some kind of project management capacity. It will be great when he begins to improve communication and present us all with a clearer roadmap for Umbraco.\r\n</p><p><img src=\"/media/77504/2336_2.jpg\" alt=\"Darren Ferguson\" /></p><p> \r\nOn a personal note, a few people asked about Umbraco Backup. During codegarden Niels gave me permission to resurrect this under the name of Backup for Umbraco to stay in line with the trademark guidelines. So what next for Backup?\r\n</p><p>\r\nI will make it available again hopefully in the next week or so. I won’t be opening up the source as it is extremely complex in places. I know that I got the pricing model wrong last time, it was a mistake. I’m still working on pricing, but I have decided that there will be a free version for personal sites and non-profit sites and a commercial version. I’ll distribute the commercial versions with long trial license so people can determine if the software is right for them. I am unsure whether I will set a formal price or just request a “donation” in term for a commercial license. As soon as everything is finalised it will be posted here.\r\n</p><p>\r\nLastly on backup, I spoke to Paul Sterling about the Umbraco store and to give away 30% of the proceeds is a little too high for me. I’ll distribute backup through my site as I already have that facility set up. I’ll also make a donation of 15% of any profit to the Umbraco core team.\r\n</p><p>\r\nSo, it was great to meet so many of you. I wish I had had a chance to meet many more of you. Copenhagen was a blast. I’m sunburned and tired now, but full of renewed enthusiasm for the Umbraco project. I hope to see you all again next year wherever in the world - hint: I like Dubai.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

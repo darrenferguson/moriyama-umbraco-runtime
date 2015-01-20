@@ -1,0 +1,28 @@
+{
+  "Name": "Paul Groves",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:40",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/17/umbraco-in-the-uk/paul-groves/",
+  "RelativeUrl": "/2006/7/17/umbraco-in-the-uk/paul-groves/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-21T09:48:24Z",
+    "title": "Paul Groves",
+    "name": "Paul Groves",
+    "email": "umbraco@reykart.com",
+    "website": "",
+    "bodyText": "I work for in the marketing department of a UK based software company.\r\n\r\nAfter joining the company in Dec 05 I researched CMS and foudn Umbraco.\r\n\r\nI rebuilt the main site with Umbraco which was launched a couple of months ago and am working on more of the group's sites.\r\n\r\nThink a UK Umbraco user group would be a great idea.\r\n\r\n",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 11,
+  "Level": 6
+}

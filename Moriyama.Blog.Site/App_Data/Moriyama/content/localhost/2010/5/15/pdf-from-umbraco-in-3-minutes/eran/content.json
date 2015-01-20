@@ -1,0 +1,28 @@
+{
+  "Name": "eran",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:03",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/5/15/pdf-from-umbraco-in-3-minutes/eran/",
+  "RelativeUrl": "/2010/5/15/pdf-from-umbraco-in-3-minutes/eran/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-05-26T16:16:26Z",
+    "title": "eran",
+    "name": "eran",
+    "email": "eraniopub@gmail.com",
+    "website": "",
+    "bodyText": "looks great!\r\nis this package fit for me?:\r\ni want that each content page will have \"export to pdf\" button. when the user click on in it will export the page to pdf (suing the print version of the css that i already have). i guess i can use template alias?.. can i do that with your package? is that the easiest method to accomplish this task? thanks!",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

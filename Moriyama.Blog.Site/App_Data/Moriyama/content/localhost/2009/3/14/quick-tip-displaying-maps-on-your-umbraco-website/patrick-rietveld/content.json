@@ -1,0 +1,28 @@
+{
+  "Name": "Patrick Rietveld",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:09",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/patrick-rietveld/",
+  "RelativeUrl": "/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/patrick-rietveld/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-04-16T14:07:19Z",
+    "title": "Patrick Rietveld",
+    "name": "Patrick Rietveld",
+    "email": "p.rietveld@maxelmo.nl",
+    "website": "http://www.maxelmo.nl",
+    "bodyText": "Hi Marc, you can view the source of my contact page to build youre own. My contact page is based on the example of Darren. http://www.maxelmo.nl/contact for those who are interested, I could make an Umbraco package with a complete implementation. ",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 20,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Garrett Fisher",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:56",
+  "UpdateDate": "2015-01-19T18:39:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/14/feed-cache-package-for-umbraco/garrett-fisher/",
+  "RelativeUrl": "/2008/6/14/feed-cache-package-for-umbraco/garrett-fisher/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-09-24T20:22:43.41Z",
+    "title": "Garrett Fisher",
+    "name": "Garrett Fisher",
+    "email": "garrett.fisher@horngroup.com",
+    "website": "http://www.horngroup.com/",
+    "bodyText": "Hi,\n\nI recently moved my Umbraco implementation to a new server, and although I've updated the cache address (the XML file path to be written), it is not updating.  Where/how do I set the cache expiry?  Specify how long for it to wait to rewrite the file?\n\nThanks,\nGarrett",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 10,
+  "Level": 6
+}

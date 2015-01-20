@@ -1,0 +1,28 @@
+{
+  "Name": "Mizan Syed",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:55",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/16/screencast-umbraco-map-datatype-preview/mizan-syed/",
+  "RelativeUrl": "/2009/2/16/screencast-umbraco-map-datatype-preview/mizan-syed/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-03-03T03:12:16Z",
+    "title": "Mizan Syed",
+    "name": "Mizan Syed",
+    "email": "mizansyed@gmail.com",
+    "website": "",
+    "bodyText": "We built something similar but not using datatype but Custom Control specifically tweaked for Umbraco. I might convert it to datatype when I have the time to learn more of datatype.\r\n\r\nhttp://www.hmg.gov.uk/newopportunities/comments/mappedcomments.aspx?t=yourstory ",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 15,
+  "Level": 6
+}

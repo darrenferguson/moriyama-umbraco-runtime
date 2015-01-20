@@ -1,0 +1,28 @@
+{
+  "Name": "Anandhan",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:06:01",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/4/8/tips-for-easier-teamsite-templating-development/anandhan/",
+  "RelativeUrl": "/2009/4/8/tips-for-easier-teamsite-templating-development/anandhan/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-01-20T08:37:53.983Z",
+    "title": "Anandhan",
+    "name": "Anandhan",
+    "email": "anandhan.selvaraj@cognizant.com",
+    "website": "",
+    "bodyText": "I have edit a tpl file to change its ouput location. but idont know where to change.. I have a line like this\nmy $ofile = iwpt_get_ofile_name();\nit gets the location of output from where please mail immediatly\n'",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 6,
+  "Level": 6
+}

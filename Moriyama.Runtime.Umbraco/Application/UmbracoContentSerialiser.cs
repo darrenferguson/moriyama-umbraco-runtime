@@ -27,7 +27,9 @@ namespace Moriyama.Runtime.Umbraco.Application
         public void Remove(IContent content)
         {
             var publishedContent = _umbracoHelper.TypedContent(content.Id);
-            RuntimeContext.Instance.ContentService.RemoveContent(publishedContent.Url);
+
+            if(publishedContent != null)
+                RuntimeContext.Instance.ContentService.RemoveContent(publishedContent.Url);
         }
 
         private string RemovePortFromUrl(string url)

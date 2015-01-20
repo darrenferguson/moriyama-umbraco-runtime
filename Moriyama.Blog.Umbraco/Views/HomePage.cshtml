@@ -5,7 +5,8 @@
 }
 <h1 class="page-title">Blog</h1>
 
-@foreach (var post in Model.Descendants().Where(post => post.Type == "BlogPost").OrderByDescending(post => post.CreateDate).Take(20))
+
+@foreach (var post in Model.Descendants(new Dictionary<string, string> { {"Type","BlogPost"} }).OrderByDescending(post => post.CreateDate).Take(20))
 {
     <article>
         <h2>
@@ -23,4 +24,4 @@
         </footer>
 
     </article>
-} 
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Warren Buckley",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:58",
+  "UpdateDate": "2015-01-19T18:39:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/14/feed-cache-package-for-umbraco/warren-buckley/",
+  "RelativeUrl": "/2008/6/14/feed-cache-package-for-umbraco/warren-buckley/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-16T11:41:42Z",
+    "title": "Warren Buckley",
+    "name": "Warren Buckley",
+    "email": "warren@creativewebspecialist.co.uk",
+    "website": "http://www.creativewebspecialist.co.uk",
+    "bodyText": "Hiya Darren,\r\nWe need to talk about some integration with my twitter package would be good - however not sure about dependencies?!\r\n\r\n//Warren",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 5,
+  "Level": 6
+}

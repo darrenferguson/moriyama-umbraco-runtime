@@ -1,0 +1,27 @@
+{
+  "Name": "Poll Macro needs improving",
+  "Type": "BlogPost",
+  "CreateDate": "2006-07-20T12:46:00",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/20/poll-macro-needs-improving/",
+  "RelativeUrl": "/2006/7/20/poll-macro-needs-improving/",
+  "Content": {
+    "umbracoUrlAlias": "/poll-macro-needs-improving",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-20T12:46:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/eU7nt9",
+    "summary": "'Poll Macro needs improving' - a blog post by Darren Ferguson about GUI written on 20 July 2006",
+    "tags": "GUI, Umbraco",
+    "bodyText": "\r\n<p>A while back I posted a <a\r\nhref=\"http://www.darren-ferguson.com/2006/07/08/a-poll-macro-for-umbraco.aspx\">\r\nPoll macro for Umbraco</a>. There was a reasonable amount of\r\ninterest, so I posted the source.</p>\r\n\r\n<p>As the original post says, this was just a very quick demo and I\r\nthought that the method of storing responses would need\r\nimproving.</p>\r\n\r\n<p><a href=\"http://www.hartvig.com/\">Niels</a> posted a link to the\r\ndemo on the <a href=\"http://www.umbraco.org\">Umbraco</a> site and\r\nas a result it got several hundred responses which slows down\r\nUmbraco when trying to acess the node where the responses are\r\nstored in the GUI.</p>\r\n\r\n<p>This post is just to advise against using this Macro on\r\nproduction systems until I (or someone else) get the chance to\r\nimprove it.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 5
+}

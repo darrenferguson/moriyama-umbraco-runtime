@@ -1,0 +1,27 @@
+{
+  "Name": "Plugin to export html from Umbraco",
+  "Type": "BlogPost",
+  "CreateDate": "2006-06-05T10:34:00",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/5/plugin-to-export-html-from-umbraco/",
+  "RelativeUrl": "/2006/6/5/plugin-to-export-html-from-umbraco/",
+  "Content": {
+    "umbracoUrlAlias": "/plugin-to-export-html-from-umbraco",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-06-05T10:34:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/hxgnih",
+    "summary": "'Plugin to export html from Umbraco' - a blog post by Darren Ferguson about HTML, Linux, Technology Internet written on 05 June 2006",
+    "tags": "HTML, Linux, Technology Internet",
+    "bodyText": "<p><a href=\"/media/669/release.zip\">Download the plugin</a></p><p>This will export static HTML to alternative document root when you\r\npublish an Umbraco page.\r\nIt is a first version and the primary idea behind sending it out now, is\r\nto get some feedback and build up a feature list for the future.\r\nIt works reasonably well and my site is currently using it to serve\r\numbraco exported html from Apache on Linux.\r\nIf you are interested, please road test and send me your feedback, but\r\nplease beware I expect bugs…… \r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

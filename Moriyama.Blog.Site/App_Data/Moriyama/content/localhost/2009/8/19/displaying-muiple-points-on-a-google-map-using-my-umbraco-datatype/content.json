@@ -1,0 +1,27 @@
+{
+  "Name": "Displaying muiple points on a google map using my Umbraco datatype",
+  "Type": "BlogPost",
+  "CreateDate": "2009-08-19T07:27:00",
+  "UpdateDate": "2015-01-19T18:41:18",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/8/19/displaying-muiple-points-on-a-google-map-using-my-umbraco-datatype/",
+  "RelativeUrl": "/2009/8/19/displaying-muiple-points-on-a-google-map-using-my-umbraco-datatype/",
+  "Content": {
+    "umbracoUrlAlias": "/displaying-muiple-points-on-a-google-map-using-my-umbraco-datatype",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-08-19T07:27:00Z",
+    "title": "",
+    "shortUrl": "",
+    "summary": "",
+    "tags": "",
+    "bodyText": "\r\n<p>A while back I wrote about <a\r\nhref=\"/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website.aspx\">\r\ndisplaying maps on your Umbraco website</a> using my <a\r\nhref=\"http://our.umbraco.org/projects/google-maps-datatype\">Google\r\nmaps datatype</a> for Umbraco. Since then I've had a number of\r\nrequests to provide an example of how to display multiple points on\r\na map and <a href=\"http://www.dillorscroft.co.uk/\">Matt Perry</a>\r\nand I have finally come up with such an example.</p>\r\n\r\n<p>The first step is to write a simple XSLT macro that will list\r\nout all of the points that you want to show. I'm not going to give\r\nthat example here, but the output should look similar to the\r\nfollowing:</p>\r\n\r\n<pre\r\nstyle=\"background-color: #eeeeee; border: black 1px solid; padding: 7px;\">\r\n\r\n&lt;h1&gt;Service stations in Lancashire&lt;/h1&gt;\r\n&lt;p&gt;The following data is a list of latitude and longtitude points and a description for service stations in Lancashire&lt;/p&gt;\r\n&lt;div id=\"map\"&gt;&lt;/div&gt;\r\n&lt;!-- Rendered from a simply XSLT Extension --&gt;\r\n&lt;div class=\"point\"&gt;52.94341429133642,-2.1892619132995605,17,A34-STONE ROAD TITTENSOR N/B&lt;/div&gt;\r\n&lt;div class=\"point\"&gt;53.029535856006525,-2.176837921142578,16,A50-POTTERIES WAY&lt;/div&gt;\r\n</pre>\r\n\r\n<p>Note: The empty map div is a placeholder for the Google map\r\nitself.</p>\r\n\r\n<p>Quite a few people have written to me asking how one would add\r\nseveral points to a single instance of my datatype and the short\r\nanswer is you can't. You'll need to create an Umbraco node for\r\nevery point you want to display on your map, each node containing\r\nan instance of my datatype.</p>\r\n\r\n<p>In order to render the map you'll need some javascript similar\r\nto the following:</p>\r\n\r\n<pre class=\"sh_javascript\"\r\nstyle=\"background-color: #eeeeee; border: black 1px solid; padding: 7px;\">\r\n\r\nvar m= new GMap2(document.getElementById('map'));\r\nm.setCenter(new GLatLng(0, 0), 0);\r\nvar bounds = new GLatLngBounds();\r\n\r\nm.addControl(new GLargeMapControl());\r\nm.addControl(new GMapTypeControl());\r\n\r\nvar arrayList = $(\".point\");  // set of elements with class 'point'\r\n\r\n$.each(arrayList, function() {\r\n    var value = $(this).html();\r\n    value = $.trim(value);\r\n\r\n    var point = value.split(',');\r\n    var lat = parseFloat(point[0]);\r\n    var lon = parseFloat(point[1]);\r\n    var desc = point[3];\r\n\r\n    var point = new GLatLng(lat, lon);\r\n    bounds.extend(point);    \r\n\r\n    m.addOverlay(createMarker(point,desc));\r\n});\r\n\r\n// Creates a marker at the given point\r\n// Clicking the marker will hide it\r\n\r\nfunction createMarker(latlng,desc) {\r\n\r\n    var marker = new GMarker(latlng);\r\n    marker.name = desc;\r\n    \r\n    GEvent.addListener(marker,\"click\", function() {\r\n        var myHtml =  desc;\r\n        m.openInfoWindowHtml(latlng, myHtml);\r\n    });\r\n\r\n    return marker;\r\n}\r\n\r\nm.setZoom(m.getBoundsZoomLevel(bounds));\r\nm.setCenter(bounds.getCenter());\r\n</pre>\r\n\r\n<p>For the above to work, you'll need to include jQuery and the\r\nGoogle Maps javascript API in your page. The resulting map should\r\nzoom and centre according to the points that you have added.</p>\r\n\r\n<p><strong>Accessibility alert:</strong> Please provide a header\r\nand description paragraph before your map point data as I have in\r\nmy example in order to ensure that the data makes sense with\r\njavascript disabled or to screen readers.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

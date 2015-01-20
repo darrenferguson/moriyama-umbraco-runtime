@@ -1,0 +1,27 @@
+{
+  "Name": "A couple of Umbraco packages I'd like to see",
+  "Type": "BlogPost",
+  "CreateDate": "2008-12-31T10:22:00",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/12/31/a-couple-of-umbraco-packages-id-like-to-see/",
+  "RelativeUrl": "/2008/12/31/a-couple-of-umbraco-packages-id-like-to-see/",
+  "Content": {
+    "umbracoUrlAlias": "/a-couple-of-umbraco-packages-i'd-like-to-see",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-12-31T10:22:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/eTVnYi",
+    "summary": "'A couple of Umbraco packages I'd like to see' - a blog post by Darren Ferguson about online public image library, search engine rankings, media items, official Liverpool website, search engine written on 31 December 2008",
+    "tags": "online public image library, search engine rankings, media items, official Liverpool website, search engine",
+    "bodyText": "\r\n<p>I'm really happy with Umbraco as a blogging tool since I got\r\nlivewriter support hooked up writing a blog post is now an\r\nextremely quick process and I don't need to worry about anything\r\nexpect the content of the post.</p>\r\n\r\n<p>Yesterday I was sat thinking about what tools would improve the\r\nquality of my posts and came up with a couple of ideas for Umbraco\r\npackages that I would like to see. As time is limited and I'm not\r\nsure I'll have the time to build these packages I thought I'd\r\noutline my ideas here and possibly inspire someone else to pick up\r\nthe ideas and run with them.</p>\r\n\r\n<p>The first idea is the more simple of the two. I'd like that when\r\nI publish a blog post that certain keywords are automatically\r\nlinked to URLs. For example the word Umbraco always gets linked to\r\numbraco.org or the phrase Liverpool gets linked to the official\r\nLiverpool website. These words and phrases would need to be setup\r\nin a configuration file.</p>\r\n\r\n<p>I could see this idea working as an Action Handler or some kind\r\nof button on the TinyMCE toolbar. The latter is probably a better\r\nidea as you may only want to add links to certain blog posts. You'd\r\nalso want to verify the links that had been added to the blog post\r\nin case the code had made any mistakes.</p>\r\n\r\n<p>The code itself would be pretty trivial. Just some regular\r\nexpressions parsing your blog post body.</p>\r\n\r\n<p>The benefit of this functionality is that you can enhance your\r\nsearch engine rankings by having reciprocal links with other sites\r\nand manually adding these links to each post can get quite time\r\nconsuming. I may get around to building this functionality myself\r\nit is probably only a few hours work.</p>\r\n\r\n<p>My second idea is a little more abstract and probably needs some\r\nmore thought. I'm painfully aware that my blog looks rather plain.\r\nThe blogs that stand out for me use some kind of relevant images\r\nwithin the body of the post.</p>\r\n\r\n<p>The idea of going and sourcing an image for every post I make is\r\nquite painful. What I'd like is something that would auto suggest\r\nsome images based on the tags and body content of a post.</p>\r\n\r\n<p>I'm speculating that the functionality would search either the\r\nUmbraco media section or some kind of online public image library\r\n(or both). With events in Umbraco 4 I'm imagining it would be quite\r\neasy to create a Lucene index of media items. Some kind of\r\nclassifier may be used against the body of the blog post in order\r\nto determine the keywords for the post.</p>\r\n\r\n<p>Again, I Imagine some kind of button on the TinyMCE toolbar\r\nopening a popup with thumbnails of suggested images. When a\r\nthumbnail is clicked the image is inserted to the post body with\r\nany required scaling performed automatically.</p>\r\n\r\n<p>So, those are my thoughts. It turned into a bit of a longer post\r\nthan I imagined. If nothing else, it serves as a reminder to myself\r\nwhen I'm looking for a new project.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

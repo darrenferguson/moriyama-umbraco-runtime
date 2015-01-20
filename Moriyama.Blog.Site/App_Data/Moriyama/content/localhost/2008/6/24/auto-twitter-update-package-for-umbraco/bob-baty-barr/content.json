@@ -1,0 +1,28 @@
+{
+  "Name": "bob baty-barr",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:55",
+  "UpdateDate": "2015-01-19T18:39:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/24/auto-twitter-update-package-for-umbraco/bob-baty-barr/",
+  "RelativeUrl": "/2008/6/24/auto-twitter-update-package-for-umbraco/bob-baty-barr/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-07-13T19:55:28Z",
+    "title": "bob baty-barr",
+    "name": "bob baty-barr",
+    "email": "bob@baty-barr.com",
+    "website": "",
+    "bodyText": "darren, trying to test your twitter notification package, but not having any luck... i am seeing stuff in the log files, but it is not showing the post name with link in log file, and it appears my alias is lowercase even though i have case sensitivity in my config?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

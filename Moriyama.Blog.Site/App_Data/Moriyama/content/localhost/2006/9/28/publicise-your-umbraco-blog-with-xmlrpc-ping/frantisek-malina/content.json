@@ -1,0 +1,28 @@
+{
+  "Name": "Frantisek Malina",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:23",
+  "UpdateDate": "2015-01-19T18:33:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/9/28/publicise-your-umbraco-blog-with-xmlrpc-ping/frantisek-malina/",
+  "RelativeUrl": "/2006/9/28/publicise-your-umbraco-blog-with-xmlrpc-ping/frantisek-malina/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2007-07-06T14:35:35Z",
+    "title": "Frantisek Malina",
+    "name": "Frantisek Malina",
+    "email": "vizualbod@vizualbod.com",
+    "website": "vizualbod.com",
+    "bodyText": "I'd rather recommend to use CR/LF separated instead of comma separated list of URL's.\r\n\r\nIn the backend user could add or delete URLs in a simple textarea and update services she wants to ping. It is implemented this way in the WordPress.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

@@ -1,0 +1,27 @@
+{
+  "Name": "Bring on the wookiees!",
+  "Type": "BlogPost",
+  "CreateDate": "2006-06-26T10:01:00",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/26/bring-on-the-wookiees/",
+  "RelativeUrl": "/2006/6/26/bring-on-the-wookiees/",
+  "Content": {
+    "umbracoUrlAlias": "/bring-on-the-wookiees!",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-06-26T10:01:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/hkNpp0",
+    "summary": "'Bring on the wookiees!' - a blog post by Darren Ferguson about Portugal, Sports written on 26 June 2006",
+    "tags": "Portugal, Sports",
+    "bodyText": "<p>\r\nThe tournament seems to have come alive! Some great football this weekend, and another tense, boring and frustrating 90 minutes from Enland.\r\n</p><p>\r\nSo Portugal on Saturday. The memory of 2004 is still clear in my mind. I was in at the stadium when we crashed out, and will never forget the walk back to the car after the game. The portugese poured onto the streets in celebration and at the time it seemed as though they had all come out to taunt me. \r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

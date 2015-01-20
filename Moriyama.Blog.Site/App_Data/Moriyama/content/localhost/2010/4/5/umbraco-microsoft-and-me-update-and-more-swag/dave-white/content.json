@@ -1,0 +1,28 @@
+{
+  "Name": "Dave White",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:01",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/4/5/umbraco-microsoft-and-me-update-and-more-swag/dave-white/",
+  "RelativeUrl": "/2010/4/5/umbraco-microsoft-and-me-update-and-more-swag/dave-white/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-04-06T09:21:42Z",
+    "title": "Dave White",
+    "name": "Dave White",
+    "email": "dave@davewhit.net",
+    "website": "http://davewhite.net",
+    "bodyText": "It was MS Encoder, and interesting I had also completely overlooked it, somply because I figured it does what it says on the tin.  Guess I was a bit wrong there, and will have to give it another shot.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 5,
+  "Level": 6
+}

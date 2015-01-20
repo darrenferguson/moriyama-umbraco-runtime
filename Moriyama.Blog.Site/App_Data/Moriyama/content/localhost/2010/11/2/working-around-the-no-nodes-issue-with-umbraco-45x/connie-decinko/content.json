@@ -1,0 +1,28 @@
+{
+  "Name": "Connie DeCinko",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:58",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/11/2/working-around-the-no-nodes-issue-with-umbraco-45x/connie-decinko/",
+  "RelativeUrl": "/2010/11/2/working-around-the-no-nodes-issue-with-umbraco-45x/connie-decinko/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-11-19T21:45:00.303Z",
+    "title": "Connie DeCinko",
+    "name": "Connie DeCinko",
+    "email": "connie.decinko@staff.azbar.org",
+    "website": "",
+    "bodyText": "I also need more information about how to implement this.  What should the page inherit from?  Where do we put the codebehind?  Additional information would be helpful.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 5,
+  "Level": 6
+}

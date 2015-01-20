@@ -1,0 +1,28 @@
+{
+  "Name": "Morten Christensen",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:02",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/4/12/some-information-about-me-my-work-and-ferguson-moriyama/morten-christensen/",
+  "RelativeUrl": "/2010/4/12/some-information-about-me-my-work-and-ferguson-moriyama/morten-christensen/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-04-12T20:56:31Z",
+    "title": "Morten Christensen",
+    "name": "Morten Christensen",
+    "email": "mc@sitereactor.dk",
+    "website": "http://blog.sitereactor.dk",
+    "bodyText": "I think its really cool that you encourage your clients to make the packages open source when possible. Fantastic way to support the community!\r\n\r\nI will write No.5 in my black book :)",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Hartvig",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:51",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/28/umbraco-backup-is-coming/hartvig/",
+  "RelativeUrl": "/2006/7/28/umbraco-backup-is-coming/hartvig/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-28T14:11:27Z",
+    "title": "Hartvig",
+    "name": "Hartvig",
+    "email": "niels@hartvig.com",
+    "website": "http://hartvig.com",
+    "bodyText": "Awesome Darren! I'll order three; for umbraco.org, umbracostats and umbraco forum.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

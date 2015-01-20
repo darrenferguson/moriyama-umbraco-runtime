@@ -1,0 +1,28 @@
+{
+  "Name": "David Conlisk",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:42",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/10/1/umbraco-tip-quick-sql-server-2005-backuprestore/david-conlisk/",
+  "RelativeUrl": "/2008/10/1/umbraco-tip-quick-sql-server-2005-backuprestore/david-conlisk/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-10-03T11:13:19Z",
+    "title": "David Conlisk",
+    "name": "David Conlisk",
+    "email": "david@web-garden.co.uk",
+    "website": "http://web-garden.co.uk",
+    "bodyText": "Darren - works a treat! Been using subversion with unfuddle.com for my own projects for a while now after our conversations at the level two course and I spend a bit of time manually attaching/detaching the db on each commit/update. This saves me doing that each time and also ensures that I have versioned backups of my database just like my code.\nI wonder is there a way of creating a start-of-day and end-of-day wonder script that will include this step and also kick off your svn checkout or update...\nThanks for the tip!\n\nDavid",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

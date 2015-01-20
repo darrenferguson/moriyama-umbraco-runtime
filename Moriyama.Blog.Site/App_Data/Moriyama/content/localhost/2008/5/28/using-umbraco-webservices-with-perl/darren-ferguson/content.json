@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:54",
+  "UpdateDate": "2015-01-19T18:39:06",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/5/28/using-umbraco-webservices-with-perl/darren-ferguson/",
+  "RelativeUrl": "/2008/5/28/using-umbraco-webservices-with-perl/darren-ferguson/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-05T13:12:57Z",
+    "title": "Darren Ferguson",
+    "name": "Darren Ferguson",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com/",
+    "bodyText": "Hi Paul, \r\n\r\nWas good to meet you in Copenhagen. \r\n\r\nPerl still powers some of the biggest sites on the WWW including the BBC and parts of Amazon. \r\n\r\nIt is quite a common perception that it is a dated or 'retro' technology but to my mind it is still very  current!\r\n\r\nHope you had a good trip to the states, best of luck with the store.\r\n\r\nDarren.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

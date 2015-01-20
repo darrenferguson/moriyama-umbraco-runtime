@@ -1,0 +1,28 @@
+{
+  "Name": "venkat",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:10",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/4/8/tips-for-easier-teamsite-templating-development/venkat/",
+  "RelativeUrl": "/2009/4/8/tips-for-easier-teamsite-templating-development/venkat/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-05-27T10:21:34Z",
+    "title": "venkat",
+    "name": "venkat",
+    "email": "tiruvengala_c@infosys.com",
+    "website": "",
+    "bodyText": "Hi,\r\nI am trying to create presentation file as xslt but I am facing an error \"dtd4.5\" \r\nplease tell the solution.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

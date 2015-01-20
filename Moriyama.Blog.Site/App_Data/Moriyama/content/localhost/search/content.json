@@ -1,0 +1,26 @@
+{
+  "Name": "Search",
+  "Type": "BlogTextPage",
+  "CreateDate": "2015-01-19T13:28:33",
+  "UpdateDate": "2015-01-19T17:57:32",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/search/",
+  "RelativeUrl": "/search/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "shortUrl": "",
+    "summary": "",
+    "tags": "",
+    "bodyText": ""
+  },
+  "Template": "Page",
+  "CacheTime": null,
+  "SortOrder": 13,
+  "Level": 2
+}

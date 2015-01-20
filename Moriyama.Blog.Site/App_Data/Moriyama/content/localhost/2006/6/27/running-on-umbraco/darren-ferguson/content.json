@@ -1,0 +1,28 @@
+{
+  "Name": "Darren Ferguson",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:53",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/27/running-on-umbraco/darren-ferguson/",
+  "RelativeUrl": "/2006/6/27/running-on-umbraco/darren-ferguson/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-06-28T09:15:16Z",
+    "title": "Darren Ferguson",
+    "name": "Darren Ferguson",
+    "email": "df@darren-ferguson.com",
+    "website": "http://www.darren-ferguson.com",
+    "bodyText": "Hi Peter,\r\nLot's of small tweaks, but the main work was:\r\n- Tweaking HTML to work with mostly unmodified wordpress CSS theme.\r\n- Add Archive links by (month).\r\n- Adding Display date field rather than using the post date.\r\n- Fixed a few problems with displaying the post Tags when you click through to the post detail.\r\nLet me know if you need any more info!\r\nThanks.\r\nDarren.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

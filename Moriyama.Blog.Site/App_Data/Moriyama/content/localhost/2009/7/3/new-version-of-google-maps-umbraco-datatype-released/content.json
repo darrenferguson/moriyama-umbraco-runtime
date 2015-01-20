@@ -1,0 +1,27 @@
+{
+  "Name": "New version of Google maps Umbraco datatype released",
+  "Type": "BlogPost",
+  "CreateDate": "2009-07-03T08:05:00",
+  "UpdateDate": "2015-01-19T18:41:18",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/7/3/new-version-of-google-maps-umbraco-datatype-released/",
+  "RelativeUrl": "/2009/7/3/new-version-of-google-maps-umbraco-datatype-released/",
+  "Content": {
+    "umbracoUrlAlias": "/new-version-of-google-maps-umbraco-datatype-released",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-07-03T08:05:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/ftjXUh",
+    "summary": "'New version of Google maps Umbraco datatype released' - a blog post by Darren Ferguson about Google, Technology Internet written on 03 July 2009",
+    "tags": "Google, Technology Internet",
+    "bodyText": "<p>I've released a new version of my Google maps datatype for\r\nUmbraco. The new package and the documentation are available from\r\nthe <a href=\"http://our.umbraco.org/projects/google-maps-datatype\">our.umbraco\r\nproject page</a>.</p><p>Here is a summary of the new features and enhancements:</p><ul><li>Added a clear button to remove a stored location.</li><li>Moved all CSS from user control to external CSS file to allow\r\nuser to alter map appearance.</li><li>Added support for default map locations on a per domain\r\nbasis.</li><li>GUI based configuration of datatype, no need to edit XML config\r\nfiles any more.</li><li>Config GUI can be added to Umbraco dashboard.</li><li>General code/markup cleanup.</li></ul><p>For me, the datatype is now pretty much feature complete. If\r\nyou'd like to see anything else added, you can submit a request in\r\nthe package <a href=\"http://our.umbraco.org/projects/google-maps-datatype/feature-suggestions\">\r\nfeature request forum</a>. Bugs can be reported in the package <a href=\"http://our.umbraco.org/projects/google-maps-datatype/bug-reports\">\r\nBug report forum</a>.</p><p>Over the next few weeks I'll blog more on displaying maps on the\r\nfront end of your web site and share a little more information on\r\ncalculating the distance between stored points.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Michael Chung",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:37",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/17/umbraco-in-the-uk/michael-chung/",
+  "RelativeUrl": "/2006/7/17/umbraco-in-the-uk/michael-chung/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-18T12:48:16Z",
+    "title": "Michael Chung",
+    "name": "Michael Chung",
+    "email": "mchung@ph-wt.com",
+    "website": "http://www.ph-wt.com",
+    "bodyText": "Hello Darren,\r\n\r\nWe're using Umbraco for the first time on one of our projects.\r\n\r\nRegards,\r\nMichael - PHWT\r\n",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 5,
+  "Level": 6
+}

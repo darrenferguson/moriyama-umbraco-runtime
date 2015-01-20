@@ -1,0 +1,28 @@
+{
+  "Name": "Scott Leaver",
+  "Type": "BlogComment",
+  "CreateDate": "2012-02-01T12:14:06",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/scott-leaver/",
+  "RelativeUrl": "/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/scott-leaver/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-02-01T12:14:06.233Z",
+    "title": "Scott Leaver",
+    "name": "Scott Leaver",
+    "email": "scott@crumpled-dog.com",
+    "website": "http://www.crumpled-dog.com",
+    "bodyText": "Hi Darren, we have used your Google Map package, and it's great. Can you tell me, or point me to info showing how we might be able to extend it to add info to the main pin and also add extra info/location pins to the map. The map I am looking at is at: http://greenlight.dev.crumpled-dog.net/contact-us/\n\nThanks\nScott",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 22,
+  "Level": 6
+}

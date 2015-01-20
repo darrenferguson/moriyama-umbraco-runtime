@@ -1,0 +1,28 @@
+{
+  "Name": "John",
+  "Type": "BlogComment",
+  "CreateDate": "2012-04-16T12:10:32",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/john/",
+  "RelativeUrl": "/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/john/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-04-16T12:10:32.3Z",
+    "title": "John",
+    "name": "John",
+    "email": "andras.kovacs@carnationgroup.com",
+    "website": "http://www.carnationgroup.com/",
+    "bodyText": "Great job! But, i have a question. There is way in this module to highlight the area in google map?\n\nThanks your answer:)",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 24,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Søren Sprogø",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:29",
+  "UpdateDate": "2015-01-19T18:41:18",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/8/2/the-future-of-web-cms-is-not/soeren-sprogoe/",
+  "RelativeUrl": "/2009/8/2/the-future-of-web-cms-is-not/soeren-sprogoe/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-08-04T09:21:08Z",
+    "title": "Søren Sprogø",
+    "name": "Søren Sprogø",
+    "email": "ssp@afdeling18.dk",
+    "website": "http://www.afdeling18.dk",
+    "bodyText": "Heh, nice list!\n\nI'd like to add this one:\n\n- I would like to create a simple news archive/ basic functionality X. But apparently this requires me to subscribe to an additional \"module\" at additional monthly costs?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

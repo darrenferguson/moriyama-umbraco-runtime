@@ -1,0 +1,20 @@
+﻿@model Moriyama.Blog.Project.Models.SearchResultsModel
+@{
+    Layout = "../Layout.cshtml";
+}
+
+<h1>Search Results</h1>
+
+<p>Your search for <em>@Model.Query</em> returned @Model.SearchResults.Count() results.</p>
+
+@if (Model.SearchResults.Any())
+{
+
+    foreach (var result in Model.SearchResults)
+    {
+        <p>
+            <a href="@result.Content.RelativeUrl">@result.Content.Name</a><br/>
+            @Html.Raw(result.PreviewText)
+        </p>
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "Name": "Two new Umbraco packages",
+  "Type": "BlogPost",
+  "CreateDate": "2010-06-19T13:24:00",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/6/19/two-new-umbraco-packages/",
+  "RelativeUrl": "/2010/6/19/two-new-umbraco-packages/",
+  "Content": {
+    "umbracoUrlAlias": "/two-new-umbraco-packages",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-06-19T13:24:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/gDWXf9",
+    "summary": "'Two new Umbraco packages' - a blog post by Darren Ferguson about HTML written on 19 June 2010",
+    "tags": "HTML",
+    "bodyText": "<p>\r\nI've released two new Umbraco packages:\r\n</p><ul><li><a href=\"http://our.umbraco.org/projects/event-viewer\">Event Viewer</a></li><li><a href=\"http://our.umbraco.org/projects/static-html-export\">Static HTML Export</a></li></ul><p><em>Event Viewer</em> Discovers all of the events that are registered within an Umbraco instance and displays them on the dashboard. It finds legacy ActionHandlers as well as new v4 events.\r\n</p><p>It tells you the method that the event invokes and the DLL and namespace where it is defined. I've found this useful for troubleshooting performance bottlenecks and removing redundant event handlers.\r\n</p><p><em>Static HTML export</em> Is a re-write of one of my <a href=\"/2006/06/05/plugin-to-export-html-from-umbraco.aspx\">first ever Umbraco packages</a> (more than 4 years ago!).\r\n</p><p>\r\nThe package contains an event handler that fires after a node is published and writes out static HTML plus all of the dependencies (CSS, images, JS ). The project arose from a client requirement to use Umbraco to generate HTML which ultimately gets served up by Apache.\r\n</p><p>I haven't released a binary of this so you'd need to grab the source an build it.\r\n</p><p>\r\nOne year, 13 Umbraco packages. How is that for dare, care share?\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Angad Bhat",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:56",
+  "UpdateDate": "2015-01-19T18:39:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/19/broken-link-check-package-for-umbraco/angad-bhat/",
+  "RelativeUrl": "/2008/6/19/broken-link-check-package-for-umbraco/angad-bhat/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-04-17T16:31:53Z",
+    "title": "Angad Bhat",
+    "name": "Angad Bhat",
+    "email": "abhat@essex.ac.uk",
+    "website": "",
+    "bodyText": "Hi there,\nI am trying to use your package in my umbraco interface. I installed it and everything is fine but when I publish the page(node) I don't get any email as there is one broken link on the page.\n\nI have done umbraco configuration for email set up as the notification feature works fine.\n\nCould you please tell what could possible I be doing wrong. Is there any documentation for this package or something.\n\nAny help is appreciated.\n\nThanks ",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

@@ -1,0 +1,27 @@
+{
+  "Name": "Umbraco in the UK?",
+  "Type": "BlogPost",
+  "CreateDate": "2006-07-17T12:59:00",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/17/umbraco-in-the-uk/",
+  "RelativeUrl": "/2006/7/17/umbraco-in-the-uk/",
+  "Content": {
+    "umbracoUrlAlias": "/umbraco-in-the-uk",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-17T12:59:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/eICdiP",
+    "summary": "'Umbraco in the UK?' - a blog post by Darren Ferguson about United Kingdom, Technology Internet written on 17 July 2006",
+    "tags": "United Kingdom, Technology Internet",
+    "bodyText": "<p>\r\nI was wondering how many Umbraco users we have in the UK with  a view to maybe getting some kind of user group together.\r\n</p><p>\r\nIf you are based on the island, then leave a comment on this post with your name, location and a little background on what you do with Umbraco, e.g. hobbyist, personal site hosting, commercial site.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 5
+}

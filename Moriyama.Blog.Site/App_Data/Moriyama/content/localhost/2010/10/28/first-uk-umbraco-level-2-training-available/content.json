@@ -1,0 +1,27 @@
+{
+  "Name": "First UK Umbraco level 2 training available",
+  "Type": "BlogPost",
+  "CreateDate": "2010-10-28T19:00:00",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/10/28/first-uk-umbraco-level-2-training-available/",
+  "RelativeUrl": "/2010/10/28/first-uk-umbraco-level-2-training-available/",
+  "Content": {
+    "umbracoUrlAlias": "/first-uk-umbraco-level-2-training-available",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-10-28T19:00:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/eKAMD3",
+    "summary": "'First UK Umbraco level 2 training available' - a blog post by Darren Ferguson about London, Bonhill House in London, looking forward, Hospitality Recreation written on 28 October 2010",
+    "tags": "London, Bonhill House in London, looking forward, Hospitality Recreation",
+    "bodyText": "<p>The first UK Umbraco level 2 training and certification course\r\nis now <a href=\"http://umbraco.org/products/training/schedule/view?id=18\">listed\r\non Umbraco.org</a> and available to <a href=\"http://www.fergusonmoriyama.com/umbraco-training.aspx#item-3\">\r\nbook through Ferguson Moriyama</a>. The course will be on December\r\nthe 2nd and 3rd at <a href=\"http://www.etcvenues.co.uk/venues/bonhill-house\">Bonhill\r\nHouse in London</a>. Spaces are limited so early reservation is\r\nrecommended.</p><p>It has been a mad few days getting the infrastructure to run the\r\ncourses in place, but I've prepared a test run with 6 brave test\r\ncourse atendees who will be coming to London in the next couple of\r\nweeks.</p><p>I've spent a large amount of time in the last few days learning\r\nthe course materials and adding to them where I see appropriate and\r\nI'm excited an looking forward to getting out there and getting\r\nmore people into Umbraco.</p><p>I must admit I'm slightly daunted by the atendee list for the\r\ntest course. The collective Umbraco knowledge in the room is going\r\nto be quite something. We've got a current MVP and at least one or\r\ntwo guys who are destined to be MVPs of the future. I'm working\r\nhard to be on a par with these guys and have got  a few off\r\npiste activities to challenge those who finish up their excercises\r\ntoo quickly!</p><p>Also - I've noticed that my test course falls on the eve of the\r\n<a href=\"http://thecogworks.co.uk/\">cogworks</a> monthly <a href=\"http://www.meetup.com/The-London-Umbraco-Meetup/calendar/14902922/t/nr1o_grp/?rv=nr1o\">\r\nUmbraco social in London</a> so I'll be persuading my atendees to\r\ncome along for what should be a pretty good turn out. Hope to see\r\nyou all there.</p><p>Now back to Linq2Umbraco practice :)</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

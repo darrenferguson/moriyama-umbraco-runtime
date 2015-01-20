@@ -1,0 +1,27 @@
+{
+  "Name": "Chilli Sauce",
+  "Type": "BlogPost",
+  "CreateDate": "2006-11-28T18:22:00",
+  "UpdateDate": "2015-01-19T18:33:01",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/11/28/chilli-sauce/",
+  "RelativeUrl": "/2006/11/28/chilli-sauce/",
+  "Content": {
+    "umbracoUrlAlias": "/chilli-sauce",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-11-28T18:22:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fJM0IR",
+    "summary": "'Chilli Sauce' - a blog post by Darren Ferguson written on 28 November 2006",
+    "tags": "Chilli, Chilli Sauce",
+    "bodyText": "\r\n<p><a href=\"http://www.flickr.com/photos/darrenferguson/303032077/\"\r\ntitle=\"Photo Sharing\"><img src=\"/media/77068/2110_1.jpg\" width=\"500\" height=\"375\" alt=\"Chilli Sauce collection\"/></a></p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

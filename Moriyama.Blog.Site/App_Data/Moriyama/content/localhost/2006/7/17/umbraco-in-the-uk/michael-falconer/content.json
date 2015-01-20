@@ -1,0 +1,28 @@
+{
+  "Name": "Michael Falconer",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:41",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/17/umbraco-in-the-uk/michael-falconer/",
+  "RelativeUrl": "/2006/7/17/umbraco-in-the-uk/michael-falconer/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-26T14:52:01Z",
+    "title": "Michael Falconer",
+    "name": "Michael Falconer",
+    "email": "michael@camel-jones.co.uk",
+    "website": "http://www.michaelfalconer.co.uk",
+    "bodyText": "I'm based in Glasgow, Scotland, and am currently developing four sites using Umbraco after experimenting with it over the past 6 months or so.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 14,
+  "Level": 6
+}

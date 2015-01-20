@@ -1,0 +1,27 @@
+{
+  "Name": "Umbraco backup available for purchase",
+  "Type": "BlogPost",
+  "CreateDate": "2006-08-07T16:07:00",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/8/7/umbraco-backup-available-for-purchase/",
+  "RelativeUrl": "/2006/8/7/umbraco-backup-available-for-purchase/",
+  "Content": {
+    "umbracoUrlAlias": "/umbraco-backup-available-for-purchase",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-07T16:07:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/g6GwEg",
+    "summary": "'Umbraco backup available for purchase' - a blog post by Darren Ferguson written on 07 August 2006",
+    "tags": "",
+    "bodyText": "<p>\r\nAlthough Umbraco backup is still in beta, I've opened up the <a href=\"/backup/order.aspx\">buy now link</a> as the code that takes the backup is stable and backups will be compatible with future releases. You will need to <a href=\"/backup/signup.aspx\">register</a> first.\r\n</p><p>\r\nI anticipate finishing FTP and Virtual directory support later tonight. Restore tools and the manual should follow by the end of the week.\r\n</p><p>\r\nStart backing up today!\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

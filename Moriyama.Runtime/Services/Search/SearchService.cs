@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using System.Runtime.Serialization;
 using System.Text.RegularExpressions;
 using log4net;
-using Lucene.Net.Analysis;
 using Lucene.Net.Analysis.Standard;
 using Lucene.Net.Documents;
 using Lucene.Net.Index;
@@ -14,7 +12,6 @@ using Lucene.Net.Search;
 using Lucene.Net.Store;
 using Moriyama.Runtime.Interfaces;
 using Moriyama.Runtime.Models;
-using Directory = Lucene.Net.Store.Directory;
 using Version = Lucene.Net.Util.Version;
 using Lucene.Net.Highlight;
 
@@ -22,20 +19,24 @@ namespace Moriyama.Runtime.Services.Search
 {
     public class SearchService : ISearchService
     {
+        private readonly Version _version;
         private static readonly ILog Logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
         private readonly object _lock;
 
         private readonly RAMDirectory _directory;
-        private IndexWriter _writer;
+        private readonly IndexWriter _writer;
 
         private static SearchService _instance;
 
         private SearchService()
         {
             _lock = new object();
+
+            _version = Version.LUCENE_29;
             _directory = new RAMDirectory();
-            _writer = new IndexWriter(_directory, new StandardAnalyzer(Version.LUCENE_29), IndexWriter.MaxFieldLength.UNLIMITED);
+
+            _writer = new IndexWriter(_directory, new StandardAnalyzer(_version), IndexWriter.MaxFieldLength.UNLIMITED);
         }
 
         public static SearchService Instance
@@ -43,12 +44,11 @@ namespace Moriyama.Runtime.Services.Search
             get { return _instance ?? (_instance = new SearchService()); }
         }
 
-        private RuntimeContentModel GetContentModel(Document content)
-        {
-            var r = new RuntimeContentModel();
-            
-            return r;
-        }
+        //private RuntimeContentModel GetContentModel(Document content)
+        //{
+        //    var r = new RuntimeContentModel();
+        //    return r;
+        //}
 
         private Document GetLuceneDocument(RuntimeContentModel content)
         {
@@ -126,10 +126,10 @@ namespace Moriyama.Runtime.Services.Search
                 {
                     Logger.Warn(ex);
                 }
-                finally
-                {
-                    // _writer.Optimize();
-                }
+                //finally
+                //{
+                //    // _writer.Optimize();
+                //}
             }
         }
 
@@ -149,7 +149,7 @@ namespace Moriyama.Runtime.Services.Search
 
         public void Delete(string url)
         {
-            using (var writer = new IndexWriter(_directory, new StandardAnalyzer(Version.LUCENE_29), true))
+            using (var writer = new IndexWriter(_directory, new StandardAnalyzer(_version), true, IndexWriter.MaxFieldLength.UNLIMITED))
             {
                 try
                 {
@@ -171,11 +171,11 @@ namespace Moriyama.Runtime.Services.Search
         public IEnumerable<SearchResultModel> Search(string searchTerm)
         {
             var results = new List<SearchResultModel>();
-            var indexSearcher = new IndexSearcher(_directory);
+            var indexSearcher = new IndexSearcher(_directory, true);
 
             try
             {
-                var queryParser = new QueryParser("bodyText", new StandardAnalyzer());
+                var queryParser = new QueryParser(Version.LUCENE_29, "bodyText", new StandardAnalyzer(_version));
 
                 var query = queryParser.Parse(searchTerm);
                 var hits = indexSearcher.Search(query);
@@ -201,6 +201,43 @@ namespace Moriyama.Runtime.Services.Search
             finally
             {
                 indexSearcher.Close();
+            }
+
+            return results;
+        }
+
+        public IEnumerable<string> Search(IDictionary<string, string> matches)
+        {
+            var results = new List<string>();
+            var indexSearcher = new IndexSearcher(_directory, true);
+
+            var booleanQuery = new BooleanQuery();
+
+            foreach (var match in matches)
+            {
+                booleanQuery.Add(new TermQuery(new Term(match.Key, match.Value)), BooleanClause.Occur.MUST);    
+            }
+
+            try
+            {
+                var hits = indexSearcher.Search(booleanQuery);
+                var numHits = hits.Length();
+
+                for (var i = 0; i < numHits; ++i)
+                {
+                    var doc = hits.Doc(i);
+                    var url = doc.Get("Url");
+                    results.Add(url);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.Warn(ex);
+            }
+            finally
+            {
+                indexSearcher.Close();
+                indexSearcher.Dispose();
             }
 
             return results;

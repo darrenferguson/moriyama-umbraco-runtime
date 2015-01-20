@@ -1,0 +1,22 @@
+{
+  "Name": "1",
+  "Type": "BlogFolder",
+  "CreateDate": "2011-03-22T15:03:06",
+  "UpdateDate": "2015-01-19T18:37:17",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2007/3/1/",
+  "RelativeUrl": "/2007/3/1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": ""
+  },
+  "Template": "HomePage",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 4
+}

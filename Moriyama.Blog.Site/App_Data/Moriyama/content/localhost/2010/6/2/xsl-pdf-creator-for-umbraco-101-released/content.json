@@ -1,0 +1,27 @@
+{
+  "Name": "XSL PDF Creator for Umbraco 1.0.1 released",
+  "Type": "BlogPost",
+  "CreateDate": "2010-06-02T08:23:00",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/6/2/xsl-pdf-creator-for-umbraco-101-released/",
+  "RelativeUrl": "/2010/6/2/xsl-pdf-creator-for-umbraco-101-released/",
+  "Content": {
+    "umbracoUrlAlias": "/xsl-pdf-creator-for-umbraco-101-released",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-06-02T08:23:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/er5YPD",
+    "summary": "'XSL PDF Creator for Umbraco 1.0.1 released' - a blog post by Darren Ferguson about PDF, XSLT, Technology Internet written on 02 June 2010",
+    "tags": "PDF, XSLT, Technology Internet",
+    "bodyText": "<p>\r\nI've created a patch release of <a href=\"http://our.umbraco.org/projects/xsl-pdf-creator\">XSL PDF Creator for Umbraco</a>. Version 1.0.1 is a result of customer feedback and enhances the product so that existing XSLT Macros in rich text editors can be displayed.\r\n</p><p>\r\nThe sample XSLT file now demonstrates how to process RTE Macros.\r\n</p><p>\r\nFor more information on XSL PDF Creator for Umbraco visit the <a href=\"http://our.umbraco.org/projects/xsl-pdf-creator\">our.umbraco project page</a>.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

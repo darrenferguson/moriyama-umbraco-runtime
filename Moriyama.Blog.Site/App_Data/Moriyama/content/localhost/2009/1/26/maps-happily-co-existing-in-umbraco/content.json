@@ -1,0 +1,27 @@
+{
+  "Name": "Maps happily co-existing in Umbraco",
+  "Type": "BlogPost",
+  "CreateDate": "2009-01-26T17:35:00",
+  "UpdateDate": "2015-01-19T18:41:21",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/1/26/maps-happily-co-existing-in-umbraco/",
+  "RelativeUrl": "/2009/1/26/maps-happily-co-existing-in-umbraco/",
+  "Content": {
+    "umbracoUrlAlias": "/maps-happily-co-existing-in-umbraco",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-01-26T17:35:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/erVkFO",
+    "summary": "'Maps happily co-existing in Umbraco' - a blog post by Darren Ferguson written on 26 January 2009",
+    "tags": "",
+    "bodyText": "<p>I’m getting close to being done with the Umbraco ‘place’ datatype. As soon as Virgin Media restore my Internet service at home I’ll be ready to release!</p><p class=\"clear\"><img alt=\"Umbraco place datatype\" src=\"/media/77577/2645_1.jpg\" /></p><p class=\"clear\">Since my first post, place markers are now draggable for extra accuracy and you can place multiple maps within a document type. Maps in different tabs is now supported after an initial issue with maps which were rendered while not displayed.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

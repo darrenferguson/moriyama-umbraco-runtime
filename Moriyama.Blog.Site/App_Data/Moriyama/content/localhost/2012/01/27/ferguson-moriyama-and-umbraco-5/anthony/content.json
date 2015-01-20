@@ -1,0 +1,28 @@
+{
+  "Name": "Anthony",
+  "Type": "BlogComment",
+  "CreateDate": "2012-01-28T09:28:10",
+  "UpdateDate": "2015-01-19T18:43:48",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2012/01/27/ferguson-moriyama-and-umbraco-5/anthony/",
+  "RelativeUrl": "/2012/01/27/ferguson-moriyama-and-umbraco-5/anthony/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-01-28T09:28:10Z",
+    "title": "Anthony",
+    "name": "Anthony",
+    "email": "anthony.candaele@webmove.be",
+    "website": "http://www.webmove.be",
+    "bodyText": "Hi Darren,\n\nVery useful this blogpost series, as I'm also in the learning phase of Umbraco 5. Just a question, which techniques/methods do you normally use to version your customizations to an Umbraco site?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

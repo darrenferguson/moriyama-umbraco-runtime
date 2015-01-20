@@ -1,0 +1,28 @@
+{
+  "Name": "Mark Smith",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:39",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/17/umbraco-in-the-uk/mark-smith/",
+  "RelativeUrl": "/2006/7/17/umbraco-in-the-uk/mark-smith/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-20T17:26:46Z",
+    "title": "Mark Smith",
+    "name": "Mark Smith",
+    "email": "mark.smith@infopatterns.net",
+    "website": "http://www.grooveforms.com",
+    "bodyText": "Working & Living in Skye, Scotland. Building cool stuff for Microsoft Groove, and using Umbraco for web sites. GrooveForms being  a 'practice run' for the creation of our main company web site..",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 10,
+  "Level": 6
+}

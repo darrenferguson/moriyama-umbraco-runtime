@@ -1,0 +1,27 @@
+{
+  "Name": "Umbraco backup is coming",
+  "Type": "BlogPost",
+  "CreateDate": "2006-07-28T09:25:00",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/28/umbraco-backup-is-coming/",
+  "RelativeUrl": "/2006/7/28/umbraco-backup-is-coming/",
+  "Content": {
+    "umbracoUrlAlias": "/umbraco-backup-is-coming",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-28T09:25:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/dOYLYq",
+    "summary": "'Umbraco backup is coming' - a blog post by Darren Ferguson about Business Finance, Technology Internet written on 28 July 2006",
+    "tags": "Business Finance, Technology Internet",
+    "bodyText": "\r\n<p>Will be my first commercial product featuring, one click backup\r\nof files, ACLs and SQL server data.</p>\r\n\r\n<p><a href=\"http://www.flickr.com/photos/darrenferguson/199538555/\"\r\ntitle=\"Photo Sharing\"><img src=\"/media/77297/1630_1.jpg\" width=\"500\" height=\"362\" alt=\"Umbraco Backup\"/></a></p>\r\n\r\n<p><a href=\"http://www.flickr.com/photos/darrenferguson/199538556/\"\r\ntitle=\"Photo Sharing\"><img src=\"/media/77302/1630_2.jpg\" width=\"500\" height=\"362\" alt=\"Umbraco Backup\"/></a></p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

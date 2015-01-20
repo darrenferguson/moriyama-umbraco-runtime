@@ -1,0 +1,28 @@
+{
+  "Name": "ZK@Web Marketing Blog",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:52",
+  "UpdateDate": "2015-01-19T18:39:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/zk-web-marketing-blog/",
+  "RelativeUrl": "/2008/7/7/unobtrusive-ajax-blog-comments-for-umbraco/zk-web-marketing-blog/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-06-12T08:51:03Z",
+    "title": "ZK@Web Marketing Blog",
+    "name": "ZK@Web Marketing Blog",
+    "email": "zk5182@yahoo.com",
+    "website": "",
+    "bodyText": "I’ve installed a new Ajax-Comments plugin, that means that the comment is posted when you click submit without it having to reload the whole page to show it. Did you not notice that sexy drawer effect when you hit submit? That lessens the load on the server a lot (I hope).",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 12,
+  "Level": 6
+}

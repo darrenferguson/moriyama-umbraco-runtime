@@ -1,0 +1,28 @@
+{
+  "Name": "Lars Skovgaard",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:07",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/lars-skovgaard/",
+  "RelativeUrl": "/2009/3/14/quick-tip-displaying-maps-on-your-umbraco-website/lars-skovgaard/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-09-11T10:41:05Z",
+    "title": "Lars Skovgaard",
+    "name": "Lars Skovgaard",
+    "email": "lars@skovgaarddesign.dk",
+    "website": "http://www.cafax.dk",
+    "bodyText": "Hi\n\nI'm in the same boat as Aron – I'm trying to show a map in a site, but can only see the coordinates. I've also added jquery, the Google API script and the javascript above to my main template, and added the mapdimensions class to the sites main css-file. I'm new to Umbraco and without any javascript-skills, and unlike Aron I can't seem to find the right combination.\n\nHope you can help!\n\nBest regards,\nLars",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 10,
+  "Level": 6
+}

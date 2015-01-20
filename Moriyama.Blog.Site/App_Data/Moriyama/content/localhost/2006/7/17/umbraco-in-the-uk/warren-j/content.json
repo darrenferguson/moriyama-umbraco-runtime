@@ -1,0 +1,28 @@
+{
+  "Name": "Warren J",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:40",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/17/umbraco-in-the-uk/warren-j/",
+  "RelativeUrl": "/2006/7/17/umbraco-in-the-uk/warren-j/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-21T13:28:27Z",
+    "title": "Warren J",
+    "name": "Warren J",
+    "email": "warren@netramedia.com",
+    "website": "http://www.netramedia.com",
+    "bodyText": "Hi Chaps\r\n\r\nWe have been using umbraco for about 4 months now.\r\n\r\nAre implementing a couple pf sites at the moment, but have been mostly working on a flash front end set up to allow slick CMS flash sites.\r\n\r\nShould have our first version up in a couple of weeks.\r\n\r\nLove the idea of a UK user group",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 12,
+  "Level": 6
+}

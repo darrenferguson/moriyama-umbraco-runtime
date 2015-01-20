@@ -1,0 +1,28 @@
+{
+  "Name": "Dion",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:39",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/17/umbraco-in-the-uk/dion/",
+  "RelativeUrl": "/2006/7/17/umbraco-in-the-uk/dion/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-20T16:27:48Z",
+    "title": "Dion",
+    "name": "Dion",
+    "email": "dion@heskett.co.uk",
+    "website": "",
+    "bodyText": "Hi Darren\r\n\r\nThink this would be a great idea, this is a excellent application although the documentation is poor. The speed that you can create and update web sites is fantastic. The user interface is simple to use so even a complete novice should be able to update there site content.\r\n\r\n",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 9,
+  "Level": 6
+}

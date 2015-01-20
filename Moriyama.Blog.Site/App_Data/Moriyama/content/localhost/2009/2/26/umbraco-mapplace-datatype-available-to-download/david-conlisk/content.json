@@ -1,0 +1,28 @@
+{
+  "Name": "David Conlisk",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:01",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/26/umbraco-mapplace-datatype-available-to-download/david-conlisk/",
+  "RelativeUrl": "/2009/2/26/umbraco-mapplace-datatype-available-to-download/david-conlisk/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-03-03T14:34:12Z",
+    "title": "David Conlisk",
+    "name": "David Conlisk",
+    "email": "david@web-garden.co.uk",
+    "website": "http://web-garden.co.uk",
+    "bodyText": "Nice work Darren!\n\nI've just downloaded the package and I'm creating my first document types using the place datatype. Dead easy to use - will definitely be using this one on any sites that require the storage of GPS co-ordinates. \n\nDavid",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

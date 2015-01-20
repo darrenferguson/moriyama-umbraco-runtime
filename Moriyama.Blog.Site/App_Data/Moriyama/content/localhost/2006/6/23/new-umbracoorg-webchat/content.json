@@ -1,0 +1,27 @@
+{
+  "Name": "New Umbraco.org webchat",
+  "Type": "BlogPost",
+  "CreateDate": "2006-06-23T10:02:00",
+  "UpdateDate": "2015-01-19T18:33:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/6/23/new-umbracoorg-webchat/",
+  "RelativeUrl": "/2006/6/23/new-umbracoorg-webchat/",
+  "Content": {
+    "umbracoUrlAlias": "/new-umbracoorg-webchat",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-06-23T10:02:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/g7LVty",
+    "summary": "'New Umbraco.org webchat' - a blog post by Darren Ferguson about Umbraco secretary, Politics written on 23 June 2006",
+    "tags": "Umbraco secretary, Politics",
+    "bodyText": "<p>This one should be interesting too.</p><p><a href=\"http://www.umbraco.org/10815.aspx\">http://www.umbraco.org/10815.aspx</a></p><p>\r\nI am preparing my minuting skills, but need to be a bit careful that I don’t end up turning into the Umbraco secretary…. \r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

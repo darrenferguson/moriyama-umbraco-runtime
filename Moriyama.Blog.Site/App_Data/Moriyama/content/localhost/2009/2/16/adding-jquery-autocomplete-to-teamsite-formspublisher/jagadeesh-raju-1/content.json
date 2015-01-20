@@ -1,0 +1,28 @@
+{
+  "Name": "Jagadeesh Raju (1)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:46",
+  "UpdateDate": "2015-01-19T18:41:20",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/16/adding-jquery-autocomplete-to-teamsite-formspublisher/jagadeesh-raju-1/",
+  "RelativeUrl": "/2009/2/16/adding-jquery-autocomplete-to-teamsite-formspublisher/jagadeesh-raju-1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-08-18T08:19:42Z",
+    "title": "Jagadeesh Raju (1)",
+    "name": "Jagadeesh Raju (1)",
+    "email": "jagadeesh.raju@hotmail.com",
+    "website": "",
+    "bodyText": "Thanks Darren and Calum Smith. I implemented Datepicker jquery in DCT as described the above steps. Its working fine.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 12,
+  "Level": 6
+}

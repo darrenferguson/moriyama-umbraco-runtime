@@ -1,0 +1,28 @@
+{
+  "Name": "Tanvi",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:06:02",
+  "UpdateDate": "2015-01-19T18:41:19",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/4/8/tips-for-easier-teamsite-templating-development/tanvi/",
+  "RelativeUrl": "/2009/4/8/tips-for-easier-teamsite-templating-development/tanvi/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-02-18T12:53:36.03Z",
+    "title": "Tanvi",
+    "name": "Tanvi",
+    "email": "teena4u_mics@yahoo.com",
+    "website": "http://www.darren-ferguson.com/2009/4/8/tips-for-easier-teamsite-templating-development",
+    "bodyText": "Hi, I am a beginner to Interwoven Teamsite. can you pls suggest sites to have basic understanding of development in Interwoven env and configuration of Interwoven Teamsite.\nThanks",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 7,
+  "Level": 6
+}

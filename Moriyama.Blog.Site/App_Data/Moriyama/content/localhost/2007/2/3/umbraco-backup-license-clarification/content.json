@@ -1,0 +1,27 @@
+{
+  "Name": "Umbraco Backup license clarification",
+  "Type": "BlogPost",
+  "CreateDate": "2007-02-03T11:22:00",
+  "UpdateDate": "2015-01-19T18:37:17",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2007/2/3/umbraco-backup-license-clarification/",
+  "RelativeUrl": "/2007/2/3/umbraco-backup-license-clarification/",
+  "Content": {
+    "umbracoUrlAlias": "/umbraco-backup-license-clarification",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2007-02-03T11:22:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/f2tIuy",
+    "summary": "'Umbraco Backup license clarification' - a blog post by Darren Ferguson about physical web server, web servers, not for profit web site, web server, Technology Internet written on 03 February 2007",
+    "tags": "physical web server, web servers, not for profit web site, web server, Technology Internet",
+    "bodyText": "<p>\r\nI get quite a few questions about Umbraco Backup licensing, so here is clarification about what each licensing model means.\r\n</p><p><b>Personal/Non-Profit:</b> For any type of not for profit web site e.g. charities and blogs. The license is tied to a fully qualified domain name e.g. www.mysite.com.\r\n</p><p><b>Single Umbraco instance:</b> For a single commercial site, tied to domain name in the same way as a non-profit license is.\r\n</p><p><b>Server license:</b> Allows you to install Umbraco Backup within as many Umbraco instances as you like on a single physical web server. All domain names for these sites *must* resolve to the same IP address. If you have two web servers you need two licenses. Changing the server IP is fine, the license is based on a domain, as long as all domains resolve to the IP of the licensed domain then your license is valid.\r\n</p><p>\r\nI am always happy to discuss volume licensing discounts, just drop me a mail.\r\n</p><p>\r\nI don't have any policy on upgrading to future versions yet. If you are waiting for version 2.0, there is really no point as I am not sure if there will ever be a 2.0 at present.\r\n</p><p>\r\nThanks, Darren.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 5
+}

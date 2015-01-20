@@ -1,0 +1,27 @@
+{
+  "Name": "Adventures in Vietnamese cooking",
+  "Type": "BlogPost",
+  "CreateDate": "2006-08-28T10:18:00",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/8/28/adventures-in-vietnamese-cooking/",
+  "RelativeUrl": "/2006/8/28/adventures-in-vietnamese-cooking/",
+  "Content": {
+    "umbracoUrlAlias": "/adventures-in-vietnamese-cooking",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-28T10:18:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/hI3gMQ",
+    "summary": "'Adventures in Vietnamese cooking' - a blog post by Darren Ferguson about Bun Bo Hue written on 28 August 2006",
+    "tags": "Bun Bo Hue",
+    "bodyText": "<p>\r\nThis is the result of an attempt to create Bun Bo Hue at home. I made a few fundamental mistakes including the wrong type of noodles, but the results were encouraging.\r\n</p><p><a href=\"http://www.flickr.com/photos/darrenferguson/226993504/\" title=\"Photo Sharing\"><img src=\"/media/77341/1884_1.jpg\" width=\"500\" height=\"375\" alt=\"Homemade vietnamese\" /></a></p><p><a href=\"http://www.flickr.com/photos/darrenferguson/226993501/\" title=\"Photo Sharing\"><img src=\"/media/77346/1884_2.jpg\" width=\"500\" height=\"375\" alt=\"Homemade vietnamese\" /></a></p><p><a href=\"http://www.flickr.com/photos/darrenferguson/226993499/\" title=\"Photo Sharing\"><img src=\"/media/77351/1884_3.jpg\" width=\"500\" height=\"375\" alt=\"Homemade vietnamese\" /></a></p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

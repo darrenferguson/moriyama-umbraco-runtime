@@ -1,0 +1,28 @@
+{
+  "Name": "Jan",
+  "Type": "BlogComment",
+  "CreateDate": "2012-01-18T20:44:58",
+  "UpdateDate": "2015-01-19T18:43:48",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2012/01/17/building-the-new-ferguson-moriyama-website-in-umbraco-5/jan/",
+  "RelativeUrl": "/2012/01/17/building-the-new-ferguson-moriyama-website-in-umbraco-5/jan/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-01-18T20:44:58Z",
+    "title": "Jan",
+    "name": "Jan",
+    "email": "jaskov@gmail.com",
+    "website": "http://www.janskovgaard.dk",
+    "bodyText": "Good idea Darren - Looking forward to read about what you figure out during the process. I agree that the best way to learn is by having a real project to solve :)",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Chris Houston",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:36",
+  "UpdateDate": "2015-01-19T18:41:17",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/11/15/feed-cache-for-umbraco-11-released/chris-houston/",
+  "RelativeUrl": "/2009/11/15/feed-cache-for-umbraco-11-released/chris-houston/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-11-15T16:07:19Z",
+    "title": "Chris Houston",
+    "name": "Chris Houston",
+    "email": "chouston@vizioz.com",
+    "website": "http://blog.vizioz.com",
+    "bodyText": "Hi Darren,\n\nI added a comment to one of your other posts related to this, and now I cannot find it, so not sure if it worked or not ?!\n\nAnyway, I have created a short XSLT snippet that converts @names / #names and URL's to clickable links, so I thought it might be something you or those using your package may like to use.\n\nYou can find it here:\n\nhttp://blog.vizioz.com/2009/11/twitter-feeds-in-umbraco-using-xslt.html\n\nCheers,\n\nChris",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

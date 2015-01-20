@@ -28,6 +28,7 @@ namespace Moriyama.Runtime.Interfaces
         IEnumerable<RuntimeContentModel> Children(RuntimeContentModel model);
 
         IEnumerable<RuntimeContentModel> Descendants(RuntimeContentModel model);
+        IEnumerable<RuntimeContentModel> Descendants(RuntimeContentModel model, IDictionary<string, string> filter);
 
         RuntimeContentModel CreateContent(string url, IDictionary<string, object> properties);
     }

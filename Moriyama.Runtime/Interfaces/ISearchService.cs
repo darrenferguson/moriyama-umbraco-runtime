@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Moriyama.Runtime.Models;
 
 namespace Moriyama.Runtime.Interfaces
@@ -10,5 +9,8 @@ namespace Moriyama.Runtime.Interfaces
         void Delete(string url);
 
         IEnumerable<SearchResultModel> Search(string query);
+
+        IEnumerable<string> Search(IDictionary<string, string> matches);
+
     }
 }

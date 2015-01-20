@@ -1,0 +1,27 @@
+{
+  "Name": "Recruitment isn't easy",
+  "Type": "BlogPost",
+  "CreateDate": "2014-02-12T14:02:30",
+  "UpdateDate": "2015-01-19T10:24:14",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2014/02/12/recruitment-isnt-easy/",
+  "RelativeUrl": "/2014/02/12/recruitment-isnt-easy/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2014-02-12T14:00:00Z",
+    "title": "Recruitment isn't easy",
+    "shortUrl": "",
+    "summary": "'Recruitment isn't easy' - a blog post by Darren Ferguson about Recruitment, Umbraco written on 12 February 2014",
+    "tags": "Recruitment, Umbraco",
+    "bodyText": "<p>Recruitment isn’t easy. We’ve got a world class team at Moriyama, but it took a lot of effort to assemble. Needing to expand again and fearing the pain of the whole recruitment process we floated around a few ideas about how to make our lives easier this time.</p>\n<p><em>So what is painful about recruitment?</em></p>\n<p><strong>Recruitments agents</strong></p>\n<p>First of all, recruitment agents. We don’t use them, but they call us anyway. They use tricks to get around our reception. They waste our time.</p>\n<p>I think agents are a good idea for contract positions. Large financial institution engages recruitment agent, who identifies candidate and sorts out paying them post hire. Perfect, everyone wins.</p>\n<p>But I don’t believe in recruitment agencies harassing small businesses like mine, and I want my candidate to be looking for a role that they want using their own initiative. If you’ve out sourced your next career move to an agent then it shows a lack of interest and ambition (in my opinion). I think someone who knows about Umbraco and really wants to work with it will find my job advert and they shouldn’t need a middle man to find it.</p>\n<p><em>And of course I don’t like paying commission.</em></p>\n<p>We decided to come up with a recruitment process that recruitment agents can’t use.</p>\n<p><strong>The next challenge is - Offshoring offers</strong></p>\n<p>No, we don’t want to offshore our work to you. We are building a word class team of Umbraco experts.</p>\n<p><strong>Blanket Applications</strong></p>\n<p>We’ve previously placed job advertisements on sites likes JobServe and LinkedIn. They just seem to encourage blanket applications from people who are casting their net as wide as possible. Some of these sites make it really simple to keyword search a job, select all results and send a standard application to all of them.</p>\n<p>This suggests to me, that you don’t want our job, you just want a job. Again, it is a waste of your time and ours.</p>\n<p>To work around this we decided to create a recruitment process that you can’t apply to by firing off an automated email.</p>\n<p><strong>Traditional recruitment applications tend to focus on what you have done</strong></p>\n<p>And where you have done it, but we're much more interested in what you can do and what you are potentially capable of achieving with us.</p>\n<p>It is surprisingly common for a candidate to have written a load of stuff on their CV, but which disappointingly they can't discuss at interview; and Similarly we stumble across people full of curiosity, and problem solving ability but who can't write a coherent CV..</p>\n<p><strong>So what is this magic application process?</strong></p>\n<p>If you’ve read the <a href=\"http://www.moriyama.co.uk/about-us/news/\">list of open positions at Moriyama</a> and our ready to apply, you use our REST API which is documented at <a href=\"https://gisajob.moriyama.co.uk/\">https://gisajob.moriyama.co.uk/</a></p>\n<p>We don’t accept email applications, you have to apply using REST.</p>\n<p><strong>Why?</strong></p>\n<p>Simply because all applications are pre-qualified to some extent. You obviously aren’t a recruitment agent (unless you are a techie who wanted a career change). You didn’t search out our job on some site and send us a generic application form.</p>\n<p>Having stumbled upon our application you are sufficiently interested to figure out how our API works which gives us the confidence that you are both interested in our job and have some basic technical competencies. We like curious people who “tinker” and “get under the hood”.</p>\n<p><strong>What Next?</strong></p>\n<p>Well after applying we more or less revert to a traditional recruitment process. You come and visit us and we see if we get along well.</p>\n<p><em>Disclaimer: Not technical staff don’t have to apply via REST API.</em></p>\n<p><br /><br /></p>",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 0,
+  "Level": 5
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Ben",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:49",
+  "UpdateDate": "2015-01-19T18:39:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/8/25/umbraco-certified-professional/ben/",
+  "RelativeUrl": "/2008/8/25/umbraco-certified-professional/ben/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-10-02T18:56:07Z",
+    "title": "Ben",
+    "name": "Ben",
+    "email": "ben.foster@digforfire.co.uk",
+    "website": "",
+    "bodyText": "Hi darren - im contacting you here as your contact form on your company website is not working! Are you interested in giving an estimate for an umbaco project? Its the one listed in the forums at http://forum.umbraco.org/yaf_postst6456_Freelance-developer-Yorkshire-UK.aspx",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

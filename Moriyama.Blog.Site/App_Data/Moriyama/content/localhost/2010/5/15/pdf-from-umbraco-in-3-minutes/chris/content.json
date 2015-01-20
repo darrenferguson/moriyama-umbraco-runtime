@@ -1,0 +1,28 @@
+{
+  "Name": "Chris",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:02",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/5/15/pdf-from-umbraco-in-3-minutes/chris/",
+  "RelativeUrl": "/2010/5/15/pdf-from-umbraco-in-3-minutes/chris/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-05-15T10:36:59Z",
+    "title": "Chris",
+    "name": "Chris",
+    "email": "chriskoiak@gmail.com",
+    "website": "",
+    "bodyText": "Great post! Love the package too",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

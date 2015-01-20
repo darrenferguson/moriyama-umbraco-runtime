@@ -1,0 +1,28 @@
+{
+  "Name": "Chris Kowalski",
+  "Type": "BlogComment",
+  "CreateDate": "2012-01-11T00:24:11",
+  "UpdateDate": "2015-01-19T18:43:24",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/11/12/pdf-from-umbraco-in-3-minutes/chris-kowalski/",
+  "RelativeUrl": "/2011/11/12/pdf-from-umbraco-in-3-minutes/chris-kowalski/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-01-11T00:24:11.133Z",
+    "title": "Chris Kowalski",
+    "name": "Chris Kowalski",
+    "email": "kkowlaski@wp.pl",
+    "website": "",
+    "bodyText": "When I do that I don't have PDF, my browser show XML.\nWhat I'm doing wrong ?",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

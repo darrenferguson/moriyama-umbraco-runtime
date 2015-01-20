@@ -1,0 +1,27 @@
+{
+  "Name": "Creating a license provider that interfaces with the Umbraco store",
+  "Type": "BlogPost",
+  "CreateDate": "2009-07-15T20:40:00",
+  "UpdateDate": "2015-01-19T18:41:18",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/7/15/creating-a-license-provider-that-interfaces-with-the-umbraco-store/",
+  "RelativeUrl": "/2009/7/15/creating-a-license-provider-that-interfaces-with-the-umbraco-store/",
+  "Content": {
+    "umbracoUrlAlias": "/creating-a-license-provider-that-interfaces-with-the-umbraco-store",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-07-15T20:40:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/gEqcfs",
+    "summary": "'Creating a license provider that interfaces with the Umbraco store' - a blog post by Darren Ferguson about Umbraco store, Technology Internet written on 15 July 2009",
+    "tags": "Umbraco store, Technology Internet",
+    "bodyText": "<p>At codegarden 09 I attended an open space session that discussed\r\nthe three current package repositories - our.umbraco projects, the\r\nUmbraco package repository and the Umbraco store. My action point\r\nfrom this discussion was to write up some information on how to\r\ncreate a license provider that works with the Umbraco store. With\r\nthis in mind I've released my <a href=\"http://our.umbraco.org/projects/umbraco-store-license-provider\">\r\nframework for creating licenses</a> on our.umbraco.org and also\r\ncreated a wiki page which <a href=\"http://our.umbraco.org/wiki/how-tos/creating-a-license-provider-that-interfaces-with-the-umbraco-store\">\r\nexplains how to configure the application</a>.</p><p>The application is written around spring.net and is easy to get\r\nup and quickly. It is also very flexible allowing you to implement\r\nsome simple interfaces in several areas of the application where\r\nyou may want to customise functionality. Integration testing is\r\nalready completed and my framework already provides licenses for\r\ntwo products in the <a href=\"http://store.umbraco.org/\">Umbraco\r\nstore</a>.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

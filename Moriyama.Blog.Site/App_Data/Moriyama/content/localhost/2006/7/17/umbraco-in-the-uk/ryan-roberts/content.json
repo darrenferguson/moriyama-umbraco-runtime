@@ -1,0 +1,28 @@
+{
+  "Name": "Ryan Roberts",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:40",
+  "UpdateDate": "2015-01-19T18:33:04",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/17/umbraco-in-the-uk/ryan-roberts/",
+  "RelativeUrl": "/2006/7/17/umbraco-in-the-uk/ryan-roberts/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-07-25T13:08:56Z",
+    "title": "Ryan Roberts",
+    "name": "Ryan Roberts",
+    "email": "ryansroberts@gmail.com",
+    "website": "",
+    "bodyText": "I would definately be interested in a UK user group. It's a damn impressive CMS and I have far too many ideas for enchancements and plugins.\r\n\r\nI currently work with Ismail in Manchester but am about to naff off consulting again.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 13,
+  "Level": 6
+}

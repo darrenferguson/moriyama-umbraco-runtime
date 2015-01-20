@@ -1,0 +1,28 @@
+{
+  "Name": "Jesper Ordrup (2)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:49",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/20/poll-macro-needs-improving/jesper-ordrup-2/",
+  "RelativeUrl": "/2006/7/20/poll-macro-needs-improving/jesper-ordrup-2/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-10T21:08:05Z",
+    "title": "Jesper Ordrup (2)",
+    "name": "Jesper Ordrup (2)",
+    "email": "jesper@jesper.com",
+    "website": "http://www.jesper.com",
+    "bodyText": "... got me thinking :o)\r\n\r\nWhy not use the autoform/document type approach for polls?\r\n\r\nIt might be a slight modified autoform control if you want to ensure that members only vote once and such but it could be cool.\r\n\r\nJesper",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 5,
+  "Level": 6
+}

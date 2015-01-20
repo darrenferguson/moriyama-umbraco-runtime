@@ -1,0 +1,27 @@
+{
+  "Name": "intro-uk.com goes live with Umbraco and Flash",
+  "Type": "BlogPost",
+  "CreateDate": "2006-08-05T10:08:00",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/8/5/intro-ukcom-goes-live-with-umbraco-and-flash/",
+  "RelativeUrl": "/2006/8/5/intro-ukcom-goes-live-with-umbraco-and-flash/",
+  "Content": {
+    "umbracoUrlAlias": "/intro-ukcom-goes-live-with-umbraco-and-flash",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-05T10:08:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/ea4qPt",
+    "summary": "'intro-uk.com goes live with Umbraco and Flash' - a blog post by Darren Ferguson about Umbraco, web maestro, XML, Technology Internet written on 05 August 2006",
+    "tags": "Umbraco, web maestro, XML, Technology Internet",
+    "bodyText": "\r\n<p>After several months waiting for approval <a\r\nhref=\"http://www.intro-uk.com/\">the Intro website</a> is live.</p>\r\n\r\n<p><a href=\"http://www.intro-uk.com/\"><img src=\"/media/77370/1718_1.jpg\" alt=\"Intro website\" style=\"border: 1px solid #000000;\"/></a></p>\r\n\r\n<p class=\"clear\">Umbraco feeds XML to a flash front end build by\r\nweb maestro <a href=\"http://www.richsalter.net/\">Rich Salter</a>.\r\nSite design was done internally by Intro.</p>\r\n\r\n<p>Believe it or not, despite all of my interest in Umbraco, this\r\nis my first site to go live other than my own domain!</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

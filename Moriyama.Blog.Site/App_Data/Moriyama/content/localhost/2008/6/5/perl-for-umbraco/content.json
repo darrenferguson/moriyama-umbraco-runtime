@@ -1,0 +1,27 @@
+{
+  "Name": "Perl for Umbraco",
+  "Type": "BlogPost",
+  "CreateDate": "2008-06-05T19:11:00",
+  "UpdateDate": "2015-01-19T18:39:06",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/5/perl-for-umbraco/",
+  "RelativeUrl": "/2008/6/5/perl-for-umbraco/",
+  "Content": {
+    "umbracoUrlAlias": "/perl-for-umbraco",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-05T19:11:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fqkbsk",
+    "summary": "'Perl for Umbraco' - a blog post by Darren Ferguson about Perl, HTTP, BBC, Amazon, web.config, Web frameworks, interpreter, XSLT, ISAPI, CGI written on 05 June 2008",
+    "tags": "Perl, HTTP, BBC, Amazon, web.config, Web frameworks, interpreter, XSLT, ISAPI, CGI",
+    "bodyText": "<p>\r\nDisclaimer: I see this as a nice little hack, and something that I’ll use for development and fast prototyping. I’m not recommending it for production use and I know and appreciate that the guys behind Umbraco would probably discourage this in terms of 'best practices'. There is nothing here you couldn't do with C#.\r\n</p><p>\r\nAnyway, having said that, I think Perl is a great and very current technology. I use it day in day out as part of my work with <a href=\"http://www.interwoven.com\">Interwoven</a> TeamSite and it still powers some of the biggest sites on the web including the <a href=\"http://www.bbc.co.uk/\">BBC</a> and parts of <a href=\"http://www.amazon.com\">Amazon</a>. Web frameworks like <a href=\"http://www.perl.com/pub/a/2005/06/02/catalyst.html\">Catalyst</a> are excellent and I’m quite prepared to argue my corner with anyone who thinks that Perl is old ‘skool’ and dated.\r\n</p><p>\r\nFor those of you who aren’t interested in the technical details here are the links to the samples:\r\n</p><p><a href=\"/perl/hello-world.aspx\">Hello World</a><br /><a href=\"/perl/perl---get-login.aspx\">Get Login</a><br /><a href=\"/perl/perl---format-date.aspx\">Format Date</a><br /><a href=\"/perl/perl---passing-a-parameter.aspx\">Passing a parameter</a><br /><a href=\"/perl/perl---missing-script.aspx\">Missing script</a><br /><a href=\"/perl/perl---dump-request.aspx\">Dump Request</a><br /><a href=\"/perl/perl---script-not-specified.aspx\">Script not specified</a><br /><a href=\"/perl/perl---current-page-as-json.aspx\">Current page as JSON</a><br /><a href=\"/perl/perl---manipulating-text-with-regular-expressions.aspx\">Manipulating text with regular expressions</a><br /><a href=\"/perl/perl---replacing-words-within-a-string.aspx\">Replacing words within a string</a></p><p>\r\nMy favourite sample here is date formatting, Tim recently wrote a post on <a href=\"http://www.nibble.be/?p=18\">date formatting using XSLT</a> and I love the simplicity of my sample when it comes to tasks like this.\r\n</p><p>\r\nSo, a brief overview of what is going on here.\r\n</p><p><a href=\"http://www.activestate.com/Products/activeperl/index.mhtml\">ActivePerl</a> comes bundled with a product called PerlEx. PerlEx can be configured in IIS as an ISAPI filter which Pre-compiles Perl and significantly reduces the execution time and the overhead of starting a new interpreter with each HTTP request which is what traditionally happened with CGI scripts. The ActivePerl installer takes care of all of this setup for you. Although I’ve said I wouldn’t recommend this for production use, it is very quick. It is quite likely your shared host already has it set up.\r\n</p><p>\r\nI’ve created an HTTP filter using C# that parses Umbraco pages and uses regular expressions to find PERL_MACRO tags – see the examples.  The Marco named in the tag is modified to have a .plex extension and a request is made to http://yourhost.com/plex/macro.plex.\r\n</p><p>\r\nAny other Macro params are forwarded as request parameters meaning you can pass values from Umbraco to Perl.\r\n</p><p>\r\nTo set up I simply add /plex to my Umbraco reserved paths in web.config and add an HTTP filter.\r\n</p><p>\r\nIf you’d like to play with this yourself drop me an email. I'd love your feedback, positive or negative. I'd hoped to show this at codegarden but it wasn't ready.\r\n</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 5
+}

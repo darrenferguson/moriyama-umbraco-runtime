@@ -1,0 +1,26 @@
+{
+  "Name": "Archive",
+  "Type": "BlogTextPage",
+  "CreateDate": "2015-01-19T10:25:31",
+  "UpdateDate": "2015-01-19T10:26:00",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/archive/",
+  "RelativeUrl": "/archive/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "",
+    "title": "",
+    "shortUrl": "",
+    "summary": "",
+    "tags": "",
+    "bodyText": ""
+  },
+  "Template": "Archive",
+  "CacheTime": null,
+  "SortOrder": 12,
+  "Level": 2
+}

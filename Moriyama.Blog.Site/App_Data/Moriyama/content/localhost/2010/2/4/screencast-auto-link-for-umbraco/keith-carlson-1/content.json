@@ -1,0 +1,28 @@
+{
+  "Name": "Keith Carlson (1)",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:02:46",
+  "UpdateDate": "2015-01-19T18:42:39",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/2/4/screencast-auto-link-for-umbraco/keith-carlson-1/",
+  "RelativeUrl": "/2010/2/4/screencast-auto-link-for-umbraco/keith-carlson-1/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-04-23T19:16:14Z",
+    "title": "Keith Carlson (1)",
+    "name": "Keith Carlson (1)",
+    "email": "keith.carlson@plainwrapsolutions.com",
+    "website": "http://www.microfabrica.com",
+    "bodyText": "I am interested in using this to build a glossary feature for Umbraco with tooltips instead of links.  Is it possible to get source code to start this process?  I think this is a great module to base ours on.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 7,
+  "Level": 6
+}

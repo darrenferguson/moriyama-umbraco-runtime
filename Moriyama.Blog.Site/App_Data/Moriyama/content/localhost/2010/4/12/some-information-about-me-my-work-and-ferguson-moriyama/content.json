@@ -1,0 +1,27 @@
+{
+  "Name": "Some information about me, my work and Ferguson Moriyama",
+  "Type": "BlogPost",
+  "CreateDate": "2010-04-12T12:31:00",
+  "UpdateDate": "2015-01-19T18:42:38",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/4/12/some-information-about-me-my-work-and-ferguson-moriyama/",
+  "RelativeUrl": "/2010/4/12/some-information-about-me-my-work-and-ferguson-moriyama/",
+  "Content": {
+    "umbracoUrlAlias": "/some-information-about-me,-my-work-and-ferguson-moriyama",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-04-12T12:31:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/gJLLiH",
+    "summary": "'Some information about me, my work and Ferguson Moriyama' - a blog post by Darren Ferguson about The Bank of New York Mellon, ASP.net, United Kingdom, time developer, social media, content management products, Perl, PHP, Maryland, HTML, content management written on 12 April 2010",
+    "tags": "The Bank of New York Mellon, ASP.net, United Kingdom, time developer, social media, content management products, Perl, PHP, Maryland, HTML, content management",
+    "bodyText": "\r\n<p>I seem to be answering a lot of questions about the way I work\r\nrecently so I thought I'd write a blog post to clear it all up. The\r\nconfusion seems to be around how I split my time between Umbraco\r\nand TeamSite/LiveSite work and what Ferguson Moriyama is - just a\r\nfront company for my invoicing or an actual company?</p>\r\n\r\n<p>Here is how it all fits together.</p>\r\n\r\n<p>Firstly, I'm often on a full time contract. In the last 3 years\r\nI've been exceptionally lucky to have a great client (<a\r\nhref=\"http://www.bnymellon.com/\">The Bank of New York Mellon</a>)\r\nthat has kept me busy 9-5 - and no more I gratefully add. This\r\nrelationship is now drawing to a close.</p>\r\n\r\n<p>When I'm on contract, I'm still the MD of Ferguson Moriyama. My\r\ncompany is myself plus 2 other full time employees. My wife is one\r\nemployee - she takes care of the books and lots of other admin\r\ntasks - this isn't income shifting she actually has a full time\r\njob. Employee #3 is a full time developer unlike myself he isn't\r\ninto blogging, social media and developer communities, he just\r\nlikes to sit in a room and code.</p>\r\n\r\n<p>Ferguson Moriyama also makes use of an extensive network of\r\nfreelancers and contractors - my \"little black book\" contains 10\r\npeople, graphic designers, HTML/CSS gurus, people who build servers\r\netc etc. These people are the best of the best in my opinion - the\r\nlist has grown slowly over more than a decade and I trust the\r\npeople on it to deliver excellence every time.</p>\r\n\r\n<p>Whatever my day to day commitments at Mellon, I'm still the QA\r\nwho oversees anything that Ferguson Moriyama delivers. To use an\r\nAmericanism \"the buck stops with me\".</p>\r\n\r\n<p>So what does Ferguson Moriyama do exactly? Well, a few years\r\nback we wrote this rather naff <a\r\nhref=\"http://www.fergusonmoriyama.com/about.aspx\">mission\r\nstatement</a>. Much of it still rings true but it probably needs\r\nupdating and expanding upon a little.</p>\r\n\r\n<p>We do web - applications and content. We are very good at\r\nInterwoven (Autonomy) content management products and Umbraco. If\r\nthese technologies won't contain your application we'll work with\r\nASP.net or (PHP or Perl if you want) to create something that does.\r\nGood quality graphic design and user experiences are very important\r\nto us.</p>\r\n\r\n<p>Here are some reasons that you should work with us:</p>\r\n\r\n<p>1. 15 years experience. We've been building the web for that\r\nlong.</p>\r\n\r\n<p>2. We often turn down work. Strange as it may seem this is a\r\ngood reason to work with us. If we agree to work with you it means\r\nwe are confident we can deliver you something exceptional within\r\nbudget and timescales. If we don't have this confidence we'll say\r\nno. I won't farm out to unknown/un-trusted 3rd parties so if we\r\ncan't do the job we'll say so.</p>\r\n\r\n<p>3. Quality as standard. You'll never been chasing us for\r\naccessibility conformance, valid XHTML, valid CSS etc. We wouldn't\r\ndeliver anything that didn't conform to current standards.</p>\r\n\r\n<p>4. We don't do exploitation - Controversial subject this, but if\r\nI offshore work I pay what I would pay someone in the UK to do the\r\njob. I also believe in working 9-5 5 days a week and quality of\r\nlife - no-one who works with/for Ferguson Moriyama will be coding\r\nat midnight (unless they really want to). I should stress - no-one\r\nwho works with Ferguson Moriyama will be taking 2 hour lunches at\r\nthe pub either!</p>\r\n\r\n<p>5. We support the Umbraco community - If you get us to do\r\nUmbraco development we'll look for components of your CMS that can\r\nbe componentised as Umbraco packages. We'll offer a 25% discount on\r\nany packages that we create as part of your project so long as they\r\ncan be open sourced and made available to the Umbraco\r\ncommunity.</p>\r\n\r\n<p>Finally, one of the most common questions I hear is how do you\r\nfit all of those Umbraco packages in? Just how do you have the\r\ntime? The answer is simple - I code quickly. I've been doing this\r\nfor so long now - I'm probably faster than someone who hasn't.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

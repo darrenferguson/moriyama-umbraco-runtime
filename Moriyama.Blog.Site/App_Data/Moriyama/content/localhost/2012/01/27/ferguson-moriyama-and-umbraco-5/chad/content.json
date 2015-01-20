@@ -1,0 +1,28 @@
+{
+  "Name": "Chad",
+  "Type": "BlogComment",
+  "CreateDate": "2012-01-27T16:04:30",
+  "UpdateDate": "2015-01-19T18:43:48",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2012/01/27/ferguson-moriyama-and-umbraco-5/chad/",
+  "RelativeUrl": "/2012/01/27/ferguson-moriyama-and-umbraco-5/chad/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-01-27T16:04:30Z",
+    "title": "Chad",
+    "name": "Chad",
+    "email": "cyfer13@yahoo.com",
+    "website": "",
+    "bodyText": "For setting up new versions, I used to have a package that contained my basic doc types, content, etc. Then when I installed a new umbraco project, I'd just add the package and voila. I was at step 2 or 3 instead of step 1.\n\nThis doesn't help with rolling back data, but it's a start.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

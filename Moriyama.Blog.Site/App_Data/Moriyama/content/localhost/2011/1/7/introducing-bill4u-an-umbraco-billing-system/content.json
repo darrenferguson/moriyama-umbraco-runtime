@@ -1,0 +1,27 @@
+{
+  "Name": "Introducing Bill4U - an Umbraco billing system",
+  "Type": "BlogPost",
+  "CreateDate": "2011-01-07T08:38:00",
+  "UpdateDate": "2015-01-19T18:43:25",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2011/1/7/introducing-bill4u-an-umbraco-billing-system/",
+  "RelativeUrl": "/2011/1/7/introducing-bill4u-an-umbraco-billing-system/",
+  "Content": {
+    "umbracoUrlAlias": "/introducing-bill4u-an-umbraco-billing-system",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2011-01-07T08:38:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/fgIlPq",
+    "summary": "'Introducing Bill4U - an Umbraco billing system' - a blog post by Darren Ferguson about Paypal, PDF, Technology Internet written on 07 January 2011",
+    "tags": "Paypal, PDF, Technology Internet, Umbraco, Billing",
+    "bodyText": "\r\n<p>I haven't blogged for a while and one of the reasons is that\r\nI've been working on <a\r\nhref=\"http://our.umbraco.org/projects/backoffice-extensions/bill4u\">\r\nBill4U</a> - a billing system based on Umbraco.</p>\r\n\r\n<p>Bill4U is targeted at small businesses and freelancers who\r\ngenerate a relatively small amount of invoices each month. It\r\nallows you to quickly bill customers from the Umbraco dashboard,\r\nsimplifies repetitive tasks like repeat billing and allows you to\r\nquickly and easily create order forms on your website using Umbraco\r\nContour.</p>\r\n\r\n<p>Out of the box you can generate branded PDF invoices and collect\r\npayments via Paypal. Bill4U is VAT aware and can be easily\r\nconfigured to work with your own regional settings.</p>\r\n\r\n<p>Bill4U is also extremely extensible - the business logic is\r\nseparated into small discrete tasks which can be overriden,\r\nreplaced or removed. You can also add your own additional steps\r\ninto the Bill4U workflows by implementing a simple interface.</p>\r\n\r\n<p>I'm still working on the manual, but in the meantime you can get\r\nto know Bill4U by watching some of the screencasts below.</p>\r\n\r\n<ul>\r\n<li><a\r\nhref=\"http://static.darren-ferguson.com/Bill4U/Intro/Bill4U%20-%20Introduction.html\">\r\nIntroduction to Bill4U</a> (screencast)</li>\r\n\r\n<li><a\r\nhref=\"http://static.darren-ferguson.com/Bill4U/Installation/Bill4U%20-%20Installation.html\">\r\nInstallation</a>(screencast)</li>\r\n\r\n<li><a\r\nhref=\"http://static.darren-ferguson.com/Bill4U/Demo/Bill4U%20-%20Demo.html\">\r\nGetting started demo</a> (screencast)</li>\r\n\r\n<li><a\r\nhref=\"http://static.darren-ferguson.com/Bill4U/DocType/Bill4U%20-%20DocType.html\">\r\nThe order document type</a> (screencast)</li>\r\n\r\n<li><a\r\nhref=\"http://static.darren-ferguson.com/Bill4U/Config/Bill4U%20-%20Config%20Files.html\">\r\nConfiguration overview</a> (screencast)</li>\r\n\r\n<li><a\r\nhref=\"http://static.darren-ferguson.com/Bill4U/PayPal/Bill4U%20-%20PayPal.html\">\r\nPaypal payments</a> (screencast)</li>\r\n\r\n<li><a\r\nhref=\"http://static.darren-ferguson.com/Bill4U/EuVat/BillU%20-%20EuVat.html\">\r\nEU VAT validation</a> (screencast)</li>\r\n\r\n<li><a\r\nhref=\"http://static.darren-ferguson.com/Bill4U/Contour/Bill4U%20-%20Contour.html\">\r\nBilling forms with Contour</a> (screencast)</li>\r\n\r\n<li><a\r\nhref=\"http://static.darren-ferguson.com/Bill4U/Currencies/Bill4U%20-%20Currencies.html\">\r\nCurrency conversion XSLT extensions</a> (screencast)</li>\r\n\r\n<li><a\r\nhref=\"http://static.darren-ferguson.com/Bill4U/Menus/Bill4U%20-%20Menus.html\">\r\nCustomise the Bill4U menu</a> (screencast)</li>\r\n\r\n<li><a\r\nhref=\"http://static.darren-ferguson.com/Bill4U/DocProcessors/Bill4U%20-%20Doc%20processors.html\">\r\nExtending Bill4U</a> (screencast)</li>\r\n</ul>\r\n\r\n<p>You can download an evaluation of Bill4U from the <a\r\nhref=\"http://our.umbraco.org/projects/backoffice-extensions/bill4u\">\r\nour.umbraco project page</a>.</p>\r\n",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

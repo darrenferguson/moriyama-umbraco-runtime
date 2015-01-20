@@ -1,0 +1,27 @@
+{
+  "Name": "Umbraco trials: Setup and demo Umbraco instantly",
+  "Type": "BlogPost",
+  "CreateDate": "2009-02-05T08:22:00",
+  "UpdateDate": "2015-01-19T18:41:21",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/2/5/umbraco-trials-setup-and-demo-umbraco-instantly/",
+  "RelativeUrl": "/2009/2/5/umbraco-trials-setup-and-demo-umbraco-instantly/",
+  "Content": {
+    "umbracoUrlAlias": "/umbraco-trials-setup-and-demo-umbraco-instantly",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-02-05T08:22:00Z",
+    "title": "",
+    "shortUrl": "http://bit.ly/eqZwrh",
+    "summary": "'Umbraco trials: Setup and demo Umbraco instantly' - a blog post by Darren Ferguson about web form, Warren Buckley, Technology Internet written on 05 February 2009",
+    "tags": "web form, Warren Buckley, Technology Internet",
+    "bodyText": "<p>My new site <a href=\"http://autoumbraco.darren-ferguson.com/\">http://autoumbraco.darren-ferguson.com/</a> allows you to install an instance of <a href=\"http://www.umbraco.org/\">Umbraco</a> by filling out a web form which will take you less than 10 seconds. You can choose from version 3 and 4 and also specify whether you want any packages pre-installed – such as <a href=\"http://www.creativewebspecialist.co.uk/\">Warren Buckley’s</a> excellent Creative website wizard.</p><p>Why is this useful? Scenario 1: you want to demonstrate Umbraco to a client/colleague who has never used it before. You are out of the office and don’t have IIS running on your laptop.</p><p>Scenario 2: You want to check out a new Umbraco package or test one that you are developing but you don’t want to install it into any of your development/production environments before you’ve tested the functionality.</p><p>Scenario 3: You want to run an event website for week or two while the event is on and then close the site immediately after.</p><p>I frequently need a fresh installation of Umbraco and am already finding this service very useful. I hope you do too.</p>",
+    "commentsDisabled": ""
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 5
+}

@@ -1,0 +1,28 @@
+{
+  "Name": "Yohan",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:58",
+  "UpdateDate": "2015-01-19T18:42:37",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2010/11/2/working-around-the-no-nodes-issue-with-umbraco-45x/yohan/",
+  "RelativeUrl": "/2010/11/2/working-around-the-no-nodes-issue-with-umbraco-45x/yohan/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2010-11-18T16:46:51.12Z",
+    "title": "Yohan",
+    "name": "Yohan",
+    "email": "pamudji@mindspring.com",
+    "website": "",
+    "bodyText": "Darren,\n\nCould you post your code? It would be very helpful to see what all references you're using at the top of the code, what namespace \"Document\" is in, what type the \"library\" object is, etc.  Also, as HFS asked, are there any other steps you have to take?  Drop your own dll into the bin, make changes to web.config, etc.?  I'm dealing with this nonodes.aspx issue too, so thanks for your help.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

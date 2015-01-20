@@ -188,6 +188,50 @@ namespace Moriyama.Runtime.Services
             return FromUrls(DescendantsUrls(model)).Where(x => x != null);
         }
 
+        public virtual IEnumerable<RuntimeContentModel> Descendants(RuntimeContentModel model, IDictionary<string, string> filters)
+        {
+            var descendants = Descendants(model);
+            var filteredDescendants = new List<RuntimeContentModel>();
+
+            foreach (var descendant in descendants)
+            {
+                var include = true;
+
+                foreach (var filter in filters)
+                {
+                    var key = filter.Key;
+                    var value = filter.Value;
+
+                    if (
+                        (descendant.Content.ContainsKey(key) && descendant.Content[key] != value)
+                        ||
+                        (HasProperty(descendant, key) && GetPropertyValue(descendant, key) != value)
+                        )
+                    {
+                        include = false;
+                    }
+                }
+
+                if (include)
+                {
+                    filteredDescendants.Add(descendant);
+                }
+            }
+            return filteredDescendants;
+        }
+
+        private bool HasProperty(object o, string propertyName)
+        {
+            var property = o.GetType().GetProperty(propertyName);
+            return property != null;
+        }
+
+        private string GetPropertyValue(object o, string propertyName)
+        {
+            var property = o.GetType().GetProperty(propertyName);
+            return property.GetValue(o).ToString();
+        }
+
         public RuntimeContentModel CreateContent(string url, IDictionary<string, object> properties)
         {
             var content = new RuntimeContentModel();

@@ -1,0 +1,28 @@
+{
+  "Name": "Aaron Powell",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:03:18",
+  "UpdateDate": "2015-01-19T18:41:22",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2009/1/23/teaser-screenshots-of-new-umbraco-place-datatype/aaron-powell/",
+  "RelativeUrl": "/2009/1/23/teaser-screenshots-of-new-umbraco-place-datatype/aaron-powell/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-01-23T10:47:22Z",
+    "title": "Aaron Powell",
+    "name": "Aaron Powell",
+    "email": "me@aaron-powell.com",
+    "website": "http://www.aaron-powell.com",
+    "bodyText": "Nice, where are you reading the google map key from, web.config? That could pose a problem if you have multiple websites in the 1 umbraco instance. Would it be possible to have it as part of the data when configuring the data type (if not that could be a way to make it even cooler ;).\r\n\r\nHow much control do you provide over the things like:\r\n- default zoom level\r\n- icon used\r\n- bubble text",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

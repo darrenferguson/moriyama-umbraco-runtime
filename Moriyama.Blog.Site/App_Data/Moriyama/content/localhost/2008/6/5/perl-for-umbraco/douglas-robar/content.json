@@ -1,0 +1,28 @@
+{
+  "Name": "Douglas Robar",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:03",
+  "UpdateDate": "2015-01-19T18:39:06",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/6/5/perl-for-umbraco/douglas-robar/",
+  "RelativeUrl": "/2008/6/5/perl-for-umbraco/douglas-robar/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2008-06-13T14:15:01Z",
+    "title": "Douglas Robar",
+    "name": "Douglas Robar",
+    "email": "doug@percipientstudios.com",
+    "website": "http://www.percipientstudios.com",
+    "bodyText": "This is really fun and interesting. Opens up a world of possibilities.\r\n\r\nAt the core/mvp retreat before CodeGarden last week we were joking that LOLCode.NET would be a great thing to add to umbraco for macros. http://lolcode.com/ and http://code.google.com/p/lolcode-dot-net/\r\n\r\nWell, maybe not \"great\"... but fun. I really want to be able to write a macro that ends with KTHXBYE. ;)\r\n\r\ncheers,\r\ndoug.",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

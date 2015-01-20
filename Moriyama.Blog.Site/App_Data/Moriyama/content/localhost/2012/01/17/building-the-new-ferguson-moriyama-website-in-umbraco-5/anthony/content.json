@@ -1,0 +1,28 @@
+{
+  "Name": "Anthony",
+  "Type": "BlogComment",
+  "CreateDate": "2012-01-18T07:43:44",
+  "UpdateDate": "2015-01-19T18:43:48",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2012/01/17/building-the-new-ferguson-moriyama-website-in-umbraco-5/anthony/",
+  "RelativeUrl": "/2012/01/17/building-the-new-ferguson-moriyama-website-in-umbraco-5/anthony/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2012-01-18T07:43:44Z",
+    "title": "Anthony",
+    "name": "Anthony",
+    "email": "acandaele@hotmail.com",
+    "website": "http://www.webmove.be",
+    "bodyText": "Nice initiative Darren. I'm looking forward to your blogposts, as I'm still a bit unfamiliar with developing websites in Umbraco v5",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

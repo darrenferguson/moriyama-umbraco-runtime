@@ -1,0 +1,28 @@
+{
+  "Name": "Jesper Ordrup",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:05:47",
+  "UpdateDate": "2015-01-19T18:33:03",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2006/7/20/poll-macro-needs-improving/jesper-ordrup/",
+  "RelativeUrl": "/2006/7/20/poll-macro-needs-improving/jesper-ordrup/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2006-08-09T23:54:26Z",
+    "title": "Jesper Ordrup",
+    "name": "Jesper Ordrup",
+    "email": "jesper@jesper.com",
+    "website": "http://www.jesper.com",
+    "bodyText": "Hi Darren,\r\n\r\nDid anybody tell you the actual count of nodes that slowed the gui? \r\n\r\nBest,\r\n\r\nJesper",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

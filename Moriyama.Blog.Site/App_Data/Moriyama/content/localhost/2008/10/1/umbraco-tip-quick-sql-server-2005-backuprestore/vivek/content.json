@@ -1,0 +1,28 @@
+{
+  "Name": "Vivek",
+  "Type": "BlogComment",
+  "CreateDate": "2011-03-25T16:04:43",
+  "UpdateDate": "2015-01-19T18:39:02",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2008/10/1/umbraco-tip-quick-sql-server-2005-backuprestore/vivek/",
+  "RelativeUrl": "/2008/10/1/umbraco-tip-quick-sql-server-2005-backuprestore/vivek/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": true,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2009-09-12T20:22:50Z",
+    "title": "Vivek",
+    "name": "Vivek",
+    "email": "connectingvivek@gmail.com",
+    "website": "",
+    "bodyText": "But what if the bkp used different windows principle user of different server? what do u suggest? plz explain in brief",
+    "ip": "",
+    "isSpam": ""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 7,
+  "Level": 6
+}
