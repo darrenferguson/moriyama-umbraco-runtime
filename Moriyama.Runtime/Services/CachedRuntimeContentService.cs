@@ -88,6 +88,7 @@ namespace Moriyama.Runtime.Services
 
         public override RuntimeContentModel GetContent(string url)
         {
+            url = ProcessUrlAliases(url);
             return GetCachedContent(url);
         }
 

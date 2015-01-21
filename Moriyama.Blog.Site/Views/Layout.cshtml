@@ -1,5 +1,6 @@
 ﻿@using ClientDependency.Core.Mvc
 @using Moriyama.Runtime.Extension
+@using Newtonsoft.Json
 @model Moriyama.Runtime.Models.RuntimeContentModel
 @{
     Html.RequiresCss("~/css/style.css");
@@ -23,7 +24,7 @@
     <head>
         <meta charset="utf-8">
         <title>
-            @Model.Name
+            @(Model.Name == null ? @Model.Name : "")
         </title>
 
         <meta name="description" content="">

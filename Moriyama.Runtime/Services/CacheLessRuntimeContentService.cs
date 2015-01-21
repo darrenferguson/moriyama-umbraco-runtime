@@ -117,8 +117,17 @@ namespace Moriyama.Runtime.Services
             }
         }
 
+
+        protected string ProcessUrlAliases(string url)
+        {
+            url = url.Replace("/moblog.azurewebsites.net/", "/localhost/");
+            return url;
+        }
+
         public virtual RuntimeContentModel GetContent(string url)
         {
+            url = ProcessUrlAliases(url);
+
             Logger.Info("Got from disk " + url);
             var contentFile = PathMapper.PathForUrl(url, false);
 
