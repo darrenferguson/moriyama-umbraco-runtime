@@ -12,6 +12,7 @@ namespace Moriyama.Blog.Project.Controllers
     public class PostController : Controller
     {
         [HttpGet]
+        [OutputCache(CacheProfile = "Standard")]
         public ActionResult Index()
         {
             var modelContent = RuntimeContext.Instance.ContentService.GetContent(System.Web.HttpContext.Current);

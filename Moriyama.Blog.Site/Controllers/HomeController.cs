@@ -8,7 +8,7 @@ namespace Moriyama.Blog.Site.Controllers
     {
         
 
-        //[OutputCache(CacheProfile = "Standard")]
+        [OutputCache(CacheProfile = "Standard")]
         public ActionResult Index()
         {
             var ctx = System.Web.HttpContext.Current;
