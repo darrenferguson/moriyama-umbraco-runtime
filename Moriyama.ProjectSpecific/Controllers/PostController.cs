@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using AutoMapper;
 using Moriyama.Blog.Project.Models;
+using Moriyama.Blog.Project.Models.Email;
 using Moriyama.Runtime;
 using Moriyama.Runtime.Extension;
 
@@ -59,6 +60,15 @@ namespace Moriyama.Blog.Project.Controllers
                 // Remove the post and the homepage from the output cache.
                 HttpResponse.RemoveOutputCacheItem(modelContent.RelativeUrl);
                 HttpResponse.RemoveOutputCacheItem(modelContent.Home().RelativeUrl);
+
+                var email = new CommentEmail
+                {
+                    Email = model.CommentEmail,
+                    Name = model.CommentName,
+                    Comment = model.CommentMessage
+                };
+
+                email.Send();
 
             }
 
