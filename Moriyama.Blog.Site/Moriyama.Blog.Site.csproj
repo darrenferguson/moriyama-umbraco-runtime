@@ -153,6 +153,7 @@
     <Content Include="js\vendor\selectivizr-1.0.3.min.js" />
     <Content Include="js\vendor\svgeezy-1.0.js" />
     <Content Include="media\dummy.txt" />
+    <Content Include="robots.txt" />
     <Content Include="scripts\dummy.txt" />
     <Content Include="scripts\script.js" />
     <Content Include="scripts\shAutoloader.js" />

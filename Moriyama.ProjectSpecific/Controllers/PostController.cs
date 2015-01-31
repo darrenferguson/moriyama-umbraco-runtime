@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web;
 using System.Web.Mvc;
 using AutoMapper;
 using Moriyama.Blog.Project.Models;
@@ -54,6 +55,11 @@ namespace Moriyama.Blog.Project.Controllers
                 ugc.SortOrder = modelContent.Children().Count();
 
                 contentService.AddContent(ugc);
+
+                // Remove the post and the homepage from the output cache.
+                HttpResponse.RemoveOutputCacheItem(modelContent.RelativeUrl);
+                HttpResponse.RemoveOutputCacheItem(modelContent.Home().RelativeUrl);
+
             }
 
             return View(modelContent.View(), newModel);
