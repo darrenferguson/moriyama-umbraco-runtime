@@ -1,0 +1,19 @@
+{
+  "Name": "df@darren-ferguson.com",
+  "Type": "BlogComment",
+  "CreateDate": "2015-02-01T15:30:55.3130839+00:00",
+  "UpdateDate": "2015-02-01T15:30:55.3130839+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2014/10/24/ysod-when-umbraco-package-manifest-doesnt-validate/d571bacb-b001-4856-bc8e-f2fd6fc43212/",
+  "RelativeUrl": "/2014/10/24/ysod-when-umbraco-package-manifest-doesnt-validate/d571bacb-b001-4856-bc8e-f2fd6fc43212/",
+  "Content": {
+    "name": "Darren Ferguson",
+    "email": "df@darren-ferguson.com",
+    "bodyText": "Please!"
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 5,
+  "Level": 6
+}

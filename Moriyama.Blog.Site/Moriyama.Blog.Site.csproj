@@ -135,10 +135,10 @@
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\dummy.txt" />
     <Content Include="css\shCore.css" />
     <Content Include="css\shThemeEclipse.css" />
     <Content Include="css\style.css" />
+    <Content Include="error.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="font\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
@@ -166,7 +166,6 @@
     <Content Include="js\vendor\svgeezy-1.0.js" />
     <Content Include="media\dummy.txt" />
     <Content Include="robots.txt" />
-    <Content Include="scripts\dummy.txt" />
     <Content Include="scripts\script.js" />
     <Content Include="scripts\shAutoloader.js" />
     <Content Include="scripts\shBrushCSharp.js" />
@@ -1195,7 +1194,6 @@
     <Content Include="App_Data\Moriyama\content\localhost\2014\02\content.json" />
     <Content Include="App_Data\Moriyama\content\localhost\2014\05\13\content.json" />
     <Content Include="App_Data\Moriyama\content\localhost\2014\05\13\typed-access-to-umbraco-marco-parameters-in-partial-views\content.json" />
-    <Content Include="App_Data\Moriyama\content\localhost\2014\05\13\typed-access-to-umbraco-marco-parameters-in-partial-views\darren\content.json" />
     <Content Include="App_Data\Moriyama\content\localhost\2014\05\13\typed-access-to-umbraco-marco-parameters-in-partial-views\robert-foster\content.json" />
     <Content Include="App_Data\Moriyama\content\localhost\2014\05\content.json" />
     <Content Include="App_Data\Moriyama\content\localhost\2014\06\19\content.json" />
@@ -1216,6 +1214,7 @@
     <Content Include="Views\Search\Search.cshtml" />
     <Content Include="Views\Emails\Web.config" />
     <Content Include="Views\Emails\_ViewStart.cshtml" />
+    <Content Include="Views\Emails\Comment.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

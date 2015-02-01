@@ -7,7 +7,11 @@
 
 <p>
     Your search for <em><strong>@Model.Query</strong></em> returned @Model.SearchResults.TotalItemCount @(Model.SearchResults.TotalItemCount == 1 ? "result" : "results").
-    This is page @Model.SearchResults.Page of @Model.SearchResults.Pages
+    @if (Model.SearchResults.Pages > 0)
+    {
+        
+        <text>This is page @Model.SearchResults.Page of @Model.SearchResults.Pages</text>
+    }
 </p>
 
 @if (Model.SearchResults.TotalItemCount > 0)

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -120,7 +121,13 @@ namespace Moriyama.Runtime.Services
 
         protected string ProcessUrlAliases(string url)
         {
-            url = url.Replace("/moblog.azurewebsites.net/", "/localhost/");
+            if (ConfigurationManager.AppSettings["Moriyama.Runtime.Domains"] == null) return url;
+
+            foreach (var domain in ConfigurationManager.AppSettings["Moriyama.Runtime.Domains"].Split(','))
+            {
+                url = url.Replace("/" + domain + "/", "/localhost/");
+            }
+
             return url;
         }
 
@@ -243,6 +250,8 @@ namespace Moriyama.Runtime.Services
 
         public RuntimeContentModel CreateContent(string url, IDictionary<string, object> properties)
         {
+            url = ProcessUrlAliases(url);
+
             var content = new RuntimeContentModel();
 
             content.Url = url;

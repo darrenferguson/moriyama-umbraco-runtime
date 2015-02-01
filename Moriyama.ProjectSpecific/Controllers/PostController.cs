@@ -18,7 +18,7 @@ namespace Moriyama.Blog.Project.Controllers
 {
     public class PostController : Controller
     {
-        //private static readonly ILog Logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+        private static readonly ILog Logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
         [HttpGet]
         [OutputCache(CacheProfile = "Standard")]
@@ -68,7 +68,7 @@ namespace Moriyama.Blog.Project.Controllers
                 }
                 catch (Exception ex)
                 {
-                    //Logger.Error(ex);
+                    Logger.Error(ex);
                     isSpam = true;
                 }
 
@@ -110,7 +110,7 @@ namespace Moriyama.Blog.Project.Controllers
                     }
                     catch (Exception ex)
                     {
-                        //Logger.Error(ex);
+                        Logger.Error(ex);
                         ModelState.AddModelError("", "Your comment can't be added at this time.");
                         return View(modelContent.View(), newModel);
                     }
