@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+@using Moriyama.Runtime.Extension
+@model Moriyama.Runtime.Models.RuntimeContentModel
+@{
+    Layout = null;
+    Response.ContentType = "text/xml";
+    var home = Model.Home();
+    const string baseUrl = "http://blog.darren-ferguson.com";
+
+}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>@baseUrl@home.RelativeUrl</loc>
+    </url>
+    @foreach (var page in home.Descendants())
+    {
+        if (page.Type == "BlogPost" || page.Type == "BlogTextPage")
+        {
+            <url>
+                <loc>@baseUrl@page.RelativeUrl</loc>
+            </url>
+        }
+    }
+</urlset>

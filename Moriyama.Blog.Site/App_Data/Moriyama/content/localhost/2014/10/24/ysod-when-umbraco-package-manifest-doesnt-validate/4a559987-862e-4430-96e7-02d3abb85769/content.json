@@ -1,0 +1,19 @@
+{
+  "Name": "df@darren-ferguson.cm",
+  "Type": "BlogComment",
+  "CreateDate": "2015-02-01T11:22:33.1504056+00:00",
+  "UpdateDate": "2015-02-01T11:22:33.1504056+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2014/10/24/ysod-when-umbraco-package-manifest-doesnt-validate/4a559987-862e-4430-96e7-02d3abb85769/",
+  "RelativeUrl": "/2014/10/24/ysod-when-umbraco-package-manifest-doesnt-validate/4a559987-862e-4430-96e7-02d3abb85769/",
+  "Content": {
+    "name": "Darren",
+    "email": "df@darren-ferguson.cm",
+    "bodyText": "Hungry like the wolf."
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

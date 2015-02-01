@@ -1,0 +1,19 @@
+{
+  "Name": "darren@moriyama.co.uk",
+  "Type": "BlogComment",
+  "CreateDate": "2015-02-01T13:13:20.4364326+00:00",
+  "UpdateDate": "2015-02-01T13:13:20.4364326+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2014/10/24/ysod-when-umbraco-package-manifest-doesnt-validate/b7b2a7c1-b339-4593-8058-2af3c8cab64a/",
+  "RelativeUrl": "/2014/10/24/ysod-when-umbraco-package-manifest-doesnt-validate/b7b2a7c1-b339-4593-8058-2af3c8cab64a/",
+  "Content": {
+    "name": "The super Wolf",
+    "email": "darren@moriyama.co.uk",
+    "bodyText": "I am a worf"
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

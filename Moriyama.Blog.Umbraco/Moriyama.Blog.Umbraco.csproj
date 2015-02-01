@@ -416,6 +416,7 @@
     <Content Include="font\fontawesome-webfont.ttf" />
     <Content Include="font\fontawesome-webfont.woff" />
     <Content Include="font\FontAwesome.otf" />
+    <Content Include="Views\Sitemap.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
