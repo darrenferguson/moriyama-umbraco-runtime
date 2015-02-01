@@ -76,11 +76,13 @@
                         <a href="/rss">RSS Feed</a>
                     </li>
                 </ul>
-                <form role="search" class="nav-search" action="/search" method="POST">
+                
+                <form role="search" class="nav-search" action="/search" method="GET">
                     <label for="query">Search</label>
                     <input type="text" name="query" id="query" placeholder="Search" data-provide="typeahead" value="" />
                     <button type="submit"><i class="icon-search"></i></button>
                 </form>
+
             </nav>
 
             <section role="main">
@@ -88,7 +90,7 @@
             </section>
 
             <footer role="contentinfo">
-                <small>Published by @Environment.MachineName with <a href="http://www.umbraco.com/">Moriyama Umbraco runtime</a>. @DateTime.Now</small>
+                <small>Published by with <a href="http://www.moriyama.co.uk/">Moriyama Umbraco runtime</a>. @DateTime.Now.ToLongDateString() @DateTime.Now.ToLongTimeString() @Environment.MachineName</small>
             </footer>
             
             @Html.Raw(@Html.RenderJsHere())

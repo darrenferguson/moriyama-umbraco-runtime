@@ -1,17 +1,49 @@
-﻿@using Moriyama.Blog.Project.Extension
+﻿@using Moriyama.Blog.Project.Application
+@using Moriyama.Blog.Project.Extension
 @using Moriyama.Runtime.Extension
+@using Moriyama.Runtime.Models
 @model Moriyama.Runtime.Models.RuntimeContentModel
 @{
     Layout = "Layout.cshtml";
+    int? lastYear = null;
+
+    var page = 1;
+
+
+    if (!int.TryParse(Request["page"], out page))
+    {
+        page = 1;
+    }
+    
+    var posts = Model.Home().Descendants(new Dictionary<string, string> {{"Type", "BlogPost"}}).OrderByDescending(x => x.CreateDate);
+    var paged = new PagedList<RuntimeContentModel>(posts.AsQueryable(), page, 10);
 }
 <h1 class="page-title">Blog Archive</h1>
+
 <ul class="article-list">
-    @foreach (var post in Model.Home().Descendants(new Dictionary<string, string> { {"Type","BlogPost"} }).OrderByDescending(x => x.CreateDate))
+    @foreach (var post in paged.Items)
     {
-        @*<h2>@year.Key</h2>*@
+        if (lastYear == null || lastYear != post.CreateDate.Year)
+        {
+            lastYear = post.CreateDate.Year;
+            <h2>@lastYear</h2>
+        } 
         <li>
             <h3><a href="@post.RelativeUrl">@post.Name</a></h3>
-            <time class="pubdate" datetime="2012-12-01">@string.Format(post.CreateDate.ToString("dddd, {0} MMMM yyyy"), post.CreateDate.Month.ToOrdinal())</time>
+            @Html.Partial("~/Views/Partials/PostMetaData.cshtml", post)       
         </li>
     }
 </ul>
+@if (paged.Pages > 1)
+{
+    <div class="pagination">
+        @if (paged.Page > 1)
+        {
+            <a class="prev" href="?page=@(paged.Page - 1)">« Previous page</a>
+        }
+        @if (paged.Page < paged.Pages)
+        {
+            <a class="next" href="?page=@(paged.Page + 1)">Next page »</a>
+        }
+    </div>
+}

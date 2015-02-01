@@ -75,8 +75,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Examine.0.1.57.2941\lib\Examine.dll</HintPath>
     </Reference>
-    <Reference Include="HtmlAgilityPack">
-      <HintPath>..\packages\HtmlAgilityPack.1.4.6\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\Net40\HtmlAgilityPack.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
@@ -93,7 +94,7 @@
     </Reference>
     <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\UmbracoCms.Core.7.1.9\lib\log4net.dll</HintPath>
+      <HintPath>..\packages\log4net-mediumtrust.2.0.0\lib\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Lucene.Net">
       <HintPath>..\packages\Lucene.Net.2.9.4.1\lib\net40\Lucene.Net.dll</HintPath>
@@ -118,12 +119,18 @@
     <Reference Include="MiniProfiler">
       <HintPath>..\packages\MiniProfiler.2.1.0\lib\net40\MiniProfiler.dll</HintPath>
     </Reference>
+    <Reference Include="Moriyama.Library.Extension">
+      <HintPath>..\packages\Moriyama.Library.Extension.1.2.3\lib\net40\Moriyama.Library.Extension.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data">
       <HintPath>..\packages\MySql.Data.6.6.5\lib\net40\MySql.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.5\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PhoneNumbers">
+      <HintPath>..\packages\libphonenumber-csharp.4.10.0.62\lib\PhoneNumbers.dll</HintPath>
     </Reference>
     <Reference Include="Postal">
       <HintPath>..\packages\Postal.Mvc4.1.2.0\lib\net40\Postal.dll</HintPath>
@@ -321,12 +328,55 @@
     <Content Include="bin\umbraco.XmlSerializers.dll" />
     <Content Include="bin\UmbracoExamine.dll" />
     <Content Include="bin\UrlRewritingNet.UrlRewriter.dll" />
-    <Content Include="css\dummy.txt" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\shCore.css" />
+    <Content Include="css\shThemeEclipse.css" />
+    <Content Include="css\style.css" />
     <Content Include="default.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="font\fontawesome-webfont.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="img\darren-ferguson-portrait.jpg" />
+    <Content Include="img\logos\darren-ferguson.png" />
+    <Content Include="img\logos\darren-ferguson.svg" />
+    <Content Include="img\logos\umbraco-certified-professional.png" />
+    <Content Include="img\logos\umbraco-certified-professional.svg" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\response.min.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\shAutoloader.js" />
+    <Content Include="js\shBrushCSharp.js" />
+    <Content Include="js\shBrushJScript.js" />
+    <Content Include="js\shBrushPerl.js" />
+    <Content Include="js\shBrushXml.js" />
+    <Content Include="js\shCore.js" />
+    <Content Include="js\shLegacy.js" />
+    <Content Include="js\vendor\jquery-1.8.0.min.js" />
+    <Content Include="js\vendor\modernizr-2.6.2.min.js" />
+    <Content Include="js\vendor\respond.min.js" />
+    <Content Include="js\vendor\selectivizr-1.0.3.min.js" />
+    <Content Include="js\vendor\svgeezy-1.0.js" />
     <Content Include="masterpages\dummy.txt" />
     <Content Include="media\dummy.txt" />
     <Content Include="packages.config" />
-    <Content Include="scripts\dummy.txt" />
+    <Content Include="scripts\script.js" />
+    <Content Include="scripts\shAutoloader.js" />
+    <Content Include="scripts\shBrushCSharp.js" />
+    <Content Include="scripts\shBrushJScript.js" />
+    <Content Include="scripts\shBrushPerl.js" />
+    <Content Include="scripts\shBrushXml.js" />
+    <Content Include="scripts\shCore.js" />
+    <Content Include="scripts\shLegacy.js" />
+    <Content Include="scripts\vendor\jquery-1.8.0.min.js" />
+    <Content Include="scripts\vendor\modernizr-2.6.2.min.js" />
+    <Content Include="scripts\vendor\respond.min.js" />
+    <Content Include="scripts\vendor\selectivizr-1.0.3.min.js" />
+    <Content Include="scripts\vendor\svgeezy-1.0.js" />
     <Content Include="usercontrols\dummy.txt" />
     <Content Include="Views\Web.config" />
     <Content Include="macroScripts\Web.config" />
@@ -359,6 +409,13 @@
     <Content Include="Views\Emails\Comment.cshtml" />
     <Content Include="Views\Emails\Web.config" />
     <Content Include="Views\Emails\_ViewStart.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="font\fontawesome-webfont.eot" />
+    <Content Include="font\fontawesome-webfont.ttf" />
+    <Content Include="font\fontawesome-webfont.woff" />
+    <Content Include="font\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

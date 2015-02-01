@@ -7,5 +7,7 @@ namespace Moriyama.Blog.Project.Models
         public string CommentName { get; set; }
         public string CommentEmail { get; set; }
         public string CommentMessage { get; set; }
+
+        public string Moriyama { get; set; }
     }
 }

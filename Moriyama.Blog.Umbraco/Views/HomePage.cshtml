@@ -1,12 +1,37 @@
-﻿@using Moriyama.Runtime.Extension
+﻿@using Moriyama.Blog.Project.Application
+@using Moriyama.Library.Html
+@using Moriyama.Runtime.Extension
+@using Moriyama.Runtime.Models
 @model Moriyama.Runtime.Models.RuntimeContentModel
 @{
     Layout = "Layout.cshtml";
+    var posts = Model.Descendants(new Dictionary<string, string> {{"Type", "BlogPost"}}).OrderByDescending(post => post.CreateDate);
+
+    var page = 1;
+
+
+    if (!int.TryParse(Request["page"], out page))
+    {
+        page = 1;
+    }
+
+    var paged = new PagedList<RuntimeContentModel>(posts.AsQueryable(), page, 10);
+    var stripper = new HtmlTagStripper(new[] { "" }); 
+}
+@functions {
+
+    public string TruncateAtWord(string input, int length)
+    {
+        if (input == null || input.Length < length)
+            return input;
+        int iNextSpace = input.LastIndexOf(" ", length);
+        return string.Format("{0} ...", input.Substring(0, (iNextSpace > 0) ? iNextSpace : length).Trim());
+    }
 }
 <h1 class="page-title">Blog</h1>
 
 
-@foreach (var post in Model.Descendants(new Dictionary<string, string> { {"Type","BlogPost"} }).OrderByDescending(post => post.CreateDate).Take(20))
+@foreach (var post in paged.Items)
 {
     <article>
         <h2>
@@ -17,11 +42,48 @@
         
         @Html.Partial("~/Views/Partials/PostMetaData.cshtml", post)
 
-        @Html.Raw(@post.GetValue<string>("bodyText"))
+        @*@Html.Raw(@post.GetValue<string>("bodyText"))*@
+        
+        @{
+            var bodyText = post.GetValue<string>("bodyText");
+            bodyText = stripper.RemoveUnwantedTags(bodyText);
+        }
+        
+        @if (bodyText.Length > 500)
+        {
+            @TruncateAtWord(bodyText, 500) 
+        }
+        else
+        {
+            @bodyText
+        }
+        
+        <a href="@post.RelativeUrl">Read More »</a>
 
-        <footer>
-            <a class="alignright" href="@post.RelativeUrl#comments">Comments (@post.Children().Count()) »</a>
-        </footer>
+        @*<footer>
+            <a class="alignright" href="@post.RelativeUrl#comments">Read More »</a>
+        </footer>*@
+        
+        @if (post.Children().Any())
+        {
+            var comments = post.Children().Count();
+            
+            <br/>
+            <small>This post has @comments @(comments ==1 ? "comment" : "comments").</small>
+        }
 
     </article>
+}
+@if (paged.Pages > 1)
+{
+    <div class="pagination">
+        @if (paged.Page > 1)
+        {
+            <a class="prev" href="?page=@(paged.Page - 1)">« Previous page</a>
+        }
+        @if (paged.Page < paged.Pages)
+        {
+            <a class="next" href="?page=@(paged.Page + 1)">Next page »</a>
+        }
+    </div>
 }

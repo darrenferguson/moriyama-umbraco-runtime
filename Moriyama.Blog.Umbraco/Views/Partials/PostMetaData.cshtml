@@ -1,13 +1,16 @@
-﻿@using Moriyama.Runtime.Extension
+﻿@using Moriyama.Blog.Project.Extension
+@using Moriyama.Runtime.Extension
 @model Moriyama.Runtime.Models.RuntimeContentModel
 <div class="article-meta">
 
     <time class="pubdate" datetime="@String.Format("{0:MM/dd/yyyy}", Model.CreateDate)">
-        @String.Format("{0:MMMM d, yyyy}", Model.CreateDate)
+        @string.Format(Model.CreateDate.ToString("dddd, {0} MMMM yyyy"), Model.CreateDate.Month.ToOrdinal())
     </time>
+    
+    
 
     @{
-        var tags = Model.GetValue<string>("tags").Split(',');
+        var tags = Model.GetValue<string>("tags").Split(',').Where(x => !string.IsNullOrEmpty(x.Trim()));
     }
 
     @if (tags.Any())

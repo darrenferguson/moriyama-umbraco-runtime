@@ -31,7 +31,7 @@ Modernizr.load([{
         window.jQuery || Modernizr.load("/scripts/vendor/jquery-1.8.0.min.js");
         SyntaxHighlighter.defaults['toolbar'] = false;
         SyntaxHighlighter.all();
-        
+        $('#moriyama1').hide();
     }
 }, {
     load: "ielt9!/scripts/vendor/selectivizr-1.0.3.min.js",
@@ -46,3 +46,6 @@ Modernizr.load([{
         })
     }
 }]);
+
+
+   

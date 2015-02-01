@@ -48,7 +48,7 @@ namespace Moriyama.Blog.Project
                     action = "Search",
                     id = UrlParameter.Optional
                 },
-                new { httpMethod = new HttpMethodConstraint("POST") },
+                new { httpMethod = new HttpMethodConstraint("GET") },
                 new[] { "Moriyama.Blog.Project.Controllers" });
 
             routes.MapRoute(

@@ -68,6 +68,12 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
+    <Reference Include="Moriyama.Library.Extension">
+      <HintPath>..\packages\Moriyama.Library.Extension.1.2.3\lib\net40\Moriyama.Library.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="PhoneNumbers">
+      <HintPath>..\packages\libphonenumber-csharp.4.10.0.62\lib\PhoneNumbers.dll</HintPath>
+    </Reference>
     <Reference Include="Postal">
       <HintPath>..\packages\Postal.Mvc4.1.2.0\lib\net40\Postal.dll</HintPath>
     </Reference>

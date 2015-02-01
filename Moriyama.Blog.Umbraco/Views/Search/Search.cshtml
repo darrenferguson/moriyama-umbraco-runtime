@@ -3,18 +3,38 @@
     Layout = "../Layout.cshtml";
 }
 
-<h1>Search Results</h1>
+<h1 class="page-title">Search Results</h1>
 
-<p>Your search for <em>@Model.Query</em> returned @Model.SearchResults.Count() results.</p>
+<p>
+    Your search for <em><strong>@Model.Query</strong></em> returned @Model.SearchResults.TotalItemCount @(Model.SearchResults.TotalItemCount == 1 ? "result" : "results").
+    This is page @Model.SearchResults.Page of @Model.SearchResults.Pages
+</p>
 
-@if (Model.SearchResults.Any())
+@if (Model.SearchResults.TotalItemCount > 0)
 {
+    <ul class="article-list">
+        @foreach (var result in Model.SearchResults.Items)
+        {
+            <li>
+                <h3><a href="@result.Content.RelativeUrl">@result.Content.Name</a></h3>
+                
+                @Html.Partial("~/Views/Partials/PostMetaData.cshtml", result.Content)
 
-    foreach (var result in Model.SearchResults)
-    {
-        <p>
-            <a href="@result.Content.RelativeUrl">@result.Content.Name</a><br/>
-            @Html.Raw(result.PreviewText)
-        </p>
-    }
+                @Html.Raw(result.PreviewText)
+            </li>
+        }
+    </ul>
+}
+@if (Model.SearchResults.Pages > 1)
+{
+    <div class="pagination">
+        @if (Model.SearchResults.Page > 1)
+        {
+            <a class="prev" href="?page=@(Model.SearchResults.Page - 1)&amp;query=@HttpUtility.UrlEncode(Model.Query)">« Previous page</a>
+        }
+        @if (Model.SearchResults.Page < Model.SearchResults.Pages)
+        {
+            <a class="next" href="?page=@(Model.SearchResults.Page + 1)&amp;query=@HttpUtility.UrlEncode(Model.Query)">Next page »</a>
+        }
+    </div>
 }

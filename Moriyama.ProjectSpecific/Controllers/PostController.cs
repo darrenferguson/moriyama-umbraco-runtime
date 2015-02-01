@@ -1,18 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Web;
 using System.Web.Mvc;
 using AutoMapper;
+using log4net;
+using Moriyama.Blog.Project.Application;
 using Moriyama.Blog.Project.Models;
 using Moriyama.Blog.Project.Models.Email;
+using Moriyama.Library.Html;
 using Moriyama.Runtime;
 using Moriyama.Runtime.Extension;
+using Moriyama.Library.Extension;
 
 namespace Moriyama.Blog.Project.Controllers
 {
     public class PostController : Controller
     {
+        //private static readonly ILog Logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
         [HttpGet]
         [OutputCache(CacheProfile = "Standard")]
         public ActionResult Index()
@@ -24,6 +31,7 @@ namespace Moriyama.Blog.Project.Controllers
         }
 
         [HttpPost]
+        [ValidateInput(false)]
         public ActionResult Submit(CommentModel model)
         {
             var contentService = RuntimeContext.Instance.ContentService;
@@ -35,41 +43,95 @@ namespace Moriyama.Blog.Project.Controllers
 
             if (ModelState.IsValid)
             {
-                // TODO: Create the comment here
-                var commentId = Guid.NewGuid().ToString();
-                var contentUrl = contentService.GetContentUrl(System.Web.HttpContext.Current);
+                var akismet = new Akismet("740317862571", "http://blog.darren-ferguson.com/", "Joel.Net's Akismet API/1.0");
+               
+                var isSpam = true;
 
-                commentId = contentUrl + "/" + commentId + "/";
-
-                var properties = new Dictionary<string, object>
+                try
                 {
-                    {"name", model.CommentName},
-                    {"email", model.CommentEmail},
-                    {"bodyText", model.CommentMessage}
-                };
+                    var verifyKey = akismet.VerifyKey();
 
-                var ugc = contentService.CreateContent(commentId, properties);
+                    if (verifyKey)
+                    {
+                        var akismetComment = new AkismetComment();
+                        akismetComment.Blog = "http://blog.darren-ferguson.com/";
+                        akismetComment.UserIp = Request.ServerVariables["REMOTE_ADDR"];
+                        akismetComment.UserAgent = Request.ServerVariables["HTTP_USER_AGENT"];
+                        akismetComment.CommentAuthor = model.CommentName;
+                        akismetComment.CommentAuthorEmail = model.CommentEmail;
+                        akismetComment.CommentAuthorUrl = "";
+                        akismetComment.CommentType = "comment";
+                        akismetComment.CommentContent = model.CommentMessage;
 
-                ugc.Name = model.CommentEmail;
-                ugc.Type = "BlogComment";
-                ugc.Level = modelContent.Level + 1;
-                ugc.SortOrder = modelContent.Children().Count();
-
-                contentService.AddContent(ugc);
-
-                // Remove the post and the homepage from the output cache.
-                HttpResponse.RemoveOutputCacheItem(modelContent.RelativeUrl);
-                HttpResponse.RemoveOutputCacheItem(modelContent.Home().RelativeUrl);
-
-                var email = new CommentEmail
+                        isSpam = akismet.CommentCheck(akismetComment);
+                    }
+                }
+                catch (Exception ex)
                 {
-                    Email = model.CommentEmail,
-                    Name = model.CommentName,
-                    Comment = model.CommentMessage
-                };
+                    //Logger.Error(ex);
+                    isSpam = true;
+                }
 
-                email.Send();
+                if (!string.IsNullOrEmpty(model.Moriyama))
+                {
+                    isSpam = true;
+                }
 
+                if (!isSpam)
+                {
+                    var stripper = new HtmlTagStripper(new[] {"p", "em", "b", "i", "u"});
+                    model.CommentMessage = stripper.RemoveUnwantedTags(model.CommentMessage);
+                    model.CommentMessage = model.CommentMessage.Replace(Environment.NewLine, "<br/>");
+
+                    model.CommentName = model.CommentName.RemoveNonAlphaNumeric();
+
+                    var commentId = Guid.NewGuid().ToString();
+                    var contentUrl = contentService.GetContentUrl(System.Web.HttpContext.Current);
+
+                    commentId = contentUrl + "/" + commentId + "/";
+
+                    var properties = new Dictionary<string, object>
+                    {
+                        {"name", model.CommentName},
+                        {"email", model.CommentEmail},
+                        {"bodyText", model.CommentMessage}
+                    };
+
+                    try
+                    {
+                        var email = new CommentEmail
+                        {
+                            Email = model.CommentEmail,
+                            Name = model.CommentName,
+                            Comment = model.CommentMessage
+                        };
+
+                        email.Send();
+                    }
+                    catch (Exception ex)
+                    {
+                        //Logger.Error(ex);
+                        ModelState.AddModelError("", "Your comment can't be added at this time.");
+                        return View(modelContent.View(), newModel);
+                    }
+
+                    var ugc = contentService.CreateContent(commentId, properties);
+
+                    ugc.Name = model.CommentEmail;
+                    ugc.Type = "BlogComment";
+                    ugc.Level = modelContent.Level + 1;
+                    ugc.SortOrder = modelContent.Children().Count();
+
+                    contentService.AddContent(ugc);
+
+                    // Remove the post and the homepage from the output cache.
+                    HttpResponse.RemoveOutputCacheItem(modelContent.RelativeUrl);
+                    HttpResponse.RemoveOutputCacheItem(modelContent.Home().RelativeUrl);
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Your comment can't be added at this time.");
+                }
             }
 
             return View(modelContent.View(), newModel);
