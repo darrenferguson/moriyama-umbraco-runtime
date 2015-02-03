@@ -334,16 +334,21 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\shCore.css" />
     <Content Include="css\shThemeEclipse.css" />
+    <Content Include="css\social.css" />
     <Content Include="css\style.css" />
     <Content Include="default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="font\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="img\darren-ferguson-portrait.jpg" />
+    <Content Include="img\facebook-square.svg" />
+    <Content Include="img\googleplus-square.svg" />
+    <Content Include="img\linkedin.svg" />
     <Content Include="img\logos\darren-ferguson.png" />
     <Content Include="img\logos\darren-ferguson.svg" />
     <Content Include="img\logos\umbraco-certified-professional.png" />
     <Content Include="img\logos\umbraco-certified-professional.svg" />
+    <Content Include="img\twitter.svg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\html5shiv.js" />
@@ -417,6 +422,8 @@
     <Content Include="font\fontawesome-webfont.woff" />
     <Content Include="font\FontAwesome.otf" />
     <Content Include="Views\Sitemap.cshtml" />
+    <Content Include="Views\RSS.cshtml" />
+    <Content Include="Views\Partials\Social.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -49,17 +49,11 @@
             bodyText = stripper.RemoveUnwantedTags(bodyText);
         }
         
-        @if (bodyText.Length > 500)
-        {
-            @TruncateAtWord(bodyText, 500) 
-        }
-        else
-        {
-            @bodyText
-        }
+        <p>
+            @(bodyText.Length > 500 ? TruncateAtWord(bodyText, 500) : bodyText)
         
-        <a href="@post.RelativeUrl">Read More »</a>
-
+            <a href="@post.RelativeUrl">Read More »</a>
+        </p>
         @*<footer>
             <a class="alignright" href="@post.RelativeUrl#comments">Read More »</a>
         </footer>*@
@@ -68,9 +62,10 @@
         {
             var comments = post.Children().Count();
             
-            <br/>
             <small>This post has @comments @(comments ==1 ? "comment" : "comments").</small>
         }
+        
+        @Html.Partial("~/Views/Partials/Social.cshtml", post)
 
     </article>
 }

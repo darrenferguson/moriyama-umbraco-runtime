@@ -1,0 +1,27 @@
+{
+  "Name": "Post to Slack when Umbraco content is published",
+  "Type": "BlogPost",
+  "CreateDate": "2015-02-03T09:54:27",
+  "UpdateDate": "2015-02-03T09:59:05",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2015/02/03/post-to-slack-when-umbraco-content-is-published/",
+  "RelativeUrl": "/2015/02/03/post-to-slack-when-umbraco-content-is-published/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2015-02-03T09:54:28",
+    "title": "Post to Slack when Umbraco content is published",
+    "shortUrl": "",
+    "summary": "How to post to a slack channel when content is published in Umbraco",
+    "tags": "umbraco, slack",
+    "bodyText": "<p><a href=\"https://slack.com/\">Slack</a> is very of the moment isn’t it? Thanks to <a href=\"https://twitter.com/damianwalsh\">damianwalsh</a> we were early adopters at <a href=\"http://www.moriyama.co.uk/\">Moriyama</a> and use it as our main internal communication tool.</p>\n<p>One of the joys of Slack is just how easy it is to add your own integration. Here is ours that shows you how to post to a slack channel when an <a href=\"http://umbraco.com/\">Umbraco</a> document is published.</p>\n<p><strong>Note:</strong> You’ll need the wonderful <a href=\"https://www.nuget.org/packages/RestSharp\">RestSharp library</a> from nuget.</p>\n<pre class=\"brush: csharp;\">using RestSharp;\n \nvoid ContentServicePublished(IPublishingStrategy sender, PublishEventArgs e)\n{\n  foreach (var entity in e.PublishedEntities)\n  {\n    var umbracoHelper = new UmbracoHelper(UmbracoContext.Current);\n    var url = umbracoHelper.Url(entity.Id, UrlProviderMode.Relative);\n \n    var urls = string.Format(\"https://slacker.moriyama.co.uk{0} or http://slacker.moriyama.int{0}\", url);\n    var t = \"New publish : \" + entity.Name + \" \" + urls;\n \n    var hash = \"bot@moriyama.co.uk\".HashEmailForGravatar();\n    var client = new RestClient(\"https://slack.com/api\");\n \n    var request = new RestRequest(\"/chat.postMessage\", Method.POST);\n    request.AddParameter(\"token\", \"\");\n    request.AddParameter(\"channel\", \"#mychannel\");\n    request.AddParameter(\"username\", \"Moriyama Bot\");\n    request.AddParameter(\"text\", t);\n    request.AddParameter(\"icon_url\", string.Format(\"http://www.gravatar.com/avatar/{0}\", hash));\n \n    var response = client.Execute(request);\n  }\n}</pre>\n<p>The code is also available as a github gist.</p>\n<p>I’d be interested to hear if anyone out there is doing any other interesting slack integrations, particularly Umbraco related.</p>",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 0,
+  "Level": 5
+}

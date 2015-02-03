@@ -179,6 +179,7 @@
     <Compile Include="Controllers\ContentController.cs" />
     <Compile Include="Controllers\PostController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
+    <Compile Include="Controllers\SocialController.cs" />
     <Compile Include="Extension\Extensions.cs" />
     <Compile Include="Models\CommentModel.cs" />
     <Compile Include="Models\Email\CommentEmail.cs" />

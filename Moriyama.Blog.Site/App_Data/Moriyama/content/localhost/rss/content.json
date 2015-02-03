@@ -1,0 +1,15 @@
+{
+  "Name": "RSS",
+  "Type": "Rss",
+  "CreateDate": "2015-02-02T08:50:12",
+  "UpdateDate": "2015-02-03T09:45:36",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/rss/",
+  "RelativeUrl": "/rss/",
+  "Content": {},
+  "Template": "RSS",
+  "CacheTime": null,
+  "SortOrder": 16,
+  "Level": 2
+}

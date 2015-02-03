@@ -1,5 +1,6 @@
 ﻿@using Moriyama.Blog.Project.Application
 @using Moriyama.Blog.Project.Extension
+@using Moriyama.Library.Html
 @using Moriyama.Runtime.Extension
 @using Moriyama.Runtime.Models
 @model Moriyama.Runtime.Models.RuntimeContentModel
@@ -17,20 +18,42 @@
     
     var posts = Model.Home().Descendants(new Dictionary<string, string> {{"Type", "BlogPost"}}).OrderByDescending(x => x.CreateDate);
     var paged = new PagedList<RuntimeContentModel>(posts.AsQueryable(), page, 10);
+    var stripper = new HtmlTagStripper(new[] { "" }); 
+}
+@functions {
+
+    public string TruncateAtWord(string input, int length)
+    {
+        if (input == null || input.Length < length)
+            return input;
+        int iNextSpace = input.LastIndexOf(" ", length);
+        return string.Format("{0} ...", input.Substring(0, (iNextSpace > 0) ? iNextSpace : length).Trim());
+    }
 }
 <h1 class="page-title">Blog Archive</h1>
 
 <ul class="article-list">
     @foreach (var post in paged.Items)
     {
+        var bodyText = post.GetValue<string>("bodyText");
+        bodyText = stripper.RemoveUnwantedTags(bodyText);
+        
         if (lastYear == null || lastYear != post.CreateDate.Year)
         {
             lastYear = post.CreateDate.Year;
             <h2>@lastYear</h2>
-        } 
+        }
         <li>
             <h3><a href="@post.RelativeUrl">@post.Name</a></h3>
-            @Html.Partial("~/Views/Partials/PostMetaData.cshtml", post)       
+            @Html.Partial("~/Views/Partials/PostMetaData.cshtml", post)
+            
+            <p>
+                @(bodyText.Length > 500 ? TruncateAtWord(bodyText, 500) : bodyText)
+
+                <a href="@post.RelativeUrl">Read More »</a>
+            </p>
+            
+            @Html.Partial("~/Views/Partials/Social.cshtml", post)
         </li>
     }
 </ul>

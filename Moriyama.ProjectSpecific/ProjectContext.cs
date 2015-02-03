@@ -51,6 +51,19 @@ namespace Moriyama.Blog.Project
                 new { httpMethod = new HttpMethodConstraint("GET") },
                 new[] { "Moriyama.Blog.Project.Controllers" });
 
+
+            routes.MapRoute(
+               "share",
+               "Social/{action}",
+               new
+               {
+                   controller = "Social",
+                   action = "Share",
+                   id = UrlParameter.Optional
+               },
+               new { httpMethod = new HttpMethodConstraint("GET") },
+               new[] { "Moriyama.Blog.Project.Controllers" });
+
             routes.MapRoute(
                 "customContent",
                 "Content/{action}/{id}",

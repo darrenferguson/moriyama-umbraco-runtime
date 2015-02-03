@@ -137,6 +137,7 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\shCore.css" />
     <Content Include="css\shThemeEclipse.css" />
+    <Content Include="css\social.css" />
     <Content Include="css\style.css" />
     <Content Include="error.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -144,10 +145,14 @@
     <Content Include="Global.asax" />
     <Content Include="humans.txt" />
     <Content Include="img\darren-ferguson-portrait.jpg" />
+    <Content Include="img\facebook-square.svg" />
+    <Content Include="img\googleplus-square.svg" />
+    <Content Include="img\linkedin.svg" />
     <Content Include="img\logos\darren-ferguson.png" />
     <Content Include="img\logos\darren-ferguson.svg" />
     <Content Include="img\logos\umbraco-certified-professional.png" />
     <Content Include="img\logos\umbraco-certified-professional.svg" />
+    <Content Include="img\twitter.svg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\html5shiv.js" />
@@ -1210,6 +1215,13 @@
     <Content Include="App_Data\Moriyama\content\localhost\search\content.json" />
     <Content Include="App_Data\Moriyama\content\sitemap-urls.json" />
     <Content Include="App_Data\Moriyama\content\localhost\sitemap\content.json" />
+    <Content Include="App_Data\Moriyama\content\localhost\2015\02\03\content.json" />
+    <Content Include="App_Data\Moriyama\content\localhost\2015\02\03\post-to-slack-when-umbraco-content-is-published\content.json" />
+    <Content Include="App_Data\Moriyama\content\localhost\2015\02\content.json" />
+    <Content Include="App_Data\Moriyama\content\localhost\2015\content.json" />
+    <Content Include="App_Data\Moriyama\content\localhost\404-not-found\content.json" />
+    <Content Include="App_Data\Moriyama\content\localhost\error\content.json" />
+    <Content Include="App_Data\Moriyama\content\localhost\rss\content.json" />
     <None Include="Properties\PublishProfiles\moblog.pubxml" />
     <Content Include="Views\404.cshtml" />
     <Content Include="Views\Partials\PostMetaData.cshtml" />
@@ -1218,6 +1230,8 @@
     <Content Include="Views\Emails\_ViewStart.cshtml" />
     <Content Include="Views\Emails\Comment.cshtml" />
     <Content Include="Views\Sitemap.cshtml" />
+    <Content Include="Views\Partials\Social.cshtml" />
+    <Content Include="Views\RSS.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

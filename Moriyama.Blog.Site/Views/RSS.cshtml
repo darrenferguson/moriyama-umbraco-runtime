@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+@using Moriyama.Runtime.Extension
+@model Moriyama.Runtime.Models.RuntimeContentModel
+@{
+    Layout = null;
+    Response.ContentType = "text/xml";
+    var home = Model.Home();
+    const string baseUrl = "http://blog.darren-ferguson.com";
+}
+@helper Link(string url)
+{
+    WriteLiteral("<link>" + url + "</link>");
+}
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Darren Ferguson - Blog</title>
+        <link>http://blog.darren-ferguson.com/rss</link>
+        <description>The latest posts from the blog of Darren Ferguson.</description>
+        <language>en-gb</language>
+        <lastBuildDate>@DateTime.Now.ToString("r")</lastBuildDate>
+        @foreach (var page in home.Descendants(new Dictionary<string, string> { { "Type", "BlogPost" } }).OrderByDescending(x => x.CreateDate))
+        {
+            <item>
+                <title>@page.Name</title>
+                @Link(baseUrl + page.RelativeUrl)
+                <description>
+                    @(page.GetValue<string>("summary"))
+                </description>
+                <guid>@baseUrl@page.RelativeUrl</guid>
+                <pubDate>@page.CreateDate.ToString("r")</pubDate>
+            </item>
+        }
+    </channel>
+</rss>

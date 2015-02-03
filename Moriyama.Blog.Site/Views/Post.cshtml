@@ -9,8 +9,13 @@
     <h1 class="page-title">@Model.Name</h1>
 
     @Html.Partial("~/Views/Partials/PostMetaData.cshtml", Model)
-    @Html.Raw(Model.GetValue<string>("bodyText"))
+    
+    @Html.Partial("~/Views/Partials/Social.cshtml", Model)
 
+    @Html.Raw(Model.GetValue<string>("bodyText"))
+    
+    @Html.Partial("~/Views/Partials/Social.cshtml", Model)
+    
 </article>
 
 @if (Model.Children().Any())

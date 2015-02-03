@@ -1,0 +1,20 @@
+﻿@model Moriyama.Runtime.Models.RuntimeContentModel
+@{
+    var url = HttpUtility.UrlEncode("http://" + Request.Url.Host + Model.RelativeUrl);
+    var name = HttpUtility.UrlEncode(Model.Name);
+}
+<div class="social">
+    <a href="/Social/Share?url=@url&name=@name&network=twitter" title="Tweet '@Model.Name'" target="_blank">
+        <img src="/img/twitter.svg" width="28" height="28" alt="Twitter" />
+    </a>
+    <a href="/Social/Share?url=@url&name=@name&network=facebook" title="Share '@Model.Name' on Facebook" target="_blank">
+        <img src="/img/facebook-square.svg" width="28" height="28" alt="Facebook" />
+    </a>
+    <a href="/Social/Share?url=@url&name=@name&network=linkedin" title="Share '@Model.Name' on LinkedIn" target="_blank">
+        <img src="/img/linkedin.svg" width="28" height="28" alt="LinkedIn" />
+    </a>
+
+    <a href="/Social/Share?url=@url&name=@name&network=googleplus" title="Share '@Model.Name' on Google+" target="_blank">
+        <img src="/img/googleplus-square.svg" width="28" height="28" alt="Google+" />
+    </a>
+</div>
