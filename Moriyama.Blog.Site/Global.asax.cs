@@ -2,6 +2,7 @@
 using System.Web.Mvc;
 using System.Web.Routing;
 using Moriyama.Runtime;
+using Segment;
 
 namespace Moriyama.Blog.Site
 {
@@ -15,7 +16,7 @@ namespace Moriyama.Blog.Site
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             
             RuntimeContext.Instance.Initialise(HttpContext.Current);
-            
+            Analytics.Initialize("QgDmGvCjQv4rLIIfAQ0WTfbe8CAUfUtO");
 
         }
     }

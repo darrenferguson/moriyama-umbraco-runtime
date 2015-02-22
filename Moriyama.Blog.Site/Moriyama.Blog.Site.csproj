@@ -40,6 +40,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Analytics.NET">
+      <HintPath>..\packages\Analytics.2.0.0\lib\Analytics.NET.dll</HintPath>
+    </Reference>
     <Reference Include="AutoMapper, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\AutoMapper.3.0.0\lib\net40\AutoMapper.dll</HintPath>
@@ -70,6 +73,10 @@
     </Reference>
     <Reference Include="Moriyama.Library.Extension">
       <HintPath>..\packages\Moriyama.Library.Extension.1.2.3\lib\net40\Moriyama.Library.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PhoneNumbers">
       <HintPath>..\packages\libphonenumber-csharp.4.10.0.62\lib\PhoneNumbers.dll</HintPath>

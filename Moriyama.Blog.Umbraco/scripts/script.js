@@ -49,10 +49,6 @@ Modernizr.load([{
     }
 }]);
 
-window._gaq = [['_setAccount', 'UA-26468870-1'], ['_trackPageview'], ['_trackPageLoadTime']];
-Modernizr.load({
-    load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-});
 
 !function () {
     var analytics = window.analytics = window.analytics || []; if (!analytics.initialize) if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
