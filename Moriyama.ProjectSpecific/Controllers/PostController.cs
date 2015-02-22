@@ -13,6 +13,8 @@ using Moriyama.Library.Html;
 using Moriyama.Runtime;
 using Moriyama.Runtime.Extension;
 using Moriyama.Library.Extension;
+using Segment;
+using Segment.Model;
 
 namespace Moriyama.Blog.Project.Controllers
 {
@@ -44,7 +46,7 @@ namespace Moriyama.Blog.Project.Controllers
             if (ModelState.IsValid)
             {
                 var akismet = new Akismet("740317862571", "http://blog.darren-ferguson.com/", "Joel.Net's Akismet API/1.0");
-               
+
                 var isSpam = true;
 
                 try
@@ -79,7 +81,7 @@ namespace Moriyama.Blog.Project.Controllers
 
                 if (!isSpam)
                 {
-                    var stripper = new HtmlTagStripper(new[] {"p", "em", "b", "i", "u"});
+                    var stripper = new HtmlTagStripper(new[] { "p", "em", "b", "i", "u" });
                     model.CommentMessage = stripper.RemoveUnwantedTags(model.CommentMessage);
                     model.CommentMessage = model.CommentMessage.Replace(Environment.NewLine, "<br/>");
 
@@ -127,6 +129,12 @@ namespace Moriyama.Blog.Project.Controllers
                     // Remove the post and the homepage from the output cache.
                     HttpResponse.RemoveOutputCacheItem(modelContent.RelativeUrl);
                     HttpResponse.RemoveOutputCacheItem(modelContent.Home().RelativeUrl);
+
+                    Analytics.Client.Identify(model.CommentEmail, new Traits() {
+                        { "name", model.CommentName },
+                        { "email", model.CommentEmail }
+                    });
+
                 }
                 else
                 {
