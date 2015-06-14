@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="cf309ced-34d4-41e3-a89e-d7999a896cee" id="1909" nodeName="If you want rid of IE6 then start doing something practical about it" isDoc="" updated="2013-07-07T08:18:16.283Z" parentGUID="9f50f704-5931-416e-a0d1-f0069ec7143e" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/if-you-want-rid-of-ie6-then-start-doing-something-practical-about-it]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-08-24T21:53:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fiUERD]]></shortUrl>
+  <summary><![CDATA['If you want rid of IE6 then start doing something practical about it' - a blog post by Darren Ferguson about cases software projects, CTO, gimmicky web, web developer, Thatcher, craftsman written on 24 August A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[cases software projects, CTO, gimmicky web, web developer, Thatcher, craftsman]]></tags>
+  <bodyText><![CDATA[<p>This post should be subtitled "or stop moaning".</p><p>As a pre-cursor to the main content of my post a note to CSS
+developers.  <em>Be careful what you set your heart upon.</em>
+If IE6 was banished/killed/gone what would differentiate you from
+any other web developer? If anyone could pick up a manual and learn
+CSS, and all browsers rendered your markup exactly as intended
+would that not render your x years of experience redundant?
+Wouldn't the market become saturated with talentless newbies who
+could do your job just as well as you could? Wouldn't rates of
+remuneration inevitably plummet? Is that what you really want?</p><p>Do you not think in some way that you enjoy the challenge of
+those quirks and frustrations that IE6 cause you? Isn't that what
+sets you apart from the crowd and makes you are craftsman? Sure,
+everybody loves to moan from time to time it's a human condition -
+but do you really mean it?</p><p>Having gotten that out of the way, let me state clearly that I
+would like to see the end of IE6 too. Although I rarely get hands
+on with browsers from day to day I have done in the past. I'm aware
+of the frustrations and I think it is a completely legitimate
+movement to get people to install modern standards compliant
+browsers.</p><p>I take issue with the way people go about it.</p><ol><li>Complain about it on Twitter/blog or some other rant
+outlet.</li><li>Drop support.</li><li>Sign up to some silly petition site.</li></ol><p>I'm not too bothered about #1. Everyone needs to let off steam,
+but if you find yourself repeatedly ranting about IE6 on twitter it
+is probably a sign that it is consuming too much of your time and
+you should stand up and do something about it.</p><p>I find #2 concerning. I have quite recently been party to
+discussions where developers have seriously contemplated just
+dropping support between versions of their product. This simply
+isn't on. If you have previously supported IE6, have not informed
+your user base that you are dropping IE6 support then you should be
+committed to support until such time that you've communicated to
+your customer your EOL plan. If you've never supported IE6 or are
+some gimmicky web 2.0 site then I guess it is your call.</p><p>Now for #3. We've seen a series of sites recently such as <a href="http://idroppedie6.com/">I dropped IE6</a>, <a href="http://ie6update.com/">IE6 Update</a>, <a href="http://www.ie6nomore.com/">IE6 No more</a> and <a href="http://ie6offenders.com/">IE6 offenders</a>. Each of these -
+in their own way - is trying to get people to upgrade their browser
+(though the cynic in me says that they are actually just trying to
+ride a trending publicity wave).</p><p>I'm not going to theorise over how to get home end users to
+upgrade their browsers but I will say that all of these sites are
+practically pointless when it comes to breaking through a corporate
+IT policy. Here is why:</p><ul><li>Most corporate organisations don't allow their users to install
+anything. Privileges on their PC will be locked down to prevent
+this.</li><li>Even if a user had admin rights a large percentage of them
+wouldn't know how to upgrade their browser so IT would still have
+to do the rollout and a 10,000 desk software rollout is
+expensive.</li><li>The testing of legacy applications in a new browser could be a
+vast expensive and time consuming project in its own right costing
+several million (pounds/euros/dollars).</li><li>Do you honestly think your employer cares if you can't watch
+youtube at work because your browser isn't up to date?</li><li>Many large corporate organisations will do their security at a
+gateway/proxy level rather than addressing browser security issues.
+It is much more cost effective.</li></ul><p>Even if your stop IE6 campaign works around all of the points
+above, what is out there right now is still painfully thin on real
+information on *why* people should upgrade their browser. This
+information needs to be clear, concise and readable by someone at
+executivelevel. Here is a hint: the CTO isn't going to approve
+browser upgrades on the basis that it makes your job easier. The
+information out there right now is scant, and presenting a protest
+web site URL to your CTO would make you look a bit silly to say the
+very least - if you were running for office in your local
+elections, would you campaign with a one page manifesto?</p><p>Finally, some of these sites are targeting the wrong people.
+Getting a million developers to sign a petition against IE6 is like
+trying to convince a million conservatives that Thatcher was a
+great woman.</p><p>So what do I suggest? If you are definitely not prepared to wait
+for the eventual demise of IE6 and work within a large organisation
+that still uses it:</p><ol><li>Prepare some good documentation on why IE6 is bad in executive
+friendly language - you could possibly even start an open source
+collaboration on such a document.</li><li>Include real information on how IE6 costs your organisation
+money on a day to day basis. Wasted dev/testing hours, time spent
+patching, blocking sites on the firewall etc.</li><li>Create an internal audience. Circulate your document within
+your organisation targeting the most senior people that you have
+access to.</li></ol><p>Sure, you'll likely get nowhere but <em>'Tis better to have
+loved and lost Than never to have loved at all.</em></p><p>Unfortunately in many many cases software projects are initiated
+due to palms being greased and the right people being wined and
+dined rather than any practical considerations. This is something
+outside of the sway of the lowly developer and unfortunately
+sometimes we have to accept that we just aren't that important.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

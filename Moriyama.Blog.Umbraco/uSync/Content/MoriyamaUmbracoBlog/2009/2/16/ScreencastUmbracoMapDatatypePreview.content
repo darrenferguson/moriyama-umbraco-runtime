@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="affe15b9-98e9-4470-aa1e-12eb235f4db4" id="1883" nodeName="Screencast: Umbraco map datatype preview" isDoc="" updated="2013-07-07T08:18:02.427Z" parentGUID="a9e92d15-39bf-4913-a1b2-c9dbe1ae1eb3" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/screencast-umbraco-map-datatype-preview]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-16T18:50:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/dEGj4M]]></shortUrl>
+  <summary><![CDATA['Screencast: Umbraco map datatype preview' - a blog post by Darren Ferguson about JavaScript, Social Issues, Technology Internet written on 16 February A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[JavaScript, Social Issues, Technology Internet]]></tags>
+  <bodyText><![CDATA[<script type="text/javascript" src="/scripts/swfobject.js"></script><script type="text/javascript">
+swfobject.registerObject("csSWF", "9.0.115", "/media/16117/expressinstall.swf");
+</script><p>
+Preview of the Umbraco map datatype I've been working on. HINT: You can make the screencast full screen.
+</p><div id="media"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800" height="624" id="csSWF"><param name="movie" value="/media/umbraco_map_datatype_controller.swf" /><param name="quality" value="best" /><param name="bgcolor" value="#1a1a1a" /><param name="allowfullscreen" value="true" /><param name="scale" value="showall" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="autostart=false&amp;thumb=/media/16129/firstframe.png&amp;thumbscale=45&amp;color=0x1A1A1A,0x1A1A1A" /><!--[if !IE]>--><object type="application/x-shockwave-flash" data="/media/umbraco_map_datatype_controller.swf" width="800" height="624"><param name="quality" value="best" /><param name="bgcolor" value="#1a1a1a" /><param name="allowfullscreen" value="true" /><param name="scale" value="showall" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="autostart=false&amp;thumb=/media/16129/firstframe.png&amp;thumbscale=45&amp;color=0x1A1A1A,0x1A1A1A" /><!--<![endif]--><div id="noUpdate"><p>The Camtasia Studio video content presented here requires a more recent version of the Adobe Flash Player. If you are you using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Flash Player by <a href="http://www.adobe.com/go/getflashplayer">downloading here</a>.</p></div><!--[if !IE]>--></object><!--<![endif]--></object></div>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="ff670c13-0993-45b1-937b-3a0139f846ad" id="1889" nodeName="My Thoughts on FOWA Dublin" isDoc="" updated="2013-07-07T08:18:08.237Z" parentGUID="ea35f680-1c88-4ac7-ab92-dc5d6e54ecb8" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/my-thoughts-on-fowa-dublin]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-03-30T21:32:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gBJFe8]]></shortUrl>
+  <summary><![CDATA['My Thoughts on FOWA Dublin' - a blog post by Darren Ferguson about Dublin, Simon Willison, London, Twitter, nice little tool, web complaining, web applications, social networking, web page layouts, Kick-Ass, Elliott Kember, Robin Christopherson, David Heinemeier Hansson, Blaine Cook, SQL Injection written on 30 March A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Dublin, Simon Willison, London, Twitter, nice little tool, web complaining, web applications, social networking, web page layouts, Kick-Ass, Elliott Kember, Robin Christopherson, David Heinemeier Hansson, Blaine Cook, SQL Injection]]></tags>
+  <bodyText><![CDATA[<p>This post is a little late, I've been upgrading my blog.</p><p>A couple of weeks ago I attended the <a href="http://events.carsonified.com/fowa/A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2/dublin/content">FOWA
+"show" in Dublin</a>. The use of the word show is from the
+organisers <a href="http://www.carsonified.com/">Carsonified</a> -
+not myself - and there was definitely a frustrated rock star air to
+the whole thing. Words/Phrases of the day were "Awesome" and
+"Kick-Ass" and the fuck count was up in the twenties within the
+first hour.</p><p>The highlights of FOWA for me were as follows:</p><p>Being introduced to <a href="http://www.balsamiq.com/products/mockups">Balsamiq
+Mockups</a> an nice little tool for producing wire-frames of web
+page layouts, though as Elliott Kember points out - in a rather <a href="http://www.carsonified.com/web-apps/on-usability/">long
+winded blog post</a> - it can be dangerous in the wrong hands.
+Business users could suddenly think they are UI designers who can
+do your job for you.</p><p><a href="http://simonwillison.net/">Simon Willison</a> gave a
+good presentation on security. He talked about XSS and SQL
+Injection which we should all know about but also <a href="http://en.wikipedia.org/wiki/Cross-site_request_forgery">CSRF</a>
+and <a href="http://en.wikipedia.org/wiki/Clickjacking">Click
+Jacking</a>. If you aren't familiar with the latter then you should
+be. In summary, consider the following when developing web
+applications:</p><ul><li>Don't modify data in get requests.</li><li>Keep Sessions short.</li><li>Don't use a remember me function (either as a user or
+developer).</li><li>Don't let your pages be loaded into iFrames - use frame busting
+Javascript.</li><li>Add a hidden field to your forms containing a server generated
+token which should be validated when a form is processed.</li></ul><p>I know I haven't given reasons for the bullet points above, but
+they should be fairly obvious. Hopefully Simon's talk will appear
+online somewhere.</p><p>Finally, <a href="http://www.abilitynet.org.uk/webteam">Robin
+Christopherson</a> of ability net gave a presentation using a
+screen reader. Interesting points raised were:</p><ul><li>Auto playing media with sound drowns out the voice of a screen
+reader making it impossible to navigate a page.</li><li>Badly written alt tags really mess up the usability of a page.
+Despite the fact this is such a well publicised issue massive
+amounts of developers still don't provide meaningful alt tags.</li><li>The audio equivalent of Captchas are frequently unintelligible,
+despite offering to provide manual assistance during signup large
+organisations - including Google - frequently don't.</li></ul><p>I'm now committed to never placing a Capctha on any site that I
+work on in the future.</p><p>Other than the above, the conference was largely uninspiring
+(for me). <a href="http://www.loudthinking.com/about.html">David
+Heinemeier Hansson</a> from 37 Signals was entertaining but
+delivered a motivational speech rather than anything technical. <a href="http://twitter.com/blaine">Blaine Cook</a> (of Twitter fame)
+came frustratingly close to saying something interesting on several
+occasions but ended up delivering a very high level and fluffy talk
+on social networking. The guys from <a href="http://www.contrast.ie/">Contrast</a> had a good delivery
+style, but I didn't need to be told that the web is full of
+conventions and cliches, I work with it every day. I know.</p><p>Anyone else who spoke just fell of my radar. That isn't a
+criticism, maybe I just wasn't the target audience. I know this
+post may come across as being overly negative but it honestly isn't
+intended that way. My kind of conference just involves more tech
+and more innovative cutting edge stuff.</p><p>I'd be interested in going to FOWD in London, they have two
+tracks as opposed to the one offered in Dublin so you can pick and
+choose your speakers.</p><p>So that was my 5 minute summary of FOWA Dublin. There are a load
+more posts all over the web complaining about the WIFI, coffee and
+praising/slating various speakers. I've just picked out the bits
+and pieces that were relevant to me.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

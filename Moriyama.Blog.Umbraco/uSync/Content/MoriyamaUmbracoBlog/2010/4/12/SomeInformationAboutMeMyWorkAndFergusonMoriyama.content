@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="c9824960-89ea-4028-8e22-c8b1173d0c81" id="1925" nodeName="Some information about me, my work and Ferguson Moriyama" isDoc="" updated="2013-07-07T08:17:42.84Z" parentGUID="1e00ea0d-3bae-427c-9e3f-d83dd9c4b0c5" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/some-information-about-me,-my-work-and-ferguson-moriyama]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-12T12:31:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gJLLiH]]></shortUrl>
+  <summary><![CDATA['Some information about me, my work and Ferguson Moriyama' - a blog post by Darren Ferguson about The Bank of New York Mellon, ASP.net, United Kingdom, time developer, social media, content management products, Perl, PHP, Maryland, HTML, content management written on 12 April B29A5211-DC51-46BB-B283-8510D165CA40]]></summary>
+  <tags><![CDATA[The Bank of New York Mellon, ASP.net, United Kingdom, time developer, social media, content management products, Perl, PHP, Maryland, HTML, content management]]></tags>
+  <bodyText><![CDATA[
+<p>I seem to be answering a lot of questions about the way I work
+recently so I thought I'd write a blog post to clear it all up. The
+confusion seems to be around how I split my time between Umbraco
+and TeamSite/LiveSite work and what Ferguson Moriyama is - just a
+front company for my invoicing or an actual company?</p>
+
+<p>Here is how it all fits together.</p>
+
+<p>Firstly, I'm often on a full time contract. In the last 3 years
+I've been exceptionally lucky to have a great client (<a
+href="http://www.bnymellon.com/">The Bank of New York Mellon</a>)
+that has kept me busy 9-5 - and no more I gratefully add. This
+relationship is now drawing to a close.</p>
+
+<p>When I'm on contract, I'm still the MD of Ferguson Moriyama. My
+company is myself plus 2 other full time employees. My wife is one
+employee - she takes care of the books and lots of other admin
+tasks - this isn't income shifting she actually has a full time
+job. Employee #3 is a full time developer unlike myself he isn't
+into blogging, social media and developer communities, he just
+likes to sit in a room and code.</p>
+
+<p>Ferguson Moriyama also makes use of an extensive network of
+freelancers and contractors - my "little black book" contains 10
+people, graphic designers, HTML/CSS gurus, people who build servers
+etc etc. These people are the best of the best in my opinion - the
+list has grown slowly over more than a decade and I trust the
+people on it to deliver excellence every time.</p>
+
+<p>Whatever my day to day commitments at Mellon, I'm still the QA
+who oversees anything that Ferguson Moriyama delivers. To use an
+Americanism "the buck stops with me".</p>
+
+<p>So what does Ferguson Moriyama do exactly? Well, a few years
+back we wrote this rather naff <a
+href="http://www.fergusonmoriyama.com/about.aspx">mission
+statement</a>. Much of it still rings true but it probably needs
+updating and expanding upon a little.</p>
+
+<p>We do web - applications and content. We are very good at
+Interwoven (Autonomy) content management products and Umbraco. If
+these technologies won't contain your application we'll work with
+ASP.net or (PHP or Perl if you want) to create something that does.
+Good quality graphic design and user experiences are very important
+to us.</p>
+
+<p>Here are some reasons that you should work with us:</p>
+
+<p>1. 15 years experience. We've been building the web for that
+long.</p>
+
+<p>2. We often turn down work. Strange as it may seem this is a
+good reason to work with us. If we agree to work with you it means
+we are confident we can deliver you something exceptional within
+budget and timescales. If we don't have this confidence we'll say
+no. I won't farm out to unknown/un-trusted 3rd parties so if we
+can't do the job we'll say so.</p>
+
+<p>3. Quality as standard. You'll never been chasing us for
+accessibility conformance, valid XHTML, valid CSS etc. We wouldn't
+deliver anything that didn't conform to current standards.</p>
+
+<p>4. We don't do exploitation - Controversial subject this, but if
+I offshore work I pay what I would pay someone in the UK to do the
+job. I also believe in working 9-5 5 days a week and quality of
+life - no-one who works with/for Ferguson Moriyama will be coding
+at midnight (unless they really want to). I should stress - no-one
+who works with Ferguson Moriyama will be taking 2 hour lunches at
+the pub either!</p>
+
+<p>5. We support the Umbraco community - If you get us to do
+Umbraco development we'll look for components of your CMS that can
+be componentised as Umbraco packages. We'll offer a 25% discount on
+any packages that we create as part of your project so long as they
+can be open sourced and made available to the Umbraco
+community.</p>
+
+<p>Finally, one of the most common questions I hear is how do you
+fit all of those Umbraco packages in? Just how do you have the
+time? The answer is simple - I code quickly. I've been doing this
+for so long now - I'm probably faster than someone who hasn't.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

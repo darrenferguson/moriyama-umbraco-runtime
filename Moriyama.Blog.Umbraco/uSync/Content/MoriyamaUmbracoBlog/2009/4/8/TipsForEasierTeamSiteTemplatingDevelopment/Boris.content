@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="d63e2630-3c15-41f4-8ed5-c944d462ec61" id="2780" nodeName="Boris" isDoc="" updated="2013-07-07T08:18:09.83Z" parentGUID="efb7322a-a175-4bf9-a7f7-a639d085cfae" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="9" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-01-04T15:35:06.837</displayDate>
+  <title><![CDATA[Boris]]></title>
+  <name><![CDATA[Boris]]></name>
+  <email><![CDATA[i-boa@web.de]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi Darren, thx for this great article. Trying to fix the chopping-issue of  iwov_xslt was easy, but i stuck fixing the utf-8 issue. i tried around with binmode. can you give a hint how i can learn the xslt-process utf-8.
+Cheers Boris]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

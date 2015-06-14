@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="780caa67-59a9-4ee2-b6b8-3be9c1ffedf2" id="1853" nodeName="Back online with Umbraco 3.0.5" isDoc="" updated="2013-10-28T17:23:04.33Z" parentGUID="6bbd6286-d684-4ae5-8c14-1ad801b55111" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/back-online-with-umbraco-305]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-05-24T18:59:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/eR6QK5]]></shortUrl>
+  <summary><![CDATA['Back online with Umbraco 3.0.5' - a blog post by Darren Ferguson about Copenhagen, Perl written on 24 May 9997642C-5F5C-4A03-A353-2E7B493113A9]]></summary>
+  <tags><![CDATA[Copenhagen, Perl]]></tags>
+  <bodyText><![CDATA[<p>Wow, almost a year since my last post and loads of things have changed and happened</p><p>Way too much to detail here all at once, but in preparation for codegarden - which I'll be attending - I thought I should get upgraded to Umbraco 3 and get my Blog back online</p><p>I still need to fix the search and update my bio and CV but everything else should be pretty much working again</p><p>I'll post again over the weekend when I'll be revealing my codegarden treat for you all. <b>Perl for Umbraco</b></p><p>Oh, and I still eat lots of noodles :) I found out there are a couple of Vietnamese places in Copenhagen, so I'll be checking them out when I am over there.</p><p>See you all at Tivoli a week Monday</p><p>Darren</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

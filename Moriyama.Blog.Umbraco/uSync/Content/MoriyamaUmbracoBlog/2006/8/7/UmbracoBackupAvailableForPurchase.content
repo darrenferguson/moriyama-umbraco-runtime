@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="a26d9e88-cd3e-4a34-9f5c-e1a607d6bc5a" id="1817" nodeName="Umbraco backup available for purchase" isDoc="" updated="2013-10-28T17:22:29.943Z" parentGUID="c734631d-ab7a-4be8-a3d0-2504dfa6b01e" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-backup-available-for-purchase]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-07T16:07:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/g6GwEg]]></shortUrl>
+  <summary><![CDATA['Umbraco backup available for purchase' - a blog post by Darren Ferguson written on 07 August F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags></tags>
+  <bodyText><![CDATA[<p>
+Although Umbraco backup is still in beta, I've opened up the <a href="/backup/order.aspx">buy now link</a> as the code that takes the backup is stable and backups will be compatible with future releases. You will need to <a href="/backup/signup.aspx">register</a> first.
+</p><p>
+I anticipate finishing FTP and Virtual directory support later tonight. Restore tools and the manual should follow by the end of the week.
+</p><p>
+Start backing up today!
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

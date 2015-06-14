@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="c0beee90-3242-4bf1-b64c-3ca3f9265b74" id="1902" nodeName="Umbraco Dashboard RSS package available to download" isDoc="" updated="2013-07-07T08:18:14.847Z" parentGUID="4c008438-cbd2-4367-89b1-ad08a734896b" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-dashboard-rss-package-available-to-download]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-20T21:41:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gsTsKk]]></shortUrl>
+  <summary><![CDATA['Umbraco Dashboard RSS package available to download' - a blog post by Darren Ferguson about Technology Internet written on 20 July A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>I've released a package allows you to display RSS feeds on your
+Umbraco dashboard. The package is available to dowload from <a href="/code-bank.aspx">my Umbraco packages page</a> or the <a href="http://our.umbraco.org/projects/dashboard-rss">our.umbraco
+project page</a>. Features of this package include:</p><ul><li>Full PDF documentation</li><li>Source code available</li><li>Refreshes feeds using AJAX on a configurable interval</li><li>Fully customisable CSS</li><li>Use your own XSLT to transform feeds</li><li>Retrieve feeds from URL or local cache.</li></ul><p>This initial release is relatively simple and just renders RSS.
+The next release will allow you to build customisable filters on
+top of RSS feeds by implementing some simple interfaces. This will
+allow you to do simple things like display most recent content from
+Umbraco and add edit/delete buttons.</p><p>Please feel free to send your feedback, comments or
+suggestions.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

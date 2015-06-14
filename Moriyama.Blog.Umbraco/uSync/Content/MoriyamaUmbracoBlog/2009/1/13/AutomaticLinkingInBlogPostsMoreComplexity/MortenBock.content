@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="595f9aa6-c2db-43bd-9c65-d75be1a12045" id="2275" nodeName="Morten Bock" isDoc="" updated="2013-07-07T08:17:51.477Z" parentGUID="4b723217-6b19-484d-9086-5e5bc3a179f9" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-13T17:29:49</displayDate>
+  <title><![CDATA[Morten Bock]]></title>
+  <name><![CDATA[Morten Bock]]></name>
+  <email><![CDATA[morten@mortenbock.dk]]></email>
+  <website><![CDATA[http://www.mortenbock.dk/]]></website>
+  <bodyText><![CDATA[I would go with option 2 as well. It is more transparent to the user. Automatic parsing of this kind seems to confuse people more often than it helps them.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

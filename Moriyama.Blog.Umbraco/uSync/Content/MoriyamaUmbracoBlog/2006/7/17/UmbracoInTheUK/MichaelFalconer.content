@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="69918a65-69d6-4c47-8047-024fd2fe1393" id="2581" nodeName="Michael Falconer" isDoc="" updated="2013-10-28T17:22:03.353Z" parentGUID="7da8e2af-84db-4562-8328-811aefd13a66" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="14" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-26T14:52:01</displayDate>
+  <title><![CDATA[Michael Falconer]]></title>
+  <name><![CDATA[Michael Falconer]]></name>
+  <email><![CDATA[michael@camel-jones.co.uk]]></email>
+  <website><![CDATA[http://www.michaelfalconer.co.uk]]></website>
+  <bodyText><![CDATA[I'm based in Glasgow, Scotland, and am currently developing four sites using Umbraco after experimenting with it over the past 6 months or so.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

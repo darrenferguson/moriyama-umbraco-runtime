@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="c8de09fc-4074-4da7-b850-6d342140f45c" id="2345" nodeName="Darren Ferguson (1)" isDoc="" updated="2013-07-07T08:18:01.4Z" parentGUID="ab345438-ee3f-4af8-8151-197a5a426dd8" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="5" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-16T16:55:24</displayDate>
+  <title><![CDATA[Darren Ferguson (1)]]></title>
+  <name><![CDATA[Darren Ferguson (1)]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@Chris - It is working fine in FF 3.0.6 for me!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

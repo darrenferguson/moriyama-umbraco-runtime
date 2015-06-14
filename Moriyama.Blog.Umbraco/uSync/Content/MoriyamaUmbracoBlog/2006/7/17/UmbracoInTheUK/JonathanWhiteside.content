@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="7990dc68-de3e-4b19-9455-e9f18b0fd505" id="2573" nodeName="Jonathan Whiteside" isDoc="" updated="2013-10-28T17:22:02.473Z" parentGUID="7da8e2af-84db-4562-8328-811aefd13a66" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-19T14:18:31</displayDate>
+  <title><![CDATA[Jonathan Whiteside]]></title>
+  <name><![CDATA[Jonathan Whiteside]]></name>
+  <email><![CDATA[jonwhiteside@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[I'm working on my first 2 sites using Umbraco at the moment. All on Ismail's recommendation - and so far everything is going great!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

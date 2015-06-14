@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="ad8eea87-f13d-4c42-8e94-fcb204dcb4cf" id="2370" nodeName="Mizan Syed" isDoc="" updated="2013-07-07T08:18:03.913Z" parentGUID="affe15b9-98e9-4470-aa1e-12eb235f4db4" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="15" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-03-03T03:12:16</displayDate>
+  <title><![CDATA[Mizan Syed]]></title>
+  <name><![CDATA[Mizan Syed]]></name>
+  <email><![CDATA[mizansyed@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[We built something similar but not using datatype but Custom Control specifically tweaked for Umbraco. I might convert it to datatype when I have the time to learn more of datatype.
+
+http://www.hmg.gov.uk/newopportunities/comments/mappedcomments.aspx?t=yourstory ]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

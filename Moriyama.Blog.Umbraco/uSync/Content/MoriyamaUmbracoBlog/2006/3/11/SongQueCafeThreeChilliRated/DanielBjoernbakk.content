@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="0da8e4c6-1c6a-4925-90d9-8ccc40203c81" id="2606" nodeName="Daniel Bjørnbakk" isDoc="" updated="2013-10-28T17:21:38.403Z" parentGUID="3882aa18-ca8e-48cc-8f20-52a42cc8f915" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-06-27T15:35:34</displayDate>
+  <title><![CDATA[Daniel Bjørnbakk]]></title>
+  <name><![CDATA[Daniel Bjørnbakk]]></name>
+  <email><![CDATA[daniel.bjornbakk@gmail.com]]></email>
+  <website><![CDATA[http://weblog.151278.org]]></website>
+  <bodyText><![CDATA[testing the comments]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

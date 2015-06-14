@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="2eba8e41-1f17-4240-94a4-7573e89df7f6" id="1818" nodeName="Umbraco backup version 1.01 is released" isDoc="" updated="2013-10-28T17:22:30.587Z" parentGUID="8aac9184-2b9a-4240-a537-0a7bbc146390" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-backup-version-101-is-released]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-08T16:28:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fs2Kwi]]></shortUrl>
+  <summary><![CDATA['Umbraco backup version 1.01 is released' - a blog post by Darren Ferguson about Technology Internet written on 08 August F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>Umbraco backup version 1.01 is released and available for download from the <a href="/umbraco-backup.aspx">project homepage</a>.
+</p><p>
+This latest version will now backup virtual directories (if permissions allow) and FTP your backup to a remote machine.
+</p><p>
+The user guide and restore tools will be added in the next day or two.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="180b29d2-c5d1-410f-9e70-6c0b0783e884" id="2371" nodeName="Tom Maton" isDoc="" updated="2013-07-07T08:18:03.993Z" parentGUID="affe15b9-98e9-4470-aa1e-12eb235f4db4" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="16" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-06-29T20:34:26</displayDate>
+  <title><![CDATA[Tom Maton]]></title>
+  <name><![CDATA[Tom Maton]]></name>
+  <email><![CDATA[letstalk@tom-maton.co.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi Darren,
+
+Great work mate. 
+
+Just a quick question though, is it possible to add multiple locations on one map using this datatype?
+
+Tom]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

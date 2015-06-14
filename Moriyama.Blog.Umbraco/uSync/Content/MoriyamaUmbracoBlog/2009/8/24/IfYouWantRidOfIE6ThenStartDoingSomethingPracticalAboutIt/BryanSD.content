@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="a9eb36a6-c99f-4e31-8c35-52c5132c2675" id="2442" nodeName="BryanSD" isDoc="" updated="2013-07-07T08:18:16.347Z" parentGUID="cf309ced-34d4-41e3-a89e-d7999a896cee" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-08-25T10:37:39</displayDate>
+  <title><![CDATA[BryanSD]]></title>
+  <name><![CDATA[BryanSD]]></name>
+  <email><![CDATA[bryan@cmsreport.com]]></email>
+  <website><![CDATA[http://cmsreport.com]]></website>
+  <bodyText><![CDATA[You probably forgot the most important suggestion.
+
+4. Show that applications believed by your organization to require IE6 can or will work with newer versions of IE (IE7 or IE8).
+
+My experience is that many of the applications (usually Active X apps) running on the Intranet side are compatible with newer versions of IE. Often it's someone in the IT department that's just been too lazy to verify compatibility. In some of these cases, the applications may be artificially blocking non IE6 applications. Sometimes a very minor change in the HTML code is all that is needed to make everyone happy.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="f64e3f8d-3551-42dd-8703-5e971337ed76" id="1921" nodeName="Visual Validator package for Umbraco" isDoc="" updated="2013-07-07T08:17:40.207Z" parentGUID="5815b634-e29b-4f5b-bdf7-f55249cb706e" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/visual-validator-package-for-umbraco]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-03-25T08:24:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/g6poUN]]></shortUrl>
+  <summary><![CDATA['Visual Validator package for Umbraco' - a blog post by Darren Ferguson written on 25 March B29A5211-DC51-46BB-B283-8510D165CA40]]></summary>
+  <tags></tags>
+  <bodyText><![CDATA[<p>I've created an Umbraco package that highlights Umbraco textstring data types when their value doesn't match the specified validation regular expression.</p><p>Get the package from <a href="http://our.umbraco.org/projects/visual-validator/">our.umbraco.org</a></p><p><strong>Apologies for the sound quality - I'm having some microphone issues at the mo :)</strong></p><p><object width="520" height="390" data="http://www.vimeo.com/moogaloop.swf?clip_id=10416016&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://www.vimeo.com/moogaloop.swf?clip_id=10416016&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /></object></p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="acd7e356-7bdb-481f-a933-44f5de057a34" id="1814" nodeName="intro-uk.com goes live with Umbraco and Flash" isDoc="" updated="2013-10-28T17:22:27.07Z" parentGUID="4a9d1241-595d-47a1-b6f7-a94e0ee03e33" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/intro-ukcom-goes-live-with-umbraco-and-flash]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-05T10:08:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/ea4qPt]]></shortUrl>
+  <summary><![CDATA['intro-uk.com goes live with Umbraco and Flash' - a blog post by Darren Ferguson about Umbraco, web maestro, XML, Technology Internet written on 05 August F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Umbraco, web maestro, XML, Technology Internet]]></tags>
+  <bodyText><![CDATA[
+<p>After several months waiting for approval <a
+href="http://www.intro-uk.com/">the Intro website</a> is live.</p>
+
+<p><a href="http://www.intro-uk.com/"><img src="/media/77370/53816F45-D5A6-4FD1-A085-123DE901E96A_1.jpg" alt="Intro website" style="border: 1px solid #000000;"/></a></p>
+
+<p class="clear">Umbraco feeds XML to a flash front end build by
+web maestro <a href="http://www.richsalter.net/">Rich Salter</a>.
+Site design was done internally by Intro.</p>
+
+<p>Believe it or not, despite all of my interest in Umbraco, this
+is my first site to go live other than my own domain!</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

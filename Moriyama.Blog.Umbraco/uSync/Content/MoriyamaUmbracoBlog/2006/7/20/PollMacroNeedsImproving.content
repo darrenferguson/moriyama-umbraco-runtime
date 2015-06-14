@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="229dfa69-a97b-46c5-9230-051599733947" id="1793" nodeName="Poll Macro needs improving" isDoc="" updated="2013-10-28T17:22:07.407Z" parentGUID="3f5b2814-926f-4344-b491-6db4aaafd20c" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/poll-macro-needs-improving]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-20T12:46:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/eU7nt9]]></shortUrl>
+  <summary><![CDATA['Poll Macro needs improving' - a blog post by Darren Ferguson about GUI written on 20 July F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[GUI, Umbraco]]></tags>
+  <bodyText><![CDATA[
+<p>A while back I posted a <a
+href="http://www.darren-ferguson.com/F56EAE9D-5A71-46C2-8973-4C0DCBF9211D/07/08/a-poll-macro-for-umbraco.aspx">
+Poll macro for Umbraco</a>. There was a reasonable amount of
+interest, so I posted the source.</p>
+
+<p>As the original post says, this was just a very quick demo and I
+thought that the method of storing responses would need
+improving.</p>
+
+<p><a href="http://www.hartvig.com/">Niels</a> posted a link to the
+demo on the <a href="http://www.umbraco.org">Umbraco</a> site and
+as a result it got several hundred responses which slows down
+Umbraco when trying to acess the node where the responses are
+stored in the GUI.</p>
+
+<p>This post is just to advise against using this Macro on
+production systems until I (or someone else) get the chance to
+improve it.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="355c762e-3aec-40ad-b336-43ce6a0186aa" id="2784" nodeName="Darren" isDoc="" updated="2013-07-07T08:18:09.92Z" parentGUID="efb7322a-a175-4bf9-a7f7-a639d085cfae" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="10" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-01-15T15:38:24.46</displayDate>
+  <title><![CDATA[Darren]]></title>
+  <name><![CDATA[Darren]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@Boris - it would depend which version of TeamSite you use?
+
+This article is very out of date - I wouldn't use TPL at all these days.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

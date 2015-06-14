@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="a4e2db25-16d5-41af-9acd-8f0f64aa932b" id="1821" nodeName="Reporting dead links in Multiple content picker" isDoc="" updated="2013-10-28T17:22:32.23Z" parentGUID="b0020ca3-d4c5-40e5-8e80-6b1db5f90fbc" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/reporting-dead-links-in-multiple-content-picker]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-09-12T15:42:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/hvNkV1]]></shortUrl>
+  <summary><![CDATA['Reporting dead links in Multiple content picker' - a blog post by Darren Ferguson written on 12 September F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Umbraco, XSLT]]></tags>
+  <bodyText><![CDATA[
+<p>The Umbraco multi content picker is a wonderful little control,
+but can sometimes become a bit of a maintenance nightmare. The
+example below gives you an idea of how to implement dead link
+notification within XSLT.</p>
+
+<p>The other way to deal with this would be have an action handler
+checking document integrity each time a publish occured, but this
+is a nice quick fix if you have a relatively small amount of
+content.</p>
+
+<pre class="brush: xml;">
+&lt;xsl:if test="count($currentPage/data[@alias = 'Links']/nodes/node) &gt; 0"&gt;
+  &lt;ul class="courselinks"&gt;
+    &lt;xsl:for-each select="$currentPage/data[@alias = 'Links']/nodes/node"&gt;
+      &lt;xsl:variable name="child" select="umbraco.library:GetXmlNodeById(./text())" /&gt;
+      &lt;xsl:choose&gt;
+        &lt;xsl:when test="$child/@id != ''"&gt;
+          &lt;li&gt;
+            &lt;a href="{umbraco.library:NiceUrl($child/@id)}"&gt;
+              &lt;xsl:value-of select="$child/data[@alias='Page Title']"/&gt;
+            &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/xsl:when&gt;
+        &lt;xsl:otherwise&gt;
+          &lt;xsl:call-template name="reportDeadLink"&gt;
+            &lt;xsl:with-param name="linkId" select="./text()"/&gt;
+            &lt;xsl:with-param name="pageId" select="$currentPage/@id"/&gt;
+          &lt;/xsl:call-template&gt;
+        &lt;/xsl:otherwise&gt;
+      &lt;/xsl:choose&gt;
+    &lt;/xsl:for-each&gt;
+  &lt;/ul&gt;
+&lt;/xsl:if&gt;
+
+&lt;xsl:template name="reportDeadLink"&gt;
+  &lt;xsl:param name="linkId"/&gt;
+  &lt;xsl:param name="pageId"/&gt;
+
+  &lt;xsl:value-of select="
+            umbraco.library:SendMail(   
+                umbraco.library:GetDictionaryItem('frommail'), 
+                umbraco.library:GetDictionaryItem('brokenlinkmail'), 
+                'Broken Link', 
+                concat('Broken link to node ', $linkId, ' in ', umbraco.library:NiceUrl($pageId)), 
+                0)"/&gt;
+&lt;/xsl:template&gt;
+</pre>
+
+<p>I store my email addresses as Umbraco dictionary items, but you
+could always hard code them in your XSLT.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

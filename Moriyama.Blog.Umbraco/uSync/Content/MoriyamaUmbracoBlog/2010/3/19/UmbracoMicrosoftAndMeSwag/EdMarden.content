@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="e49cef5f-58f6-4028-9a0b-576eac4987fd" id="2236" nodeName="Ed Marden" isDoc="" updated="2013-07-07T08:17:39.823Z" parentGUID="337e486d-10c0-4117-8f57-8d12b5e28701" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="19" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-03-23T17:47:43</displayDate>
+  <title><![CDATA[Ed Marden]]></title>
+  <name><![CDATA[Ed Marden]]></name>
+  <email><![CDATA[ed@specialised.net]]></email>
+  <website></website>
+  <bodyText><![CDATA[Great to hear that someone is working on this, as it's my least favourite part of the Umbraco experience.
+
+I was a little unclear as to whether any client side resizing would be possible using the technologies you are using, but that would be fantastic!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="593e08d9-59e3-46ad-93ec-17075d92215e" id="2243" nodeName="Darren (1)" isDoc="" updated="2013-07-07T08:17:41.087Z" parentGUID="691c74dc-b77c-4086-a6cd-712b4a60072e" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-01T15:35:39</displayDate>
+  <title><![CDATA[Darren (1)]]></title>
+  <name><![CDATA[Darren (1)]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[Hi Digby, you can use FO keep-with-previous and keep-with-next see http://www.ibm.com/developerworks/xml/library/x-tippgbk/index.html]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

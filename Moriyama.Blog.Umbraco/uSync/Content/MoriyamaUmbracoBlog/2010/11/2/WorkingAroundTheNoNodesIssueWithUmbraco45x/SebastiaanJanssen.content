@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="21ff6830-2c28-4272-b1b6-55d0ff786f07" id="2614" nodeName="Sebastiaan Janssen" isDoc="" updated="2013-07-07T08:17:49.98Z" parentGUID="21603210-72ff-4ff8-9f36-93374e11a328" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-11-03T05:14:23.303</displayDate>
+  <title><![CDATA[Sebastiaan Janssen]]></title>
+  <name><![CDATA[Sebastiaan Janssen]]></name>
+  <email><![CDATA[gravatar.com@cork.nl]]></email>
+  <website><![CDATA[http://cultiv.nl]]></website>
+  <bodyText><![CDATA[It is possible to do some registry hacking and create dependencies for services, but that might be worse than this solution, which is a quite nice hack in actually.
+
+The real correct solution however, would be if Umbraco actually did a fallback to the disk cache as long as it can't access the database server. This is how it used to work in 4.0.x, except I don't think it ever went looking for the SQL server after the fallback.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

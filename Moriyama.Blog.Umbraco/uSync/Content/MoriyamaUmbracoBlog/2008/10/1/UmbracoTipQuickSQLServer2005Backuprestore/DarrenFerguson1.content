@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="aaf58d1a-44d7-423b-ba59-af41760aa291" id="2456" nodeName="Darren Ferguson (1)" isDoc="" updated="2013-10-28T17:22:57.403Z" parentGUID="ff9c8463-0a38-4f5e-b8d1-3d7202888ea0" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="5" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-10-05T10:45:32</displayDate>
+  <title><![CDATA[Darren Ferguson (1)]]></title>
+  <name><![CDATA[Darren Ferguson (1)]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[Hi David, No reason why not.
+
+Have a look at: 
+
+http://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-automation.html
+
+I presume you are using Tortoise SVN??
+
+My next step was to set this up on this blog so my DB is backed up every night.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

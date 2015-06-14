@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="b4589878-15cb-4847-937c-cc6c9ad81288" id="2259" nodeName="Darren Ferguson" isDoc="" updated="2013-07-07T08:17:44.027Z" parentGUID="b398ad60-2f23-4ffb-9648-6cb4cbca2d62" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-05-31T07:47:04</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@eran - the package can do what you want, but not using a print stylesheet. It uses a technology called XSL-FO for print formatting.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

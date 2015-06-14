@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="62ae0a68-99ea-4dbd-b004-c99357f52c78" id="1780" nodeName="Implementing Search with Umbraco" isDoc="" updated="2013-10-28T17:21:52.88Z" parentGUID="70185afe-8942-46a1-9945-10d349d74a54" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/implementing-search-with-umbraco]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-06-29T14:22:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fFDlPO]]></shortUrl>
+  <summary><![CDATA['Implementing Search with Umbraco' - a blog post by Darren Ferguson about content search, Entertainment Culture written on 29 June F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[content search, Entertainment Culture]]></tags>
+  <bodyText><![CDATA[<p>
+After a lot of frustration trying to implement content search in Umbraco yesterday I decided that this article may be a good idea.
+</p><p><a href="http://en.wikibooks.org/wiki/Umbraco/Samples_and_Articles/Implementing_Search">http://en.wikibooks.org/wiki/Umbraco/Samples_and_Articles/Implementing_Search</a></p><p>
+I wrote it all in one quick sitting, so I haven’t had time to go through it with a fine tooth comb yet and check the spelling and grammar.
+</p><p>
+The more I write tutorials and docs, the more I become convinced that screencasts are better, so I will try and create the article as a screencast too. 
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

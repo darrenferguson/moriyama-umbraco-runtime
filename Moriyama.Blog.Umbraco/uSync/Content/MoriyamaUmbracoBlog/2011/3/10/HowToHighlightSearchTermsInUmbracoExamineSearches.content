@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="fa667407-7656-44cf-b89a-301d2a24cbae" id="1939" nodeName="How to highlight search terms in Umbraco examine searches" isDoc="" updated="2013-07-07T08:17:29.667Z" parentGUID="2956d8f0-9fbc-46b5-b925-706a291193df" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/how-to-highlight-search-terms-in-umbraco-examine-searches]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-03-10T16:50:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/dETyOq]]></shortUrl>
+  <summary><![CDATA['How to highlight search terms in Umbraco examine searches' - a blog post by Darren Ferguson about Lucene.Net., search terms, search text, Technology Internet written on 10 March B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[Lucene.Net., Technology Internet, Umbraco, Examine]]></tags>
+  <bodyText><![CDATA[
+<p>I've posted <a
+href="http://our.umbraco.org/wiki/how-tos/how-to-highlight-text-in-examine-search-results">
+a wiki page</a> over at our umbraco that shows how to highlight
+search terms in <a href="http://examine.codeplex.com/">Umbraco
+examine</a> searches using <a
+href="http://lucene.apache.org/lucene.net/docs/2.0/Highlighter.Net/Lucene.Net.Highlight.html">
+Lucene.Net.Highlight</a>. Source code is attached to the wiki
+post.</p>
+
+<p>The code was lifted from an <a
+href="http://our.umbraco.org/forum/developers/extending-umbraco/13571-Umbraco-Examine-Search-Results-Highlighting">
+original forum post</a> by <a
+href="http://twitter.com/ismailmayat">Ismail</a> so credit to him -
+I wouldn't have known where to start otherwise. Also thanks to <a
+href="http://twitter.com/shazwazza">Shannon</a> who made a quick
+change in the latest version of examine to make the highlighting
+easier and faster to do.</p>
+
+<p>Once you get the code up and running the result is quite
+pleasing - the highlighter will highlight terms even if you are
+using fuzzy terms derived from your original search text:</p>
+
+<div><img src="/media/77659/14239_1.png" alt="Examine Highlighting"/></div>
+
+<p>I'd classify this is a 30 minute hack. I don't fully understand
+the inner workings of what i've put together. The code effectively
+does a search within a search against the query results to perform
+the highlighting so I am sure there are efficiency gains to be had.
+You can see from the screenshot above that highlighting takes
+longer than the original search against the text.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

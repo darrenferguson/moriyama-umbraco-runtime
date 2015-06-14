@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="60261a69-201b-4b35-8981-19a89fac7d09" id="1908" nodeName="The future of web CMS is (not)" isDoc="" updated="2013-07-07T08:18:15.27Z" parentGUID="590ebc2f-06a5-4f5c-b614-3e18459f17a7" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/the-future-of-web-cms-is-(not)]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-08-02T08:47:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gtBQpK]]></shortUrl>
+  <summary><![CDATA['The future of web CMS is (not)' - a blog post by Darren Ferguson about Julian Wraith, content management written on 02 August A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Julian Wraith, content management]]></tags>
+  <bodyText><![CDATA[<p><a href="http://www.julianwraith.com/">Julian Wraith</a>
+recently asked people to contribute to a debate on the <a href="http://www.julianwraith.com/?p=313">future of content
+management</a>. While this is an interesting debate I'm going to
+attack it from a slightly different angle. I'm looking at it from
+the point of view that there are a number of widespread cross
+vendor issues that need to be fixed before we start moving
+forwards.</p><p>Each example is a real world example. Kudos points if you can
+spot the various CMS systems in question (some points apply to
+multiple CMS). If your CMS doesn't suffer from any of the following
+leave a link to it in my comments, I'd love to evaluate it.</p><p>So, in no particular order:</p><ul><li>I want to access your CMS with my browser but I can't because I
+use Firefox and you only support IE.</li><li>I want to roll out your CMS within my organisation, I have to
+migrate all of my users to be stored in a database table in a
+custom schema defined by your CMS.</li><li>I'm trying to define the layout for a web page using your CMS
+but your templating language is completely bespoke and not based on
+any standards.</li><li>I've managed to render a webpage using your CMS but you seem to
+have added loads of extra div tags all of which have CSS classes
+named "crapvendor".</li><li>I'm trying to use your WYSIWYG editor but apparently I need to
+install an ActiveX component.</li><li>I've entered some standards compliant markup into your WYSIWYG
+editor using the "source view" and it has "corrected it".</li><li>Your CMS doesn't understand the extended character set of my
+source document but when I paste from this document it happily
+saves these characters to the repository anyway - as question
+marks.</li><li>I want to import an image into your CMS - this requires a java
+applet. (In fact any java applets for any purpose = bad IMHO)</li><li>I've entered a summary of my content, now I have to manually
+enter keywords too.</li><li>I'm performng an operation that takes some time, the status
+screen is of the "white" and "blank" variety.</li><li>I've had it with your browser GUI. I want to use Livewriter but
+no API exists for me to implement support.</li><li>I've finally managed to create something as complex as a
+webpage, now for the 20 step process to publish it. (Admittedly
+normally a limitation of the implementation rather than the
+CMS).</li><li>I've negotiated above process and the URL of my new page is
+/index.php/news/12042984626492732?ver=8.0&amp;this=sucks</li><li>I want to assemble a list of all recent news items in the CMS,
+this is half a day of development.</li><li>My site relies heavily on user generated content. I need to set
+up a cron job in order to get this user generated content back into
+your CMS.</li><li>You believe that "your way" of versioning content is better
+than SVN/Git/Sourcesafe.</li><li>Your support engineer just provided a configuration setting to
+fix an issues. When I ask where this setting is documented I am
+told "it isn't".</li><li>The same serious defect has existed in your software for over 5
+years. I personally have reported it on more than 5 occasions each
+time I am told to disable the component in question.</li></ul><p>There was a time when <em>some</em> of these were acceptable
+scenarios, mainly due to the limitations of technology but leaving
+something dated in place because "it works" isn't an acceptable
+scenario in my book.</p><p>If you are a vendor who commits one of these crimes against <a href="http://en.wikipedia.org/wiki/Web_content_management_system">WCM</a>
+then I'd love to hear your excuses and intended fix dates. If you
+disagree with any of the above being a problem I'd also love to
+hear from you.</p><p>6f82f1d997A0307-3A9D-4FEB-94EE-FF6323708EFFdc522545efe863e5d2b73</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="c31b2e92-9117-413f-926d-0e2783890b3f" id="2454" nodeName="Darren Ferguson" isDoc="" updated="2013-10-28T17:22:57.117Z" parentGUID="ff9c8463-0a38-4f5e-b8d1-3d7202888ea0" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-10-02T20:24:31</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@wouter: I assume you are talking about using the 'backup database' command. I've had numerous issues moving db's across machines with this.
+
+I guess you mean server 'stays online'?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

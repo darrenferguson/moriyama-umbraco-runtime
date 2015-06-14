@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="2187976f-d8b2-4b4e-8689-bd2551842d00" id="2615" nodeName="Darren Ferguson" isDoc="" updated="2013-07-07T08:17:50.063Z" parentGUID="21603210-72ff-4ff8-9f36-93374e11a328" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-11-03T07:54:22.157</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[I should have mentioned that there should be some conditional logic around the code block above to check that the cache is actually empty.
+]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

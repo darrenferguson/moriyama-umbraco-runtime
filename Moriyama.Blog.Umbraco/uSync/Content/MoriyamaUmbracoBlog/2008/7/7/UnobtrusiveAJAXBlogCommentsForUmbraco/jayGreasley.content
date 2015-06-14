@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="975db196-54e0-4988-9b0c-1b5731038259" id="2475" nodeName="jay greasley" isDoc="" updated="2013-10-28T17:23:23.67Z" parentGUID="177c311e-2d57-48ef-954e-a0cd5a3c20dc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-09T15:55:13</displayDate>
+  <title><![CDATA[jay greasley]]></title>
+  <name><![CDATA[jay greasley]]></name>
+  <email><![CDATA[jaygreasley@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[testing this ajax comment panel]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

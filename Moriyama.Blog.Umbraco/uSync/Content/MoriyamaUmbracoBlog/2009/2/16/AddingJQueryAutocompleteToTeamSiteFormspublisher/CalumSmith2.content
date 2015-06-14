@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="b72d37c6-ecd8-46c4-9cb0-670fe742542d" id="2350" nodeName="Calum Smith (2)" isDoc="" updated="2013-07-07T08:18:01.8Z" parentGUID="ab345438-ee3f-4af8-8151-197a5a426dd8" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="10" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-19T15:35:18</displayDate>
+  <title><![CDATA[Calum Smith (2)]]></title>
+  <name><![CDATA[Calum Smith (2)]]></name>
+  <email><![CDATA[carpediem9DD5A162-14C1-4ED5-AD2D-57DF19F804D2_au@yahoo.co.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[http://msdn.microsoft.com/en-us/library/ms534359(VS.85).aspx
+
+It looks like perhaps readystate should be checked for interactive as well to be 100% compatible with IE.
+
+Works a treat, having a blast with it! Think we can get Interwoven to roll Jquery out with TeamSite ;)]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

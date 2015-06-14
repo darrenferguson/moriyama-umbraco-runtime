@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="5b8ada42-fc30-408f-a285-ae0e09c2f71c" id="2547" nodeName="saff" isDoc="" updated="2013-10-28T17:22:38.977Z" parentGUID="98e00e60-5131-4ee8-9309-0ce8f3dd7437" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-25T03:38:09</displayDate>
+  <title><![CDATA[saff]]></title>
+  <name><![CDATA[saff]]></name>
+  <email><![CDATA[saff_18@yahoo.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[how do you assign those stopwords that u want to add?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="cd140020-5992-457d-a100-b781ddbfffff" id="2481" nodeName="ZK@Web Marketing Blog" isDoc="" updated="2013-07-07T08:18:23.317Z" parentGUID="177c311e-2d57-48ef-954e-a0cd5a3c20dc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="12" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-06-12T08:51:03</displayDate>
+  <title><![CDATA[ZK@Web Marketing Blog]]></title>
+  <name><![CDATA[ZK@Web Marketing Blog]]></name>
+  <email><![CDATA[zk5182@yahoo.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[I’ve installed a new Ajax-Comments plugin, that means that the comment is posted when you click submit without it having to reload the whole page to show it. Did you not notice that sexy drawer effect when you hit submit? That lessens the load on the server a lot (I hope).]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

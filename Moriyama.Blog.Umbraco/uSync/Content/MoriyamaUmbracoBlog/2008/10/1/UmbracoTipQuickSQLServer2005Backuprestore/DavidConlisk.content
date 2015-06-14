@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="b57943a9-27e2-4e6f-81df-40a652686217" id="2455" nodeName="David Conlisk" isDoc="" updated="2013-10-28T17:22:58.257Z" parentGUID="ff9c8463-0a38-4f5e-b8d1-3d7202888ea0" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-10-03T11:13:19</displayDate>
+  <title><![CDATA[David Conlisk]]></title>
+  <name><![CDATA[David Conlisk]]></name>
+  <email><![CDATA[david@web-garden.co.uk]]></email>
+  <website><![CDATA[http://web-garden.co.uk]]></website>
+  <bodyText><![CDATA[Darren - works a treat! Been using subversion with unfuddle.com for my own projects for a while now after our conversations at the level two course and I spend a bit of time manually attaching/detaching the db on each commit/update. This saves me doing that each time and also ensures that I have versioned backups of my database just like my code.
+I wonder is there a way of creating a start-of-day and end-of-day wonder script that will include this step and also kick off your svn checkout or update...
+Thanks for the tip!
+
+David]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

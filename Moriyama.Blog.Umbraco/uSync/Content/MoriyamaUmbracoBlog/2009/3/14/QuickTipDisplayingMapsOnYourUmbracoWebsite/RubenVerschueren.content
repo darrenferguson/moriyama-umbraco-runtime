@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="24625048-6a64-4409-b9f4-e417d4227a7c" id="2398" nodeName="Ruben Verschueren" isDoc="" updated="2013-07-07T08:18:07.24Z" parentGUID="3d7d6134-2bd1-4ee2-899b-4a62340deb94" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="19" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-03-30T15:04:39</displayDate>
+  <title><![CDATA[Ruben Verschueren]]></title>
+  <name><![CDATA[Ruben Verschueren]]></name>
+  <email><![CDATA[ruben.verschueren@digipoint.be]]></email>
+  <website></website>
+  <bodyText><![CDATA[this really is super helpfull!
+
+I've got one suggestion, should you make a new version (unless it already possible). can you increase the size of the map shown in the datatype/content node? 
+
+You see, at the moment I display the google map at 800x300 dimensions on the frontend, which shows more of the map than the content map does. So i'm looking for a way to determine the center of the map (or where the flag is shown).
+
+anyway, great work!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

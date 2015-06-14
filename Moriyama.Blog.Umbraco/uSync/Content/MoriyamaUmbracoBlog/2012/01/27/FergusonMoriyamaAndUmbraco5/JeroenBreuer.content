@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="71933120-8d11-435d-9158-139d1465bb02" id="2811" nodeName="Jeroen Breuer" isDoc="" updated="2013-07-07T08:17:27.203Z" parentGUID="6520b02e-8988-4362-9b9c-f693f163755f" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-01-28T14:07:40.513</displayDate>
+  <title><![CDATA[Jeroen Breuer]]></title>
+  <name><![CDATA[Jeroen Breuer]]></name>
+  <email><![CDATA[jbreuer@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Great blog post!
+
+For more info about adding properties to inherited tabs have look at this issue: http://issues.umbraco.org/issue/U5-54]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

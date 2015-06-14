@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="8f51eaca-0650-4660-bc4a-af2775903fe7" id="2262" nodeName="Karl Kopp" isDoc="" updated="2013-07-07T08:17:44.767Z" parentGUID="3a28fc7c-9021-4bcd-982a-d4a1dc0d9a1a" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-06-22T06:03:12</displayDate>
+  <title><![CDATA[Karl Kopp]]></title>
+  <name><![CDATA[Karl Kopp]]></name>
+  <email><![CDATA[kkopp@nextdigital.com]]></email>
+  <website><![CDATA[http://www.karlkopp.com]]></website>
+  <bodyText><![CDATA[Tried to look at the code for the static HTML output Darren, and in a browser says it needs a user/pass but still shows the files? Config error somewhere? Will grab the code (after I install a SVN client :) and have a play!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

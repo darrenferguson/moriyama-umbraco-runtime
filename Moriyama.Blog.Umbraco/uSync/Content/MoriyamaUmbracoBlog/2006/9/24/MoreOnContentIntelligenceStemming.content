@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="fa0f1f3c-64ab-41b6-bd90-19173c43117c" id="1830" nodeName="More on content intelligence: Stemming" isDoc="" updated="2013-10-28T17:22:39.487Z" parentGUID="8cc4997d-e8f3-4288-bdb6-926e558f8ddc" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/more-on-content-intelligence-stemming]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-09-24T15:04:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/dQc5ts]]></shortUrl>
+  <summary><![CDATA['More on content intelligence: Stemming' - a blog post by Darren Ferguson about lucene.net site, http://www.comp.lancs.ac.uk/computing/research/stemming/general/ written on 24 September F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[lucene.net]]></tags>
+  <bodyText><![CDATA[
+<p>This content intelligence thing seems to be turning into a bit
+of a mini series.</p>
+
+<p>The last addition to this example for the foreseeable future is
+Stemming - the reduction of a word to its root form.</p>
+
+<p>In case you are thinking WTF, think about the relationship
+between training and train, discussion and discuss and so on. If
+you want to read more about how machines can perform stemming see
+<a
+href="http://www.comp.lancs.ac.uk/computing/research/stemming/general/">
+http://www.comp.lancs.ac.uk/computing/research/stemming/general/</a>
+but personally, I am happy to be aware of stemming algorithms and
+the fact that they can be useful when classifying documents.</p>
+
+<p>If you click through to the detail view of any of my blog posts
+you'll see that some words have been stemmed in the classification
+output - the root form appears in brackets after the word.</p>
+
+<p>After playing with NClassifiers PorterStemmer, I found it was
+often too harsh, reducing words so they made no sense.</p>
+
+<p>As a solution I applied both the PorterStemmer and KStemmer
+which is available from the lucene.net site. I select the shortest
+correctly spelled word as the root word. The results are pretty
+satisfactory, but there will be mistakes - use stemmed to us for
+example.</p>
+
+<p>So why is this useful? Imagine someone visits your site and
+searches for the word 'classification'. Using stemming you can
+reduce classification to classify, determine that 'classifier' has
+the same root word and return documents matching classify,
+classification and classifiers.</p>
+
+<p>Read it a few times, it does make sense. Honest!</p>
+
+<p>So now what? Well, I shelf the content intelligence thing for
+the moment. As with most of my prototyping, I get to the stage
+where I could sell it as a product if I find a client to fund and
+then park it.</p>
+
+<p>If I have some free time I may well try and move all of this
+prototype functionality into an ActionHandler and then add some
+personalisation for members who are logged on to my site.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="7aaec4f0-748b-4a7f-bed3-9fbd9715070c" id="2479" nodeName="Test Again" isDoc="" updated="2013-10-28T17:23:24.493Z" parentGUID="177c311e-2d57-48ef-954e-a0cd5a3c20dc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="10" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-25T22:04:48</displayDate>
+  <title><![CDATA[Test Again]]></title>
+  <name><![CDATA[Test Again]]></name>
+  <email><![CDATA[ss_shkod@mail.ru]]></email>
+  <website></website>
+  <bodyText><![CDATA[Only testing your ajax comments ;)
+Thank's for it!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

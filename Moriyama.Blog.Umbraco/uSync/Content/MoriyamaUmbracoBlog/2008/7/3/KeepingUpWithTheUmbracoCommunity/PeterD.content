@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="d9a5ba52-5d79-4980-98e7-75d8526e613a" id="2483" nodeName="PeterD" isDoc="" updated="2013-10-28T17:23:20.033Z" parentGUID="b885e473-71ba-443d-a1ee-cd482a0ecd4b" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-03T17:14:38</displayDate>
+  <title><![CDATA[PeterD]]></title>
+  <name><![CDATA[PeterD]]></name>
+  <email><![CDATA[peter@dijksterhuis.nu]]></email>
+  <website><![CDATA[http://www.dijksterhuis.nu/]]></website>
+  <bodyText><![CDATA[Thanks! Very usefull.
+I followed your tip, I've added a second feed to my blog containing comments.
+
+Any idea why there's only a title shown from my blog?
+
+PeterD]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

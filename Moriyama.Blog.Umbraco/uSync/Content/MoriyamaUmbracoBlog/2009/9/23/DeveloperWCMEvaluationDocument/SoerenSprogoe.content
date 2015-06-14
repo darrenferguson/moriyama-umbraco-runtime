@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="5761bcc9-6b6d-48fa-932b-2e4ce18475bf" id="2448" nodeName="Søren Sprogø" isDoc="" updated="2013-07-07T08:18:17.347Z" parentGUID="9e72a103-8c33-4c8e-b13c-d2aa55d5d43c" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-09-23T19:46:33</displayDate>
+  <title><![CDATA[Søren Sprogø]]></title>
+  <name><![CDATA[Søren Sprogø]]></name>
+  <email><![CDATA[ssp@afdeling18.dk]]></email>
+  <website><![CDATA[http://www.afdeling18.dk]]></website>
+  <bodyText><![CDATA[Hmmm, nice idea.
+
+Maybe add a couple of those essential SEO bullets?
+
+- You should be able to specify a unique title for each page.
+
+- Ability to make unique meta descriptions for each page.
+
+- URL's shouldn't contain ANY kind of parameters, as these may confuse Googles ability to identify unique content.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

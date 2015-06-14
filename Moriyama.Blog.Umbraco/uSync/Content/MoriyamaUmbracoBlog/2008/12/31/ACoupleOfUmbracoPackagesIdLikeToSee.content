@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="29f01026-3e28-401e-84c3-7e91e73f9ba5" id="1852" nodeName="A couple of Umbraco packages I'd like to see" isDoc="" updated="2013-10-28T17:23:02.523Z" parentGUID="ec8dc426-5bfd-43ab-a2fb-ea18b9a7f1d2" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/a-couple-of-umbraco-packages-i'd-like-to-see]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-12-31T10:22:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/eTVnYi]]></shortUrl>
+  <summary><![CDATA['A couple of Umbraco packages I'd like to see' - a blog post by Darren Ferguson about online public image library, search engine rankings, media items, official Liverpool website, search engine written on 31 December 9997642C-5F5C-4A03-A353-2E7B493113A9]]></summary>
+  <tags><![CDATA[online public image library, search engine rankings, media items, official Liverpool website, search engine]]></tags>
+  <bodyText><![CDATA[
+<p>I'm really happy with Umbraco as a blogging tool since I got
+livewriter support hooked up writing a blog post is now an
+extremely quick process and I don't need to worry about anything
+expect the content of the post.</p>
+
+<p>Yesterday I was sat thinking about what tools would improve the
+quality of my posts and came up with a couple of ideas for Umbraco
+packages that I would like to see. As time is limited and I'm not
+sure I'll have the time to build these packages I thought I'd
+outline my ideas here and possibly inspire someone else to pick up
+the ideas and run with them.</p>
+
+<p>The first idea is the more simple of the two. I'd like that when
+I publish a blog post that certain keywords are automatically
+linked to URLs. For example the word Umbraco always gets linked to
+umbraco.org or the phrase Liverpool gets linked to the official
+Liverpool website. These words and phrases would need to be setup
+in a configuration file.</p>
+
+<p>I could see this idea working as an Action Handler or some kind
+of button on the TinyMCE toolbar. The latter is probably a better
+idea as you may only want to add links to certain blog posts. You'd
+also want to verify the links that had been added to the blog post
+in case the code had made any mistakes.</p>
+
+<p>The code itself would be pretty trivial. Just some regular
+expressions parsing your blog post body.</p>
+
+<p>The benefit of this functionality is that you can enhance your
+search engine rankings by having reciprocal links with other sites
+and manually adding these links to each post can get quite time
+consuming. I may get around to building this functionality myself
+it is probably only a few hours work.</p>
+
+<p>My second idea is a little more abstract and probably needs some
+more thought. I'm painfully aware that my blog looks rather plain.
+The blogs that stand out for me use some kind of relevant images
+within the body of the post.</p>
+
+<p>The idea of going and sourcing an image for every post I make is
+quite painful. What I'd like is something that would auto suggest
+some images based on the tags and body content of a post.</p>
+
+<p>I'm speculating that the functionality would search either the
+Umbraco media section or some kind of online public image library
+(or both). With events in Umbraco 4 I'm imagining it would be quite
+easy to create a Lucene index of media items. Some kind of
+classifier may be used against the body of the blog post in order
+to determine the keywords for the post.</p>
+
+<p>Again, I Imagine some kind of button on the TinyMCE toolbar
+opening a popup with thumbnails of suggested images. When a
+thumbnail is clicked the image is inserted to the post body with
+any required scaling performed automatically.</p>
+
+<p>So, those are my thoughts. It turned into a bit of a longer post
+than I imagined. If nothing else, it serves as a reminder to myself
+when I'm looking for a new project.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

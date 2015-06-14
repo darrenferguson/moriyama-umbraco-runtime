@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="86656b0d-ec83-4ec9-a2d9-c79ce5c5cbc0" id="2720" nodeName="Creating custom Workflow for Umbraco tasks" isDoc="" updated="2013-07-07T08:17:32.45Z" parentGUID="f66b8fea-421b-4f57-a648-3cb5de07c433" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-10-17T09:07:00</displayDate>
+  <title><![CDATA[Creating custom Workflow for Umbraco tasks]]></title>
+  <shortUrl></shortUrl>
+  <summary><![CDATA['Creating custom Workflow for Umbraco tasks'' - a blog post by Darren Ferguson about Umbraco, Workflow, written on the 17th October B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[Workflow, Umbraco]]></tags>
+  <bodyText><![CDATA[
+<p>This post details how to create custom tasks for use with <a
+href="http://our.umbraco.org/projects/backoffice-extensions/workflow">
+Workflow for Umbraco</a>. If you haven't already done so you may
+benefit from watching the introductory screencast in <a
+href="/B25AC8DE-26FC-44E7-BB89-F200B2327094/10/4/workflow-for-umbraco-and-drag-and-drop-event-programming">
+this blog post</a>.</p>
+
+<p>In the screencast below I run through how to create your own
+workflow tasks and introduce some features that I didn't get around
+to in the first screen cast.</p>
+
+<p>The code demonstrated in the screencast is <a
+href="http://our.umbraco.org/media/wiki/16479/634543648282718000_BitLyUrlShortenerTask.zip">
+available for download here</a>. If you create and send me a sample
+workflow task for our <a
+href="https://bitbucket.org/darrenjferguson/workflow-samples">library
+of samples</a> then i'll give you a free worklow license (small
+print below).</p>
+
+<p><a href="http://vimeo.com/30623479"><img src="/media/126148/tasks2.png" width="494" height="393" alt="Tasks2"/></a></p>
+
+<p style="clear: both;">The key points of the screencast are:</p>
+
+<ul>
+<li>You can create Runnable, Decision and Delay Tasks.</li>
+
+<li>When creating a Runnable task you
+implement&nbsp;<strong><em>IRunnableWorkflowTask.</em></strong></li>
+
+<li>Inheriting from Base Workflow task is the easiest way to get
+started.</li>
+</ul>
+
+<pre class="brush: csharp;">
+[Serializable]
+public class BitLyUrlShorteningTask : BaseWorkflowTask, IRunnableWorkflowTask
+{
+</pre>
+
+<ul>
+<li>Your class should tell the designer about its possible outcomes
+using the <strong><em>AvailableTransitions</em></strong> List</li>
+
+<li>Workflow tasks must always be marked as
+<strong><em>Serialiazble.</em></strong></li>
+</ul>
+
+<pre class="brush: csharp;">
+[Serializable]
+public BitLyUrlShorteningTask() : base()
+{
+    // A workflow task should let the designer know what possible outcomes
+    AvailableTransitions.Add("done");
+}
+</pre>
+
+<ul>
+<li><strong><em>IRunnableWorkflowTask</em></strong> demands that
+you implement a <em><strong>Run</strong></em> method.</li>
+
+<li>For Umbraco workflows you can cast the workflowInstance
+parameter to
+an&nbsp;<strong><em>UmbracoWorkflowInstance</em></strong> to access
+Umbraco specific properties.</li>
+</ul>
+
+<pre class="brush: csharp;">
+[Serializable]
+// Implement the Run method of IRunnableWorkflowTask
+public void Run(IWorkflowInstance workflowInstance, IWorkflowRuntime runtime)
+{
+    // In Umbraco the workflowInstance should always be castable to an UmbracoWorkflowInstance
+    var wf = (UmbracoWorkflowInstance) workflowInstance;
+    ....
+</pre>
+
+<ul>
+<li>Your run method is responsible for informing the workflow
+runtime of the task outcome.</li>
+</ul>
+
+<pre class="brush: csharp;">
+runtime.Transition(workflowInstance, this, "done");
+</pre>
+
+<ul>
+<li>In Order that the designer knows how render the task you must
+create an <strong><em>IWorkflowTaskEntityUi</em></strong></li>
+</ul>
+
+<pre class="brush: csharp;">
+// An Entity Ui describes how the workflow task is rendered in the workflow Designer
+public class BitLyUrlShorteningTaskEntityUi : BaseWorkflowTaskEntityUi, IWorkflowTaskEntityUi, IGlobalisable
+{
+    ...
+</pre>
+
+<ul>
+<li>Use the entity UI to describe task transitions</li>
+
+<li>To add CSS classes to your task in the designer</li>
+
+<li>To add Controls to the workflow designer to set the public
+properties of the task.</li>
+</ul>
+
+<pre class="brush: csharp;">
+// An Entity Ui describes how the workflow task is rendered in the workflow Designer
+public BitLyUrlShorteningTaskEntityUi()
+            : base()
+{
+    // Describe the workflow transition
+    TransitionDescriptions.Add("done", "URL Was shortened");
+
+    // Decorate your task with a custom CSS class in the designer.
+    // The workflow designer scans ~/umbraco/plugins/fmworkflow/css for custom CSS files and includes all of them.
+    UiAttributes.Add("class", "bitlyTask");
+            
+    // These properties explain how to present a Ui to get values for the public properties of the workflow task.
+    UiProperties.Add(new BitLyApiKeyPropertyUi());
+    UiProperties.Add(new BitLyLoginPropertyUi());
+    UiProperties.Add(new DocumentTypePropertyUi());
+}
+</pre>
+
+<ul>
+<li>The Entity UI should also implement a method to tell the
+designer the name of the workflow task</li>
+
+<li>And also a method that tells the designer which workflow task
+it is for</li>
+</ul>
+
+<pre class="brush: csharp;">
+// When passed an object returns a bool indicating whether this task can supply a UI for it.
+public override bool SupportsType(object o)
+{
+    return o.GetType() == typeof(BitLyUrlShorteningTask);
+}
+
+// Name of task
+public override string EntityName
+{
+    get { return "Bit.ly URL Shorten"; }
+}
+</pre>
+
+<ul>
+<li>The UiProperties list of the Entity Ui is a collection of
+<em><strong>IWorkflowUiProperty</strong></em></li>
+
+<li>A Property UI desribes how to get and set a public propery of a
+workflow task using the workflow designer</li>
+</ul>
+
+<pre class="brush: csharp;">
+public class BitLyApiKeyPropertyUi : PropertyUi, IWorkflowUiProperty, IGlobalisable
+{
+    ....
+</pre>
+
+<ul>
+<li>The Property UI defines a Render Control</li>
+</ul>
+
+<pre class="brush: csharp;">
+public Control RenderControl { get; private set; }
+
+public BitLyApiKeyPropertyUi()
+{
+    // Just says that a TextBox will be used to get the property value from the user.
+    RenderControl = new TextBox { ID = PropertyName, CssClass = "workflowTextBox" };
+}
+</pre>
+
+<ul>
+<li>A getter and a setter for its value</li>
+</ul>
+
+<pre class="brush: csharp;">
+// The workflow designer uses this getter and setter to give or take the value of the property.
+public object Value
+{
+    get { return ((TextBox)RenderControl).Text; }
+    set { ((TextBox)RenderControl).Text = (string)value; }
+}
+</pre>
+
+<ul>
+<li>And lastly implements two properties which return the name of
+the property to set and the description of the property</li>
+</ul>
+
+<pre class="brush: csharp;">
+// Label for control when rendered in Ui
+public string Label
+{
+    get { return "Bit.ly API key"; }
+}
+
+// The workflow designer uses this getter and setter to give or take the value of the property.
+public object Value
+{
+    get { return ((TextBox)RenderControl).Text; }
+    set { ((TextBox)RenderControl).Text = (string)value; }
+}
+</pre>
+
+<p>If you send me a sample worklflow task I'll add it to our
+library and generate you a free license. It needs to be a sample
+that I don't have already and do something useful (not just log
+Hello world to a file etc). I'll be the final just of what is
+useful :)</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

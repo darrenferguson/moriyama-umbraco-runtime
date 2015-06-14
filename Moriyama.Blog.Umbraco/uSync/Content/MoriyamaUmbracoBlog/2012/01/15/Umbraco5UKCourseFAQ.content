@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="ed399c40-65b7-4973-a636-2825028a9c6c" id="2785" nodeName="Umbraco 5 UK course FAQ" isDoc="" updated="2013-07-07T08:17:26.043Z" parentGUID="37a2c872-3865-46a0-9dcb-978f40931788" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-01-15T09:00:00</displayDate>
+  <title><![CDATA[Umbraco 5 UK course FAQ]]></title>
+  <shortUrl><![CDATA[http://djf.so/xtr9wF]]></shortUrl>
+  <summary><![CDATA['Umbraco 5 UK course FAQ' - a blog post by Darren Ferguson about Umbraco Training written on 15 January DD342A1F-588F-46F4-9806-89C04EE0A7AD]]></summary>
+  <tags><![CDATA[Umbraco, Umbraco 5, training, certification]]></tags>
+  <bodyText><![CDATA[
+<p>With the release of Umbraco 5 upon us a there will be some
+changes to the certification courses. <a
+href="http://www.percipientstudios.com/">Doug Robar</a> and I
+receive daily emails with questions about this so I thought I would
+blog to clear up what will be happening.</p>
+
+<p>The information in this course applies to UK courses only - it
+is probably accurate for other courses too, but please check with
+your local trainer before booking anything.</p>
+
+<p>So without further ado, here is the Umbraco 5 training FAQ:</p>
+
+<p><strong><em>Will you stop teaching Umbraco
+4?&nbsp;</em></strong></p>
+
+<p>Yes, we will stop running public Umbraco 4 courses in the UK -
+those listed for February will be the last, we won't schedule any
+after that. Both Doug and I will be happy to teach Umbraco 4 at
+your company office upon request.</p>
+
+<p><strong><em>When will you start teaching Umbraco
+5?</em></strong></p>
+
+<p>March. We've scheduled some courses which are listed at <a
+href="http://umbraco.com/products/training/schedule.aspx">http://umbraco.com/products/training/schedule.aspx</a></p>
+
+<p><strong><em>Will my existing Umbraco certification become
+invalid?</em></strong></p>
+
+<p>No you are still an Umbraco certified developer;&nbsp; you will
+still be listed on the Umbraco site. If you are a company that
+holds solution provider status you will continue to do so.</p>
+
+<p><strong><em>What is the Umbraco 4 to Umbraco 5 upgrade
+course?</em></strong></p>
+
+<p>For a <strong><em>very</em></strong> limited period we will be
+able to offer upgrade courses. You will need to hold an existing
+Level 2 certification to attend.</p>
+
+<p>The courses are designed to quickly update certified developers
+knowledge of Umbraco 4 so that is applicable to Umbraco 5. The
+course runs two days and covers topics originally in the Level 1
+and Level 2 courses.</p>
+
+<p>Both Doug an I will teach this course. I'm really excited about
+working with Doug - Without wishing to blow my own trumpet I think
+this is a great opportunity to work with both of us over two days.
+We'll take you for a beer too!</p>
+
+<p><strong><em>Can you do onsite Umbraco 5
+training?</em></strong></p>
+
+<p>Yes, I'll be happy to book in dates for on-site Umbraco 5
+training with you.</p>
+
+<p><strong><em>I have another question!</em></strong></p>
+
+<p>Just post your question in the comments here and I'll add it to
+this post an answer it.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

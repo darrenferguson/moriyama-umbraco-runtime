@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="62b7ba81-b8f4-4b2a-b307-fd25b6cc20a4" id="2607" nodeName="Garrett Fisher" isDoc="" updated="2013-10-28T17:23:08.72Z" parentGUID="917fd093-37e8-4c4a-9149-f48ed1a3b1f5" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="10" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-09-24T20:22:43</displayDate>
+  <title><![CDATA[Garrett Fisher]]></title>
+  <name><![CDATA[Garrett Fisher]]></name>
+  <email><![CDATA[garrett.fisher@horngroup.com]]></email>
+  <website><![CDATA[http://www.horngroup.com/]]></website>
+  <bodyText><![CDATA[Hi,
+
+I recently moved my Umbraco implementation to a new server, and although I've updated the cache address (the XML file path to be written), it is not updating.  Where/how do I set the cache expiry?  Specify how long for it to wait to rewrite the file?
+
+Thanks,
+Garrett]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

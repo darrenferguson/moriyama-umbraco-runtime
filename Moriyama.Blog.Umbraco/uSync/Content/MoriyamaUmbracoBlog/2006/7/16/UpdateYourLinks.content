@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="4fed9574-d47e-46de-91e8-b81f7537331e" id="1785" nodeName="Update your links" isDoc="" updated="2013-10-28T17:21:57.39Z" parentGUID="1670504e-3e35-4e1b-99e5-6a776e6a82ce" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/update-your-links]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-16T12:43:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/edp8pU]]></shortUrl>
+  <summary><![CDATA['Update your links' - a blog post by Darren Ferguson about DNS, Technology Internet written on 16 July F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[DNS, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>
+The DNS minefield has finally been cleared and my domain is running on windows hosting with Umbraco.
+</p><p>
+If you link to me, URL's will have changed, so please check that your Links are intact. The RSS URL is also different.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="dfd937a0-5407-416c-a050-831b7ce1051e" id="2407" nodeName="Paul" isDoc="" updated="2013-07-07T08:18:09.32Z" parentGUID="efb7322a-a175-4bf9-a7f7-a639d085cfae" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-08-06T17:28:57</displayDate>
+  <title><![CDATA[Paul]]></title>
+  <name><![CDATA[Paul]]></name>
+  <email><![CDATA[p.hanson@homecall.co.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[I am restricted to Teamsite 5.52
+
+Any support for xslt using iwov_xslt in this version?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="d974051a-040e-4920-a172-a691a502b61d" id="1792" nodeName="Umbraco Blog 0.2 is in SVN" isDoc="" updated="2013-10-28T17:22:09.303Z" parentGUID="3f5b2814-926f-4344-b491-6db4aaafd20c" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-blog-02-is-in-svn]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-20T12:19:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/hDKW4b]]></shortUrl>
+  <summary><![CDATA['Umbraco Blog 0.2 is in SVN' - a blog post by Darren Ferguson about HTML, XSLT written on 20 July F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[HTML, XSLT, Umbraco]]></tags>
+  <bodyText><![CDATA[
+<p>First and foremost,DO NOTgo and get this and try and install the
+package over the top of a 0.1 blog extension. This isn't an upgrade
+and I am afraidI CAN'T HELP YOUif you do this.</p>
+
+<p>A couple of things I have done:<br />
+ - added a resources folder into SVN that contains related HTML,
+CSS and XSLT (these files were not in SVN). - added a release
+folder into SVN that contains the latest and greatest .umb file
+plus release notes. - added a bat file makePackage.bat that will
+move dll's and .ascx controls into the resources folder named with
+their appropriate GUID's and then assemble the package into the
+release folder. Just run this in the project folder after you have
+built in visual Studio to create a new .umb file.</p>
+
+<p>I am working on an uninstaller for development, so you can test
+the installer ascx without having to manually delete everything
+from Umbraco each time you rebuild the project, but it isn't ready
+yet.</p>
+
+<p>Details of the enhancements are in the release notes.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

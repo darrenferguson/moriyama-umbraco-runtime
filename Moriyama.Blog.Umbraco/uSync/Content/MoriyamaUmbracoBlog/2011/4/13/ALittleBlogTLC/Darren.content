@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="5fa1a20d-59c3-4126-9c73-7f7f33227d43" id="2664" nodeName="Darren" isDoc="" updated="2013-07-07T08:17:30.55Z" parentGUID="18a43946-0a03-41b9-9753-499d9d22cb10" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-04-15T13:30:31.653</displayDate>
+  <title><![CDATA[Darren]]></title>
+  <name><![CDATA[Darren]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@kenny - I'll blog about the OpenCalais stuff shortly...]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

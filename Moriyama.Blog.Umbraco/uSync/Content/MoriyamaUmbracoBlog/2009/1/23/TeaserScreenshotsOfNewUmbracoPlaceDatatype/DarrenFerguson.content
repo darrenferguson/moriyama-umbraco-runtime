@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="81d3f958-5a2c-4c81-88d5-bf2d840dde98" id="2285" nodeName="Darren Ferguson" isDoc="" updated="2013-07-07T08:17:53.35Z" parentGUID="15a88ec2-fb25-47b1-8255-257259e42190" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-23T10:57:58</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[Hi, Thanks for the info. API keys are stored based on the domain of the request so it already works as you suggest. No control over the other items you mention as yet, though the map will size and centre itself based on the distribution of your search results.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

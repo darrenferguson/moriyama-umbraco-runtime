@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="ff3dfa31-1548-4074-8918-4fae8f6e8363" id="2765" nodeName="Dick Gennissen" isDoc="" updated="2013-07-07T08:17:50.43Z" parentGUID="21603210-72ff-4ff8-9f36-93374e11a328" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-11-16T12:03:15.47</displayDate>
+  <title><![CDATA[Dick Gennissen]]></title>
+  <name><![CDATA[Dick Gennissen]]></name>
+  <email><![CDATA[dick.gennissen@tamtam.nl]]></email>
+  <website><![CDATA[http://www.tamtam.nl]]></website>
+  <bodyText><![CDATA[Hi Darren,
+
+We also have experienced this issue with Umbraco 4.7.0 and did not find any reason why the umbraco.config was empty.
+
+Strange this was, when we republished the entire site (from content-node) also nothing happend. The cmsContentXml table was also empty.
+
+Was this also the case when you have encountered this issue?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

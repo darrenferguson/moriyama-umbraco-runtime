@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="71934f39-d772-4b1b-a072-700badf736f3" id="1879" nodeName="Create an Umbraco document with Perl and Web services" isDoc="" updated="2013-07-07T08:17:51.017Z" parentGUID="07dae89e-66fd-47a2-9c91-f43d4eb6ebf9" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/create-an-umbraco-document-with-perl-and-web-services]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-09T09:01:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gqqMmf]]></shortUrl>
+  <summary><![CDATA['Create an Umbraco document with Perl and Web services' - a blog post by Darren Ferguson about document using Web services, media service, Perl, Technology Internet written on 09 January A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[document using Web services, media service, Perl, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>
+This isn't a blog post as such, just a code snippet that may be quite useful.
+</p><p>
+I spent quite a bit of time figuring out how to get Perl and Soap::Lite to do complex data types the other day. The following code creates a new Umbraco document using Web services.
+</p><pre class="sh_perl" style="border: 1px solid black; background-color: #eeeeee; padding: 7px;">
+use strict;
+use SOAP::Lite +trace =&gt; 'debug';
+use HTML::Entities;
+use Date::Format;
+use Data::Dumper;
+
+use constant HOST =&gt; 'www.mydomain.com';
+use constant UID  =&gt; 'myuid';
+use constant PWD  =&gt; 'secrit';
+
+my $access =
+  SOAP::Lite-&gt;proxy(
+	'http://' . HOST . '/umbraco/webservices/api/DocumentService.asmx' )
+  -&gt;uri('http://umbraco.org/webservices/')
+  -&gt;on_action( sub { sprintf '%s%s', @_ } );
+
+my $data = SOAP::Data-&gt;name(
+	"carrier" =&gt; \SOAP::Data-&gt;value(
+		# SOAP::Data-&gt;name( 'Id' =&gt; 0 ),
+		SOAP::Data-&gt;name( 'Name'           =&gt; 'This is a test'),
+		SOAP::Data-&gt;name( 'DocumentTypeID' =&gt; 1042 ),
+		SOAP::Data-&gt;name( 'ParentID'       =&gt; 1049 ),
+		SOAP::Data-&gt;name( 'HasChildren'    =&gt; 'false' ),
+		SOAP::Data-&gt;name( 'PublishAction'  =&gt; 'Publish' ),
+		SOAP::Data-&gt;name( 'Published'      =&gt; 'true' ),
+		# SOAP::Data-&gt;name( 'ReleaseDate' =&gt; time2str('%Y-%m-%d', time) ),
+		# SOAP::Data-&gt;name( 'ExpireDate' =&gt; time2str('%Y-%m-%d', time) ),
+		SOAP::Data-&gt;name(
+			"DocumentProperties" =&gt; \SOAP::Data-&gt;value(
+				SOAP::Data-&gt;name(
+					"documentProperty" =&gt; \SOAP::Data-&gt;value(
+						SOAP::Data-&gt;name( 'Key'          =&gt; 'Title' ),
+						SOAP::Data-&gt;name( 'PropertyValue' =&gt; 'This is a test' ),
+					)
+				),
+				SOAP::Data-&gt;name(
+					"documentProperty" =&gt; \SOAP::Data-&gt;value(
+						SOAP::Data-&gt;name( "Key" =&gt; 'bodyText' ),
+						SOAP::Data-&gt;name(
+							"PropertyValue" =&gt; encode_entities('&lt;p&gt;This is some html&lt;/p&gt;')
+						),
+					)
+				),
+				SOAP::Data-&gt;name(
+					"documentProperty" =&gt; \SOAP::Data-&gt;value(
+						SOAP::Data-&gt;name( "Key" =&gt; 'DisplayDate' ),
+						SOAP::Data-&gt;name(
+							"PropertyValue" =&gt; time2str( '%Y-%m-%d', time )
+						),
+					)
+				)
+			)
+		)
+	  )
+
+);
+
+# print SOAP::Serializer-&gt;autotype(0)-&gt;serialize($data);
+my $username = SOAP::Data-&gt;type( string =&gt; UID )-&gt;name('username');
+my $password = SOAP::Data-&gt;type( string =&gt; PWD )-&gt;name('password');
+
+my $result = $access-&gt;create( $data, $username, $password );
+print Dumper( $result-&gt;result );
+</pre><p>
+During this process, I also realised that the Umbraco media service is incomplete so I'll try and get access to the source and complete this.
+</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

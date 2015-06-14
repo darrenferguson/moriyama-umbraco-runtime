@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="3a28fc7c-9021-4bcd-982a-d4a1dc0d9a1a" id="1929" nodeName="Two new Umbraco packages" isDoc="" updated="2013-07-07T08:17:44.6Z" parentGUID="7f257cf6-436d-47ed-b0f1-83e562c4a8bf" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/two-new-umbraco-packages]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-06-19T13:24:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gDWXf9]]></shortUrl>
+  <summary><![CDATA['Two new Umbraco packages' - a blog post by Darren Ferguson about HTML written on 19 June B29A5211-DC51-46BB-B283-8510D165CA40]]></summary>
+  <tags><![CDATA[HTML]]></tags>
+  <bodyText><![CDATA[<p>
+I've released two new Umbraco packages:
+</p><ul><li><a href="http://our.umbraco.org/projects/event-viewer">Event Viewer</a></li><li><a href="http://our.umbraco.org/projects/static-html-export">Static HTML Export</a></li></ul><p><em>Event Viewer</em> Discovers all of the events that are registered within an Umbraco instance and displays them on the dashboard. It finds legacy ActionHandlers as well as new v4 events.
+</p><p>It tells you the method that the event invokes and the DLL and namespace where it is defined. I've found this useful for troubleshooting performance bottlenecks and removing redundant event handlers.
+</p><p><em>Static HTML export</em> Is a re-write of one of my <a href="/F56EAE9D-5A71-46C2-8973-4C0DCBF9211D/06/05/plugin-to-export-html-from-umbraco.aspx">first ever Umbraco packages</a> (more than 4 years ago!).
+</p><p>
+The package contains an event handler that fires after a node is published and writes out static HTML plus all of the dependencies (CSS, images, JS ). The project arose from a client requirement to use Umbraco to generate HTML which ultimately gets served up by Apache.
+</p><p>I haven't released a binary of this so you'd need to grab the source an build it.
+</p><p>
+One year, 13 Umbraco packages. How is that for dare, care share?
+</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

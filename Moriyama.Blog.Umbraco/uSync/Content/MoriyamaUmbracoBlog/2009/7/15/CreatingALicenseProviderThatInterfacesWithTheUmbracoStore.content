@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="0c2e3ddd-5d8a-4476-a09a-042c69d204a8" id="1900" nodeName="Creating a license provider that interfaces with the Umbraco store" isDoc="" updated="2013-07-07T08:18:14.73Z" parentGUID="776377d4-53cc-4754-a405-563685ae3dd1" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/creating-a-license-provider-that-interfaces-with-the-umbraco-store]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-15T20:40:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gEqcfs]]></shortUrl>
+  <summary><![CDATA['Creating a license provider that interfaces with the Umbraco store' - a blog post by Darren Ferguson about Umbraco store, Technology Internet written on 15 July A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Umbraco store, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>At codegarden 09 I attended an open space session that discussed
+the three current package repositories - our.umbraco projects, the
+Umbraco package repository and the Umbraco store. My action point
+from this discussion was to write up some information on how to
+create a license provider that works with the Umbraco store. With
+this in mind I've released my <a href="http://our.umbraco.org/projects/umbraco-store-license-provider">
+framework for creating licenses</a> on our.umbraco.org and also
+created a wiki page which <a href="http://our.umbraco.org/wiki/how-tos/creating-a-license-provider-that-interfaces-with-the-umbraco-store">
+explains how to configure the application</a>.</p><p>The application is written around spring.net and is easy to get
+up and quickly. It is also very flexible allowing you to implement
+some simple interfaces in several areas of the application where
+you may want to customise functionality. Integration testing is
+already completed and my framework already provides licenses for
+two products in the <a href="http://store.umbraco.org/">Umbraco
+store</a>.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

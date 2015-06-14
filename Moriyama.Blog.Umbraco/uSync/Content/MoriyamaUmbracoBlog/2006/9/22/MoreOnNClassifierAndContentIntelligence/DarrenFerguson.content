@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="7671fa74-03b6-4860-b024-1a02906d2c34" id="2546" nodeName="Darren Ferguson" isDoc="" updated="2013-10-28T17:22:38.703Z" parentGUID="98e00e60-5131-4ee8-9309-0ce8f3dd7437" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-09-22T10:44:46</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[Commenting on my own post... Yes, I know that Lucene includes a lot of this functionality too!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

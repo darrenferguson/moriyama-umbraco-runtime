@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="06afb94c-1017-4c57-a0ad-96efcf440efe" id="2572" nodeName="Michael Chung" isDoc="" updated="2013-10-28T17:22:03.06Z" parentGUID="7da8e2af-84db-4562-8328-811aefd13a66" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="5" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-18T12:48:16</displayDate>
+  <title><![CDATA[Michael Chung]]></title>
+  <name><![CDATA[Michael Chung]]></name>
+  <email><![CDATA[mchung@ph-wt.com]]></email>
+  <website><![CDATA[http://www.ph-wt.com]]></website>
+  <bodyText><![CDATA[Hello Darren,
+
+We're using Umbraco for the first time on one of our projects.
+
+Regards,
+Michael - PHWT
+]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

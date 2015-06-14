@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="9f2d2e8c-bb19-4c2d-9e65-a48a885ab14d" id="2441" nodeName="Chris Houston" isDoc="" updated="2013-07-07T08:18:16.177Z" parentGUID="6b7ddabb-46b4-4b78-a43c-22d5e468050f" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-08-19T12:33:56</displayDate>
+  <title><![CDATA[Chris Houston]]></title>
+  <name><![CDATA[Chris Houston]]></name>
+  <email><![CDATA[chouston@vizioz.com]]></email>
+  <website><![CDATA[http://blog.vizioz.com]]></website>
+  <bodyText><![CDATA[Hi Darren,
+
+Great to see this post, and thank you for your previous email related to multiple points, that was enough to get me in the right direction and I implemented something very similar 2 weeks ago for my client.
+
+Best regards from sunny Copenhagen!
+
+Chris]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="fb2c6d8c-2489-4ad5-8800-9d3659e61e5d" id="2575" nodeName="Stewart Twynham" isDoc="" updated="2013-10-28T17:22:04.247Z" parentGUID="7da8e2af-84db-4562-8328-811aefd13a66" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="8" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-20T15:49:16</displayDate>
+  <title><![CDATA[Stewart Twynham]]></title>
+  <name><![CDATA[Stewart Twynham]]></name>
+  <email><![CDATA[stewart@bawden-quinn.co.uk]]></email>
+  <website><![CDATA[http://www.bawden-quinn.co.uk]]></website>
+  <bodyText><![CDATA[Hi Darren,
+
+I'm based up here in (sunny!) Manchester and am delighted with Umbraco... despite having developed using linux / CGI / perl / php for over a decade, I've been a convert to C#.net over the last few years.  Other .net based CMS platforms such as DNN and Rainbow simply don't give you the 100% control over the HTML that Umbraco does.
+I'm now looking to launch Umbraco based sites for several customers where accessibility / SEO / etc are critical.
+
+Regards,
+
+Stewart]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="0173ba4f-e08f-445d-86e5-33dbe951c448" id="2861" nodeName="codex" isDoc="" updated="2013-07-07T08:18:07.583Z" parentGUID="3d7d6134-2bd1-4ee2-899b-4a62340deb94" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="23" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-03-22T17:59:17.98</displayDate>
+  <title><![CDATA[codex]]></title>
+  <name><![CDATA[codex]]></name>
+  <email><![CDATA[contact@digitaldreaming.co.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[Your plugin is great! I am using it with google maps api v3 with a few modifications to the code you suggest:
+
+<script type="text/javascript">
+
+    $('div[class=map]').each(function() {
+     
+      
+
+        $(this).addClass('mapdimensions');
+        var mapId = $(this).attr('id');
+        
+        var value = $(this).html();
+        value = $.trim(value);
+        
+        var point = value.split(',');
+
+        var lat = parseFloat(point[0]);
+        var lon = parseFloat(point[1]);
+        var zoom = parseFloat(point[2]);
+      
+        var p = new google.maps.LatLng(lat, lon);
+      
+        var myOptions = {
+          center: p,
+          zoom: zoom,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+          
+         fm = new google.maps.Map(document.getElementById(mapId),
+            myOptions); 
+      
+          var marker = new google.maps.Marker({
+              position: p,
+              title:"We are here!",
+              animation: google.maps.Animation.BOUNCE
+          });
+
+     
+        // To add the marker to the map, call setMap();
+        marker.setMap(fm);
+        
+    });
+      
+         
+         
+    </script>]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="68a6560a-f131-4048-aed6-7c03aa3f6723" id="2357" nodeName="Richard Soeteman" isDoc="" updated="2013-07-07T08:18:02.6Z" parentGUID="affe15b9-98e9-4470-aa1e-12eb235f4db4" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-17T10:01:52</displayDate>
+  <title><![CDATA[Richard Soeteman]]></title>
+  <name><![CDATA[Richard Soeteman]]></name>
+  <email><![CDATA[richard@richardsoeteman.net]]></email>
+  <website><![CDATA[http://www.richardsoeteman.net/]]></website>
+  <bodyText><![CDATA[Hi Darren,
+
+Very cool package. Also a great way to demonstrate the power of Umbraco datatypes. I will definitely use the datatype when it's available. 
+
+Thanks for sharing,
+
+Richard]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

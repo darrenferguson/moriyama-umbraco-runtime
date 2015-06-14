@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="92e207f7-f857-40f3-bf2a-84649c5d9023" id="2781" nodeName="Chris Kowalski" isDoc="" updated="2013-07-07T08:17:33.413Z" parentGUID="81a2a060-7e20-4463-b2f5-66807771bc86" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-01-11T00:24:11.133</displayDate>
+  <title><![CDATA[Chris Kowalski]]></title>
+  <name><![CDATA[Chris Kowalski]]></name>
+  <email><![CDATA[kkowlaski@wp.pl]]></email>
+  <website></website>
+  <bodyText><![CDATA[When I do that I don't have PDF, my browser show XML.
+What I'm doing wrong ?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

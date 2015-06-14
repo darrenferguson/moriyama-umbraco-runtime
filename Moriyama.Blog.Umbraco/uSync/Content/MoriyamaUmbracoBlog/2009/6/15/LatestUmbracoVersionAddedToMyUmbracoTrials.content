@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="194199f0-f630-4b03-8c41-3789dd5348c2" id="1894" nodeName="Latest Umbraco version added to my Umbraco trials" isDoc="" updated="2013-07-07T08:18:11.57Z" parentGUID="67e09e5e-bea5-4ec7-8443-83159fc98bdf" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/latest-umbraco-version-added-to-my-umbraco-trials]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-06-15T19:33:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fdcR4W]]></shortUrl>
+  <summary><![CDATA['Latest Umbraco version added to my Umbraco trials' - a blog post by Darren Ferguson about Umbraco, Judicial Event, Health Medical Pharma written on 15 June A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Umbraco, Judicial Event, Health Medical Pharma]]></tags>
+  <bodyText><![CDATA[<p>I've added Umbraco 4.0.2.1 to my <a href="http://autoumbraco.darren-ferguson.com/">Umbraco trials
+site</a>. There are 2 distributions, a clean install and one with
+the latest version of Warren Buckley's CWS website starter package.
+In the next day or two I'll add a pimped distribution containing
+all packages from the Umbraco package repository. You can of course
+Install the packages into the clean distribution should you
+wish.</p><p>For those of you who haven't used my Umbraco trials site, it
+allows you to create a hosted installation of Umbraco in a single
+click. There are no limitations on the install, you have full admin
+access and can install packages as you wish. The trials expire
+after a short period and are useful for showing someone Umbraco for
+the first time or evaluating a package that you don't wish to
+install into your production environment without testing.</p><p>The Umbraco trials site has been relatively successful to date
+serving up more than 300 trials to more than 200 users.</p><p>Now, back to trying to prepare some stuff for codegarden. See
+you all next week.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogHomePage guid="6df97d27-68ea-44e9-8190-fb5c74a4e7e4" id="1488" nodeName="Moriyama Umbraco Blog" isDoc="" updated="2013-10-28T17:42:56.05Z" parentGUID="00000000-0000-0000-0000-000000000000" nodeTypeAlias="BlogHomePage" templateAlias="BlogHomePage" sortOrder="52" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate></displayDate>
+  <title><![CDATA[Home page]]></title>
+  <shortUrl></shortUrl>
+  <summary></summary>
+  <tags></tags>
+  <siteName><![CDATA[Moriyama Umbraco Blog]]></siteName>
+</BlogHomePage>

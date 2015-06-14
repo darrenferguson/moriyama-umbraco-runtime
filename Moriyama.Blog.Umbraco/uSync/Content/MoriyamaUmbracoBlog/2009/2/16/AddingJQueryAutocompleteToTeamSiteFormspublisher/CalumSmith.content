@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="9ea2c9f8-33b2-4c89-8610-f66fc35b14f6" id="2347" nodeName="Calum Smith" isDoc="" updated="2013-07-07T08:18:01.56Z" parentGUID="ab345438-ee3f-4af8-8151-197a5a426dd8" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="7" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-16T18:14:38</displayDate>
+  <title><![CDATA[Calum Smith]]></title>
+  <name><![CDATA[Calum Smith]]></name>
+  <email><![CDATA[carpediem9DD5A162-14C1-4ED5-AD2D-57DF19F804D2_au@yahoo.co.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi,
+
+Is this IE compatible? It could be the particular corporate rollout of IE I am forced to use, but the part of the script that defers loading doesn't appear to be working for me. If I rework o.loadScripts to execute as 'fire and forget', it works for me, but obviously if I could get deferring to work, that would be ideal.
+
+Great stuff, I'm looking forward to digging into it.
+
+Chris]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="4d54dfbe-0e6f-44c1-9d1b-2d737a9a9dda" id="2294" nodeName="jesper ordrup " isDoc="" updated="2013-07-07T08:17:54.277Z" parentGUID="b71c4ea6-a859-4a70-8be5-0a2537c333e0" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-26T17:39:42</displayDate>
+  <title><![CDATA[jesper ordrup ]]></title>
+  <name><![CDATA[jesper ordrup ]]></name>
+  <email><![CDATA[Jesper@jesper.com]]></email>
+  <website><![CDATA[http://www.jesper.com]]></website>
+  <bodyText><![CDATA[Hi darren
+
+Looks really cool. I didnt know you worked on this. Ive got 
+A similar datatype developed by tim g.
+
+Yours look finished so you probl dont need my source.
+
+Does yours work with autoform? With Cancas?
+
+Thz
+Jesper]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

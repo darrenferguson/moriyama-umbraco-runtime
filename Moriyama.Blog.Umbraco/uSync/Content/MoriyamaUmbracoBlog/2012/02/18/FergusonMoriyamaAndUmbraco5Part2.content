@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="941e7fca-ab7e-4f2d-b067-d7cbc648868a" id="2845" nodeName="Ferguson Moriyama and Umbraco 5: Part 2" isDoc="" updated="2013-07-07T08:17:27.71Z" parentGUID="50a0f5ea-2681-49e3-bb5e-56c77e12feee" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-02-18T13:52:00</displayDate>
+  <title><![CDATA[Ferguson Moriyama and Umbraco 5: Part 2]]></title>
+  <shortUrl><![CDATA[http://djf.so/w5MYDb]]></shortUrl>
+  <summary><![CDATA['Ferguson Moriyama and Umbraco 5' - a blog post by Darren Ferguson about umbraco 5, umbraco jupiter, ferguson moriyama written on 27 January DD342A1F-588F-46F4-9806-89C04EE0A7AD]]></summary>
+  <tags><![CDATA[umbraco 5, umbraco jupiter, ferguson moriyama]]></tags>
+  <bodyText><![CDATA[
+<p>So a little while later than planned I'm taking the next steps
+with building the new <a
+href="http://www.fergusonmoriyama.com/">Ferguson Moriyama</a> site
+with Umbraco 5. Since&nbsp;<a
+href="/DD342A1F-588F-46F4-9806-89C04EE0A7AD/01/27/ferguson-moriyama-and-umbraco-5">last time I
+wrote</a> I've upgraded to Umbraco to the <a
+href="http://umbraco.codeplex.com/releases/view/81440">RTM
+release</a>, but I've also upgraded the office PC so it is hard to
+comment on performance.</p>
+
+<p>This time I'm going to look at adding CSS and JavaScript to my
+site and also trying to output some of the site navigation.</p>
+
+<p><strong><em>Adding some style</em></strong></p>
+
+<p>I already have the mark-up for my site built so my first step
+today is to grab the CSS and the JavaScript and drop it into the
+appropriate folders under the Umbraco web root. A little digging
+around suggests that the place to put CSS files is in
+<em>~/Content/Styles&nbsp;</em> so I drop my CSS files in there and
+happily they appear in the <em>Settings</em> section of Umbraco
+just as they did in Umbraco 4.</p>
+
+<p>For JavaScript the location is <em>~/Scripts/Umbraco</em> so I
+copy my file in and the back office looks nicely familiar.</p>
+
+<p><a href="/media/128968/18-02-DD342A1F-588F-46F4-9806-89C04EE0A7AD_10-52-23.png"><img src="/media/128968/18-02-DD342A1F-588F-46F4-9806-89C04EE0A7AD_10-52-23.png" width="170" height="343" alt="18-02-DD342A1F-588F-46F4-9806-89C04EE0A7AD 10-52-23"/></a></p>
+
+<p style="clear: both;">In Umbraco 5 you can create folders
+underneath the StyleSheets root folder using the Umbraco UI which
+is an improvement on version 4.</p>
+
+<p>I now want to add my CSS and JavaScript to the pages on my site
+so I revisit the <em>Layout</em> template that I worked with in my
+previous post. At this point I realise that by modifying the
+default Layout I've trashed the out of the box example layout, but
+luckily I can now just go and install a clean copy of Version 5
+from <a href="http://www.microsoft.com/web/webmatrix/">web
+matrix</a> to use as a reference alongside the site that I am
+building.</p>
+
+<p>The dev dataset Layout contains examples of including
+JavasScript and CSS in a page so I quickly copy and paste them into
+my own Layout.</p>
+
+<p><a href="/media/128973/18-02-DD342A1F-588F-46F4-9806-89C04EE0A7AD_11-01-54.png"><img src="~/media/128973/18-02-DD342A1F-588F-46F4-9806-89C04EE0A7AD_11-01-54_499x174.jpg"  width="499"  height="174" alt="18-02-DD342A1F-588F-46F4-9806-89C04EE0A7AD 11-01-54"/></a></p>
+
+<p style="clear: both;"><em>Click image for a larger
+version</em></p>
+
+<p style="clear: both;">I'm a little fussy and I'm not really happy
+that the URL of my JavaScript file contains the word
+<em>Umbraco</em> - as a pedant I'd prefer that my site didn't
+reveal the technology that was powering it. This happens as the
+Scripts tree maps to <em>~/Scripts/Umbraco</em> - I hope there is a
+way around this.</p>
+
+<p>I copy some images into <em>~/Content/Images</em> and drop some
+static mark-up into the body of my Home template and I've got a
+half decent looking homepage.</p>
+
+<p><strong><em>Making it dynamic</em></strong></p>
+
+<p>So now I have a website of sorts the two parts that I haven't
+covered are dynamic parts of pages such as navigation and forms. In
+Umbraco 4 we'd have called these <em>Macros</em>.</p>
+
+<p>Glancing around Umbraco 5 I notice that you can add Partial
+Views in the settings section of Umbraco and just render them out
+onto a template using <strong><em>@Html.Partial</em></strong> - a
+familiar piece of syntax for those who have worked with ASP.net MVC
+a little. Partial views created from the Umbraco back office are
+stored in <em>~/Views/Umbraco/Partial</em></p>
+
+<p>I decide to start with my top level navigation which strictly
+speaking I could write into the Layout directly but I'm trying to
+discover some of the new features of Umbraco 5 so I create a new
+partial. After a bit of playing I end up with the following
+code:</p>
+
+<pre class="brush: csharp;">
+@inherits RenderViewPage
+@{ var counter = 1; }
+&lt;ul&gt;
+&nbsp;&nbsp;&nbsp; &lt;li&gt;&lt;a href="/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp;&nbsp; @foreach (var page in DynamicModel.AncestorsOrSelf.Last().Children)
+&nbsp;&nbsp;&nbsp; {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;li class="item-@counter"&gt;&lt;a href="@page.Url"&gt;@page.Name&lt;/a&gt;&lt;/li&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; counter++;
+&nbsp;&nbsp;&nbsp; }
+&lt;/ul&gt;
+</pre>
+
+<p>I add this to my layout by adding:</p>
+
+<p>
+<strong><em>@Html.Partial("topLevelNavigation")</em></strong></p>
+
+<p>where topLevelNavigation.cshtml is the name of my partial view.
+The code above just finds the root node of the current site and
+iterates over the children.</p>
+
+<p><strong><em>A moment of realisation</em></strong></p>
+
+<p>In playing with Umbraco templates (or views) and also partials I
+had a moment of realisation. It is so nice in Umbraco 5 to have a
+templating language (or view engine) that is free from
+proprietary/custom tags and without references to Macros that could
+contain anything from XSLT to Ruby.</p>
+
+<p>I was one of the people who grumbled and complained when XSLT
+was nudged out of the door in Umbraco 5 but now I've used the
+finished product I conclude that it was the right choice. You can't
+please all of the people all of the time but standardising on the
+Microsoft supported stack gives the developer a fantastic
+experience when using Visual Studio. It also means when inheriting
+or supporting legacy sites that you don't unwrap the box to find
+out that you need to hire an entirely new development
+team.&nbsp;</p>
+
+<p><strong><em>Next Time</em></strong></p>
+
+<p>The old Ferguson Moriyama site used web site forms and Umbraco
+to handle a lot of our back office processes - in the next post in
+this series I'll be trying to put some forms onto my web pages and
+experiment with using hive to abstract the storage of those
+forms.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

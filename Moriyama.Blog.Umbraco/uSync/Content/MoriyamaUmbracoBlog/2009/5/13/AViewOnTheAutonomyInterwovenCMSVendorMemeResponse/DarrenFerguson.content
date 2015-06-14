@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="4be4b1a5-4605-45ff-9345-ff99eda76c33" id="2410" nodeName="Darren Ferguson" isDoc="" updated="2013-07-07T08:18:10.883Z" parentGUID="5e3ca09b-4898-46cc-bab9-8036f2ca1c37" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-05-14T13:51:32</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@Jon - regarding rebooting - I'm just saying that in 10+ years a client has never complained when I've scheduled downtime. 
+
+I do agree that modern CMS shouldn't be coupled with the OS to the extent that a reboot is required but we need to remember that some of the software installed is 10+ years old now!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

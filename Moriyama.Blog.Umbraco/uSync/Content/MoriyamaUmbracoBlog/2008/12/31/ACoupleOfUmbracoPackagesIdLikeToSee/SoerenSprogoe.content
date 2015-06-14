@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="c8a4ab30-7435-4185-931b-475df2d08846" id="2514" nodeName="Soeren Sprogoe" isDoc="" updated="2013-10-28T17:23:03.49Z" parentGUID="29f01026-3e28-401e-84c3-7e91e73f9ba5" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-12-31T12:03:10</displayDate>
+  <title><![CDATA[Soeren Sprogoe]]></title>
+  <name><![CDATA[Soeren Sprogoe]]></name>
+  <email><![CDATA[ssp@afdeling18.dk]]></email>
+  <website><![CDATA[http://www.afdeling18.dk]]></website>
+  <bodyText><![CDATA[Re. #1, I was thinking the same as Ruben. Would be easy to make an XSLT macro that reads an XML configuration file with all the words and URLs, and does a replace on currentPage/bodyText.
+
+Only problem is, if there's some cases where you DON'T want the text linked. An "Add Links to Words" button in TinyMCE would be the right choice here, but then it's not fully automated.
+
+But great idea! Shouldn't take too long to make, maybe I'll do it one evening when I'm bored. Have a couple of sites that could use it.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

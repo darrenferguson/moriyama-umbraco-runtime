@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="2c64f6be-e310-46cd-91a4-c21acdb7a020" id="1933" nodeName="Umbraco Workflow foundation project: short update" isDoc="" updated="2013-07-07T08:17:47.29Z" parentGUID="03d64821-f015-405c-ad51-cc95b4b16769" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-workflow-foundation-project-short-update]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-08-02T00:00:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gXB4Cd]]></shortUrl>
+  <summary><![CDATA['Umbraco Workflow foundation project: short update' - a blog post by Darren Ferguson about Microsoft, Microsoft Workflow, Human Interest written on 02 August B29A5211-DC51-46BB-B283-8510D165CA40]]></summary>
+  <tags><![CDATA[Microsoft, Microsoft Workflow, Human Interest]]></tags>
+  <bodyText><![CDATA[<p>I recently blogged a screencast which demonstrated integration of Microsoft Workflow foundation into Umbraco. Happily, response was positive and I've had a few questions about when it will be available as a package.</p><p>To set expectations, the short answer is that it won't.</p><p>The implementation I put together works well for a client of mine as well as my own site, but the effort involved in documenting and polishing it so that it could be released as a package isn't insignificant.</p><p>On top of that my prototype is based on workflow foundation 3 and MS have now released version 4. There is no backward compatibility and the new version is for .net 4. When you start to throw past present and future versions of Umbraco into the equation you start to come up with silly exponential sums when working out how many versions would need to be maintained.</p><p>So, no package I'm afraid.</p><p>However: If you'd like to implement workflow in Umbraco and would like to sponsor the project it could happen. Feel free to get in touch and we can talk it through.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

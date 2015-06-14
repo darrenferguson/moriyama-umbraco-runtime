@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="55f63737-5698-46eb-90a7-064c005b44e1" id="1779" nodeName="Running on Umbraco" isDoc="" updated="2013-10-28T17:21:50.76Z" parentGUID="d370ae9c-2f0f-4b63-90ec-c3c41d6c0bf1" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/running-on-umbraco]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-06-27T16:17:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/h3LazI]]></shortUrl>
+  <summary><![CDATA['Running on Umbraco' - a blog post by Darren Ferguson about Human Interest, Technology Internet written on 27 June F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Human Interest, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>
+As you may know I have been supporting <a href="http://www.umbraco.org">Umbraco</a>, a fantastic .net open source CMS and application framework.
+</p><p>
+After a few months of debate I have finally bitten the bullet. This weblog is now running with my own customised version of the Umbraco blog extension.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="834280aa-8614-4585-9d10-e46c5e562966" id="1790" nodeName="Important info on Umbraco upload progress bar" isDoc="" updated="2013-10-28T17:22:06.073Z" parentGUID="005d0f80-3ef3-449e-8206-597a1eef4b64" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/important-info-on-umbraco-upload-progress-bar]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-19T15:08:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/eVjH2p]]></shortUrl>
+  <summary><![CDATA['Important info on Umbraco upload progress bar' - a blog post by Darren Ferguson about Restrict/Modify NeatUpload, web.config, Morten Nielesen, asp.net, Technology Internet written on 19 July F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Restrict/Modify NeatUpload, web.config, Morten Nielesen, asp.net, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>
+If you are having trouble with time-outs and my Umbraco upload progress bar please have a read of the section 'Using Location Filtering to Restrict/Modify NeatUpload's Request Processing' at 
+<a href="http://www.brettle.com/NeatUpload-1.2/docs/Manual.html">http://www.brettle.com/NeatUpload-1.2/docs/Manual.html</a></p><p>
+The following is from Morten Nielesen, who had some troubles getting large files to work.
+</p><p>
+tried tweaking the parameters but I was still get an error around 85% saying:
+</p><p>
+"Error: Thread was being aborted"
+</p><p>
+The file I was trying to upload is 18,607,377 bytes.
+</p><p>
+I have managed to upload a file at 13,172,394 bytes after retrying a couple of times.
+</p><p>
+Anyway I finally think I hacked it. Add the following to web.config:
+</p><p>
+&lt;system.web&gt;
+
+   &lt;httpRuntime
+
+    executionTimeout="600"
+
+  /&gt;
+
+ &lt;system.web&gt;
+</p><p>
+For some reason the asp.net worker thread aborts the thread before it has finished (so this is not an error in NeatUpload except how it keeps the thread alive)
+</p><p>
+Unfortunately it didn't work when I just added this to the /NeatUpload folder, so this is now a setting for all pages on the website.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

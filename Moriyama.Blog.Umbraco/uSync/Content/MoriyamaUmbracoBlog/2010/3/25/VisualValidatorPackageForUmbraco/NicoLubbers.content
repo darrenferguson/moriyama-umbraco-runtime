@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="1cf637de-576e-4602-9fac-d10916121abf" id="2239" nodeName="Nico Lubbers" isDoc="" updated="2013-07-07T08:17:40.5Z" parentGUID="f64e3f8d-3551-42dd-8703-5e971337ed76" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-03-26T07:30:13</displayDate>
+  <title><![CDATA[Nico Lubbers]]></title>
+  <name><![CDATA[Nico Lubbers]]></name>
+  <email><![CDATA[nico.lubbers@booleanpark.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[That's a nice package Darren!
+
+Would be great if it could work without even adding the dummyfield, but I guess that would require a modification in umbraco itself. 
+
+Question: would it be possible to change the validation color? The intense red background makes it a bit hard to read the black characters
+
+Nico]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

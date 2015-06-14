@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="970abbbd-f78d-47ad-b2e3-09207570b8e2" id="2670" nodeName="A Simple Umbraco cart with Doc Cart, Contour and Bill4u" isDoc="" updated="2013-07-07T08:17:30.737Z" parentGUID="b1de5a11-8e9c-4a04-9f3d-d50a978dbb92" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-05-09T13:00:00</displayDate>
+  <title><![CDATA[A Simple Umbraco cart with Doc Cart, Contour and Bill4u]]></title>
+  <shortUrl><![CDATA[http://bit.ly/knJbbi]]></shortUrl>
+  <summary><![CDATA['A Simple Umbraco cart with Doc Cart, Contour and Bill4u' - a blog post by Darren Ferguson about Commerce, Umbraco, Cart, Bill4u written on the 9th May B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[Commerce, Umbraco, Cart, Bill4u]]></tags>
+  <bodyText><![CDATA[
+<p><em>Firstly: I'm aware that I am putting out another commerce
+package into a crowded space. Please see below the video for my
+thoughts on that.</em></p>
+
+<p>The Video below is the first in a 3 (or maybe 4) part series on
+creating a simple Umbraco cart using <a
+href="http://our.umbraco.org/projects/website-utilities/doc-cart">Doc
+Cart</a>, <a
+href="http://our.umbraco.org/projects/umbraco-pro/courier">Courier</a>
+and <a
+href="http://our.umbraco.org/projects/backoffice-extensions/bill4u">
+Bill4u</a>.</p>
+
+<p><object width="520" height="390"
+data="http://www.vimeo.com/moogaloop.swf?clip_id=23474861&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"
+ type="application/x-shockwave-flash"><param name="data"
+value="http://www.vimeo.com/moogaloop.swf?clip_id=23474861&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" />
+<param name="allowfullscreen" value="true" />
+<param name="allowscriptaccess" value="always" />
+<param name="src"
+value="http://www.vimeo.com/moogaloop.swf?clip_id=23474861&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" />
+</object></p>
+
+<p><strong>A crowded space?</strong></p>
+
+<p>I'm well aware of the following solutions:</p>
+
+<ul>
+<li><a href="http://www.ucommerce.dk/">UCommerce</a></li>
+
+<li><a href="http://teacommerce.dk/">Tea Commerce</a></li>
+
+<li><a href="http://www.uwebshop.com/welcome">uWebShop</a></li>
+
+<li><a
+href="http://our.umbraco.org/projects/collaboration/commerce-for-umbraco">
+Commerce for Umbraco</a></li>
+</ul>
+
+<p>I have investigated all of them and got to various stages - from
+the installer failing through to getting a shop up and running.</p>
+
+<p>The reason I've gone down my own route is to quickly and easily
+attach prices to Umbraco documents and integrate with my own
+billing system - I didn't want to create product catalogues and
+change my whole billing/invoicing strategy.</p>
+
+<p>I've detatched the cart and the checkout process completely. I
+don't see my package competing with those above.</p>
+
+<p>I did toy with the idea of keeping this package private but I
+think the integration is very quick and simple and it may help
+someone out - so hey it is out there.</p>
+
+<p><strong>What happens in the screencast:</strong></p>
+
+<p>In case you want to review how to work through the screencast
+after viewing the video the screencast takes the following
+format:</p>
+
+<ol>
+<li>Install Doc Cart.</li>
+
+<li>Add SKU and Price properties to the product document type.</li>
+
+<li>Add the&nbsp;<em>[DocCart] Cart Count (Razor)</em> Macro to the
+master template.</li>
+
+<li>Display the price on the Umbraco product template</li>
+
+<li>Insert the&nbsp;<em>[DocCart] Add to Cart</em> Macro on the
+product template.</li>
+
+<li>Add the&nbsp;<em>[DocCart] View Cart (AJAX)</em> Macro to the
+cart page.</li>
+</ol>
+
+<p>Finally, a reminder of how the Add to cart Macro parameters end
+up looking:</p>
+
+<p><strong><em><span class="xml-punctuation">&lt;</span><span
+class="xml-tagname">umbraco:Macro&nbsp;</span></em></strong>
+<strong><em><span class="xml-attname">UmbracoDocumentId</span><span
+class="xml-punctuation">=</span><span
+class="xml-attribute">"[#pageID]"&nbsp;</span> <span
+class="xml-attname">LinkText</span><span
+class="xml-punctuation">=</span><span class="xml-attribute">"Buy
+Now"&nbsp;</span> <span class="xml-attname">ViewCartUrl</span><span
+class="xml-punctuation">=</span><span
+class="xml-attribute">"/cart.aspx"&nbsp;</span> <span
+class="xml-attname">Image</span><span
+class="xml-punctuation">=</span><span
+class="xml-attribute">"/media/27/add_to_cart.png"&nbsp;</span>
+<span class="xml-attname">Alias</span><span
+class="xml-punctuation">=</span><span
+class="xml-attribute">"[DocCart]AddtoCart"&nbsp;</span> <span
+class="xml-attname">runat</span><span
+class="xml-punctuation">=</span><span
+class="xml-attribute">"server"/&gt;</span><span
+class="xml-punctuation">&nbsp;</span></em></strong></p>
+
+<p><strong><br />
+</strong></p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

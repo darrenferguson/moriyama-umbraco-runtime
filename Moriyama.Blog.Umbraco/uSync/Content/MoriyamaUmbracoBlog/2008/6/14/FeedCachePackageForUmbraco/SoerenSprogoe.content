@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="7e4e2c6e-eeae-4c10-8dbf-64ae2a66b600" id="2505" nodeName="Soeren Sprogoe" isDoc="" updated="2013-10-28T17:23:09.287Z" parentGUID="917fd093-37e8-4c4a-9149-f48ed1a3b1f5" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="8" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-06-27T09:15:17</displayDate>
+  <title><![CDATA[Soeren Sprogoe]]></title>
+  <name><![CDATA[Soeren Sprogoe]]></name>
+  <email><![CDATA[ssp@afdeling18.dk]]></email>
+  <website><![CDATA[http://www.afdeling18.dk]]></website>
+  <bodyText><![CDATA[Brilliant idea, Darren!
+
+However there's one thing I don't get: Why the need to configure caching of each individual file?
+
+Why not do it in the following way instead:
+
+Call a URL with the feed as parameter each time it needs to be accessed. Fx. www.yoursite.com/feedcache.aspx?feed=http://www.feed.com/rss.xml
+
+The feedcache loads the feed in to memory fx. for the next 24 hours or so in the system.cache. Every time the feed is requested via feedcache.aspx, the memory version is returned.
+
+Then you can have a scheduled task running fx. every hour that goes through all feeds loaded into memory and refreshes them if possible.
+
+This would eliminate the need for the configuration file, and make it much more dynamic.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

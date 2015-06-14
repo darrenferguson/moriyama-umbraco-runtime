@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="177c311e-2d57-48ef-954e-a0cd5a3c20dc" id="1865" nodeName="Unobtrusive AJAX blog comments for Umbraco" isDoc="" updated="2013-10-28T17:23:21.743Z" parentGUID="343237de-e977-4962-919a-5431a8b73f33" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/unobtrusive-ajax-blog-comments-for-umbraco]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-07T12:44:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/glTQoG]]></shortUrl>
+  <summary><![CDATA['Unobtrusive AJAX blog comments for Umbraco' - a blog post by Darren Ferguson about asp.net, AJAX, MS, XSLT written on 07 July 9997642C-5F5C-4A03-A353-2E7B493113A9]]></summary>
+  <tags><![CDATA[asp.net, AJAX, MS, XSLT]]></tags>
+  <bodyText><![CDATA[<p>Recently I've been building a lot of sites that make use of AJAX
+using <a href="http://extjs.com">extJS</a> and <a href="http://jquery.com">jQuery</a>, but hadn't really worked with
+any AJAX in .net.</p><p>As an experimental project I decide to build unobtrusive AJAX
+blog comments for this blog - which are now live.</p><p>My goals were:</p><ul><li>Include a spam filtering service - <a href="http://www.defensio.com/">defensio</a></li><li>Unobtrusive - work without JavaScript enabled</li><li>Identical UI with/without JavaScript</li></ul><p>I achieved about 90% of what I wanted.</p><p>In the end, the comments utilise an asp.net UpdatePanel. I
+looked at Page Methods and Umbraco base but in the end went with
+the UpdatePanel in order to use the standard asp.net validation
+controls and a ValidationSummary. In my mind the main disadvantage
+of UpdatePanel - aka partial page loads - is the amount of data
+exchanged between server and client, but in the end I figured that
+I probably don't have that many readers who are going to be put off
+by a 40k round trip.</p><p>The whole process was a lot more painful than anticipated. The
+ValidationSummary control forces a page to scroll to the top when
+it appears. Lots of blog searching was required to find a hack to
+get around that. There were several similar irritating issues.</p><p>I use jQuery to add the comment to the page on successful
+submission as the comment list is rendered using an Umbraco XSLT
+Macro.</p><p>There are a couple of glitches that I couldn't get around.
+Firstly when JavaScript is disabled a submit of the comments form
+leaves you at the top of the page, I couldn't find any way to
+anchor a postback to the comments form. Second, my Umbraco macro to
+display the comments seems to get run before the new comment is
+created in Umbraco so you have to refresh to view your new comment
+- again only when JavaScript is disabled.</p><p>I'd like to add some effects so that the comments and validation
+messages appear with some kind of fade effect but it does get
+tricky to try and override MS default behaviour.</p><p>The code is at best hacked right now. If you'd like a copy, drop
+me a mail. I'll look at making it nicer and 'packaging' it should
+the interest arise.</p><p>Finally I just need to give a few credits. <a href="http://www.objects.dk/">Per</a> for building the .net API for
+defensio, <a href="http://www.creativewebspecialist.co.uk/">Warren</a> for some
+CSS I stole from his blog :) and anyone else who participated in <a href="http://forum.umbraco.org/yaf_postst5291_Has-anyone-implemented-AJAX-blog-comments-with-net-AJAX-extensions.aspx">
+this thread</a>.</p><p>Oh, and Peter D got this finished before me. His implementation
+is <a href="http://www.dijksterhuis.nu/blog/9997642C-5F5C-4A03-A353-2E7B493113A9/6/29/ajax-comments.aspx">
+here</a>, but I still think it is worth posting this as our
+approaches vary somewhat.</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

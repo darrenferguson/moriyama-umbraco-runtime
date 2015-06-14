@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="44eb50e7-1af2-4417-b6c9-9c4c1635d8b9" id="1899" nodeName="Tweet on publish for Umbraco – available to download" isDoc="" updated="2013-07-07T08:18:14.303Z" parentGUID="15602a6a-ccc7-426c-a182-5c74e1b5d2f5" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/tweet-on-publish-for-umbraco-–-available-to-download]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-13T22:07:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fUeniq]]></shortUrl>
+  <summary><![CDATA['Tweet on publish for Umbraco – available to download' - a blog post by Darren Ferguson about Technology Internet written on 13 July A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>I've released a new version of my Umbraco package that sends
+tweets when you publish a content node. The package is available to
+download from <a href="/code-bank.aspx">my Umbraco packages
+page</a> or the <a href="http://our.umbraco.org/projects/tweet-on-publish">our.umbraco
+project page</a>.</p><p>Features include:</p><ul><li>Complete rewrite of my previous twitter package</li><li>Configure multiple twitter accounts.</li><li>Send multiple tweets per publish.</li><li>Ensure documents are not tweeted on re-publish.</li><li>Support direct messages and @mentions</li><li>Send different tweets per document type.</li><li>Filter tweets by domain.</li><li>Includes full PDF manual.</li></ul><p>So why is this useful? I use the package to publicise blog posts
+and to send me a direct message when a comment is left on my blog
+so that I can quickly check whether or not it is a spam comment and
+act accordingly.</p><p>I'll provide a demonstration screen-cast shortly. In the
+meantime I'd love to hear your feedback.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

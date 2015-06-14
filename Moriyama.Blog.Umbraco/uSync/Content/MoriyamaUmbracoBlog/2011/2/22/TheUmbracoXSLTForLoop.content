@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="ba683cb2-2d83-460c-9bc9-619ee54984d2" id="1936" nodeName="The Umbraco XSLT for loop" isDoc="" updated="2013-07-07T08:17:28.423Z" parentGUID="26a65e9c-be67-416f-b049-f2126eb05be0" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/the-umbraco-xslt-for-loop]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-02-22T15:40:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/g8rMY9]]></shortUrl>
+  <summary><![CDATA['The Umbraco XSLT for loop' - a blog post by Darren Ferguson about XSLT, paging, Human Interest written on 22 February B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[XSLT, paging, Umbraco]]></tags>
+  <bodyText><![CDATA[
+<p>So one of the things I enjoy about teaching the Umbraco Level 2
+course is that from time to time I get to go <em>off piste</em>.
+Someone will ask a question that isn't part of the materials and I
+have to do a bit of creative thinking to solve what they want to
+achieve.</p>
+
+<p>Recently I met a chap on my course who didn't like XSLT. I love
+XSLT, but I wasn't convincing this guy. There are no for loops you
+see, you can't do something n times. Words like recursion and
+functional were met with looks of resentment. So I gave up - I gave
+him an XSLT for loop.</p>
+
+<p>After I bit of hacking I had this XSLT extension method - which
+I'd never use myself - but hey:</p>
+
+<pre class="brush: csharp;">
+using System.Xml;
+using System.Xml.XPath;
+
+using umbraco;
+
+namespace Level2Course.XsltExtensions
+{
+    [XsltExtension]
+    public class SyntaxHighlighter
+    {
+        public static XPathNodeIterator For(int from, int to)
+        {
+            var doc = new XmlDocument();
+            doc.LoadXml("&lt;iterator&gt;&lt;/iterator&gt;");
+
+            for(var count=from; count&lt;=to; count++)
+            {
+                var iterationNode = doc.CreateElement("iteration");
+                iterationNode.InnerText = count.ToString();
+                doc.DocumentElement.AppendChild(iterationNode);
+            }
+
+            return doc.CreateNavigator().Select("//iterator/iteration");
+        }
+    }
+}
+</pre>
+
+<p>This was all hacked together on the course so apologies for the
+irrelevant namespacing etc.</p>
+
+<p>So the above now allows us to do the common task that is paging
+using <em>"for loops</em>" in XSLT :)</p>
+
+<pre class="brush: xml;">
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE xsl:stylesheet [
+  &lt;!ENTITY nbsp " "&gt;
+]&gt;
+&lt;xsl:stylesheet
+  version="1.0"
+  xmlns:xsl="http://www.w3.org/E345183D-D150-4F8E-A7F8-7888FD189F8B/XSL/Transform"
+  xmlns:msxml="urn:schemas-microsoft-com:xslt"
+  xmlns:umbraco.library="urn:umbraco.library"
+  xmlns:Level2Course.XsltExtensions.SyntaxHighlighter="urn:Level2Course.XsltExtensions.SyntaxHighlighter"
+  exclude-result-prefixes="msxml umbraco.library Level2Course.XsltExtensions.SyntaxHighlighter"&gt;
+
+  &lt;xsl:output method="xml" omit-xml-declaration="yes"/&gt;
+
+  &lt;xsl:param name="currentPage"/&gt;
+  &lt;xsl:param name="itemsPerPage" select="2"/&gt;
+
+  &lt;xsl:template match="/"&gt;
+    
+    &lt;xsl:variable name="pageUrl" select="umbraco.library:NiceUrl($currentPage/@id)"/&gt;
+    &lt;xsl:variable name="childNodes" select="$currentPage/* [@isDoc and string(umbracoNaviHide) != '1']"/&gt;
+    
+    &lt;xsl:variable name="pageNumber"&gt;
+      &lt;xsl:choose&gt;
+        &lt;xsl:when test="umbraco.library:RequestQueryString('page') &lt;= 1 or string(umbraco.library:RequestQueryString('page')) = '' or string(umbraco.library:RequestQueryString('page')) = 'NaN'"&gt;1&lt;/xsl:when&gt;
+        &lt;xsl:otherwise&gt;
+          &lt;xsl:value-of select="umbraco.library:RequestQueryString('page')"/&gt;
+        &lt;/xsl:otherwise&gt;
+      &lt;/xsl:choose&gt;
+    &lt;/xsl:variable&gt;
+
+    &lt;xsl:variable name="numberOfNodes" select="count($childNodes)"/&gt;
+    &lt;xsl:variable name="numberOfPages" select="ceiling($numberOfNodes div $itemsPerPage)"/&gt;
+
+    &lt;xsl:variable name="startIndex" select="(($pageNumber -1) * $itemsPerPage) + 1"/&gt;
+    &lt;xsl:variable name="endIndex"&gt;
+      &lt;xsl:choose&gt;
+        &lt;xsl:when test="($startIndex + $itemsPerPage) &gt; $numberOfNodes"&gt;
+          &lt;xsl:value-of select="$numberOfNodes"/&gt;
+        &lt;/xsl:when&gt;
+        &lt;xsl:otherwise&gt;
+          &lt;xsl:value-of select="($startIndex + $itemsPerPage) -1"/&gt;
+        &lt;/xsl:otherwise&gt;
+      &lt;/xsl:choose&gt;
+    &lt;/xsl:variable&gt;
+
+    &lt;div&gt;
+      &lt;em&gt;
+        Page &lt;xsl:value-of select="$pageNumber"/&gt; of &lt;xsl:value-of select="$numberOfPages"/&gt;.
+      &lt;/em&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;xsl:for-each select="Level2Course.XsltExtensions.SyntaxHighlighter:For($startIndex,$endIndex)"&gt;
+        &lt;xsl:variable name="counter" select="number(.)"/&gt;
+        &lt;xsl:variable name="node" select="$childNodes[$counter]"/&gt;
+        &lt;p&gt;
+          &lt;xsl:value-of select="$counter"/&gt;. 
+          &lt;a href="{umbraco.library:NiceUrl($node/@id)"&gt;
+            &lt;xsl:value-of select="$node/@nodeName"/&gt;
+          &lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/xsl:for-each&gt;
+    &lt;/div&gt;
+
+    &lt;div&gt;
+      &lt;xsl:if test="$pageNumber &gt; 1"&gt;
+        &lt;a href="{pageUrl}?page={$pageNumber - 1}"&gt;previous&lt;/a&gt;
+      &lt;/xsl:if&gt;
+
+      &lt;xsl:for-each select="Level2Course.XsltExtensions.SyntaxHighlighter:For(1, $numberOfPages)"&gt;
+        &lt;a href="{pageUrl}?page={.}"&gt;
+          &lt;xsl:value-of select="."/&gt;
+        &lt;/a&gt;
+      &lt;/xsl:for-each&gt;
+
+      &lt;xsl:if test="$pageNumber &lt; $numberOfPages"&gt;
+        &lt;a href="{$pageUrl}?page={$pageNumber + 1}"&gt;next&lt;/a&gt;
+      &lt;/xsl:if&gt;
+    &lt;/div&gt;
+  &lt;/xsl:template&gt;
+
+&lt;/xsl:stylesheet&gt;
+</pre>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

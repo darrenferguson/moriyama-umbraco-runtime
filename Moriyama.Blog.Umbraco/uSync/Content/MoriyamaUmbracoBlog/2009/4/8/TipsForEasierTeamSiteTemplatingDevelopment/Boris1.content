@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="48cc1f01-1747-4d2b-9fb8-562d10d641a0" id="2837" nodeName="Boris (1)" isDoc="" updated="2013-07-07T08:18:10.083Z" parentGUID="efb7322a-a175-4bf9-a7f7-a639d085cfae" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="12" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-02-06T09:24:01.647</displayDate>
+  <title><![CDATA[Boris]]></title>
+  <name><![CDATA[Boris]]></name>
+  <email><![CDATA[i-boa@web.de]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi Darren, we are using recent version of TS, which is 7.3.1. Probably you mean we should use Site-Publisher and LiveSite. But we have to support many legacy websites.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

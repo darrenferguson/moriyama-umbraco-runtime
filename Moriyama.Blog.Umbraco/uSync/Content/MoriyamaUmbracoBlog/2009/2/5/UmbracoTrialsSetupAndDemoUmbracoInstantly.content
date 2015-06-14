@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="e326009f-4753-43b6-9e5c-06078f5c41b0" id="1885" nodeName="Umbraco trials: Setup and demo Umbraco instantly" isDoc="" updated="2013-07-07T08:17:58.703Z" parentGUID="bcd86154-f9e5-4883-81f5-c17004fcc154" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-trials-setup-and-demo-umbraco-instantly]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-05T08:22:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/eqZwrh]]></shortUrl>
+  <summary><![CDATA['Umbraco trials: Setup and demo Umbraco instantly' - a blog post by Darren Ferguson about web form, Warren Buckley, Technology Internet written on 05 February A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[web form, Warren Buckley, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>My new site <a href="http://autoumbraco.darren-ferguson.com/">http://autoumbraco.darren-ferguson.com/</a> allows you to install an instance of <a href="http://www.umbraco.org/">Umbraco</a> by filling out a web form which will take you less than 10 seconds. You can choose from version 3 and 4 and also specify whether you want any packages pre-installed – such as <a href="http://www.creativewebspecialist.co.uk/">Warren Buckley’s</a> excellent Creative website wizard.</p><p>Why is this useful? Scenario 1: you want to demonstrate Umbraco to a client/colleague who has never used it before. You are out of the office and don’t have IIS running on your laptop.</p><p>Scenario 2: You want to check out a new Umbraco package or test one that you are developing but you don’t want to install it into any of your development/production environments before you’ve tested the functionality.</p><p>Scenario 3: You want to run an event website for week or two while the event is on and then close the site immediately after.</p><p>I frequently need a fresh installation of Umbraco and am already finding this service very useful. I hope you do too.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

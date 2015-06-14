@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="bb9e6f12-5819-4170-a4a0-f452d7a9eb3a" id="2618" nodeName="Connie DeCinko" isDoc="" updated="2013-07-07T08:17:50.347Z" parentGUID="21603210-72ff-4ff8-9f36-93374e11a328" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="5" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-11-19T21:45:00.303</displayDate>
+  <title><![CDATA[Connie DeCinko]]></title>
+  <name><![CDATA[Connie DeCinko]]></name>
+  <email><![CDATA[connie.decinko@staff.azbar.org]]></email>
+  <website></website>
+  <bodyText><![CDATA[I also need more information about how to implement this.  What should the page inherit from?  Where do we put the codebehind?  Additional information would be helpful.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

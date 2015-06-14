@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="36e45ec0-95fe-4600-ab02-5972055b94db" id="3042" nodeName="shilpa" isDoc="" updated="2013-07-07T08:18:10.33Z" parentGUID="efb7322a-a175-4bf9-a7f7-a639d085cfae" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="15" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>8C5653DD-0D2E-4750-855E-B5FA32A8F716-04-08T21:52:59.367</displayDate>
+  <title></title>
+  <name><![CDATA[shilpa]]></name>
+  <email><![CDATA[shilpa.kyathi@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi.. completely irrelevant question to this thread.. 
+Hope I get solutions. 
+Where is the meta tags coded? datacapture.cfg or in component or where?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

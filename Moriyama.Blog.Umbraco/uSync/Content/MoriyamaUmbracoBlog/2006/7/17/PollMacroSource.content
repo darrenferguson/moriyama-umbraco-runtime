@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="945571d1-0a3b-49a6-b1c2-db2a9e6b20ad" id="1787" nodeName="Poll macro source" isDoc="" updated="2013-10-28T17:21:58.13Z" parentGUID="886fe222-273a-42b0-9b8c-61cc5b62bd45" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/poll-macro-source]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-17T10:09:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gzlB8y]]></shortUrl>
+  <summary><![CDATA['Poll macro source' - a blog post by Darren Ferguson about profit site written on 17 July F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[profit site]]></tags>
+  <bodyText><![CDATA[<p>
+I've had a few requests for the Poll macro source to be released. I am very busy at the moment, so I am just posting the ascx and associated c# for now. Those of you who wanted a complete package will have to wait a week or so I am afraid.
+</p><p>
+A couple of things: <br />
+- If you modify my code, please send me your changes with an explanation so that I can incorporate any new features/enhancements into my source controlled version.<br />
+- If you find any bugs and are unable to fix them, please drop me an e-mail.<br />
+- If you use the Poll on a for profit site please consider making a donation using the link at the bottom of the right hand navigation.
+</p><p>
+To get you started here is how the Macro tag looks for the demo<br />
+&lt;?UMBRACO_MACRO<br />
+macroAlias="Poll" <br />
+Width="350" <br />
+ResponseStoreNodeId="1201" <br />
+Question="What does Umbraco need most?" <br />
+Responses="More documentation;Database/OS independence;Better Blog extension;Forum extension;Other"&gt;<br />
+&lt;/?UMBRACO_MACRO&gt;
+</p><p>
+Note: The width property specifies how wide a 100% response bar would be.
+</p><p>
+You will also need to create a Document type called fmUmbPollResponse with a single property 'Response' that the extension will use to store votes.
+</p><p>
+As the original post said, this was created as a 20 minute demo project, so don't expect it to be well thought out and 100% stable yet. Obviously any use is entirely at your own risk.
+</p><p>
+Download from
+<a href="/media/544D6BD9-4957-44AF-B999-3FDBE245FD40/pollsource.zip">/media/544D6BD9-4957-44AF-B999-3FDBE245FD40/pollsource.zip</a></p><p>
+Future enhancements:<br />
+- Separate layout from code.<br />
+- Supply nice default stylesheet<br />
+- Add colour list parameter to allow user to specify voting bar appearance.<br />
+- Store all responses in a single Umbraco node.<br /></p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

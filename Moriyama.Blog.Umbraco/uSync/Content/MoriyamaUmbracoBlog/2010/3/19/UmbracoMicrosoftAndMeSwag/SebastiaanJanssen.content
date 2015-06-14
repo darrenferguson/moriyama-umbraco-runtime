@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="6af46e63-5486-481b-b912-3a9773d70562" id="2232" nodeName="Sebastiaan Janssen" isDoc="" updated="2013-07-07T08:17:39.43Z" parentGUID="337e486d-10c0-4117-8f57-8d12b5e28701" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="15" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-03-21T17:48:46</displayDate>
+  <title><![CDATA[Sebastiaan Janssen]]></title>
+  <name><![CDATA[Sebastiaan Janssen]]></name>
+  <email><![CDATA[gravatar.com@cork.nl]]></email>
+  <website><![CDATA[http://cultiv.nl]]></website>
+  <bodyText><![CDATA[This sounds great! I'm actually working on a new package that will extract EXIF information from/save EXIF info to images in the media section. Can't wait to be able to plug it into the new section as well.
+
+Good luck!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

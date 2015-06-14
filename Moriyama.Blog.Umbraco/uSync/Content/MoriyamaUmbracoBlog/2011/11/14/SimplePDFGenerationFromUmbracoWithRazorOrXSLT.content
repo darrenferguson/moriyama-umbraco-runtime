@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="3dd37731-117c-4f7c-838e-81dd240dbb67" id="2763" nodeName="Simple PDF generation from Umbraco with Razor or XSLT" isDoc="" updated="2013-07-07T08:17:33.64Z" parentGUID="4d7693fd-c331-4c9d-8121-ffc7b2239731" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-11-14T21:40:00</displayDate>
+  <title><![CDATA[Simple PDF generation from Umbraco with Razor or XSLT]]></title>
+  <shortUrl></shortUrl>
+  <summary></summary>
+  <tags><![CDATA[PDF, XSL, Umbraco, XSL-FO, Razor, XSLT]]></tags>
+  <bodyText><![CDATA[
+<p>The screencast below demonstrates <a
+href="http://our.umbraco.org/projects/website-utilities/pdf-creator">
+PDF Creator for Umbraco 2.0</a>. I've dropped the XSL prefix from
+the package title as you can now use the templating language of
+your choice to output PDF.</p>
+
+<p>This tool&nbsp;<em>does not</em>&nbsp;mimic your HTML layouts in
+PDF format but allows you to define rich, unrestricted layouts
+suitable for printing using <a
+href="http://www.w3.org/TR/xsl/">FO</a>.</p>
+
+<ul>
+<li>PDF files are created as Umbraco templates</li>
+
+<li>PDFs are created using your templating language of choice,
+Razor, XSLT or your favourite.</li>
+
+<li>Easily embed Fonts, Images and SVG.</li>
+</ul>
+
+<p><a href="http://vimeo.com/32108554"><img src="/media/126933/14-11-B25AC8DE-26FC-44E7-BB89-F200B2327094_21-39-51.png" width="494" height="393" alt="vimeo_thumb"/></a></p>
+
+<p style="clear: both;">PDF Creator is a commercial package.</p>
+
+<p><strong>New features in version 2:</strong></p>
+
+<ul>
+<li>No custom Macro required - just use standard Umbraco templates
+to output FO.</li>
+
+<li>Use Razor and other template languages.</li>
+
+<li>Force the browser to download a PDF with a specific file
+name.</li>
+
+<li>Big performance gains, both memory and CPU.</li>
+
+<li>Newer version of PDF rendering engine with better FO
+support.</li>
+
+<li>Improved <a href="http://djf.so/uCat7J">user manual</a>.</li>
+</ul>
+
+<p>For examples of PDF files generated using PDF creator please
+have a look at the Vizioz&nbsp;<em><a rel="nofollow"
+href="http://www.vizioz.com/case-studies">Umbraco case
+studies</a>&nbsp;</em> page<em><span><span>.</span></span></em></p>
+
+<p>I've also written a blog post on <a
+href="http://djf.so/tpRTcm">how to get started with the
+package</a>.</p>
+
+<p>&nbsp;</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="2b95bc7d-26db-47a1-a098-c5d91ffa6100" id="2274" nodeName="Darren Ferguson" isDoc="" updated="2013-07-07T08:17:51.213Z" parentGUID="71934f39-d772-4b1b-a072-700badf736f3" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-10-26T09:12:56</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@mike - The media service in Umbraco isn't implemented so you can't upload a file so far as I know.
+
+I think Thomas Hoehler implemented his own web service to do this so it may be worth getting in touch with him.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

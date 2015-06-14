@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="e505c201-b487-4c58-9bee-fc4c03d70ee5" id="2567" nodeName="soheila" isDoc="" updated="2013-10-28T17:21:59.407Z" parentGUID="945571d1-0a3b-49a6-b1c2-db2a9e6b20ad" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-12-25T04:53:56</displayDate>
+  <title><![CDATA[soheila]]></title>
+  <name><![CDATA[soheila]]></name>
+  <email><![CDATA[s.yaghoobi@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hello,
+
+thanks for your helpful code it works without any problem .but i have a bug with it.
+when i click on "vote" button i see results 2 times in  my Response Store page
+would you please help me about it?
+
+Thanks,]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

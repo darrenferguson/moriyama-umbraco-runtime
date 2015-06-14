@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="8105e930-1a6a-44a7-ae2b-47b3f806119d" id="2684" nodeName="A Simple Umbraco cart with Doc Cart, Contour and Bill4u - Part 3" isDoc="" updated="2013-07-07T08:17:31.807Z" parentGUID="997a0307-3a9d-4feb-94ee-ff6323708eff" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-06-27T08:00:00</displayDate>
+  <title><![CDATA[A Simple Umbraco cart with Doc Cart, Contour and Bill4u - Part 3]]></title>
+  <shortUrl><![CDATA[http://bit.ly/jdwNpo]]></shortUrl>
+  <summary><![CDATA['A Simple Umbraco cart with Doc Cart, Contour and Bill4u Part 3'' - a blog post by Darren Ferguson about Commerce, Umbraco, Cart, Bill4u written on the 26th June B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[Commerce, Umbraco, Cart, Bill4u]]></tags>
+  <bodyText><![CDATA[
+<p>This is part 3 of&nbsp; <a
+href="/B25AC8DE-26FC-44E7-BB89-F200B2327094/5/9/a-simple-umbraco-cart-with-doc-cart,-contour-and-bill4u">
+A Simple Umbraco cart with Doc Cart, Contour and Bill4u</a></p>
+
+<p>In this screencast we look at setting up a checkout form using
+Contour.</p>
+
+<p><object width="520" height="390"
+data="http://www.vimeo.com/moogaloop.swf?clip_id=25617755&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"
+ type="application/x-shockwave-flash"><param name="data"
+value="http://www.vimeo.com/moogaloop.swf?clip_id=25617755&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" />
+<param name="allowfullscreen" value="true" />
+<param name="allowscriptaccess" value="always" />
+<param name="src"
+value="http://www.vimeo.com/moogaloop.swf?clip_id=25617755&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" />
+</object></p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

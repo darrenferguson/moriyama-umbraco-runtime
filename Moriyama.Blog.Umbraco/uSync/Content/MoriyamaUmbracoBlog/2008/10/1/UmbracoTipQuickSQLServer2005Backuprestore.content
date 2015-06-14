@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="ff9c8463-0a38-4f5e-b8d1-3d7202888ea0" id="1849" nodeName="Umbraco tip: Quick SQL server 2005 backup/restore" isDoc="" updated="2013-10-28T17:22:56.697Z" parentGUID="43ce6eeb-ea9c-4be6-806a-9b3308218b93" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-tip-quick-sql-server-E15222D9-8D3D-45E6-8EC1-508D9DABEBB1-backuprestore]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-10-01T12:44:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fzLojv]]></shortUrl>
+  <summary><![CDATA['Umbraco tip: Quick SQL server E15222D9-8D3D-45E6-8EC1-508D9DABEBB1 backup/restore' - a blog post by Darren Ferguson about Technology Internet written on 01 October 9997642C-5F5C-4A03-A353-2E7B493113A9]]></summary>
+  <tags><![CDATA[Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>This only works if you are using a version of SQL server and have access to a command prompt on your server. I was looking for a way to source control DB backups and quickly copy my database between development, QA and production environments. </p><p>Start with the following in a file called <i>backup.sql</i> - obviously change the database name. </p><pre style="BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; BORDER-LEFT: black 1px solid; PADDING-TOP: 8px; BORDER-BOTTOM: black 1px solid">use master
+   go
+   sp_detach_db 'databasename'
+   go
+</pre><p>In the same folder create a file <i>backup2.sql</i> - again the database name and paths to your SQL server install are key. </p><pre style="BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; BORDER-LEFT: black 1px solid; PADDING-TOP: 8px; BORDER-BOTTOM: black 1px solid">use master
+  go
+  sp_attach_db 'databasename',
+'C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Data\databasename.mdf',
+'C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Data\databasename_log.ldf'
+  go
+</pre><p>Next create a file called <i>backup.bat</i> - In this file replace the target of the copy with a path of your choice. I am just copying the files to my SVN repository for a later commit. </p><pre style="BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; BORDER-LEFT: black 1px solid; PADDING-TOP: 8px; BORDER-BOTTOM: black 1px solid">sqlcmd -ic:backup.sql
+
+copy "C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Data\databasename*.*"
+C:\repositories\df_com\trunk\db
+
+sqlcmd -ic:backup2.sql
+</pre><p>For sqlcmd to execute, you will need to have the SQL server bin directory in your PATH. You may also want to stop IIS prior to the backup and start it again after using <i>net stop|start w3svc</i>. </p><p>Now you have your SQL server data file detached and copied to a new location. To restore simply create <i>restore.bat</i>. </p><pre style="BORDER-RIGHT: black 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: black 1px solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; BORDER-LEFT: black 1px solid; PADDING-TOP: 8px; BORDER-BOTTOM: black 1px solid">sqlcmd -ic:backup.sql
+
+copy C:\repositories\df_com\trunk\db\databasename*.* 
+"C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Data\"
+
+sqlcmd -ic:backup2.sql
+</pre><p>Exactly the same process but copying the data files in the opposite direction. </p><p>So why is this useful? Well, so long as your database names and SQL server paths are the same across servers you can simply copy your data files between servers and restore the database in any environment. </p><p>This all came about as part of a larger project to put umbraco under source control which I'll write a better article on at some point later on. .</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

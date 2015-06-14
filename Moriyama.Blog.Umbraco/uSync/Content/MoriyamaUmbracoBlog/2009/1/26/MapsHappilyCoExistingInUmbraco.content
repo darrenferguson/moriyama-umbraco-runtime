@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="b71c4ea6-a859-4a70-8be5-0a2537c333e0" id="1875" nodeName="Maps happily co-existing in Umbraco" isDoc="" updated="2013-07-07T08:17:54.19Z" parentGUID="28a7ae63-235f-48b8-8343-63356cda0b44" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/maps-happily-co-existing-in-umbraco]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-26T17:35:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/erVkFO]]></shortUrl>
+  <summary><![CDATA['Maps happily co-existing in Umbraco' - a blog post by Darren Ferguson written on 26 January A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags></tags>
+  <bodyText><![CDATA[<p>I’m getting close to being done with the Umbraco ‘place’ datatype. As soon as Virgin Media restore my Internet service at home I’ll be ready to release!</p><p class="clear"><img alt="Umbraco place datatype" src="/media/77577/A496C701-B55E-44A4-BF98-AFA8160400AF_1.jpg" /></p><p class="clear">Since my first post, place markers are now draggable for extra accuracy and you can place multiple maps within a document type. Maps in different tabs is now supported after an initial issue with maps which were rendered while not displayed.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="d599660c-02ec-4845-a244-ac5b7045c63c" id="2508" nodeName="Douglas Robar" isDoc="" updated="2013-10-28T17:23:13.897Z" parentGUID="c4c4e251-2323-4ac4-a7ce-1920eca18254" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-06-13T14:15:01</displayDate>
+  <title><![CDATA[Douglas Robar]]></title>
+  <name><![CDATA[Douglas Robar]]></name>
+  <email><![CDATA[doug@percipientstudios.com]]></email>
+  <website><![CDATA[http://www.percipientstudios.com]]></website>
+  <bodyText><![CDATA[This is really fun and interesting. Opens up a world of possibilities.
+
+At the core/mvp retreat before CodeGarden last week we were joking that LOLCode.NET would be a great thing to add to umbraco for macros. http://lolcode.com/ and http://code.google.com/p/lolcode-dot-net/
+
+Well, maybe not "great"... but fun. I really want to be able to write a macro that ends with KTHXBYE. ;)
+
+cheers,
+doug.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

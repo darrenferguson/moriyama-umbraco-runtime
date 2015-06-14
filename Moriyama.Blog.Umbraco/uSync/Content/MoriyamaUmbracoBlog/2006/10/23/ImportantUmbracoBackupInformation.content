@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="54377c58-1e87-4c2c-a942-2898dac0f328" id="1748" nodeName="Important Umbraco backup information" isDoc="" updated="2013-10-28T17:21:24.863Z" parentGUID="430e527e-9e75-41e5-8531-87992ceacb9d" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/important-umbraco-backup-information]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-10-23T18:16:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fm4yH5]]></shortUrl>
+  <summary><![CDATA['Important Umbraco backup information' - a blog post by Darren Ferguson about web root, Google, web.config, search engines, ISP, Technology Internet written on 23 October F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[web root, Google, web.config, search engines, ISP, Technology Internet, Umbraco]]></tags>
+  <bodyText><![CDATA[
+<p>As a result of user feedback, it seems that a few people are
+having an issue with failed backups as a result of using a backup
+target directory under your web root. This is because Umbraco
+backup tries to backup it's own target zip file, causing some
+process conflicts.</p>
+
+<p>This issue will be fixed with the release of 1.1, however,
+unless you have to,Do not backup under the webroot.</p>
+
+<p>Google and other search engines can index zip files and their
+contents. One user has already made me aware of some Umbraco blogs
+that have zipped versions of their site that have been indexed and
+you are able to see the contents of web.config including database
+host and password details.</p>
+
+<p>If you are in the unfortunate position of having an ISP who will
+not let you write anywhere other than your webroot, 1.1 is coming
+soon, but please note that you should download your backups from
+your server and remove them from the web root upon completion.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="11a0a0bf-586e-4e64-b70b-ee069f02f2cd" id="2513" nodeName="Darren Ferguson" isDoc="" updated="2013-10-28T17:23:02.927Z" parentGUID="29f01026-3e28-401e-84c3-7e91e73f9ba5" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-12-31T11:33:10</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@ruben - thanks for the feedback. I like the idea of #2 being a browser plugin then it could be used for any text in a web page. I will have a look at TinyMCE integration and see how hard it would be though.
+
+RE: #1, I'm not really a fan doing search and replace in XSLT but you make a very good point about the links updating in line with the configuration, I guess an XSLT extension would be the way to go here.
+
+]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

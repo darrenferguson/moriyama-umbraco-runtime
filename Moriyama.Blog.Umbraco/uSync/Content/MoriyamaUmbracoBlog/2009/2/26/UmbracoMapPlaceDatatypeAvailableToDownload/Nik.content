@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="155e8d18-5b84-4677-8698-5748f4dc5358" id="2377" nodeName="Nik" isDoc="" updated="2013-07-07T08:18:04.92Z" parentGUID="5c0b75fb-dd63-412a-9a10-e6305ef8e91f" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="5" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-06-12T15:21:38</displayDate>
+  <title><![CDATA[Nik]]></title>
+  <name><![CDATA[Nik]]></name>
+  <email><![CDATA[nikolas@vanetten.no]]></email>
+  <website></website>
+  <bodyText><![CDATA[Very nice work!
+
+I'm missing an option for removing the coordinates (should be a button clearing the textfield) - this is quite important for document types where the map option is only used every now and then...]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

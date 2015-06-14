@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="099ef787-61fa-4e80-a973-8ad1f06cac93" id="1934" nodeName="Screencast: Open Calais auto tag for Umbraco" isDoc="" updated="2013-07-07T08:17:47.63Z" parentGUID="1145da3a-869d-4fcb-ae26-5f2589a4a94b" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/screencast-open-calais-auto-tag-for-umbraco]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-09-10T08:00:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fgDWv0]]></shortUrl>
+  <summary><![CDATA['Screencast: Open Calais auto tag for Umbraco' - a blog post by Darren Ferguson about Richard Hayes written on 10 September B29A5211-DC51-46BB-B283-8510D165CA40]]></summary>
+  <tags><![CDATA[Richard Hayes]]></tags>
+  <bodyText><![CDATA[<p>The screen-cast below is a demonstration of the <a href="http://our.umbraco.org/projects/backoffice-extensions/open-calais-autotag">Open Calais auto tag for Umbraco</a> package created by myself and Richard Hayes.</p><p>The package is a drop in replacement for the tagging datatype which is part of the Umbraco blog package and is capable of auto suggesting tags and provides a nice UI for quick and easy manual tagging.</p><p><object width="520" height="390" data="http://www.vimeo.com/moogaloop.swf?clip_id=14850764&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://www.vimeo.com/moogaloop.swf?clip_id=14850764&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /></object></p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

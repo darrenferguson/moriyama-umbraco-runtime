@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="3cf979e4-06d8-44ea-8856-09bb50cdea08" id="2429" nodeName="Petr Snobelt" isDoc="" updated="2013-07-07T08:18:14.94Z" parentGUID="c0beee90-3242-4bf1-b64c-3ca3f9265b74" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-21T08:55:13</displayDate>
+  <title><![CDATA[Petr Snobelt]]></title>
+  <name><![CDATA[Petr Snobelt]]></name>
+  <email><![CDATA[petr.snobelt@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi Darren,
+please provide sample, how to show 'most recent content from Umbraco'
+
+Thanx]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="b2ecbae9-4cd5-4bf7-98ae-f114f8b31215" id="1912" nodeName="Perl, overriding and TeamSite" isDoc="" updated="2013-07-07T08:17:33.937Z" parentGUID="25df75f5-69b4-45da-bc13-5c817b84622a" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/perl,-overriding-and-teamsite]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-01-28T11:28:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/hEZmaO]]></shortUrl>
+  <summary><![CDATA['Perl, overriding and TeamSite' - a blog post by Darren Ferguson about Perl, API written on 28 January B29A5211-DC51-46BB-B283-8510D165CA40]]></summary>
+  <tags><![CDATA[Perl, API]]></tags>
+  <bodyText><![CDATA[<p>Quite a common TeamSite development task is to take an API call
+and extend the functionality.</p><p>Often the other consultants that I work with are surprised when
+I show them that Perl does inheritance just like big grown up OO
+languages so I think this is a tip worth writing about here.</p><p>The sample below shows how to extend the AddFile method of
+TeamSite::WFtask to log a warning when a certain number of files
+are attached (at around 700 files workflow external tasks break as
+Perl is limited to around 700 command line arguments).</p><pre class="sh_perl" style="border-right: black 1px solid; padding-right: 7px; border-top: black 1px solid; padding-left: 7px; padding-bottom: 7px; border-left: black 1px solid; padding-top: 7px; border-bottom: black 1px solid; background-color: #eeeeee">
+
+package My::TeamSite::WFtask;
+
+use strict;
+use utf8;
+
+# equivalent of 'extends'
+use base qw(TeamSite::WFtask);
+
+use constant MAX_ATTACHED_FILES =&gt; 600;
+
+# Methods that exist in the base class are automatically overriden.
+sub AddFile {
+
+    my ($self, $vpath) = @_;
+
+    my $currently_attached = scalar($self-&gt;GetFiles);
+    if($currently_attached &gt;= MAX_ATTACHED_FILES) {
+        My::Logger::warn("Too many files!");
+    }
+
+    # Call the base class method.
+    $self-&gt;SUPER::AddFile($vpath);
+
+}
+
+1;
+</pre><p>Finally: I'm aware that the "Too many arguments issue" can be
+removed by adding the following to iw.cfg:</p><p><em><strong>[workflow]</strong></em></p><p><em><strong>external_task_add_filelist=false</strong></em></p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

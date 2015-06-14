@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="9e72a103-8c33-4c8e-b13c-d2aa55d5d43c" id="1911" nodeName="Developer WCM evaluation document" isDoc="" updated="2013-07-07T08:18:17.233Z" parentGUID="1f750568-0416-46cc-8ee5-b809cd696257" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/developer-wcm-evaluation-document]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-09-23T13:01:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fbi7mK]]></shortUrl>
+  <summary><![CDATA['Developer WCM evaluation document' - a blog post by Darren Ferguson about web content management system, reasonable developer, content management system, Technology Internet written on 23 September A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[web content management system, reasonable developer, content management system, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>A while back I discussed the desire to have a document that
+helped me to evaluate a web content management system from a
+developer perspective. A few other people expressed interest in the
+idea so I've published a very rough first draft here in case anyone
+wishes to collaborate or provide any feedback.</p><p>The document is intended to be a verbose specification of a
+simple website to build in the CMS the functionality of which is
+extremely common to most websites. The exercise itself should take
+no more than a day and leave a developer with a good feel of how to
+perform basic tasks such as create content types and templates. The
+simplicity of the exercise is such that I'd expect any reasonable
+developer to be able to sit in front of a CMS they'd never used
+before and hack their way through by Googling and badgering
+experienced users on the CMS support site.</p><p>The feedback I'd like:</p><ul><li>Is there any *essential* website functionality that is
+missing?</li><li>Is there anything in the document that isn't really in WCM
+scope?</li><li>Any tips for structuring the document?</li><li>How to get the developer to write up the steps performed so you
+could browse their evaluations to support your CMS selection.</li></ul><p><a href="/media/84160/WindowsLiveWriter_DeveloperWCMevaluationdocument_B6E5_Create%20a%20three%20page%20website.doc">
+Here is the document</a></p><p>Feedback via comments or email is very welcome.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

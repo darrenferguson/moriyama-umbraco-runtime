@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="4e1eccc5-628c-4a26-a140-cd7511d86f84" id="2794" nodeName="Anthony" isDoc="" updated="2013-07-07T08:17:26.343Z" parentGUID="d302ef8e-e80b-4799-818b-e64dc2493433" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-01-18T07:43:44.25</displayDate>
+  <title><![CDATA[Anthony]]></title>
+  <name><![CDATA[Anthony]]></name>
+  <email><![CDATA[acandaele@hotmail.com]]></email>
+  <website><![CDATA[http://www.webmove.be]]></website>
+  <bodyText><![CDATA[Nice initiative Darren. I'm looking forward to your blogposts, as I'm still a bit unfamiliar with developing websites in Umbraco v5]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="63c7a0bb-ec2c-456b-a271-f77e01e3c568" id="2626" nodeName="Vincent Baaij" isDoc="" updated="2013-07-07T08:18:15.117Z" parentGUID="c0beee90-3242-4bf1-b64c-3ca3f9265b74" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-01-24T14:20:17.19</displayDate>
+  <title><![CDATA[Vincent Baaij]]></title>
+  <name><![CDATA[Vincent Baaij]]></name>
+  <email><![CDATA[vincentb@involvit.nl]]></email>
+  <website><![CDATA[http://www.involvit.nl]]></website>
+  <bodyText><![CDATA[Hi Darren,
+
+You provide the source code of this package via bitbucket. I took a look at it and found some great code I might end up re-using in an application. 
+There is however one piece of source not included: dll/FergusonMoriyama.Rss.dll.
+
+Are you willing to share that also? If so, that would be great.
+
+Vincent]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

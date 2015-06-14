@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="56b83edf-b7af-4646-af7e-bba96c9ed34d" id="2226" nodeName="Niels Hartvig" isDoc="" updated="2013-07-07T08:17:38.94Z" parentGUID="337e486d-10c0-4117-8f57-8d12b5e28701" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="9" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-03-20T16:12:33</displayDate>
+  <title><![CDATA[Niels Hartvig]]></title>
+  <name><![CDATA[Niels Hartvig]]></name>
+  <email><![CDATA[nh@umbraco.dk]]></email>
+  <website><![CDATA[http://umbraco.org]]></website>
+  <bodyText><![CDATA[Awesome project - can't wait to get a better Media experience in Umbraco!
+
+Two thumbs up!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

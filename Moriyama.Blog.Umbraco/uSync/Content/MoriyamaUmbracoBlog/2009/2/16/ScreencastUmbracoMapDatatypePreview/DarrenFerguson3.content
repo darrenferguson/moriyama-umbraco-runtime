@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="c00d8bcd-5591-4d68-9f55-7ffb4b663338" id="2372" nodeName="Darren Ferguson (3)" isDoc="" updated="2013-07-07T08:18:04.077Z" parentGUID="affe15b9-98e9-4470-aa1e-12eb235f4db4" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="17" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-06-30T09:03:55</displayDate>
+  <title><![CDATA[Darren Ferguson (3)]]></title>
+  <name><![CDATA[Darren Ferguson (3)]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[Hi Tom,
+
+I'd add multiple maps in different content nodes and use an XSLT Macro to render all of these locations to a single map on your front end website.
+
+If you start adding multiple locations to a single datatype you need somewhere to store a description of each location - opening hours if it is a store location etc - whereas ordinarily they can just be properties of the datatype.
+
+It all becomes very un-Umbraco like and messy. If you have any suggestions as to how this would work, I'd love to here them. The project has a suggestions forum on our.umbraco.org: http://our.umbraco.org/projects/google-maps-datatype
+]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

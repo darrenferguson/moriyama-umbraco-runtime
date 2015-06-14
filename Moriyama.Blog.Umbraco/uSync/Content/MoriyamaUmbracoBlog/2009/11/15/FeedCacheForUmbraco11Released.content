@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="12caa72d-15df-4daf-979b-a158a460e502" id="1880" nodeName="Feed Cache for Umbraco 1.1 released" isDoc="" updated="2013-07-07T08:18:17.483Z" parentGUID="44fcd12b-e142-485f-95ff-e19697cf641e" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/feed-cache-for-umbraco-11-released]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-11-15T11:45:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/he8lNY]]></shortUrl>
+  <summary><![CDATA['Feed Cache for Umbraco 1.1 released' - a blog post by Darren Ferguson about GUI, HTML written on 15 November A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[GUI, HTML]]></tags>
+  <bodyText><![CDATA[<p>I've update my Feed Cache for Umbraco package. The latest
+version can be downloaded from the <a href="http://our.umbraco.org/projects/feed-cache">our.umbraco project page</a>.</p><p>The main update in this package is the addition of a
+configuration GUI (see screenshot). The package now automatically
+creates the scheduled task that it requires so no manual
+configuration is necessary.</p><p><a href="/media/85251/WindowsLiveWriter_FeedCacheforUmbraco1.1released_A51D_Untitled_2.jpg"><img src="/media/77592/12919_1.jpg" width="244" height="153" alt="Untitled" style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" /></a></p><p>The configuration GUI is a sub project that renders any
+serialisable (.net) object as an HTML form. Changes made in the GUI
+can then be submitted back to the server. This GUI will be a
+standard part of any future packages.</p><p>When I have time I'll record a screen cast demonstrating how
+this works - including nested object collections to any depth. For
+now just check out the update to Feed Cache.</p><p>Comments, feedback and suggestions are welcome as always.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

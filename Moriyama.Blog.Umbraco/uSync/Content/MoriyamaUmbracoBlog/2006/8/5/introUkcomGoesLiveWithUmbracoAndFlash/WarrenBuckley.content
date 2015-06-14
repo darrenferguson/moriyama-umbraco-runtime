@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="60e428b2-5adf-4671-bceb-37166fe9a173" id="2551" nodeName="Warren Buckley" isDoc="" updated="2013-10-28T17:22:27.773Z" parentGUID="acd7e356-7bdb-481f-a933-44f5de057a34" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-09-14T13:34:10</displayDate>
+  <title><![CDATA[Warren Buckley]]></title>
+  <name><![CDATA[Warren Buckley]]></name>
+  <email><![CDATA[warren@momo.co.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hello Darren.
+
+Is it possible to give me some info on how umbraco works with flash.
+
+As we have plans to work on a flash site that needs CMS.
+
+Cheers,
+Warren]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

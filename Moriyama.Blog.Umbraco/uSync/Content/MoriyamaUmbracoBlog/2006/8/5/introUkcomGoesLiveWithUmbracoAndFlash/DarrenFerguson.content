@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="d56e9a5d-0a80-4495-bd18-3a851d09db65" id="2552" nodeName="Darren Ferguson" isDoc="" updated="2013-10-28T17:22:27.47Z" parentGUID="acd7e356-7bdb-481f-a933-44f5de057a34" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-09-14T13:43:12</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[Hi Warren,
+
+All we did was output xml from Umbraco.
+
+Feel free to drop me an email at the address on my profile page if you have any specific questions.
+
+Thanks.
+Darren.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogFolder guid="0de35812-924a-436a-81fc-3f8c00645ad0" id="1719" nodeName="21" isDoc="" updated="2013-07-07T08:17:39.89Z" parentGUID="34a8fdbd-dc32-42cf-b095-852b533d45f9" nodeTypeAlias="BlogFolder" templateAlias="BlogHomePage" sortOrder="21" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate></displayDate>
+  <title></title>
+</BlogFolder>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="80e06821-ffca-449e-9382-5310679afb99" id="2603" nodeName="Johannes" isDoc="" updated="2013-10-28T17:21:48.133Z" parentGUID="1d57fae1-f2d7-458b-9dea-3f0380130463" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>3B8392C0-3EB0-421C-B00A-C8BEC022F267-03-29T14:25:38</displayDate>
+  <title><![CDATA[Johannes]]></title>
+  <name><![CDATA[Johannes]]></name>
+  <email><![CDATA[johannes@dolbergs.dk]]></email>
+  <website><![CDATA[http://www.bypilot.dk]]></website>
+  <bodyText><![CDATA[Hi,
+I'm considering using either umbraco or Ruby for a new comnunity website, but I'm a bit unsure about what can be achieved with either system. If you have any experiences (pros/cons)or suggestions about either of the systems, please do tell. I've at an earlier point used dotnetnuke, but I wasn't very happy with 
+1) the rigid front-end options. You can't customize the front-end as you want. 
+2) the 3-tier layer for data-handling. This layer is tiresome to write and implement.
+BR
+Johannes ]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

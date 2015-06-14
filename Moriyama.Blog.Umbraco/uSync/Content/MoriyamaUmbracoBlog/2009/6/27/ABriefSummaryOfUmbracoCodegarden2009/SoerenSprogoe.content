@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="e463337b-25f3-48d2-8ffb-4d9d018387c9" id="2415" nodeName="Søren Sprogø" isDoc="" updated="2013-07-07T08:18:12.607Z" parentGUID="f1da7a5a-8026-4bfc-a927-2307604b86af" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-06-27T12:44:30</displayDate>
+  <title><![CDATA[Søren Sprogø]]></title>
+  <name><![CDATA[Søren Sprogø]]></name>
+  <email><![CDATA[ssp@afdeling18.dk]]></email>
+  <website><![CDATA[http://www.afdeling18.dk]]></website>
+  <bodyText><![CDATA[Nice summary, and very close to my own experience.
+
+I also only work with Umbraco about 5% of my time, and would love to increase it.
+
+And I think a way of creating commercial packages on top of Umbraco is definately the way to go to increase its popularity. So much more can be done, if developers have some way of earning a living developing "shit" (to use Tor's term).
+
+I'm looking forward to see what stuff you guys come up with in terms of a common store/repository.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="9d9edf61-219c-4a15-aed0-d8c79d332d0a" id="2450" nodeName="Chris Houston" isDoc="" updated="2013-07-07T08:18:17.607Z" parentGUID="12caa72d-15df-4daf-979b-a158a460e502" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-11-15T16:07:19</displayDate>
+  <title><![CDATA[Chris Houston]]></title>
+  <name><![CDATA[Chris Houston]]></name>
+  <email><![CDATA[chouston@vizioz.com]]></email>
+  <website><![CDATA[http://blog.vizioz.com]]></website>
+  <bodyText><![CDATA[Hi Darren,
+
+I added a comment to one of your other posts related to this, and now I cannot find it, so not sure if it worked or not ?!
+
+Anyway, I have created a short XSLT snippet that converts @names / #names and URL's to clickable links, so I thought it might be something you or those using your package may like to use.
+
+You can find it here:
+
+http://blog.vizioz.com/A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2/11/twitter-feeds-in-umbraco-using-xslt.html
+
+Cheers,
+
+Chris]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

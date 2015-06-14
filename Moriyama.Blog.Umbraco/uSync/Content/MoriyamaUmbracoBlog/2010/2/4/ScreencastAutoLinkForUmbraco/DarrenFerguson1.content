@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="0d31ff47-8edc-4f96-85fe-9423beb9e90f" id="2210" nodeName="Darren Ferguson (1)" isDoc="" updated="2013-07-07T08:17:35.317Z" parentGUID="d2d6c8be-fe84-43da-93b6-8d22813e17cc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="8" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-24T11:49:48</displayDate>
+  <title><![CDATA[Darren Ferguson (1)]]></title>
+  <name><![CDATA[Darren Ferguson (1)]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@keith - the source code is available from http://our.umbraco.org/projects/auto-link
+
+There are also forums there for requesting features and reporting bugs.
+
+Thanks.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

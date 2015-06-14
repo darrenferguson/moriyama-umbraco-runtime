@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="9b3433ce-94d8-4c1a-a3ee-01f87636ef25" id="2624" nodeName="Nigel Wilson" isDoc="" updated="2013-07-07T08:17:40.073Z" parentGUID="a22624d0-3de3-4ba8-9e51-b7dca2b1d474" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-01-12T19:00:14.747</displayDate>
+  <title><![CDATA[Nigel Wilson]]></title>
+  <name><![CDATA[Nigel Wilson]]></name>
+  <email><![CDATA[info@yoyocms.co.nz]]></email>
+  <website><![CDATA[http://www.yoyocms.co.nz]]></website>
+  <bodyText><![CDATA[Hey there - love this package and am looking to implement for a site that has paypal for membership payments. Was wondering if it is 4.5 compatible ?
+Cheers, Nigel]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

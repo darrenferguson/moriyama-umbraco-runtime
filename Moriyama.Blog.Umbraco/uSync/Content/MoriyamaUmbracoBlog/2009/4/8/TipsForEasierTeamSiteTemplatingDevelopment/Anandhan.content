@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="27d7a4b6-02aa-48fb-8407-df90b23bb76f" id="2625" nodeName="Anandhan" isDoc="" updated="2013-07-07T08:18:09.487Z" parentGUID="efb7322a-a175-4bf9-a7f7-a639d085cfae" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-01-20T08:37:53.983</displayDate>
+  <title><![CDATA[Anandhan]]></title>
+  <name><![CDATA[Anandhan]]></name>
+  <email><![CDATA[anandhan.selvaraj@cognizant.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[I have edit a tpl file to change its ouput location. but idont know where to change.. I have a line like this
+my $ofile = iwpt_get_ofile_name();
+it gets the location of output from where please mail immediatly
+']]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

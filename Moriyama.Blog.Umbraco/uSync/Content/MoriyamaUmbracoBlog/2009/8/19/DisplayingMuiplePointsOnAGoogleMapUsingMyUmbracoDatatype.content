@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="6b7ddabb-46b4-4b78-a43c-22d5e468050f" id="1907" nodeName="Displaying muiple points on a google map using my Umbraco datatype" isDoc="" updated="2013-07-07T08:18:16.117Z" parentGUID="9ecb5b17-177e-49bc-8702-7eaca38dd75c" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/displaying-muiple-points-on-a-google-map-using-my-umbraco-datatype]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-08-19T07:27:00</displayDate>
+  <title></title>
+  <shortUrl></shortUrl>
+  <summary></summary>
+  <tags></tags>
+  <bodyText><![CDATA[
+<p>A while back I wrote about <a
+href="/A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2/3/14/quick-tip-displaying-maps-on-your-umbraco-website.aspx">
+displaying maps on your Umbraco website</a> using my <a
+href="http://our.umbraco.org/projects/google-maps-datatype">Google
+maps datatype</a> for Umbraco. Since then I've had a number of
+requests to provide an example of how to display multiple points on
+a map and <a href="http://www.dillorscroft.co.uk/">Matt Perry</a>
+and I have finally come up with such an example.</p>
+
+<p>The first step is to write a simple XSLT macro that will list
+out all of the points that you want to show. I'm not going to give
+that example here, but the output should look similar to the
+following:</p>
+
+<pre
+style="background-color: #eeeeee; border: black 1px solid; padding: 7px;">
+
+&lt;h1&gt;Service stations in Lancashire&lt;/h1&gt;
+&lt;p&gt;The following data is a list of latitude and longtitude points and a description for service stations in Lancashire&lt;/p&gt;
+&lt;div id="map"&gt;&lt;/div&gt;
+&lt;!-- Rendered from a simply XSLT Extension --&gt;
+&lt;div class="point"&gt;52.94341429133642,-2.1892619132995605,17,A34-STONE ROAD TITTENSOR N/B&lt;/div&gt;
+&lt;div class="point"&gt;53.029535856006525,-2.176837921142578,16,A50-POTTERIES WAY&lt;/div&gt;
+</pre>
+
+<p>Note: The empty map div is a placeholder for the Google map
+itself.</p>
+
+<p>Quite a few people have written to me asking how one would add
+several points to a single instance of my datatype and the short
+answer is you can't. You'll need to create an Umbraco node for
+every point you want to display on your map, each node containing
+an instance of my datatype.</p>
+
+<p>In order to render the map you'll need some javascript similar
+to the following:</p>
+
+<pre class="sh_javascript"
+style="background-color: #eeeeee; border: black 1px solid; padding: 7px;">
+
+var m= new GMap2(document.getElementById('map'));
+m.setCenter(new GLatLng(0, 0), 0);
+var bounds = new GLatLngBounds();
+
+m.addControl(new GLargeMapControl());
+m.addControl(new GMapTypeControl());
+
+var arrayList = $(".point");  // set of elements with class 'point'
+
+$.each(arrayList, function() {
+    var value = $(this).html();
+    value = $.trim(value);
+
+    var point = value.split(',');
+    var lat = parseFloat(point[0]);
+    var lon = parseFloat(point[1]);
+    var desc = point[3];
+
+    var point = new GLatLng(lat, lon);
+    bounds.extend(point);    
+
+    m.addOverlay(createMarker(point,desc));
+});
+
+// Creates a marker at the given point
+// Clicking the marker will hide it
+
+function createMarker(latlng,desc) {
+
+    var marker = new GMarker(latlng);
+    marker.name = desc;
+    
+    GEvent.addListener(marker,"click", function() {
+        var myHtml =  desc;
+        m.openInfoWindowHtml(latlng, myHtml);
+    });
+
+    return marker;
+}
+
+m.setZoom(m.getBoundsZoomLevel(bounds));
+m.setCenter(bounds.getCenter());
+</pre>
+
+<p>For the above to work, you'll need to include jQuery and the
+Google Maps javascript API in your page. The resulting map should
+zoom and centre according to the points that you have added.</p>
+
+<p><strong>Accessibility alert:</strong> Please provide a header
+and description paragraph before your map point data as I have in
+my example in order to ensure that the data makes sense with
+javascript disabled or to screen readers.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

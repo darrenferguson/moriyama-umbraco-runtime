@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="56f11c0f-b13c-4f05-849b-1f5ba3a518ef" id="2289" nodeName="Darren Ferguson (2)" isDoc="" updated="2013-07-07T08:17:53.68Z" parentGUID="15a88ec2-fb25-47b1-8255-257259e42190" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-23T11:45:23</displayDate>
+  <title><![CDATA[Darren Ferguson (2)]]></title>
+  <name><![CDATA[Darren Ferguson (2)]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[I used an XML file keyed on domain in /umbraco/plugins/myplugin
+
+]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

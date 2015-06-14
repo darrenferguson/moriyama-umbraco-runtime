@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="ca451b6b-2fa9-425c-b57c-cbad64ffde74" id="2207" nodeName="Darren Ferguson" isDoc="" updated="2013-07-07T08:17:34.59Z" parentGUID="d2d6c8be-fe84-43da-93b6-8d22813e17cc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="5" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-13T21:10:53</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com]]></website>
+  <bodyText><![CDATA[@simon - I've used the package with accented characters so i'm not sure the issue is with the package. 
+
+Please post your query in the our.umbraco projects forum with *a lot* more detail and I will see if I can help.
+
+http://our.umbraco.org/projects/auto-link/bug-reports
+]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

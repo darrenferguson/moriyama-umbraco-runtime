@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="21534327-d055-4645-abbc-3c85a98b855e" id="2451" nodeName="Jahiro" isDoc="" updated="2013-10-28T17:23:00.09Z" parentGUID="186738e3-da0a-4218-8e3e-b9475737c1fc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-20T13:26:06</displayDate>
+  <title><![CDATA[Jahiro]]></title>
+  <name><![CDATA[Jahiro]]></name>
+  <email><![CDATA[macro_marcus@yahoo.com.au]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi Darren - How so you deal with the issue that the real content originates in production and you cannot simply take a database from staging and push it to prod? The content migration is a reverse process compared to the dev migration. Umbraco looks amazing, but unless you buy a pro license and use Courier, I don't see any way to deploy from staging to live without overwriting live content.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

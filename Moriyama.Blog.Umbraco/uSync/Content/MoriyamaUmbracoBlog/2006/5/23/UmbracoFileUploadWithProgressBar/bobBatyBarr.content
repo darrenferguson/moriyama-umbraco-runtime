@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="cdc6cb72-bd76-4f93-9efc-e1bf337c1ecd" id="2605" nodeName="bob baty-barr" isDoc="" updated="2013-10-28T17:21:43.937Z" parentGUID="4b9433da-b26f-4d67-9d5f-0a250db82192" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>3B8392C0-3EB0-421C-B00A-C8BEC022F267-03-03T17:23:25</displayDate>
+  <title><![CDATA[bob baty-barr]]></title>
+  <name><![CDATA[bob baty-barr]]></name>
+  <email><![CDATA[bob@baty-barr.com]]></email>
+  <website><![CDATA[http://www.baty-barr.com]]></website>
+  <bodyText><![CDATA[Darren... the upload with progres is great, however, on 2.1.6 using the upload with progres appears to create some issues for linking to media items with the richText editor... even if the items were not uploaded with large file upload, the editor only gets the mediaID not the path... if i switch back to using the standard upload component, linking is fine... once again, without even uploading any files.
+
+any thoughts?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

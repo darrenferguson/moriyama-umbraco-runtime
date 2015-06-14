@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="02fae134-227f-4111-a461-298f6c2bb5fa" id="2288" nodeName="Aaron Powell (1)" isDoc="" updated="2013-07-07T08:17:53.6Z" parentGUID="15a88ec2-fb25-47b1-8255-257259e42190" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="5" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-23T11:40:40</displayDate>
+  <title><![CDATA[Aaron Powell (1)]]></title>
+  <name><![CDATA[Aaron Powell (1)]]></name>
+  <email><![CDATA[me@aaron-powell.com]]></email>
+  <website><![CDATA[http://www.aaron-powell.com/]]></website>
+  <bodyText><![CDATA[How are you doing the settings, I've just done a multi-domain umbraco build which has umbraco-stored config options which was a real pain to code up!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

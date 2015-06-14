@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="93183c98-d789-4815-9f3e-1bed4a12dbf4" id="1800" nodeName="A poll macro for Umbraco" isDoc="" updated="2013-10-28T17:22:16.62Z" parentGUID="f810d808-f28c-49db-826e-9ae4487dcdd1" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/a-poll-macro-for-umbraco]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-08T15:58:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fgONyd]]></shortUrl>
+  <summary><![CDATA['A poll macro for Umbraco' - a blog post by Darren Ferguson about web functionality, web poll, java, Technology Internet written on 08 July F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[web functionality, web poll, java, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>A web poll is a useful way of gathering opinions from your site users. It is also one of the most trivial pieces of web functionality that you could write.</p><p>A friend who is a java developer and has never really used .net or Umbraco wanted to see a real world example, so I put this together for him real quick (he was impressed).</p><p><a href="http://darren-fergusoncom.site.securepod.com/development/polldemo.aspx">http://darren-fergusoncom.site.securepod.com/development/polldemo.aspx</a></p><p>I’ll look at releasing a package at some point. It is implemented as a Macro that takes a question and a delimited set of answers as parameters.</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

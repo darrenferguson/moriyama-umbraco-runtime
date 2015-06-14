@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="f33569ae-663e-4a11-9619-9fd37f7fe48d" id="2736" nodeName="Workflow for Umbraco decision tasks" isDoc="" updated="2013-07-07T08:17:32.863Z" parentGUID="42926736-22bc-428d-a64b-e2dc0dfa2a9f" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-10-21T19:19:00</displayDate>
+  <title><![CDATA[Workflow for Umbraco decision tasks]]></title>
+  <shortUrl></shortUrl>
+  <summary><![CDATA['Workflow for Umbraco decision tasks' - a blog post by Darren Ferguson about Umbraco, Workflow, written on the 21st October B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[Umbraco, Workflow]]></tags>
+  <bodyText><![CDATA[
+<p>In the latest in a series of <a
+href="http://vimeo.com/channels/253103">screencasts</a> abour <a
+href="http://our.umbraco.org/projects/backoffice-extensions/workflow">
+Workflow for Umbraco</a> I explain decision tasks. Decision tasks
+make the workflow runtime stop and wait for user input before
+continuing.</p>
+
+<p>Out of the box you have a Group decision task and a user
+decision task. The screencast also explains how to write your own
+decision tasks.</p>
+
+<p>The sample code in the screencast is available in the <a
+href="https://bitbucket.org/darrenjferguson/workflow-samples">sample
+source code repository</a>.</p>
+
+<p>Click below to watch the screencast:</p>
+
+<p><a href="http://vimeo.com/30916953"><img src="~/media/126375/vimeo_500x400.jpg"  width="500"  height="400" alt="vimeo"/></a></p>
+
+<p style="clear: both;">In summary:</p>
+
+<ul>
+<li>The user decision task allows a list of specified Umbraco users
+to transition a task</li>
+
+<li>The group decision task allows a list of specified Umbraco user
+types to transiton a task</li>
+
+<li>To create your own decision tasks implement
+<strong><em>IDecisionTask</em></strong></li>
+
+<li>The runtime will ask if a user can transition a task by calling
+the <strong><em>CanTransition</em></strong> method of
+IDecisionTask</li>
+
+<li>If you want to write your own GUI (aspx) to perform the
+transition override the <em><strong>TransitionUrl</strong></em>
+property of&nbsp;<strong><em>IDecisionTask</em></strong> a sample
+is provided in the code accompanying the screencast.</li>
+</ul>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

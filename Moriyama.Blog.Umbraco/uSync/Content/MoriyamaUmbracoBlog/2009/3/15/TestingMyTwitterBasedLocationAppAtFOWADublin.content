@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="03f2df6c-72e3-4be8-b974-d91ec4bd110c" id="1887" nodeName="Testing my Twitter based location app at FOWA Dublin" isDoc="" updated="2013-07-07T08:18:07.797Z" parentGUID="ea43a7f3-84d1-4000-8f52-e3e93b2a73fe" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/testing-my-twitter-based-location-app-at-fowa-dublin]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-03-15T08:39:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/eDayrV]]></shortUrl>
+  <summary><![CDATA['Testing my Twitter based location app at FOWA Dublin' - a blog post by Darren Ferguson about Dublin, Twitter, Google, iPhone, SMS, GPS, London, least applications, native applications, clever language processing techniques, Technology Internet written on 15 March A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Dublin, Twitter, Google, iPhone, SMS, GPS, London, least applications, native applications, clever language processing techniques, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>The week before last the fine folks at <a href="http://www.carsonified.com/">Carsonified</a> were kind enough to let me use the attendees of their <a href="http://events.carsonified.com/fowa/A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2/dublin/content">FOWA Dublin</a> show to test a Twitter/Google Maps/location "mashup" that I had developed. I've been asked to blog my opinions on FOWA, but for this blog post I'll focus on my app.</p><p>Here is the mail that went out to the attendees:</p><pre style="border-right: black 1px solid; padding-right: 7px; border-top: black 1px solid; padding-left: 7px; padding-bottom: 7px; border-left: black 1px solid; padding-top: 7px; border-bottom: black 1px solid; background-color: rgb(238,238,238)">----------------------------------------------------------------
+Connect with fellow attendees using Twitter!
+----------------------------------------------------------------
+
+Darren Ferguson - /  has built a
+very cool social twitter app to help you find and meet fellow
+conference attendees. So you guys can get the most out of the
+event we have set this up for you to use during FOWA Dublin!
+
+Here's how it works:
+
+First, follow fowdublin and wait for it to follow you back.
+
+Keep your twitter profile location up to date or include a link
+to a google map at the end of your message when communicating
+with fowadublin.
+
+If using an iPhone Tweetie or Twitterific will all allow you to
+append map links to your messages. Twitterfon, Sparrow and
+Brightkite allow you to update your twitter profile location.
+
+To publicise your location send a direct message to fowadublin,
+for example:
+
+    d fowadublin Holiday Inn Hotel Bar, Swilly Road
+
+Optionally attach a twitpic so that people trying to find the
+venue have something to recognise.
+
+To find people try the following commands:
+
+    d fowadublin near
+    d fowadublin nearest
+    d fowadublin newest
+    d fowadublin where @twitterid
+
+Don't forget to add a map to the end of the command if you can!
+You will receive a direct message as a response - usually within
+2-3 minutes. for nearest, newest and where commands the response
+will include a link to a map showing you how to find the
+appropriate person e.g.
+
+    nearest @fmoriyama 6 mins ago 0.6 miles away in Dublin
+http://tinyurl.com/dbre9o "Sycamore House"
+
+If you want to be kept up to date every time someone updates
+their location send the following direct message:
+
+    d fowadublin alerts
+    d fowadublin noalerts
+
+If you get stuck you can get a reminder of all of these commands
+by sending the following direct message:
+
+    d fowadublin help
+
+Tips on updating your location:
+
+If updating from a laptop give street level locations e.g
+"Castle St, Dublin" or a Latitude, Longtitude postion.
+If updating from an iPhone or other GPS enabled mobile update
+your location outside before going into the venue.
+If updating from an iPhone update with WIFI turned on even if
+you are not connected to a wifi network - Don't ask me why,
+you just get a better location fix especially on 2.5g iPhones.
+
+If things don't seem to be working for you. Send an direct
+message to fmoriyama for help or email <a href="mailto:xxx@fergusomoriyama.com">xxx@fergusomoriyama.com</a>
+
+Finally, if you want to get in touch with someone before meeting
+up, you have their twitter ID so it is easy to get in touch.
+</pre><p>More than anything else, I want to blog about my experience with real world user testing and what I learned from the experience, but first a little background.</p><p>About 5 years ago I used to do a lot of drinking around London. I had a number of different groups of friends who were usually out in a bar somewhere in town. The problems were that sometimes they were in a noisy place and couldn't hear their phones, or often just underground. In addition when you know 30 people who may be out having a beer it isn't really practical to phone them one by one, find out where they are and then make a decision about who to join.</p><p>If you are still with me you should begin to see how the problem relates to my application. Essentially, it allows dispersed social groups to quickly find one another. As well as drinking buddies the concept works with conference attendees, families and is particularly useful when you are in an unfamiliar city.</p><p>5 years ago location information was firmly in the hands of the network operators and the idea was to use network LBS data from cell triangulation and SMS as the medium to communicate with the users. Now, your location data is firmly in your own hands and the Twitter API provides a fantastic set of methods for messaging and also for groups (if you consider everyone following one user to be a group).</p><p>So what was the feedback?</p><p>I hate to admit it but everything I learned I knew already. Through years of working with users It was all obvious.</p><p><strong>1. Users don't read instructions. </strong>About 75% of the people who tried my app didn't read the instructions, they just started to interact with it in a way that they thought it should work and modified there behaviour gradually as their interactions didn't work. Some persisted, some gave up - amusingly one person was so convinced that my app should work *his* way he continually sent it the same message appended obscenities as he became frustrated that it wasn't working.</p><p>I shouldn't have been surprised that no-one reads instructions. When I buy a new laptop, I plug it in and switch it on. When I go to IKEA I lay all of the horrible bits of cheap wood and screws out on the floor and only go the instructions when I really don't understand what I should do next. Lesson learned, people don't read instructions - especially techies.</p><p>How could I do it better next time? I'd try a screencast. I find it much easier to absorb technical information if it is being demonstrated to me rather than reading it as text.</p><p><strong>2. People want native applications.</strong> I thought that the beauty of my idea lay in the fact that that it was device agnostic. As it was based around Twitter and Google maps anyone with the appropriate clients could use it. If you were on an iPhone, laptop, Blackberry or any other device the user experience was pretty much consistent.</p><p>I was wrong. Users don't want to type text commands. Users are so used to beautiful simplified GUIs nowadays, so having to type the word nearest is a major headache. Why would they do that? They expect a big red button that says 'nearest'. </p><p>Also, why would a user wait for a response when they can have instant feedback. A few years back sending and SMS and waiting a few minutes for a response was an acceptable user experience, now everything is on demand you can have your TV, Music and news whenever you want it, so why would you wait?</p><p>Despite the fact it massively and exponentially increases your development/testing overhead it seems that you do need to build native apps or at very least applications that run in the browser. As a direct result of my tests at FOWA I've downloaded and installed the iPhone SDK.</p><p><strong>3. Even geeks don't always get location.</strong> When people were trying to tell my app where they were they were often being a little too vague. With an application like mine the ideal scenario is that a user provides a latitude/longitude point but when the device they are using doesn't provide this ability or they are somewhere where you can't get a GPS fix (indoors) then you need a fallback.</p><p>At FOWA Dublin plenty of people assumed that 'Hotel X' was a sensible description of their location. They assumed that since my application was targeted at an event happening in Dublin then it should be aware that the locations they described were in Dublin. This was interesting and has given me some good ideas for geocoding text based on location history and using sources other than a geocoding API to acquire address data based on a user description. Trying to geocode free text also involves some clever language processing techniques including removing noise/stop words and extracting significant fragments.</p><p>The point I am trying to make is that when GPS location fails you have to be very smart to find a user based on how they describe where they are.</p><p>Finally as an aside, if you are a tech conference organiser it is well worth setting up a conference Twitter account and persuading your attendees to follow. Although I hadn't considered this before FOWA, having a conference user allows you to see what people are saying about your event in real time. As I was party to the FOWA twitter account I could see what people thought of the speakers as they were on stage and how people thought the WIFI was poor, coffee to expensive and so on.</p><p>If you run a conference/social group and would be interested in trying out my application please let me know.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

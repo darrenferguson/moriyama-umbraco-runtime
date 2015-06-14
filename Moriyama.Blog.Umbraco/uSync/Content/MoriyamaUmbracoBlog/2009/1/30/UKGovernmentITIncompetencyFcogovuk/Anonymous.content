@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="797a9db1-4f9e-416f-abec-66c9bc31e5ba" id="2329" nodeName="Anonymous" isDoc="" updated="2013-07-07T08:17:58Z" parentGUID="c44c4157-e24c-4301-8887-d5996f7d4389" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-06T10:04:41</displayDate>
+  <title><![CDATA[Anonymous]]></title>
+  <name><![CDATA[Anonymous]]></name>
+  <email><![CDATA[philippe.parker@contentedmanagement.net]]></email>
+  <website></website>
+  <bodyText><![CDATA[I'd rather preserve my anonymity on this as I raised this with both the client and supplier when the web system was being built. The reasoning has been poorly explained.
+The web front end is completely detatched from the back end. Someone copies all the stuff you submit and enters it manually into a second back-office system. That system is a legacy one which isn't standards-based and can't take any variations in character set. But it's also a massive system processing all kinds of immigration data. It's a behemoth that is typical of so many government IT contracts of the last decade, commissioned and designed by muppets. And no one has a real exit strategy.
+It is true to say that there will be upgrades and there's a strategic plan to integrate back and front office by 8C5653DD-0D2E-4750-855E-B5FA32A8F716, but that's heavily dependent on government policy and funding. And even if those were in place you know that people will forget to state and prioritise the right requirements.
+Having said that, it is true to say that securing a visa is completely independent of the character set issue. So it's poor IT in this case rather than poor business.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

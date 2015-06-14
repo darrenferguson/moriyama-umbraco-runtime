@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="ccc1de82-ba10-439e-a6f8-34954ebecf4c" id="2241" nodeName="Darren" isDoc="" updated="2013-07-07T08:17:40.82Z" parentGUID="691c74dc-b77c-4086-a6cd-712b4a60072e" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-01T09:00:21</displayDate>
+  <title><![CDATA[Darren]]></title>
+  <name><![CDATA[Darren]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[Hi Warren there are plenty of good XSL-FO resources out there already so my doc only covers package specific configuration. 
+
+I'll make the doc available shortly.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

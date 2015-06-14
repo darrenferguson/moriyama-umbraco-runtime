@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="f1da7a5a-8026-4bfc-a927-2307604b86af" id="1897" nodeName="A brief summary of Umbraco codegarden 2009" isDoc="" updated="2013-07-07T08:18:12.507Z" parentGUID="fa9738a0-6b68-4838-ba93-fa8a820a054b" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/a-brief-summary-of-umbraco-codegarden-A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-06-27T12:29:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/e0kInt]]></shortUrl>
+  <summary><![CDATA['A brief summary of Umbraco codegarden A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2' - a blog post by Darren Ferguson about Umbraco store, Copenhagen, obligatory sunburn written on 27 June A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Umbraco store, Copenhagen, obligatory sunburn]]></tags>
+  <bodyText><![CDATA[<p>I'm back from Umbraco codegarden A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2 in Copenhagen with the
+obligatory sunburn. I'm a lot lighter in the wallet but enriched
+and nourished in terms of ideas and inspiration for web CMS.</p><p>As the title says, this is a brief summary. I just sat down and
+wrote up all of my mental notes from the conference and I realise
+that I have more to do than I honestly have time for. I've
+prioritised everything so that the commitments I made in open space
+sessions are top of the list.</p><p>Unfortunately for me Umbraco makes less than 5% of my
+professional commitments so time is very precious but I've left
+codegarden this year vowing to increase that 5% because I've
+realised that I want to work with Umbraco a lot more.</p><p>One of the ways to achieve this increase in Umbraco time is
+commercial packages. I attended an open space session on
+integrating the three current package repositories - store,
+our.umbraco and the original package repository - and out of this
+<a href="http://our.umbraco.org/wiki/codegarden-A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2/open-space-minutes/integrating-the-3-package-repositories">
+the minutes</a> show that I have a few actions. First I aim to
+document some best practices for creating commercial packages and
+secondly I'll release my framework application that allows you to
+quickly write some license providers that work with the Umbraco
+store by implementing some .net interfaces.</p><p>Some may argue that by promoting commercial packages I'm not
+really entering the spirit of the whole Umbraco and open source
+movement but my answer is simple. If I had an employer subsidising
+my Umbraco development then everything that I created would be
+free. Unfortunately that is just not the case. I'll still continue
+to release free Umbraco packages alongside my commercial
+offerings.</p><p>Continuing my focus on working more with Umbraco I attended open
+space sessions on <a href="http://our.umbraco.org/wiki/codegarden-A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2/open-space-minutes/umbraco-support">
+Umbraco support</a> and <a href="http://our.umbraco.org/wiki/codegarden-A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2/open-space-minutes/team-development">
+Team development</a> and at other sessions I got the answers from
+the core team that I needed in order to try and present Umbraco as
+a viable option for my larger financial services clients.</p><p>I've made a commitment to work more with Umbraco this year. I've
+set myself certain personal goals that I will asses on a regular
+basis to see if what I am trying to achieve is working.</p><p>So that was my personal codegarden experience. Some other
+highlights for me were:</p><ul><li>Launch of <a href="http://our.umbraco.org">our.umbraco.org</a>
+proving that Umbraco love their community</li><li>Putting faces to the names of all of those people (let's do a
+UK meet soon).</li><li>Discovering that I love open space. It isn't just for
+conference organisers who can't be bothered!</li><li>Great organic lunches and a fantastic venue that encouraged
+creativity.</li></ul><p>A couple of other points from the keynote that I can't really
+leave out:</p><ul><li>Umbraco 4.1 will be a native .net 3.5 application, with a few
+interesting new features.</li><li>Umbraco 5 will be a rewrite using asp.net MVC and not backwards
+compatible with previous releases.</li><li>Umbraco 4.1 will be stable and supported post release of
+Umbraco 5.</li></ul><p>So that was it codegarden. Thanks guys. See you all again next
+year I hope.</p><p>I'm going to get on to my to do list now. Watch this space.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

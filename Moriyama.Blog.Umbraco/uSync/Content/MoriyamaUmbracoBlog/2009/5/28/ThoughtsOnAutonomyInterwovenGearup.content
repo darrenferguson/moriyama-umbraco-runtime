@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="3130d64c-ab44-4b92-9ec1-89441731df27" id="1893" nodeName="Thoughts on Autonomy Interwoven Gearup" isDoc="" updated="2013-07-07T08:18:11.387Z" parentGUID="094721aa-508c-4a4f-bcc4-beffcdfe3a05" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/thoughts-on-autonomy-interwoven-gearup]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-05-28T20:49:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/hxHAXk]]></shortUrl>
+  <summary><![CDATA['Thoughts on Autonomy Interwoven Gearup' - a blog post by Darren Ferguson about Autonomy Interwoven, Claridges, Toby Bell, London, British Airways, Europe, United States, e - commerce, actual real time results, technology first, basic web standards, content management, search engines, synonym processing, US Federal Reserve, independent Interwoven consultant, XML, Autonomy technology, OCR, AV, facial recognition, GUI, Technology Internet written on 28 May A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Autonomy Interwoven, Claridges, Toby Bell, London, British Airways, Europe, United States, e - commerce, actual real time results, technology first, basic web standards, content management, search engines, synonym processing, US Federal Reserve, independent Interwoven consultant, XML, Autonomy technology, OCR, AV, facial recognition, GUI, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p><a href="/media/52834/WindowsLiveWriter_ThoughtsonAutonomyInterwovenGearup_B168_photo_4.jpg"><img src="/media/77608/9949_1.jpg" width="184" height="244" alt="photo" class="top" style="border-top-width: 0px; display: inline; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" /></a> Yesterday I attended
+<a href="http://www.interwoven.com/templatedata/events/gearup_A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2/iwov/index.html">
+Autonomy Interwoven gearup</a> at <a href="http://www.claridges.co.uk/">Claridges</a> in London.
+Interwoven were recently <a href="http://www.interwoven.com/components/pagenext.jsp?topic=NEWS::RELEASES&amp;dcr=templatedata/announcement/press-release/data/A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2/dcr-autonomy.xml">
+acquired by Autonomy</a> and as an independent Interwoven
+consultant with nearly 10 years experience I was keen to learn
+about the Autonomy product suite and how their integration into the
+Interwoven product suite would affect my day to day work.</p><p><strong>An Introduction:</strong></p><p>The day was presented in a slick style with an even slicker
+accompanying audio/visual presentations - I counted six AV
+technicians seated behind a black screen at the back of the room.
+The audience was a mix of technical, sales and marketing people
+from Autonomy Interwoven partners and customers. The tone was very
+marketing based - the whole day was really about how to to increase
+revenue through your website using Autonomy products. A large
+proportion of the audience wanted something different, in an
+interactive vote at the end of the day 38% of the audience voted
+that they'd like to see "more technical content" at the next
+gearup, twice the percentage of any other option.</p><p>Throughout the day I felt that the confidence of some of the
+presenters bordered on arrogance we were told that "Interwoven
+invented web content management" and there were constant references
+to Autonomy technology being market leading with "no competitors".
+Interestingly some of those who had worked with IDOL referred to it
+as "dated" and "clunky" in private conversations. I'm yet to get my
+teeth stuck into IDOL personally so I'll reserve judgement but we
+were consistently told throughout the day what the future of
+content was and how certain practices were dated. On this subject I
+feel compelled to make a point.</p><p><strong>A little rant:</strong></p><p>It is extremely hard to sit and be schooled about the "future"
+by an organisation whose <a href="http://www.interwoven.com/">corporate website</a> and <a href="http://devnet.interwoven.com/">developer support site</a>
+fail to implement some very basic web standards and best practices.
+Validating your pages against your declared DTD, Providing RSS
+Feeds and SEO friendly URLs are just a few extremely basic items
+that a leading ECM vendor should take the time to implement. Oh,
+and you can't search the developer site for key TeamSite
+terminology like DCR, XML and TPL because they are too short.
+They've been aware of this for years and it never changes.</p><p><strong>What I learned:</strong></p><p>A few quick bullet points:</p><ul><li><a href="http://www.interwoven.com/components/pagenext.jsp?topic=PRODUCT::TEAMSITE">
+TeamSite</a> 7 and <a href="http://www.interwoven.com/components/pagenext.jsp?topic=PRODUCT::LIVESITE">
+LiveSite</a> 7 to ship this year - focus will be on more IDOL
+integration.</li><li>LiveSite runtime available for .net platform.</li><li>Autonomy pledged continued support for all Interwoven products
+(including <a href="http://www.interwoven.com/components/pagenext.jsp?topic=PRODUCT::METATAGGER">
+MetaTagger</a>).</li><li>Autonomy have doubled the number of trained support staff.</li></ul><p><strong>IDOL:</strong></p><p>We were introduced to <a href="http://www.autonomy.com/idolserver">IDOL server</a>
+(Intelligent Data Operating Layer). TeamSite 6.7.2 SP1 ships with
+IDOL server and from what I understand all content that is entered
+into TeamSite is also consumed by IDOL via some kind of connector.
+IDOL is able to analyse unstructured content from a variety of
+sources - audio, video, email and many more - and "understand" it's
+meaning. There are lots of technologies in play here - OCR, speech
+to text, facial recognition to name a few - but the high level
+concept is that you can throw just about anything at IDOL (with
+minimal configuration) and it understands.</p><p>Let me explain a little about "understands". Like the rest of
+the day the notion of content being understood was reasonably vague
+but a lot of emotive language was used. IDOL can gauge sentiment,
+mood, intimacy and so on. My interpretation is that Autonomy are
+trying to tell us that their software is smart and it does all of
+that classification, summarisation, stemming and synonym processing
+without you having to think. They were also trying to tell us that
+it does more than that, an example given was how a search for dogs
+could yield results on Labradors and how IDOL may have a notion
+that dogs are used by the police. Good stuff maybe, but a bit too
+high level for my liking.</p><p>The demonstrations that we were given were unclear as to how
+data is retrieved from IDOL though I got the impression that
+SitePublisher components are shipped with the new version of
+TeamSite which somehow query the IDOL repository. I was also left
+unclear as to where IDOL sits within my environment - on the CMS
+server, in my production environment - and what kind of hardware
+resources it requires. I'm also wondering where the revenue comes
+from - If we get IDOL server for free what do we have to buy? Are
+we getting hooked on this new technology first and the paid for
+stuff that we can't resist gets brought into play later?</p><p>To be honest it was a bit of an information overload with IDOL,
+we saw it create tag clouds of user sentiment, create user
+profiling, recognise people words and video and I must admit it
+left me wanting to try it out. One point of note was that we were
+shown a scenario where a customer dialling in to a call centre
+casually mentioned the Chicago cubs and was presented with an
+application form for a Cubs credit card the next time they visited
+the company website. This may be fine in the US, I'd be a bit
+careful about that kind of behaviour in Europe though - perhaps do
+some reading up ob <a href="http://en.wikipedia.org/wiki/Phorm">PHORM</a>.</p><p>There was also an impressive demo of <a href="http://www.interwoven.com/components/pagenext.jsp?topic=PRODUCT::MEDIABIN">
+MediaBin</a> combined with Autonomy Virage - now one product -which
+was able to automatically transcribe a video audio track. The
+demonstration ware pre-recorded. It would have been much more fun
+to see a video of one the presentations on the day fed into the
+software so we could see the actual real time results. Text to
+speech is still far from perfect and audio tracks which aren't
+clear and regional accents can still confuse the hell out of some
+systems. If Autonomy wanted to show us how powerful their software
+was they should have let a member of the audience talk to it.</p><p><strong>Integrated Analytics:</strong></p><p>Well no, not really. The new version of TeamSite allows you to
+view some analytical data <strong>*if*</strong> you are a <a href="http://www.webtrends.com/">Webtrends</a> customer. To be
+honest it wasn't that impressive it was just a bunch of standard
+Webtrends reports linked to from the contentcenter GUI.</p><p><strong>Optimost:</strong></p><p>TeamSite 6.7.2 SP1 also has an optional (paid for) component
+that allows you to test different permutations of a web page in
+order to determine which was most successful - aka multi-variable
+testing - success is gauged by the user reaching a 'goal' page on
+your website. The permutations would be subtle copy or colour
+changes in your website and you are able to rule out specific
+permutations to gradually reach the 'winner' page. I wasn't sure
+about this personally as I didn't like the idea of an ever changing
+page and how this would affect it's page rank with search engines.
+There was no demonstration of how the test results are presented
+and whether it breaks users down by any demographics within the
+results, but I did speak to a user from British Airways who was
+very satisfied with the result that <a href="http://www.optimost.com/">Optimost</a> had yielded and he
+claimed that the optimisations that they had made had easily paid
+for the software in a very short space of time.</p><p><strong>A few moans:</strong></p><p>I didn't like the fact that the executive Q&amp;A session wasn't
+opened up to the floor, we had to provide our questions on paper at
+the end of the first session and they were vetted over the
+following hour before the ones which were selected were asked to
+the company executives on stage. I also thought that each
+individual presentation could have been opened up to questions at
+the end, but each presenter finished up exited the stage and the
+next demonstration video kicked in.</p><p>In my opinion they could have easily lost a couple of sessions
+such as Toby Bell of Gartner, a presentation from Fidelity on how
+they built their new website and a Q&amp;A on e-commerce with some
+executives of Autonomy Interwoven customers. I feel that these
+would have been much better replaced with more audience
+participation but then again Interwoven have always been quite a
+closed organisation and I hear that Autonomy are even more so. For
+the record I thought Toby Bell delivered a good presentation but it
+didn't relate specifically to any Autonomy Interwoven products.</p><p><strong>To Conclude:</strong></p><p>All in all it was an interesting day. I'm looking forward to
+getting my hands on some of the technology that Autonomy are
+bringing to the Interwoven product suite. Unfortunately some of it
+will be forever out of my reach as they don't really do
+evaluations. There is a market for technical workshops where
+developers like me get our hands on this technology maybe these
+could run alongside gearup in future.</p><p>Claridges is a lovely hotel, lunch was fantastic and it was fun
+to catch up with some old colleagues, meet some new people and put
+faces to names of people that I knew by reputation.</p><p>I'd love to here some feedback from any other attendees. I'd
+love to here from Autonomy Interwoven to see whether they think
+I've been fair with my comments and particularly on whether they
+plan to address any of the basic issues with their corporate sites
+- I'm here and very willing to help if you want to be helped!</p><p>If what we saw yesterday is true IDOL Social Media Analysis will
+probably read, classify and derive the meaning and sentiment of my
+blog post and let someone at Autonomy know about it. For all I know
+it may even respond automatically!</p><p>I'm sure I've missed something, but then a day with so much
+detail is very difficult to summarise.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

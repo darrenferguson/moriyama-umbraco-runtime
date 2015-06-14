@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="b885e473-71ba-443d-a1ee-cd482a0ecd4b" id="1863" nodeName="Keeping up with the Umbraco community" isDoc="" updated="2013-10-28T17:23:17.637Z" parentGUID="4b336239-9e72-4bda-a687-f35df2886514" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/keeping-up-with-the-umbraco-community]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-03T14:44:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/eBfTjH]]></shortUrl>
+  <summary><![CDATA['Keeping up with the Umbraco community' - a blog post by Darren Ferguson about JSON, XSLT written on 03 July 9997642C-5F5C-4A03-A353-2E7B493113A9]]></summary>
+  <tags><![CDATA[JSON, XSLT]]></tags>
+  <bodyText><![CDATA[
+<p>Keeping up with the Umbraco community can be quite
+exhausting.</p>
+
+<p>I maintain an Umbrao pipe at <a
+href="http://pipes.yahoo.com/darren/umbraco">http://pipes.yahoo.com/darren/umbraco</a></p>
+
+<p>From this URL you can get an <a
+href="http://pipes.yahoo.com/pipes/pipe.run?_id=LpsMqTW93BGWDsk2mLokhQ&amp;_render=rss">
+RSS</a>, <a
+href="http://pipes.yahoo.com/pipes/pipe.run?_id=LpsMqTW93BGWDsk2mLokhQ&amp;_render=json">
+JSON</a> or a number of other formats.</p>
+
+<p>I'd like the pipe to to be as complete as possible. If you run
+an Umbraco related blog and you aren't listed in the pipe sources
+on the left of the <a
+href="http://pipes.yahoo.com/darren/umbraco">screen</a> please let
+me know so I can add your site (by commenting on this post).</p>
+
+<p>This is potentially a very useful resource and can save several
+hours of browsing from site to site. It also beats having tens of
+feeds in your reader as posts on the pipe average 3-4 per day.</p>
+
+<p>I'd also encourage any Umbraco blog owners to provide a comments
+RSS if possible. I often participate in comment discussions and
+have to revisit the site to check for updates. It'd be great to
+have them all in my reader. I looked at <a
+href="http://www.cocomment.com/">cocomment</a> to address this, but
+in my opinion it is over complex and doesn't seem to work very
+well.</p>
+
+<p>The XSLT I use to produce my comments RSS is as follows:</p>
+
+<pre class="brush: xml;">
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;<br />
+&lt;xsl:stylesheet<br />
+ version="1.0"<br />
+ xmlns:xsl="http://www.w3.org/E345183D-D150-4F8E-A7F8-7888FD189F8B/XSL/Transform"<br />
+ xmlns:msxml="urn:schemas-microsoft-com:xslt"<br />
+ xmlns:umbraco.library="urn:umbraco.library"<br />
+ xmlns:dc="http://purl.org/dc/elements/1.1/"<br />
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"<br />
+ exclude-result-prefixes="msxml umbraco.library"&gt;<br />
+<br />
+<br />
+    &lt;xsl:output method="xml" omit-xml-declaration="yes"/&gt;<br />
+<br />
+    &lt;xsl:param name="currentPage"/&gt;<br />
+<br />
+    &lt;xsl:variable name="howMany"&gt;<br />
+        20<br />
+    &lt;/xsl:variable&gt;<br />
+    &lt;xsl:variable name="posts" select="$currentPage/descendant-or-self::node [@nodeTypeAlias='umbracoBlogComment']"/&gt;<br />
+    &lt;xsl:variable name="total" select="count($posts)"/&gt;<br />
+    &lt;xsl:variable name="pubDate"&gt;<br />
+        &lt;xsl:for-each select="$currentPage/descendant::node [@nodeTypeAlias='umbracoBlogComment']"&gt;<br />
+            &lt;xsl:sort select="@createDate" data-type="text" order="descending"/&gt;<br />
+            &lt;xsl:if test="position() = 1"&gt;<br />
+                &lt;xsl:value-of select="@createDate"/&gt;<br />
+            &lt;/xsl:if&gt;<br />
+        &lt;/xsl:for-each&gt;<br />
+    &lt;/xsl:variable&gt;<br />
+<br />
+    &lt;xsl:template match="/"&gt;<br />
+        &lt;rss version="2.0"&gt;<br />
+            &lt;channel&gt;<br />
+                &lt;title&gt;<br />
+                    Darren Ferguson - Blog comments<br />
+                &lt;/title&gt;<br />
+                &lt;link&gt;<br />
+                    /?altTemplate=CommentRSS<br />
+                &lt;/link&gt;<br />
+                &lt;pubDate&gt;<br />
+                    &lt;xsl:value-of select="$pubDate"/&gt;<br />
+                &lt;/pubDate&gt;<br />
+                &lt;generator&gt;<br />
+                    umbraco 3.0.5<br />
+                &lt;/generator&gt;<br />
+                &lt;language&gt;<br />
+                    en<br />
+                &lt;/language&gt;<br />
+<br />
+                &lt;xsl:apply-templates select="$currentPage/descendant-or-self::node [@nodeTypeAlias='umbracoBlogComment']"&gt;<br />
+                    &lt;xsl:sort select="@createDate" order="descending"/&gt;<br />
+                &lt;/xsl:apply-templates&gt;<br />
+            &lt;/channel&gt;<br />
+        &lt;/rss&gt;<br />
+<br />
+<br />
+    &lt;/xsl:template&gt;<br />
+<br />
+    &lt;xsl:template match="node"&gt;<br />
+<br />
+        &lt;xsl:if test="position() &lt;= $howMany"&gt;<br />
+            &lt;item&gt;<br />
+                &lt;title&gt;<br />
+                    &lt;xsl:value-of select="@nodeName"/&gt;<br />
+                &lt;/title&gt;<br />
+                &lt;link&gt;<br />
+                    /&lt;xsl:value-of select="@id"/&gt;.aspx<br />
+                &lt;/link&gt;<br />
+                &lt;pubDate&gt;<br />
+                    &lt;xsl:value-of select="@createDate"/&gt;<br />
+                &lt;/pubDate&gt;<br />
+                &lt;dc:creator&gt;<br />
+                    &lt;xsl:value-of select="./data [@alias='name']"/&gt;<br />
+                &lt;/dc:creator&gt;<br />
+                &lt;guid&gt;<br />
+                    /&lt;xsl:value-of select="@id"/&gt;.aspx<br />
+                &lt;/guid&gt;<br />
+                &lt;content:encoded&gt;<br />
+                    &lt;xsl:value-of select="concat('&lt;![CDATA[ ', ./data [@alias='comment'],']]&gt;')" disable-output-escaping="yes"/&gt;<br />
+                &lt;/content:encoded&gt;<br />
+            &lt;/item&gt;<br />
+        &lt;/xsl:if&gt;<br />
+    &lt;/xsl:template&gt;<br />
+<br />
+&lt;/xsl:stylesheet&gt;
+</pre>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="6af2bc43-cc3b-4cc0-a406-1e6aa7d09961" id="2680" nodeName="Dan Diplo" isDoc="" updated="2013-07-07T08:17:48.443Z" parentGUID="099ef787-61fa-4e80-a973-8ad1f06cac93" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-06-21T12:47:22.967</displayDate>
+  <title><![CDATA[Dan Diplo]]></title>
+  <name><![CDATA[Dan Diplo]]></name>
+  <email><![CDATA[dan@diplo.co.uk]]></email>
+  <website><![CDATA[http://www.diplo.co.uk/]]></website>
+  <bodyText><![CDATA[Nice package! Funnily enough I also, independently, create an Open Calais data-type for Umbraco, too. Mine works slightly differently, but never got around to releasing it. Nice that you have :)]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

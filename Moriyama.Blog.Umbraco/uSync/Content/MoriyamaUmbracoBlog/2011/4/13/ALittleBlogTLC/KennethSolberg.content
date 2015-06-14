@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="8b5e0dca-0dba-4b5c-bd09-c59ab511e233" id="2663" nodeName="Kenneth Solberg" isDoc="" updated="2013-07-07T08:17:30.467Z" parentGUID="18a43946-0a03-41b9-9753-499d9d22cb10" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-04-15T09:43:26.183</displayDate>
+  <title><![CDATA[Kenneth Solberg]]></title>
+  <name><![CDATA[Kenneth Solberg]]></name>
+  <email><![CDATA[kenneth.solberg@gmail.com]]></email>
+  <website><![CDATA[http://kenny.no/]]></website>
+  <bodyText><![CDATA[Would be cool with some more details on how you did the OpenCalais stuff. Cheers!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

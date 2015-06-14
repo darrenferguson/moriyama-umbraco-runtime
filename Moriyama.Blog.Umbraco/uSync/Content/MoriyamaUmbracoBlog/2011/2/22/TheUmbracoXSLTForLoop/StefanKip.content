@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="c50dcee8-5d90-45ac-b54e-90ca31d97ff2" id="2628" nodeName="Stefan Kip" isDoc="" updated="2013-07-07T08:17:28.513Z" parentGUID="ba683cb2-2d83-460c-9bc9-619ee54984d2" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-02-22T15:54:48.977</displayDate>
+  <title><![CDATA[Stefan Kip]]></title>
+  <name><![CDATA[Stefan Kip]]></name>
+  <email><![CDATA[mail@kipusoep.nl]]></email>
+  <website><![CDATA[http://tech.kipusoep.nl]]></website>
+  <bodyText><![CDATA[So when one uses XSLT, you still kind of need .NET? :P]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

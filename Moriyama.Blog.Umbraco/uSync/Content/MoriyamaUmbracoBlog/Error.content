@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogTextPage guid="7768d0f7-b0e6-4a15-9a38-9d866cf98dbc" id="3120" nodeName="Error" isDoc="" updated="2013-10-28T18:08:00.057Z" parentGUID="6df97d27-68ea-44e9-8190-fb5c74a4e7e4" nodeTypeAlias="BlogTextPage" templateAlias="BlogTextPage" sortOrder="10" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>1</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate></displayDate>
+  <title></title>
+  <shortUrl></shortUrl>
+  <summary></summary>
+  <tags></tags>
+  <bodyText><![CDATA[<p>An error occured.</p>]]></bodyText>
+</BlogTextPage>

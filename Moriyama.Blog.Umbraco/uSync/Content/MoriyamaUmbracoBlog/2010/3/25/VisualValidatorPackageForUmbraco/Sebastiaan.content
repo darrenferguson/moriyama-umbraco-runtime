@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="85ded372-622b-446e-896c-a05deca77727" id="2237" nodeName="Sebastiaan" isDoc="" updated="2013-07-07T08:17:40.32Z" parentGUID="f64e3f8d-3551-42dd-8703-5e971337ed76" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-03-25T09:45:01</displayDate>
+  <title><![CDATA[Sebastiaan]]></title>
+  <name><![CDATA[Sebastiaan]]></name>
+  <email><![CDATA[gravatar.com@cork.nl]]></email>
+  <website><![CDATA[http://cultiv.nl]]></website>
+  <bodyText><![CDATA[Thanks Darren, very cool package. 
+I like how you put in a that clever dummy property that work on all of the fields. Got to remember that trick!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

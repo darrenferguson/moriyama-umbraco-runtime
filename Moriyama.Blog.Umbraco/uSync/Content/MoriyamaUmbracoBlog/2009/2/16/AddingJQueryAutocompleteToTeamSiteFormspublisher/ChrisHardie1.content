@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="68d700f3-9294-43cd-a278-7e4fb8e62c54" id="2344" nodeName="Chris Hardie (1)" isDoc="" updated="2013-07-07T08:18:01.317Z" parentGUID="ab345438-ee3f-4af8-8151-197a5a426dd8" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-16T16:51:04</displayDate>
+  <title><![CDATA[Chris Hardie (1)]]></title>
+  <name><![CDATA[Chris Hardie (1)]]></name>
+  <email><![CDATA[chrishardie@nextdesigns.ca]]></email>
+  <website><![CDATA[http://www.nextdesigns.ca]]></website>
+  <bodyText><![CDATA[As an aside, have you tried this in Firefox? In o.LoadScripts(), the else block is never executed so o.topFrameLoaded() is never fired. Works like a charm in IE tho.
+
+C.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

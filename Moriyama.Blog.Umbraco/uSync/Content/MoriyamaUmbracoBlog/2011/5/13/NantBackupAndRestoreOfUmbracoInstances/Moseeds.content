@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="6251234b-0f2b-451d-a65a-22af877eabf6" id="2676" nodeName="Moseeds" isDoc="" updated="2013-07-07T08:17:31.54Z" parentGUID="24f0e08e-84f6-4aea-9079-4a085465d8a1" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-05-13T10:09:36.233</displayDate>
+  <title><![CDATA[Moseeds]]></title>
+  <name><![CDATA[Moseeds]]></name>
+  <email><![CDATA[mo@smarta.com]]></email>
+  <website><![CDATA[http://www.smarta.com]]></website>
+  <bodyText><![CDATA[This is really cool and really useful for testing on VMs etc. Great work once again!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

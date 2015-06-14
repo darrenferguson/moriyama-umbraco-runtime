@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="992be014-9097-436a-a39d-a90ec147997c" id="1918" nodeName="Screencast: Broken Link checker for Umbraco" isDoc="" updated="2013-07-07T08:17:35.62Z" parentGUID="9e6ff1dc-2a09-4f0a-8e55-2f838356a26f" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/screencast-broken-link-checker-for-umbraco]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-02-04T18:52:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/e5NDe7]]></shortUrl>
+  <summary><![CDATA['Screencast: Broken Link checker for Umbraco' - a blog post by Darren Ferguson about JavaScript, Link checker, Social Issues, Technology Internet written on 04 February B29A5211-DC51-46BB-B283-8510D165CA40]]></summary>
+  <tags><![CDATA[JavaScript, Link checker, Social Issues, Technology Internet]]></tags>
+  <bodyText><![CDATA[<script type="text/javascript" src="/scripts/swfobject.js"></script><script type="text/javascript">
+swfobject.registerObject("csSWF", "9.0.115", "/media/16117/expressinstall.swf");
+</script><p>
+This screencast is a demonstration of <a href="http://our.umbraco.org/projects/broken-link-checker">Broken Link checker for Umbraco</a>. Comments, suggestions and feedback are welcome.
+</p><div id="media20100224"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="776" height="600" id="csSWF"><param name="movie" value="/media/Broken Link for Umbraco_controller.swf" /><param name="quality" value="best" /><param name="bgcolor" value="#1a1a1a" /><param name="allowfullscreen" value="true" /><param name="scale" value="showall" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="autostart=false&amp;thumb=/media/FirstFrame.png&amp;thumbscale=45&amp;color=0x1A1A1A,0x1A1A1A" /><!--[if !IE]>--><object type="application/x-shockwave-flash" data="/media/Broken Link for Umbraco_controller.swf" width="776" height="600"><param name="quality" value="best" /><param name="bgcolor" value="#1a1a1a" /><param name="allowfullscreen" value="true" /><param name="scale" value="showall" /><param name="allowscriptaccess" value="always" /><param name="flashvars" value="autostart=false&amp;thumb=/media/FirstFrame.png&amp;thumbscale=45&amp;color=0x1A1A1A,0x1A1A1A" /><!--<![endif]--><div id="noUpdate20100224"><p>The Camtasia Studio video content presented here requires a more recent version of the Adobe Flash Player. If you are you using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Flash Player by <a href="http://www.adobe.com/go/getflashplayer">downloading here</a>.</p></div><!--[if !IE]>--></object><!--<![endif]--></object></div>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="dd85e4c3-f436-4ac4-9bb1-88a8219534c6" id="1815" nodeName="Umbraco backup beta 2 updated" isDoc="" updated="2013-10-28T17:22:28.607Z" parentGUID="4a9d1241-595d-47a1-b6f7-a94e0ee03e33" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-backup-beta-2-updated]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-05T08:24:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/hLNowL]]></shortUrl>
+  <summary><![CDATA['Umbraco backup beta 2 updated' - a blog post by Darren Ferguson about Backed, XML written on 05 August F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Backed, XML]]></tags>
+  <bodyText><![CDATA[<p>
+I just replaced the Umbraco backup beta 2 package which you can get from the <a href="/umbraco-backup.aspx">project homepage</a>.
+</p><p>
+A couple of minor bugs have been fixed and thanks to some feedback from <a href="http://www.hartvig.com">Niels</a> Umbraco backup now tells you what it has done in a nicer manner...
+</p><p><i>Report for Backup 474bf157-d508-4e4f-b0bc-1322ae5d537e<br />
+File backup status: Suceeded<br />
+Database backup status: Suceeded<br /><br />
+Backed up 1237 files. 55657635 bytes.<br />
+Started: 8:31:15 PM<br />
+Finished: 8:38:14 PM<br />
+Elapsed time: 0 hours, 6 minutes and 59 seconds.
+<br /><br />
+Running as SHRGB-HBXGB\wsh1009-10448<br />
+Virtual Directory: Access is denied<br />
+Created directory D:\WWWRoot\darren-ferguson.com\database\474bf157-d508-4e4f-b0bc-1322ae5d537e<br />
+Remote XML<br />
+Saving database table: dtproperties<br />
+Saving database table: cmsContent<br />
+Saving database table: cmsContentType<br />
+Saving database table: cmsContentTypeAllowedContentType</i></p><p>
+Please keep the feedback coming, it helps make this a better product.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

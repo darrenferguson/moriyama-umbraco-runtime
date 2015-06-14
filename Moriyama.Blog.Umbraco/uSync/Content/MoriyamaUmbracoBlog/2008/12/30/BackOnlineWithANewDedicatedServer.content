@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="fd41d7f8-d981-442c-a67e-4aeb63b1d28c" id="1851" nodeName="Back online with a new dedicated server" isDoc="" updated="2013-10-28T17:23:00.983Z" parentGUID="6076df7e-4ba3-47ba-8971-25b8814270a1" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/back-online-with-a-new-dedicated-server]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-12-30T15:01:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/ghmwng]]></shortUrl>
+  <summary><![CDATA['Back online with a new dedicated server' - a blog post by Darren Ferguson about Human Interest written on 30 December 9997642C-5F5C-4A03-A353-2E7B493113A9]]></summary>
+  <tags><![CDATA[Human Interest]]></tags>
+  <bodyText><![CDATA[<p>My site is back online after a little enforced downtime. I was having real stability problems using a WebFusion VPS and as far as I am concerned their introductory VPS package is unfit for purpose. I'd strongly recommend that you don't attempt to host an Umbraco site with them.</p><p>The more eagle eyed amongst you may notice that a couple of posts went missing. I'll just say that I have learned the hard way to check whether my scheduled database backups are running or not.</p><p>Anyway, I am back up and running on a dedicated server. Hopefully my site(s) should be a little more stable now.</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

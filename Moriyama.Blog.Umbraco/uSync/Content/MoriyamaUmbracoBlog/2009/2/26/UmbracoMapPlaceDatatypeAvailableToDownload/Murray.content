@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="46d4c969-c23f-41a1-bffc-ca7c7f388e80" id="2373" nodeName="Murray" isDoc="" updated="2013-07-07T08:18:04.567Z" parentGUID="5c0b75fb-dd63-412a-9a10-e6305ef8e91f" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-26T22:28:26</displayDate>
+  <title><![CDATA[Murray]]></title>
+  <name><![CDATA[Murray]]></name>
+  <email><![CDATA[murray@terabyte.co.nz]]></email>
+  <website><![CDATA[http://www.terabyte.co.nz]]></website>
+  <bodyText><![CDATA[Hi Darren, 
+Looks excelent,
+The config looks very close to what I've already written for the web.config, I assume If I put multiple domin nodes into it will auto detect which key to use.
+
+I don't know how, but it would be great if I didn't have to store the keys in multiple places? :-)
+
+Cheers.
+Murray.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

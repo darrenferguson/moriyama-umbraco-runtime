@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="357141e4-0239-4ee2-a7a6-cfcdc14bf926" id="1901" nodeName="What kind of UK Umbraco meetup do you want." isDoc="" updated="2013-07-07T08:18:12.833Z" parentGUID="a0b71112-535b-4c4c-adc0-8db918796461" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/what-kind-of-uk-umbraco-meetup-do-you-want]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-02T09:19:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/dLXYzu]]></shortUrl>
+  <summary><![CDATA['What kind of UK Umbraco meetup do you want.' - a blog post by Darren Ferguson written on 02 July A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags></tags>
+  <bodyText><![CDATA[<p>If you are interested in attending an Umbraco UK meet up please
+fill out the <a href="http://www.kwiksurveys.com/online-survey.php?surveyID=ICHKK_966ae858">
+following survey</a>. I'll let this survey run for another 5 days
+and then make the results public in the forum at <a href="http://our.umbraco.org">our.umbraco.org</a>.</p><p>I'm not necessarily committing  to organise a meet up here,
+just trying to get a sense for where/when and what should happen
+according to the UK community.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

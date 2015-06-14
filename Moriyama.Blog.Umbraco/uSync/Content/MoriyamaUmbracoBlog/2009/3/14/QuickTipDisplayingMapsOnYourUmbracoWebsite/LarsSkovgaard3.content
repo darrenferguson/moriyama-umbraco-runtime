@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="b9e6b288-b998-44ef-b3a7-3dfd563ad839" id="2395" nodeName="Lars Skovgaard (3)" isDoc="" updated="2013-07-07T08:18:06.9Z" parentGUID="3d7d6134-2bd1-4ee2-899b-4a62340deb94" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="16" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-09-22T15:56:53</displayDate>
+  <title><![CDATA[Lars Skovgaard (3)]]></title>
+  <name><![CDATA[Lars Skovgaard (3)]]></name>
+  <email><![CDATA[lars@skovgaarddesign.dk]]></email>
+  <website><![CDATA[http://www.cafax.dk/forhandler-test.aspx]]></website>
+  <bodyText><![CDATA[Hi again, Darren
+
+I've been hacking a little more at it and gotten as far as the Javascript console telling me that "GMap2 is not defined". Any clues?
+
+/Lars]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

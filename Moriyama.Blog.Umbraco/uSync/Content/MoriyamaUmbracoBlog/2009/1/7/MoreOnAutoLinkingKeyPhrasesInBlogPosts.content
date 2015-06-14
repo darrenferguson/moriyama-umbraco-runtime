@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="0c2d2667-3ad2-4abf-aa6b-3d50da514078" id="1878" nodeName="More on auto linking key phrases in blog posts" isDoc="" updated="2013-07-07T08:17:50.72Z" parentGUID="855e8411-60d1-40ba-8290-5c06f66a2f7f" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/more-on-auto-linking-key-phrases-in-blog-posts]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-07T09:37:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/dGgYLb]]></shortUrl>
+  <summary><![CDATA['More on auto linking key phrases in blog posts' - a blog post by Darren Ferguson about Perl, C, JSON, XSLT written on 07 January A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Perl, C, JSON, XSLT]]></tags>
+  <bodyText><![CDATA[<p>Following on from my previous post I had some more time to think
+about how to implement automatic linking of key words and phrases
+within blog posts.</p><p>The comments on my previous post were very helpful and gave two
+alternatives as to when the links should be applied. My first step
+was to come up with some configuration to drive the linking. I came
+up with the following JSON.</p><pre class="sh_javascript" style="border: 1px solid black; background-color: #eeeeee; padding: 7px;">
+
+{<br />
+    "linkattribs": {<br />
+      "target": "blank",<br />
+        "class": "test",<br />
+      "onClick": "return clickHandler();"<br />
+   },<br />
+    "items": [<br />
+        {<br />
+            "phrases": [<br />
+              "Umbraco 4", "Umbraco", "Boost"<br />
+           ],<br />
+            "link": "http://www.umbraco.org/",<br />
+            "enabled": true<br />
+       },<br />
+        {<br />
+         "phrases": [<br />
+              "Me", "Darren", "Darren Ferguson"<br />
+         ],<br />
+            "link": "",<br />
+           "enabled": true<br />
+       },<br />
+        {<br />
+         "phrases": [<br />
+              "Liverpool", "The reds"<br />
+           ],<br />
+            "link": "http://www.liverpoolfc.tv/",<br />
+         "enabled": true,<br />
+          "linkattribs": {<br />
+              "onMouseOver": "liverpoolLinkHandler();"<br />
+          }<br />
+     },<br />
+        {<br />
+         "phrases": [<br />
+              "TinyMCE"<br />
+         ],<br />
+            "link": "http://tinymce.moxiecode.com/",<br />
+          "enabled": true<br />
+       },<br />
+        {<br />
+         "phrases": [<br />
+              "livewriter", "Live writer"<br />
+           ],<br />
+            "link": "http://windowslivewriter.spaces.live.com/",<br />
+          "enabled": true<br />
+       },<br />
+        {<br />
+         "phrases": [<br />
+              "livewriter", "Lucene"<br />
+            ],<br />
+            "link": "http://en.wikipedia.org/wiki/Lucene",<br />
+            "enabled": true<br />
+       }<br />
+ ]<br /><br />
+}<br /></pre><p>My next step was to quickly create some Perl code to apply the
+links to some markup (proof of concept before converting to
+C#).</p><pre class="sh_perl" style="border: 1px solid black; background-color: #eeeeee; padding: 7px;">
+
+use strict;<br />
+use utf8;<br /><br />
+use JSON;<br />
+use File::Slurp;<br />
+use Data::Dumper;<br /><br />
+my $post = read_file('post.txt') ;<br />
+my $config = read_file('config.json');<br /><br />
+$config = from_json($config);<br /><br />
+foreach my $item (@{$config-&gt;{items}}) {<br /><br />
+  if($item-&gt;{enabled}) {<br /><br />
+      my $link = $item-&gt;{link};<br />
+      my $tag = build_link_tag($item-&gt;{link});<br /><br />
+      foreach my $phrase (@{$item-&gt;{phrases}}) {<br />
+         $phrase =~ s| |\\s\+|gsm;<br />
+         $post =~ s|\s($phrase)\s| $tag$1&lt;/a&gt; |igsm;<br />
+     }<br />
+ }<br />
+}<br /><br />
+print $post;<br /><br />
+sub build_link_tag {<br /><br />
+  my $link = shift;<br />
+ return qq(&lt;a href="$link"&gt;);<br />
+}<br /></pre><p>Finally, the (untested) C# version.</p><pre class="sh_csharp" style="border: 1px solid black; background-color: #eeeeee; padding: 7px;">
+
+using System;<br />
+using System.Web;<br />
+using System.Configuration;<br />
+using System.IO;<br />
+using System.Net.Json;<br />
+using System.Text.RegularExpressions;<br /><br />
+namespace FergusonMoriyama.ContentLinker<br />
+{<br />
+    public class Linker<br />
+    {<br />
+        public static String parseContent(String post) {<br /><br />
+            String umbPath = ConfigurationManager.AppSettings["umbracoPath"];<br />
+            String configFile = HttpContext.Current.Server.MapPath(umbPath);<br /><br />
+            configFile = Path.Combine(configFile, @"\plugins\FergusonMoriyama\ContentLinker\config.json");<br />
+            StreamReader reader = File.OpenText(configFile);<br />
+            String configJson = reader.ReadToEnd();<br />
+            reader.Close();<br /><br />
+            JsonTextParser parser = new JsonTextParser();<br />
+            JsonObject configObj = parser.Parse(configJson);<br />
+            JsonObjectCollection config = (JsonObjectCollection)configObj;<br /><br />
+            JsonArrayCollection items = (JsonArrayCollection)config["items"];<br /><br />
+            foreach (JsonObjectCollection item in items)<br />
+            {<br />
+                bool enabled = (bool)item["enabled"].GetValue();<br />
+                if (enabled)<br />
+                {<br />
+                    String link = (String)item["link"].GetValue();<br />
+                    String tag = "&lt;a href=\"" + link + "\"&gt;";<br />
+                    JsonArrayCollection phrases = (JsonArrayCollection)item["phrases"];<br />
+                    foreach (JsonStringValue phrase in phrases)<br />
+                    {<br />
+                        String p = phrase.Value;<br />
+                        p = p.Replace(" ", @"\s\+");<br /><br />
+                        // Console.WriteLine(p);<br />
+                        post = Regex.Replace(post, @"\s(" + p + @")\s", " " + tag + "$1&lt;/a&gt; ");<br /><br />
+                    }<br />
+                }<br />
+            }<br /><br />
+            return post;<br /><br />
+        }<br />
+    }<br />
+}<br /></pre><p>This needs to be wrapped up as an Umbraco XSLT extension or get
+called as some sort of TinyMCE plug-in. I'll get around to this at
+some point soon.</p><p>I added the ability to add attributes to links in the config but
+haven't implemented these in the code just yet. Any further
+comments and suggestions would be much appreciated. When I'm happy
+I'll make an Umbraco package and make it available for
+everyone.</p><p>Finally, one thing I noticed when testing this is that your
+links obviously get added in the order that they appear in
+configuration. If you have a phrase 'Umbraco' and 'Umbraco 4' in
+your configuration 'Umbraco 4' would need to come first otherwise
+it would never be matched.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

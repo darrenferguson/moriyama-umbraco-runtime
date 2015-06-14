@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="24fbd87d-f118-48cc-adcc-15affa645017" id="2474" nodeName="Gerty" isDoc="" updated="2013-10-28T17:23:23.377Z" parentGUID="177c311e-2d57-48ef-954e-a0cd5a3c20dc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="5" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-08T12:43:24</displayDate>
+  <title><![CDATA[Gerty]]></title>
+  <name><![CDATA[Gerty]]></name>
+  <email><![CDATA[gerty@netcentric.be]]></email>
+  <website><![CDATA[http://www.netcentric.be]]></website>
+  <bodyText><![CDATA[testing :-)]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

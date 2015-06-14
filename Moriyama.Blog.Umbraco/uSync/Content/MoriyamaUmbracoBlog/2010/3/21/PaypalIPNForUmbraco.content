@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="a22624d0-3de3-4ba8-9e51-b7dca2b1d474" id="1920" nodeName="Paypal IPN for Umbraco" isDoc="" updated="2013-07-07T08:17:39.97Z" parentGUID="0de35812-924a-436a-81fc-3f8c00645ad0" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/paypal-ipn-for-umbraco]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-03-21T07:20:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fi66ux]]></shortUrl>
+  <summary><![CDATA['Paypal IPN for Umbraco' - a blog post by Darren Ferguson about Paypal written on 21 March B29A5211-DC51-46BB-B283-8510D165CA40]]></summary>
+  <tags><![CDATA[Paypal]]></tags>
+  <bodyText><![CDATA[<p>I've created an Umbraco package that receives Paypal IPN (Instant payment notification) requests and stores them as a content node in Umbraco. The video below is a demonstration of the package.</p><p>
+Get the package from <a href="http://our.umbraco.org/projects/paypal-ipn">our.umbraco.org</a></p><p><object width="520" height="390" data="http://www.vimeo.com/moogaloop.swf?clip_id=10312565&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://www.vimeo.com/moogaloop.swf?clip_id=10312565&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /></object></p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

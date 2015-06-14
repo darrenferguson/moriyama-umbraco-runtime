@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="bc94d3f5-10d5-479d-94a4-0e4c46968974" id="2238" nodeName="Warren Buckley" isDoc="" updated="2013-07-07T08:17:40.417Z" parentGUID="f64e3f8d-3551-42dd-8703-5e971337ed76" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-03-25T09:57:27</displayDate>
+  <title><![CDATA[Warren Buckley]]></title>
+  <name><![CDATA[Warren Buckley]]></name>
+  <email><![CDATA[warren@creativewebspecialist.co.uk]]></email>
+  <website><![CDATA[http://www.creativewebspecialist.co.uk]]></website>
+  <bodyText><![CDATA[Hiya Darren,
+This looks a great package and a useful addition to the Umbraco community.
+
+In your screencast you mention about the restriction of umbraco of not being able to to add a piece of JavaScript to the content page without using the dummy dataType.
+
+I am just thinking aloud so feel free to shoot me down. There is a masterpage load event in umbraco 4.0.3 which you can use to target the content edit page, where you could then add the JavaScript and any other code in.
+
+Check out this umkbraco.tv for more info on it - http://umbraco.tv/documentation/videos/for-developers/events/modify-backend-ui-with-page-events
+
+Warren :)
+]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

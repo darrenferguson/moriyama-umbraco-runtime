@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="6c6b93cd-b8bd-4005-a000-1ddc9da90cd5" id="2272" nodeName="L" isDoc="" updated="2013-07-07T08:17:50.807Z" parentGUID="0c2d2667-3ad2-4abf-aa6b-3d50da514078" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-07T12:38:46</displayDate>
+  <title><![CDATA[L]]></title>
+  <name><![CDATA[L]]></name>
+  <email><![CDATA[l@l.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Seems great, looking forward to the package!
+
+I had another idea, wouldn't it be great to be able to link certain words to your umbraco-pages with an ID instead of adding the link to the page?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

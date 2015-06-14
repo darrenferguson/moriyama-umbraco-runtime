@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="7da8e2af-84db-4562-8328-811aefd13a66" id="1788" nodeName="Umbraco in the UK?" isDoc="" updated="2013-10-28T17:21:59.707Z" parentGUID="886fe222-273a-42b0-9b8c-61cc5b62bd45" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-in-the-uk]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-17T12:59:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/eICdiP]]></shortUrl>
+  <summary><![CDATA['Umbraco in the UK?' - a blog post by Darren Ferguson about United Kingdom, Technology Internet written on 17 July F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[United Kingdom, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>
+I was wondering how many Umbraco users we have in the UK with  a view to maybe getting some kind of user group together.
+</p><p>
+If you are based on the island, then leave a comment on this post with your name, location and a little background on what you do with Umbraco, e.g. hobbyist, personal site hosting, commercial site.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

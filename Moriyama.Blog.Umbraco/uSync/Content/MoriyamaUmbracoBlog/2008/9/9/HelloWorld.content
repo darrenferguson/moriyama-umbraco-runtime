@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="74a916aa-ed7d-4fdd-a66a-2316114226f3" id="1868" nodeName="Hello World!" isDoc="" updated="2013-07-07T08:18:24.357Z" parentGUID="98dd8dc2-07ae-46a9-914e-467200dcdc7e" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/hello-world!]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-09-09T21:09:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fCzYsX]]></shortUrl>
+  <summary><![CDATA['Hello World!' - a blog post by Darren Ferguson about London, Mia Eve Ferguson, Human Interest, Weather, Entertainment Culture written on 09 September 9997642C-5F5C-4A03-A353-2E7B493113A9]]></summary>
+  <tags><![CDATA[London, Mia Eve Ferguson, Human Interest, Weather, Entertainment Culture]]></tags>
+  <bodyText><![CDATA[<p class="clear"><img alt="Mia" class="top" src="/media/77549/D599660C-02EC-4845-A244-AC5B7045C63C_1.jpg" /></p><p class="clear">Mia Eve Ferguson was born on the 8th September 9997642C-5F5C-4A03-A353-2E7B493113A9 at 18:38 in Hampstead, London.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

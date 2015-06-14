@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="5e3ca09b-4898-46cc-bab9-8036f2ca1c37" id="1891" nodeName="A view on the Autonomy/Interwoven CMS Vendor meme response" isDoc="" updated="2013-07-07T08:18:10.51Z" parentGUID="97be05f0-a7cd-44e5-b59d-e31a7d694d35" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/a-view-on-the-autonomyinterwoven-cms-vendor-meme-response]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-05-13T21:30:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gHtZM6]]></shortUrl>
+  <summary><![CDATA['A view on the Autonomy/Interwoven CMS Vendor meme response' - a blog post by Darren Ferguson about Tom Wentworth, Adrian Mateljan, GUI, Twitter, enterprise software, sample web site, Michael Marth, independent TeamSite consultant, independent consultant, dedicated account manager, Technology Internet written on 13 May A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Tom Wentworth, Adrian Mateljan, GUI, Twitter, enterprise software, sample web site, Michael Marth, independent TeamSite consultant, independent consultant, dedicated account manager, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>In February Kas Thomas blogged <a href="http://www.cmswatch.com/Trends/BDC08E1C-1E11-4B1B-AEB8-F35C83151234-A-reality-checklist-for-vendors">
+A reality checklist for (CMS) vendors</a> which was picked up by
+Michael Marth at day.com and turned into the <a href="http://dev.day.com/microsling/content/blogs/main/cmsvendormeme.html">
+CMS Vendor Meme</a> - I guess most of my readers are familiar with
+the term <a href="http://en.wikipedia.org/wiki/Internet_meme">meme</a>. Over
+time various ECM vendors were 'tagged' and responded
+accordingly.</p><p>As a long term independent TeamSite consultant I waited for a
+response from Interwoven which came courtesy of <a href="http://interwovenblog.com/A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2/03/22/the-cms-vendor-meme/">Tom
+Wentworth's Blog</a>.</p><p>All of the blog posts made for interesting reading and Tom's
+response was open and honest - however all of the viewpoints being
+blogged were from the vendors themselves and therefore had some
+obvious bias.</p><p>Yesterday I found a blog post from <a href="http://www.reddotcmsblog.com/cms-vendor-meme">Adrian
+Mateljan</a> which gave an alternative response to the meme. Adrian
+answered the meme drawing upon his experience as RedDot CMS
+developer. I'm unable to work out from Adrian's site whether he has
+any connections with RedDot or whether his point of view is an
+independent one but the post inspired me to give some feedback on
+the Autonomy/Interwoven response.</p><p>By way of disclosure I've been working with TeamSite for over 8
+years and I have represented Interwoven on client sites in previous
+years but not for the last couple of years. All of my opinions
+relate to TeamSite version 6.5 and are not relevant to any of the
+other diverse range of software that that they vend.</p><p>Tom W didn't see fit to score himself on each point as the meme
+suggested so I'll suggest one where I feel qualified to do so.</p><p><strong>1. Our software comes with an installer
+program.</strong></p><p>Yep. GUI and command line versions. Simplicity itself.</p><p>My score: 5/5</p><p><strong>2. Installing or uninstalling our software does not
+require a reboot of your machine.</strong></p><p>Nope, but like Tom I question how useful this really is. In my
+experience if you are installing/uninstalling/servive packing and
+ECM system then you'd expect some downtime.</p><p>My score: N/A</p><p><strong>3. You can choose your locale and language at install
+time, and never have to see English again after that.</strong></p><p>I'd never tried that before. Simple, as Tom says. I've just
+learned that French for logout is "Se déconnecter".</p><p>One point, if you customise the GUI and add custom menu Items
+you don't appear to be able to "localise" those. I'm also pretty
+sure that when you build a data capture template in TeamSite you'd
+need to create a copy for each locale in order that field names are
+displayed in the appropriate language. You could workaround this
+using TeamSite inline callouts in the data capture template but
+this would mean custom localisation code.</p><p>My Score: 3/5</p><p><strong>4. Eval versions of the latest edition(s) of our
+software are always available for download from the company
+website.</strong></p><p>No. This has long been a frustration of mine. Your customer
+support account allows you to download the products that you are
+licensed to use from the support website. As an independent
+consultant there is no way I can try out new products/upgrades and
+service packs myself in order to recommend them to a client.</p><p>My Score: 0/5</p><p><strong>5. Our WCM software comes with a fully templated "sample
+web site" and sample workflows, which work
+out-of-the-box.</strong></p><p>I agree with Tom about the example workflows. They cover some
+sample scenarios for content publishing/deployment and I have often
+used them with minimal modification.</p><p>I've never used the "Component Guide" that Tom refers to. I'm
+not sure if it ships with TeamSite or LiveSite there is an example
+Templating directory which contains a lot of files and
+documentation but I've never needed them.</p><p>My Score: Not qualified to comment!</p><p><strong>6. We ship a tutorial.</strong></p><p>Absolutely, see above.</p><p><strong>7. You can raise a support issue via a button, link, or
+menu command in our administrative interface.</strong></p><p>No, but I don't see the point of this. You go to
+support.interwoven.com, login and file your issue. As a developer
+you could customise the TeamSite GUI and add a link to the support
+site which would satisfy this requirement. From my perspective I
+wouldn't want end users raising support issues to the vendor as
+more often than not they won't be able to distinguish between a bug
+in the product and a bug in our customisation of the product.
+Normally issues are reported to an internal development team who
+escalate to the vendor as appropriate.</p><p>My Score: N/A</p><p><strong>8. All help files and documentation for the product are
+laid down as part of the install.</strong></p><p>As Tom says, "Help files, yes.  Documentation, no". The
+docs are available to download as a single bundle from the support
+website or can be viewed online.</p><p>My Score: N/A</p><p><strong>9. We run our entire company website using the latest
+version of our own WCM products.</strong></p><p>Take Tom's word for it.</p><p>My Score: 5</p><p><strong>10. Our salespeople understand how our products
+work.</strong></p><p>My *very limited* experience of Interwoven sales suggests that
+they understand the company product suite very well and how each
+product integrates with the others. They also seem to be a
+tight-knit company and the communication between sales and
+engineering seems to work, when there is something they are unsure
+of they'll go to the right person and get you an answer pretty
+quickly.</p><p>My Score: Not qualified to comment!</p><p><strong>11. Our software does what we say it does.</strong></p><p>Very general question. I always find the <a href="http://www.interwoven.com/components/page.jsp?topic=PRODUCT::TEAMSITE">
+marketing blurb</a> very high level and fluffy, but then it isn't
+really targeted at me.</p><p>My Score: N/A</p><p><strong>12. We don't charge extra for our SDK.</strong></p><p>No.</p><p>My Score: 5/5</p><p><strong>13. Our licensing model is simple enough for a
+5-year-old to understand.</strong></p><p>Agree with Tom "Since when do 5 year olds buy enterprise
+software?". I don't really get involved pre-sales.</p><p>My Score: N/A</p><p><strong>14. We have one price sheet for all
+customers.</strong></p><p>Tom says Yes</p><p>My Score: 5/5</p><p><strong>15. Our top executives are on Skype, Twitter, or some
+similar channel, and: <em>Feel free to contact them directly at any
+time.</em></strong></p><p>Not sure I need to get in touch with 'top executives'. I think a
+better point would be to question whether it is easy to get in
+touch with the right people easily, e.g. developers able to contact
+support. I do know that most Interwoven customers have a dedicated
+account manager who can put them in touch with whoever they
+need.</p><p>Maybe Kas needs to clarify why he is asking this question. It is
+good to See Tom Wentworth on twitter and blogging regularly. I just
+wish Interwoven would give a little love to their <a href="http://devnet.interwoven.com">developer portal</a> which is
+missing a few very basic features.</p><p>My Score: N/A</p><p><strong>In conclusion</strong></p><p>I hope this made an interesting read an offered an alternative
+viewpoint on Autonomy/Interwoven's meme response.</p><p>Having stated that CMS vendors should "Violate these rules at
+your own risk" I wish that Kas Thomas could possibly follow up on
+his <a href="http://www.cmswatch.com/Trends/BDC08E1C-1E11-4B1B-AEB8-F35C83151234-A-reality-checklist-for-vendors">
+original post</a> and let some of us who have been following know
+why he thought that some of the points that he raised are so
+important.</p><p>9c56d0fcf93175d70e1c9b9d188167cf</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

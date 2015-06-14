@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="99b7fec5-a03d-4722-b5ba-575285670243" id="2597" nodeName="Hartvig" isDoc="" updated="2013-10-28T17:22:13.963Z" parentGUID="312479ac-3c4a-4bb5-b413-ce20cc6baaa5" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-28T14:11:27</displayDate>
+  <title><![CDATA[Hartvig]]></title>
+  <name><![CDATA[Hartvig]]></name>
+  <email><![CDATA[niels@hartvig.com]]></email>
+  <website><![CDATA[http://hartvig.com]]></website>
+  <bodyText><![CDATA[Awesome Darren! I'll order three; for umbraco.org, umbracostats and umbraco forum.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

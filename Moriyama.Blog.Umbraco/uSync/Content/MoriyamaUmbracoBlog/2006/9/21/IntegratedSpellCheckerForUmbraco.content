@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="d3cb6b57-2046-4bea-98c8-57089afe8bf2" id="1827" nodeName="Integrated spell checker for Umbraco" isDoc="" updated="2013-10-28T17:22:36.457Z" parentGUID="b8156ed4-e9ba-469c-8072-b1f1d4ffe0c2" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/integrated-spell-checker-for-umbraco]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-09-21T11:29:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fHl1nx]]></shortUrl>
+  <summary><![CDATA['Integrated spell checker for Umbraco' - a blog post by Darren Ferguson about web ui demo written on 21 September F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[web ui demo]]></tags>
+  <bodyText><![CDATA[<p>I'd avoided looking at spell checking in Umbraco as I thought it would quite time consuming. </p><p>I was wrong... Thanks to the excellent <a href="http://sourceforge.net/projects/netspell/">NetSpell</a> and it's built in web ui demo, it only took about 30 minutes to hack something together.</p><p>Check out the <a href="http://www.fergusonmoriyama.com/Spell/spelling.htm">screencast</a>.</p><p>The checker works on dictionary files, so it will do languages other than English. I implemented it to check specific Umbraco fields, though it would be relatively simple to have it check all fields in a document type.</p><p>I'm hoping Niels will snap this one up and integrate it, as I'm not known for my UI design!</p><p>Next on the list is looking at <a href="http://nclassifier.sourceforge.net/">NClassifier</a> which <a href="http://ismail.umbraco.net">Ismail</a> found. I'm hoping that it will help me add some content intelligence to Umbraco - for example, auto suggesting keywords and document summaries.</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

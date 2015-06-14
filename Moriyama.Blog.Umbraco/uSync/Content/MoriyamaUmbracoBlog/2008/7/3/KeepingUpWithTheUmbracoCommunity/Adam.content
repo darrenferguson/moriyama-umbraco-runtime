@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="addfaf4e-17e6-4c62-8e0f-b0e6470072b3" id="2482" nodeName="Adam" isDoc="" updated="2013-10-28T17:23:18.067Z" parentGUID="b885e473-71ba-443d-a1ee-cd482a0ecd4b" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-03T16:56:37</displayDate>
+  <title><![CDATA[Adam]]></title>
+  <name><![CDATA[Adam]]></name>
+  <email><![CDATA[aperry7@gmail.com]]></email>
+  <website><![CDATA[http://www.createsoft.co.uk/blog/]]></website>
+  <bodyText><![CDATA[Hi Darren,
+I started using Disqus for my comments which does have a comments RSS feed.
+
+Anyhoo I have a collection of feeds - many of which you already have;
+
+Some which I think you may have missed are:
+
+ - http://www.wibeck.com/
+
+ - http://www.dotnetmafia.com/blogs/kevin/default.aspx
+
+I also have a blog which I am trying to keep up-to-date,
+
+http://www.createsoft.co.uk/blog/
+
+and the comments feed (I've had 3!) is at 
+
+http://doctype.disqus.com/latest.rss]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

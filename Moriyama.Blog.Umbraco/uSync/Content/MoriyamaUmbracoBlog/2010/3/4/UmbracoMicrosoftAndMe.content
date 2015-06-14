@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="c32a93f7-1d64-4509-be87-9815756bff71" id="1923" nodeName="Umbraco, Microsoft and Me" isDoc="" updated="2013-07-07T08:17:37.667Z" parentGUID="d1d60cd0-e439-4e4b-ad5e-02351cefa95a" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco,-microsoft-and-me]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-03-04T09:29:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/eTW3V9]]></shortUrl>
+  <summary><![CDATA['Umbraco, Microsoft and Me' - a blog post by Darren Ferguson about Microsoft, Windows 7, Technology Internet written on 04 March B29A5211-DC51-46BB-B283-8510D165CA40]]></summary>
+  <tags><![CDATA[Microsoft, Windows 7, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>I've been invited to participate in a Microsoft initiative in
+which they will sponsor the development of some packages for
+Umbraco. These packages will showcase Microsoft technologies and is
+part of a wider effort to engage with Open source communities.</p><p>The guys below are also participating so be sure to read their
+blogs in the coming weeks:</p><ul class="noindent"><li><a href="http://boxbinary.com">Alex Norcliffe</a></li><li><a href="http://www.creativewebspecialist.co.uk/">Warren
+Buckley</a></li><li><a href="http://munkimagik.wordpress.com">Tim Saunders</a></li><li><a href="http://ismailmayat.wordpress.com">Ismail
+Mayat</a></li><li><a href="http://www.wishfulcode.com">Peter Miller</a></li></ul><p>We've spent some time discussing ideas for useful Umbraco
+packages and have come up with a few that we think are winners.
+I'll write in more depth next week about what we are planning but
+my participation will be around a package that provides better
+access to the Umbraco media section and provides a whole bunch of
+extra functionality around media.</p><p>As part of this exercise we'll have access to some interesting
+Microsoft products, in particular I'll get a chance to work with <a href="http://silverlight.net/">Silverlight</a> and the <a href="http://www.microsoft.com/expression/">expression suite</a> of
+products. On a personal note this is also a fantastic opportunity
+for me to gain access to some of the Microsoft product teams and
+gain some new development skills.</p><p>We've been asked to blog regularly as part of the project so
+you'll see a few posts here in the coming weeks. We've also been
+asked to keep video diaries of our experiences with an emphasis on
+our experiences using the Microsoft products - these will be
+published through some Microsoft websites - more details to
+follow.</p><p>Although this is a Microsoft sponsored initiative we are free to
+express honest and frank opinions on our experiences so don't
+expect any <a href="http://www.guardian.co.uk/technology/blog/A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2/sep/23/windows-7-party">
+Windows 7 party videos</a>! We've been told that our feedback
+negative and positive will be valued and passed back to the
+appropriate product teams and we've already seen from our initial
+gatherings that the team at Microsoft are keen to help solve our
+day today CMS tech problems.</p><p>Finally: I've got some Swag to give away! Check the next blog
+post for details.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

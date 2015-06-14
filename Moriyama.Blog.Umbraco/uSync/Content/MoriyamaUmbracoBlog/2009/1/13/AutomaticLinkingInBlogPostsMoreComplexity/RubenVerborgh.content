@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="91d98d06-01f3-4882-b613-2432f6372cce" id="2276" nodeName="Ruben Verborgh" isDoc="" updated="2013-07-07T08:17:51.56Z" parentGUID="4b723217-6b19-484d-9086-5e5bc3a179f9" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-13T17:54:05</displayDate>
+  <title><![CDATA[Ruben Verborgh]]></title>
+  <name><![CDATA[Ruben Verborgh]]></name>
+  <email><![CDATA[ruben.verborgh@gmail.com]]></email>
+  <website><![CDATA[http://ruben.3click.be/]]></website>
+  <bodyText><![CDATA[Again, one vote in the direction of an XSLT macro which dynamically replaces links ;)]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

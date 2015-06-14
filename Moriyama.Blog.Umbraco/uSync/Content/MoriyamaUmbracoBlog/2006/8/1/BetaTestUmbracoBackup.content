@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="c6c147bb-6395-4634-bec9-782ff984e919" id="1802" nodeName="Beta test Umbraco backup" isDoc="" updated="2013-10-28T17:22:18.367Z" parentGUID="f17f717b-cf0c-4b57-bcd9-980779adca9d" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/beta-test-umbraco-backup]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-01T12:02:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/hlwzav]]></shortUrl>
+  <summary><![CDATA['Beta test Umbraco backup' - a blog post by Darren Ferguson written on 01 August F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags></tags>
+  <bodyText><![CDATA[<p><strong>Updated:</strong> Initially I planned to recruit a few people with different configurations to test Umbraco backup I didn't realise so many people were keen to check this out, so instead of a limited beta test, I will release a public beta tomorrow morning. Watch this space. </p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="cfedff3c-e6be-4aa8-a70c-db7f4aac4cfc" id="2346" nodeName="Chris Hardie (2)" isDoc="" updated="2013-07-07T08:18:01.48Z" parentGUID="ab345438-ee3f-4af8-8151-197a5a426dd8" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-16T17:12:42</displayDate>
+  <title><![CDATA[Chris Hardie (2)]]></title>
+  <name><![CDATA[Chris Hardie (2)]]></name>
+  <email><![CDATA[chrishardie@nextdesigns.ca]]></email>
+  <website><![CDATA[http://www.nextdesigns.ca]]></website>
+  <bodyText><![CDATA[Deep-six my last comment, I had not updated the path to jquery in the config array and once I fixed it up everything began working as expected.
+
+Regards,
+
+C.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="c1e7ca79-4d84-4b66-8ae0-f6c8d4ba151a" id="4119" nodeName="Roger Hughes" isDoc="" updated="2013-09-24T20:13:27.95Z" parentGUID="3d7d6134-2bd1-4ee2-899b-4a62340deb94" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="24" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate></displayDate>
+  <title></title>
+  <name><![CDATA[Roger Hughes]]></name>
+  <email><![CDATA[roger@h4interactive.co.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi all,  i've tried everything and can't get the map to render on the front end. Here's the page that should show the map. If you look at the source, all the JS is as per the guide here.
+
+http://newsbpp.umbracodev.co.uk/en/traffic-alerts/a483-road-works.aspx
+
+Any help is greatly appreciated!
+
+Thanks]]></bodyText>
+  <ip><![CDATA[2.28.252.163]]></ip>
+  <isSpam></isSpam>
+</BlogComment>

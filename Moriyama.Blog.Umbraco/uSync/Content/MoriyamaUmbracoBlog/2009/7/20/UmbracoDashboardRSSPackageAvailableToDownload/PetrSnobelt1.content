@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="4184276e-080d-4b99-878e-8c0ad11a11a3" id="2431" nodeName="Petr Snobelt (1)" isDoc="" updated="2013-07-07T08:18:15.053Z" parentGUID="c0beee90-3242-4bf1-b64c-3ca3f9265b74" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-21T11:37:20</displayDate>
+  <title><![CDATA[Petr Snobelt (1)]]></title>
+  <name><![CDATA[Petr Snobelt (1)]]></name>
+  <email><![CDATA[petr.snobelt@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Thank you Darren,
+
+Maybe you can mention it in article and add link to Umbraco RSS package. I can't find it in http://our.umbraco.org/projects.
+
+Petr]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

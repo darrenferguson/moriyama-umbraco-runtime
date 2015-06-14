@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="0f595d9d-b668-4523-b8c6-87855f3673bf" id="2536" nodeName="Casey" isDoc="" updated="2013-10-28T17:21:26.88Z" parentGUID="fd017f99-2101-4f32-b09e-7dd7f691b357" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-10-26T19:08:01</displayDate>
+  <title><![CDATA[Casey]]></title>
+  <name><![CDATA[Casey]]></name>
+  <email><![CDATA[casey@neehouse.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[So, will you be performing blessings on the next version of umbraco, or are you wanting to give the last rights to 2.1.x?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

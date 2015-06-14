@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="23d1f38a-0a53-4d61-a561-226b9b7e189b" id="2574" nodeName="Joel Miller" isDoc="" updated="2013-10-28T17:22:02.193Z" parentGUID="7da8e2af-84db-4562-8328-811aefd13a66" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="7" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-20T15:09:49</displayDate>
+  <title><![CDATA[Joel Miller]]></title>
+  <name><![CDATA[Joel Miller]]></name>
+  <email><![CDATA[joel@joelmiller.co.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi, I have built 1 commercial site using Umbraco which went live about 6 months ago, and am working on another at the moment.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

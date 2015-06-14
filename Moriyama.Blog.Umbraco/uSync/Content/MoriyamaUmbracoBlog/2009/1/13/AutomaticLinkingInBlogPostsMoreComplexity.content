@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="4b723217-6b19-484d-9086-5e5bc3a179f9" id="1869" nodeName="Automatic linking in blog posts: more complexity" isDoc="" updated="2013-07-07T08:17:51.387Z" parentGUID="39f15826-0e7c-4549-94d7-03ce3b73395c" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/automatic-linking-in-blog-posts-more-complexity]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-13T13:25:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/f4TVMB]]></shortUrl>
+  <summary><![CDATA['Automatic linking in blog posts: more complexity' - a blog post by Darren Ferguson about Perl, XML, Technology Internet written on 13 January A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Perl, XML, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>Following on from my previous post I've begun to realise that
+automatically linking key phrases in blog content to URLs is a
+little more complex than originally imagined.</p><p>Take my blog as an example. My posts often contain source code
+and other technical information. This source code could contain my
+key phrases, for example Umbraco and Perl appear frequently.</p><p>How do I get my auto linker to be smart enough to understand the
+context of the content it is manipulating and ignore key phrases in
+code?</p><p>Solution #1 would be to only parse the content of specific tags
+or more likely exclude pre tags from parsing as the tag implies
+that the content is pre-formatted and not to be modified. The
+problem here is that instead of using regular expressions to
+manipulate the content we would need to do something more complex,
+perhaps parsing the post content as XML so we have a notion of node
+structure.</p><p>Solution #2 is to put parsing back into the hands of the user,
+only parsing blocks of text that they specifically select in
+TinyMCE.</p><p>I haven't made a call on this yet. I'm more likely to go with
+option 2. Any thoughts appreciated as usual.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

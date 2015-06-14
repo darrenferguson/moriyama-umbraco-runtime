@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="691c74dc-b77c-4086-a6cd-712b4a60072e" id="1922" nodeName="Simple and precise PDF generation in Umbraco" isDoc="" updated="2013-07-07T08:17:40.653Z" parentGUID="e0a0d4a9-f30e-425c-9072-479287b373d1" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/simple-and-precise-pdf-generation-in-umbraco]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId>3DD37731-117C-4F7C-838E-81DD240DBB67</umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-03-31T21:36:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/g1rm6l]]></shortUrl>
+  <summary><![CDATA['Simple and precise PDF generation in Umbraco' - a blog post by Darren Ferguson about Technology Internet written on 31 March B29A5211-DC51-46BB-B283-8510D165CA40]]></summary>
+  <tags><![CDATA[Technology Internet]]></tags>
+  <bodyText><![CDATA[
+<p>I've created a package that allows you to create PDFs from
+Umbraco using XSL-FO. You can download the package from <a
+href="http://our.umbraco.org/projects/xsl-pdf-creator">our.umbraco.org</a></p>
+
+<p>The video below is a demonstration of the package</p>
+
+<p><object width="520" height="390"
+data="http://www.vimeo.com/moogaloop.swf?clip_id=10590953&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"
+ type="application/x-shockwave-flash"><param name="allowfullscreen"
+value="true" />
+<param name="allowscriptaccess" value="always" />
+<param name="src"
+value="http://www.vimeo.com/moogaloop.swf?clip_id=10590953&amp;server=www.vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" />
+</object></p>
+
+<p>I've made some investments in buying the technology to do the
+XSL-FO transformation so this will be a commercial package.</p>
+
+<p>Details of how to buy are available <a
+href="/code-bank.aspx#xslpdf">here</a>.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

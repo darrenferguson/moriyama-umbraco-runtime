@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="40fa3a20-e500-4cc3-ad00-fa3b4f9017a3" id="2593" nodeName="Jesper Ordrup (1)" isDoc="" updated="2013-10-28T17:22:08.733Z" parentGUID="229dfa69-a97b-46c5-9230-051599733947" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-10T21:03:20</displayDate>
+  <title><![CDATA[Jesper Ordrup (1)]]></title>
+  <name><![CDATA[Jesper Ordrup (1)]]></name>
+  <email><![CDATA[jesper@jesper.com]]></email>
+  <website><![CDATA[http://www.jesper.com]]></website>
+  <bodyText><![CDATA[Thanks.
+
+Another solution could be to do the same as the Blog package which is to add an actionhandler that organize the votes in subnodes - one for each day ... 
+
+Jesper]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

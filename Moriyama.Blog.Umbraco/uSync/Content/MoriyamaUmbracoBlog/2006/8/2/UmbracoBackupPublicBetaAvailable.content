@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="658edde2-3da2-429c-996d-a004beac417a" id="1807" nodeName="Umbraco Backup public beta available" isDoc="" updated="2013-10-28T17:22:21.317Z" parentGUID="81c1aacc-9fd5-4398-9776-93ea8c66b52d" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-backup-public-beta-available]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-02T17:40:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fPYLHz]]></shortUrl>
+  <summary><![CDATA['Umbraco Backup public beta available' - a blog post by Darren Ferguson written on 02 August F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags></tags>
+  <bodyText><![CDATA[<p>
+A public beta of Umbraco backup is available from the 
+<a href="http://www.darren-ferguson.com/umbraco-backup.aspx">project homepage</a>. Please don't be shy. Tell me what you think. Report bugs, suggest features.
+</p><p>
+I am aiming to have 1.0 out in a week or so. It's not too late to include any requested functionality.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

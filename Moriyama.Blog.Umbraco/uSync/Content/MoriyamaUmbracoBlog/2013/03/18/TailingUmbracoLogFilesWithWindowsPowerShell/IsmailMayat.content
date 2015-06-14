@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="85d3296f-eba8-4a82-9609-f7e557bfbe87" id="3035" nodeName="Ismail Mayat" isDoc="" updated="2013-07-07T08:17:25.533Z" parentGUID="5821f993-e626-48eb-940a-3fcfbccb82c2" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>8C5653DD-0D2E-4750-855E-B5FA32A8F716-03-19T08:59:01.913</displayDate>
+  <title></title>
+  <name><![CDATA[Ismail Mayat]]></name>
+  <email><![CDATA[imayat@thecogworks.co.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[Darren,
+Nice. We have done a signalr log4net appender LiveLogger hoping in v2 to have some way of viewing older log files as well see http://our.umbraco.org/projects/backoffice-extensions/live-logger]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

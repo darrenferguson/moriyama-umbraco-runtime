@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="14ae1cbf-17c4-44ba-8a8e-362c18d8f3c7" id="2733" nodeName="Using and creating delay tasks in Workflow for Umbraco" isDoc="" updated="2013-07-07T08:17:32.77Z" parentGUID="42926736-22bc-428d-a64b-e2dc0dfa2a9f" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-10-21T08:37:00</displayDate>
+  <title><![CDATA[Using and creating delay tasks in Workflow for Umbraco]]></title>
+  <shortUrl></shortUrl>
+  <summary><![CDATA['Using and creating delay tasks in Workflow for Umbraco' - a blog post by Darren Ferguson about Umbraco, Workflow, written on the 21st October B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[Umbraco, Workflow]]></tags>
+  <bodyText><![CDATA[
+<p>Following on from my <a
+href="/B25AC8DE-26FC-44E7-BB89-F200B2327094/10/4/workflow-for-umbraco-and-drag-and-drop-event-programming">
+three</a> <a
+href="/B25AC8DE-26FC-44E7-BB89-F200B2327094/10/17/creating-custom-workflow-for-umbraco-tasks">previous</a>
+<a
+href="/B25AC8DE-26FC-44E7-BB89-F200B2327094/10/20/globalising-custom-workflow-for-umbraco-tasks">screencasts</a>
+- this short 5 minute cast shows how to utilise the default delay
+tasks in <a
+href="http://our.umbraco.org/projects/backoffice-extensions/workflow">
+Workflow for Umbraco</a> and also how to implement your own.</p>
+
+<p>As usual the code that accompanies the screen cast is available
+from the <a
+href="https://bitbucket.org/darrenjferguson/workflow-samples">sample
+code repository</a>.</p>
+
+<p><a href="http://vimeo.com/30873482"><img src="~/media/126328/delay_task_thumb_500x400.jpg"  width="500"  height="400" alt="delay task thumb"/></a></p>
+
+<p style="clear: both;">To summarise the screencast:</p>
+
+<ul>
+<li>A delay tasks causes the workflow to pause.</li>
+
+<li>To implement your own you just implement
+<strong><em>IDelayTask</em></strong></li>
+
+<li>The runtime willl tell your task what time it was started by
+setting the <strong><em>StartTime</em></strong> property.</li>
+
+<li>The runtime will periodically ask your delay task whether it is
+complete by calling the <strong><em>IsComplete</em></strong>
+Method.</li>
+
+<li>You can use the StartTime property to perfome time based
+calculations or collect user properties as with runable tasks.</li>
+
+<li>Delay tasks can be good for delayed publish, tweet etc and
+allow you to specify when subsequent tasks should happen.</li>
+</ul>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

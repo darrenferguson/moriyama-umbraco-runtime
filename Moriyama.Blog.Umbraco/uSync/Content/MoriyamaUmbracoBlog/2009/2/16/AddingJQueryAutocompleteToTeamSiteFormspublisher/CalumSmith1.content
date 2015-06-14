@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="29cb6222-5363-4c39-b1d4-7337b2a1dbd1" id="2349" nodeName="Calum Smith (1)" isDoc="" updated="2013-07-07T08:18:01.72Z" parentGUID="ab345438-ee3f-4af8-8151-197a5a426dd8" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="9" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-18T18:01:43</displayDate>
+  <title><![CDATA[Calum Smith (1)]]></title>
+  <name><![CDATA[Calum Smith (1)]]></name>
+  <email><![CDATA[carpediem9DD5A162-14C1-4ED5-AD2D-57DF19F804D2_au@yahoo.co.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[I had to change one line in o.loadScripts() to make it more palatable to IE:
+
+script.onreadystatechange= function () {
+			if (this.readyState == 'loaded' || this.readyState == 'complete') o.loadScripts();
+   		}
+
+Thanks for this!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

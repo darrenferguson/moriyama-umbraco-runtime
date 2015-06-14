@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="63e332da-779e-48bf-b4a6-ac8112a731b4" id="2433" nodeName="Jason" isDoc="" updated="2013-07-07T08:18:15.4Z" parentGUID="60261a69-201b-4b35-8981-19a89fac7d09" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-08-03T17:47:56</displayDate>
+  <title><![CDATA[Jason]]></title>
+  <name><![CDATA[Jason]]></name>
+  <email><![CDATA[jason@proworks.com]]></email>
+  <website><![CDATA[http://www.proworks.com/blog]]></website>
+  <bodyText><![CDATA[Amen to this list.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

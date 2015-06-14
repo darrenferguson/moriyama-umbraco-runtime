@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="6520b02e-8988-4362-9b9c-f693f163755f" id="2803" nodeName="Ferguson Moriyama and Umbraco 5" isDoc="" updated="2013-07-07T08:17:26.94Z" parentGUID="7e54587f-021e-4778-948e-cc42b62b6969" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-01-27T15:25:00</displayDate>
+  <title><![CDATA[Ferguson Moriyama and Umbraco 5]]></title>
+  <shortUrl><![CDATA[http://djf.so/AeJyNU ]]></shortUrl>
+  <summary><![CDATA['Ferguson Moriyama and Umbraco 5' - a blog post by Darren Ferguson about umbraco 5, umbraco jupiter, ferguson moriyama written on 27 January DD342A1F-588F-46F4-9806-89C04EE0A7AD]]></summary>
+  <tags><![CDATA[umbraco 5, umbraco jupiter, ferguson moriyama]]></tags>
+  <bodyText><![CDATA[
+<p><strong><em>Before I begin, a dedication - I wouldn't have got
+through this blog post unless I had the wonderful Matt Brailsford,
+Doug Robar and Sebastiaan Jansen as Skype contacts - these guys are
+MVP for a reason! #h5yr</em></strong></p>
+
+<p>Yesterday I started to build the new Ferguson Moriyama website
+in Umbraco 5, and as promised in my previous blog post I've
+documented the process.</p>
+
+<p>I've started out by designing the document types for the new
+Ferguson Moriyama site as I usually would. As people maybe
+following this as a tutorial I've done a better job of documenting
+these than I usually would for a normal internal project.</p>
+
+<p>The document types are deliberately as minimal as possible my
+current site suffers from bloat where I put in fields for edge
+cases that never emerged - things like alternative titles to be
+used in place of node names and alternative dates to be used in
+place of the default publish date. This time I'll start with as
+little as possible and build up. I'm told that deletion of document
+type properties in Umbraco 5 is recoverable by rollback which is
+great in terms of being agile with your document types.</p>
+
+<p><a
+href="https://docs.google.com/spreadsheet/ccc?key=0AqhzSLUBKgdOdGRiRGluVkNULWJSLVl4QzdiUkh5VFE">
+<img src="~/media/127962/blog1_500x303.jpg"  width="500"  height="303" alt="blog1.png"/></a></p>
+
+<p style="clear: both;"><em>(You can click on the image above to
+view the Google document that I created)</em></p>
+
+<p>As an aside I'll talk a little about my process. The document
+above is expected to change during the process of the build. I'm a
+firm believer in agility and in fact I believe it is almost
+impossible to specify exactly what you want before you start
+building. As I already mentioned, on a typical project I wouldn't
+maintain such a document. I see Umbraco document types as "self
+documenting" and for clients who demand formal specifications I'd
+normally just generate the documentation from the real Umbraco
+document types. Interestingly (possibly) this is how PDF creator
+for Umbraco came into being.</p>
+
+<p>The document above contains a few areas which are TBD (to be
+determined) but I deliberately make assumptions based on Umbraco 4
+knowing that I can return later as my knowledge of version 5
+increases.</p>
+
+<p><strong><em>Creating the document types</em></strong></p>
+
+<p>So I head off to the settings section of Umbraco 5 armed with my
+document type specs and everything looks reassuringly familiar.</p>
+
+<p>I hesitate slightly creating a document type called
+<strong><em>Master</em></strong> because it sounds a little too
+generic and has some connotations of .net master pages but I let it
+slide. As an aside I'd normally put a site specific prefix in front
+of my document types but in this case I'm confident that this
+instance of Umbraco will only ever host the Ferguson Moriyama
+site.</p>
+
+<p>The first new feature that I notice is stricter control over
+document type inheritance; I like that by checking
+<strong><em>Inheritable Only</em></strong> on the
+<strong><em>Composition</em></strong> tab that I can say that this
+document type cannot be directly created as an instance of a node.
+Being a pedant I'm also pleased to see the <strong><em>Generic
+Properties</em></strong> tab is now called <strong><em>General
+Properties</em></strong> :)</p>
+
+<p><a href="/media/127947/2.png"><img src="~/media/127947/2_498x275.jpg"  width="498"  height="275" alt="2.png"/></a></p>
+
+<p style="clear: both;">After 30 minutes or so of playing, Umbraco
+5 looks to be in a satisfyingly familiar state. I hit one or two
+snags - the one that sticks in memory is that I couldn't add
+properties to inherited tabs but I am told that this is just a
+temporary glitch.</p>
+
+<p><strong><em>Create some nodes</em></strong></p>
+
+<p>Document type hierarchy all worked in a familiar way - I headed
+over to the Content section and created a Document of type
+<strong><em>Home</em></strong> with two child nodes of type
+<strong><em>Text Page</em></strong>.</p>
+
+<p>Again, everything is looking pretty much as I'm used to.</p>
+
+<p>&nbsp;<a href="/media/127952/3.png"><img src="~/media/127952/3_496x295.jpg"  width="496"  height="295" alt="3.png"/></a></p>
+
+<p style="clear: both;"><strong><em>Add some
+templates</em></strong></p>
+
+<p>For now I decided to just add a Home Page template and output a
+property or two, then I'll move on to versioning what I've built to
+date. No CSS or anything to make the pages look pretty yet, just
+some ugly markup.</p>
+
+<p>Associating templates with document types is again a very
+familiar experience to those of you who are familiar with Umbraco 4
+- the big difference comes when creating templates, which are no
+longer master pages but <strong><em>Razor views</em></strong>.</p>
+
+<p>I spent a bit of time messing around here, and I understand that
+some of the objects exposed to the view by default are subject to
+change.</p>
+
+<p>Umbraco 5 has a default template (or View) called
+<strong><em>_Layout.cshtml</em></strong> which is in
+<strong><em>~/Views/Umbraco</em></strong> this is synonymous to a
+Master page in Umbraco 4 and will be familiar to those who have
+adopted ASP.net MVC prior to looking into Umbraco v5. I'm not sure
+if it is bad from to modify the default view but I do so.</p>
+
+<p>At this stage I'm finding the terminology a little confusing,
+the Umbraco 5 UI still uses the terminology
+<strong><em>master</em></strong> and
+<strong><em>template</em></strong> -I guess to remain familiar to
+Umbraco 4 developers but there is a bit of internal conflict as my
+mind thinks about <strong><em>Views</em></strong>.</p>
+
+<p>&nbsp;<a href="/media/127957/4.png"><img src="~/media/127957/4_498x275.jpg"  width="498"  height="275" alt="4.png"/></a></p>
+
+<p style="clear: both;">I end up with the following layout which
+does a few familiar things:</p>
+
+<ul>
+<li>Output document title</li>
+
+<li>Output a (recursive) document type property</li>
+
+<li>Render a child view</li>
+</ul>
+
+<p><strong><em>Back it up</em></strong></p>
+
+<p>So I've achieved a lot in a short space of time but before I go
+I want to make sure that my customisations to Umbraco 5 are
+versioned and separated in a way that I can roll them out to a new
+version of Umbraco or revert to a previous version should I break
+anything.</p>
+
+<p><strong><em>Or maybe not</em></strong></p>
+
+<p>I take a precursory glance over the database and the file system
+and it isn't easy to figure out how document types are stored. I
+find some information relating to my document types in a table
+called <strong><em>AttributeSchemaDefinition</em></strong> but the
+data model uses GUIDs as identifiers and there appear to be some
+quite complex relationships between the tables. It certainly isn't
+a 5 minute job to work out how it all hangs together.</p>
+
+<p>My Umbraco HQ contacts aren't on Skype and I feel like I've
+harassed them enough for today so I decide to quit for the day.</p>
+
+<p>For now I'll backup my SQL CE database - after all it is just a
+file - and I'll come back to this later when I have a bit more
+energy. I'm really hoping that moving document types between
+instances was a design consideration of Umbraco 5. Perhaps this is
+where Courier vNext will come into play?</p>
+
+<p><em><strong>Next Time</strong></em></p>
+
+<p>I'll look at adding CSS and JavaScript to Umbraco 5 and
+completing my homepage. I'll also look into how to create my top
+navigation.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

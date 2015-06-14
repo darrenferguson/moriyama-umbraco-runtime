@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="48699403-6f38-47ed-9826-89da8e7d0140" id="1804" nodeName="Umbraco backup allows restore across SQL server versions" isDoc="" updated="2013-10-28T17:22:18.993Z" parentGUID="745385ea-d734-4723-83f2-4b97d400d7c8" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-backup-allows-restore-across-sql-server-versions]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-10T11:54:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/h3MKIF]]></shortUrl>
+  <summary><![CDATA['Umbraco backup allows restore across SQL server versions' - a blog post by Darren Ferguson about SQL, XML, Technology Internet written on 10 August F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[SQL, XML, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>
+Using the Umbraco backup XML mode SQL server restore tool, you can develop a site on your local host running SQL server E15222D9-8D3D-45E6-8EC1-508D9DABEBB1 express and then migrate that database to SQL 2K on a shared hosting environment with just a couple of quick dos commands (any Umbraco supported version to any other version is fine).
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

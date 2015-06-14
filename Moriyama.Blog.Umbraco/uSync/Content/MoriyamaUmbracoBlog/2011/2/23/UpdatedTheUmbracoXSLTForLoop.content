@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="c1c4e057-9808-441f-9cc6-1fddba0eec17" id="1938" nodeName="Updated: The Umbraco XSLT for loop" isDoc="" updated="2013-07-07T08:17:29.057Z" parentGUID="21323cc9-8388-4b0f-b0fe-7a0eff5a5e79" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/updated-the-umbraco-xslt-for-loop]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-02-23T18:30:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gWitqN]]></shortUrl>
+  <summary><![CDATA['Updated: The Umbraco XSLT for loop' - a blog post by Darren Ferguson about XSLT, paging written on 23 February B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[XSLT, paging, Umbraco]]></tags>
+  <bodyText><![CDATA[
+<p>Thanks to Chriztian Steinmeier aka <a
+href="http://twitter.com/#!/greystate">@greystate</a> I'm happy to
+post an update to yesterdays XSLT hack blog post that allows you to
+do paging in Umbraco without recusrsive templates.</p>
+
+<p>This is a pure XSLT solution.</p>
+
+<p>Oh and by the way - yesterdays blog was a bit of fun and a joke.
+So please, no more snide emails OK?</p>
+
+<pre class="brush: xml;">
+&lt;xsl:for-each select="$childNodes[position() &amp;lt;= $numberOfPages]"&gt;
+        &lt;a href="{pageUrl}?page={position()}"&gt;
+          &lt;xsl:value-of select="position()"/&gt;
+        &lt;/a&gt;
+&lt;/xsl:for-each&gt;
+
+&lt;div&gt;
+      &lt;xsl:for-each select="$childNodes[position() &amp;gt;= $startIndex and position() &amp;lt;= $endIndex]"&gt;
+        
+        &lt;xsl:variable name="counter" select="position() + (($pageNumber -1) * $itemsPerPage)"/&gt;
+        &lt;xsl:variable name="node" select="$childNodes[$counter]"/&gt;
+        
+        &lt;p&gt;
+          &lt;xsl:value-of select="$counter"/&gt;.
+          &lt;a href="{umbraco.library:NiceUrl($node/@id)}"&gt;
+            &lt;xsl:value-of select="$node/@nodeName"/&gt;
+          &lt;/a&gt;
+        &lt;/p&gt;
+        
+      &lt;/xsl:for-each&gt;
+&lt;/div&gt;
+</pre>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

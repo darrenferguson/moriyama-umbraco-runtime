@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="7ac0e711-0819-422f-b2bb-da67444ddbdd" id="2400" nodeName="Lau" isDoc="" updated="2013-07-07T08:18:07.89Z" parentGUID="03f2df6c-72e3-4be8-b974-d91ec4bd110c" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-03-31T16:19:41</displayDate>
+  <title><![CDATA[Lau]]></title>
+  <name><![CDATA[Lau]]></name>
+  <email><![CDATA[lau@voodoodog.com]]></email>
+  <website><![CDATA[http://www.voodoodog.com/]]></website>
+  <bodyText><![CDATA[I love the application, and see it having alot of potential. Don't lock it yourself into the native application.
+
+Build a great web + mobile web application, and then talk to it using a native app. If you want open it up, so that other people can integrate with your app.
+
+I'd be very interested in designing a little web front end, if you want something! ;)]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

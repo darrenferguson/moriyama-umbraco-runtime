@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="bbca8041-7b01-41dd-b292-0a37850e5f0c" id="2838" nodeName="Darren Ferguson (2)" isDoc="" updated="2013-07-07T08:18:10.17Z" parentGUID="efb7322a-a175-4bf9-a7f7-a639d085cfae" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="13" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-02-06T09:28:24.117</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@Boris - In your version of TeamSite you can have XSLT TPLs which use a newer version of Xalan. It is all in the product docs.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

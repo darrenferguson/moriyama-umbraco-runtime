@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="06424fc1-3cdd-4c34-bb9e-3ab42b19f3e8" id="2507" nodeName="Alex" isDoc="" updated="2013-10-28T17:23:15.303Z" parentGUID="9a2cf23a-0b16-443c-a4f2-2cf7c6dba275" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-05-12T00:45:13</displayDate>
+  <title><![CDATA[Alex]]></title>
+  <name><![CDATA[Alex]]></name>
+  <email><![CDATA[alex.aholmes@gmail.com]]></email>
+  <website><![CDATA[http://yomrholmes.com]]></website>
+  <bodyText><![CDATA[I just used Pipes to aggregate my first group of feeds, and gotta say it was quite straight forward to figure out.  Great tool to play around with.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

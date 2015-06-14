@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="4342c37a-bba2-40cd-8827-8a3cc0ca6185" id="2590" nodeName="Ismail Mayat" isDoc="" updated="2013-10-28T17:22:08.137Z" parentGUID="229dfa69-a97b-46c5-9230-051599733947" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-21T16:23:28</displayDate>
+  <title><![CDATA[Ismail Mayat]]></title>
+  <name><![CDATA[Ismail Mayat]]></name>
+  <email><![CDATA[ismail.mayat@iassmarts.com]]></email>
+  <website><![CDATA[http://ismail.umbraco.net/]]></website>
+  <bodyText><![CDATA[Darren,
+
+I found this on codeproject http://www.codeproject.com/useritems/Site_Poll_Control.asp. Not had a play myself but looks ok.
+
+Regards
+
+Ismail]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

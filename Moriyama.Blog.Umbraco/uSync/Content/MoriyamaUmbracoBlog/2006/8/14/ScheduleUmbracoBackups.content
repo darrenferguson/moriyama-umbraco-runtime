@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="291c5db5-afcd-46d1-a913-6762be030827" id="1805" nodeName="Schedule Umbraco backups" isDoc="" updated="2013-10-28T17:22:20.02Z" parentGUID="ba44ea61-39ef-4cb2-a066-f61cd3ec39a7" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/schedule-umbraco-backups]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-14T11:10:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/hTBkaa]]></shortUrl>
+  <summary><![CDATA['Schedule Umbraco backups' - a blog post by Darren Ferguson about Business Finance, Technology Internet written on 14 August F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Business Finance, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>
+Umbraco backup now supports scheduled backups. You will need to install the latest version of the package and download the latest user manual which explains how to set up scheduling.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

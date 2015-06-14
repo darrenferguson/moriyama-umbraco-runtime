@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="858111a8-c0fc-4fd5-912e-d3f838a02b01" id="2240" nodeName="Warren Buckley" isDoc="" updated="2013-07-07T08:17:40.74Z" parentGUID="691c74dc-b77c-4086-a6cd-712b4a60072e" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-01T08:22:00</displayDate>
+  <title><![CDATA[Warren Buckley]]></title>
+  <name><![CDATA[Warren Buckley]]></name>
+  <email><![CDATA[warren@creativewebspecialist.co.uk]]></email>
+  <website><![CDATA[http://www.creativewebspecialist.co.uk]]></website>
+  <bodyText><![CDATA[Darren,
+This looks a like a really nice package and I love the fact I will be able to have total control of the PDF and layout, rather than just a HTML dump of the page into a PDF.
+
+Does your doccumentation cover the xsl:fo stuff or is there somewhere else you can link to for in-depth documentation.
+
+Warren]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

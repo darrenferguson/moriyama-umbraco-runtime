@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="a9646fdb-f683-4510-8fa1-cf858decaa47" id="1856" nodeName="Broken link check package for Umbraco" isDoc="" updated="2013-10-28T17:23:10.53Z" parentGUID="57c2aa06-ce75-44e5-a715-be2cdc8a37a9" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/broken-link-check-package-for-umbraco]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-06-19T09:16:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gAbOJs]]></shortUrl>
+  <summary><![CDATA['Broken link check package for Umbraco' - a blog post by Darren Ferguson written on 19 June 9997642C-5F5C-4A03-A353-2E7B493113A9]]></summary>
+  <tags></tags>
+  <bodyText><![CDATA[<p>
+I've created a package to check for broken links in Umbraco pages. You can download it <a href="/media/12892/ferguson_moriyama_link_checker_1.0.umb">here</a>.
+</p><p>
+While reading through some of the notes on open space sessions conducted as part of codegarden day 2 I saw this requested as a 'most wanted' package. I remembered that I had the code to do this from a couple of years ago, so I cleaned it up a little and decided to release it.
+</p><p>
+The package is implemented as an Umbraco action handler. When you publish a node, it's content is scanned for broken links. If any are found then a report is emailed to the document publisher. You need to have Umbraco configured so it is able to send email.
+</p><p>
+The package will handle external links as well as internal absolute and relative links.
+</p><p>
+As ever, thoughts, suggestions, comments and feature requests are all welcome.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="14f123fe-420e-41ac-80f2-62430268eb55" id="2385" nodeName="Chris Houston" isDoc="" updated="2013-07-07T08:18:05.997Z" parentGUID="3d7d6134-2bd1-4ee2-899b-4a62340deb94" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-21T16:51:24</displayDate>
+  <title><![CDATA[Chris Houston]]></title>
+  <name><![CDATA[Chris Houston]]></name>
+  <email><![CDATA[chouston@vizioz.com]]></email>
+  <website><![CDATA[http://www.vizioz.com]]></website>
+  <bodyText><![CDATA[Hi Darren,
+
+I have just installed your Google Map doc type and it installed seamlessly, so well done :)
+
+Do you have an example of how to show multiple items on a single map? I have a collection of point which I would like to display on a single page and then if the user clicks the marker I need it needs to change the content of a DIV on the page (probably using AJAX) If you have an example of multiple node usage that would be a great step in the right direction!
+
+Cheers,
+
+Chris]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="efb7322a-a175-4bf9-a7f7-a639d085cfae" id="1890" nodeName="Tips for easier TeamSite templating development" isDoc="" updated="2013-07-07T08:18:08.95Z" parentGUID="dc771ccf-f6d1-4b91-a55f-e441df066294" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/tips-for-easier-teamsite-templating-development]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-04-08T08:00:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/ihxfq3]]></shortUrl>
+  <summary><![CDATA['Tips for easier TeamSite templating development' - a blog post by Darren Ferguson about Perl, XSLT, XML, GUI, Internet explorer, Microsoft Windows, Solaris, Linux, Perl interpreter, interpreter, decent Perl programmer, Java, DTD written on 08 April A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Perl, XSLT, XML, GUI, Internet explorer, Microsoft Windows, Solaris, Linux, Perl interpreter, interpreter, decent Perl programmer, Java, DTD]]></tags>
+  <bodyText><![CDATA[<p>I’ve worked with Interwoven <a href="http://www.interwoven.com/components/page.jsp?topic=PRODUCT::TEAMSITE">TeamSite</a> for some time and over the years fellow developers have frequently complained how difficult it is to develop TeamSite presentation templates. I’ve never really seen these issues and I think a lot of it is down to developer laziness.</p><p>Logging, error trapping and step by step debugging are all available but some seem to prefer to complain about how tough templates are to debug rather than invest some time and work out how to make their life easier.</p><p>Are you sick of this message?</p><pre style="border-right: black 1px solid; padding-right: 7px; border-top: black 1px solid; padding-left: 7px; padding-bottom: 7px; border-left: black 1px solid; padding-top: 7px; border-bottom: black 1px solid; background-color: rgb(238,238,238)"><em><strong>Comment: Could not process template:<br />/.iwmnt/default/main/my/branch/default/WORKAREA/default/templatedata/category/type/presentation/html.tpl</strong></em></pre><p>If so the following post contains some tips on stress free template development.</p><p><strong>1. Install TeamSite locally</strong></p><p>If your company has a support account with Interwoven get them to obtain you a development license and install TeamSite on your workstation. It doesn’t matter if you install a Windows, Solaris or Linux version locally – any code you write should be cross platform.</p><p>The benefit here is much quicker access to log files and code, it will just make your whole development experience quicker.</p><p><strong>2. Use XSLT</strong></p><p>TeamSite 6.7 supports XSLT and so do earlier versions by using the <em>iwov_xslt</em> tag in your presentation templates.</p><p>If you use XSLT for presentation you can copy your TeamSite DCRs locally and run your XSLT transformations against them independently of the TeamSite server. I use <a href="http://www.jedit.org/">jEdit</a> and the XSLT plugin to do this. Once you’ve perfected your XSLT you upload it to your TeamSite server.</p><p>You may find that you miss some of the tags and helper functions that standard TeamSite  presentation templates provide, but if you do I’d firmly suggest that the logic you are performing would be better placed as either formAPI code or validation rules in your data capture template.</p><p><strong>Note:</strong> The<em> iwov_xslt </em>tag has some major issues, it doesn’t support UTF-8 and sometimes chops the first line off your output, but any half decent Perl programmer can get under the bonnet and fix these.</p><p><strong>3. Make sure your TPL is valid XML</strong></p><p>Simple enough right? It never ceases to amaze me when really bright developers ask me to debug their TPL and it contains mismatched tags or illegal characters. </p><p>TIP: Rename the TPL with an .xml file extension and drop it into Internet explorer. IE will complain if the TPL is not well formed XML.</p><p>You can also validate it against the appropriate DTD which is in iw-home/local/config.</p><p><strong>4. Use Logging</strong></p><p>By logging I don’t mean this:</p><pre class="sh_perl" style="border-right: black 1px solid; padding-right: 7px; border-top: black 1px solid; padding-left: 7px; padding-bottom: 7px; border-left: black 1px solid; padding-top: 7px; border-bottom: black 1px solid; background-color: rgb(238,238,238)">open FILE, "&gt;/tmp/debug.txt";
+print FILE "debug message";
+close FILE;</pre><p>Use <a href="http://search.cpan.org/~mschilli/Log-Log4perl-1.21/">Log4Perl</a>. It is distributed with TeamSite and is a fully featured logging package. Log4Perl is a Log4J clone and offers many powerful features. Covering the use of Log4Perl is way to lengthy for this post, instead check out this <a href="http://www.perl.com/pub/a/A3A0DA80-3C2C-4DAF-B91F-F22E197423B4/09/11/log4perl.html">excellent article</a> at perl.com.</p><p><strong>5. Learn how to use the iwpt_compile.ipl script</strong></p><p>Lots of TeamSite developers don’t realise that you can run your page generation from the command line. This will give you a more specific reason as to what is wrong with your presentation template than the standard error message from the GUI.</p><p>Run iwpt_compile.ipl in iw-home/bin and you will get the following usage information:</p><pre style="border-right: black 1px solid; padding-right: 7px; border-top: black 1px solid; padding-left: 7px; padding-bottom: 7px; border-left: black 1px solid; padding-top: 7px; border-bottom: black 1px solid; background-color: rgb(238,238,238)">Syntax:  iwpt_compile.ipl -v |         (Note: command-line options wrapped for readability)
+                          -h |
+                          -pt presentation_file
+                          [-ofile outfile]
+                          [-smartwrite]
+                          [-manifest filename]
+                          [-oprefix basename_prefix]
+                          [-ocode filename.ipl]
+                          [-umask umask  (note: UNIX only)]
+                          [tag-specific args (eg: -iw_pt-dcr filename)]
+                          [-oenc  output_encoding_name (default: -oenc UTF-8)]
+                          [-osenc os_encoding_name (default: -osenc UTF-8)]
+
+         Notes:
+
+             o  Extensive online HTML-based is available at:
+                    http://support.interwoven.com/library/devel/tst/pt/
+                and http://&lt;your_local_teamsite_machine&gt;/iw/help/tst/pt/
+
+             o  For a complete list of available output encodings, type:
+                    iwpt_compile.ipl -h -oenc
+
+             o  Common tag-specific flags:
+                    -iw_pt-dcr &lt;dcr&gt;
+                    -iw_pt-arg &lt;arg&gt;
+                    -iw_pt-preview
+                    -iw_include-location &lt;dir&gt;
+</pre><p>In most scenarios you'll just need to specify the following arguments: </p><ul><li>-iw_pt-dcr </li><li>-iw_include-location </li><li>-pt </li><li>-ocode </li></ul><p>-iw_include-location should be the full path of your TeamSite Workarea and -ocode should be the name of an output file to produce.</p><p>The output file is actually just a Perl script which will dump the result of your TPL generation to the standard out.</p><p>You may get an error executing iwpt_compile.ipl or you may get an error when you run the resulting output file, but either way the message you receive should be more useful than the standard message you get via the GUI. </p><p><strong>6. Trap errors with Perl eval</strong></p><p>As Java uses try/catch blocks Perl uses eval.</p><p>Consider the following Perl:</p><pre class="sh_perl" style="border-right: black 1px solid; padding-right: 7px; border-top: black 1px solid; padding-left: 7px; padding-bottom: 7px; border-left: black 1px solid; padding-top: 7px; border-bottom: black 1px solid; background-color: rgb(238,238,238)">my $x = 10;
+my $y = $x/0;
+
+print "value of y is $y\n but this will never get printed";</pre><p>The illegal division by zero causes Perl to throw an error and die. To stop the script from dying we can do the following.</p><pre class="sh_perl" style="border-right: black 1px solid; padding-right: 7px; border-top: black 1px solid; padding-left: 7px; padding-bottom: 7px; border-left: black 1px solid; padding-top: 7px; border-bottom: black 1px solid; background-color: rgb(238,238,238)">eval {
+	my $x = 10;
+	my $y = $x/0;
+	print "value of y is $y\n";
+};
+
+if($@) { print $@; }
+
+print "\nand the script keeps running\n";</pre><p>If you were to run the above script you'd see that Perl "catches" the error and continues to run. eval Will cope with any problems that your secript may encounter including syntax error and mis-spelling of keywords. Should eval cause the Perl interpreter to throw an error the descriptive error message is stored in the Perl special variable $@.</p><p>Finally consider this TPL extract which shows how you can use the Perl eval block in a TeamSite template to figure our why a Perl block is failing</p><pre class="sh_perl" style="border-right: black 1px solid; padding-right: 7px; border-top: black 1px solid; padding-left: 7px; padding-bottom: 7px; border-left: black 1px solid; padding-top: 7px; border-bottom: black 1px solid; background-color: rgb(238,238,238)">eval {
+	my $x = 10;
+	my $y = $x/0;
+	iwpt_output("value of y is $y\n");
+};
+
+if($@) {
+	iwpt_output($@);
+	$logger-&gt;warn($@);
+}
+
+iwpt_output "\nand the script keeps running\n";</pre><p>From the snippet above you should be able to see how you can quickly add an eval block to a TPL Perl block to determine what is causing it to fail.</p><p><strong>7. Use step by step debugging</strong></p><p>If you find yourself at this stage it is a sign that your presentation logic is over complicated and you should really take a step back and question what you are doing.</p><p>If step by step debugging is the only option for you then here you can run Perl in debug mode by using the –d flag when starting the interpreter.</p><p>I’ve met lots of people who believe you can’t step by step debug Perl whereas in reality it is in incredibly simple to do. I use Activestate Komodo IDE to do my step by step debugging, it is a commercial product and reasonably expensive and to be honest I *only* use it for debugging.</p><p>A guide on how to set up Komodo for debugging is <a href="http://docs.activestate.com/komodo/4.4/debugperl.html">here</a>.</p><p><strong>In Conclusion</strong></p><p>So that is all from me for now. I should have written this post years ago. Hopefully with XSLT template support in TeamSite 6.7 legacy Perl presentation templates will start to fade away, but there are so many old school templates out there that we’ll be supporting them for many years to come yet.</p><p>If you have any more TeamSite templating hints and tips or think that anything above is unclear or innacurate, please get in touch.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

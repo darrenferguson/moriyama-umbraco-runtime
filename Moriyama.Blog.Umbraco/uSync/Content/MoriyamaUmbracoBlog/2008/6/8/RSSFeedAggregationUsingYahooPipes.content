@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="9a2cf23a-0b16-443c-a4f2-2cf7c6dba275" id="1860" nodeName="RSS feed aggregation using Yahoo pipes" isDoc="" updated="2013-10-28T17:23:14.857Z" parentGUID="80d79cd7-446e-4f7e-82bd-386de11cefd2" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/rss-feed-aggregation-using-yahoo-pipes]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-06-08T22:25:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/hI4YSN]]></shortUrl>
+  <summary><![CDATA['RSS feed aggregation using Yahoo pipes' - a blog post by Darren Ferguson about Yahoo, composition tool, web server, GUI, Technology Internet written on 08 June 9997642C-5F5C-4A03-A353-2E7B493113A9]]></summary>
+  <tags><![CDATA[Yahoo, composition tool, web server, GUI, Technology Internet]]></tags>
+  <bodyText><![CDATA[
+<p>I've been digesting some of the information on day two of
+codegarden and in particular <a
+href="http://umbraco.org/documentation/books/codegarden-9997642C-5F5C-4A03-A353-2E7B493113A9">this
+post</a> that contains a list of 'most wanted' packages.</p>
+
+<p>I'm unsure who requested RSS feed aggregation but before anyone
+were to dive in and start coding it may be worth having a look at
+<a href="http://pipes.yahoo.com/pipes/">Yahoo pipes</a>.</p>
+
+<p>As yahoo say:</p>
+
+<blockquote>Pipes is a powerful composition tool to aggregate,
+manipulate, and mashup content from around the web.</blockquote>
+
+<p>I've been using pipes for some time to consolidate all of the
+Umbraco related feeds into a single feed. Here is a shot of the GUI
+when editing my pipe.</p>
+
+<p><a
+href="http://www.flickr.com/photos/darrenferguson/2556059623/"><img src="/media/77511/A7F49676-C4DF-452F-9397-9D4E570C0534_1.jpg" alt="Yahoo pipes"/></a></p>
+
+<p class="clear">Once you have a pipe created it can be used to
+syndicate the output in a number of formats.</p>
+
+<p>It should be a relatively simple task to read an cache your pipe
+RSS output to your Umbraco web server, possibly using some kind of
+Macro, but I'd recommend using a scheduled task and simply writing
+the feed to the file system as pipes with multiple feeds may impair
+your page load time - if for example one of the feed sources is
+unavailable for any reason.</p>
+
+<p>If anyone would like some help with this package, please let me
+know.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

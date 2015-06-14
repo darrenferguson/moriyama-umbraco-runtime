@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="ee8a6147-cdd5-405d-b6ea-1eb6bcb1e896" id="2619" nodeName="siw" isDoc="" updated="2013-07-07T08:18:05.217Z" parentGUID="5c0b75fb-dd63-412a-9a10-e6305ef8e91f" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="8" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-11-29T21:31:58.06</displayDate>
+  <title><![CDATA[siw]]></title>
+  <name><![CDATA[siw]]></name>
+  <email><![CDATA[siw@blank.no]]></email>
+  <website><![CDATA[http://www.blank.no]]></website>
+  <bodyText><![CDATA[I'm new to this stuff and the data type works great, as shown in your video. But. Is it possible to place several map points in the same map rendering? Like maps in a google search that will show pinpoints for several locations at the same time? ]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

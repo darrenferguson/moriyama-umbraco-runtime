@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogTextPage guid="f888bd1e-69ea-4185-97f4-e1b7001d3f98" id="3114" nodeName="404 Not Found" isDoc="" updated="2013-07-31T11:33:33.377Z" parentGUID="6df97d27-68ea-44e9-8190-fb5c74a4e7e4" nodeTypeAlias="BlogTextPage" templateAlias="BlogTextPage" sortOrder="10" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>1</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate></displayDate>
+  <title></title>
+  <shortUrl></shortUrl>
+  <summary></summary>
+  <tags></tags>
+  <bodyText><![CDATA[<p>The Page you are looking for wasn't found.</p>]]></bodyText>
+</BlogTextPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="7ed341e2-efe4-45bb-8b37-a70c2179fefb" id="2577" nodeName="Mark Smith" isDoc="" updated="2013-10-28T17:22:02.77Z" parentGUID="7da8e2af-84db-4562-8328-811aefd13a66" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="10" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-20T17:26:46</displayDate>
+  <title><![CDATA[Mark Smith]]></title>
+  <name><![CDATA[Mark Smith]]></name>
+  <email><![CDATA[mark.smith@infopatterns.net]]></email>
+  <website><![CDATA[http://www.grooveforms.com]]></website>
+  <bodyText><![CDATA[Working &amp; Living in Skye, Scotland. Building cool stuff for Microsoft Groove, and using Umbraco for web sites. GrooveForms being  a 'practice run' for the creation of our main company web site..]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

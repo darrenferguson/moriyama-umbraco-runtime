@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="0c5d61a0-49d6-401f-bf3e-80584f7e8783" id="2341" nodeName="Tom Wentworth" isDoc="" updated="2013-07-07T08:18:00.993Z" parentGUID="ab345438-ee3f-4af8-8151-197a5a426dd8" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-16T12:46:52</displayDate>
+  <title><![CDATA[Tom Wentworth]]></title>
+  <name><![CDATA[Tom Wentworth]]></name>
+  <email><![CDATA[twentworth12@gmail.com]]></email>
+  <website><![CDATA[http://friendfeed.com/twentworth12]]></website>
+  <bodyText><![CDATA[This is very cool!  With your permission, I want to add this to our standard demos so we can start showing autocomplete to all our customers.  ]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

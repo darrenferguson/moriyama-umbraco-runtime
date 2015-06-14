@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="d302ef8e-e80b-4799-818b-e64dc2493433" id="2787" nodeName="Building the new Ferguson Moriyama website in Umbraco 5" isDoc="" updated="2013-07-07T08:17:26.227Z" parentGUID="3f1db63d-a5cc-4018-bc1d-528d1c2638ea" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-01-17T00:00:00</displayDate>
+  <title><![CDATA[Building the new Ferguson Moriyama website in Umbraco 5]]></title>
+  <shortUrl><![CDATA[http://djf.so/znd4iU ]]></shortUrl>
+  <summary><![CDATA['Building the new Ferguson Moriyama website in Umbraco 5' - a blog post by Darren Ferguson about Umbraco 5, Ferguson Moriyama written on 17 January DD342A1F-588F-46F4-9806-89C04EE0A7AD]]></summary>
+  <tags><![CDATA[Umbraco 5, Ferguson Moriyama]]></tags>
+  <bodyText><![CDATA[
+<p>So I need to learn how to use <a
+href="http://umbraco.codeplex.com/releases/view/79260">Umbraco
+5</a> - because in a couple of months of time I'll be teaching it
+to others. I've played with version 5 during development and
+contributed a few bits of information back to the community but now
+is the time to get real.</p>
+
+<p>I always find that there is nothing like a real project when
+learning a technology. I'd spent the last couple of weeks deciding
+what would be my proof of concept project, a little afraid to
+commit a client to such as breaking piece of tech and then it hit
+me.</p>
+
+<p>Gathering dust in a folder somewhere on my laptop was a set of
+mock-ups for the new Ferguson Moriyama website. So why not?
+Ferguson Moriyama on Umbraco 5 and blog and screencast about it
+step by step so others can benefit from my experiences during the
+process.</p>
+
+<h2>A little project background</h2>
+
+<p><a
+href="http://www.fergusonmoriyama.com/">FergusonMoriyama.com</a>
+has served me well since E15222D9-8D3D-45E6-8EC1-508D9DABEBB1 and Umbraco version 2.0.6. My company
+website is (and always has been) a secondary channel when it comes
+to new business. I'm fortunate enough to have enough repeat
+business that I rarely have to convince people that we can help
+them out.</p>
+
+<p>Having said that the site does need a little TLC, In the 7 years
+that the site has been in service we've diversified the types of
+work we do and that obviously impacts the content we serve. From
+being a pure services company we now sell some products and as we
+provide training for which we need to take bookings.</p>
+
+<p>In performing this technology refresh we'll get rid of some of
+the "shoe-horning" and hacking of content that has gone before. It
+used to be just me updating my Umbraco sites but now there are a
+few of us, it'll be nice to remove those "special pages that only
+Darren can edit".</p>
+
+<h2>The Starting point</h2>
+
+<p>The mark-up that I had built can be viewed on my preview
+server:</p>
+
+<ul>
+<li><a
+href="http://static.darren-ferguson.com/markup/home.html">Home
+Page</a></li>
+
+<li><a
+href="http://static.darren-ferguson.com/markup/account.html">Form
+Page</a></li>
+
+<li><a
+href="http://static.darren-ferguson.com/markup/products.html">Product
+Page</a></li>
+
+<li><a
+href="http://static.darren-ferguson.com/markup/our_work.html">Client
+Page</a></li>
+</ul>
+
+<p>When I undertook the refresh of the look and feel I had the
+following criteria.</p>
+
+<ul>
+<li>Consistent positioning of content</li>
+
+<li>Navigation to depth of 3 levels</li>
+
+<li>Adding a standard form template</li>
+
+<li>Adding a product template</li>
+
+<li>Making our contact details more prominent to encourage people
+to call us</li>
+
+<li>Re-writing lots of the copy to focus on a smaller set of
+services that we want to provide</li>
+</ul>
+
+<p>One concern is that I didn't really consider mobile devices very
+well. In the last year I've started to use tablets and phones to
+browse the site and I'm now kicking myself at the omission. Still
+I've decided to move forward with what I have and address it as the
+first issue post go live.</p>
+
+<h2>The blog series</h2>
+
+<p>I'll aim to write each step of this development up as I work on
+it. I'll do my best to use screencasts and screen grabs where
+appropriate. The aim is to make things fairly simple to follow and
+the target audience will be people who are familiar with Umbraco
+4.</p>
+
+<p>I understand that I'm working with a product that is maturing
+and expect to hit issues along the way - these will of course be
+logged and reported. I'm not going to put a timescale on this or
+commit to update the blog at regular intervals - I'm phenomenally
+busy just now.</p>
+
+<h2>Part 1</h2>
+
+<p>In part 1 of this series (coming sometime soon) I'll look at two
+things:</p>
+
+<ul>
+<li>Designing and implementing my document types</li>
+
+<li>Versioning my development</li>
+</ul>
+
+<p>The versioning part will also consider a release process - Once
+I've versioned my development I'll need to be able quickly release
+iterations to multiple environments. At the end of each blog post
+I'll plan to have the site public facing so you can follow my
+progress.</p>
+
+<h2>Getting started</h2>
+
+<p>So before we start the build let's get a development environment
+set up. This is really simple as I have the <a
+href="http://www.microsoft.com/web/downloads/platform.aspx">Microsoft
+web platform installer</a> and <a
+href="http://www.microsoft.com/web/webmatrix/">WebMatrix</a>
+already on my machine.</p>
+
+<p>Here are the steps:</p>
+
+<ol>
+<li>Download <a
+href="http://umbraco.codeplex.com/releases/view/80350#DownloadId=327116">
+Umbraco 5 RC 2</a></li>
+
+<li>Extract to a folder</li>
+
+<li>Right click and choose <em>Open as a website with Microsoft
+WebMatrix</em></li>
+
+<li>Click run and choose a browser - in my case Chrome</li>
+
+<li>On the splash screen click the <em>launch installer</em>
+link</li>
+
+<li>When prompted choose SQL CE as the database - I'll change this
+later.</li>
+</ol>
+
+<p>That is all, an empty vanilla Umbraco 5 up and running. This
+leaves me ready to start building my site.</p>
+
+<p>The screencast below illustrates the steps described above.
+There is no sound.&nbsp;</p>
+
+<p><a href="http://vimeo.com/35093069"><img src="~/media/127581/cast_500x375.jpg"  width="500"  height="375" alt="Screencast frame"/></a></p>
+
+<p style="clear: both;"><em>Note: I installed the wrong version of
+Umbraco in the cast but the process is the same.</em></p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

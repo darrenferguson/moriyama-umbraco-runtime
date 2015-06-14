@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="54bad773-0242-42f7-9f17-5d6f8b756fc1" id="2352" nodeName="Jagadeesh Raju (1)" isDoc="" updated="2013-07-07T08:18:01.96Z" parentGUID="ab345438-ee3f-4af8-8151-197a5a426dd8" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="12" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-08-18T08:19:42</displayDate>
+  <title><![CDATA[Jagadeesh Raju (1)]]></title>
+  <name><![CDATA[Jagadeesh Raju (1)]]></name>
+  <email><![CDATA[jagadeesh.raju@hotmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Thanks Darren and Calum Smith. I implemented Datepicker jquery in DCT as described the above steps. Its working fine.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

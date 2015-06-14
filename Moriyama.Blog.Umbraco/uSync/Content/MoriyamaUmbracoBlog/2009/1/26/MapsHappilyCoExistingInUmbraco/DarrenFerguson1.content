@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="b8526451-ee56-4273-8b9c-1f2a64e0124f" id="2297" nodeName="Darren Ferguson (1)" isDoc="" updated="2013-07-07T08:17:54.6Z" parentGUID="b71c4ea6-a859-4a70-8be5-0a2537c333e0" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-27T09:23:18</displayDate>
+  <title><![CDATA[Darren Ferguson (1)]]></title>
+  <name><![CDATA[Darren Ferguson (1)]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@Jesper, I don't think that Tim's datatype was made available for download? I hadn't heard about it before I started working on this.
+
+I haven't tested it with autoform or canvas as yet.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

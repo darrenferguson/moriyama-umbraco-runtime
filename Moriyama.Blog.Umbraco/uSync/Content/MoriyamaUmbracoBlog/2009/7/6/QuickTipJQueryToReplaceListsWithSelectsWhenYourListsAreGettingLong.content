@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="3bb74220-ad71-4699-a92e-574fff3e7091" id="1904" nodeName="Quick tip: jQuery to replace lists with selects when your lists are getting long" isDoc="" updated="2013-07-07T08:18:13.567Z" parentGUID="3d0fd241-5ee4-40d3-8959-ce0d9b17c6ce" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/quick-tip-jquery-to-replace-lists-with-selects-when-your-lists-are-getting-long]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-06T21:06:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gIMPCp]]></shortUrl>
+  <summary><![CDATA['Quick tip: jQuery to replace lists with selects when your lists are getting long' - a blog post by Darren Ferguson about less page real estate, search engines, Technology Internet, Human Interest, Business Finance, Entertainment Culture written on 06 July A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[less page real estate, search engines, Technology Internet, Human Interest, Business Finance, Entertainment Culture]]></tags>
+  <bodyText><![CDATA[
+<p>My list of archived content by month in the right hand side
+navigation of this page was getting a little long. The following
+jQuery script replaces the un-ordered list with a select input
+which takes up much less page real estate.</p>
+
+<p>The page still looks the same to any passing search engines
+though.</p>
+
+<pre class="brush: js;">
+var archiveContent = '';
+
+$("li[class='archive']").each(function() {
+    archiveContent += '&lt;option value="'+$('a:first', this).attr('href') 
+        +'"&gt;'+$('a:first', this).html()+'&lt;/option&gt;\n';
+    $(this).remove();
+});
+
+archiveContent = '&lt;li&gt;\n&lt;form id="archiveForm"&gt;&lt;select 
+    id="archiveSelect"&gt;\n'+archiveContent;
+archiveContent += '&lt;/select&gt;&lt;input type="submit" value="go" 
+    class="submit" id="archiveSubmit"/&gt;&lt;/form&gt;&lt;/li&gt;';
+
+$('#archiveHeader').after(archiveContent);
+
+$('#archiveSubmit').click(function() {
+    window.location.href = $('#archiveSelect').val();
+    return false;
+});
+</pre>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

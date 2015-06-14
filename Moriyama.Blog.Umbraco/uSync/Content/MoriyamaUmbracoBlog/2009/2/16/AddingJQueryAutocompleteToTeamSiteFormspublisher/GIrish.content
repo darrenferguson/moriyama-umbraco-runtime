@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="a7f49676-c4df-452f-9397-9d4e570c0534" id="2354" nodeName="GIrish" isDoc="" updated="2013-07-07T08:18:02.12Z" parentGUID="ab345438-ee3f-4af8-8151-197a5a426dd8" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="14" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-09-03T05:18:10</displayDate>
+  <title><![CDATA[GIrish]]></title>
+  <name><![CDATA[GIrish]]></name>
+  <email><![CDATA[dasgir@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Very Nice Implementation Darren, I am trying to use the Jquery effects in my DCR, It is like if I click on add replicant button the replicant should have a slide effect. I had used ur code with slight modifications but i couldnt achieve. Do you have any idea how to achieve?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

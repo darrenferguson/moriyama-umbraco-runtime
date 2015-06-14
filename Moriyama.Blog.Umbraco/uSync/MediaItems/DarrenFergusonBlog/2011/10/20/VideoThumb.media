@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Image guid="debacaa9-e03f-4148-9879-f5646aecf047" id="2731" nodeName="Video Thumb" isDoc="" updated="2011-10-20T10:03:47.48Z" parentGUID="ef4b6c54-7829-4ee2-88df-11430cc6c729" mediaTypeAlias="Image" path="-1,1941,2193,2729,2730,2731">
+  <umbracoFile><![CDATA[/media/126280/videothumb.png]]></umbracoFile>
+  <umbracoWidth><![CDATA[504]]></umbracoWidth>
+  <umbracoHeight><![CDATA[403]]></umbracoHeight>
+  <umbracoBytes><![CDATA[96718]]></umbracoBytes>
+  <umbracoExtension><![CDATA[png]]></umbracoExtension>
+</Image>

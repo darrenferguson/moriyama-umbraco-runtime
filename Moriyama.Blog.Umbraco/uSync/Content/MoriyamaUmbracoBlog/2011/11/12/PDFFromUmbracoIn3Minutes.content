@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="81a2a060-7e20-4463-b2f5-66807771bc86" id="2751" nodeName="PDF from Umbraco in 3 minutes" isDoc="" updated="2013-07-07T08:17:33.33Z" parentGUID="687d5e1d-bf76-4779-b692-e1bb6446fbf3" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-11-12T17:12:00</displayDate>
+  <title><![CDATA[PDF From Umbraco in 3 Minutes]]></title>
+  <shortUrl></shortUrl>
+  <summary><![CDATA['PDF From Umbraco in 3 Minutes' - a blog post by Darren Ferguson about Umbraco, XSL-FO, PDF, FO, Razor written on the 12th November B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[Umbraco, XSL-FO, PDF, FO, Razor]]></tags>
+  <bodyText><![CDATA[
+<div>
+<p>Here is a quick demonstration of how to generate PDF files from
+Umbraco using&nbsp; <a
+href="http://our.umbraco.org/projects/website-utilities/pdf-creator">
+PDF Creator for Umbraco</a>. The whole process should take less
+than 3 minutes. <em>You can click on the screenshots below for
+larger versions.</em></p>
+
+<p>- Navigate to the&nbsp;<em>Developer</em>&nbsp;section of
+Umbraco.<br />
+ - Expand the&nbsp;<em>packages</em>&nbsp;node in the tree and
+click&nbsp;<em>"Umbraco package repository".</em><br />
+ - Type <em>PDF Creator</em> in the search dialogue.</p>
+
+<p><a href="/media/126785/ss1.png"><img src="~/media/126785/ss1_500x254.jpg"  width="500"  height="254" alt="Screenshot1"/></a></p>
+
+<p style="clear: both;">- In the search results hover over <em>PDF
+creator</em> and then click <em>Install Package</em></p>
+
+<p><a href="/media/126790/ss2.png"><img src="~/media/126790/ss2_500x254.jpg"  width="500"  height="254" alt="Screenshot2"/></a></p>
+
+<p style="clear: both;">- On the resulting screen check the
+checkbox labelled <em>Accept License</em>.<br />
+ - Click the <em>Install Package</em> button.</p>
+
+<p><a href="/media/126795/ss3.png"><img src="~/media/126795/ss3_500x254.jpg"  width="500"  height="254" alt="Screenshot3"/></a></p>
+
+<p style="clear: both;">- Wait for package installation to be
+confirmed.<br />
+ - Navigate to the <em>settings</em> section of Umbraco.<br />
+ - Expand <em>Document Types</em> in the tree.<br />
+ - Choose a Document type.<br />
+ - In the <em>Allowed templates</em> control check one or more
+sample PDF templates.</p>
+
+<p style="clear: both;"><a href="/media/126800/ss4.png"><img src="~/media/126800/ss4_497x270.jpg"  width="497"  height="270" alt="Screenshot4"/></a></p>
+
+<p style="clear: both;">- Go to the <em>Content</em> section of
+Umbraco.<br />
+ - Open a document of the type you set up a PDF template for.<br />
+ - Associate one of those templates with your document.<br />
+ - Click <em>Save and Publish</em></p>
+
+<p style="clear: both;"><a href="/media/126805/ss5.png"><img src="~/media/126805/ss5_499x254.jpg"  width="499"  height="254" alt="Screenshot5"/></a></p>
+
+<p style="clear: both;">- When you open the document it is rendered
+as a PDF.</p>
+
+<p style="clear: both;"><a href="/media/126815/ss7.png"><img src="~/media/126815/ss7_500x254.jpg"  width="500"  height="254" alt="Ss7"/></a></p>
+
+<p style="clear: both;">By default this works for any document type
+that uses <em>bodyText</em> as the alias for the main Rich text
+content area.</p>
+
+<p>PDF output can be fully customised by modifying the
+templates.</p>
+</div>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

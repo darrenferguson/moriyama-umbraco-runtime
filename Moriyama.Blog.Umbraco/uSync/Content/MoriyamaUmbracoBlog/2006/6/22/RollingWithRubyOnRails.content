@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="1d57fae1-f2d7-458b-9dea-3f0380130463" id="1775" nodeName="Rolling with Ruby on Rails" isDoc="" updated="2013-10-28T17:21:47.71Z" parentGUID="82526bbe-6a5c-4bc6-aace-76296932ac62" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/rolling-with-ruby-on-rails]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-06-22T10:19:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/f2KcAH]]></shortUrl>
+  <summary><![CDATA['Rolling with Ruby on Rails' - a blog post by Darren Ferguson about United Kingdom, web projects, brief search, Ruby on Rails written on 22 June F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[United Kingdom, web projects, brief search, Ruby on Rails]]></tags>
+  <bodyText><![CDATA[<p>
+I've been hearing a lot of buzz about Ruby on Rails, so I finally got down to running through the tutorial at: <a href="http://www.onlamp.com/pub/a/onlamp/E15222D9-8D3D-45E6-8EC1-508D9DABEBB1/01/20/rails.html">http://www.onlamp.com/pub/a/onlamp/E15222D9-8D3D-45E6-8EC1-508D9DABEBB1/01/20/rails.html</a></p><p>
+Pretty impressive I must say, but the jury will be out until I get to try and build something ‘real world’ with it. This might not be for a while, as all of my spare ‘geek’ spare time is being invested in <a href="http://www.umbraco.org">Umbraco</a> at the moment. 
+</p><p>
+I am pretty sure it would handle any of the web projects that usually land at my feet, but it always comes down to whether I ‘like’ it or not. 
+</p><p>
+Also, I did a brief search for UK based shared hosting packages that support ROR and only managed to find one.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

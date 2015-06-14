@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="ae7c43cb-c494-4bab-a90a-4526935d55ce" id="2299" nodeName="Kalle Wibeck" isDoc="" updated="2013-07-07T08:17:54.813Z" parentGUID="b71c4ea6-a859-4a70-8be5-0a2537c333e0" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-04T17:17:49</displayDate>
+  <title><![CDATA[Kalle Wibeck]]></title>
+  <name><![CDATA[Kalle Wibeck]]></name>
+  <email><![CDATA[kalle@wibeck.com]]></email>
+  <website><![CDATA[http://www.wibeck.com]]></website>
+  <bodyText><![CDATA[Funny, I made a quick datatype mockup myself the other day using Microsoft Virtual Earth and had just the same tab issue you mention here... but I didn't bother fixing it so I put it in the first tab instead :)
+Then just now I found this blog post and I must say that yours looks slicker...
+
+// :) Kalle]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

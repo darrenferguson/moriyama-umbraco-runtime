@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="bea520ed-eae7-4550-8f63-bedf4aad13d7" id="2503" nodeName="Thomas Kahn" isDoc="" updated="2013-10-28T17:23:09.577Z" parentGUID="917fd093-37e8-4c4a-9149-f48ed1a3b1f5" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-06-16T16:55:58</displayDate>
+  <title><![CDATA[Thomas Kahn]]></title>
+  <name><![CDATA[Thomas Kahn]]></name>
+  <email><![CDATA[thomas@karnhuset.net]]></email>
+  <website></website>
+  <bodyText><![CDATA[Could this be used for caching content that is consumed via a web service? It would be great to be able to show cached content if the web service was unavailable.
+
+Just a thought...]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

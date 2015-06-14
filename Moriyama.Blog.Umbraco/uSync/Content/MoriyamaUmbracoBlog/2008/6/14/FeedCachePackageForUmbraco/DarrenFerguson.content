@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="c759ad1d-3cd9-43ae-8283-2736692b9840" id="2499" nodeName="Darren Ferguson" isDoc="" updated="2013-10-28T17:23:07.277Z" parentGUID="917fd093-37e8-4c4a-9149-f48ed1a3b1f5" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-06-15T08:54:47</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[Hi Doug,
+
+If for any reason the feed can't be retrieved from the external server the error message will be logged and the previous version of the cached feed will still be available.
+
+As for the second question, you are correct. The feed is simply written to disk. You'll need to read and render the feed somehow in order to display it.
+
+Hope this helps.
+Darren.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

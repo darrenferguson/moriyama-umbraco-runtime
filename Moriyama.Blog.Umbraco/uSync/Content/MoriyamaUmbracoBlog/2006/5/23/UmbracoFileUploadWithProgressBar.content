@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="4b9433da-b26f-4d67-9d5f-0a250db82192" id="1769" nodeName="Umbraco file upload with progress bar" isDoc="" updated="2013-10-28T17:21:43.513Z" parentGUID="b16b0903-0144-4059-b4ba-1904a326de0b" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-file-upload-with-progress-bar]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-05-23T10:58:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/dHpzbW]]></shortUrl>
+  <summary><![CDATA['Umbraco file upload with progress bar' - a blog post by Darren Ferguson about Human Interest written on 23 May F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Human Interest]]></tags>
+  <bodyText><![CDATA[<p>
+I have created an Umbraco datatype that enhances the standard upload type, so that you get a progress bar and cancel button.
+</p><p><a href="/media/699/umbuploadprogress.zip">Download it here</a></p><p>
+I’d very much appreciate it if any of you running dev Umbraco instances would road test this for me and let me know of any bugs, issues, feature requests.
+</p><p><strong>Note: </strong>This control streams the file to a temporary folder during upload rather than storing the whole post request in memory. 
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

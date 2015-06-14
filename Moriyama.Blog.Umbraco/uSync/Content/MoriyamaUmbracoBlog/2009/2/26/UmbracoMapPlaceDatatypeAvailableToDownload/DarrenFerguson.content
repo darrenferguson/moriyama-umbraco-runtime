@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="b1ba6385-f2ea-4def-97e0-9b54d343d4c4" id="2375" nodeName="Darren Ferguson" isDoc="" updated="2013-07-07T08:18:04.73Z" parentGUID="5c0b75fb-dd63-412a-9a10-e6305ef8e91f" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-27T09:05:18</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@murray - Thanks for the feedback.
+
+I'll change things so that you can use wildcards in domain names. 
+
+The default location isn't actually implemented. It didn't quite make the cut for this beta release!
+]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

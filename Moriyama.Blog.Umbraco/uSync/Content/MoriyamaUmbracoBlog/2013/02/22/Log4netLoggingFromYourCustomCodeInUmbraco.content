@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="dea0b3aa-2dfe-4eb2-b4ab-4aef93508921" id="3015" nodeName="Log4net logging from your custom code in Umbraco" isDoc="" updated="2013-07-07T08:17:25.277Z" parentGUID="69b6eaa8-c208-452c-8084-e5c1cc1f9415" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>8C5653DD-0D2E-4750-855E-B5FA32A8F716-02-22T09:00:00</displayDate>
+  <title><![CDATA[Log4net logging from your custom code in Umbraco]]></title>
+  <shortUrl></shortUrl>
+  <summary><![CDATA['Log4net logging from your custom code in Umbraco' - a blog post by Darren Ferguson about Log4net, Umbraco written on 22 February 8C5653DD-0D2E-4750-855E-B5FA32A8F716]]></summary>
+  <tags><![CDATA[Log4net, Umbraco, Logging, Logger]]></tags>
+  <bodyText><![CDATA[
+<p><strong><em>Disclaimer: this isn't an introduction to log4net.
+Please Google for a more generic introduction.</em></strong></p>
+
+<p>Recent versions of Umbraco ship with <strong><em><a
+href="http://logging.apache.org/log4net/">Log4Net</a></em></strong>
+- previously it was reasonably straightforward to add it to your
+customisations but now it is really simple to <em>do</em> logging
+in your custom code. It is also arguably essential as there isn't a
+current method for receiving the Umbraco page assembly trace in the
+new MVC "rendering mode".</p>
+
+<p>This blog post will explain how to get a reference to a
+<strong><em><a
+href="http://logging.apache.org/log4net/">log4net</a></em></strong>
+logger in your custom code and then how to control the Level of
+your logging and filter messages from your code to their own log
+file.</p>
+
+<p>First up you'll need a reference to log4net in your project. I
+recommend referencing the version of log4net that ships with
+Umbraco directly in the <strong><em>/bin</em></strong> folder of
+the distribution. Umbraco ships with a patched version of log4net -
+but the assembly version matches an official version which has got
+me into a few challenges when referencing via nuget.</p>
+
+<p>Once I have the reference I can add the following to each class
+that I want to log from:</p>
+
+<pre class="brush: csharp;">
+public class Class1
+{
+    private static readonly ILog Log =
+        LogManager.GetLogger(
+            MethodBase.GetCurrentMethod().DeclaringType
+        );
+</pre>
+
+<p>You normally put this just inside the class declaration as
+above. The argument to GetLogger just resolves to the current type
+and is a convenience so you can paste the same snippet into any
+class without having to make modifications.</p>
+
+<p>You can now use your Logger anywhere in your code:</p>
+
+<pre class="brush: csharp;">
+Log.Debug("Umbraco is starting");
+Log.Info(string.Format("Umbraco is running on {0}", Environment.MachineName));
+</pre>
+
+<p>And you are done - kind of. If you take a look in
+<strong><em>~/App_Data/Logs/UmbracoTraceLog.txt</em></strong> then
+you should find your log messages. The problem is they are
+interspersed with lots of other messages that Umbraco logs itself
+making them rather hard to find.</p>
+
+<p>With a little configuration you can write your messages to their
+own log file. Start by opening up
+<em><strong>~/config/log4net.config</strong></em></p>
+
+<p>Take a copy of the Xml node that begins:</p>
+
+<pre class="brush: xml;">
+&lt;appender name="AsynchronousLog4NetAppender"
+</pre>
+
+<p>And give it a different and unique name attribute. Also, specify
+a path to your custom log file in the file child node. My modified
+example looks like this:</p>
+
+<pre class="brush: xml;">
+&lt;appender name="CustomAppender" type="Umbraco.Core.Logging.AsynchronousRollingFileAppender, Umbraco.Core"&gt;
+    &lt;file value="App_Data\Logs\Moriyama.log.txt" /&gt;
+    &lt;lockingModel type="log4net.Appender.FileAppender+MinimalLock" /&gt;
+    &lt;appendToFile value="true" /&gt;
+    &lt;rollingStyle value="Date" /&gt;
+    &lt;maximumFileSize value="5MB" /&gt;
+    &lt;layout type="log4net.Layout.PatternLayout"&gt;
+        &lt;conversionPattern value="%date [%thread] %-5level %logger - %message%newline" /&gt;
+    &lt;/layout&gt;
+&lt;/appender&gt;
+</pre>
+
+<p>The snippet above is just a definition for your custom log file.
+You can read lots more about configuring appenders in the log4net
+documentation.</p>
+
+<p>Finally you need to declare a logger for your namespace, add the
+following logger declaration to log4net.config</p>
+
+<pre class="brush: xml;">
+&lt;logger name="Moriyama.UmbracoCustom"&gt;
+    &lt;level value="DEBUG" /&gt;
+    &lt;appender-ref ref="CustomAppender" /&gt;
+&lt;/logger&gt;
+</pre>
+
+<p>The <em>name attribute</em> of the logger is a namespace or
+class name that the logger applies to - change this to the root
+namespace of your Umbraco customisation project. The <em>ref</em>
+attribute of the <em>appender-ref</em> node should match the
+appender name that you create in the previous step.</p>
+
+<p>You logging code should now log into your custom log file.
+<em>Be aware that you should probably raise the level of your
+loggers to at least <strong>ERROR</strong> when going into
+production.</em></p>
+
+<p>Here is a complete class example that writes some messages to a
+log file when Umbraco starts:</p>
+
+<pre class="brush: csharp;">
+using System;
+using System.Reflection;
+using log4net;
+using umbraco.interfaces;
+
+namespace Moriyama.UmbracoCustom
+{
+    public class Class1 : IApplicationStartupHandler
+    {
+        private static readonly ILog Log = 
+            LogManager.GetLogger(
+                MethodBase.GetCurrentMethod().DeclaringType
+            );
+
+        public Class1()
+        {
+            Log.Debug("Umbraco is starting");
+            Log.Info(string.Format("Umbraco is running on {0}", Environment.MachineName));
+        }
+    }
+}
+</pre>
+
+<p>The resulting output in my custom log file is as follows:</p>
+
+<pre>
+8C5653DD-0D2E-4750-855E-B5FA32A8F716-02-22 09:21:17,154 [34] DEBUG Moriyama.UmbracoCustom.Class1 - Umbraco is starting
+8C5653DD-0D2E-4750-855E-B5FA32A8F716-02-22 09:21:17,154 [34] INFO&nbsp; Moriyama.UmbracoCustom.Class1 - Umbraco is running on DARREN-VAIO
+</pre>
+
+<p>With log4net you can change the format of your log entries and
+also log to a database, XML file or even email.</p>
+
+<p>That is all for now - happy logging.</p>
+
+<p><em>Sorry I haven't blogged much this year - I will try to do
+better in 8C5653DD-0D2E-4750-855E-B5FA32A8F716.</em></p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="506c773b-a4f4-4986-8fba-641ad0951d75" id="1888" nodeName="Quick Perl script: Scrape your photos from Twitpic" isDoc="" updated="2013-07-07T08:18:08.143Z" parentGUID="ea35f680-1c88-4ac7-ab92-dc5d6e54ecb8" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/quick-perl-script-scrape-your-photos-from-twitpic]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-03-30T10:01:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/ge5PsR]]></shortUrl>
+  <summary><![CDATA['Quick Perl script: Scrape your photos from Twitpic' - a blog post by Darren Ferguson about Noah Everett, Twitter, handheld device, US Federal Reserve, iPhone, Human Interest, Technology Internet written on 30 March A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Noah Everett, Twitter, handheld device, US Federal Reserve, iPhone, Human Interest, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>I've been following <a href="http://twitter.com/noaheverett">Noah Everett</a> the creator
+of <a href="http://www.twitpic.com/">twitpic</a> on Twitter.
+Although he provides a great service it does appear to be a one man
+show - there is every chance he could get fed up and walk away - I
+doubt the terms of service give the user any way of getting their
+photos back if that happened.</p><p>Most people use twitpic for throw-away snapshots posted from
+their handheld device but I use a twitter account with protected
+updates to create a timeline of my daughter growing up. I
+photograph her day to day on my iPhone and as my twitter client
+doesn't offer an option, the photos end up on twitpic. These photos
+are memories I am not prepared to lose.</p><p>Below is the script i run once a week to ensure my photos are
+backed up.</p><pre class="sh_perl" style="border: 1px solid black; padding: 7px; background-color: #eeeeee;">
+
+use strict;
+use utf8;
+
+use LWP::Simple;
+use XML::Simple;
+use Data::Dumper;
+use Date::Parse;
+use Date::Format;
+use XML::DOM;
+
+my $content = get("http://twitpic.com/photos/darrenferguson/feed.rss");
+die "Couldn't get it!" unless defined $content;
+
+my $xml = XMLin($content);
+
+foreach my $item (@{$xml-&gt;{channel}-&gt;{item}}) {
+    
+    my $link = $item-&gt;{link};
+    my $date = $item-&gt;{pubDate};
+    
+    $date = str2time($date);
+    $date = time2str('%Y-%m-%d_%H-%M-%S_', $date);
+    
+    $link =~ m|.*/(.*$)|;
+    my $id = $1;
+    
+    
+    my $html = get($link);
+    
+    
+    if(defined $html) {
+        while($html =~ s|(&lt;img.*?&gt;)||ism) {
+            my $tag = $1;
+            if($tag =~ m|class\=\"photo-large\"|) {
+                $tag =~ m|src\=\"(.*?)\"|;
+                my $src = $1;
+                my $img_data = get($src);
+                
+                if(defined $img_data) {           
+                    my $fn = "$date-$id.jpg";
+                    
+                    if(!(-f $fn)) {
+                        open FILE, "&gt;$date-$id.jpg";
+                        binmode FILE;
+                        print FILE $img_data;
+                        close FILE;
+                    }
+                }
+            }
+        }
+    }
+}
+</pre>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

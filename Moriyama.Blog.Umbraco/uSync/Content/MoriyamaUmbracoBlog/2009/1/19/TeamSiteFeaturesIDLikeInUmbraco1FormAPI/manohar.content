@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="68a5fc3c-e974-4404-8e94-687d2d7ffe34" id="2278" nodeName="manohar" isDoc="" updated="2013-07-07T08:17:52.15Z" parentGUID="6589927a-f9ba-4b28-9412-1e28827982d1" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-24T08:19:49</displayDate>
+  <title><![CDATA[manohar]]></title>
+  <name><![CDATA[manohar]]></name>
+  <email><![CDATA[adapa83@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[i want to uncheck the checked check box using form API onItemChangeEvent could you help me on this]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

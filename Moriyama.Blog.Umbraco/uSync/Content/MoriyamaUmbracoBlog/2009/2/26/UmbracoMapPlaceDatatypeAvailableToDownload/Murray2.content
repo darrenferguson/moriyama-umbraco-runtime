@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="80c983c8-dbc6-4015-8ff7-a8facdefd5a8" id="2378" nodeName="Murray (2)" isDoc="" updated="2013-07-07T08:18:05Z" parentGUID="5c0b75fb-dd63-412a-9a10-e6305ef8e91f" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-27T02:57:10</displayDate>
+  <title><![CDATA[Murray (2)]]></title>
+  <name><![CDATA[Murray (2)]]></name>
+  <email><![CDATA[murray@terabyte.co.nz]]></email>
+  <website><![CDATA[http://www.terabyte.co.nz]]></website>
+  <bodyText><![CDATA[Hi Darren,
+Are there any plans to update this to the new Google Maps API v3. which does not require a key?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

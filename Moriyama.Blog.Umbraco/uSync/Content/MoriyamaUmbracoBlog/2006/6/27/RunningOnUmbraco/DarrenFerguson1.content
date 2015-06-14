@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="7d2e293f-d7a3-484b-8778-c33c3df64bc0" id="2600" nodeName="Darren Ferguson (1)" isDoc="" updated="2013-10-28T17:21:51.747Z" parentGUID="55f63737-5698-46eb-90a7-064c005b44e1" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-06-28T09:42:52</displayDate>
+  <title><![CDATA[Darren Ferguson (1)]]></title>
+  <name><![CDATA[Darren Ferguson (1)]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com]]></website>
+  <bodyText><![CDATA[Forgot to mention.
+Added a text page template, to create static pages like wordpress does.
+I was going to content manage the links on the right hand side, but for now they are just a part of the master template.
+Darren.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

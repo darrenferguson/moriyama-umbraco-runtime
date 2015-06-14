@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="2f6ae0da-7149-424d-922f-490591cd485d" id="1798" nodeName="Install Umbraco automatically!" isDoc="" updated="2013-10-28T17:22:14.78Z" parentGUID="c56e3450-1e50-40d5-890d-f022f4733d73" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/install-umbraco-automatically!]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-04T13:58:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/esS8uI]]></shortUrl>
+  <summary><![CDATA['Install Umbraco automatically!' - a blog post by Darren Ferguson about Technology Internet written on 04 July F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>
+At some point in the future I plan to make some money from Umbraco. I got to thinking how cool it would be to automate an install. 
+</p><p>
+I then got to thinking how useful it would be able to offer 'try before you buy', on your site, how an Umbraco hosting company could benefit from having instant sign ups and also someone like me who is doing a lot of development could do with setting up clean dev instances.
+</p><p>
+Here is the result:
+</p><p><a href="http://umbracoF56EAE9D-5A71-46C2-8973-4C0DCBF9211D.ferguson.ath.cx/contact-us.aspx">http://umbracoF56EAE9D-5A71-46C2-8973-4C0DCBF9211D.ferguson.ath.cx/contact-us.aspx</a></p><p>
+Feel free to give it a spin and let me know what you think.
+</p><p>
+This is sitting on my home server, so bandwidth isn't great.
+</p><p>
+I'll have a look into auto installing some of the commonly used extensions at some point and perhaps setting up some basic document types and templates. For example, a blog host may want to be able to have people sign up and have an Umbraco instance complete with blog extension installed.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

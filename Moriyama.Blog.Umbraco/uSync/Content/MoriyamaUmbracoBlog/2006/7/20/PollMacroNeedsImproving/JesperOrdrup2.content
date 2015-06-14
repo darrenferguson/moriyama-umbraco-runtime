@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="48544223-5343-49f8-8585-b76a71470623" id="2594" nodeName="Jesper Ordrup (2)" isDoc="" updated="2013-10-28T17:22:09.01Z" parentGUID="229dfa69-a97b-46c5-9230-051599733947" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="5" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-10T21:08:05</displayDate>
+  <title><![CDATA[Jesper Ordrup (2)]]></title>
+  <name><![CDATA[Jesper Ordrup (2)]]></name>
+  <email><![CDATA[jesper@jesper.com]]></email>
+  <website><![CDATA[http://www.jesper.com]]></website>
+  <bodyText><![CDATA[... got me thinking :o)
+
+Why not use the autoform/document type approach for polls?
+
+It might be a slight modified autoform control if you want to ensure that members only vote once and such but it could be cool.
+
+Jesper]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="e160924c-8b42-4c65-ad26-5d6577b2885a" id="1862" nodeName="Backup for Umbraco is dead" isDoc="" updated="2013-10-28T17:23:16.927Z" parentGUID="f1501fe8-06e8-4f51-bcab-53a044208174" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/backup-for-umbraco-is-dead]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-26T14:11:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/g4TaIh]]></shortUrl>
+  <summary><![CDATA['Backup for Umbraco is dead' - a blog post by Darren Ferguson about Umbraco store written on 26 July 9997642C-5F5C-4A03-A353-2E7B493113A9]]></summary>
+  <tags><![CDATA[Umbraco store]]></tags>
+  <bodyText><![CDATA[<p>Backup for Umbraco is dead. I’m “officially” retiring it as a project despite the fact that it has pretty much been inactive for a couple of years. I’m just posting this as I toyed with reviving it after codegarden and I had a couple of enquiries. </p><p>With the event of Umbraco 4 and particularly the new data layer it becomes much more complicated to write a solution that will back up a complete installation. Also, to be completely realistic there wasn’t really the demand for the product to sustain development anyway.  Courier and Concierge are also under development and there is some likely overlap in functionality, I don’t see the point in competing with the core team (I had the chance to be part of the courier dev team a while back – I should have stuck with it!).</p><p>I thought about releasing the Backup for Umbraco source into the wild but to be honest, it was never well commented and documented and it would be an unenviable task for anyone else to get to grips with it.</p><p>So to conclude, Backup for Umbraco was an interesting project which I learned a few lessons from. Firstly, I was wildly optimistic with the price I tried to charge. Second, Umbraco wasn’t ready for commercial packages at the time I tested the water (IMHO). Third, software has to be really really good in order for you to charge for it. Customers will settle for imperfections in freeware, but not when there is cold hard cash involved.</p><p>I may be back on the commercial package “scene” one day if I come up with the right idea. I’m  watching the Umbraco store with anticipation to see who releases the first killer Umbraco app.</p><p>If anyone has any wonderful ideas about the Umbraco package that they would happily pay for, leave me a comment. We’ll go 50/50 ;)</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

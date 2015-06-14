@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="3d7d6134-2bd1-4ee2-899b-4a62340deb94" id="1886" nodeName="Quick tip: Displaying maps on your Umbraco website" isDoc="" updated="2013-07-07T08:18:05.49Z" parentGUID="cbbf2316-4b35-4f31-8bb5-8a7440c57a8f" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/quick-tip-displaying-maps-on-your-umbraco-website]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-03-14T09:36:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/eremEJ]]></shortUrl>
+  <summary><![CDATA['Quick tip: Displaying maps on your Umbraco website' - a blog post by Darren Ferguson about Google, Robin Christopherson, Liverpool, United Kingdom, Javascript, API written on 14 March A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Google, Robin Christopherson, Liverpool, United Kingdom, Javascript, API]]></tags>
+  <bodyText><![CDATA[<p>I've had a few requests to demonstrate how to show maps on your Umbraco based site using my <a href="/A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2/2/24/umbraco-mapplace-datatype-available-to-download.aspx">Map/Place datatype</a>.</p><p>The location you specify is stored as a latitude/longitude point with a Google maps specific zoom level.  There are a number of different ways to display maps, but here is the method I used in my demo screen cast.</p><p>In your Umbraco template display the value of your map field:</p><pre style="border-right: black 1px solid; padding-right: 7px; border-top: black 1px solid; padding-left: 7px; padding-bottom: 7px; border-left: black 1px solid; padding-top: 7px; border-bottom: black 1px solid; background-color: rgb(238,238,238)">&lt;div id="map1" class="map"&gt;<br />            &lt;umbraco:Item field="place1" runat="server"&gt;&lt;/umbraco:Item&gt;<br />&lt;/div&gt;</pre><p>Your template should include jQuery, the google maps API Javascript and the following javascript:</p><pre class="sh_javascript" style="border-right: black 1px solid; padding-right: 7px; border-top: black 1px solid; padding-left: 7px; padding-bottom: 7px; border-left: black 1px solid; padding-top: 7px; border-bottom: black 1px solid; background-color: rgb(238,238,238)">if (typeof ItemEditing == 'undefined') {
+	$('div[class=map]').each(function() {
+
+		$(this).addClass('mapdimensions');
+		var mapId = $(this).attr('id');
+		
+		var value = $(this).html();
+		value = $.trim(value);
+		
+		var point = value.split(',');
+
+		var lat = parseFloat(point[0]);
+		var lon = parseFloat(point[1]);
+		var zoom = parseFloat(point[2]);
+		
+		fm.maps[fm.maps.length] = new GMap2(document.getElementById(mapId));
+		var m = fm.maps[fm.maps.length-1];
+		
+		var p = new GLatLng(lat, lon);
+		m.setCenter(p, zoom); 
+			
+
+		var marker = new GMarker(p);
+		m.addOverlay(marker);	
+	});
+
+	......
+</pre><p>Note that the test for the existence of the ItemEditing is checking whether Canvas is present or not. I'm not sure whether this is the best way to do this. Also note that I add a class mapdimensions to the element containing the map. You should define this CSS class with width and height properties to specify the dimension of your map.</p><p>If you want to display a static map you can use something like the following:</p><pre class="sh_javascript" style="border-right: black 1px solid; padding-right: 7px; border-top: black 1px solid; padding-left: 7px; padding-bottom: 7px; border-left: black 1px solid; padding-top: 7px; border-bottom: black 1px solid; background-color: rgb(238,238,238)">$('div[class=staticmap]').each(function() {
+
+		$(this).addClass('mapdimensions');
+		var mapId = $(this).attr('id');
+		
+		var value = $(this).html();
+		value = $.trim(value);
+		
+		var point = value.split(',');
+
+		var lat = parseFloat(point[0]);
+		var lon = parseFloat(point[1]);
+		var zoom = parseFloat(point[2]);
+
+		var apiKey = '.....';
+		
+		var imgSrc = 'http://maps.google.com/staticmap?';
+		imgSrc += 'center='+lat+','+lon;
+		imgSrc += '&amp;zoom=' + zoom;
+		imgSrc += '&amp;markers='+lat+','+lon+',blues';
+		imgSrc += '&amp;size=400x400';
+		imgSrc += '&amp;key='+apiKey;
+			
+		var imgTag = '&lt;img height="400" alt="map" src="'+imgSrc+'" width="400"&gt;';
+		$(this).html(imgTag);
+	});</pre><p>You should probably display a static map in an unobtrusive fashion (not using Javascript) and then replace it with a dynamic map if Javacsript is enabled. The example above are just to get you started and are by no means best practice.</p><p>Finally if you are displaying a static Google map using the img tag you should display an alt tag detailing what the map is e.g.</p><blockquote><p><em>A map of Anfield Road in Liverpool, England. Latitude 50.17843 Longitude 0.1232</em></p></blockquote><p>
+I consider this *very* important. I was recently party to a presentation given by Robin Christopherson of <a href="http://www.abilitynet.org.uk/webteam">AbilityNet</a>. Robin is blind and gave his presentation using a screen reader. I'd always imagined how small things like poorly written alt tags could make life difficult for impaired users, I now realise it makes life *impossible*. 
+</p><p>Depending on interest there will be more information to come on maps, including how to display multiple markers on a map.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

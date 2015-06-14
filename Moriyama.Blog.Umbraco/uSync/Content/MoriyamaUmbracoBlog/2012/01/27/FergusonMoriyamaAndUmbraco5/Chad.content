@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="0b033ed5-9ee7-4aa1-a8ac-c8906ca1f286" id="2809" nodeName="Chad" isDoc="" updated="2013-07-07T08:17:27.037Z" parentGUID="6520b02e-8988-4362-9b9c-f693f163755f" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-01-27T16:04:30.937</displayDate>
+  <title><![CDATA[Chad]]></title>
+  <name><![CDATA[Chad]]></name>
+  <email><![CDATA[cyfer13@yahoo.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[For setting up new versions, I used to have a package that contained my basic doc types, content, etc. Then when I installed a new umbraco project, I'd just add the package and voila. I was at step 2 or 3 instead of step 1.
+
+This doesn't help with rolling back data, but it's a start.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

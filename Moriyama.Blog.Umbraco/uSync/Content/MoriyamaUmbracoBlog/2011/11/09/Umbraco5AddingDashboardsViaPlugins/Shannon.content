@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="66fb11f5-9462-43e4-ba14-530a4508bf8d" id="2748" nodeName="Shannon" isDoc="" updated="2013-07-07T08:17:33.19Z" parentGUID="dd4928c4-88c5-4d92-b006-1fc29909fcca" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-11-10T12:12:36.203</displayDate>
+  <title><![CDATA[Shannon]]></title>
+  <name><![CDATA[Shannon]]></name>
+  <email><![CDATA[sdeminick@gmail.com]]></email>
+  <website><![CDATA[http://shazwazza.com]]></website>
+  <bodyText><![CDATA[Also note that when you just render a partialView instead of a child action that you don't need to have an assembly at all and therefore dont need to attribute one either.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="d556a62f-a61c-47ff-81cc-5fe64ae8c2fa" id="2782" nodeName="Darren" isDoc="" updated="2013-07-07T08:17:33.497Z" parentGUID="81a2a060-7e20-4463-b2f5-66807771bc86" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-01-11T08:20:20.023</displayDate>
+  <title><![CDATA[Darren]]></title>
+  <name><![CDATA[Darren]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@Chris please post questions in the project forums. 
+http://our.umbraco.org/projects/website-utilities/pdf-creator/bug-reports]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

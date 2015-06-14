@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="32233509-88b3-46fe-a715-f4da83d41714" id="2698" nodeName="svlada" isDoc="" updated="2013-07-07T08:18:09.67Z" parentGUID="efb7322a-a175-4bf9-a7f7-a639d085cfae" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="8" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-09-28T10:03:19.04</displayDate>
+  <title><![CDATA[svlada]]></title>
+  <name><![CDATA[svlada]]></name>
+  <email><![CDATA[svlada@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi, 
+
+Is it possible to declare custom perl functions inside TPL file?
+
+Cheers]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

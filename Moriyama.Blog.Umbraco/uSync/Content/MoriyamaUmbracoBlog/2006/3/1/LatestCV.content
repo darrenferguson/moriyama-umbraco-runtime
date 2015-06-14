@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="68c52c9e-18a3-4938-be72-a2da2dc180a5" id="1761" nodeName="Latest CV" isDoc="" updated="2013-10-28T17:21:36.993Z" parentGUID="639499b6-00b5-4731-bd79-04a0a8e2efc3" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/latest-cv-]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-03-01T13:55:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/icPskT]]></shortUrl>
+  <summary><![CDATA['Latest CV ' - a blog post by Darren Ferguson about Technology Internet written on 01 March F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Technology Internet, CV]]></tags>
+  <bodyText><![CDATA[
+<p>My latest CV is always available for download from:<br />
+<a
+href="/media/226/darren_ferguson_cv.doc">http://www.darren-ferguson.com/media/226/darren_ferguson_cv.doc</a></p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

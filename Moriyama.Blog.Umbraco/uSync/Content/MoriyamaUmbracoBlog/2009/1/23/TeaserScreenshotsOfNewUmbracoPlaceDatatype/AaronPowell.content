@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="aa7a4c19-7459-4f37-98f9-ef32bc7d90c5" id="2284" nodeName="Aaron Powell" isDoc="" updated="2013-07-07T08:17:53.26Z" parentGUID="15a88ec2-fb25-47b1-8255-257259e42190" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-23T10:47:22</displayDate>
+  <title><![CDATA[Aaron Powell]]></title>
+  <name><![CDATA[Aaron Powell]]></name>
+  <email><![CDATA[me@aaron-powell.com]]></email>
+  <website><![CDATA[http://www.aaron-powell.com]]></website>
+  <bodyText><![CDATA[Nice, where are you reading the google map key from, web.config? That could pose a problem if you have multiple websites in the 1 umbraco instance. Would it be possible to have it as part of the data when configuring the data type (if not that could be a way to make it even cooler ;).
+
+How much control do you provide over the things like:
+- default zoom level
+- icon used
+- bubble text]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

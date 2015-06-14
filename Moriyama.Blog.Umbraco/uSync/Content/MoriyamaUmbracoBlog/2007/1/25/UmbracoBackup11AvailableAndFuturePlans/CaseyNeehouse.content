@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="f145ed9a-f495-4650-9a04-d2ad60e50fd0" id="2529" nodeName="Casey Neehouse" isDoc="" updated="2013-10-28T17:22:44.953Z" parentGUID="05f4fc20-57a0-4d19-ba29-a85b78165270" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>3B8392C0-3EB0-421C-B00A-C8BEC022F267-01-25T16:10:21</displayDate>
+  <title><![CDATA[Casey Neehouse]]></title>
+  <name><![CDATA[Casey Neehouse]]></name>
+  <email><![CDATA[casey@neehouse.com]]></email>
+  <website><![CDATA[http://neehouse.com]]></website>
+  <bodyText><![CDATA[Cool Beans..]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

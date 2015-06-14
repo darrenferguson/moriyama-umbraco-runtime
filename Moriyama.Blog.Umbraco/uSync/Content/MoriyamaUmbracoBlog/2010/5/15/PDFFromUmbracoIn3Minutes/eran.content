@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="ca497e92-bcc7-461f-ad8d-7b9aafcd6294" id="2258" nodeName="eran" isDoc="" updated="2013-07-07T08:17:43.943Z" parentGUID="b398ad60-2f23-4ffb-9648-6cb4cbca2d62" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-05-26T16:16:26</displayDate>
+  <title><![CDATA[eran]]></title>
+  <name><![CDATA[eran]]></name>
+  <email><![CDATA[eraniopub@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[looks great!
+is this package fit for me?:
+i want that each content page will have "export to pdf" button. when the user click on in it will export the page to pdf (suing the print version of the css that i already have). i guess i can use template alias?.. can i do that with your package? is that the easiest method to accomplish this task? thanks!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

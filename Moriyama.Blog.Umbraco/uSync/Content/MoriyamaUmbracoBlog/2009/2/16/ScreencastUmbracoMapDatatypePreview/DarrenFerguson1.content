@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="e04c7a4c-9be5-46e4-8a53-ccb16c29bf94" id="2367" nodeName="Darren Ferguson (1)" isDoc="" updated="2013-07-07T08:18:03.673Z" parentGUID="affe15b9-98e9-4470-aa1e-12eb235f4db4" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="12" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-18T17:04:09</displayDate>
+  <title><![CDATA[Darren Ferguson (1)]]></title>
+  <name><![CDATA[Darren Ferguson (1)]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@Warren - yep, it is as simple as setting a CSS class.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

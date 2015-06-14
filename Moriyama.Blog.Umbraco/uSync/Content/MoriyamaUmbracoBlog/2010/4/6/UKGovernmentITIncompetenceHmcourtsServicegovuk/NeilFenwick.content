@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="92afe9a7-8376-4521-bef0-0fca1e66a78d" id="2250" nodeName="Neil Fenwick" isDoc="" updated="2013-07-07T08:17:42.207Z" parentGUID="a41e45bc-238b-4931-8450-cf94aad1d333" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-06T13:54:11</displayDate>
+  <title><![CDATA[Neil Fenwick]]></title>
+  <name><![CDATA[Neil Fenwick]]></name>
+  <email><![CDATA[neil.fenwick@gmail.com]]></email>
+  <website><![CDATA[http://codeoverview.com]]></website>
+  <bodyText><![CDATA[I've filled out one of those forms before.  Ended up typing in a word processor to do my char/line count for me.  But I'm a web developer too and have a little imagination when it comes to problem solving.  It is a waste of money building a website to try to increase efficiency, if that website is not accessible to the widest possible audience.
+
+Two things:
+
+No more than 1080 characters:  I'll bet that there's no javascript counter to tell you how many you've used so far. I wonder if it crossed the minds of civil service that it might not be efficient to count to 1080 manually... nah.
+
+Internet Explorer only:
+See this petition on the number10.gov.uk website http://petitions.number10.gov.uk/ie6upgrade/ and note that it only stops canvassing in Feb B25AC8DE-26FC-44E7-BB89-F200B2327094, let alone getting through to the people who count.  I think we'll are a LONG way off getting them to change from IE-only. My guess - minimum turnaround of a year to test browser compatibility and that's only if they don't have internal software that has IE-only specifications.
+
+I wonder what would happen if you replied with some links to accessibility laws and refer them back to their response :-P
+
+I'll second you for any appointment as web advisor to government :)]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

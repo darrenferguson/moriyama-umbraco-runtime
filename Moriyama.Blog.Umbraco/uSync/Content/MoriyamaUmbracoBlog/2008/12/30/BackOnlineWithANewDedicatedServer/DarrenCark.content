@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="d89f6155-8e3a-41e8-9598-d7f395f7cc32" id="2511" nodeName="Darren Cark" isDoc="" updated="2013-10-28T17:23:01.397Z" parentGUID="fd41d7f8-d981-442c-a67e-4aeb63b1d28c" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-09-03T18:11:48</displayDate>
+  <title><![CDATA[Darren Cark]]></title>
+  <name><![CDATA[Darren Cark]]></name>
+  <email><![CDATA[dc009a4567@blueyonder.co.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi Darren,
+
+I was reading in the old umbraco forum that you were having problems with the webfusion vps setup. I was thinking of using there Vps Plus for my umbraco site. Do you think now they have got their act together?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

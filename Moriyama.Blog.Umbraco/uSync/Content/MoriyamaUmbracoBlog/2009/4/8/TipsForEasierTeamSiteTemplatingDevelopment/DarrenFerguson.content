@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="7af75dc5-8a96-4e4f-9db4-de8992ec4d46" id="2405" nodeName="Darren Ferguson" isDoc="" updated="2013-07-07T08:18:09.12Z" parentGUID="efb7322a-a175-4bf9-a7f7-a639d085cfae" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-05-28T09:03:41</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[I'd be more willing to help if you could be bothered to describe your issue properly.
+
+I'm pretty sure that your data capture template doesn't validate against it's DTD.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

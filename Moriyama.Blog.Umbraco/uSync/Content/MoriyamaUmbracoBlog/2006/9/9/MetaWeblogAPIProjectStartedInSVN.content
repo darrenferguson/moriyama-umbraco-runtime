@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="d6c56e49-7ccc-41bc-87a3-7b334edce660" id="1834" nodeName="MetaWeblog API: project started in SVN" isDoc="" updated="2013-10-28T17:22:42.403Z" parentGUID="f5f07cd7-da03-43fe-a229-ec170c23b66c" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/metaweblog-api-project-started-in-svn]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-09-09T11:04:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/ekN8Su]]></shortUrl>
+  <summary><![CDATA['MetaWeblog API: project started in SVN' - a blog post by Darren Ferguson about API, Human Interest written on 09 September F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[API, Human Interest]]></tags>
+  <bodyText><![CDATA[<p>
+A little while back I started an Umbraco MetaWeblog API implementation. I know a couple of other Umbraco developers were interested in this functionality so I have put it in SVN with the other Umbraco extensions.
+</p><p>
+svn://svn.umbraco.org/var/lib/svn/umbraco-extensions/UmbracoMetaWeblogAPI
+</p><p>
+As I am really busy at the moment it is unlikely I will be able to do anything with this for a while. If you want to contribute to finishing it off, drop me a mail and I can run you though how to get it up and running.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

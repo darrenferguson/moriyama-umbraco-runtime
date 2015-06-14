@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="7d328ed1-3cb5-43ec-9d49-ea39ddd1d03b" id="1784" nodeName="New car" isDoc="" updated="2013-10-28T17:21:56Z" parentGUID="c94986fb-9e04-4fb5-86e6-80f952d56ac0" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/new-car]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-15T19:53:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fsqGyB]]></shortUrl>
+  <summary><![CDATA['New car' - a blog post by Darren Ferguson written on 15 July F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Audi]]></tags>
+  <bodyText><![CDATA[
+<p><a href="http://www.flickr.com/photos/39926591@N00/189348496/"
+title="Photo Sharing"><img src="/media/77266/3E27EB72-021E-4D7E-9DA3-FB13C66BDF9B_1.jpg" width="500" height="319" alt="audi a2"/></a></p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

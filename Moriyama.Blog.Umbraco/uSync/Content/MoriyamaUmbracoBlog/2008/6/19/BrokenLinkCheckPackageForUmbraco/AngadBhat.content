@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="03077c63-a0cd-4f7a-bce4-6fd08023e2b8" id="2497" nodeName="Angad Bhat" isDoc="" updated="2013-10-28T17:23:10.953Z" parentGUID="a9646fdb-f683-4510-8fa1-cf858decaa47" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-04-17T16:31:53</displayDate>
+  <title><![CDATA[Angad Bhat]]></title>
+  <name><![CDATA[Angad Bhat]]></name>
+  <email><![CDATA[abhat@essex.ac.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi there,
+I am trying to use your package in my umbraco interface. I installed it and everything is fine but when I publish the page(node) I don't get any email as there is one broken link on the page.
+
+I have done umbraco configuration for email set up as the notification feature works fine.
+
+Could you please tell what could possible I be doing wrong. Is there any documentation for this package or something.
+
+Any help is appreciated.
+
+Thanks ]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

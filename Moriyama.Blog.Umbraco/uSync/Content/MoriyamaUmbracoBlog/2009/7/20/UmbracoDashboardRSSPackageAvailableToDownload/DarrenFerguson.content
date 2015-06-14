@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="3d9809f1-57aa-4745-ac2d-4cc54e19a32a" id="2430" nodeName="Darren Ferguson" isDoc="" updated="2013-07-07T08:18:14.993Z" parentGUID="c0beee90-3242-4bf1-b64c-3ca3f9265b74" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-21T09:02:08</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com]]></website>
+  <bodyText><![CDATA[@Petr - you could either use the Umbraco RSS package to display your latest content or create a template with an XSLT macro that does this.
+
+The next version of this package will provide the examples that you want, but it is really simple to do by yourself.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

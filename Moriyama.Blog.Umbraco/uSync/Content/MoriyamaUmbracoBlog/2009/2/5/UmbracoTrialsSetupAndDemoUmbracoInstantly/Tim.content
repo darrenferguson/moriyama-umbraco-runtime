@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="27055bc2-b551-43ad-8b6c-76c5abe14cd9" id="2338" nodeName="Tim" isDoc="" updated="2013-07-07T08:17:59.663Z" parentGUID="e326009f-4753-43b6-9e5c-06078f5c41b0" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="9" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-12T10:58:50</displayDate>
+  <title><![CDATA[Tim]]></title>
+  <name><![CDATA[Tim]]></name>
+  <email><![CDATA[mrshindigger.geo@yahoo.com]]></email>
+  <website><![CDATA[http://www.ilikesleeping.com]]></website>
+  <bodyText><![CDATA[Thanks Darren! this has allowed me to get stuck in with umbraco. I'm still keen for that Umbraco 4 meetup drink if it ever happens :)]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

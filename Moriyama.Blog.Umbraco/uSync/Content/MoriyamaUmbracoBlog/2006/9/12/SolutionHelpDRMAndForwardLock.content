@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="6508969a-86cf-4d22-b6e2-dd6623cd2e87" id="1822" nodeName="Solution: Help DRM and forward lock" isDoc="" updated="2013-10-28T17:22:32.63Z" parentGUID="b0020ca3-d4c5-40e5-8e80-6b1db5f90fbc" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="3" published="true">
+  <umbracoUrlAlias><![CDATA[/solution-help-drm-and-forward-lock]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-09-12T16:47:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/dKekJ8]]></shortUrl>
+  <summary><![CDATA['Solution: Help DRM and forward lock' - a blog post by Darren Ferguson about gif, Technology Internet written on 12 September F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[gif, Technology Internet, DRM, forward lock]]></tags>
+  <bodyText><![CDATA[
+<p>I had a few mails asking if I resolved the forward lock and C#
+problem that I was having. The working code is below, I am not sure
+if it is the best way to do this, but it does work.</p>
+
+<pre class="brush: csharp;">
+Stream str = File.Open(Server.MapPath(Request["file"]), FileMode.Open); 
+byte [] buffer = new byte[str.Length]; 
+str.Read(buffer, 0, Convert.ToInt32(str.Length)); 
+str.Close(); 
+
+Response.Charset = ""; 
+Response.AddHeader("Accept-Ranges", "bytes"); 
+Response.ContentType = "application/vnd.oma.drm.message"; 
+String header = "--mime_content_boundary\r\nContent-Type: image/gif\r\nContent-Transfer-Encoding: binary\r\n\r\n"; 
+String footer = "\r\n--mime_content_boundary--"; 
+
+System.Text.ASCIIEncoding encoding = new System.Text.ASCIIEncoding(); 
+Response.BinaryWrite(encoding.GetBytes(header)); 
+Response.WriteFile(Server.MapPath(Request["file"])); Response.BinaryWrite(encoding.GetBytes(footer));
+</pre>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="b030ed17-7229-4f03-87d3-a6a1a54d3cf8" id="2810" nodeName="Anthony" isDoc="" updated="2013-07-07T08:17:27.123Z" parentGUID="6520b02e-8988-4362-9b9c-f693f163755f" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-01-28T09:28:10.247</displayDate>
+  <title><![CDATA[Anthony]]></title>
+  <name><![CDATA[Anthony]]></name>
+  <email><![CDATA[anthony.candaele@webmove.be]]></email>
+  <website><![CDATA[http://www.webmove.be]]></website>
+  <bodyText><![CDATA[Hi Darren,
+
+Very useful this blogpost series, as I'm also in the learning phase of Umbraco 5. Just a question, which techniques/methods do you normally use to version your customizations to an Umbraco site?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

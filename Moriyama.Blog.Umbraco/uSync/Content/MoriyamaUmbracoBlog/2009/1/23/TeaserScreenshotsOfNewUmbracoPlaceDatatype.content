@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="15a88ec2-fb25-47b1-8255-257259e42190" id="1874" nodeName="Teaser screenshots of new Umbraco ‘place’ datatype" isDoc="" updated="2013-07-07T08:17:53.137Z" parentGUID="f649214b-8530-4611-95f4-769775ebe364" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/teaser-screenshots-of-new-umbraco-‘place’-datatype]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-23T08:00:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/evua6m]]></shortUrl>
+  <summary><![CDATA['Teaser screenshots of new Umbraco ‘place’ datatype' - a blog post by Darren Ferguson about Health Medical Pharma written on 23 January A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Health Medical Pharma]]></tags>
+  <bodyText><![CDATA[<p>I’m working on an Umbraco datatype that lets you lookup a place. The data stored is the latitude/longtitude of the chosen place as well as the name.</p><p>It is all working pretty well to date, I just need to ensure that multiple instances can be placed in a document type and that my use of jQuery won’t clash with any other instances that have already been loaded.</p><p class="clear"><img alt="place datatype teaser" src="/media/77565/65F75EBF-E60E-467D-B789-ECBD2018BC48_1.jpg" /></p><p class="clear"><img alt="place datatype teaser" src="/media/77570/65F75EBF-E60E-467D-B789-ECBD2018BC48_2.jpg" /></p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

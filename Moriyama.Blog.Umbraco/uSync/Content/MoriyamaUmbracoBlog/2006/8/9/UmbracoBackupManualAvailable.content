@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="5b3a1412-9f59-4c31-b740-21d8063f009e" id="1819" nodeName="Umbraco backup manual available" isDoc="" updated="2013-10-28T17:22:31.22Z" parentGUID="9e0189f4-755f-4911-b2dc-e0ac08286089" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-backup-manual-available]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-09T12:11:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gg8a33]]></shortUrl>
+  <summary><![CDATA['Umbraco backup manual available' - a blog post by Darren Ferguson about XML, Technology Internet written on 09 August F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[XML, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>
+The <a href="/media/3229/umbracobackupmanual.doc">Umbraco Backup manual</a> is available to download.
+</p><p>
+There will be an update added shortly on how to restore from an XML mode backup. Finally, I will look at adding scheduling which will wrap up development of 1.0.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

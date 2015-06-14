@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="0dc6e3bd-960d-4bda-a1a3-59e1e2dd5791" id="2504" nodeName="Darren Ferguson (1)" isDoc="" updated="2013-10-28T17:23:07.557Z" parentGUID="917fd093-37e8-4c4a-9149-f48ed1a3b1f5" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="7" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-06-16T17:01:23</displayDate>
+  <title><![CDATA[Darren Ferguson (1)]]></title>
+  <name><![CDATA[Darren Ferguson (1)]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@warren - sure let's have a chat on MSN sometime. If your package allows you to specify a feed URL then I guess it should work already. Just specifying the feed URL as file:///c:/path/to/feed.xml should be fine.
+
+@Thomas - No reason why it couldn't do that. At the moment only GET is supported, so would have to extend it slightly to be able to post a request. Let me know if you are interested and we can discuss, maybe on the forum.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

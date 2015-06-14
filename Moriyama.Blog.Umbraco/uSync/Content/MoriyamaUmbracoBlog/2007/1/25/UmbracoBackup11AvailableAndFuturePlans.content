@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="05f4fc20-57a0-4d19-ba29-a85b78165270" id="1837" nodeName="Umbraco backup 1.1 available - and future plans" isDoc="" updated="2013-10-28T17:22:44.57Z" parentGUID="7669f336-5a2b-49a7-ad1a-d1d071fc956e" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-backup-11-available-and-future-plans]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>3B8392C0-3EB0-421C-B00A-C8BEC022F267-01-25T13:16:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/galsV8]]></shortUrl>
+  <summary><![CDATA['Umbraco backup 1.1 available - and future plans' - a blog post by Darren Ferguson about web root, web server user, Online help, web server, ISP, HTTP, Technology Internet written on 25 January 3B8392C0-3EB0-421C-B00A-C8BEC022F267]]></summary>
+  <tags><![CDATA[web root, web server user, Online help, web server, ISP, HTTP, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>
+Umbraco backup 1.1 is available for download. Although labelled beta, this release will only be updated if user bugs are 
+reported in the next few weeks.
+</p><p>
+Before I give details on the product, a brief statement on the future of Umbraco Backup. 
+</p><p>
+Recently I have undertaken a contract
+that is challenging to the extent that I don't have the drive for development in my spare time. Additionally my health has not 
+been so good of late. As a result the only development on Umbraco backup will be bug fixes on issues reported by licensed users. 
+This position may change in the future.
+</p><p>
+Now for some details of Umbraco Backup 1.1. Sorry if my grammar isn't great, I'm in a hurry today....
+</p><p>
+Firstly, all of the new features are a result of requests from users. Thanks for helping me to improve the software.
+</p><p>
+If you have an existing install of Umbraco backup, you can simply install 1.1 as you would any other Umbraco package and your software will be upgraded.
+</p><p>
+New Features:
+</p><p>
+1. People don't like registering and generating evaluation licenses, so this can now be done as part of the install.
+</p><p>
+2. Online help. A lot of users got confused with some of the information that you had to provide Umbraco Backup with. 
+I added a help icon next to each option that causes confusion. Click on the icon to launch help.
+</p><p>
+3. Remember settings. Umbraco backup will now save the values entered so you don't need to type everything in each time you 
+run a new backup.
+</p><p>
+4. Thread Context. Differences in IIS and different OS mean that sometimes unattended threads are terminated (probably as a security precaution).
+You can now run Umbraco Bakcup within the context of an HTTP request if you are having problems with aborted threads.
+</p><p>
+5. Verify Path. Allows you to check that the web server user has the required permissions to backup under the specified path.
+</p><p>
+6. Test FTP settings. Check that Umbraco backup can communicate with your FTP server.
+</p><p>
+7. Allow backup under web root. Apparently some ISP's won't allow you write access outside of your document root. 
+Umbraco Backup now allows you to backup under the docroot. I still don't recommend this unless you absolutely have to. 
+If you are backing up under your docroot please remove the files created immediately after backup otherwise there is a 
+real danger of goggle or some other bot indexing sensitive information about your site including the database connection string.
+</p><p>
+8. Real time backup progress information. By clicking 'Display backup monitor window' when initiating a backup you can see real time progress on what Umbraco backup 
+is doing.
+</p><p>
+That's it for now. Please feel free to drop me any questions.
+</p><p>
+Many Thanks.
+Darren.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

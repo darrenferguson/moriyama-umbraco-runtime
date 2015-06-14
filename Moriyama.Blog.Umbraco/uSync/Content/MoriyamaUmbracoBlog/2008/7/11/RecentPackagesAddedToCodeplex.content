@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="8f7f5636-4654-44ef-a2ce-6647ec505be9" id="1861" nodeName="Recent packages added to Codeplex" isDoc="" updated="2013-10-28T17:23:16.213Z" parentGUID="d1aba7a4-0ed8-42cf-94d7-51e910f787de" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/recent-packages-added-to-codeplex]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-11T11:02:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/ef1Nzo]]></shortUrl>
+  <summary><![CDATA['Recent packages added to Codeplex' - a blog post by Darren Ferguson about Hospitality Recreation written on 11 July 9997642C-5F5C-4A03-A353-2E7B493113A9]]></summary>
+  <tags><![CDATA[Hospitality Recreation]]></tags>
+  <bodyText><![CDATA[<p>
+I've added three of my recent Umbraco packages to the <a href="http://www.codeplex.com/umbracoext">Umbraco extensions project on Codeplex</a>.
+</p><p>
+The packages are:
+</p><ul><li><a href="/9997642C-5F5C-4A03-A353-2E7B493113A9/06/24/auto-twitter-update-package-for-umbraco.aspx">Auto Twitter update</a></li><li><a href="/9997642C-5F5C-4A03-A353-2E7B493113A9/06/19/broken-link-check-package-for-umbraco.aspx">Broken link checker</a></li><li><a href="/9997642C-5F5C-4A03-A353-2E7B493113A9/06/14/feed-cache-package-for-umbraco.aspx">Feed Cache</a></li></ul><p>
+All of my packages are located in a FergusonMoriyama sub-folder from the root of the project.
+</p><p>
+Feel free to add any enhancements, and check them back in.
+</p><p>
+There is no real documentation, but the packages are reasonably simple and should be quite easy to understand.
+</p><p>
+Feel free to get in touch should you have any questions.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

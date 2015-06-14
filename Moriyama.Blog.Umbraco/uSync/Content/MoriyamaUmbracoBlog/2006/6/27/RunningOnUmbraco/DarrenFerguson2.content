@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="8f63753c-22a7-4cd0-bf32-7ddf92f979a8" id="2602" nodeName="Darren Ferguson (2)" isDoc="" updated="2013-10-28T17:21:52.047Z" parentGUID="55f63737-5698-46eb-90a7-064c005b44e1" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="5" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-09-20T09:37:43</displayDate>
+  <title><![CDATA[Darren Ferguson (2)]]></title>
+  <name><![CDATA[Darren Ferguson (2)]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[Hello Bradley,
+Welcome aboard.
+The best way for you to get started would be to install the latest blog package. 
+http://umbraco.bruunebonen.com/F56EAE9D-5A71-46C2-8973-4C0DCBF9211D/8/28/latest-umbracoblog-package.aspx
+This is using the theme that this site uses. You should then be able to drop your own stylesheet into Umbraco.
+I think there are two or three very small Umbraco specific additional styles.
+Good luck!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

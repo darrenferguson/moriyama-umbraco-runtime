@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="269e9701-788c-4ac3-ba6d-a8905636269e" id="2292" nodeName="Soeren Sprogoe (2)" isDoc="" updated="2013-07-07T08:17:53.95Z" parentGUID="15a88ec2-fb25-47b1-8255-257259e42190" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="9" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-23T13:08:27</displayDate>
+  <title><![CDATA[Soeren Sprogoe (2)]]></title>
+  <name><![CDATA[Soeren Sprogoe (2)]]></name>
+  <email><![CDATA[ssp@afdeling18.dk]]></email>
+  <website><![CDATA[http://www.afdeling18.dk]]></website>
+  <bodyText><![CDATA[Here's an example of what I want to use it for:
+http://www.rejstil-mallorca.dk/sevaerdigheder/mallorcas-bjerge.aspx
+
+It's a sightseeing database over attractions on Mallorca. I want the webmaster to be able to easily create a new location, find it on the Google Maps DT, and it then stores the long/latt of the spot he picked, along with the zoom level of the map. That way it can be displayed in exactly the same way on the frontend.
+
+Hope it makes sense.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="e6cb0b4f-22d8-48c0-9ffc-b093baefab13" id="2493" nodeName="bob baty-barr" isDoc="" updated="2013-10-28T17:23:12.603Z" parentGUID="3938413b-454c-45af-9eb7-ce68bcc1dff1" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-13T19:55:28</displayDate>
+  <title><![CDATA[bob baty-barr]]></title>
+  <name><![CDATA[bob baty-barr]]></name>
+  <email><![CDATA[bob@baty-barr.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[darren, trying to test your twitter notification package, but not having any luck... i am seeing stuff in the log files, but it is not showing the post name with link in log file, and it appears my alias is lowercase even though i have case sensitivity in my config?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

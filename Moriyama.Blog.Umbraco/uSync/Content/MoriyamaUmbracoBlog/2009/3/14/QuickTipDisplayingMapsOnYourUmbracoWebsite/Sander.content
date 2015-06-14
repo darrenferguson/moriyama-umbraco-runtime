@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="fad1f183-8c09-4117-b432-6cbe4eb67583" id="2384" nodeName="Sander" isDoc="" updated="2013-07-07T08:18:05.917Z" parentGUID="3d7d6134-2bd1-4ee2-899b-4a62340deb94" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="5" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-05-14T11:46:40</displayDate>
+  <title><![CDATA[Sander]]></title>
+  <name><![CDATA[Sander]]></name>
+  <email><![CDATA[sander@netcentric.be]]></email>
+  <website></website>
+  <bodyText><![CDATA[Darren,
+very nice package do you have here
+altough i might have a small issue
+when doing the javascript call to google in the head. (the include)
+you have to insert your API key again.
+while it's already configured in the place.config file...
+
+do i really have to store this key in 2 locations?
+
+
+other than that, great easy to use package!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

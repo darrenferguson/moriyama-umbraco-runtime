@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="dd7bf7c4-46fa-4e14-943a-b78ae64950b0" id="2355" nodeName="Amit Celly" isDoc="" updated="2013-07-07T08:18:02.26Z" parentGUID="ab345438-ee3f-4af8-8151-197a5a426dd8" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="15" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-06-17T19:22:56</displayDate>
+  <title><![CDATA[Amit Celly]]></title>
+  <name><![CDATA[Amit Celly]]></name>
+  <email><![CDATA[cellyamit@hotmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi Darren,
+
+I tried implementing the same, but for some reason, it is not working. I would appreciate if you may kindly provide the necessary guidance in order to achieve the functionality. 
+
+Regards... ]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

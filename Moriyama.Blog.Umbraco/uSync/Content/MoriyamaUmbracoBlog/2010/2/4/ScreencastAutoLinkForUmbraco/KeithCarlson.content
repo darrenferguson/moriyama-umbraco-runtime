@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="b1f29f1d-c7d1-4ecf-8ded-42d5c98dcc4e" id="2208" nodeName="Keith Carlson" isDoc="" updated="2013-07-07T08:17:34.67Z" parentGUID="d2d6c8be-fe84-43da-93b6-8d22813e17cc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-23T19:01:16</displayDate>
+  <title><![CDATA[Keith Carlson]]></title>
+  <name><![CDATA[Keith Carlson]]></name>
+  <email><![CDATA[keith.carlson@plainwrapsolutions.com]]></email>
+  <website><![CDATA[http://www.microfabrica.com]]></website>
+  <bodyText><![CDATA[Would it be possible to get the source code?  We would like to extend this idea to showing definitions with tooltips, and this is a great start for it.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

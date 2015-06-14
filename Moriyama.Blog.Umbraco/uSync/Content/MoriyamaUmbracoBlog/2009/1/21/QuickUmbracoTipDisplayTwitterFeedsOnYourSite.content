@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="53aa962b-9ec1-45a4-882c-556a75c3337a" id="1872" nodeName="Quick Umbraco tip: Display twitter feeds on your site" isDoc="" updated="2013-07-07T08:17:52.657Z" parentGUID="814303f8-db03-4c44-b3ab-6fdb4e704889" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/quick-umbraco-tip-display-twitter-feeds-on-your-site]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-21T08:40:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fs1CCj]]></shortUrl>
+  <summary><![CDATA['Quick Umbraco tip: Display twitter feeds on your site' - a blog post by Darren Ferguson about twitter search, XSLT, XML, Technology Internet written on 21 January A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[twitter search, XSLT, XML, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>First, install the Ferguson Moriyama <a href="/9997642C-5F5C-4A03-A353-2E7B493113A9/06/14/feed-cache-package-for-umbraco.aspx">Feed Cache package for Umbraco</a>. Make sure you read the install instructions which explain how to get the package to run as a scheduled task.</p><p>Grab the URL for your twitter feed, mine is <a title="http://search.twitter.com/search.atom?lang=en&amp;q=from%3Adarrenferguson" href="http://search.twitter.com/search.atom?lang=en&amp;q=from%3Adarrenferguson">http://search.twitter.com/search.atom?lang=en&amp;q=from%3Adarrenferguson</a>. You can turn any twitter search into an atom feed by visiting search.twitter.com and clicking on the ‘Feed for this query’ button after your search.</p><p>Next, configure the Feed Cache package to cache your feed. Open <em>&lt;webroot&gt;</em>/umbraco/plugins/FergusonMoriyama/FeedCache/feeds.config and add an entry like the following:</p><pre style="border: 1px solid black; background-color: #eeeeee; padding: 7px;">&lt;?xml version="1.0"?&gt;
+&lt;feeds&gt;
+	&lt;feed&gt;
+		&lt;url&gt;http://search.twitter.com/search.atom?q=from%3Adarrenferguson&lt;/url&gt;
+		&lt;localFile&gt;twit.xml&lt;/localFile&gt;
+	&lt;/feed&gt;
+&lt;/feeds&gt;</pre><p>Wait a little while until twit.xml appears in the <em>&lt;webroot&gt;</em>/umbraco/plugins/FergusonMoriyama/FeedCache folder. If it doesn’t there is probably something wrong with your scheduled task setup.</p><p>Use the following XSLT macro to display tweets on your site:</p><pre style="border: 1px solid black; background-color: #eeeeee; padding: 7px;">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE xsl:Stylesheet [&lt;!ENTITY nbsp "&amp;#x00A0;"&gt;]&gt;
+&lt;xsl:stylesheet
+ version="1.0"
+ xmlns:xsl="http://www.w3.org/E345183D-D150-4F8E-A7F8-7888FD189F8B/XSL/Transform"
+ xmlns:msxml="urn:schemas-microsoft-com:xslt"
+ xmlns:umbraco.library="urn:umbraco.library"
+ exclude-result-prefixes="msxml umbraco.library Atom"
+ xmlns:Atom="http://www.w3.org/E15222D9-8D3D-45E6-8EC1-508D9DABEBB1/Atom"&gt;
+    
+    &lt;xsl:variable name="y" select="document('../umbraco/plugins/FergusonMoriyama/FeedCache/twit.xml')/Atom:feed"/&gt;
+    &lt;xsl:output method="xml" omit-xml-declaration="yes"/&gt;
+    &lt;xsl:param name="currentPage"/&gt;
+    
+    &lt;xsl:template match="/"&gt;
+        &lt;xsl:for-each select="$y/Atom:entry"&gt;
+            &lt;p&gt;
+                &lt;em&gt;
+                    &lt;xsl:value-of select="umbraco.library:FormatDateTime(Atom:published, 'MMMM d, yyyy @ H:mm')"/&gt;
+                &lt;/em&gt;
+		&lt;xsl:value-of select="Atom:content" disable-output-escaping="yes"/&gt;
+            &lt;/p&gt;
+        &lt;/xsl:for-each&gt;
+    &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;</pre><p>Obviously you can just change your twitter search to look for hash tags, Umbraco related tweets or whatever you want. There is also a lot more information in the atom feed than I am displaying above and the XLST can be modified to your liking.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

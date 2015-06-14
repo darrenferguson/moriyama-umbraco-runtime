@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="b086884d-635c-4ef7-b42f-a2706a9ba467" id="2512" nodeName="Ruben Verborgh" isDoc="" updated="2013-10-28T17:23:03.21Z" parentGUID="29f01026-3e28-401e-84c3-7e91e73f9ba5" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-12-31T11:01:41</displayDate>
+  <title><![CDATA[Ruben Verborgh]]></title>
+  <name><![CDATA[Ruben Verborgh]]></name>
+  <email><![CDATA[ruben.verborgh@gmail.com]]></email>
+  <website><![CDATA[http://ruben.3click.be/]]></website>
+  <bodyText><![CDATA[I like both ideas.
+
+1) Wouldn't it be good to move this code to your XSLT macro? That way, links can change dynamically over time without altering anything else.
+
+2) Good idea... but wouldn't tinyMCE integration be hard for a package? Maybe a browser extension is appropriate here. (Select text, click button, list of images.)]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

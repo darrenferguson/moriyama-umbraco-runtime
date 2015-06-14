@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="ac09c92b-e2d3-43a7-9a58-7ebcb92d75d7" id="2498" nodeName="Douglas Robar" isDoc="" updated="2013-10-28T17:23:08.11Z" parentGUID="917fd093-37e8-4c4a-9149-f48ed1a3b1f5" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-06-15T03:25:03</displayDate>
+  <title><![CDATA[Douglas Robar]]></title>
+  <name><![CDATA[Douglas Robar]]></name>
+  <email><![CDATA[doug@percipientstudios.com]]></email>
+  <website><![CDATA[http://www.percipientstudios.com]]></website>
+  <bodyText><![CDATA[This seems a very nice solution to a not-uncommon problem.
+
+Two questions, though. What happens with your package if the third-party server is down? Does it just time out and the old/previously-cached xml file get used?
+
+And (just so I'm 100% clear on this)... your package simply creates the xml files on my webserver's disk, and I will need to use GetXmlDocumentByUrl() to retrieve it from my local server and display it the output appropriately. Right?
+
+cheers,
+doug.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

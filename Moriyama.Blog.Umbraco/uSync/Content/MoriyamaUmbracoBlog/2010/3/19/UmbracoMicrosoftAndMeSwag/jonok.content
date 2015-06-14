@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="46f552d9-21bf-48e4-bbfa-b9d9765113a7" id="2221" nodeName="jonok" isDoc="" updated="2013-07-07T08:17:38.517Z" parentGUID="337e486d-10c0-4117-8f57-8d12b5e28701" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-05-25T23:54:12</displayDate>
+  <title><![CDATA[jonok]]></title>
+  <name><![CDATA[jonok]]></name>
+  <email><![CDATA[jonokingston@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Darren - just wondering if you have a release date for this media manager project? It sounds really cool - I'm starting some Umbraco projects soon and I'm wondering if it will be released in the next month or so?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

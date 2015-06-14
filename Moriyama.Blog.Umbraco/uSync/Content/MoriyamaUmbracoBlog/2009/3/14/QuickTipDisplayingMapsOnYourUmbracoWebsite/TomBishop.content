@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="d1165b0e-c8df-40d9-b5f2-b385137bd132" id="2381" nodeName="Tom Bishop" isDoc="" updated="2013-07-07T08:18:05.677Z" parentGUID="3d7d6134-2bd1-4ee2-899b-4a62340deb94" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-04-08T01:59:04</displayDate>
+  <title><![CDATA[Tom Bishop]]></title>
+  <name><![CDATA[Tom Bishop]]></name>
+  <email><![CDATA[tjbishop@gmail.com]]></email>
+  <website><![CDATA[http://www.morrisonconsulting.com]]></website>
+  <bodyText><![CDATA[Hey man, Great Work! I am getting a javascript error stating that fm is undefined using your example. Any ideas of where I should define this?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="730583ac-a188-403f-b775-bc735dc4fd4a" id="2599" nodeName="Darren Ferguson" isDoc="" updated="2013-10-28T17:21:51.437Z" parentGUID="55f63737-5698-46eb-90a7-064c005b44e1" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-06-28T09:15:16</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com]]></website>
+  <bodyText><![CDATA[Hi Peter,
+Lot's of small tweaks, but the main work was:
+- Tweaking HTML to work with mostly unmodified wordpress CSS theme.
+- Add Archive links by (month).
+- Adding Display date field rather than using the post date.
+- Fixed a few problems with displaying the post Tags when you click through to the post detail.
+Let me know if you need any more info!
+Thanks.
+Darren.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

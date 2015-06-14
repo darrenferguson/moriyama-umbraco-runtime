@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="9f151e67-1a74-46fc-b7bc-e672685f6b3f" id="2295" nodeName="Darren Ferguson" isDoc="" updated="2013-07-07T08:17:54.43Z" parentGUID="b71c4ea6-a859-4a70-8be5-0a2537c333e0" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-26T19:18:01</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[Hi Jesper, I haven't seems Tims datatype, I guess it wasn't 'released'?
+
+I'll have a look at my dt with autoform and canvas, though I can't see why it wouldn't work? it's just a standard .net user control.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

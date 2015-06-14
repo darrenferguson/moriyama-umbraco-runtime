@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="3fb6fa7d-1d00-44b6-9569-efad3befa861" id="3057" nodeName="Introducing UDiff comparison and diff tool for Umbraco" isDoc="" updated="2013-07-30T15:20:41.557Z" parentGUID="6c820abb-deff-46f4-8515-9eb3852a5ef6" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>8C5653DD-0D2E-4750-855E-B5FA32A8F716-05-13T09:00:00</displayDate>
+  <title><![CDATA[Introducing UDiff comparison and diff tool for Umbraco]]></title>
+  <shortUrl></shortUrl>
+  <summary><![CDATA['Introducing UDiff comparison and diff tool for Umbraco' - a blog post by Darren Ferguson about Diff, Umbraco written on 13th May 8C5653DD-0D2E-4750-855E-B5FA32A8F716]]></summary>
+  <tags><![CDATA[Diff, Umbraco]]></tags>
+  <bodyText><![CDATA[<p>Moriyama UDiff allows you to compare an Umbraco webroot to an Umbraco release zip and extract the differences.</p>
+<p><em>Watch a demonstration by clicking the image below:</em></p>
+<p><a href="https://vimeo.com/65997916"><img src="/media/133568/12-05-8C5653DD-0D2E-4750-855E-B5FA32A8F716-12-14-01_499x280.jpg" alt="UDiff"/></a></p>
+<p style="clear: both;">UDiff can be used for the following purposes:</p>
+<ul>
+<li>Scheduled task on a production server to backup changes on a regular interval</li>
+<li>Extract customisations from an Umbraco site that you have inherited (that isn't currently version controlled)</li>
+<li>A post build event in your visual solution to copy changes to a source controlled directory (ideal for Team development)</li>
+<li>Peforming upgrades - UDiff can tell you which files you need to copy into a clean version of Umbraco</li>
+</ul>
+<div>
+<p>UDiff works well in combination with uSync to move customisations of Umbraco amongst teams via source control.</p>
+<p>UDiff prevents the need to version control the Umbraco core files - which makes your repository more lightweight.</p>
+<p>UDiff ships as a command line tool with the following options:</p>
+</div>
+<div>
+<ul>
+<li><span>-q, --quiet                Run in quiet mode</span></li>
+<li><span>-s, --simulate             Simulate, don't copy any files</span></li>
+<li><span>-u, --unsafe               Copy unsafe modifications to output (e.g. </span> modified core Umbraco files)</li>
+<li>-o, --output=VALUE         Output directory</li>
+<li>-c, --clean                Clean Output directory (WARNING: deletes all files)</li>
+<li>-e, --exclude=VALUE        semi colon delimited list of Regexes to ignore</li>
+<li>--project=VALUE        Your web project directory</li>
+<li>--umbracosource=VALUE  An Umbraco release (directory, or URL of release zip)</li>
+<li>-h, --help                 show help message and exit</li>
+</ul>
+<p>This project is open for collaboration - we welcome your feedback.</p>
+</div>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

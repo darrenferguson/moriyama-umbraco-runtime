@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="80a6ceee-7627-4e64-b7b1-294e27b08edc" id="1903" nodeName="New version of Google maps Umbraco datatype released" isDoc="" updated="2013-07-07T08:18:13.16Z" parentGUID="fd237e6b-c515-4618-b261-7018e5f04b2f" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/new-version-of-google-maps-umbraco-datatype-released]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-03T08:05:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/ftjXUh]]></shortUrl>
+  <summary><![CDATA['New version of Google maps Umbraco datatype released' - a blog post by Darren Ferguson about Google, Technology Internet written on 03 July A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Google, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>I've released a new version of my Google maps datatype for
+Umbraco. The new package and the documentation are available from
+the <a href="http://our.umbraco.org/projects/google-maps-datatype">our.umbraco
+project page</a>.</p><p>Here is a summary of the new features and enhancements:</p><ul><li>Added a clear button to remove a stored location.</li><li>Moved all CSS from user control to external CSS file to allow
+user to alter map appearance.</li><li>Added support for default map locations on a per domain
+basis.</li><li>GUI based configuration of datatype, no need to edit XML config
+files any more.</li><li>Config GUI can be added to Umbraco dashboard.</li><li>General code/markup cleanup.</li></ul><p>For me, the datatype is now pretty much feature complete. If
+you'd like to see anything else added, you can submit a request in
+the package <a href="http://our.umbraco.org/projects/google-maps-datatype/feature-suggestions">
+feature request forum</a>. Bugs can be reported in the package <a href="http://our.umbraco.org/projects/google-maps-datatype/bug-reports">
+Bug report forum</a>.</p><p>Over the next few weeks I'll blog more on displaying maps on the
+front end of your web site and share a little more information on
+calculating the distance between stored points.</p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

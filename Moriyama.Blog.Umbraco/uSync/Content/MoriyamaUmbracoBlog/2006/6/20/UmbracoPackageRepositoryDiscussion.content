@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="356022d3-0442-40d2-ae22-4a1635f053cd" id="1772" nodeName="Umbraco package repository discussion" isDoc="" updated="2013-10-28T17:21:46Z" parentGUID="92ce8be3-e93b-49d5-8123-2dd079ccf48d" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-package-repository-discussion]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-06-20T10:24:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/hKOIVh]]></shortUrl>
+  <summary><![CDATA['Umbraco package repository discussion' - a blog post by Darren Ferguson about web chat written on 20 June F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[web chat]]></tags>
+  <bodyText><![CDATA[<p>
+There was a very good web chat yesterday about the Umbraco 3.0 package repository.
+</p><p>
+Details are here. <a href="http://www.umbraco.org/10722.aspx">http://www.umbraco.org/10722.aspx</a></p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

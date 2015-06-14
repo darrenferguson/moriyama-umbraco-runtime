@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="df1dec44-3374-4fae-9c6f-0fc8d7126efa" id="2601" nodeName="Bradley" isDoc="" updated="2013-10-28T17:21:51.157Z" parentGUID="55f63737-5698-46eb-90a7-064c005b44e1" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-09-20T05:18:40</displayDate>
+  <title><![CDATA[Bradley]]></title>
+  <name><![CDATA[Bradley]]></name>
+  <email><![CDATA[umbraco@imovepixels.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hey Darren, great stuff you have here.  This is my first foray into .net and umbraco -- I have previously been a wordpress/.php monkey.
+
+My question is this, you mention that you use an unmodified version of a wordpress theme, could you elaborate more on HOW you can do that?!  I would love love love to be able to just toss in my wordpress css file into umbraco and have my site transfer.
+
+Thanks Darren!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="58d0c64e-9fd5-42db-b19e-959048310564" id="1803" nodeName="Umbraco backup database restore tool available" isDoc="" updated="2013-10-28T17:22:19.39Z" parentGUID="745385ea-d734-4723-83f2-4b97d400d7c8" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-backup-database-restore-tool-available]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-10T11:51:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/eZklgz]]></shortUrl>
+  <summary><![CDATA['Umbraco backup database restore tool available' - a blog post by Darren Ferguson about XML, Technology Internet, Business Finance written on 10 August F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[XML, Technology Internet, Business Finance]]></tags>
+  <bodyText><![CDATA[<p>
+The Umbraco backup database restore tool for XML mode backups is now available for <a href="/umbraco-backup-download.aspx">download</a>.
+</p><p>
+Please read the user manual carefully before using this tool to restore an Umbraco database.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

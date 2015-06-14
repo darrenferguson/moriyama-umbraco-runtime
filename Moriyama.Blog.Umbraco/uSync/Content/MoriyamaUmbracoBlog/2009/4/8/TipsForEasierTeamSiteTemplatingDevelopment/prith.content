@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="2756d026-ff38-46f3-8b93-a346b296df0b" id="2851" nodeName="prith" isDoc="" updated="2013-07-07T08:18:10.25Z" parentGUID="efb7322a-a175-4bf9-a7f7-a639d085cfae" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="14" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-03-08T07:06:50.76</displayDate>
+  <title><![CDATA[prith]]></title>
+  <name><![CDATA[prith]]></name>
+  <email><![CDATA[prithvi.m@sify.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi Darren,
+We are currently using 
+Teamsite 6.7.1 sp1. We have a following requirement. In the DCT, we have 2 dropdowns. Say for example, the first drop down has 2 values, yellow and blue. When I select yellow in the first drop down, then the javascript should pull yellow.txt file from a teamsite folder and read it. the corresponding values from yellow.txt file should be populated into the second drop down box. Is this possible in Teamsite using only Javascript. If not, then how can we solve this ?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

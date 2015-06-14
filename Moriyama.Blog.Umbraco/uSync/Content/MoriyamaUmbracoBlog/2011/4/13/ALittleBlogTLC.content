@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="18a43946-0a03-41b9-9753-499d9d22cb10" id="2658" nodeName="A little blog TLC" isDoc="" updated="2013-07-07T08:17:30.27Z" parentGUID="0c0ba928-1fb6-4221-8a7e-069d76d63190" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/a-little-blog-tlc]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-04-13T17:05:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/g3BuBl]]></shortUrl>
+  <summary><![CDATA['A little blog TLC' - a blog post by Darren Ferguson about Examine, Umbraco, Lucene, Lucene.net, Base, AJAX written on 13th April B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[Examine, Umbraco, Lucene, Lucene.net, Base, AJAX]]></tags>
+  <bodyText><![CDATA[
+<p>My blog has been running Umbraco for 5 years and it needed a
+little TLC. With origins in Umbraco 2.0.6 running on .NET 1.1 there
+was a lot of clutter going on and templates with very strange names
+like <em>wordPressPostList.</em></p>
+
+<p>So i've undertaken a little spring cleaning:</p>
+
+<ul>
+<li>Upgraded to Umbraco 4.7</li>
+
+<li>Set up auto tagging of posts using the awesome <a
+href="http://www.opencalais.com/">OpenCalais</a>&nbsp;API</li>
+
+<li>Rewritten search to use <a
+href="http://examine.codeplex.com/">Umbraco Examine</a></li>
+
+<li>Highlighted search results</li>
+
+<li>Used Umbraco base AJAX to start suggesting results in
+page.</li>
+</ul>
+
+<p>Open Calais tagging allows the automatic categorisation of posts
+- the blog now has a list of categories in the right hand column
+which you can use to explore the last 5 years worth of posts.
+Clicking on a category simply queries examine to find similarly
+categorised posts.</p>
+
+<p>Search result highlighting is based upon the <a
+href="http://our.umbraco.org/wiki/how-tos/how-to-highlight-text-in-examine-search-results">
+techniques described over on the wiki at our.umbraco.org</a> and
+I've also put together an <a
+href="http://our.umbraco.org/projects/website-utilities/lucene-search-result-highlithing">
+Umbraco package which allows you to get examine search result
+highlighting up and running quickly</a>.</p>
+
+<p>Finally to have a look at Base AJAX search results in action
+just start typing a search term in the search box in &nbsp;the
+right hand column. As soon as a match is found a window will pop up
+in page.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

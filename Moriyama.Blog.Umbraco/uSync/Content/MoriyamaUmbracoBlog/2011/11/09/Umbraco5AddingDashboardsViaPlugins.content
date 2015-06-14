@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="dd4928c4-88c5-4d92-b006-1fc29909fcca" id="2746" nodeName="Umbraco 5: Adding Dashboards via plugins" isDoc="" updated="2013-07-07T08:17:33.09Z" parentGUID="f686ad18-7cef-4334-86ac-ecdded577ab3" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-11-09T21:02:00</displayDate>
+  <title><![CDATA[Umbraco 5: Adding Dashboards via plugins]]></title>
+  <shortUrl><![CDATA[http://bit.ly/sPKltv]]></shortUrl>
+  <summary><![CDATA['Umbraco 5: Adding Dashboards via plugins' - a blog post by Darren Ferguson about Umbraco Jupiter  written on the 21st October B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[Umbraco, Jupiter, Plugin]]></tags>
+  <bodyText><![CDATA[
+<p><em>I'll add this post to the Umbraco 5 wiki in due
+course.</em></p>
+
+<p>This blog post will describe how to add dashboards to Umbraco 5
+via a plugin - before starting, consider the following useful
+background reading:</p>
+
+<ul>
+<li><a rel="nofollow"
+href="http://blog.mattbrailsford.com/B25AC8DE-26FC-44E7-BB89-F200B2327094/09/30/automating-umbraco-v5-package-creation-using-msbuild/">
+http://blog.mattbrailsford.com/B25AC8DE-26FC-44E7-BB89-F200B2327094/09/30/automating-umbraco-v5-package-creation-using-msbuild/</a></li>
+
+<li><a rel="nofollow"
+href="http://shazwazza.com/post/Umbraco-Jupiter-Plugins-Part-1.aspx">
+http://shazwazza.com/post/Umbraco-Jupiter-Plugins-Part-1.aspx</a></li>
+</ul>
+
+<div>There are 5 parts to Shannon's series on Umbraco jupiter
+plugins.</div>
+
+<p>At time of writing (9th November B25AC8DE-26FC-44E7-BB89-F200B2327094) some of the techniques
+used here require you to work from the latest Umbraco Jupiter
+source code - the example won't work with the latest alpha
+release.</p>
+
+<p>Sample source code for the techniques described here are
+available at:&nbsp;<a rel="nofollow"
+href="http://umbraco5contrib.codeplex.com/">http://umbraco5contrib.codeplex.com/</a>&nbsp;and
+you&nbsp;can get the source (mercurial) by cloning:&nbsp;<a
+rel="nofollow"
+href="https://hg01.codeplex.com/umbraco5contrib">https://hg01.codeplex.com/umbraco5contrib</a></p>
+
+<p>The solution that this article refers to is
+in&nbsp;<em><strong>Source\Dashboard.HelloWorld.sln.&nbsp;</strong></em>
+Please read&nbsp;<em>ReadMe.txt&nbsp;</em> in the project root
+before building.</p>
+
+<p><span><strong>Obective:</strong></span></p>
+
+<p>To display a (Razor) view on and Umbraco 5 dashboard - using a
+custom controller provided by an Umbraco 5 plugin.</p>
+
+<p><strong>Plugin folder structure:</strong></p>
+
+<p>Plugins go in:&nbsp;<strong>App_Plugins\Packages\&nbsp;</strong>
+for now we'll be copying from Visual Studio to this location using
+post build events. To package and redistribute a plugin you'll want
+to read Mat's article which is linked above.</p>
+
+<p>In&nbsp;<strong>Dashboard.HelloWorld.csproj&nbsp;</strong> you
+will need to modify the following XML to specify where you are
+running Umbraco 5 from.</p>
+
+<pre class="brush: xml;">
+&lt;PropertyGroup&gt;
+    &lt;Umbraco5Dir&gt;C:\Users\Darren\Source\Umbraco\Source\Web Apps\Umbraco.CMS.Web.UI&lt;/Umbraco5Dir&gt;
+&lt;/PropertyGroup&gt;
+</pre>
+
+<p>If you build the solution and browse to:</p>
+
+<p>&nbsp;<strong>App_Plugins\Packages\MyPackage.1.0&nbsp;</strong>
+you should see the following child folders:</p>
+
+<ul>
+<li>lib (DLL files from your plugin)</li>
+
+<li>Views\Partial (Razor cshtml files from your plugin)</li>
+</ul>
+
+<p>You'll also have a web.config at the root of your plugin
+folder.&nbsp;If you refresh the Umbraco back office you should see
+a Hello world view on your dashboard.</p>
+
+<p><strong>What makes this work:</strong></p>
+
+<p>The dashboard is defined in your plugin web.config - Umbraco
+Jupiter uses a technique known as deep config which means plugin
+cofig is merged with the main application configuration.</p>
+
+<p>The dashboard snippet looks like this:</p>
+
+<pre class="brush: xml;">
+&lt;umbraco.cms&gt;
+  &lt;dashboard-groups&gt;
+    &lt;group&gt;
+      &lt;applications&gt;
+        &lt;addapp="*"/&gt;
+      &lt;/applications&gt;
+      &lt;dashboards&gt;
+        &lt;addtab="Hello There people"type="childAction"name="Dashboard.Index"/&gt;
+      &lt;/dashboards&gt;
+    &lt;/group&gt;
+  &lt;/dashboard-groups&gt;
+&lt;/umbraco.cms&gt;
+</pre>
+
+<p>The configuration above defines the following things:</p>
+
+<ul>
+<li>The Umbraco application/section to add the dashboard to (in
+this case * which means all)</li>
+
+<li>The tab title "Hello There people"</li>
+
+<li>The type - childAction for a controller - you can use
+partialView to display a Razor file directly.</li>
+
+<li>name - references the controller in the
+format&nbsp;<strong><em>Name.Action</em></strong></li>
+</ul>
+
+<p><span><strong>How Umbraco 5 finds plugins:</strong></span></p>
+
+<p><span>In the solution open up AssemblyInfo.cs and note the
+inclusion of the following:</span></p>
+
+<pre class="brush: csharp;">
+[assembly: AssemblyContainsPlugins()]
+</pre>
+
+<p><span>This attribute tells Umbraco to look inside this assembly
+for plugins.</span></p>
+
+<p><strong>Modifications to the controller:</strong></p>
+
+<p>Consider the controller in our project:</p>
+
+<pre class="brush: csharp;">
+[Editor("960d4aaf-8fae-44da-a3ff-5a3D9809F1-57AA-4745-AC2D-4CC54E19A32Aee6e4a", HasChildActionDashboards = true)]
+public class DashboardController : BaseEditorController
+{
+   public DashboardController(IBackOfficeRequestContext requestContext)
+       : base(requestContext)
+   {
+   }
+
+   [ChildActionOnly]
+   public ActionResult Index()
+   {
+       return View("HelloWorld");
+   }
+}
+</pre>
+
+<p>The changes we've made in order for this to work on the
+dashboard are:</p>
+
+<ul>
+<li>Decorate the class with
+the&nbsp;<em><strong>Editor&nbsp;</strong></em> attribute and
+provide a GUID</li>
+
+<li>In the Editor attribute pass in true to
+the&nbsp;<span><em><strong>HasChildActionDashboards</strong></em></span>
+property</li>
+
+<li>Inherit from the base
+class&nbsp;<em><strong>BaseEditorController</strong></em></li>
+
+<li>Mark your action with
+the&nbsp;<em><strong>ChildActionOnly</strong></em>&nbsp;attribute</li>
+</ul>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

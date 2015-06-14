@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="8b2d97cf-706f-4ec4-a3bd-6bafcd0fca69" id="1771" nodeName="Flat Url plugin for TextGen.aspx" isDoc="" updated="2013-10-28T17:21:44.467Z" parentGUID="b8132c1c-32c7-4fc2-a161-42b92dd0a3f9" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/flat-url-plugin-for-textgenaspx]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-05-28T11:03:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fOIe9j]]></shortUrl>
+  <summary><![CDATA['Flat Url plugin for TextGen.aspx' - a blog post by Darren Ferguson about Technology Internet written on 28 May F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>As part of a larger project, I needed a way to use TextGen.aspx with flat URL's.</p><p><a href="/media/696/fergusonmoriyamatextgenrewrite.zip">Download it here</a></p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

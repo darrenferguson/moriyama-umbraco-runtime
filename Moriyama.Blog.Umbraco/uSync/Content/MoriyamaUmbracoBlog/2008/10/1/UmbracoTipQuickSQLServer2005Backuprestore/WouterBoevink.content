@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="6b498051-ed61-494c-a56e-869717b19bc6" id="2453" nodeName="Wouter Boevink" isDoc="" updated="2013-10-28T17:22:59.123Z" parentGUID="ff9c8463-0a38-4f5e-b8d1-3d7202888ea0" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-10-02T16:23:09</displayDate>
+  <title><![CDATA[Wouter Boevink]]></title>
+  <name><![CDATA[Wouter Boevink]]></name>
+  <email><![CDATA[wboevink@hotmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[And why is this better than creating a backup and restoring it? That way you can also copy your data between servers. And it can also be done from the command prompt. And your server stays only.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

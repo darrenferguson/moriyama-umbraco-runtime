@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="9123e40d-8d0d-4c17-9e2c-b36a0414b4db" id="2622" nodeName="Geoff Beaumont" isDoc="" updated="2013-07-07T08:17:35.417Z" parentGUID="d2d6c8be-fe84-43da-93b6-8d22813e17cc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="9" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-12-15T15:20:22.257</displayDate>
+  <title><![CDATA[Geoff Beaumont]]></title>
+  <name><![CDATA[Geoff Beaumont]]></name>
+  <email><![CDATA[geoff@cabstudios.co.uk]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi Darren,
+
+The source link on the Umbraco projects site is broken (or your svn repository is down!).
+
+The link to the project page is now http://our.umbraco.org/projects/website-utilities/auto-link - probably following the reorganising they're doing at the moment.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

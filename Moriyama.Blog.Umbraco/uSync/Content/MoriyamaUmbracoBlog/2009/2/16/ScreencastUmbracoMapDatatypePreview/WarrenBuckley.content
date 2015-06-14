@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="c85e72cd-f92d-4d05-a58c-7e95c90c943b" id="2366" nodeName="Warren Buckley" isDoc="" updated="2013-07-07T08:18:03.59Z" parentGUID="affe15b9-98e9-4470-aa1e-12eb235f4db4" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="11" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-18T17:00:39</displayDate>
+  <title><![CDATA[Warren Buckley]]></title>
+  <name><![CDATA[Warren Buckley]]></name>
+  <email><![CDATA[warren@creativewebspecialist.co.uk]]></email>
+  <website><![CDATA[http://www.creativewebspecialist.co.uk]]></website>
+  <bodyText><![CDATA[Hiya Darren,
+Some wicked work there!
+
+In the backend/canvas mode is it possible to configure the width and height of the map for the datatype ?
+
+Warren]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

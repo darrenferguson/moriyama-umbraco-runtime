@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="eef8f5e8-36a1-40b9-8374-e0228091d993" id="1839" nodeName="Umbraco Backup license clarification" isDoc="" updated="2013-10-28T17:22:46.14Z" parentGUID="b5c45a86-fcc5-4ac6-a5af-26ed83d2d3e5" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-backup-license-clarification]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>3B8392C0-3EB0-421C-B00A-C8BEC022F267-02-03T11:22:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/f2tIuy]]></shortUrl>
+  <summary><![CDATA['Umbraco Backup license clarification' - a blog post by Darren Ferguson about physical web server, web servers, not for profit web site, web server, Technology Internet written on 03 February 3B8392C0-3EB0-421C-B00A-C8BEC022F267]]></summary>
+  <tags><![CDATA[physical web server, web servers, not for profit web site, web server, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>
+I get quite a few questions about Umbraco Backup licensing, so here is clarification about what each licensing model means.
+</p><p><b>Personal/Non-Profit:</b> For any type of not for profit web site e.g. charities and blogs. The license is tied to a fully qualified domain name e.g. www.mysite.com.
+</p><p><b>Single Umbraco instance:</b> For a single commercial site, tied to domain name in the same way as a non-profit license is.
+</p><p><b>Server license:</b> Allows you to install Umbraco Backup within as many Umbraco instances as you like on a single physical web server. All domain names for these sites *must* resolve to the same IP address. If you have two web servers you need two licenses. Changing the server IP is fine, the license is based on a domain, as long as all domains resolve to the IP of the licensed domain then your license is valid.
+</p><p>
+I am always happy to discuss volume licensing discounts, just drop me a mail.
+</p><p>
+I don't have any policy on upgrading to future versions yet. If you are waiting for version 2.0, there is really no point as I am not sure if there will ever be a 2.0 at present.
+</p><p>
+Thanks, Darren.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

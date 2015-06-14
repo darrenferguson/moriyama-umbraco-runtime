@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="0bec2d88-558f-43eb-9dd7-74eaf1205238" id="2555" nodeName="Hartvig" isDoc="" updated="2013-10-28T17:22:24.57Z" parentGUID="4c7084a4-2d56-4791-b4e4-1e74b2d621bb" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-29T09:22:16</displayDate>
+  <title><![CDATA[Hartvig]]></title>
+  <name><![CDATA[Hartvig]]></name>
+  <email><![CDATA[niels@hartvig.com]]></email>
+  <website><![CDATA[http://hartvig.com]]></website>
+  <bodyText><![CDATA[Are you running OS X on your Dell or do you have a mini hidden somewhere?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="c2bf5bd4-b773-40b3-89eb-d8d35cb713b6" id="2477" nodeName="Darren Ferguson (1)" isDoc="" updated="2013-10-28T17:23:22.46Z" parentGUID="177c311e-2d57-48ef-954e-a0cd5a3c20dc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="8" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-09T16:31:33</displayDate>
+  <title><![CDATA[Darren Ferguson (1)]]></title>
+  <name><![CDATA[Darren Ferguson (1)]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[@jay - This page is about 164k including supporting files, but to me it's more about the UI and the nicer effects, plus I don't think you can get .net to submit to page anchors which means you always end up at the top of the page without AJAX.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

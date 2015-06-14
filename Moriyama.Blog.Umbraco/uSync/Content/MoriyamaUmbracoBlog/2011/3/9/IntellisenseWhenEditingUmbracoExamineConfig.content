@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="da35041a-c363-4dd9-8681-a59db9ca5b36" id="1940" nodeName="Intellisense when editing Umbraco examine config" isDoc="" updated="2013-07-07T08:17:29.26Z" parentGUID="4a3b1dfd-9672-4832-8c2e-43aa03dffa3b" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/intellisense-when-editing-umbraco-examine-config]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-03-09T10:00:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fnWlgV]]></shortUrl>
+  <summary><![CDATA['Intellisense when editing Umbraco examine config' - a blog post by Darren Ferguson about XML, Technology Internet written on 09 March B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[XML, Technology Internet, Intellisense]]></tags>
+  <bodyText><![CDATA[
+<p>I've uploaded a zip file to our Umbraco that contains XSD
+(Schema) files for the Umbraco Examine configuration files -
+ExamineSettings.config and ExamineIndex.config you can <a
+href="http://our.umbraco.org/projects/developer-tools/umbraco-examine-config-schemas">
+download the zip here</a>.</p>
+
+<p>Once installed and activated these files give you intellisense
+and validation when editing Examine configuration</p>
+
+<p>To install, place the .xsd files in the download in the
+XML\Schemas sub folder of your visual studio install. Once
+installed open your examine configuration files and in the
+properties pane click on the "..." button to activate an additional
+schema against the file.</p>
+
+<div><img src="/media/119590/untitled2_500x389.jpg" width="500" height="389" alt="Schemas"/></div>
+
+<p style="margin-top: 10px;">In the resulting window choose the
+appropriate schema file to activate.</p>
+
+<div><img src="/media/77666/14232_2.png" alt="SchemaChoose"/></div>
+
+<p style="margin-top: 10px;">Once the schema is active you should
+have intellisense and validation available on your Examine
+configuration.</p>
+
+<div><img src="/media/77671/14232_3.png" alt="ExamineIntelli2"/></div>
+
+<div style="margin-top: 10px;"><img src="/media/77676/14232_4.png" alt="ExamineIntelli3"/></div>
+
+<p style="margin-top: 10px;">Note: because the examine files are
+included by web.config and form part of a larger configuration XML
+document we can't give the root element a namespace and map the
+Schemas automatically.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

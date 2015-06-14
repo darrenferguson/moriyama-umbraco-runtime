@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="dacd2fe0-4762-4475-9179-7910df8064ea" id="1813" nodeName="Umbraco backup public beta 2 available" isDoc="" updated="2013-10-28T17:22:26.453Z" parentGUID="7adbd9c3-ec97-4d09-b91a-62ef86b6a62f" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-backup-public-beta-2-available]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-04T17:06:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gtpR3b]]></shortUrl>
+  <summary><![CDATA['Umbraco backup public beta 2 available' - a blog post by Darren Ferguson about server backup operator, Technology Internet written on 04 August F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[server backup operator, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>
+Umbraco backup public beta 2 is available available from the <a href="/umbraco-backup.aspx">Project homepage</a>.
+</p><p>
+This new version allows complete SQL server data backup even if your SQL server is remote from the webserver and you don't have the permissions of a SQL server backup operator.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

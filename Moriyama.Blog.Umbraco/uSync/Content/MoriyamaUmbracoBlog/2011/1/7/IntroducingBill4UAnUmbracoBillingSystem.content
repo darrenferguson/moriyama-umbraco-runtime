@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="b73128a2-51a1-483f-98df-399d5efdf96c" id="1935" nodeName="Introducing Bill4U - an Umbraco billing system" isDoc="" updated="2013-07-07T08:17:28.063Z" parentGUID="4f6688c5-fc53-4300-accc-90db68d70f42" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/introducing-bill4u-an-umbraco-billing-system]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B25AC8DE-26FC-44E7-BB89-F200B2327094-01-07T08:38:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fgIlPq]]></shortUrl>
+  <summary><![CDATA['Introducing Bill4U - an Umbraco billing system' - a blog post by Darren Ferguson about Paypal, PDF, Technology Internet written on 07 January B25AC8DE-26FC-44E7-BB89-F200B2327094]]></summary>
+  <tags><![CDATA[Paypal, PDF, Technology Internet, Umbraco, Billing]]></tags>
+  <bodyText><![CDATA[
+<p>I haven't blogged for a while and one of the reasons is that
+I've been working on <a
+href="http://our.umbraco.org/projects/backoffice-extensions/bill4u">
+Bill4U</a> - a billing system based on Umbraco.</p>
+
+<p>Bill4U is targeted at small businesses and freelancers who
+generate a relatively small amount of invoices each month. It
+allows you to quickly bill customers from the Umbraco dashboard,
+simplifies repetitive tasks like repeat billing and allows you to
+quickly and easily create order forms on your website using Umbraco
+Contour.</p>
+
+<p>Out of the box you can generate branded PDF invoices and collect
+payments via Paypal. Bill4U is VAT aware and can be easily
+configured to work with your own regional settings.</p>
+
+<p>Bill4U is also extremely extensible - the business logic is
+separated into small discrete tasks which can be overriden,
+replaced or removed. You can also add your own additional steps
+into the Bill4U workflows by implementing a simple interface.</p>
+
+<p>I'm still working on the manual, but in the meantime you can get
+to know Bill4U by watching some of the screencasts below.</p>
+
+<ul>
+<li><a
+href="http://static.darren-ferguson.com/Bill4U/Intro/Bill4U%20-%20Introduction.html">
+Introduction to Bill4U</a> (screencast)</li>
+
+<li><a
+href="http://static.darren-ferguson.com/Bill4U/Installation/Bill4U%20-%20Installation.html">
+Installation</a>(screencast)</li>
+
+<li><a
+href="http://static.darren-ferguson.com/Bill4U/Demo/Bill4U%20-%20Demo.html">
+Getting started demo</a> (screencast)</li>
+
+<li><a
+href="http://static.darren-ferguson.com/Bill4U/DocType/Bill4U%20-%20DocType.html">
+The order document type</a> (screencast)</li>
+
+<li><a
+href="http://static.darren-ferguson.com/Bill4U/Config/Bill4U%20-%20Config%20Files.html">
+Configuration overview</a> (screencast)</li>
+
+<li><a
+href="http://static.darren-ferguson.com/Bill4U/PayPal/Bill4U%20-%20PayPal.html">
+Paypal payments</a> (screencast)</li>
+
+<li><a
+href="http://static.darren-ferguson.com/Bill4U/EuVat/BillU%20-%20EuVat.html">
+EU VAT validation</a> (screencast)</li>
+
+<li><a
+href="http://static.darren-ferguson.com/Bill4U/Contour/Bill4U%20-%20Contour.html">
+Billing forms with Contour</a> (screencast)</li>
+
+<li><a
+href="http://static.darren-ferguson.com/Bill4U/Currencies/Bill4U%20-%20Currencies.html">
+Currency conversion XSLT extensions</a> (screencast)</li>
+
+<li><a
+href="http://static.darren-ferguson.com/Bill4U/Menus/Bill4U%20-%20Menus.html">
+Customise the Bill4U menu</a> (screencast)</li>
+
+<li><a
+href="http://static.darren-ferguson.com/Bill4U/DocProcessors/Bill4U%20-%20Doc%20processors.html">
+Extending Bill4U</a> (screencast)</li>
+</ul>
+
+<p>You can download an evaluation of Bill4U from the <a
+href="http://our.umbraco.org/projects/backoffice-extensions/bill4u">
+our.umbraco project page</a>.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="161d6531-c7fa-47b2-b99f-d3eaf9c246dc" id="2862" nodeName="John" isDoc="" updated="2013-07-07T08:18:07.667Z" parentGUID="3d7d6134-2bd1-4ee2-899b-4a62340deb94" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="24" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-04-16T12:10:32.3</displayDate>
+  <title><![CDATA[John]]></title>
+  <name><![CDATA[John]]></name>
+  <email><![CDATA[andras.kovacs@carnationgroup.com]]></email>
+  <website><![CDATA[http://www.carnationgroup.com/]]></website>
+  <bodyText><![CDATA[Great job! But, i have a question. There is way in this module to highlight the area in google map?
+
+Thanks your answer:)]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

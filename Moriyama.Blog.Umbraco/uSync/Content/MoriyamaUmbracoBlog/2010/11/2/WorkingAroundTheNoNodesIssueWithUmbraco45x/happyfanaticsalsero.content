@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="9363faa8-e70d-49cd-9472-4aca4e287eaa" id="2616" nodeName="happyfanaticsalsero" isDoc="" updated="2013-07-07T08:17:50.147Z" parentGUID="21603210-72ff-4ff8-9f36-93374e11a328" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-11-05T06:51:55.937</displayDate>
+  <title><![CDATA[happyfanaticsalsero]]></title>
+  <name><![CDATA[happyfanaticsalsero]]></name>
+  <email><![CDATA[pieter@vantichelen.name]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi Darren,
+
+Thanks a lot for your weblog about this issue (and posts on our.umbraco.org) as I've just had a nasty occurence myself. My hosting company had some deadlocks on a database which had to restart... and because of a websitepanel upgrade IIS was restarted as well. Although it seems unlikely this will reproduce a lot of times, it may and I want to apply a fix.
+
+How do I put the custom nonodes page in place? Just make an aspx with your code and put it in the umbraco root? Or will I need to perform any other tricks?
+
+Kind regards & thanks in advance,
+HFS]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="312479ac-3c4a-4bb5-b413-ce20cc6baaa5" id="1797" nodeName="Umbraco backup is coming" isDoc="" updated="2013-10-28T17:22:13.57Z" parentGUID="155fcb8c-e775-453f-af8a-66804a7b47d6" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-backup-is-coming]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-28T09:25:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/dOYLYq]]></shortUrl>
+  <summary><![CDATA['Umbraco backup is coming' - a blog post by Darren Ferguson about Business Finance, Technology Internet written on 28 July F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Business Finance, Technology Internet]]></tags>
+  <bodyText><![CDATA[
+<p>Will be my first commercial product featuring, one click backup
+of files, ACLs and SQL server data.</p>
+
+<p><a href="http://www.flickr.com/photos/darrenferguson/199538555/"
+title="Photo Sharing"><img src="/media/77297/BBEAD18D-6237-49E1-9303-8F0E89EADAAA_1.jpg" width="500" height="362" alt="Umbraco Backup"/></a></p>
+
+<p><a href="http://www.flickr.com/photos/darrenferguson/199538556/"
+title="Photo Sharing"><img src="/media/77302/BBEAD18D-6237-49E1-9303-8F0E89EADAAA_2.jpg" width="500" height="362" alt="Umbraco Backup"/></a></p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

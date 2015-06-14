@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="358b64b9-ac78-4728-bf25-5a1791492075" id="2592" nodeName="Darren Ferguson" isDoc="" updated="2013-10-28T17:22:07.843Z" parentGUID="229dfa69-a97b-46c5-9230-051599733947" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-10T09:04:53</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[It was about 200 (on my site), but it was fine unless  you actually expanded the node in the GUI. My advice would just be to store the vote counts in one node......]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

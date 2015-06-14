@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="8c6cedac-83fb-4997-9f8f-629dace3164e" id="2283" nodeName="Chris Houston" isDoc="" updated="2013-07-07T08:17:52.833Z" parentGUID="53aa962b-9ec1-45a4-882c-556a75c3337a" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-11-15T15:40:53</displayDate>
+  <title><![CDATA[Chris Houston]]></title>
+  <name><![CDATA[Chris Houston]]></name>
+  <email><![CDATA[chouston@vizioz.com]]></email>
+  <website><![CDATA[http://blog.vizioz.com]]></website>
+  <bodyText><![CDATA[Hi Darren,
+
+I created a bit of XSLT for Warren's twitter package that looks for @name's, #name's and URL's and converts them into links using Regex.
+
+I thought it might be useful for someone who reads your example above so here is the XSLT :)
+
+   &lt;xsl:template name="formaturl"&gt;
+     &lt;xsl:param name="twitterfeed"/&gt;
+     &lt;xsl:variable name="transform-http" select="Exslt.ExsltRegularExpressions:replace($twitterfeed, '(http\:\/\/\S+)',ig,'&lt;a href=&quot;$1&quot;&gt;$1&lt;/a&gt;')"/&gt;
+     &lt;xsl:variable name="transform-https" select="Exslt.ExsltRegularExpressions:replace($transform-http, '(HTTps\:\/\/\S+)',ig,'&lt;a href=&quot;$1&quot;&gt;$1&lt;/a&gt;')"/&gt;
+     &lt;xsl:variable name="transform-AT" select="Exslt.ExsltRegularExpressions:replace($transform-https, '(^|\s)@(\w+)',ig,' &lt;a href=&quot;http://www.twitter.com/$2&quot;&gt;@$2&lt;/a&gt;')"/&gt;
+     &lt;xsl:variable name="transform-HASH" select="Exslt.ExsltRegularExpressions:replace($transform-AT, '(^|\s)#(\w+)',ig,' &lt;a href=&quot;http://www.twitter.com/search?q=$2&quot;&gt;#$2&lt;/a&gt;')"/&gt;
+     &lt;xsl:value-of select="$transform-HASH" disable-output-escaping="yes"/&gt;
+   &lt;/xsl:template&gt;
+
+Cheers,
+
+Chris]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

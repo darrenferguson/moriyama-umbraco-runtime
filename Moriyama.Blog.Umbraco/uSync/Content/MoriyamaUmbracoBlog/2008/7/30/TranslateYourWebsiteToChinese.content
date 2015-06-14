@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="f0b91857-b1cd-4bbb-be49-8df6b2dc9cb0" id="1864" nodeName="Translate your website to Chinese" isDoc="" updated="2013-10-28T17:23:20.923Z" parentGUID="663005e7-b0d2-47a4-aa57-f4efb4c763b2" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/translate-your-website-to-chinese]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-30T19:40:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/gE7zrj]]></shortUrl>
+  <summary><![CDATA['Translate your website to Chinese' - a blog post by Darren Ferguson about China, United States, online population written on 30 July 9997642C-5F5C-4A03-A353-2E7B493113A9]]></summary>
+  <tags><![CDATA[China, United States, online population]]></tags>
+  <bodyText><![CDATA[<p>Exciting times at <a href="http://www.fergusonmoriyama.com/">Ferguson Moriyama</a>! In the week that China overtook the US to have the world’s largest online population we are now able to offer <a href="http://www.fergusonmoriyama.com/news.aspx">professional translation</a> from English to Mandarin (or  vice versa).</p><p>Obviously with our existing technical knowledge we can offer solid consultancy on the best way to go about performing translation using your existing infrastructure.</p><p>We’ll also be looking at localising the Umbraco UI for Mandarin.</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="ce7eab11-b35e-4cd5-936f-5ce32d6ae091" id="2494" nodeName="Darren Ferguson" isDoc="" updated="2013-10-28T17:23:12.913Z" parentGUID="3938413b-454c-45af-9eb7-ce68bcc1dff1" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-13T21:12:36</displayDate>
+  <title><![CDATA[Darren Ferguson]]></title>
+  <name><![CDATA[Darren Ferguson]]></name>
+  <email><![CDATA[df@darren-ferguson.com]]></email>
+  <website><![CDATA[http://www.darren-ferguson.com/]]></website>
+  <bodyText><![CDATA[Hi Bob, mail me your log messages and your config and i'll see what i can figure out...]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

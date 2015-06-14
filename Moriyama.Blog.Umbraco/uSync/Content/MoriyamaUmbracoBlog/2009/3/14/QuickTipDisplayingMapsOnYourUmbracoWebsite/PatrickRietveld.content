@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="cb0e1826-4472-4463-a059-9047898e501b" id="2399" nodeName="Patrick Rietveld" isDoc="" updated="2013-07-07T08:18:07.32Z" parentGUID="3d7d6134-2bd1-4ee2-899b-4a62340deb94" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="20" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-16T14:07:19</displayDate>
+  <title><![CDATA[Patrick Rietveld]]></title>
+  <name><![CDATA[Patrick Rietveld]]></name>
+  <email><![CDATA[p.rietveld@maxelmo.nl]]></email>
+  <website><![CDATA[http://www.maxelmo.nl]]></website>
+  <bodyText><![CDATA[Hi Marc, you can view the source of my contact page to build youre own. My contact page is based on the example of Darren. http://www.maxelmo.nl/contact for those who are interested, I could make an Umbraco package with a complete implementation. ]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

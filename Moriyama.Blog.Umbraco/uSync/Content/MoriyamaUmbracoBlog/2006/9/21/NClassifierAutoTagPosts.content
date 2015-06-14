@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="43e7c663-1244-479c-b5a5-03ff48105941" id="1828" nodeName="NClassifier: Auto tag posts" isDoc="" updated="2013-10-28T17:22:37.7Z" parentGUID="b8156ed4-e9ba-469c-8072-b1f1d4ffe0c2" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="2" published="true">
+  <umbracoUrlAlias><![CDATA[/nclassifier-auto-tag-posts]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-09-21T16:40:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/e0f2AA]]></shortUrl>
+  <summary><![CDATA['NClassifier: Auto tag posts' - a blog post by Darren Ferguson about Amazon, XML, Technology Internet written on 21 September F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Amazon, XML, Technology Internet]]></tags>
+  <bodyText><![CDATA[<p>A while back I read <a href="http://ismail.umbraco.net/F56EAE9D-5A71-46C2-8973-4C0DCBF9211D/7/19/nclassifier.aspx">Ismail's post</a> on <a href="http://nclassifier.sourceforge.net/">NClassifier</a>. I've always been interested in content intelligence and decided to look into auto tagging blog posts and creating document summaries.</p><p>I'm not new to this game and I still feel that humans do a much better job of summarising text than machines, however the tagging using the BayesianClassifier works quite well.</p><p>I've put together a very simple demo which classifies blog posts based on this <a href="http://www.fergusonmoriyama.com/classify.xml">simple xml configuration</a>. If you click through to the detail view of any blog post, you'll see the result of the classification just before the comments.</p><p>Ultimately, I'd probably implement this as an Umbraco actionhandler which sets metadata against items as they are published, but for now classification runs on each request.</p><p>If you are wondering what the purpose of this is, think about the technology behind Amazon recommendations and numerous sites that implement 'you may be interested in this' functionality. Once your content is classified, it isn't too hard to track which tags that your users are looking at most and assemble custom content for them.</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

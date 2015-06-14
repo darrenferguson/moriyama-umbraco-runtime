@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="5c0b75fb-dd63-412a-9a10-e6305ef8e91f" id="1884" nodeName="Umbraco Map/Place datatype available to Download" isDoc="" updated="2013-07-07T08:18:04.457Z" parentGUID="409429b3-84fc-4423-b69e-cc53f60de635" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-mapplace-datatype-available-to-download]]></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-02-26T18:50:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/dJ4G0A]]></shortUrl>
+  <summary><![CDATA['Umbraco Map/Place datatype available to Download' - a blog post by Darren Ferguson about Google, API, GUI written on 26 February A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2]]></summary>
+  <tags><![CDATA[Google, API, GUI]]></tags>
+  <bodyText><![CDATA[<p>My Umbraco map/place dataype that I've blogged about previously is <a href="/media/16418/ferguson_moriyama_place_0.2beta.zip">available for download here</a>. The datatype is distributed as an Umbraco package.</p><p>Note: This is an Umbraco v4 datatype only. I may update it to support version 3 if there is the demand. </p><p>Important: You will need a Google maps API key to use this datatype.  The key can be obtained from <a href="http://code.google.com/apis/maps/signup.html">this site</a> and needs to be placed in the configuration file /umbraco/plugins/FergusonMoriyama/place/place.config.</p><p>There are a couple of known issues, which I believe are issues with Canvas, but I'm happy to be corrected if wrong. First, the first time you click on a map location to edit - in IE only - the map doesn't render, subsequent edits work fine. The second issue is that if you edit one map on a canvas page and then edit another map before saving the document then the second map you edit gets the value of the first. I'm hoping to communicate with Ruben and figure out what happens.</p><p>I'll treat this as a beta release, please install, test and send feedback. I'll make any modifications needed and release again next week. Feel free to suggest any additional features.</p><p>I'll follow up with a couple of blog posts on how to render static and dynamic maps in Umbraco templates.</p><p>Finally, you'll notice the datatype renders a link to my site - only visible in canvas or the Umbraco GUI not on the front end of your published site. I've thought long and hard about this, and I figure that If you can't live with the credit link you can make a donation to me and I'll send you a version minus the link. </p>]]></bodyText>
+  <commentsDisabled></commentsDisabled>
+</BlogPost>

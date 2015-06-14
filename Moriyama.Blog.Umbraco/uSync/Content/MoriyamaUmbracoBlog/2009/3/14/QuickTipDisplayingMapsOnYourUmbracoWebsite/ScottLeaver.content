@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="ee6e0e4b-d64f-4ded-a8da-1ad63bb0ac3d" id="2829" nodeName="Scott Leaver" isDoc="" updated="2013-07-07T08:18:07.48Z" parentGUID="3d7d6134-2bd1-4ee2-899b-4a62340deb94" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="22" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-02-01T12:14:06.233</displayDate>
+  <title><![CDATA[Scott Leaver]]></title>
+  <name><![CDATA[Scott Leaver]]></name>
+  <email><![CDATA[scott@crumpled-dog.com]]></email>
+  <website><![CDATA[http://www.crumpled-dog.com]]></website>
+  <bodyText><![CDATA[Hi Darren, we have used your Google Map package, and it's great. Can you tell me, or point me to info showing how we might be able to extend it to add info to the main pin and also add extra info/location pins to the map. The map I am looking at is at: http://greenlight.dev.crumpled-dog.net/contact-us/
+
+Thanks
+Scott]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

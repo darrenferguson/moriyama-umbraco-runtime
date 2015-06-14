@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="0a3e0487-f8e0-4b78-a562-4de01f0681a1" id="2394" nodeName="Lars Skovgaard (2)" isDoc="" updated="2013-07-07T08:18:06.79Z" parentGUID="3d7d6134-2bd1-4ee2-899b-4a62340deb94" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="15" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-09-22T13:33:55</displayDate>
+  <title><![CDATA[Lars Skovgaard (2)]]></title>
+  <name><![CDATA[Lars Skovgaard (2)]]></name>
+  <email><![CDATA[lars@skovgaarddesign.dk]]></email>
+  <website><![CDATA[http://www.cafax.dk/forhandler-test.aspx]]></website>
+  <bodyText><![CDATA[Hi Darren
+
+I've wrapped the javascript up i a jquery document ready event (at least I think I have), and have tried every combination I could think of, but without luck. I've used the Developer Tools in Safari to check for errors, and it throws a "Parse error".
+
+I will be immensely grateful if you could be persuaded to take one more look at the sourcecode – I'm certain that I'm making a mistake somewhere, but I can't find it.
+
+/Lars]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

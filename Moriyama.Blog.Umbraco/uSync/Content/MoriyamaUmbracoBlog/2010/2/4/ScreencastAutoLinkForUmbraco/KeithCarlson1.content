@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="2f540e92-f0dc-44a2-9e53-9ddcf776815b" id="2209" nodeName="Keith Carlson (1)" isDoc="" updated="2013-07-07T08:17:34.76Z" parentGUID="d2d6c8be-fe84-43da-93b6-8d22813e17cc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="7" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-23T19:16:14</displayDate>
+  <title><![CDATA[Keith Carlson (1)]]></title>
+  <name><![CDATA[Keith Carlson (1)]]></name>
+  <email><![CDATA[keith.carlson@plainwrapsolutions.com]]></email>
+  <website><![CDATA[http://www.microfabrica.com]]></website>
+  <bodyText><![CDATA[I am interested in using this to build a glossary feature for Umbraco with tooltips instead of links.  Is it possible to get source code to start this process?  I think this is a great module to base ours on.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

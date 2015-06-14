@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="6199abcf-9a21-4730-9fc1-9b1638d0afd9" id="2308" nodeName="Tim" isDoc="" updated="2013-07-07T08:17:55.867Z" parentGUID="de6d401f-76fe-46dc-9c81-c28a68c641c2" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="6" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-01-29T09:52:05</displayDate>
+  <title><![CDATA[Tim]]></title>
+  <name><![CDATA[Tim]]></name>
+  <email><![CDATA[tim@alpineinteractive.co.uk]]></email>
+  <website><![CDATA[http://www.ai-websitedesign.co.uk]]></website>
+  <bodyText><![CDATA[Where are these beers happening? anywhere near Old street? I haven't used Umbraco yet but have been keeping an eye out and would love to meet some people who are actively using it... in case I need help for a project.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

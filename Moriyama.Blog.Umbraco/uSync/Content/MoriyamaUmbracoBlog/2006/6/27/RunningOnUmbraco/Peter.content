@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="886ef1b3-3b5b-4045-905c-155d7a1e168b" id="2598" nodeName="Peter" isDoc="" updated="2013-10-28T17:21:52.333Z" parentGUID="55f63737-5698-46eb-90a7-064c005b44e1" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-06-27T19:42:30</displayDate>
+  <title><![CDATA[Peter]]></title>
+  <name><![CDATA[Peter]]></name>
+  <email><![CDATA[peter@bruunebonen.com]]></email>
+  <website><![CDATA[http://umbraco.bruunebonen.com/]]></website>
+  <bodyText><![CDATA[Congrats! Nice work on getting this done with Umbraco. Mind telling us what you customized in the umbracoblog extension?]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

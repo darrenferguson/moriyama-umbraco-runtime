@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="609f9452-7b9f-4a1b-897c-bb272b1a1239" id="1796" nodeName="Compile for framework 1.x in VS 2005" isDoc="" updated="2013-10-28T17:22:12.943Z" parentGUID="e581afd4-94d2-46e8-922e-f49e0ffc381c" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/compile-for-framework-1x-in-vs-E15222D9-8D3D-45E6-8EC1-508D9DABEBB1]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-25T17:17:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fLYqJK]]></shortUrl>
+  <summary><![CDATA['Compile for framework 1.x in VS E15222D9-8D3D-45E6-8EC1-508D9DABEBB1' - a blog post by Darren Ferguson about Visual studio .net written on 25 July F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Visual studio .net]]></tags>
+  <bodyText><![CDATA[<p>
+This <a href="http://blogs.msdn.com/jomo_fisher/archive/E15222D9-8D3D-45E6-8EC1-508D9DABEBB1/04/22/410903.aspx">blog post</a> describes how to hack Visual studio .net E15222D9-8D3D-45E6-8EC1-508D9DABEBB1 in order to compile projects targetted at the .net framework v 1.x.
+</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

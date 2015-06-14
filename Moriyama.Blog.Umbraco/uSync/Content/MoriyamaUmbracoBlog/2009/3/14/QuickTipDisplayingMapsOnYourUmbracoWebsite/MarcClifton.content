@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="cced7c56-db92-4bbe-b936-fda6ff51bd24" id="2397" nodeName="Marc Clifton" isDoc="" updated="2013-07-07T08:18:07.127Z" parentGUID="3d7d6134-2bd1-4ee2-899b-4a62340deb94" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="18" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-03-29T03:41:03</displayDate>
+  <title><![CDATA[Marc Clifton]]></title>
+  <name><![CDATA[Marc Clifton]]></name>
+  <email><![CDATA[marc.clifton@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi Darren,  I'm interested in adding a map to the contact page of my neighbor's farm: www.cowberrycrossingfarm.com, and I've read through the posts here, but I frankly have no idea what you're all talking about, jQuery, document ready event, etc. 
+
+Would it be possible to email me a complete example, or is there some doc somewhere that I haven't seen yet?  
+
+Thanks! 
+
+Marc]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

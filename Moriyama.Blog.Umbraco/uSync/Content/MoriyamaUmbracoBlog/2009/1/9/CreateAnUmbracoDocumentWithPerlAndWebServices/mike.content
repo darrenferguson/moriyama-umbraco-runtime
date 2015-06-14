@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="b6ea428c-1903-4a15-ab7c-f5a77437156c" id="2273" nodeName="mike" isDoc="" updated="2013-07-07T08:17:51.13Z" parentGUID="71934f39-d772-4b1b-a072-700badf736f3" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-10-26T06:08:42</displayDate>
+  <title><![CDATA[mike]]></title>
+  <name><![CDATA[mike]]></name>
+  <email><![CDATA[mike.w@live.com]]></email>
+  <website><![CDATA[http://orbitalmedia.com.au]]></website>
+  <bodyText><![CDATA[hi darren, nice article.. would you know whats required to upload a file using your method? ie. having a string as parameter and decode from base64 into umbraco?
+
+Mike]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

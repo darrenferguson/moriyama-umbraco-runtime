@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="1cf16465-c3cc-4386-b1ec-79622893ca4a" id="2591" nodeName="Jesper Ordrup" isDoc="" updated="2013-10-28T17:22:08.44Z" parentGUID="229dfa69-a97b-46c5-9230-051599733947" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-08-09T23:54:26</displayDate>
+  <title><![CDATA[Jesper Ordrup]]></title>
+  <name><![CDATA[Jesper Ordrup]]></name>
+  <email><![CDATA[jesper@jesper.com]]></email>
+  <website><![CDATA[http://www.jesper.com]]></website>
+  <bodyText><![CDATA[Hi Darren,
+
+Did anybody tell you the actual count of nodes that slowed the gui? 
+
+Best,
+
+Jesper]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

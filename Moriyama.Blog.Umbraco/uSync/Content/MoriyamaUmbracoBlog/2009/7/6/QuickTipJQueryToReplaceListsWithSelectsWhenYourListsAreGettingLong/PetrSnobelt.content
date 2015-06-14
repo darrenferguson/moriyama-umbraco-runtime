@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="5c4118c7-1016-40a4-ad47-a0ef89b918ad" id="2421" nodeName="Petr Snobelt" isDoc="" updated="2013-07-07T08:18:13.657Z" parentGUID="3bb74220-ad71-4699-a92e-574fff3e7091" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-07T07:53:37</displayDate>
+  <title><![CDATA[Petr Snobelt]]></title>
+  <name><![CDATA[Petr Snobelt]]></name>
+  <email><![CDATA[petr.snobelt@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[You can create expandable tree with year and month.
+]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

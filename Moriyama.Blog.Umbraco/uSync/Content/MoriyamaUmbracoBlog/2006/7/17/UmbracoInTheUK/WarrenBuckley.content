@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="f08f6bc9-70f9-4cd1-9c43-1fbd72366ee5" id="2568" nodeName="Warren Buckley" isDoc="" updated="2013-10-28T17:22:04.547Z" parentGUID="7da8e2af-84db-4562-8328-811aefd13a66" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="1" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-17T13:33:26</displayDate>
+  <title><![CDATA[Warren Buckley]]></title>
+  <name><![CDATA[Warren Buckley]]></name>
+  <email><![CDATA[warren@momo.co.uk]]></email>
+  <website><![CDATA[http://www.momo.co.uk]]></website>
+  <bodyText><![CDATA[Hello Darren,
+We are starting to use Umbraco as a CMS solution for our client websites.
+
+It would be good to see how many UK users there are.
+
+Warren]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

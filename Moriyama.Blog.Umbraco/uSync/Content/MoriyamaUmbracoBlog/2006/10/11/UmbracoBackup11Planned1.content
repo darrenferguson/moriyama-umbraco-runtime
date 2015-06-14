@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="1b3853f7-9975-415a-9aa9-44903b598e36" id="1744" nodeName="Umbraco Backup 1.1 planned (1)" isDoc="" updated="2013-10-28T17:21:21.857Z" parentGUID="0a20d28a-7bef-4221-9355-6b314b27fa2b" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="3" published="true">
+  <umbracoUrlAlias><![CDATA[/umbraco-backup-11-planned]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-10-11T09:24:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/frD6bL]]></shortUrl>
+  <summary><![CDATA['Umbraco Backup 1.1 planned' - a blog post by Darren Ferguson about Human Interest written on 11 October F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Human Interest, Umbraco]]></tags>
+  <bodyText><![CDATA[
+<p>I am planning to work on a 1.1 release of Umbraco backup this
+weekend to incorporate a couple of extra features that have been
+requested by users.</p>
+
+<p>The additional functionality will be:</p>
+
+<ul>
+<li>Remember settings from the last backup</li>
+
+<li>Test FTP connection before starting backup</li>
+
+<li>View/Remove previous backups from the server</li>
+
+<li>Allow deletion of backups from the server after successful
+FTP</li>
+</ul>
+
+<p>I will also be removing the need to register and generate a
+trial license before you download. I've noticed that more than half
+of people who register for a trial give up before generating a
+license. I'm guessing that many more have given up before
+registration.</p>
+
+<p>The evaluation period will be extended to 30 days.</p>
+
+<p>There have been more suggestions, a lot of which will go into
+2.0. But unfortunately, the time I have at the moment is very
+limited, so I can't speculate as to when 2.0 will be available.</p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

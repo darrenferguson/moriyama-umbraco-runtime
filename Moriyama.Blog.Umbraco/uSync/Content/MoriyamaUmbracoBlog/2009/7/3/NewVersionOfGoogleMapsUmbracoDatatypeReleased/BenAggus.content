@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="6e126d2a-259e-4b30-8450-a93145f4395f" id="2420" nodeName="Ben Aggus" isDoc="" updated="2013-07-07T08:18:13.42Z" parentGUID="80a6ceee-7627-4e64-b7b1-294e27b08edc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="3" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-07-31T16:15:23</displayDate>
+  <title><![CDATA[Ben Aggus]]></title>
+  <name><![CDATA[Ben Aggus]]></name>
+  <email><![CDATA[benaggus@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[I have a feature request. It would be *awesome* if a user could add poly lines to the map like on this page: http://gmaps-samples.googlecode.com/svn/trunk/simplewizard/makestaticmap.html
+
+The points could be stored in one field as a comma delimited list.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

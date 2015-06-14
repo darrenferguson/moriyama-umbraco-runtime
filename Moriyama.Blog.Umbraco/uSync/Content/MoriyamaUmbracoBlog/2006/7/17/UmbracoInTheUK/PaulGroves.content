@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="42933106-f43f-4f9d-8a0d-4698bc7cf8a2" id="2578" nodeName="Paul Groves" isDoc="" updated="2013-10-28T17:22:03.657Z" parentGUID="7da8e2af-84db-4562-8328-811aefd13a66" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="11" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-21T09:48:24</displayDate>
+  <title><![CDATA[Paul Groves]]></title>
+  <name><![CDATA[Paul Groves]]></name>
+  <email><![CDATA[umbraco@reykart.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[I work for in the marketing department of a UK based software company.
+
+After joining the company in Dec 05 I researched CMS and foudn Umbraco.
+
+I rebuilt the main site with Umbraco which was launched a couple of months ago and am working on more of the group's sites.
+
+Think a UK Umbraco user group would be a great idea.
+
+]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

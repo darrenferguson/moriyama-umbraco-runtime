@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="9b7548a0-b5e8-4734-8544-bdfb01567b3a" id="2465" nodeName="Adz" isDoc="" updated="2013-07-07T08:18:23.85Z" parentGUID="e9142ea0-ffc2-4247-a076-333a6f8f5908" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-08-13T22:58:37</displayDate>
+  <title><![CDATA[Adz]]></title>
+  <name><![CDATA[Adz]]></name>
+  <email><![CDATA[aperry7@gmail.com]]></email>
+  <website><![CDATA[http://www.createsoft.co.uk/blog/]]></website>
+  <bodyText><![CDATA[Another vote for del.icio.us - I used to use Foxmarks but found delicious to be much better.  Firebug is excellent, as is the Google notifer (but on OSX there are other, non FF replacements - Twitter(iffic) and Google Notifier in the menubar).
+
+I also recommend AdBlock.
+
+But for Umbraco users - "Its all Text!" is fantastic.  It allows you to edit text on a web page using your favourite editor.
+So for example, if editing CSS or XSLT in Umbraco on Windows, you would right-click and open the text in Visual Studio, edit in Visual Studio, then save it back to Umbraco.
+Try it - https://addons.mozilla.org/en-US/firefox/addon/4125]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

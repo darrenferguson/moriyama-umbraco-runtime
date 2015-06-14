@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="6fab0a01-08d8-4e4c-9c90-2432cfb8d7d0" id="2473" nodeName="PeterD" isDoc="" updated="2013-10-28T17:23:24.223Z" parentGUID="177c311e-2d57-48ef-954e-a0cd5a3c20dc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>9997642C-5F5C-4A03-A353-2E7B493113A9-07-08T07:23:25</displayDate>
+  <title><![CDATA[PeterD]]></title>
+  <name><![CDATA[PeterD]]></name>
+  <email><![CDATA[peter@dijksterhuis.nu]]></email>
+  <website><![CDATA[http://www.dijksterhuis.nu/]]></website>
+  <bodyText><![CDATA[Testing comments also ;)]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

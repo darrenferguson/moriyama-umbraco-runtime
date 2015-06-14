@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="218bd8c2-6d8a-4b09-9049-1fc2472e4962" id="2206" nodeName="Simon" isDoc="" updated="2013-07-07T08:17:34.507Z" parentGUID="d2d6c8be-fe84-43da-93b6-8d22813e17cc" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="4" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>B29A5211-DC51-46BB-B283-8510D165CA40-04-13T20:04:19</displayDate>
+  <title><![CDATA[Simon]]></title>
+  <name><![CDATA[Simon]]></name>
+  <email><![CDATA[arcand.simon@gmail.com]]></email>
+  <website></website>
+  <bodyText><![CDATA[Hi, I can't have autolink to work well because I'd like to link a word with a french accent.
+
+For instance, the word fenêtre become fen?tre in the backend. So it doesn't link.
+
+Can you help me!]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

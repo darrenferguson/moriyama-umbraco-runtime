@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="f2ac960f-6286-4d07-a3a2-a11bd3318683" id="2916" nodeName="Benjamin Howarth" isDoc="" updated="2013-07-07T08:17:29.497Z" parentGUID="da35041a-c363-4dd9-8681-a59db9ca5b36" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>DD342A1F-588F-46F4-9806-89C04EE0A7AD-06-25T16:14:43.43</displayDate>
+  <title><![CDATA[Benjamin Howarth]]></title>
+  <name><![CDATA[Benjamin Howarth]]></name>
+  <email><![CDATA[iam@benjaminhowarth.com]]></email>
+  <website><![CDATA[http://www.benjaminhowarth.com]]></website>
+  <bodyText><![CDATA[Hey Darren - this package is awesome, but it doesn't seem to include the IndexParentId property for ExamineIndex.config.
+
+Cheers,
+
+Benjamin]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

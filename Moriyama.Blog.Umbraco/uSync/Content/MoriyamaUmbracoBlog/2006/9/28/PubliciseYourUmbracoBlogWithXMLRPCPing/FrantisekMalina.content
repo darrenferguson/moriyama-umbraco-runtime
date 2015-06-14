@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="007dfe04-6f23-48d0-b85b-38498e4e7e6e" id="2549" nodeName="Frantisek Malina" isDoc="" updated="2013-10-28T17:22:40.503Z" parentGUID="a0512da3-0458-4e4c-bca5-54e037f032d9" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="2" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>3B8392C0-3EB0-421C-B00A-C8BEC022F267-07-06T14:35:35</displayDate>
+  <title><![CDATA[Frantisek Malina]]></title>
+  <name><![CDATA[Frantisek Malina]]></name>
+  <email><![CDATA[vizualbod@vizualbod.com]]></email>
+  <website><![CDATA[vizualbod.com]]></website>
+  <bodyText><![CDATA[I'd rather recommend to use CR/LF separated instead of comma separated list of URL's.
+
+In the backend user could add or delete URLs in a simple textarea and update services she wants to ping. It is implemented this way in the WordPress.]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

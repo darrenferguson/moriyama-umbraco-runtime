@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="1b8d501d-da7a-4d87-8142-7840d2ce6a87" id="2446" nodeName="Jay Greasley" isDoc="" updated="2013-07-07T08:18:16.59Z" parentGUID="cf309ced-34d4-41e3-a89e-d7999a896cee" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="5" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>A002C30F-7550-4AB9-A7FD-54C7A6D4EBA2-08-25T14:12:34</displayDate>
+  <title><![CDATA[Jay Greasley]]></title>
+  <name><![CDATA[Jay Greasley]]></name>
+  <email><![CDATA[jaygreasley@gmail.com]]></email>
+  <website><![CDATA[http://twitter.com/jaygreasley]]></website>
+  <bodyText><![CDATA[Hey,
+
+Good post. Something else worth bearing in mind is, what is the new IE6? i.e. when html5 is out, what then? and further into the future as well. The underlying issue will not disappear with the death of IE6. Technology advances apace and support for new technologies will always take time. I say this as someone who worked with IE4, 5 and 5.5. IE6 was a breath of fresh air.
+So with this in mind, I think it reinforces the role of education of users as to the importance of supporting different technologies (not specific browsers).
+
+Jay]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

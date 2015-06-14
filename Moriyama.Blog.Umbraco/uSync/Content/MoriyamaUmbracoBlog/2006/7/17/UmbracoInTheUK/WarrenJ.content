@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogComment guid="50f3e111-2c15-4b43-93cc-3d79ec774dd3" id="2579" nodeName="Warren J" isDoc="" updated="2013-10-28T17:22:04.853Z" parentGUID="7da8e2af-84db-4562-8328-811aefd13a66" nodeTypeAlias="BlogComment" templateAlias="" sortOrder="12" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-07-21T13:28:27</displayDate>
+  <title><![CDATA[Warren J]]></title>
+  <name><![CDATA[Warren J]]></name>
+  <email><![CDATA[warren@netramedia.com]]></email>
+  <website><![CDATA[http://www.netramedia.com]]></website>
+  <bodyText><![CDATA[Hi Chaps
+
+We have been using umbraco for about 4 months now.
+
+Are implementing a couple pf sites at the moment, but have been mostly working on a flash front end set up to allow slick CMS flash sites.
+
+Should have our first version up in a couple of weeks.
+
+Love the idea of a UK user group]]></bodyText>
+  <ip></ip>
+  <isSpam></isSpam>
+</BlogComment>

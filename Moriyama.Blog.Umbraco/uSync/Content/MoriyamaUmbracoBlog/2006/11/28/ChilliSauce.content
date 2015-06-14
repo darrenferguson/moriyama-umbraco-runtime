@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="8119d998-95ae-4e89-b30e-e3245335e084" id="1756" nodeName="Chilli Sauce" isDoc="" updated="2013-10-28T17:21:33.213Z" parentGUID="47bc6dab-a431-4d84-a02b-84247d56e52c" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="1" published="true">
+  <umbracoUrlAlias><![CDATA[/chilli-sauce]]></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>F56EAE9D-5A71-46C2-8973-4C0DCBF9211D-11-28T18:22:00</displayDate>
+  <title></title>
+  <shortUrl><![CDATA[http://bit.ly/fJM0IR]]></shortUrl>
+  <summary><![CDATA['Chilli Sauce' - a blog post by Darren Ferguson written on 28 November F56EAE9D-5A71-46C2-8973-4C0DCBF9211D]]></summary>
+  <tags><![CDATA[Chilli, Chilli Sauce]]></tags>
+  <bodyText><![CDATA[
+<p><a href="http://www.flickr.com/photos/darrenferguson/303032077/"
+title="Photo Sharing"><img src="/media/77068/2D5C3873-2F71-4289-B2FA-3E7AE1D16C46_1.jpg" width="500" height="375" alt="Chilli Sauce collection"/></a></p>
+]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>
