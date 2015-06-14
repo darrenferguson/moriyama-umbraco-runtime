@@ -1,6 +1,6 @@
 ﻿@using Moriyama.Library.Extension.Gravatar
 @using Moriyama.Runtime.Extension
-@model Moriyama.Blog.Project.Models.CommentModel
+@model Moriyama.Runtime.Models.RuntimeContentModel
 @{
     Layout = "Layout.cshtml";
 }
@@ -9,13 +9,13 @@
     <h1 class="page-title">@Model.Name</h1>
 
     @Html.Partial("~/Views/Partials/PostMetaData.cshtml", Model)
-    
+
     @Html.Partial("~/Views/Partials/Social.cshtml", Model)
 
     @Html.Raw(Model.GetValue<string>("bodyText"))
-    
+
     @Html.Partial("~/Views/Partials/Social.cshtml", Model)
-    
+
 </article>
 
 @if (Model.Children().Any())
@@ -90,4 +90,3 @@
 
     </fieldset>
 </form>
-
