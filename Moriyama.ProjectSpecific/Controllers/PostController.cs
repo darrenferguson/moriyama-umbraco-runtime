@@ -130,10 +130,10 @@ namespace Moriyama.Blog.Project.Controllers
                     HttpResponse.RemoveOutputCacheItem(modelContent.RelativeUrl);
                     HttpResponse.RemoveOutputCacheItem(modelContent.Home().RelativeUrl);
 
-                    Analytics.Client.Identify(model.CommentEmail, new Traits() {
-                        { "name", model.CommentName },
-                        { "email", model.CommentEmail }
-                    });
+                    //Analytics.Client.Identify(model.CommentEmail, new Traits() {
+                    //    { "name", model.CommentName },
+                    //    { "email", model.CommentEmail }
+                    //});
 
                 }
                 else

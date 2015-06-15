@@ -1,22 +1,22 @@
 {
-  "Name": "06",
+  "Name": "14",
   "Type": "BlogFolder",
-  "CreateDate": "2015-06-14T20:17:42",
-  "UpdateDate": "2015-06-15T17:00:52",
+  "CreateDate": "2015-06-15T17:00:32",
+  "UpdateDate": "2015-06-15T17:00:32",
   "CreatorName": "Darren Ferguson",
   "WriterName": "Darren Ferguson",
-  "Url": "http://localhost/2015/06/",
-  "RelativeUrl": "/2015/06/",
+  "Url": "http://localhost/2015/06/14/",
+  "RelativeUrl": "/2015/06/14/",
   "Content": {
     "umbracoUrlAlias": "",
     "HideInNavigation": false,
     "umbracoInternalRedirectId": "",
     "redirect": "",
     "displayDate": "",
-    "title": "June 2015"
+    "title": ""
   },
   "Template": "BlogHomePage",
   "CacheTime": null,
-  "SortOrder": 0,
-  "Level": 3
+  "SortOrder": 1,
+  "Level": 4
 }

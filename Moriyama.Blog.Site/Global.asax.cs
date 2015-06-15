@@ -16,7 +16,7 @@ namespace Moriyama.Blog.Site
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             
             RuntimeContext.Instance.Initialise(HttpContext.Current);
-            Analytics.Initialize("QgDmGvCjQv4rLIIfAQ0WTfbe8CAUfUtO");
+            // Analytics.Initialize("QgDmGvCjQv4rLIIfAQ0WTfbe8CAUfUtO");
 
         }
     }
