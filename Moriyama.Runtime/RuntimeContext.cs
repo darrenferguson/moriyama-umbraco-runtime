@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Configuration;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Web;
 using log4net;
@@ -78,7 +79,8 @@ namespace Moriyama.Runtime
                 var urls = ContentService.GetUrlList();
 
                 // Forces everything to be cached on startup... :(
-                foreach (var url in urls)
+
+                foreach (var url in urls.ToList())
                 {
                     var content = ContentService.GetContent(url);
 
