@@ -10,12 +10,10 @@ using log4net;
 using Moriyama.Blog.Project.Application;
 using Moriyama.Blog.Project.Models;
 using Moriyama.Blog.Project.Models.Email;
+using Moriyama.Library.Extension;
 using Moriyama.Library.Html;
 using Moriyama.Runtime;
 using Moriyama.Runtime.Extension;
-using Moriyama.Library.Extension;
-using Segment;
-using Segment.Model;
 
 namespace Moriyama.Blog.Project.Controllers
 {
