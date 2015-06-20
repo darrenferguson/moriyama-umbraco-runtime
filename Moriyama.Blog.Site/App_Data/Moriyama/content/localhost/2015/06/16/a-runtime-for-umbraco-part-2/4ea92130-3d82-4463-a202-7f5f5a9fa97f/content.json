@@ -1,0 +1,19 @@
+{
+  "Name": "mail@john-walker.co.uk",
+  "Type": "BlogComment",
+  "CreateDate": "2015-06-17T20:17:37.1707819+00:00",
+  "UpdateDate": "2015-06-17T20:17:37.1707819+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/06/16/a-runtime-for-umbraco-part-2/4ea92130-3d82-4463-a202-7f5f5a9fa97f/",
+  "RelativeUrl": "/2015/06/16/a-runtime-for-umbraco-part-2/4ea92130-3d82-4463-a202-7f5f5a9fa97f/",
+  "Content": {
+    "name": "John Walker",
+    "email": "mail@john-walker.co.uk",
+    "bodyText": "Enjoying the series Darren, really interesting subject. Look forward to part 3."
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

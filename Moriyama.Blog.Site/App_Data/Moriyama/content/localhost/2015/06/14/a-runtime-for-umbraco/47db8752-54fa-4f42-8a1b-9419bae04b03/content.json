@@ -1,0 +1,19 @@
+{
+  "Name": "dan@diplo.co.uk",
+  "Type": "BlogComment",
+  "CreateDate": "2015-06-15T19:22:21.0387164+00:00",
+  "UpdateDate": "2015-06-15T19:22:21.0387164+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/06/14/a-runtime-for-umbraco/47db8752-54fa-4f42-8a1b-9419bae04b03/",
+  "RelativeUrl": "/2015/06/14/a-runtime-for-umbraco/47db8752-54fa-4f42-8a1b-9419bae04b03/",
+  "Content": {
+    "name": "Dan Diplo",
+    "email": "dan@diplo.co.uk",
+    "bodyText": "Totally agree a relational database seems the wrong persistence method. This is really interesting, though it raised two questions in my mind:<br/><br/>1. Why not just publish to static HTML? Wouldn't this be even faster and lightweight? Does it have some advantages?<br/><br/>2. How do you handle more interactive stuff i.e. things that would require controllers in Umbraco, such as form submissions, dynamic search, members etc? Or is that not possible?<br/><br/>Looking forward to the rest of the episodes..."
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 3,
+  "Level": 6
+}

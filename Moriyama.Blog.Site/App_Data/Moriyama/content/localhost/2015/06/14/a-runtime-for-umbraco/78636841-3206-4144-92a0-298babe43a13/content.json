@@ -1,0 +1,19 @@
+{
+  "Name": "david@wired-digital.co.uk",
+  "Type": "BlogComment",
+  "CreateDate": "2015-06-15T21:15:20.3450155+00:00",
+  "UpdateDate": "2015-06-15T21:15:20.3450155+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/06/14/a-runtime-for-umbraco/78636841-3206-4144-92a0-298babe43a13/",
+  "RelativeUrl": "/2015/06/14/a-runtime-for-umbraco/78636841-3206-4144-92a0-298babe43a13/",
+  "Content": {
+    "name": "David Peck",
+    "email": "david@wired-digital.co.uk",
+    "bodyText": "Very smart, though I can't work out how you can do cross content queries without running into the same memory issues. Examine? A NoSQL DB as a cache in production environments, if you could toggle it much in the same way as you can with a session state server. Role on part 2."
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 5,
+  "Level": 6
+}

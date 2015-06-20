@@ -1,0 +1,19 @@
+{
+  "Name": "lee@aptitude.co.uk",
+  "Type": "BlogComment",
+  "CreateDate": "2015-06-15T18:10:13.460695+00:00",
+  "UpdateDate": "2015-06-15T18:10:13.460695+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/06/14/a-runtime-for-umbraco/ae9200cb-43e9-435f-b3a2-b80bfb92273f/",
+  "RelativeUrl": "/2015/06/14/a-runtime-for-umbraco/ae9200cb-43e9-435f-b3a2-b80bfb92273f/",
+  "Content": {
+    "name": "Lee",
+    "email": "lee@aptitude.co.uk",
+    "bodyText": "Love this concept. Especially for (As you have mentioned) Azure and memory limitations. I remember Aaron or Shannon doing something similar and writing actual .aspx files to disc (Can't remember what the name of the package was).  Looks like you have taken it a lot further with separation and using JSON files, very interested to read the next posts."
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

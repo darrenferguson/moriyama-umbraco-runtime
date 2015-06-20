@@ -2,7 +2,7 @@
   "Name": "Error",
   "Type": "BlogTextPage",
   "CreateDate": "2013-08-10T14:49:33",
-  "UpdateDate": "2015-06-14T16:06:06",
+  "UpdateDate": "2015-02-03T09:45:36",
   "CreatorName": "Darren Ferguson",
   "WriterName": "Darren Ferguson",
   "Url": "http://localhost/error/",
@@ -19,8 +19,8 @@
     "tags": "",
     "bodyText": "<p>An error occured.</p>"
   },
-  "Template": "BlogTextPage",
+  "Template": "Page",
   "CacheTime": null,
-  "SortOrder": 12,
+  "SortOrder": 11,
   "Level": 2
 }

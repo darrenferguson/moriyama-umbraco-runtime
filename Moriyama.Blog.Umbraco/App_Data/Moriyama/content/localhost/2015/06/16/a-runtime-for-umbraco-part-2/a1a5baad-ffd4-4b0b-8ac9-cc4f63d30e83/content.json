@@ -1,0 +1,19 @@
+{
+  "Name": "jamie.does.umbraco@gmail.com",
+  "Type": "BlogComment",
+  "CreateDate": "2015-06-17T08:43:03.9612468+00:00",
+  "UpdateDate": "2015-06-17T08:43:03.9612468+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/06/16/a-runtime-for-umbraco-part-2/a1a5baad-ffd4-4b0b-8ac9-cc4f63d30e83/",
+  "RelativeUrl": "/2015/06/16/a-runtime-for-umbraco-part-2/a1a5baad-ffd4-4b0b-8ac9-cc4f63d30e83/",
+  "Content": {
+    "name": "Jamie Pollock",
+    "email": "jamie.does.umbraco@gmail.com",
+    "bodyText": "Great read, Darren. I'd be interested in seeing the code is it going open source at any point. Would love to contribute.<br/><br/>Did you ever consider adding controllers based on node type alias? When looking into this myself I lifted some logic from Matt Brailsford's Karbon it's one of the features I really like from Umbraco core and I'll admit that's where I got stuck when trying to create this kind of a solution, you really have to detach any logic away from UmbracoCms.Core entirely."
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 0,
+  "Level": 6
+}

@@ -1,0 +1,19 @@
+{
+  "Name": "jamie.does.umbraco@gmail.com",
+  "Type": "BlogComment",
+  "CreateDate": "2015-06-15T16:20:50.6701114+00:00",
+  "UpdateDate": "2015-06-15T16:20:50.6701114+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/06/14/a-runtime-for-umbraco/4651a571-215f-4d04-b68d-76b06c614e94/",
+  "RelativeUrl": "/2015/06/14/a-runtime-for-umbraco/4651a571-215f-4d04-b68d-76b06c614e94/",
+  "Content": {
+    "name": "Jamie Pollock",
+    "email": "jamie.does.umbraco@gmail.com",
+    "bodyText": "Looks great Darren, I've experimented with this concept but it seems you've gone a step further and got a live app.<br/><br/>Great work. FYI I called my experiment uLightweight, it made me chuckle at least."
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

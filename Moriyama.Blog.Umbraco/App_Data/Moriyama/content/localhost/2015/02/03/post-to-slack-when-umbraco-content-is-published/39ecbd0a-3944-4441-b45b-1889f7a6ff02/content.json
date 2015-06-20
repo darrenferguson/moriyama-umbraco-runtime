@@ -1,0 +1,19 @@
+{
+  "Name": "warren@creativewebspecialist.co.uk",
+  "Type": "BlogComment",
+  "CreateDate": "2015-02-16T13:15:56.8904482+00:00",
+  "UpdateDate": "2015-02-16T13:15:56.8904482+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/02/03/post-to-slack-when-umbraco-content-is-published/39ecbd0a-3944-4441-b45b-1889f7a6ff02/",
+  "RelativeUrl": "/2015/02/03/post-to-slack-when-umbraco-content-is-published/39ecbd0a-3944-4441-b45b-1889f7a6ff02/",
+  "Content": {
+    "name": "Warren Buckley",
+    "email": "warren@creativewebspecialist.co.uk",
+    "bodyText": "Hi Darren,<br/>This is a handy snippet to have in your arsenal. So thanks for sharing, there is a few more ideas up my sleeves for using Slack & Umbraco, but as always time is never on my side.<br/><br/>We have been using Slack for a little while as well and I have written a Contour/Forms Umbraco Workflow Item so you can be notified when a form submission has been posted. As Email sucks & I never read them, so this may be of you use to you & the gang.<br/><br/>Link-tastic below :-)<br/>http://creativewebspecialist.co.uk/2014/08/08/using-umbraco-contour-form-builder-with-slack-chat/<br/>https://github.com/warrenbuckley/Slack-Contour<br/>http://www.nuget.org/packages/Slack.Contour/<br/>https://our.umbraco.org/projects/backoffice-extensions/slack-contour<br/><br/>Cheers,<br/>Warren :)"
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 0,
+  "Level": 6
+}

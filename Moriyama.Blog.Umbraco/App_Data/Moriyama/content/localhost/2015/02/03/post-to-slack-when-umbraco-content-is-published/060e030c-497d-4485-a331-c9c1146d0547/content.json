@@ -1,0 +1,19 @@
+{
+  "Name": "lau@voodoobytes.co.uk",
+  "Type": "BlogComment",
+  "CreateDate": "2015-02-20T17:23:49.1795879+00:00",
+  "UpdateDate": "2015-02-20T17:23:49.1795879+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/02/03/post-to-slack-when-umbraco-content-is-published/060e030c-497d-4485-a331-c9c1146d0547/",
+  "RelativeUrl": "/2015/02/03/post-to-slack-when-umbraco-content-is-published/060e030c-497d-4485-a331-c9c1146d0547/",
+  "Content": {
+    "name": "Laurence Gillian",
+    "email": "lau@voodoobytes.co.uk",
+    "bodyText": "Nice! This sparks lots of nice ideas! :-)"
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}

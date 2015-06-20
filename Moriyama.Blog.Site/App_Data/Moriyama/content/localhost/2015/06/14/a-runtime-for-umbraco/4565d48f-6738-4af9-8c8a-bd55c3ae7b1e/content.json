@@ -1,0 +1,19 @@
+{
+  "Name": "df@darren-ferguson.com",
+  "Type": "BlogComment",
+  "CreateDate": "2015-06-15T19:26:12.6002921+00:00",
+  "UpdateDate": "2015-06-15T19:26:12.6002921+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/06/14/a-runtime-for-umbraco/4565d48f-6738-4af9-8c8a-bd55c3ae7b1e/",
+  "RelativeUrl": "/2015/06/14/a-runtime-for-umbraco/4565d48f-6738-4af9-8c8a-bd55c3ae7b1e/",
+  "Content": {
+    "name": "Darren",
+    "email": "df@darren-ferguson.com",
+    "bodyText": "@dan - #2 will probably be answered in the next parts.<br/><br/>But #1 I haven't needed a purely static HTML site for years, though the interfaces provided for the deployment \"episode\" would allow that."
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 4,
+  "Level": 6
+}

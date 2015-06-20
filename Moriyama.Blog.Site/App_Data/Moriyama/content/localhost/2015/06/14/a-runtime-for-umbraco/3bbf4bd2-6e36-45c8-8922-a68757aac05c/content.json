@@ -1,0 +1,19 @@
+{
+  "Name": "petr.snobelt@gmail.com",
+  "Type": "BlogComment",
+  "CreateDate": "2015-06-16T10:43:49.184383+00:00",
+  "UpdateDate": "2015-06-16T10:43:49.184383+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/06/14/a-runtime-for-umbraco/3bbf4bd2-6e36-45c8-8922-a68757aac05c/",
+  "RelativeUrl": "/2015/06/14/a-runtime-for-umbraco/3bbf4bd2-6e36-45c8-8922-a68757aac05c/",
+  "Content": {
+    "name": "Petr Snobelt",
+    "email": "petr.snobelt@gmail.com",
+    "bodyText": "@dan: I create html pages using https://github.com/PetrSnobelt/UmbracoStaticPublish and it works fine for webs without dynamic content<br/><br/>I look forward for future \"episode\""
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 7,
+  "Level": 6
+}

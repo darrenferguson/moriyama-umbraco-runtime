@@ -1,0 +1,19 @@
+{
+  "Name": "df@djf.so",
+  "Type": "BlogComment",
+  "CreateDate": "2015-06-15T16:15:08.0633932+00:00",
+  "UpdateDate": "2015-06-15T16:15:08.0633932+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/06/14/a-runtime-for-umbraco/a02a5deb-7a34-4492-9bf6-a7e5b915e889/",
+  "RelativeUrl": "/2015/06/14/a-runtime-for-umbraco/a02a5deb-7a34-4492-9bf6-a7e5b915e889/",
+  "Content": {
+    "name": "Darren",
+    "email": "df@djf.so",
+    "bodyText": "Message me if you want the not so pretty code before i tidy it up :)"
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 0,
+  "Level": 6
+}

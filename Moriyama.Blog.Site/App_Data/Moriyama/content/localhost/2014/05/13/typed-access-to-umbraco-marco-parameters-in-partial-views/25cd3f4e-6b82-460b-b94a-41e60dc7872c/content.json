@@ -1,0 +1,19 @@
+{
+  "Name": "darren@moriyama.co.uk",
+  "Type": "BlogComment",
+  "CreateDate": "2015-02-01T19:34:05.4689774+00:00",
+  "UpdateDate": "2015-02-01T19:34:05.4689774+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2014/05/13/typed-access-to-umbraco-marco-parameters-in-partial-views/25cd3f4e-6b82-460b-b94a-41e60dc7872c/",
+  "RelativeUrl": "/2014/05/13/typed-access-to-umbraco-marco-parameters-in-partial-views/25cd3f4e-6b82-460b-b94a-41e60dc7872c/",
+  "Content": {
+    "name": "Darren",
+    "email": "darren@moriyama.co.uk",
+    "bodyText": "A variation is now in the core"
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 1,
+  "Level": 6
+}
