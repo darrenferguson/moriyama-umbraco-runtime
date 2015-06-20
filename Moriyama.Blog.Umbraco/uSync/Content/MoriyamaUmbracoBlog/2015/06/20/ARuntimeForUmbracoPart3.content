@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="a5bdada8-0609-4285-a3ff-afd36fbc277b" id="5130" nodeName="A runtime for Umbraco - Part 3" isDoc="" updated="2015-06-20T17:16:22.6239754+01:00" parentGUID="da274452-7359-4597-b72d-8ffde083561d" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="0" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate></displayDate>
+  <title><![CDATA[A runtime for Umbraco - Part 3]]></title>
+  <shortUrl></shortUrl>
+  <summary></summary>
+  <tags></tags>
+  <bodyText><![CDATA[<p>And so on to part 3 - and the runtime has a name "Speedwagon".</p>
+<p>Since I last wrote, the project has become all hipster with Kevin offering up a Node implementation of the runtime at <a href="https://github.com/KevinJump/nodebraco.runtime.site">https://github.com/KevinJump/nodebraco.runtime.site</a></p>
+<p>I've also bared my soul and published the source for the runtime at: <a href="https://github.com/darrenferguson/moriyama-umbraco-runtime">https://github.com/darrenferguson/moriyama-umbraco-runtime</a></p>
+<p>This time, I want to write about the <em>CacheLessRuntimeContentService</em> and show how we can get a piece of content from our batch of JSON and make it available for an MVC view to render.<strong><br /></strong></p>
+<p>The default runtime does this.</p>
+<pre class="brush: csharp;">var url = ctx.Request.Url;
+var urlString = String.Format("{0}{1}{2}{3}", url.Scheme, Uri.SchemeDelimiter, url.Authority, url.AbsolutePath);
+
+var model = RuntimeContext.Instance.ContentService.GetContent(urlString);
+
+if (model != null)
+    return View("~/Views/" + model.Template + ".cshtml", model);
+ 
+
+Response.StatusCode = 404;
+return View("~/Views/404.cshtml", Build404Model(ctx.Request.Url));</pre>
+<p>Simplified into plain English this just means here is a URL, get me some content.</p>
+<p>The <em>CacheLessRuntimeContentService</em> gets content from disc every time you ask for it. it also acts as a base class for other implementations of the content service which override certain methods to check in a cache etc.</p>
+<pre class="brush: csharp;">public virtual RuntimeContentModel GetContent(string url)
+{
+    url = ProcessUrlAliases(url);
+
+    Logger.Info("Got from disk " + url);
+    var contentFile = PathMapper.PathForUrl(url, false);
+
+    if (!File.Exists(contentFile))
+    {
+        if (Removed != null)
+            Removed(url, new EventArgs());
+
+        return null;
+    }
+
+    var content = FromFile(contentFile);
+
+    if (Added != null)
+        Added(content, new EventArgs());
+            
+    return content;
+}</pre>
+<p>The <strong><em>PathMapper</em> </strong>is something i've mentioned previously which turns a URL into a path on disc and the <strong><em>FromFile</em> </strong>method just deserialises JSON. <strong><em>ProcessUrlAliases</em></strong> just swaps out the URL of the request with the URL that Umbraco runs on.</p>
+<p>In a cached content service <strong><em>GetContent</em> </strong>is overridden to look in the Cache and fall-back to the base method in the cache less implementation.</p>
+<p>So what is missing from Part 3 is traversal. I'm going to try and explain this in words, but probably best to peek into the source.</p>
+<p>Children are just content items that have a URL that begin with the same URL but contain one more Slash. Descendants are just content items that begin with the same URL. Root content is just content with a level of 1. Top navigation is just content with a Level of two. The logic is all really simple.</p>
+<p>To have access to this information, the runtime just maintains a file that contains a list of all URLs.</p>
+<p>For example. in a View I can do:</p>
+<pre class="brush: csharp;">foreach (var page in Model.Home().Children().Where(page =&gt; page.Type == "BlogTextPage" &amp;&amp; !page.HideInNavigation()))</pre>
+<p>Under the hood home does:</p>
+<pre class="brush: csharp;">protected string HomeUrl(RuntimeContentModel model)
+{
+   var a = Urls.Where(x =&gt; model.Url.StartsWith(x)).OrderBy(x =&gt; x.Length);
+   return a.First();
+}</pre>
+<p>And Children does:</p>
+<pre class="brush: csharp;">protected IEnumerable ChildrenUrls(RuntimeContentModel model)
+{
+    return Urls.Where(x =&gt; x.StartsWith(model.Url) &amp;&amp; x != model.Url &amp;&amp; x.Split('/').Length == model.Url.Split('/').Length + 1);
+}</pre>
+<p>There are lots of efficiencies to be gained - but for now the logic is kind of readable.</p>
+<p>So a wrap for part 3 I think. Part 4 will be how to extend the default Runtime Controller, to do posting of blog comments and other form submissions. Part 5, implementation of cached content services, and part 6 what needs to be done to speed this up and make it integrate seamlessly with Umbraco.</p>
+<p>Thanks for your interest to date - I'd love your feedback on the source, but please go easy. I did rush it somewhat.</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>
