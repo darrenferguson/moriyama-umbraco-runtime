@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Reflection;
 using System.Web;
@@ -45,7 +46,7 @@ namespace Moriyama.Blog.Project.Controllers
 
             if (ModelState.IsValid)
             {
-                var akismet = new Akismet("740317862571", "http://blog.darren-ferguson.com/", "Joel.Net's Akismet API/1.0");
+                var akismet = new Akismet(ConfigurationManager.AppSettings["AkismetKey"], "http://blog.darren-ferguson.com/", "Joel.Net's Akismet API/1.0");
 
                 var isSpam = true;
 

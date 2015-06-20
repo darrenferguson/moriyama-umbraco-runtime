@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using System.Configuration;
+using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using Moriyama.Runtime;
@@ -16,7 +17,8 @@ namespace Moriyama.Blog.Site
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             
             RuntimeContext.Instance.Initialise(HttpContext.Current);
-            // Analytics.Initialize("QgDmGvCjQv4rLIIfAQ0WTfbe8CAUfUtO");
+
+            Analytics.Initialize(ConfigurationManager.AppSettings["SegmentKey"]);
 
         }
     }
