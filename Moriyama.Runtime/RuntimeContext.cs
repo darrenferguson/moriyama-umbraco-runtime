@@ -67,9 +67,10 @@ namespace Moriyama.Runtime
                 scheduler.ScheduleJob(job, trigger);
             }
 
+            ContentService.RefreshUrls();
+
             SearchService = Services.Search.SearchService.Instance;
             var search = ConfigurationManager.AppSettings["Moriyama.Runtime.Search"];
-
 
             Logger.Info("Begnning Indexing");
             var count = 0;
@@ -78,6 +79,7 @@ namespace Moriyama.Runtime
             {
                 var urls = ContentService.GetUrlList();
 
+                // BIG TODO: make search index in the background or on demand.
                 // Forces everything to be cached on startup... :(
 
                 foreach (var url in urls.ToList())
@@ -92,12 +94,10 @@ namespace Moriyama.Runtime
 
                 ContentService.Added += ContentServiceAdded;
                 ContentService.Removed += ContentServiceRemoved;
-                
             }
 
             Logger.Info("Indexed " + count + " documents");
             Logger.Info("Startup complete");
-
         }
 
         void ContentServiceRemoved(string sender, EventArgs e)

@@ -24,7 +24,7 @@ namespace Moriyama.Runtime.Services
         protected readonly IContentPathMapper PathMapper;
         private readonly object _lock;
 
-        protected readonly List<string> Urls;
+        protected List<string> Urls;
 
         private DateTime _lastUrlFlush;
         private readonly string _urlPath;
@@ -44,6 +44,23 @@ namespace Moriyama.Runtime.Services
             var urls = File.ReadAllText(_urlPath);
             Urls = JsonConvert.DeserializeObject<List<string>>(urls);
         }
+
+        public void RefreshUrls()
+        {
+            var urls = new List<string>();
+            var files = Directory.GetFiles(PathMapper.ContentRootFolder("/"), "*.json", SearchOption.AllDirectories);
+
+            foreach (var file in files)
+            {
+                if (file.Contains("sitemap-urls")) continue;
+
+                var content = FromFile(file);
+                urls.Add(content.Url);
+            }
+
+            Urls = urls;
+            FlushUrls();
+        } 
 
         public void AddContent(RuntimeContentModel model)
         {

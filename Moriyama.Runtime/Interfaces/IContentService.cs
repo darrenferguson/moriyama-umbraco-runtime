@@ -16,6 +16,7 @@ namespace Moriyama.Runtime.Interfaces
         void AddContent(RuntimeContentModel model);
         void RemoveContent(string url);
 
+        void RefreshUrls();
         IEnumerable<string> GetUrlList();
 
         RuntimeContentModel GetContent(HttpContext context);
