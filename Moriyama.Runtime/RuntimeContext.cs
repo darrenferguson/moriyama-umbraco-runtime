@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Configuration;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Web;
+using ByteSizeLib;
 using log4net;
 using Moriyama.Runtime.Application;
 using Moriyama.Runtime.Interfaces;
@@ -38,8 +40,9 @@ namespace Moriyama.Runtime
             var contentPathMapper = new ContentPathMapper(contentPath);
 
             var cache = ConfigurationManager.AppSettings["Moriyama.Runtime.Cached"];
+
+            Logger.Info("Starting with cache " + cache + " (" + ByteSize.FromBytes(Process.GetCurrentProcess().WorkingSet64).MegaBytes + ")");
             
-            Logger.Info("Starting with cache " + cache);
 
             var scheduler = StdSchedulerFactory.GetDefaultScheduler();
             scheduler.Start();
@@ -105,7 +108,7 @@ namespace Moriyama.Runtime
             }
 
             Logger.Info("Indexed " + count + " documents");
-            Logger.Info("Startup complete");
+            Logger.Info("Startup complete " + "(" + ByteSize.FromBytes(Process.GetCurrentProcess().WorkingSet64).MegaBytes + "MB)");
         }
 
         void ContentServiceRemoved(string sender, EventArgs e)
