@@ -44,12 +44,6 @@ namespace Moriyama.Runtime.Services.Search
             get { return _instance ?? (_instance = new SearchService()); }
         }
 
-        //private RuntimeContentModel GetContentModel(Document content)
-        //{
-        //    var r = new RuntimeContentModel();
-        //    return r;
-        //}
-
         private Document GetLuceneDocument(RuntimeContentModel content)
         {
             var d = new Document();

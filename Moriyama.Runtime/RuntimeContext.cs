@@ -44,27 +44,14 @@ namespace Moriyama.Runtime
             var scheduler = StdSchedulerFactory.GetDefaultScheduler();
             scheduler.Start();
 
+            var triggerRefresher = false;
+
             if (string.IsNullOrEmpty(cache) || Convert.ToBoolean(cache) == false)
-            {
                 ContentService = new CacheLessRuntimeContentService(contentPathMapper);
-            }
             else
             {
                 ContentService = new LuceneQueryingContentService(contentPathMapper, Services.Search.SearchService.Instance);
-
-                var job = JobBuilder.Create<CacheRefresherJob>()
-                    .WithIdentity("moriyamaCacheRefresherJob", "cacheRefresherJob")
-                    .Build();
-
-                var trigger = TriggerBuilder.Create()
-                    .WithIdentity("cacheRefresherJobTrigger", "cacheRefresherJobGroup")
-                    .StartNow()
-                    .WithSimpleSchedule(x => x
-                    .WithIntervalInSeconds(60)
-                    .RepeatForever())
-                    .Build();
-
-                scheduler.ScheduleJob(job, trigger);
+                triggerRefresher = true;
             }
 
             ContentService.RefreshUrls();
@@ -77,6 +64,8 @@ namespace Moriyama.Runtime
 
             if (!string.IsNullOrEmpty(search) && Convert.ToBoolean(search))
             {
+                Logger.Info("Starting search service");
+
                 var urls = ContentService.GetUrlList();
 
                 // BIG TODO: make search index in the background or on demand.
@@ -94,6 +83,25 @@ namespace Moriyama.Runtime
 
                 ContentService.Added += ContentServiceAdded;
                 ContentService.Removed += ContentServiceRemoved;
+                Logger.Info("Finished starting search service");
+            }
+
+            if (triggerRefresher)
+            {
+                
+                var job = JobBuilder.Create<CacheRefresherJob>()
+                    .WithIdentity("moriyamaCacheRefresherJob", "cacheRefresherJob")
+                    .Build();
+
+                var trigger = TriggerBuilder.Create()
+                    .WithIdentity("cacheRefresherJobTrigger", "cacheRefresherJobGroup")
+                    .StartNow()
+                    .WithSimpleSchedule(x => x
+                    .WithIntervalInSeconds(60)
+                    .RepeatForever())
+                    .Build();
+
+                scheduler.ScheduleJob(job, trigger);
             }
 
             Logger.Info("Indexed " + count + " documents");
