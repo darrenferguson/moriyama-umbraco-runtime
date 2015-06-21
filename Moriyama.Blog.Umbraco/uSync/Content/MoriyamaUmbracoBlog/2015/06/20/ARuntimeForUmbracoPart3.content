@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BlogPost guid="a5bdada8-0609-4285-a3ff-afd36fbc277b" id="5130" nodeName="A runtime for Umbraco - Part 3" isDoc="" updated="2015-06-20T17:16:22.6239754+01:00" parentGUID="da274452-7359-4597-b72d-8ffde083561d" nodeTypeAlias="BlogPost" templateAlias="BlogPost" sortOrder="0" published="true">
+<BlogPost guid="a5bdada8-0609-4285-a3ff-afd36fbc277b" id="5130" nodeName="A runtime for Umbraco - Part 3" isDoc="" updated="2015-06-21T10:31:09.3818613+01:00" parentGUID="da274452-7359-4597-b72d-8ffde083561d" nodeTypeAlias="BlogPost" templateAlias="Post" sortOrder="0" published="true">
   <umbracoUrlAlias></umbracoUrlAlias>
   <umbracoNaviHide>0</umbracoNaviHide>
   <umbracoInternalRedirectId></umbracoInternalRedirectId>
@@ -9,11 +9,11 @@
   <shortUrl></shortUrl>
   <summary></summary>
   <tags></tags>
-  <bodyText><![CDATA[<p>And so on to part 3 - and the runtime has a name "Speedwagon".</p>
+  <bodyText><![CDATA[<p>And so on to part 3 - and the runtime has a name "<em>Speedwagon</em>".</p>
 <p>Since I last wrote, the project has become all hipster with Kevin offering up a Node implementation of the runtime at <a href="https://github.com/KevinJump/nodebraco.runtime.site">https://github.com/KevinJump/nodebraco.runtime.site</a></p>
 <p>I've also bared my soul and published the source for the runtime at: <a href="https://github.com/darrenferguson/moriyama-umbraco-runtime">https://github.com/darrenferguson/moriyama-umbraco-runtime</a></p>
-<p>This time, I want to write about the <em>CacheLessRuntimeContentService</em> and show how we can get a piece of content from our batch of JSON and make it available for an MVC view to render.<strong><br /></strong></p>
-<p>The default runtime does this.</p>
+<p>This time, I want to write about the <strong><em>CacheLessRuntimeContentService</em> </strong>and show how we can get a piece of content from our  JSON files and make it available for an MVC view to render.<strong><br /></strong></p>
+<p>The default runtime controller does this:</p>
 <pre class="brush: csharp;">var url = ctx.Request.Url;
 var urlString = String.Format("{0}{1}{2}{3}", url.Scheme, Uri.SchemeDelimiter, url.Authority, url.AbsolutePath);
 
@@ -26,7 +26,7 @@ if (model != null)
 Response.StatusCode = 404;
 return View("~/Views/404.cshtml", Build404Model(ctx.Request.Url));</pre>
 <p>Simplified into plain English this just means here is a URL, get me some content.</p>
-<p>The <em>CacheLessRuntimeContentService</em> gets content from disc every time you ask for it. it also acts as a base class for other implementations of the content service which override certain methods to check in a cache etc.</p>
+<p>The <strong><em>CacheLessRuntimeContentService</em> </strong>gets content from disc every time you ask for it. it also acts as a base class for other implementations of the content service which override certain methods to check in a content cache etc.</p>
 <pre class="brush: csharp;">public virtual RuntimeContentModel GetContent(string url)
 {
     url = ProcessUrlAliases(url);
@@ -49,20 +49,20 @@ return View("~/Views/404.cshtml", Build404Model(ctx.Request.Url));</pre>
             
     return content;
 }</pre>
-<p>The <strong><em>PathMapper</em> </strong>is something i've mentioned previously which turns a URL into a path on disc and the <strong><em>FromFile</em> </strong>method just deserialises JSON. <strong><em>ProcessUrlAliases</em></strong> just swaps out the URL of the request with the URL that Umbraco runs on.</p>
+<p>The <strong><em>PathMapper</em> </strong>is something I've mentioned previously which turns a URL into a path on disc and the <strong><em>FromFile</em> </strong>method just deserialises JSON. <strong><em>ProcessUrlAliases</em></strong> just swaps out the URL of the request with the URL that Umbraco runs on.</p>
 <p>In a cached content service <strong><em>GetContent</em> </strong>is overridden to look in the Cache and fall-back to the base method in the cache less implementation.</p>
-<p>So what is missing from Part 3 is traversal. I'm going to try and explain this in words, but probably best to peek into the source.</p>
+<p>So what is missing from Part 3 is traversal. I'm going to try and explain this in words, but it is probably best to peek into the source.</p>
 <p>Children are just content items that have a URL that begin with the same URL but contain one more Slash. Descendants are just content items that begin with the same URL. Root content is just content with a level of 1. Top navigation is just content with a Level of two. The logic is all really simple.</p>
 <p>To have access to this information, the runtime just maintains a file that contains a list of all URLs.</p>
 <p>For example. in a View I can do:</p>
 <pre class="brush: csharp;">foreach (var page in Model.Home().Children().Where(page =&gt; page.Type == "BlogTextPage" &amp;&amp; !page.HideInNavigation()))</pre>
-<p>Under the hood home does:</p>
+<p>Under the hood <strong><em>Home</em></strong> does:</p>
 <pre class="brush: csharp;">protected string HomeUrl(RuntimeContentModel model)
 {
    var a = Urls.Where(x =&gt; model.Url.StartsWith(x)).OrderBy(x =&gt; x.Length);
    return a.First();
 }</pre>
-<p>And Children does:</p>
+<p>And <strong><em>Children</em> </strong>does:</p>
 <pre class="brush: csharp;">protected IEnumerable ChildrenUrls(RuntimeContentModel model)
 {
     return Urls.Where(x =&gt; x.StartsWith(model.Url) &amp;&amp; x != model.Url &amp;&amp; x.Split('/').Length == model.Url.Split('/').Length + 1);
