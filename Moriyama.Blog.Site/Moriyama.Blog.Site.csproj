@@ -1249,6 +1249,8 @@
     <Content Include="App_Data\Moriyama\content\localhost\2015\06\16\a-runtime-for-umbraco-part-2\content.json" />
     <Content Include="App_Data\Moriyama\content\localhost\2015\06\16\content.json" />
     <Content Include="App_Data\Moriyama\content\localhost\2015\06\content.json" />
+    <Content Include="App_Data\Moriyama\content\localhost\2015\06\20\a-runtime-for-umbraco-part-3\content.json" />
+    <Content Include="App_Data\Moriyama\content\localhost\2015\06\20\content.json" />
     <None Include="Properties\PublishProfiles\moblog.pubxml" />
     <Content Include="Views\404.cshtml" />
     <Content Include="Views\Partials\PostMetaData.cshtml" />
