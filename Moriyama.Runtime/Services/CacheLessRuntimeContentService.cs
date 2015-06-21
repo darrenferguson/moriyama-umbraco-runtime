@@ -152,7 +152,9 @@ namespace Moriyama.Runtime.Services
         {
             url = ProcessUrlAliases(url);
 
-            Logger.Info("Got from disk " + url);
+            if(Logger.IsDebugEnabled)
+                Logger.Debug("Got from disk " + url);
+
             var contentFile = PathMapper.PathForUrl(url, false);
 
             if (!File.Exists(contentFile))

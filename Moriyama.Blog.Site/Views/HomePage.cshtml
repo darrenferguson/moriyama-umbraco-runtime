@@ -2,7 +2,7 @@
 @using Moriyama.Library.Html
 @using Moriyama.Runtime.Extension
 @using Moriyama.Runtime.Models
-@model Moriyama.Runtime.Models.RuntimeContentModel
+@model RuntimeContentModel
 @{
     Layout = "Layout.cshtml";
     var posts = Model.Descendants(new Dictionary<string, string> {{"Type", "BlogPost"}}).OrderByDescending(post => post.CreateDate);

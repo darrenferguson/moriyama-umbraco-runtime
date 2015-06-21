@@ -34,6 +34,9 @@ namespace Moriyama.Runtime
 
         public void Initialise(HttpContext context)
         {
+            var startTime = DateTime.Now;
+            Logger.Info("Startup: " + startTime);
+
             var contentPath = context.Server.MapPath("/");
 
             contentPath = Path.Combine(contentPath, "App_Data", "Moriyama", "content");
@@ -41,7 +44,7 @@ namespace Moriyama.Runtime
 
             var cache = ConfigurationManager.AppSettings["Moriyama.Runtime.Cached"];
 
-            Logger.Info("Starting with cache " + cache + " (" + ByteSize.FromBytes(Process.GetCurrentProcess().WorkingSet64).MegaBytes + ")");
+            Logger.Info("Starting with cache " + cache + " (" + ByteSize.FromBytes(Process.GetCurrentProcess().WorkingSet64).MegaBytes + " memory MB)");
             
 
             var scheduler = StdSchedulerFactory.GetDefaultScheduler();
@@ -108,7 +111,8 @@ namespace Moriyama.Runtime
             }
 
             Logger.Info("Indexed " + count + " documents");
-            Logger.Info("Startup complete " + "(" + ByteSize.FromBytes(Process.GetCurrentProcess().WorkingSet64).MegaBytes + "MB)");
+            Logger.Info("Startup complete " + "(" + ByteSize.FromBytes(Process.GetCurrentProcess().WorkingSet64).MegaBytes + " memory MB)");
+            Logger.Info("Startup time " + DateTime.Now.Subtract(startTime).TotalSeconds);
         }
 
         void ContentServiceRemoved(string sender, EventArgs e)

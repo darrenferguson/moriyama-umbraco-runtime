@@ -80,7 +80,8 @@ namespace Moriyama.Runtime.Services
             if (content == null)
                 return;
 
-            Logger.Info("Caching: " + url);
+            if(Logger.IsDebugEnabled)
+                Logger.Debug("Caching: " + url);
 
             content.CacheTime = DateTime.Now;
             _customCache.Set(url, content, _policy);
@@ -113,13 +114,17 @@ namespace Moriyama.Runtime.Services
 
             if (_customCache.Contains(url))
             {
-                Logger.Info("Attempt " + url + " from cache");  
+                if(Logger.IsDebugEnabled)
+                    Logger.Debug("Attempt " + url + " from cache"); 
+ 
                 content = _customCache.Get(url) as RuntimeContentModel;
             }
 
             if (content != null)
             {
-                Logger.Info("Got " + content.Name + " from cache " + content.Url);  
+                if (Logger.IsDebugEnabled)
+                    Logger.Debug("Got " + content.Name + " from cache " + content.Url);  
+
                 return content;
             }
 
