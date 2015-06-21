@@ -1,4 +1,5 @@
-﻿using System.Web.Routing;
+﻿using System.Configuration;
+using System.Web.Routing;
 using Moriyama.Blog.Project;
 using Segment;
 using Umbraco.Core;
@@ -12,7 +13,7 @@ namespace Moriyama.Blog.Umbraco
         ApplicationContext applicationContext)
         {
             ProjectContext.Instance.Init(RouteTable.Routes);
-            Analytics.Initialize("QgDmGvCjQv4rLIIfAQ0WTfbe8CAUfUtO");
+            // Analytics.Initialize(ConfigurationManager.AppSettings["SegmentKey"]);
         }
         public void OnApplicationInitialized(
             UmbracoApplicationBase umbracoApplication,
