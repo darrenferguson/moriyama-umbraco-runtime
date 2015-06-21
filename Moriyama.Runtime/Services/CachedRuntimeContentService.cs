@@ -8,11 +8,26 @@ using System.Text.RegularExpressions;
 using log4net;
 using Moriyama.Runtime.Interfaces;
 using Moriyama.Runtime.Models;
+using Quartz;
+using Quartz.Impl;
 
 namespace Moriyama.Runtime.Services
 {
     public class CachedRuntimeContentService : CacheLessRuntimeContentService
     {
+
+        [DisallowConcurrentExecution]
+        private class CacheRefresherJob : IJob
+        {
+            public void Execute(IJobExecutionContext context)
+            {
+                Logger.Info(GetType().Name + " scheduled task..");
+
+                var contentService = (CachedRuntimeContentService) RuntimeContext.Instance.ContentService;
+                contentService.SanitiseCache();
+            }
+        }
+        
         public override event ContentRemovedHandler Removed;
 
         private static readonly ILog Logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
@@ -20,10 +35,27 @@ namespace Moriyama.Runtime.Services
         private readonly ObjectCache _customCache;
         private readonly CacheItemPolicy _policy; 
 
-        public CachedRuntimeContentService(IContentPathMapper pathMapper) : base(pathMapper)
+        public CachedRuntimeContentService(IContentPathMapper pathMapper, ISearchService searchService) : base(pathMapper, searchService)
         {
             _customCache = MemoryCache.Default;
             _policy = new CacheItemPolicy {SlidingExpiration = TimeSpan.FromHours(1)};
+
+            var scheduler = StdSchedulerFactory.GetDefaultScheduler();
+            scheduler.Start();
+
+            var job = JobBuilder.Create<CacheRefresherJob>()
+                .WithIdentity("moriyamaCacheRefresherJob", "cacheRefresherJob")
+                .Build();
+
+            var trigger = TriggerBuilder.Create()
+                .WithIdentity("cacheRefresherJobTrigger", "cacheRefresherJobGroup")
+                .StartNow()
+                .WithSimpleSchedule(x => x
+                .WithIntervalInSeconds(60)
+                .RepeatForever())
+                .Build();
+
+            scheduler.ScheduleJob(job, trigger);
         }
 
         public void SanitiseCache()
@@ -43,8 +75,7 @@ namespace Moriyama.Runtime.Services
             {
                 Urls.Remove(url);
 
-                if (Removed != null)
-                    Removed(url, new EventArgs());
+                SearchService.Delete(url);
 
                 hasStale = true;
             }

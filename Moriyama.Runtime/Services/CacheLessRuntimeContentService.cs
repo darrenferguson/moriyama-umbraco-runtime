@@ -28,9 +28,13 @@ namespace Moriyama.Runtime.Services
 
         private DateTime _lastUrlFlush;
         private readonly string _urlPath;
-
-        public CacheLessRuntimeContentService(IContentPathMapper pathMapper)
+        
+        protected readonly ISearchService SearchService;
+        
+        public CacheLessRuntimeContentService(IContentPathMapper pathMapper, ISearchService searchService)
         {
+            SearchService = searchService;
+
             PathMapper = pathMapper;
             Urls = new List<string>();
             _lock = new object();
@@ -77,8 +81,7 @@ namespace Moriyama.Runtime.Services
             }
             FlushUrls();
 
-            if (Added != null)
-                Added(model, new EventArgs());
+            SearchService.Index(model);
       
         }
 
@@ -103,8 +106,7 @@ namespace Moriyama.Runtime.Services
             }
             FlushUrls();
 
-            if (Removed != null)
-                Removed(url, new EventArgs());
+            SearchService.Delete(url);
         }
 
         public IEnumerable<string> GetUrlList()
@@ -159,16 +161,13 @@ namespace Moriyama.Runtime.Services
 
             if (!File.Exists(contentFile))
             {
-                if (Removed != null)
-                    Removed(url, new EventArgs());
-
+                SearchService.Delete(url);
                 return null;
             }
 
             var content = FromFile(contentFile);
 
-            if (Added != null)
-                Added(content, new EventArgs());
+            SearchService.Index(content);
             
             return content;
         }

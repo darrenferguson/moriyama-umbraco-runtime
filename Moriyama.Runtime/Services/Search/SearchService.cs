@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using log4net;
@@ -27,9 +28,7 @@ namespace Moriyama.Runtime.Services.Search
         private readonly RAMDirectory _directory;
         private readonly IndexWriter _writer;
 
-        private static SearchService _instance;
-
-        private SearchService()
+        public SearchService()
         {
             _lock = new object();
 
@@ -39,11 +38,22 @@ namespace Moriyama.Runtime.Services.Search
             _writer = new IndexWriter(_directory, new StandardAnalyzer(_version), IndexWriter.MaxFieldLength.UNLIMITED);
         }
 
-        public static SearchService Instance
+        public void IndexAll(IContentService contentService)
         {
-            get { return _instance ?? (_instance = new SearchService()); }
-        }
+            var urls = contentService.GetUrlList();
 
+            // BIG TODO: make search index in the background or on demand.
+            // Forces everything to be cached on startup... :(
+
+            foreach (var url in urls.ToList())
+            {
+                var content = contentService.GetContent(url);
+
+                if (content != null)
+                    Index(content);
+            }
+        }
+        
         private Document GetLuceneDocument(RuntimeContentModel content)
         {
             var d = new Document();

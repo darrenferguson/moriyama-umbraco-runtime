@@ -160,7 +160,7 @@
     <Compile Include="Services\CachedRuntimeContentService.cs" />
     <Compile Include="Services\CacheLessRuntimeContentService.cs" />
     <Compile Include="Services\LuceneQueryingContentService.cs" />
-    <Compile Include="Services\Schedule\CacheRefresherJob.cs" />
+    <Compile Include="Services\Search\DummySearchService.cs" />
     <Compile Include="Services\Search\SearchService.cs" />
   </ItemGroup>
   <ItemGroup>

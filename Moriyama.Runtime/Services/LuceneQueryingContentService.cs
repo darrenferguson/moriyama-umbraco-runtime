@@ -6,18 +6,17 @@ namespace Moriyama.Runtime.Services
 {
     public class LuceneQueryingContentService : CachedRuntimeContentService
     {
-        private ISearchService _searchService;
         
         public LuceneQueryingContentService(IContentPathMapper pathMapper, ISearchService searchService)
-            : base(pathMapper)
+            : base(pathMapper, searchService)
         {
-            _searchService = searchService;
+            
         }
 
         public override IEnumerable<RuntimeContentModel> Descendants(RuntimeContentModel model,
             IDictionary<string, string> filters)
         {
-            var items = _searchService.Search(filters);
+            var items = SearchService.Search(filters);
             var content = new List<RuntimeContentModel>();
 
             foreach (var url in items)
