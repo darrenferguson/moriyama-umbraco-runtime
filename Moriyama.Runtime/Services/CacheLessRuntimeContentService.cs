@@ -113,7 +113,7 @@ namespace Moriyama.Runtime.Services
             lock (_lock)
             {
                 _lastUrlFlush = DateTime.Now;
-                var urls = JsonConvert.SerializeObject(Urls);
+                var urls = JsonConvert.SerializeObject(Urls, Formatting.Indented);
                 File.WriteAllText(_urlPath, urls);
             }
         }
