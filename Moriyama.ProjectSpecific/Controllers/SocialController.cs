@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Net;
 using System.Reflection;
 using System.Web;
@@ -44,7 +45,9 @@ namespace Moriyama.Blog.Project.Controllers
 
         private string Shorten(string url)
         {
-            var shortenUrl = "https://api-ssl.bitly.com/v3/shorten?access_token=14bb580581001feaad834eec82673cf8369745f0&longUrl=" +
+            var token = ConfigurationManager.AppSettings["BitlyKey"];
+
+            var shortenUrl = "https://api-ssl.bitly.com/v3/shorten?access_token="+token+"&longUrl=" +
                     HttpUtility.UrlEncode(url);
 
             try

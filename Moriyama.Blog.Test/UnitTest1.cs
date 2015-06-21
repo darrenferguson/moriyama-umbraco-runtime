@@ -12,9 +12,9 @@ namespace Moriyama.Blog.Test
         [TestMethod]
         public void TestMethod1()
         {
-            var token = "14bb580581001feaad834eec82673cf8369745f0";
+            var token = "xxxxx";
 
-            var url = "https://api-ssl.bitly.com/v3/shorten?access_token=14bb580581001feaad834eec82673cf8369745f0&longUrl=" +
+            var url = "https://api-ssl.bitly.com/v3/shorten?access_token=xxxxxx&longUrl=" +
                       HttpUtility.UrlEncode("http://blog.darren-ferguson.com/");
 
             var client = new WebClient();
