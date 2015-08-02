@@ -176,3 +176,4 @@ Moriyama.Blog.Site/media/
 Moriyama.Blog.Umbraco/media/
 Moriyama.Blog.Site/App_Data/logs/
 Moriyama.Blog.Umbraco/App_Data/cache/
+.nuget/NuGet.exe
