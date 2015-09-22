@@ -29,15 +29,15 @@ namespace Moriyama.Runtime
             get { return _instance ?? (_instance = new RuntimeContext()); }
         }
 
-        public void Initialise(HttpContext context)
+
+        public void Initialise(string contentPath)
         {
             var startTime = DateTime.Now;
             Logger.Info("Startup: " + startTime);
 
             SearchService = new SearchService();
 
-            var contentPath = context.Server.MapPath("/");
-
+            
             contentPath = Path.Combine(contentPath, "App_Data", "Moriyama", "content");
             var contentPathMapper = new ContentPathMapper(contentPath);
 
@@ -58,6 +58,11 @@ namespace Moriyama.Runtime
 
             Logger.Info("Startup complete " + "(" + ByteSize.FromBytes(Process.GetCurrentProcess().WorkingSet64).MegaBytes + " memory MB)");
             Logger.Info("Startup time " + DateTime.Now.Subtract(startTime).TotalSeconds);
+        }
+
+        public void Initialise(HttpContext context)
+        {
+            Initialise(context.Server.MapPath("/"));           
         }
     }
 }
