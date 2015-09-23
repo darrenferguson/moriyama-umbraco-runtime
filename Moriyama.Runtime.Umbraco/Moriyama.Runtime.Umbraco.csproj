@@ -233,6 +233,7 @@
     <Compile Include="Controllers\StageController.cs" />
     <Compile Include="Events\RuntimeApplicationEventHandler.cs" />
     <Compile Include="Extension\RuntimeContentExtension.cs" />
+    <Compile Include="Interfaces\IDeploymentAdapter.cs" />
     <Compile Include="Interfaces\IUmbracoContentParser.cs" />
     <Compile Include="Interfaces\IUmbracoContentSerialiser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

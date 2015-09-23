@@ -10,7 +10,8 @@ using log4net;
 using Moriyama.Blog.Project.Application;
 using Moriyama.Blog.Project.Models;
 using Moriyama.Blog.Project.Models.Email;
-
+using Moriyama.Library.Extension;
+using Moriyama.Library.Html;
 using Moriyama.Runtime;
 using Moriyama.Runtime.Extension;
 
@@ -79,11 +80,11 @@ namespace Moriyama.Blog.Project.Controllers
 
                 if (!isSpam)
                 {
-                    //var stripper = new HtmlTagStripper(new[] { "p", "em", "b", "i", "u" });
-                    //model.CommentMessage = stripper.RemoveUnwantedTags(model.CommentMessage);
+                    var stripper = new HtmlTagStripper(new[] { "p", "em", "b", "i", "u" });
+                    model.CommentMessage = stripper.RemoveUnwantedTags(model.CommentMessage);
                     model.CommentMessage = model.CommentMessage.Replace(Environment.NewLine, "<br/>");
 
-                    // model.CommentName = model.CommentName.RemoveNonAlphaNumeric();
+                    model.CommentName = model.CommentName.RemoveNonAlphaNumeric();
 
                     var commentId = Guid.NewGuid().ToString();
                     var contentUrl = contentService.GetContentUrl(System.Web.HttpContext.Current);
