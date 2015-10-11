@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Configuration;
 using System.Diagnostics;
 using System.IO;
@@ -19,6 +20,8 @@ namespace Moriyama.Runtime
 
         public IContentService ContentService { get; set; }
         public ISearchService SearchService { get; set; }
+
+        
 
         private static RuntimeContext _instance;
 

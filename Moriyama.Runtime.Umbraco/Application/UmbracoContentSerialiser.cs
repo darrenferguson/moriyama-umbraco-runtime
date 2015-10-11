@@ -24,12 +24,17 @@ namespace Moriyama.Runtime.Umbraco.Application
             _contentParsers = contentParsers;
         }
 
-        public void Remove(IContent content)
+        public RuntimeContentModel Remove(IContent content)
         {
             var publishedContent = _umbracoHelper.TypedContent(content.Id);
 
-            if(publishedContent != null)
+            RuntimeContentModel result = null;
+            if (publishedContent != null)
+            {
+                result = RuntimeContext.Instance.ContentService.GetContent(publishedContent.Url);
                 RuntimeContext.Instance.ContentService.RemoveContent(publishedContent.Url);
+            }
+            return result;
         }
 
         private string RemovePortFromUrl(string url)
@@ -40,12 +45,12 @@ namespace Moriyama.Runtime.Umbraco.Application
             return url;
         }
 
-        public void Serialise(IContent content)
+        public RuntimeContentModel Serialise(IContent content)
         {
             var publishedContent = _umbracoHelper.TypedContent(content.Id);
 
             if (publishedContent == null)
-                return;
+                return null;     
 
             var runtimeContent = Mapper.Map<RuntimeContentModel>(publishedContent);
 
@@ -71,6 +76,7 @@ namespace Moriyama.Runtime.Umbraco.Application
             }
             
             RuntimeContext.Instance.ContentService.AddContent(runtimeContent);
+            return runtimeContent;
         }
     }
 }

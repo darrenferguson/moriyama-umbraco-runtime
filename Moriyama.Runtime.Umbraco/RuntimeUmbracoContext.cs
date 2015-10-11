@@ -8,6 +8,7 @@ using Moriyama.Runtime.Models;
 using Moriyama.Runtime.Umbraco.Application;
 using Moriyama.Runtime.Umbraco.Application.Parser;
 using Moriyama.Runtime.Umbraco.Interfaces;
+using Umbraco.Core.Logging;
 using Umbraco.Core.Models;
 using Umbraco.Web;
 
@@ -20,6 +21,8 @@ namespace Moriyama.Runtime.Umbraco
         private static RuntimeUmbracoContext _instance;
 
         private RuntimeUmbracoContext() { }
+
+        public IList<IDeploymentAdapter> DeploymentAdapters { get; private set; }
 
         public static RuntimeUmbracoContext Instance
         {
@@ -46,5 +49,16 @@ namespace Moriyama.Runtime.Umbraco
             UmbracoContentSerialiser = new UmbracoContentSerialiser(helper, parsers);
             Mapper.CreateMap<IPublishedContent, RuntimeContentModel>();
         }
+
+        public void AddDeploymentAdapter(IDeploymentAdapter adapter)
+        {
+            if (DeploymentAdapters == null)
+                DeploymentAdapters = new List<IDeploymentAdapter>();
+
+            LogHelper.Info<RuntimeUmbracoContext>("Adding deployment adapter " + adapter.GetType().Name);
+
+            DeploymentAdapters.Add(adapter);
+        }
+
     }
 }

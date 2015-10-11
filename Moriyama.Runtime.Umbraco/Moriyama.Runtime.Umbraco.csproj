@@ -55,9 +55,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\UmbracoCms.Core.7.1.9\lib\businesslogic.dll</HintPath>
     </Reference>
-    <Reference Include="ClientDependency.Core, Version=1.7.1.2, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\ClientDependency.1.7.1.2\lib\ClientDependency.Core.dll</HintPath>
+    <Reference Include="ClientDependency.Core, Version=1.8.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClientDependency.1.8.4\lib\net45\ClientDependency.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ClientDependency.Core.Mvc, Version=1.7.0.4, Culture=neutral, processorArchitecture=MSIL">
@@ -225,6 +224,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application\CacheRefresher\RuntimeContentCacheRefresher.cs" />
+    <Compile Include="Application\DeploymentAdapter\DummyDeploymentAdapter.cs" />
     <Compile Include="Application\Parser\LocalLinkUmbracoContentParser.cs" />
     <Compile Include="Application\Parser\NaviHideUmbracoContentParser.cs" />
     <Compile Include="Application\Parser\NullValueUmbracoContentParser.cs" />

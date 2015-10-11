@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="a7f0c0d2-a622-4955-9f52-416eb2591226" id="5136" nodeName="A runtime for Umbraco - Part 4" isDoc="" updated="2015-10-10T10:34:39.3769412+01:00" parentGUID="f38e3200-00cc-4ed7-9182-7c742eee73ee" nodeTypeAlias="BlogPost" templateAlias="Post" sortOrder="0" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>AE102F71-7B77-4495-BAE0-2D6C53E700B7-09-25T08:53:47</displayDate>
+  <title><![CDATA[A runtime for Umbraco - Part 4]]></title>
+  <shortUrl></shortUrl>
+  <summary></summary>
+  <tags></tags>
+  <bodyText><![CDATA[<p>It has been a while since I wrote about the Moriyama runtime for Umbraco - and that is because it has undergone quite a bit of development.</p>
+<p>I want to talk about the concept of a Deployment Adapter - that hooks into Umbraco publish and unpublish events to add and remove content to a runtime.</p>
+<p>The serialisation of content has already taken place. The deployment adapter is simply responsible for sending that content somewhere:</p>
+<p>The definition of a deployment adapter looks like this:</p>
+<pre class="brush: csharp;">using Moriyama.Runtime.Models;
+
+namespace Moriyama.Runtime.Umbraco.Interfaces
+{
+    public enum DeploymentAction
+    {
+        Deploy, Delete
+    }
+
+    public interface IDeploymentAdapter
+    {
+        void DeployContent(RuntimeContentModel model, DeploymentAction action);
+    }
+}</pre>
+<p>At Moriyama we have several implementations:</p>
+<ul>
+<li>FTP</li>
+<li>Azure Blob storage</li>
+<li>Amazon S3</li>
+<li>GIT</li>
+<li>REST</li>
+<li>ZIP</li>
+</ul>
+<p class="brush: csharp;">We'll take a look at the last one. The REST deployment adapter sends the serialised content to an endpoint and allows the receiving application to do what it needs with the content. In most cases this would just be to write the content to the local filesystem.</p>
+<pre>using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.IO;
+using System.Net;
+using System.Reflection;
+using System.Text;
+using Hotspots.Api.Domain;
+using log4net;
+using Moriyama.Runtime.Models;
+using Moriyama.Runtime.Umbraco.Interfaces;
+using Newtonsoft.Json;
+
+namespace Hotspots.Cms.Classes.Deployment
+{
+    public class JamDeploymentAdapter : IDeploymentAdapter
+    {
+        private static readonly ILog Logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
+        private readonly IEnumerable _endpoints;
+        
+        public JamDeploymentAdapter(string config, string sitemapFile)
+        {
+            _endpoints = JsonConvert.DeserializeObject&lt;IEnumerable&gt;(File.ReadAllText(config));
+        }
+
+        public void DeployContent(RuntimeContentModel model, DeploymentAction action)
+        {
+            Logger.Info("Got deployment request");
+
+            if (model == null) return;
+      
+            foreach (var endpoint in _endpoints)
+            {
+                
+                    var url = endpoint.EndPoint + "Admin/CmsApi/Deploy";
+
+                    Logger.Info("Deploy to URL: " + url);
+
+                    using (var client = new WebClient())
+                    {
+                        var reqparm = new NameValueCollection
+                        {
+                            {"Key", authKey},
+                            {"Json", JsonConvert.SerializeObject(model)},
+                            {"Action", action.ToString().ToLower()}
+                        };
+
+                        Logger.Info("Sending to API: " + url);
+                        Logger.Info(JsonConvert.SerializeObject(reqparm, Formatting.Indented));
+
+                        var responsebytes = client.UploadValues(url, "POST", reqparm);
+                        var responsebody = Encoding.UTF8.GetString(responsebytes);
+                    }
+                }
+            }
+        }
+    }
+}
+</pre>
+<p>It is a very simple yet powerful concept. Umbraco already has excellent support for writing Media into CDN (S3, Azure etc), and this is the equivalent for content.</p>
+<p>Currently I'm excited about the opportunity to plug this into Umbraco as a service. This would allow you to use Umbraco as your CMS but push your content to any type of application - and the setup would take minutes.</p>
+<p>Once you have all of your content in a Zip, GIT repo or cloud storage you can have a language specific implementation of the runtime over that store to consume your content on a mobile app, smart TV app or any other such emerging platform.</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

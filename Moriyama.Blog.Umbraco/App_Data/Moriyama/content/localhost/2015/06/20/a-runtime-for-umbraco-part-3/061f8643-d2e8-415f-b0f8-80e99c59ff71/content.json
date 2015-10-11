@@ -1,0 +1,19 @@
+{
+  "Name": "bcave@rocketmail.com",
+  "Type": "BlogComment",
+  "CreateDate": "2015-09-28T21:37:48.314566+00:00",
+  "UpdateDate": "2015-09-28T21:37:48.314566+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/06/20/a-runtime-for-umbraco-part-3/061f8643-d2e8-415f-b0f8-80e99c59ff71/",
+  "RelativeUrl": "/2015/06/20/a-runtime-for-umbraco-part-3/061f8643-d2e8-415f-b0f8-80e99c59ff71/",
+  "Content": {
+    "name": "Brice",
+    "email": "bcave@rocketmail.com",
+    "bodyText": "I just came across your Runtime articles, inadvertently, while searching for Umbraco custom logging.<br/><br/>We have been doing the same using Solr as the repository instead of flat files. We have had a couple of sites up for a few years and it is working out pretty well on Umbraco 4.  One difference is we spit out a minimum of template from the initial request/response and the rest of the site fills itself in with javascript requests.  WE would probably use more caching and less JS next time. <br/><br/>I am in the process of building a new site in this style on Umbraco 7 and I had really thought about using Node on the front-end but I may have to use c#/mvc due to time/budget contraints.  Finding your posts was very timely! This go-round <br/><br/>I am happy to see you have taken this a step further and packaged it up (I am right in the middle of doing the same thing almost exactly like this!).  We use the Solr platform on www.steamboatchamber.com and www.vvf.org. I look forward to seeing more posts... and using the Node implementation to seed my own version."
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 2,
+  "Level": 6
+}

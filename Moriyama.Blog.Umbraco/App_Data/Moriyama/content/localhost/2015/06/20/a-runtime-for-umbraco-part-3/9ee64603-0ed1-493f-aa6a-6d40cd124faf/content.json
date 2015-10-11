@@ -1,0 +1,19 @@
+{
+  "Name": "df@darren-ferguson.com",
+  "Type": "BlogComment",
+  "CreateDate": "2015-06-21T15:04:29.9875224+00:00",
+  "UpdateDate": "2015-06-21T15:04:29.9875224+00:00",
+  "CreatorName": "User Generated",
+  "WriterName": "User Generated",
+  "Url": "http://localhost/2015/06/20/a-runtime-for-umbraco-part-3/9ee64603-0ed1-493f-aa6a-6d40cd124faf/",
+  "RelativeUrl": "/2015/06/20/a-runtime-for-umbraco-part-3/9ee64603-0ed1-493f-aa6a-6d40cd124faf/",
+  "Content": {
+    "name": "Darren",
+    "email": "df@darren-ferguson.com",
+    "bodyText": "Testing commenting again."
+  },
+  "Template": "",
+  "CacheTime": null,
+  "SortOrder": 0,
+  "Level": 6
+}

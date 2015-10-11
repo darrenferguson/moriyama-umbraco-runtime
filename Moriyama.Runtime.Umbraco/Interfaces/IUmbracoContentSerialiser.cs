@@ -5,7 +5,7 @@ namespace Moriyama.Runtime.Umbraco.Interfaces
 {
     public interface IUmbracoContentSerialiser
     {
-        void Remove(IContent content);
-        void Serialise(IContent content);
+        RuntimeContentModel Remove(IContent content);
+        RuntimeContentModel Serialise(IContent content);
     }
 }
