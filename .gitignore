@@ -178,3 +178,6 @@ Moriyama.Blog.Site/App_Data/logs/
 Moriyama.Blog.Umbraco/App_Data/cache/
 .nuget/NuGet.exe
 Moriyama.Blog.Umbraco/uSync.Archive/
+Moriyama.Runtime.Console/App_Data/Logs/
+Moriyama.Runtime.Console/App_Data/umbraco.config
+Moriyama.Runtime.Console/App_Data/TEMP/PluginCache/

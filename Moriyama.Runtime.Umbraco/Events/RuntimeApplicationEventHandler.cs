@@ -12,7 +12,9 @@ using Umbraco.Core.Models;
 using Umbraco.Core.Publishing;
 using Umbraco.Core.Services;
 using Umbraco.Web;
+using Umbraco.Web.Models.Trees;
 using Umbraco.Web.Mvc;
+using Umbraco.Web.Trees;
 
 namespace Moriyama.Runtime.Umbraco.Events
 {
@@ -29,6 +31,19 @@ namespace Moriyama.Runtime.Umbraco.Events
         public void OnApplicationStarting(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)
         {
             DefaultRenderMvcControllerResolver.Current.SetDefaultControllerType(typeof(RuntimeUmbracoController));
+
+            TreeControllerBase.MenuRendering += TreeControllerBaseMenuRendering;
+        }
+
+        void TreeControllerBaseMenuRendering(TreeControllerBase sender, MenuRenderingEventArgs e)
+        {
+            if (sender.TreeAlias == "content" && sender.Security.CurrentUser.UserType.Alias == "admin")
+            {
+                var menu = new MenuItem("moriyamaDeploy", "Deploy this");
+                menu.Icon = "umb-content";
+
+                e.Menu.Items.Add(menu);
+            }
         }
 
         public void OnApplicationStarted(UmbracoApplicationBase umbracoApplication, ApplicationContext applicationContext)

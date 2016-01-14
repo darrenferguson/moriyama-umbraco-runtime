@@ -1,5 +1,4 @@
-﻿using System;
-using Moriyama.Runtime.Models;
+﻿using Moriyama.Runtime.Models;
 using Moriyama.Runtime.Umbraco.Interfaces;
 
 namespace Moriyama.Runtime.Adapter.Blob

@@ -1572,6 +1572,7 @@
     <Content Include="umbraco\Views\content\delete.html" />
     <Content Include="umbraco\Views\content\edit.html" />
     <Content Include="umbraco\Views\content\emptyrecyclebin.html" />
+    <Content Include="umbraco\Views\content\moriyamaDeploy.html" />
     <Content Include="umbraco\Views\content\move.html" />
     <Content Include="umbraco\Views\content\recyclebin.html" />
     <Content Include="umbraco\Views\content\umbpreview.html" />

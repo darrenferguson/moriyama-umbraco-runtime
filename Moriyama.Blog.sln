@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0F30DA71-375F-44AD-91E6-E1B12F360B25}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,6 +23,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.Blog.Test", "Moriyama.Blog.Test\Moriyama.Blog.Test.csproj", "{3677C69C-4AA2-4A6A-8871-6C7D0E682B86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.Runtime.Adapter.Blob", "Moriyama.Runtime.Adapter.Blob\Moriyama.Runtime.Adapter.Blob.csproj", "{93AFDC11-7589-4E1F-A40D-6EE9C915ADE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.Runtime.Console", "Moriyama.Runtime.Console\Moriyama.Runtime.Console.csproj", "{0F9018C7-5BF7-41CA-8CFF-4FE48E1291BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,12 @@ Global
 		{93AFDC11-7589-4E1F-A40D-6EE9C915ADE3}.Production|Any CPU.Build.0 = Release|Any CPU
 		{93AFDC11-7589-4E1F-A40D-6EE9C915ADE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93AFDC11-7589-4E1F-A40D-6EE9C915ADE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9018C7-5BF7-41CA-8CFF-4FE48E1291BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9018C7-5BF7-41CA-8CFF-4FE48E1291BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9018C7-5BF7-41CA-8CFF-4FE48E1291BE}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9018C7-5BF7-41CA-8CFF-4FE48E1291BE}.Production|Any CPU.Build.0 = Release|Any CPU
+		{0F9018C7-5BF7-41CA-8CFF-4FE48E1291BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9018C7-5BF7-41CA-8CFF-4FE48E1291BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
