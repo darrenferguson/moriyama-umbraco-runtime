@@ -14,7 +14,7 @@ namespace Moriyama.Content.Export.Umbraco7.Controllers
 
             var u = new UmbracoContentExporter(ApplicationContext);
 
-            u.ExportContext(new FileSystem(path));
+            u.ExportContext(path);
 
             return Json(new { result = "ok" }, JsonRequestBehavior.AllowGet);
         }

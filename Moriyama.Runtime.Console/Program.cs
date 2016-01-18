@@ -26,7 +26,7 @@
 //            var context = ApplicationContext.Current;  
 //            var contentService = context.Services.ContentService;
             
-//            var finder = new UmbracoContentFinder(contentService);
+//            var finder = new UmbracoMediaFinder(contentService);
 
 //            var allContent = finder.FindAllContent().ToArray();
 //            var contentFactory = new ExportableContentFactory();
@@ -63,7 +63,7 @@
 //                new IntExportContentParser(exportable)
 //            };
 
-//            var serialiser = new UmbracoContentExportSerialiser(parsers);
+//            var serialiser = new UmbracoMediaExportSerialiser(parsers);
 
 //            foreach (var export in exportable)
 //            {

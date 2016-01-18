@@ -8,10 +8,12 @@ namespace Moriyama.Content.Export.Application.Parser
     public class IntExportContentParser : IExportContentParser
     {
         private readonly IEnumerable<ExportableContent> _allContent;
+        private readonly IEnumerable<ExportableMedia> _allMedia;
 
-        public IntExportContentParser(IEnumerable<ExportableContent> allContent)
+        public IntExportContentParser(IEnumerable<ExportableContent> allContent, IEnumerable<ExportableMedia> allMedia)
         {
             _allContent = allContent;
+            _allMedia = allMedia;
         }
 
         public string Name { get { return "Path"; } }

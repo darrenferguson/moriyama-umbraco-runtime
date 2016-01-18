@@ -4,9 +4,9 @@ using Moriyama.Content.Export.Application.Domain;
 using Moriyama.Content.Export.Interfaces;
 using Umbraco.Core.Models;
 
-namespace Moriyama.Content.Export.Application
+namespace Moriyama.Content.Export.Application.Content
 {
-    public class UmbracoContentExportSerialiser : IUmbracoContentExportSerialiser
+    public class UmbracoContentExportSerialiser : IUmbracoContentExportSerialiser<ExportContentModel, ExportableContent>
     {
 
         private readonly IEnumerable<IExportContentParser> _exportContentParsers;

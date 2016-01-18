@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 using Moriyama.Content.Export.Application.Domain;
 using Moriyama.Content.Export.Interfaces;
 
@@ -9,10 +8,12 @@ namespace Moriyama.Content.Export.Application.Parser
     public class CommaDelimitedIntExportContentParser : IExportContentParser
     {
         private readonly IEnumerable<ExportableContent> _allContent;
+        private readonly IEnumerable<ExportableMedia> _allMedia;
 
-        public CommaDelimitedIntExportContentParser(IEnumerable<ExportableContent> allContent)
+        public CommaDelimitedIntExportContentParser(IEnumerable<ExportableContent> allContent, IEnumerable<ExportableMedia> allMedia)
         {
             _allContent = allContent;
+            _allMedia = allMedia;
         }
 
         public string Name { get { return "CsvPaths"; } }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Moriyama.Content.Export.Application.Domain;
+using Moriyama.Content.Export.Application.Domain.Result;
 using Moriyama.Content.Export.Interfaces;
 using Umbraco.Core.Models;
 using Umbraco.Core.Services;
@@ -14,16 +15,15 @@ namespace Moriyama.Content.Export.Application
 
 
         private readonly IContentService _contentService;
-        private readonly IExportableContentFactory _contentFactory;
+        private readonly IExportableContentFactory<ExportableContent, IContent> _contentFactory;
 
-        public UmbracoContentCreator(IEnumerable<ExportableContent> allContent, IContentService contentService, IExportableContentFactory contentFactory)
+        public UmbracoContentCreator(IEnumerable<ExportableContent> allContent, IContentService contentService, IExportableContentFactory<ExportableContent, IContent> contentFactory)
         {
             _allContent = allContent.ToList();
             _contentService = contentService;
             _contentFactory = contentFactory;
         }
-
-
+        
         public IEnumerable<ExportableContent> GetAllContent()
         {
             return _allContent;

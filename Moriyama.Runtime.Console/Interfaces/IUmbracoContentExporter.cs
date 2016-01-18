@@ -3,7 +3,7 @@
     public interface IUmbracoContentExporter
     {
 
-        void ExportContext(IFileSystem fileSystem);
+        void ExportContext(string path);
 
     }
 }

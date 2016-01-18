@@ -3,11 +3,10 @@ using Moriyama.Content.Export.Interfaces;
 using Umbraco.Core.Models;
 using Umbraco.Core.Services;
 
-namespace Moriyama.Content.Export.Application
+namespace Moriyama.Content.Export.Application.Content
 {
-    public class UmbracoContentFinder : IUmbracoContentFinder
+    public class UmbracoContentFinder : IUmbracoContentFinder<IContent>
     {
-
         private readonly IContentService _contentService;
 
         public UmbracoContentFinder(IContentService contentService)
@@ -26,13 +25,8 @@ namespace Moriyama.Content.Export.Application
 
             foreach (var content in contents)
             {
-                System.Console.WriteLine(content.Name);
-
                 allContent.Add(content);
-
-                var children = content.Children();
-
-                allContent.AddRange(FindContent(children));
+                allContent.AddRange(FindContent(content.Children()));
             }
             return allContent;
         } 

@@ -10,11 +10,13 @@ namespace Moriyama.Content.Export.Application.Parser
     public class LocalLinkExportContentParser : IExportContentParser
     {
          private readonly IEnumerable<ExportableContent> _allContent;
+         private readonly IEnumerable<ExportableMedia> _allMedia;
 
-         public LocalLinkExportContentParser(IEnumerable<ExportableContent> allContent)
-        {
-            _allContent = allContent;
-        }
+         public LocalLinkExportContentParser(IEnumerable<ExportableContent> allContent, IEnumerable<ExportableMedia> allMedia)
+         {
+             _allContent = allContent;
+             _allMedia = allMedia;
+         }
 
         public string Name { get { return "LocalLink"; } }
 

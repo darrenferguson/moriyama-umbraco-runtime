@@ -1,6 +1,6 @@
 ﻿using Umbraco.Core.Models;
 
-namespace Moriyama.Content.Export.Application.Domain
+namespace Moriyama.Content.Export.Application.Domain.Result
 {
     public enum ContentCreateStatus
     {

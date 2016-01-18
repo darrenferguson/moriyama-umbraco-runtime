@@ -1,6 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Moriyama.Content.Export.Application.Content;
 using Moriyama.Content.Export.Application.Domain;
+using Moriyama.Content.Export.Application.Domain.Result;
+using Moriyama.Content.Export.Application.Media;
 using Moriyama.Content.Export.Application.Parser;
 using Moriyama.Content.Export.Interfaces;
 using Newtonsoft.Json;
@@ -22,15 +25,17 @@ namespace Moriyama.Content.Export.Application
         public IEnumerable<ContentCreateResult> Import(IFileSystem fileSystem)
         {
 
-            var finder = new UmbracoContentFinder(_applicationContext.Services.ContentService);
 
-            var allContent = finder.FindAllContent().ToArray();
+            var allContent = new UmbracoContentFinder(_applicationContext.Services.ContentService).FindAllContent().ToArray();
             var contentFactory = new ExportableContentFactory();
-
             var exportable = contentFactory.GetExportableContent(allContent).ToArray();
 
-           
             var allExportedContent = new List<ExportContentModel>();
+
+
+            var allMedia = new UmbracoMediaFinder(_applicationContext.Services.MediaService).FindAllContent().ToArray();
+            var exportableMedia = new ExportableMediaFactory().GetExportableContent(allMedia).ToArray();
+
             var creator = new UmbracoContentCreator(exportable, _applicationContext.Services.ContentService, contentFactory);
 
             foreach (var file in fileSystem.List())
@@ -52,9 +57,9 @@ namespace Moriyama.Content.Export.Application
             var parsers = new List<IExportContentParser>
             {
                 new NullValueExportContentParser(),
-                new CommaDelimitedIntExportContentParser(exportable),
-                new IntExportContentParser(exportable),
-                new LocalLinkExportContentParser(exportable)
+                new CommaDelimitedIntExportContentParser(exportable, exportableMedia),
+                new IntExportContentParser(exportable,exportableMedia),
+                new LocalLinkExportContentParser(exportable,exportableMedia)
             };
 
             // Pass 2 - Set the properties

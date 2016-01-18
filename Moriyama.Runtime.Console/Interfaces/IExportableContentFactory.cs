@@ -1,12 +1,11 @@
 ﻿using System.Collections.Generic;
-using Moriyama.Content.Export.Application.Domain;
-using Umbraco.Core.Models;
+using Umbraco.Core.Models.EntityBase;
 
 namespace Moriyama.Content.Export.Interfaces
 {
-    public interface IExportableContentFactory
+    public interface IExportableContentFactory<out T1, in T2> where T2 : IUmbracoEntity
     {
-        IEnumerable<ExportableContent> GetExportableContent(IEnumerable<IContent> content);
-        string GetPath(IContent content, IEnumerable<IContent> allContent);
+        IEnumerable<T1> GetExportableContent(T2[] content);
+        string GetPath(IUmbracoEntity content, IEnumerable<IUmbracoEntity> allContent);
     }
 }

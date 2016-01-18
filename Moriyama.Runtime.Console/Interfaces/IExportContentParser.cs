@@ -4,7 +4,6 @@ namespace Moriyama.Content.Export.Interfaces
 {
     public interface IExportContentParser
     {
-
         string Name { get; }
 
         ExportContentModel ParseContent(ExportContentModel model);

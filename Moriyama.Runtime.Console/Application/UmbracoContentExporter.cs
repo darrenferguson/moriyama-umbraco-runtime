@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Moriyama.Content.Export.Application.Content;
+using Moriyama.Content.Export.Application.Media;
 using Moriyama.Content.Export.Application.Parser;
 using Moriyama.Content.Export.Interfaces;
 using Newtonsoft.Json;
@@ -17,31 +19,33 @@ namespace Moriyama.Content.Export.Application
             _applicationContext = applicationContext;
         }
 
-        public void ExportContext(IFileSystem fileSystem)
+        public void ExportContext(string path)
         {
-            var contentService = _applicationContext.Services.ContentService;
-            
-            var finder = new UmbracoContentFinder(contentService);
-
-            var allContent = finder.FindAllContent().ToArray();
-            var contentFactory = new ExportableContentFactory();
-
-            var exportable = contentFactory.GetExportableContent(allContent).ToArray();
+            var exportableContent = new ExportableContentFactory().GetExportableContent(new UmbracoContentFinder(_applicationContext.Services.ContentService).FindAllContent().ToArray()).ToArray();
+            var exportableMedia = new ExportableMediaFactory().GetExportableContent(new UmbracoMediaFinder(_applicationContext.Services.MediaService).FindAllContent().ToArray()).ToArray();
 
             var parsers = new List<IExportContentParser>
             {
                 new NullValueExportContentParser(),
-                new CommaDelimitedIntExportContentParser(exportable),
-                new IntExportContentParser(exportable),
-                new LocalLinkExportContentParser(exportable)
+                new CommaDelimitedIntExportContentParser(exportableContent, exportableMedia),
+                new IntExportContentParser(exportableContent, exportableMedia),
+                new LocalLinkExportContentParser(exportableContent, exportableMedia)
             };
 
-            var serialiser = new UmbracoContentExportSerialiser(parsers);
-                     
-            foreach (var export in exportable)
+            var contentFileSystem = new FileSystem(Path.Combine(path, "content"));
+            var contentExportSerialiser = new UmbracoContentExportSerialiser(parsers);
+            foreach (var export in exportableContent)
             {
-                var json = JsonConvert.SerializeObject(serialiser.Serialise(export), Formatting.Indented);
-                fileSystem.Write(export.Path + ".json", json);
+                var json = JsonConvert.SerializeObject(contentExportSerialiser.Serialise(export), Formatting.Indented);
+                contentFileSystem.Write(export.Path + ".json", json);
+            }
+
+            var mediaFileSystem = new FileSystem(Path.Combine(path, "media"));
+            var mediaExportSerialiser = new UmbracoMediaExportSerialiser(parsers);
+            foreach (var export in exportableMedia)
+            {
+                var json = JsonConvert.SerializeObject(mediaExportSerialiser.Serialise(export), Formatting.Indented);
+                mediaFileSystem.Write(export.Path + ".json", json);
             }
         }
     }

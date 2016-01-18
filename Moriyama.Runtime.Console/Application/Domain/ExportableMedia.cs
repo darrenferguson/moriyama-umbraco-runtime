@@ -3,9 +3,9 @@ using Umbraco.Core.Models;
 
 namespace Moriyama.Content.Export.Application.Domain
 {
-    public class ExportableContent : IExportableItem<IContent>
+    public class ExportableMedia : IExportableItem<IMedia>
     {
         public string Path { get; set; }
-        public IContent Content { get; set; }
+        public IMedia Content { get; set; }
     }
 }

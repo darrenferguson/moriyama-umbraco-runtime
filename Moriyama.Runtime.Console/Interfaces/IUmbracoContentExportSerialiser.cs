@@ -1,9 +1,7 @@
-﻿using Moriyama.Content.Export.Application.Domain;
-
-namespace Moriyama.Content.Export.Interfaces
+﻿namespace Moriyama.Content.Export.Interfaces
 {
-    public interface IUmbracoContentExportSerialiser
+    public interface IUmbracoContentExportSerialiser<out T, in T2>
     {
-        ExportContentModel Serialise(ExportableContent content);
+        T Serialise(T2 content);
     }
 }
