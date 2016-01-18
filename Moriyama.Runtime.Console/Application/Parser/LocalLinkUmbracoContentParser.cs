@@ -1,60 +1,103 @@
-﻿//using System;
-//using System.Linq;
-//using System.Text.RegularExpressions;
-//using Moriyama.Runtime.Models;
-//using Moriyama.Runtime.Umbraco.Interfaces;
-//using Umbraco.Web;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+using Moriyama.Content.Export.Application.Domain;
+using Moriyama.Content.Export.Interfaces;
 
-//namespace Moriyama.Runtime.Umbraco.Application.Parser
-//{
-//    public class LocalLinkUmbracoContentParser : IUmbracoContentParser
-//    {
-//        private readonly UmbracoHelper _umbracoHelper;
+namespace Moriyama.Content.Export.Application.Parser
+{
+    public class LocalLinkExportContentParser : IExportContentParser
+    {
+         private readonly IEnumerable<ExportableContent> _allContent;
 
-//        public LocalLinkUmbracoContentParser(UmbracoHelper umbracoHelper)
-//        {
-//            _umbracoHelper = umbracoHelper;
-//        }
+         public LocalLinkExportContentParser(IEnumerable<ExportableContent> allContent)
+        {
+            _allContent = allContent;
+        }
 
-//        public RuntimeContentModel ParseContent(RuntimeContentModel model)
-//        {
-//            var newContent = model.Content.ToDictionary(entry => entry.Key, entry => entry.Value);
+        public string Name { get { return "LocalLink"; } }
 
-//            foreach (var property in model.Content)
-//            {
-//                if (property.Value is string && ((string)property.Value).Contains("{localLink:"))
-//                {
-//                    var localLinkRegex = new Regex(@"\/\{localLink\:(.*?)\}", RegexOptions.Compiled | RegexOptions.Multiline);
-//                    var value = (string) property.Value;
+        public ExportContentModel ParseForImport(ExportContentModel model)
+        {
+            var newContent = model.Content.ToDictionary(entry => entry.Key, entry => entry.Value);
 
-//                    foreach (Match match in localLinkRegex.Matches(value))
-//                    {
-//                        var replacement = match.Value;
-//                        var docId = match.Groups[1].Value;
+            foreach (var property in model.Content)
+            {
+                if (model.Meta.ContainsKey(property.Key) && (model.Meta[property.Key] == Name))
+                {
+                    var localLinkRegex = new Regex(@"\{localLink\:(.*?)\}",
+                        RegexOptions.Compiled | RegexOptions.Multiline);
+                    var value = (string) property.Value;
 
-//                        value = value.Replace(replacement, UrlForLocalLink(docId));
-//                    }
+                    foreach (Match match in localLinkRegex.Matches(value))
+                    {
+                        var replacement = match.Value;
+                        var path = match.Groups[1].Value;
 
-//                    newContent[property.Key] = value;
-//                }
-//            }
-//            model.Content = newContent;
-//            return model;
-//        }
+                        var id = IdForPathLink(path);
+                        value = value.Replace(replacement, "/{localLink:" +id + "}");
+                    }
+                    newContent[property.Key] = value;
+                }
+            }
+            model.Content = newContent;
+            return model;
+        }
 
-//        private string UrlForLocalLink(string id)
-//        {
-//            try
-//            {
-//                var intId = Convert.ToInt32(id);
-//                var content = _umbracoHelper.TypedContent(intId);
-//                return content.Url;
-//            }
-//            catch (Exception ex)
-//            {
-                
-//            }
-//            return "#";
-//        }
-//    }
-//}
+        public ExportContentModel ParseContent(ExportContentModel model)
+        {
+            var newContent = model.Content.ToDictionary(entry => entry.Key, entry => entry.Value);
+
+            foreach (var property in model.Content)
+            {
+                if (property.Value is string && ((string)property.Value).Contains("{localLink:"))
+                {
+                    var localLinkRegex = new Regex(@"\/\{localLink\:(.*?)\}", RegexOptions.Compiled | RegexOptions.Multiline);
+                    var value = (string)property.Value;
+
+                    foreach (Match match in localLinkRegex.Matches(value))
+                    {
+                        var replacement = match.Value;
+                        var docId = match.Groups[1].Value;
+                        value = value.Replace(replacement, "{localLink:" + UrlForLocalLink(docId) + "}");
+                    }
+
+                    newContent[property.Key] = value;
+                    model.Meta.Add(property.Key, "LocalLink");
+                }
+            }
+
+            model.Content = newContent;
+            return model;
+        }
+
+
+        private int IdForPathLink(string path)
+        {
+            try
+            {
+                var content = _allContent.FirstOrDefault(x => x.Path == path);
+                return content.Content.Id;
+            }
+            catch (Exception ex)
+            {
+            }
+            return -1;
+        }
+
+        private string UrlForLocalLink(string id)
+        {
+            try
+            {
+                var intId = Convert.ToInt32(id);
+                var content = _allContent.FirstOrDefault(x => x.Content.Id == intId);
+                return content.Path;
+            }
+            catch (Exception ex)
+            {
+            }
+            return "#";
+        }
+    }
+}

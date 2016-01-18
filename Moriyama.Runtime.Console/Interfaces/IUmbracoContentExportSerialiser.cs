@@ -1,11 +1,9 @@
-﻿using Moriyama.Runtime.Console.Application.Domain;
-using Umbraco.Core.Models;
+﻿using Moriyama.Content.Export.Application.Domain;
 
-namespace Moriyama.Runtime.Console.Interfaces
+namespace Moriyama.Content.Export.Interfaces
 {
     public interface IUmbracoContentExportSerialiser
     {
-
         ExportContentModel Serialise(ExportableContent content);
     }
 }

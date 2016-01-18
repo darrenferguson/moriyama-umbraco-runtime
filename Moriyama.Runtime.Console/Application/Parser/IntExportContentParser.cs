@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Moriyama.Runtime.Console.Application.Domain;
-using Moriyama.Runtime.Console.Interfaces;
+using Moriyama.Content.Export.Application.Domain;
+using Moriyama.Content.Export.Interfaces;
 
-namespace Moriyama.Runtime.Console.Application.Parser
+namespace Moriyama.Content.Export.Application.Parser
 {
     public class IntExportContentParser : IExportContentParser
     {
@@ -15,6 +12,13 @@ namespace Moriyama.Runtime.Console.Application.Parser
         public IntExportContentParser(IEnumerable<ExportableContent> allContent)
         {
             _allContent = allContent;
+        }
+
+        public string Name { get { return "Path"; } }
+
+        public ExportContentModel ParseForImport(ExportContentModel model)
+        {
+            return model;
         }
 
         public ExportContentModel ParseContent(ExportContentModel model)
@@ -31,15 +35,12 @@ namespace Moriyama.Runtime.Console.Application.Parser
                     var content = _allContent.FirstOrDefault(v => v.Content.Id == x);
 
                     if (content != null)
-                    {
-                        
-
+                    {                     
                         newContent.Remove(property.Key);
                         newContent.Add(property.Key, content.Path);
+                        model.Meta.Add(property.Key, Name);
                     }
-
                 }
-
             }
 
             model.Content = newContent;

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Name>Friendly Ghost</Name>
+  <Author>1508</Author>
+  <Version>1.0</Version>
+  <Description><![CDATA[Skin for umbraco starter kits by 1508]]></Description>
+  <!-- permissions -->
+  <!-- 
+         This determines what document types is allowed to enable the skin on, this enables a UI component 
+         next to the template picker, which allows to set a skin, with a list of skins allowed for this document type
+    -->
+  <AllowedRootTemplate>umbBusinessHomepage</AllowedRootTemplate>
+  <!-- by default this is empty, is set during the skin configuration-->
+  <SkinPalette>
+  </SkinPalette>
+  <Dependencies>
+    <Dependency type="Option" label="Global style">
+      <Properties>
+        <Options>Dark;/css/friendly-ghost_dark.css|Light;/css/friendly-ghost_light.css</Options>
+        <Output></Output>
+      </Properties>
+      <Tasks>
+        <Task type="AddStyleSheetToTemplate">
+          <TargetFile>umbMaster.master</TargetFile>
+          <Value>${Output}</Value>
+        </Task>
+      </Tasks>
+    </Dependency>
+    <Dependency type="Text" label="Site Name">
+      <Properties>
+        <Output></Output>
+      </Properties>
+      <Tasks>
+        <Task type="ModifyPageProperty">
+          <PropertyAlias>siteName</PropertyAlias>
+          <ClientSideContainerID>siteNameLink</ClientSideContainerID>
+          <Value>${Output}</Value>
+        </Task>
+      </Tasks>
+    </Dependency>
+    <Dependency type="Text" label="Site Description">
+      <Properties>
+        <Output></Output>
+      </Properties>
+      <Tasks>
+        <Task type="ModifyPageProperty">
+          <PropertyAlias>siteDescription</PropertyAlias>
+          <ClientSideContainerID>siteDescription</ClientSideContainerID>
+          <Value>${Output}</Value>
+        </Task>
+      </Tasks>
+    </Dependency>
+   
+
+    <Dependency type="Text" label="Footer copy">
+      <Properties>
+        <Output></Output>
+      </Properties>
+      <Tasks>
+        <Task type="ModifyTemplate">
+          <TargetFile>umbHomepage.master</TargetFile>
+          <TargetID>footerInner</TargetID>
+          <Value>${Output}</Value>
+        </Task>
+      </Tasks>
+    </Dependency>
+  </Dependencies>
+
+</Skin>

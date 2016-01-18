@@ -1,6 +1,6 @@
 ﻿using Umbraco.Core.Models;
 
-namespace Moriyama.Runtime.Console.Application.Domain
+namespace Moriyama.Content.Export.Application.Domain
 {
     public class ExportableContent
     {

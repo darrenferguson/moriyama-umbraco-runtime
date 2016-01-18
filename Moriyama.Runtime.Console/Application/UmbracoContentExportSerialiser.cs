@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using AutoMapper;
-using Moriyama.Runtime.Console.Application.Domain;
-using Moriyama.Runtime.Console.Interfaces;
+using Moriyama.Content.Export.Application.Domain;
+using Moriyama.Content.Export.Interfaces;
 using Umbraco.Core.Models;
 
-namespace Moriyama.Runtime.Console.Application
+namespace Moriyama.Content.Export.Application
 {
     public class UmbracoContentExportSerialiser : IUmbracoContentExportSerialiser
     {
@@ -26,6 +26,7 @@ namespace Moriyama.Runtime.Console.Application
             model.Template = export.Content.Template == null ? string.Empty : export.Content.Template.Alias;
 
             model.Content = new Dictionary<string, object>();
+            model.Meta = new Dictionary<string, string>();
 
             foreach (var property in export.Content.Properties)
             {

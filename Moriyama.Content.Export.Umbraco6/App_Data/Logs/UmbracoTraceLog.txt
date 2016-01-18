@@ -1,0 +1,1 @@
+2016-01-18 16:11:42,409 [63] INFO  umbraco.BusinessLogic.Log - [Thread 131] Log scrubbed.  Removed all items older than 2015-11-19 16:11:42

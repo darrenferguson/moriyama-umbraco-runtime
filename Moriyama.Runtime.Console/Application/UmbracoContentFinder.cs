@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Moriyama.Runtime.Console.Interfaces;
+using Moriyama.Content.Export.Interfaces;
 using Umbraco.Core.Models;
 using Umbraco.Core.Services;
 
-namespace Moriyama.Runtime.Console.Application
+namespace Moriyama.Content.Export.Application
 {
     public class UmbracoContentFinder : IUmbracoContentFinder
     {
@@ -29,7 +29,10 @@ namespace Moriyama.Runtime.Console.Application
                 System.Console.WriteLine(content.Name);
 
                 allContent.Add(content);
-                allContent.AddRange(FindContent(content.Children()));
+
+                var children = content.Children();
+
+                allContent.AddRange(FindContent(children));
             }
             return allContent;
         } 

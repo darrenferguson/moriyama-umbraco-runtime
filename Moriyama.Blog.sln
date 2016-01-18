@@ -24,7 +24,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.Blog.Test", "Moriy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.Runtime.Adapter.Blob", "Moriyama.Runtime.Adapter.Blob\Moriyama.Runtime.Adapter.Blob.csproj", "{93AFDC11-7589-4E1F-A40D-6EE9C915ADE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.Runtime.Console", "Moriyama.Runtime.Console\Moriyama.Runtime.Console.csproj", "{0F9018C7-5BF7-41CA-8CFF-4FE48E1291BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.Content.Export", "Moriyama.Runtime.Console\Moriyama.Content.Export.csproj", "{0F9018C7-5BF7-41CA-8CFF-4FE48E1291BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.Content.Export.Umbraco6", "Moriyama.Content.Export.Umbraco6\Moriyama.Content.Export.Umbraco6.csproj", "{299CE177-9006-4F15-A5A4-E36274240496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moriyama.Content.Export.Umbraco7", "Moriyama.Content.Export.Umbraco7\Moriyama.Content.Export.Umbraco7.csproj", "{08301F01-653B-4008-BFC6-9936207A35E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,18 @@ Global
 		{0F9018C7-5BF7-41CA-8CFF-4FE48E1291BE}.Production|Any CPU.Build.0 = Release|Any CPU
 		{0F9018C7-5BF7-41CA-8CFF-4FE48E1291BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F9018C7-5BF7-41CA-8CFF-4FE48E1291BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{299CE177-9006-4F15-A5A4-E36274240496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299CE177-9006-4F15-A5A4-E36274240496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299CE177-9006-4F15-A5A4-E36274240496}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{299CE177-9006-4F15-A5A4-E36274240496}.Production|Any CPU.Build.0 = Release|Any CPU
+		{299CE177-9006-4F15-A5A4-E36274240496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299CE177-9006-4F15-A5A4-E36274240496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08301F01-653B-4008-BFC6-9936207A35E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08301F01-653B-4008-BFC6-9936207A35E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08301F01-653B-4008-BFC6-9936207A35E7}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{08301F01-653B-4008-BFC6-9936207A35E7}.Production|Any CPU.Build.0 = Release|Any CPU
+		{08301F01-653B-4008-BFC6-9936207A35E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08301F01-653B-4008-BFC6-9936207A35E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

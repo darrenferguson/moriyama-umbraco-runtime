@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using Moriyama.Runtime.Console.Application.Domain;
-using Moriyama.Runtime.Console.Interfaces;
+using System.Text.RegularExpressions;
+using Moriyama.Content.Export.Application.Domain;
+using Moriyama.Content.Export.Interfaces;
 
-namespace Moriyama.Runtime.Console.Application.Parser
+namespace Moriyama.Content.Export.Application.Parser
 {
-    class CommaDelimitedIntExportContentParser : IExportContentParser
+    public class CommaDelimitedIntExportContentParser : IExportContentParser
     {
         private readonly IEnumerable<ExportableContent> _allContent;
 
@@ -14,6 +14,8 @@ namespace Moriyama.Runtime.Console.Application.Parser
         {
             _allContent = allContent;
         }
+
+        public string Name { get { return "CsvPaths"; } }
 
         public ExportContentModel ParseContent(ExportContentModel model)
         {
@@ -45,6 +47,37 @@ namespace Moriyama.Runtime.Console.Application.Parser
 
                 newContent.Remove(property.Key);
                 newContent.Add(property.Key, newValue);
+                model.Meta.Add(property.Key, Name);
+            }
+            model.Content = newContent;
+            return model;
+        }
+
+        public ExportContentModel ParseForImport(ExportContentModel model)
+        {
+            var newContent = model.Content.ToDictionary(entry => entry.Key, entry => entry.Value);
+
+            foreach (var property in model.Content)
+            {
+                if (model.Meta.ContainsKey(property.Key) && (model.Meta[property.Key] == Name))
+                {
+                    var v = (string) property.Value;
+                    var values = v.Split(',');
+
+                    var ids = new List<int>();
+
+                    foreach (var item in values)
+                    {
+                        var content = _allContent.FirstOrDefault(x => x.Path == item);
+
+                        if(content != null)
+                            ids.Add(content.Content.Id);
+
+                    }
+
+                    newContent[property.Key] = string.Join(",", ids);
+
+                }
             }
             model.Content = newContent;
             return model;

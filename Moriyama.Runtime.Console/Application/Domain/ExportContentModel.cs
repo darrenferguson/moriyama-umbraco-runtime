@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Moriyama.Runtime.Console.Application.Domain
+namespace Moriyama.Content.Export.Application.Domain
 {
     public class ExportContentModel
     {
@@ -10,6 +10,7 @@ namespace Moriyama.Runtime.Console.Application.Domain
 
         public DateTime CreateDate { get; set; }
         public DateTime UpdateDate { get; set; }
+        public bool Published { get; set; }
 
         public string CreatorName { get; set; }
         public string WriterName { get; set; }
@@ -17,6 +18,7 @@ namespace Moriyama.Runtime.Console.Application.Domain
         public string Path { get; set; }
 
         public IDictionary<string, object> Content { get; set; }
+        public IDictionary<string, string> Meta { get; set; }
 
         public string Template { get; set; }
         

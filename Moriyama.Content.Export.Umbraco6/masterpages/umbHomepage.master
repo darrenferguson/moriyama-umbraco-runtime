@@ -1,0 +1,21 @@
+<%@ Master Language="C#" MasterPageFile="~/masterpages/umbMaster.master" AutoEventWireup="true" %>
+<asp:content id="Content1" contentplaceholderid="cp_content" runat="server">
+    <div id="skinHeader" class="clearfix">
+        <h1>
+            don't panic<br>
+            just yet*
+        </h1>
+        <p>
+            *<br>
+            Most of the time ghosts are friendly and there is really no need to panic.
+            Ghosts are lost souls looking to be released and pass on to whatever 
+            heaven they attend (depending on religion).
+        </p>
+    </div>
+
+    <div id="content" class="frontPage">
+        <umbraco:item id="Item1" runat="server" field="bodyText"></umbraco:item>
+    </div>
+
+   
+</asp:content>

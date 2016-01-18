@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using Moriyama.Runtime.Console.Interfaces;
+using Moriyama.Content.Export.Interfaces;
 
-namespace Moriyama.Runtime.Console.Application
+namespace Moriyama.Content.Export.Application
 {
     public class FileSystem : IFileSystem
     {
@@ -40,6 +39,9 @@ namespace Moriyama.Runtime.Console.Application
 
         public IEnumerable<string> List()
         {
+            if (!Directory.Exists(_basePath))
+                Directory.CreateDirectory(_basePath);
+
             return Directory.EnumerateFiles(_basePath, "*.*", SearchOption.AllDirectories);
         }
     }

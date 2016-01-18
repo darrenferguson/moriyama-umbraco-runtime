@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/umbMaster.master" AutoEventWireup="true" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="cp_top" runat="server">
+    <div id="top">
+        <div id="topInner">
+            <h1 id="siteName"><a href="/"><umbraco:Item runat="server" field="siteName" recursive="true" /></a></h1>
+            <h2 id="siteDescription"><umbraco:Item  runat="server" field="siteDescription" recursive="true" /></h2>
+        </div>
+        <div id="naviWrap">
+            <umbraco:Macro ID="Macro1" Alias="umbTopNavigation" runat="server" />
+        </div>
+        <div id="subNavigation">
+            <umbraco:Macro ID="Macro2" Alias="umb2ndLevelNavigation" runat="server"></umbraco:Macro>
+        </div>
+    </div>
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="cp_content" runat="server">
+    <div id="content" class="textpage">
+          <div id="contentHeader">  
+              <h2><umbraco:Item  runat="server" field="pageName"/></h2>
+          </div>
+          <umbraco:Item  runat="server" field="bodyText" />
+    </div>
+</asp:Content>

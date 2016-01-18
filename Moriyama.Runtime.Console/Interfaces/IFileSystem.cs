@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Moriyama.Runtime.Console.Interfaces
+namespace Moriyama.Content.Export.Interfaces
 {
     public interface IFileSystem
     {

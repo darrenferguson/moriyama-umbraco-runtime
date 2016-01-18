@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Moriyama.Runtime.Console.Application.Domain;
-using Moriyama.Runtime.Console.Interfaces;
+using Moriyama.Content.Export.Application.Domain;
+using Moriyama.Content.Export.Interfaces;
 using Umbraco.Core.Models;
 
-namespace Moriyama.Runtime.Console.Application
+namespace Moriyama.Content.Export.Application
 {
     public class ExportableContentFactory : IExportableContentFactory
     {
@@ -16,7 +16,7 @@ namespace Moriyama.Runtime.Console.Application
             foreach (var content in contents)
             {
 
-                var path = DiscPath(content, contents);
+                var path = GetPath(content, contents);
                 System.Console.WriteLine(path);
 
                 exportable.Add(new ExportableContent {Content = content, Path = path});
@@ -24,14 +24,14 @@ namespace Moriyama.Runtime.Console.Application
 
             return exportable;
         }
-
-        private static string DiscPath(IContent content, IEnumerable<IContent> allContent)
+        
+        public string GetPath(IContent content, IEnumerable<IContent> allContent)
         {
             var pathComponents = content.Path.Split(',').Select(int.Parse).ToList();
 
             var pathArray = new List<string>();
-
-            foreach (var pathComponentId in pathComponents.Where(x => x > -1))
+            
+            foreach (var pathComponentId in pathComponents.Where(x => x > -1 && x != content.Id))
             {
                 var pathComponentContent = allContent.FirstOrDefault(x => x.Id == pathComponentId);
 
@@ -47,6 +47,8 @@ namespace Moriyama.Runtime.Console.Application
 
                 }
             }
+
+            pathArray.Add(content.Name);
 
             return "/" + string.Join("/", pathArray);
         }

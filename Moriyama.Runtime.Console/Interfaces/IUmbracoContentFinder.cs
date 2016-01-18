@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Umbraco.Core.Models;
 
-namespace Moriyama.Runtime.Console.Interfaces
+namespace Moriyama.Content.Export.Interfaces
 {
     public interface IUmbracoContentFinder
     {
