@@ -37,7 +37,7 @@
 //            if (mode == OpMode.Read)
 //            {
 //                var allExportedContent = new List<ExportContentModel>();
-//                var creator = new UmbracoContentCreator(exportable, contentService, contentFactory);
+//                var creator = new UmbracoMediaCreator(exportable, contentService, contentFactory);
 
 //                foreach (var file in fileSystem.List())
 //                {

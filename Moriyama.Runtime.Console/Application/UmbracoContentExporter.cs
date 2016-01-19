@@ -2,6 +2,7 @@
 using System.IO;
 using System.Linq;
 using Moriyama.Content.Export.Application.Content;
+using Moriyama.Content.Export.Application.Domain.Result;
 using Moriyama.Content.Export.Application.Media;
 using Moriyama.Content.Export.Application.Parser;
 using Moriyama.Content.Export.Interfaces;
@@ -19,7 +20,7 @@ namespace Moriyama.Content.Export.Application
             _applicationContext = applicationContext;
         }
 
-        public void ExportContext(string path)
+        public IEnumerable<ExportResult> ExportContext(string path)
         {
             var exportableContent = new ExportableContentFactory().GetExportableContent(new UmbracoContentFinder(_applicationContext.Services.ContentService).FindAllContent().ToArray()).ToArray();
             var exportableMedia = new ExportableMediaFactory().GetExportableContent(new UmbracoMediaFinder(_applicationContext.Services.MediaService).FindAllContent().ToArray()).ToArray();
@@ -34,10 +35,17 @@ namespace Moriyama.Content.Export.Application
 
             var contentFileSystem = new FileSystem(Path.Combine(path, "content"));
             var contentExportSerialiser = new UmbracoContentExportSerialiser(parsers);
+
+            var exportResult = new List<ExportResult>();
+
             foreach (var export in exportableContent)
             {
-                var json = JsonConvert.SerializeObject(contentExportSerialiser.Serialise(export), Formatting.Indented);
+                var output = contentExportSerialiser.Serialise(export);
+
+                var json = JsonConvert.SerializeObject(output, Formatting.Indented);
                 contentFileSystem.Write(export.Path + ".json", json);
+
+                exportResult.Add(new ExportResult { Name = export.Content.Name, Path = export.Path, Message = "Content" });
             }
 
             var mediaFileSystem = new FileSystem(Path.Combine(path, "media"));
@@ -46,7 +54,11 @@ namespace Moriyama.Content.Export.Application
             {
                 var json = JsonConvert.SerializeObject(mediaExportSerialiser.Serialise(export), Formatting.Indented);
                 mediaFileSystem.Write(export.Path + ".json", json);
+                exportResult.Add(new ExportResult { Name = export.Content.Name, Path = export.Path, Message = "Media"});
             }
+
+            
+            return exportResult;
         }
     }
 }

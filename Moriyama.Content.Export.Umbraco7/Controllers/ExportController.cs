@@ -1,5 +1,6 @@
 ﻿using System.Web.Mvc;
 using Moriyama.Content.Export.Application;
+using Moriyama.Content.Export.Application.Media;
 using Umbraco.Web.Mvc;
 
 namespace Moriyama.Content.Export.Umbraco7.Controllers
@@ -24,11 +25,10 @@ namespace Moriyama.Content.Export.Umbraco7.Controllers
         {
             var path = Server.MapPath("~/App_Data/Moriyama");
 
-            var u = new UmbracoContentImporter(ApplicationContext, new UmbracoPropertySetter(ApplicationContext));
-            var result = u.Import(new FileSystem(path));
+            var u = new UmbracoContentImporter(ApplicationContext, new UmbracoContentPropertySetter(), new UmbracoMediaPropertySetter());
+            var result = u.Import(path);
 
             return Json(result, JsonRequestBehavior.AllowGet);
         }
-
     }
 }

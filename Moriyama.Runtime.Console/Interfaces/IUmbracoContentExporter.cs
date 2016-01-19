@@ -1,9 +1,12 @@
-﻿namespace Moriyama.Content.Export.Interfaces
+﻿using System.Collections.Generic;
+using Moriyama.Content.Export.Application.Domain.Result;
+
+namespace Moriyama.Content.Export.Interfaces
 {
     public interface IUmbracoContentExporter
     {
 
-        void ExportContext(string path);
+        IEnumerable<ExportResult> ExportContext(string path);
 
     }
 }

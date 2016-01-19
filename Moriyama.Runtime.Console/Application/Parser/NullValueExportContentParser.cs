@@ -1,5 +1,7 @@
 ﻿using System.Linq;
 using Moriyama.Content.Export.Application.Domain;
+using Moriyama.Content.Export.Application.Domain.Abstract;
+using Moriyama.Content.Export.Application.Domain.Result;
 using Moriyama.Content.Export.Interfaces;
 
 namespace Moriyama.Content.Export.Application.Parser
@@ -8,12 +10,17 @@ namespace Moriyama.Content.Export.Application.Parser
     {
         public string Name { get { return "Null"; } }
 
-        public ExportContentModel ParseForImport(ExportContentModel model)
+        public ParseResult ParseForImport(BaseExportModel model)
         {
-            return model;
+
+            return new ParseResult
+            {
+                Meta = model.Meta,
+                Content = model.Content
+            };
         }
 
-        public ExportContentModel ParseContent(ExportContentModel model)
+        public ParseResult ParseContent(BaseExportModel model)
         {
             var newContent = model.Content.ToDictionary(entry => entry.Key, entry => entry.Value);
 
@@ -25,9 +32,12 @@ namespace Moriyama.Content.Export.Application.Parser
                 newContent.Remove(property.Key);
                 newContent.Add(property.Key, string.Empty);
             }
-            model.Content = newContent;
-
-            return model;
+            
+            return new ParseResult
+            {
+                Content = newContent,
+                Meta = model.Meta
+            };
         }
     }
 }

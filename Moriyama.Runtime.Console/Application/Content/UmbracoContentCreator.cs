@@ -4,14 +4,15 @@ using System.Linq;
 using Moriyama.Content.Export.Application.Domain;
 using Moriyama.Content.Export.Application.Domain.Result;
 using Moriyama.Content.Export.Interfaces;
+using Moriyama.Content.Export.Interfaces.Content;
 using Umbraco.Core.Models;
 using Umbraco.Core.Services;
 
-namespace Moriyama.Content.Export.Application
+namespace Moriyama.Content.Export.Application.Content
 {
     class UmbracoContentCreator : IUmbracoContentCreator
     {
-        private IList<ExportableContent> _allContent;
+        private readonly IList<ExportableContent> _allContent;
 
 
         private readonly IContentService _contentService;

@@ -1,19 +1,14 @@
 ﻿using System.Collections.Generic;
 using Moriyama.Content.Export.Application.Domain;
 using Moriyama.Content.Export.Interfaces;
+using Moriyama.Content.Export.Interfaces.Content;
 using Umbraco.Core;
 using Umbraco.Core.Models;
 
 namespace Moriyama.Content.Export.Application
 {
-    public class UmbracoPropertySetter : IUmbracoPropertySetter
+    public class UmbracoContentPropertySetter : IUmbracoContentPropertySetter
     {
-        private readonly ApplicationContext _applicationContext;
-
-        public UmbracoPropertySetter(ApplicationContext applicationContext)
-        {
-            _applicationContext = applicationContext;
-        }
 
         public IContent SetProperties(IContent content, ExportContentModel model, IEnumerable<IExportContentParser> parsers)
         {
@@ -22,7 +17,9 @@ namespace Moriyama.Content.Export.Application
 
             foreach (var parser in parsers)
             {
-                model = parser.ParseForImport(model);
+                var result = parser.ParseForImport(model);
+                model.Content = result.Content;
+                model.Meta = result.Meta;
             }
 
             foreach (var property in model.Content)

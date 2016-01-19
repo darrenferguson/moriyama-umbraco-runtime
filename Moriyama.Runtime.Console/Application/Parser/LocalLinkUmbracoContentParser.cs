@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using Moriyama.Content.Export.Application.Domain;
+using Moriyama.Content.Export.Application.Domain.Abstract;
+using Moriyama.Content.Export.Application.Domain.Result;
 using Moriyama.Content.Export.Interfaces;
 
 namespace Moriyama.Content.Export.Application.Parser
@@ -20,7 +22,7 @@ namespace Moriyama.Content.Export.Application.Parser
 
         public string Name { get { return "LocalLink"; } }
 
-        public ExportContentModel ParseForImport(ExportContentModel model)
+        public ParseResult ParseForImport(BaseExportModel model)
         {
             var newContent = model.Content.ToDictionary(entry => entry.Key, entry => entry.Value);
 
@@ -43,11 +45,15 @@ namespace Moriyama.Content.Export.Application.Parser
                     newContent[property.Key] = value;
                 }
             }
-            model.Content = newContent;
-            return model;
+            
+            return new ParseResult
+            {
+                Content = newContent,
+                Meta = model.Meta
+            };
         }
 
-        public ExportContentModel ParseContent(ExportContentModel model)
+        public ParseResult ParseContent(BaseExportModel model)
         {
             var newContent = model.Content.ToDictionary(entry => entry.Key, entry => entry.Value);
 
@@ -70,8 +76,12 @@ namespace Moriyama.Content.Export.Application.Parser
                 }
             }
 
-            model.Content = newContent;
-            return model;
+
+            return new ParseResult
+            {
+                Content = newContent,
+                Meta = model.Meta
+            };
         }
 
 
@@ -93,12 +103,20 @@ namespace Moriyama.Content.Export.Application.Parser
             try
             {
                 var intId = Convert.ToInt32(id);
+                
+                var media = _allMedia.FirstOrDefault(v => v.Content.Id == intId);
                 var content = _allContent.FirstOrDefault(x => x.Content.Id == intId);
-                return content.Path;
+
+                if(content != null) 
+                    return content.Path;
+
+                if (media != null)
+                    return media.Path;
             }
             catch (Exception ex)
             {
             }
+
             return "#";
         }
     }

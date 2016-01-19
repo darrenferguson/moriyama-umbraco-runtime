@@ -35,8 +35,10 @@ namespace Moriyama.Content.Export.Application.Media
 
             foreach (var contentParser in _exportContentParsers)
             {
-                // TODO: Sort this
-                // model = contentParser.ParseContent(model);
+                var result = contentParser.ParseContent(model);
+
+                model.Content = result.Content;
+                model.Meta = result.Meta;
             }
 
             return model;

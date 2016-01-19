@@ -3,6 +3,7 @@ using AutoMapper;
 using Moriyama.Content.Export.Application.Domain;
 using Moriyama.Content.Export.Interfaces;
 using Umbraco.Core.Models;
+using Umbraco.Web;
 
 namespace Moriyama.Content.Export.Application.Content
 {
@@ -24,6 +25,8 @@ namespace Moriyama.Content.Export.Application.Content
             model.Path = export.Path;
             model.Type = export.Content.ContentType.Alias;
             model.Template = export.Content.Template == null ? string.Empty : export.Content.Template.Alias;
+            
+            
 
             model.Content = new Dictionary<string, object>();
             model.Meta = new Dictionary<string, string>();
@@ -36,7 +39,9 @@ namespace Moriyama.Content.Export.Application.Content
 
             foreach (var contentParser in _exportContentParsers)
             {
-                model = contentParser.ParseContent(model);
+                var result = contentParser.ParseContent(model);
+                model.Content = result.Content;
+                model.Meta = result.Meta;
             }
 
             return model;

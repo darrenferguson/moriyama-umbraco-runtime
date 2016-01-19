@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Moriyama.Content.Export.Application.Domain;
+using Moriyama.Content.Export.Application.Domain.Abstract;
+using Moriyama.Content.Export.Application.Domain.Result;
 using Moriyama.Content.Export.Interfaces;
 
 namespace Moriyama.Content.Export.Application.Parser
@@ -18,9 +20,10 @@ namespace Moriyama.Content.Export.Application.Parser
 
         public string Name { get { return "CsvPaths"; } }
 
-        public ExportContentModel ParseContent(ExportContentModel model)
+        public ParseResult ParseContent(BaseExportModel model)
         {
             var newContent = model.Content.ToDictionary(entry => entry.Key, entry => entry.Value);
+
             foreach (var property in model.Content)
             {
                 if (property.Value == null)
@@ -42,25 +45,29 @@ namespace Moriyama.Content.Export.Application.Parser
 
                 if (!allInts)
                     continue;
-
-
+                
                 var newValue = AllPaths(items.Select(int.Parse));
 
                 newContent.Remove(property.Key);
-                newContent.Add(property.Key, newValue);
-                model.Meta.Add(property.Key, Name);
+                newContent.Add(property.Key, newValue.Path);
+                model.Meta.Add(property.Key, Name + " - " + newValue.Type);
+
+
             }
-            model.Content = newContent;
-            return model;
+            return new ParseResult
+            {
+                Content = newContent,
+                Meta = model.Meta
+            };
         }
 
-        public ExportContentModel ParseForImport(ExportContentModel model)
+        public ParseResult ParseForImport(BaseExportModel model)
         {
             var newContent = model.Content.ToDictionary(entry => entry.Key, entry => entry.Value);
 
             foreach (var property in model.Content)
             {
-                if (model.Meta.ContainsKey(property.Key) && (model.Meta[property.Key] == Name))
+                if (model.Meta.ContainsKey(property.Key) && (model.Meta[property.Key].StartsWith(Name)))
                 {
                     var v = (string) property.Value;
                     var values = v.Split(',');
@@ -69,33 +76,67 @@ namespace Moriyama.Content.Export.Application.Parser
 
                     foreach (var item in values)
                     {
-                        var content = _allContent.FirstOrDefault(x => x.Path == item);
+                        if (model.Meta[property.Key].Contains(" - Content"))
+                        {
+                            var content = _allContent.FirstOrDefault(x => x.Path == item);
 
-                        if(content != null)
-                            ids.Add(content.Content.Id);
+                            if (content != null)
+                                ids.Add(content.Content.Id);
+                        }
+                        else
+                        {
+                            var content = _allMedia.FirstOrDefault(x => x.Path == item);
 
+                            if (content != null)
+                                ids.Add(content.Content.Id);
+                        }
                     }
 
                     newContent[property.Key] = string.Join(",", ids);
 
                 }
             }
-            model.Content = newContent;
-            return model;
+            return new ParseResult
+            {
+                Content = newContent,
+                Meta = model.Meta
+            };
         }
 
-        private string AllPaths(IEnumerable<int> ints)
+        private class PathResult
+        {
+            public string Path { get; set; }
+            public string Type { get; set; }
+        }
+
+        private PathResult AllPaths(IEnumerable<int> ints)
         {
             var paths = new List<string>();
+
+            string type = "Content";
+
             foreach (var id in ints)
             {
                 var content = _allContent.FirstOrDefault(x => x.Content.Id == id);
+                var media = _allMedia.FirstOrDefault(x => x.Content.Id == id);
 
                 if(content != null)
                     paths.Add(content.Path);
+
+                if (media != null)
+                {
+                    paths.Add(media.Path);
+                    type = "Media";
+                }
             }
 
-            return string.Join(",", paths);
+            var p = string.Join(",", paths);
+
+            return new PathResult
+            {
+                Path = p,
+                Type = type
+            };
         }
     }
 }

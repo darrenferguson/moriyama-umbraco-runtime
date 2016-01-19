@@ -1,5 +1,6 @@
 ﻿using System.Web.Mvc;
 using Moriyama.Content.Export.Application;
+using Moriyama.Content.Export.Application.Media;
 using Umbraco.Web.Mvc;
 
 namespace Moriyama.Content.Export.Umbraco6.Controllers
@@ -14,9 +15,9 @@ namespace Moriyama.Content.Export.Umbraco6.Controllers
 
             var u = new UmbracoContentExporter(ApplicationContext);
 
-            u.ExportContext(path);
+            var result = u.ExportContext(path);
 
-            return Json(new { result = "ok" }, JsonRequestBehavior.AllowGet);
+            return Json(result, JsonRequestBehavior.AllowGet);
         }
 
         [HttpGet]
@@ -24,8 +25,8 @@ namespace Moriyama.Content.Export.Umbraco6.Controllers
         {
             var path = Server.MapPath("~/App_Data/Moriyama");
 
-            var u = new UmbracoContentImporter(ApplicationContext, new UmbracoPropertySetter(ApplicationContext));
-            u.Import(new FileSystem(path));
+            var u = new UmbracoContentImporter(ApplicationContext, new UmbracoContentPropertySetter(), new UmbracoMediaPropertySetter());
+            var result = u.Import(path);
 
             return Json(new { result = "ok" }, JsonRequestBehavior.AllowGet);
         }

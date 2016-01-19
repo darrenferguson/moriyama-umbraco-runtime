@@ -1,4 +1,5 @@
-﻿using Moriyama.Content.Export.Application.Domain;
+﻿using Moriyama.Content.Export.Application.Domain.Abstract;
+using Moriyama.Content.Export.Application.Domain.Result;
 
 namespace Moriyama.Content.Export.Interfaces
 {
@@ -6,8 +7,7 @@ namespace Moriyama.Content.Export.Interfaces
     {
         string Name { get; }
 
-        ExportContentModel ParseContent(ExportContentModel model);
-        ExportContentModel ParseForImport(ExportContentModel model);
-
+        ParseResult ParseContent(BaseExportModel model);
+        ParseResult ParseForImport(BaseExportModel model);
     }
 }
