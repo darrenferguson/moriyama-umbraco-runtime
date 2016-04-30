@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BlogFolder guid="1ee23077-71da-45f6-b735-e1bda4bd244b" id="1514" nodeName="2009" isDoc="" updated="2015-06-14T16:06:05.9293391+01:00" parentGUID="6df97d27-68ea-44e9-8190-fb5c74a4e7e4" nodeTypeAlias="BlogFolder" templateAlias="BlogHomePage" sortOrder="6" published="true">
+<BlogFolder guid="1ee23077-71da-45f6-b735-e1bda4bd244b" id="1514" nodeName="2009" isDoc="" updated="2016-04-30T11:01:04.5172262+01:00" parentGUID="6df97d27-68ea-44e9-8190-fb5c74a4e7e4" nodeTypeAlias="BlogFolder" templateAlias="BlogHomePage" sortOrder="7" published="true">
   <umbracoUrlAlias></umbracoUrlAlias>
-  <umbracoNaviHide></umbracoNaviHide>
+  <umbracoNaviHide>0</umbracoNaviHide>
   <umbracoInternalRedirectId></umbracoInternalRedirectId>
   <redirect></redirect>
   <displayDate></displayDate>

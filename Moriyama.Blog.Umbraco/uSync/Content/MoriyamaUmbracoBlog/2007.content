@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BlogFolder guid="b5fa84fc-c22b-4f69-8ae1-4369ab4912a9" id="1501" nodeName="2007" isDoc="" updated="2015-06-14T16:06:05.9573452+01:00" parentGUID="6df97d27-68ea-44e9-8190-fb5c74a4e7e4" nodeTypeAlias="BlogFolder" templateAlias="BlogHomePage" sortOrder="8" published="true">
+<BlogFolder guid="b5fa84fc-c22b-4f69-8ae1-4369ab4912a9" id="1501" nodeName="2007" isDoc="" updated="2016-04-30T11:01:04.5412151+01:00" parentGUID="6df97d27-68ea-44e9-8190-fb5c74a4e7e4" nodeTypeAlias="BlogFolder" templateAlias="BlogHomePage" sortOrder="9" published="true">
   <umbracoUrlAlias></umbracoUrlAlias>
   <umbracoNaviHide>0</umbracoNaviHide>
   <umbracoInternalRedirectId></umbracoInternalRedirectId>

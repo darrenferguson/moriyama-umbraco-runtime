@@ -43,6 +43,8 @@
     <Compile Include="Application\Content\UmbracoContentExportSerialiser.cs" />
     <Compile Include="Application\Content\UmbracoContentPropertySetter.cs" />
     <Compile Include="Application\Domain\Abstract\BaseExportModel.cs" />
+    <Compile Include="Application\Domain\Exportable.cs" />
+    <Compile Include="Application\Domain\PathedExportable.cs" />
     <Compile Include="Application\Domain\Result\MediaCreateResult.cs" />
     <Compile Include="Application\Domain\Result\ContentCreateResult.cs" />
     <Compile Include="Application\Domain\ExportableContent.cs" />
@@ -52,6 +54,8 @@
     <Compile Include="Application\Content\ExportableContentFactory.cs" />
     <Compile Include="Application\Domain\Result\ExportResult.cs" />
     <Compile Include="Application\Domain\Result\ParseResult.cs" />
+    <Compile Include="Application\ExportableFinder.cs" />
+    <Compile Include="Application\ExportablePather.cs" />
     <Compile Include="Application\FileSystem.cs" />
     <Compile Include="Application\Media\ExportableMediaFactory.cs" />
     <Compile Include="Application\Media\UmbracoMediaCreator.cs" />
@@ -66,9 +70,13 @@
     <Compile Include="Application\Content\UmbracoContentFinder.cs" />
     <Compile Include="Application\UmbracoContentImporter.cs" />
     <Compile Include="Application\Media\UmbracoMediaPropertySetter.cs" />
+    <Compile Include="Interfaces\Domain\IExportable.cs" />
     <Compile Include="Interfaces\Domain\IExportableItem.cs" />
+    <Compile Include="Interfaces\Domain\IPathedExportable.cs" />
     <Compile Include="Interfaces\IContentBasePathCalculator.cs" />
     <Compile Include="Interfaces\IExportableContentFactory.cs" />
+    <Compile Include="Interfaces\IExportableFinder.cs" />
+    <Compile Include="Interfaces\IExportablePather.cs" />
     <Compile Include="Interfaces\IExportContentParser.cs" />
     <Compile Include="Interfaces\IExportHelper.cs" />
     <Compile Include="Interfaces\IFileSystem.cs" />

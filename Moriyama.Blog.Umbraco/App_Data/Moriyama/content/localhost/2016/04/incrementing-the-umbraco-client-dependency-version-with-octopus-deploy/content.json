@@ -1,0 +1,27 @@
+{
+  "Name": "Incrementing the Umbraco Client Dependency version with Octopus Deploy",
+  "Type": "BlogPost",
+  "CreateDate": "2016-04-30T11:17:07",
+  "UpdateDate": "2016-04-30T11:18:52",
+  "CreatorName": "Darren Ferguson",
+  "WriterName": "Darren Ferguson",
+  "Url": "http://localhost/2016/04/incrementing-the-umbraco-client-dependency-version-with-octopus-deploy/",
+  "RelativeUrl": "/2016/04/incrementing-the-umbraco-client-dependency-version-with-octopus-deploy/",
+  "Content": {
+    "umbracoUrlAlias": "",
+    "HideInNavigation": false,
+    "umbracoInternalRedirectId": "",
+    "redirect": "",
+    "displayDate": "2016-04-30T11:17:02",
+    "title": "Incrementing the Umbraco Client Dependency version with Octopus Deploy",
+    "shortUrl": "",
+    "summary": "",
+    "tags": "",
+    "bodyText": "<p>If you use Octopus deploy to deploy your Umbraco sites, you've probably forgotten to increment the Client Dependency version before building and deploying - which leads to old CSS and JavaScript being served.</p>\n<p>Octopus Deploy allows you to run custom powershell scripts during the deployment life cycle - and the one below will set the client dependency version.</p>\n<pre class=\"brush: csharp;\">$Config = \".\\config\\ClientDependency.config\";\n\nIf (Test-Path $Config) {\n\n    $Cd = New-Object System.Xml.XmlDocument\n$Cd.Load($Config)\n    \n$Rel = ($OctopusParameters['Octopus.Release.Number']);\n    $Cd.clientDependency.version = $Rel.Replace(\".\", \"\");\n\n    $Cd.Save($Config)\n} \n\nIf (Test-Path \"bin\\version.txt\"){\nRemove-Item \"bin\\version.txt\"\n}\n\"$($OctopusParameters['Octopus.Release.Number'])\" | Out-File \"bin\\version.txt\"</pre>\n<p>The script should be run post deployment. Rather than incrementing the client dependency version - it derives an integer from the octopus release version, so the client dependency version is distinct for each release.</p>\n<p>If you need some help setting up Octopus deploy and Umbraco - get in touch with me, via <a href=\"https://www.moriyama.co.uk/contact-us/\">my company website</a>.</p>",
+    "commentsDisabled": 0
+  },
+  "Template": "Post",
+  "CacheTime": null,
+  "SortOrder": 0,
+  "Level": 4
+}

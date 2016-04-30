@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlogPost guid="c2b81a1c-b8de-4bd1-8185-0c905b5e221d" id="5140" nodeName="Incrementing the Umbraco Client Dependency version with Octopus Deploy" isDoc="" updated="2016-04-30T11:18:52.3060095+01:00" parentGUID="481db173-5540-4398-a583-263f1473f5d4" nodeTypeAlias="BlogPost" templateAlias="Post" sortOrder="0" published="true">
+  <umbracoUrlAlias></umbracoUrlAlias>
+  <umbracoNaviHide>0</umbracoNaviHide>
+  <umbracoInternalRedirectId></umbracoInternalRedirectId>
+  <redirect></redirect>
+  <displayDate>533E74A1-D228-45D9-8AFE-887FAB8D5EA1-04-30T11:17:02</displayDate>
+  <title><![CDATA[Incrementing the Umbraco Client Dependency version with Octopus Deploy]]></title>
+  <shortUrl></shortUrl>
+  <summary></summary>
+  <tags></tags>
+  <bodyText><![CDATA[<p>If you use Octopus deploy to deploy your Umbraco sites, you've probably forgotten to increment the Client Dependency version before building and deploying - which leads to old CSS and JavaScript being served.</p>
+<p>Octopus Deploy allows you to run custom powershell scripts during the deployment life cycle - and the one below will set the client dependency version.</p>
+<pre class="brush: csharp;">$Config = ".\config\ClientDependency.config";
+
+If (Test-Path $Config) {
+
+    $Cd = New-Object System.Xml.XmlDocument
+$Cd.Load($Config)
+    
+$Rel = ($OctopusParameters['Octopus.Release.Number']);
+    $Cd.clientDependency.version = $Rel.Replace(".", "");
+
+    $Cd.Save($Config)
+} 
+
+If (Test-Path "bin\version.txt"){
+Remove-Item "bin\version.txt"
+}
+"$($OctopusParameters['Octopus.Release.Number'])" | Out-File "bin\version.txt"</pre>
+<p>The script should be run post deployment. Rather than incrementing the client dependency version - it derives an integer from the octopus release version, so the client dependency version is distinct for each release.</p>
+<p>If you need some help setting up Octopus deploy and Umbraco - get in touch with me, via <a href="https://www.moriyama.co.uk/contact-us/">my company website</a>.</p>]]></bodyText>
+  <commentsDisabled>0</commentsDisabled>
+</BlogPost>

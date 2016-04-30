@@ -10,8 +10,6 @@ namespace Moriyama.Content.Export.Application.Abstract
     public abstract class AbstractExportableContentFactory 
     {
 
-       
-
         public string GetPath(IUmbracoEntity content, IEnumerable<IUmbracoEntity> allContent)
         {
             var pathComponents = content.Path.Split(',').Select(int.Parse).ToList();

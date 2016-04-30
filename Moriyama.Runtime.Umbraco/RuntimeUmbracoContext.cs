@@ -48,6 +48,9 @@ namespace Moriyama.Runtime.Umbraco
 
             UmbracoContentSerialiser = new UmbracoContentSerialiser(helper, parsers);
             Mapper.CreateMap<IPublishedContent, RuntimeContentModel>();
+
+            if (DeploymentAdapters == null)
+                DeploymentAdapters = new List<IDeploymentAdapter>();
         }
 
         public void AddDeploymentAdapter(IDeploymentAdapter adapter)

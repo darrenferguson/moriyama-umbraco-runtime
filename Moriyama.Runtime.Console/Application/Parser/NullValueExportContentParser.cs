@@ -12,7 +12,6 @@ namespace Moriyama.Content.Export.Application.Parser
 
         public ParseResult ParseForImport(BaseExportModel model)
         {
-
             return new ParseResult
             {
                 Meta = model.Meta,

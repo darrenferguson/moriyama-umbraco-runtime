@@ -22,6 +22,18 @@ namespace Moriyama.Content.Export.Application
 
         public IEnumerable<ExportResult> ExportContext(string path)
         {
+
+            var finder = new ExportableFinder(_applicationContext.Services.ContentService, _applicationContext.Services.MediaService);
+            
+            var all = finder.FindExportable();
+            var pather = new ExportablePather();
+            var pathed = pather.Path(all);
+
+
+
+
+            return new List<ExportResult>();
+
             var exportableContent = new ExportableContentFactory().GetExportableContent(new UmbracoContentFinder(_applicationContext.Services.ContentService).FindAllContent().ToArray()).ToArray();
             var exportableMedia = new ExportableMediaFactory().GetExportableContent(new UmbracoMediaFinder(_applicationContext.Services.MediaService).FindAllContent().ToArray()).ToArray();
 
